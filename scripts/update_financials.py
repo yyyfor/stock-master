@@ -57,6 +57,21 @@ def get_stock_info(ticker):
         return None
 
 
+def get_stock_news(ticker):
+    """Fetch latest news for a stock"""
+    try:
+        stock = yf.Ticker(ticker)
+        news = stock.news
+
+        if news:
+            # Return top 10 news items
+            return news[:10]
+        return []
+    except Exception as e:
+        print(f"Error fetching news for {ticker}: {e}")
+        return []
+
+
 def format_currency(value, decimals=1):
     """Format value in billions of RMB"""
     if value == 0:
@@ -109,15 +124,28 @@ def update_all_html_files():
     print()
 
     # Fetch data for all companies
-    print("Fetching financial data...")
+    print("Fetching financial data and news...")
     stock_data = {}
+    news_data = {}
+
     for company, ticker in TICKERS.items():
         print(f"\nFetching {company.upper()} ({ticker})...")
+
+        # Fetch stock data
         data = get_stock_info(ticker)
         if data:
             stock_data[company] = data
         else:
             print(f"  ⚠️  Failed to fetch data for {company}")
+
+        # Fetch news
+        print(f"  Fetching news for {company}...")
+        news = get_stock_news(ticker)
+        if news:
+            news_data[company] = news
+            print(f"  ✅ Fetched {len(news)} news items")
+        else:
+            print(f"  ⚠️  No news available for {company}")
 
     print("\n" + "=" * 60)
     print("Updating HTML files...")
@@ -158,16 +186,25 @@ def update_all_html_files():
         print(f"  ✅ {filename} updated successfully")
 
     # Save fetched data to JSON for reference
-    data_file = Path(__file__).parent.parent / 'data' / 'latest_data.json'
-    data_file.parent.mkdir(exist_ok=True)
+    data_dir = Path(__file__).parent.parent / 'data'
+    data_dir.mkdir(exist_ok=True)
 
+    # Save combined data
+    data_file = data_dir / 'latest_data.json'
     with open(data_file, 'w', encoding='utf-8') as f:
         json.dump({
             'timestamp': datetime.now().isoformat(),
             'data': stock_data
         }, f, indent=2)
+    print(f"\n💾 Stock data saved to {data_file}")
 
-    print(f"\n💾 Data saved to {data_file}")
+    # Save news for each company
+    for company, news in news_data.items():
+        news_file = data_dir / f'news_{company}.json'
+        with open(news_file, 'w', encoding='utf-8') as f:
+            json.dump(news, f, indent=2, ensure_ascii=False)
+        print(f"💾 News saved to {news_file}")
+
     print("\n" + "=" * 60)
     print("✅ Update completed successfully!")
     print("=" * 60)
