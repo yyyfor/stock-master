@@ -90,11 +90,11 @@ Updates complete financial data and news after market close:
   - Timestamps in HTML files
   - Deploys to GitHub Pages
 
-### 2. News Update (Hourly)
+### 2. News Update (Every 6 Hours)
 
-Fetches only the latest news articles throughout the day:
+Fetches only the latest news articles four times per day:
 
-- **Schedule:** Every hour at :15 (e.g., 00:15, 01:15, 02:15 UTC)
+- **Schedule:** Every 6 hours at :15 (00:15, 06:15, 12:15, 18:15 UTC)
 - **Workflow:** `.github/workflows/update-news.yml`
 - **Updates:**
   - Latest news articles (10 per company)
@@ -108,7 +108,7 @@ Fetches only the latest news articles throughout the day:
 2. Click **"Run workflow"** → **"Run workflow"**
 
 **News Only:**
-1. Go to **Actions** tab → **"Update Stock News (Hourly)"**
+1. Go to **Actions** tab → **"Update Stock News (Every 6 Hours)"**
 2. Click **"Run workflow"** → **"Run workflow"**
 
 ## 📁 Project Structure
@@ -129,9 +129,9 @@ stock-master/
 │   └── add_charts_and_news.py        # Chart & news script injection
 ├── data/
 │   ├── latest_data.json              # Financial data (auto-generated)
-│   ├── news_alibaba.json             # Alibaba news (auto-updated hourly)
-│   ├── news_xiaomi.json              # Xiaomi news (auto-updated hourly)
-│   ├── news_meituan.json             # Meituan news (auto-updated hourly)
+│   ├── news_alibaba.json             # Alibaba news (auto-updated every 6 hours)
+│   ├── news_xiaomi.json              # Xiaomi news (auto-updated every 6 hours)
+│   ├── news_meituan.json             # Meituan news (auto-updated every 6 hours)
 │   └── news_metadata.json            # News update metadata
 ├── equity-analysis.html              # Main analysis dashboard (English)
 ├── equity-analysis-zh.html           # Main analysis dashboard (Chinese)
@@ -206,16 +206,16 @@ See `CLAUDE.md` for detailed development guidelines.
 | ~4:35 PM | ~8:35 AM | Data Updated | New commit to repo |
 | ~4:40 PM | ~8:40 AM | Pages Deployed | Live site updated |
 
-### Hourly News Update Schedule
+### News Update Schedule (Every 6 Hours)
 
-| Frequency | Example Times (UTC) | Action |
-|-----------|---------------------|--------|
-| Every hour at :15 | 00:15, 01:15, 02:15, ... 23:15 | Fetch latest news |
-| ~2-3 min later | After fetch completes | Commit & deploy |
+| Frequency | Times (UTC) | Times (HKT) | Action |
+|-----------|-------------|-------------|--------|
+| Every 6 hours at :15 | 00:15, 06:15, 12:15, 18:15 | 08:15, 14:15, 20:15, 02:15 | Fetch latest news |
+| ~1-2 min later | After fetch completes | After fetch completes | Commit & deploy |
 
 **Total Updates per Day:**
 - Financial Data: 1x (weekdays only, 4:30 PM HKT)
-- News: 24x (every hour, every day)
+- News: 4x (every 6 hours, every day)
 
 *Times are approximate and depend on workflow execution time*
 

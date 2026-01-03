@@ -1,9 +1,9 @@
-name: Update Stock News (Hourly)
+name: Update Stock News (Every 6 Hours)
 
 on:
   schedule:
-    # Runs every hour at minute 15 (e.g., 00:15, 01:15, 02:15, etc.)
-    - cron: '15 * * * *'
+    # Runs every 6 hours at minute 15 (00:15, 06:15, 12:15, 18:15 UTC)
+    - cron: '15 */6 * * *'
 
   workflow_dispatch:  # Allows manual triggering
 

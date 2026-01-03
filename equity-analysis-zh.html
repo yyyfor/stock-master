@@ -1823,42 +1823,105 @@
 
         // Load news for each company
         async function loadNews(company, elementId) {
+            const container = document.getElementById(elementId);
+
             try {
+                console.log(`正在加载 ${company} 的新闻...`);
                 const response = await fetch(`data/news_${company}.json`);
+
                 if (!response.ok) {
-                    throw new Error('News data not available');
+                    throw new Error(`HTTP错误! 状态: ${response.status}`);
                 }
+
                 const newsData = await response.json();
+                console.log(`已加载 ${newsData.length} 条 ${company} 新闻`);
                 displayNews(newsData, elementId);
             } catch (error) {
-                document.getElementById(elementId).innerHTML = '<div class="news-loading">新闻数据将在下次更新后可用（香港时间下午4:30）</div>';
+                console.error(`加载 ${company} 新闻时出错:`, error);
+
+                // Check if it's a CORS/file protocol issue
+                if (window.location.protocol === 'file:') {
+                    container.innerHTML = `
+                        <div class="news-loading" style="background: #fff3cd; color: #856404; padding: 20px; border-radius: 8px;">
+                            <strong>⚠️ 检测到本地文件</strong>
+                            <p>新闻加载需要网络服务器。请选择：</p>
+                            <ul style="text-align: left; margin: 10px 0;">
+                                <li>运行: <code>python3 -m http.server 8000</code></li>
+                                <li>或在GitHub Pages上查看</li>
+                            </ul>
+                            <p><em>部署到GitHub Pages后，新闻将自动更新。</em></p>
+                        </div>
+                    `;
+                } else {
+                    container.innerHTML = `
+                        <div class="news-loading">
+                            <p>📰 新闻数据暂未可用</p>
+                            <p style="font-size: 0.9em; color: #6c757d;">
+                                新闻每6小时更新一次（UTC时间 00:15, 06:15, 12:15, 18:15）
+                            </p>
+                            <p style="font-size: 0.85em;">
+                                <a href="https://github.com/yyyfor/stock-master/actions" target="_blank">
+                                    手动触发更新 →
+                                </a>
+                            </p>
+                        </div>
+                    `;
+                }
             }
         }
 
         function displayNews(newsData, elementId) {
             const container = document.getElementById(elementId);
+
             if (!newsData || newsData.length === 0) {
-                container.innerHTML = '<div class="news-loading">暂无最新新闻</div>';
+                container.innerHTML = `
+                    <div class="news-loading">
+                        <p>暂无最新新闻</p>
+                        <p style="font-size: 0.85em; color: #6c757d;">新闻每6小时更新一次</p>
+                    </div>
+                `;
                 return;
             }
 
             let html = '';
             newsData.slice(0, 5).forEach(item => {
+                // Handle nested content structure
+                const content = item.content || item;
+                const title = content.title || '无标题';
+                const link = content.canonicalUrl?.url || content.clickThroughUrl?.url || '#';
+                const publisher = content.provider?.displayName || '未知';
+                const pubDate = content.pubDate || content.displayTime;
+                const date = pubDate ? new Date(pubDate).toLocaleDateString('zh-CN') : '未知日期';
+                const summary = content.summary || '暂无摘要';
+
                 html += `
                     <div class="news-item">
-                        <h4><a href="${item.link || '#'}" target="_blank" rel="noopener">${item.title}</a></h4>
+                        <h4><a href="${link}" target="_blank" rel="noopener">${title}</a></h4>
                         <div class="news-meta">
-                            <span class="news-source">${item.publisher || '未知'}</span> •
-                            <span class="news-date">${new Date(item.providerPublishTime * 1000).toLocaleDateString('zh-CN')}</span>
+                            <span class="news-source">${publisher}</span> •
+                            <span class="news-date">${date}</span>
                         </div>
-                        <p class="news-summary">${item.summary || '暂无摘要'}</p>
+                        <p class="news-summary">${summary}</p>
                     </div>
                 `;
             });
+
             container.innerHTML = html;
         }
 
-        // Load news when tabs are shown
+        // Load news immediately when page loads (for all tabs)
+        window.addEventListener('DOMContentLoaded', function() {
+            console.log('页面已加载，正在尝试加载新闻...');
+
+            // Try to load news for all companies immediately
+            setTimeout(function() {
+                loadNews('alibaba', 'alibaba-news');
+                loadNews('xiaomi', 'xiaomi-news');
+                loadNews('meituan', 'meituan-news');
+            }, 500); // Small delay to ensure page is ready
+        });
+
+        // Also load news when tabs are shown (backup)
         document.getElementById('alibaba-tab').addEventListener('shown.bs.tab', function() {
             if (!document.getElementById('alibaba-news').dataset.loaded) {
                 loadNews('alibaba', 'alibaba-news');
@@ -1879,6 +1942,8 @@
                 document.getElementById('meituan-news').dataset.loaded = 'true';
             }
         });
+
+
     </script>
 
 </body>

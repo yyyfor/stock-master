@@ -19,9 +19,9 @@ This document explains how to manually trigger updates and test the news fetchin
 
 **Run Time:** ~2-3 minutes
 
-### 2. Hourly News Update
+### 2. News Update (Every 6 Hours)
 **File:** `.github/workflows/update-news.yml`
-**Schedule:** Every hour at :15 (00:15, 01:15, 02:15, ... 23:15 UTC)
+**Schedule:** Every 6 hours at :15 (00:15, 06:15, 12:15, 18:15 UTC)
 **Script:** `scripts/update_news_only.py`
 
 **What it updates:**
@@ -49,7 +49,7 @@ This document explains how to manually trigger updates and test the news fetchin
 #### Option 2: News Only
 ```
 1. Go to: https://github.com/yyyfor/stock-master/actions
-2. Click: "Update Stock News (Hourly)"
+2. Click: "Update Stock News (Every 6 Hours)"
 3. Click: "Run workflow" button
 4. Select branch: main
 5. Click: "Run workflow"
@@ -271,6 +271,7 @@ git push origin main
 
 - News updates are **non-destructive** - they only update news JSON files
 - News files are **lightweight** (~50-100KB each)
-- Hourly updates ensure news is always **fresh**
+- Updates every 6 hours ensure news is **fresh** without rate limiting
 - Manual triggers are **instant** - no waiting for schedule
 - Both workflows can run **simultaneously** without conflicts
+- News loads immediately when page opens (no tab click required)

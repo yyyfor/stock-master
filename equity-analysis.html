@@ -1823,42 +1823,105 @@
 
         // Load news for each company
         async function loadNews(company, elementId) {
+            const container = document.getElementById(elementId);
+
             try {
+                console.log(`Loading news for ${company}...`);
                 const response = await fetch(`data/news_${company}.json`);
+
                 if (!response.ok) {
-                    throw new Error('News data not available');
+                    throw new Error(`HTTP error! status: ${response.status}`);
                 }
+
                 const newsData = await response.json();
+                console.log(`Loaded ${newsData.length} news items for ${company}`);
                 displayNews(newsData, elementId);
             } catch (error) {
-                document.getElementById(elementId).innerHTML = '<div class="news-loading">News data will be available after next update cycle (4:30 PM HKT)</div>';
+                console.error(`Error loading news for ${company}:`, error);
+
+                // Check if it's a CORS/file protocol issue
+                if (window.location.protocol === 'file:') {
+                    container.innerHTML = `
+                        <div class="news-loading" style="background: #fff3cd; color: #856404; padding: 20px; border-radius: 8px;">
+                            <strong>⚠️ Local File Detected</strong>
+                            <p>News requires a web server to load. Please either:</p>
+                            <ul style="text-align: left; margin: 10px 0;">
+                                <li>Run: <code>python3 -m http.server 8000</code></li>
+                                <li>Or view on GitHub Pages</li>
+                            </ul>
+                            <p><em>Alternatively, news will update automatically when deployed to GitHub Pages.</em></p>
+                        </div>
+                    `;
+                } else {
+                    container.innerHTML = `
+                        <div class="news-loading">
+                            <p>📰 News data not yet available</p>
+                            <p style="font-size: 0.9em; color: #6c757d;">
+                                News updates every 6 hours (00:15, 06:15, 12:15, 18:15 UTC)
+                            </p>
+                            <p style="font-size: 0.85em;">
+                                <a href="https://github.com/yyyfor/stock-master/actions" target="_blank">
+                                    Trigger manual update →
+                                </a>
+                            </p>
+                        </div>
+                    `;
+                }
             }
         }
 
         function displayNews(newsData, elementId) {
             const container = document.getElementById(elementId);
+
             if (!newsData || newsData.length === 0) {
-                container.innerHTML = '<div class="news-loading">No recent news available</div>';
+                container.innerHTML = `
+                    <div class="news-loading">
+                        <p>No recent news available</p>
+                        <p style="font-size: 0.85em; color: #6c757d;">News updates every 6 hours</p>
+                    </div>
+                `;
                 return;
             }
 
             let html = '';
             newsData.slice(0, 5).forEach(item => {
+                // Handle nested content structure
+                const content = item.content || item;
+                const title = content.title || 'No title';
+                const link = content.canonicalUrl?.url || content.clickThroughUrl?.url || '#';
+                const publisher = content.provider?.displayName || 'Unknown';
+                const pubDate = content.pubDate || content.displayTime;
+                const date = pubDate ? new Date(pubDate).toLocaleDateString() : 'Unknown date';
+                const summary = content.summary || 'No summary available.';
+
                 html += `
                     <div class="news-item">
-                        <h4><a href="${item.link || '#'}" target="_blank" rel="noopener">${item.title}</a></h4>
+                        <h4><a href="${link}" target="_blank" rel="noopener">${title}</a></h4>
                         <div class="news-meta">
-                            <span class="news-source">${item.publisher || 'Unknown'}</span> •
-                            <span class="news-date">${new Date(item.providerPublishTime * 1000).toLocaleDateString()}</span>
+                            <span class="news-source">${publisher}</span> •
+                            <span class="news-date">${date}</span>
                         </div>
-                        <p class="news-summary">${item.summary || 'No summary available.'}</p>
+                        <p class="news-summary">${summary}</p>
                     </div>
                 `;
             });
+
             container.innerHTML = html;
         }
 
-        // Load news when tabs are shown
+        // Load news immediately when page loads (for all tabs)
+        window.addEventListener('DOMContentLoaded', function() {
+            console.log('Page loaded, attempting to load news...');
+
+            // Try to load news for all companies immediately
+            setTimeout(function() {
+                loadNews('alibaba', 'alibaba-news');
+                loadNews('xiaomi', 'xiaomi-news');
+                loadNews('meituan', 'meituan-news');
+            }, 500); // Small delay to ensure page is ready
+        });
+
+        // Also load news when tabs are shown (backup)
         document.getElementById('alibaba-tab').addEventListener('shown.bs.tab', function() {
             if (!document.getElementById('alibaba-news').dataset.loaded) {
                 loadNews('alibaba', 'alibaba-news');
@@ -1879,6 +1942,8 @@
                 document.getElementById('meituan-news').dataset.loaded = 'true';
             }
         });
+
+
     </script>
 
 </body>
