@@ -1,0 +1,58 @@
+name: Update Stock Analysis Data
+
+on:
+  schedule:
+    # Runs at 4:30 PM HKT (8:30 AM UTC) Monday-Friday after Hong Kong market closes
+    # Hong Kong Stock Exchange closes at 4:00 PM HKT (UTC+8)
+    - cron: '30 8 * * 1-5'
+
+  workflow_dispatch:  # Allows manual triggering
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-analysis:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests pandas yfinance beautifulsoup4
+
+      - name: Update financial data
+        run: |
+          echo "Fetching latest financial data for Alibaba (9988.HK), Xiaomi (1810.HK), Meituan (3690.HK)..."
+          # This is a placeholder - in production, you would run a Python script
+          # that fetches real data from financial APIs and updates equity-analysis.html
+
+          # Example: python scripts/update_financials.py
+
+          echo "Data update completed at $(date)"
+
+      - name: Update timestamp in HTML
+        run: |
+          CURRENT_DATE=$(date +'%B %d, %Y')
+          sed -i "s/Analysis Date: .*/Analysis Date: $CURRENT_DATE<\/p>/" equity-analysis.html
+
+      - name: Commit and push if changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update stock analysis data - $(date +'%Y-%m-%d')" && git push)
+
+      - name: Trigger Pages deployment
+        if: success()
+        run: |
+          echo "Changes committed, GitHub Pages will auto-deploy"

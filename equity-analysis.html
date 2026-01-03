@@ -1,0 +1,1604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equity Analysis: Alibaba vs Xiaomi vs Meituan</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+    <style>
+        :root {
+            --alibaba-color: #FF6A00;
+            --xiaomi-color: #FF6700;
+            --meituan-color: #FFD100;
+            --primary-dark: #1a1a2e;
+            --secondary-dark: #16213e;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .main-container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--secondary-dark) 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        header .date {
+            font-size: 1rem;
+            opacity: 0.8;
+            margin-bottom: 20px;
+        }
+
+        .exec-summary {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .content-wrapper {
+            padding: 40px;
+        }
+
+        .company-section {
+            margin-bottom: 60px;
+            padding: 30px;
+            border-radius: 15px;
+            background: #f8f9fa;
+            border-left: 6px solid;
+        }
+
+        .company-section.alibaba {
+            border-left-color: var(--alibaba-color);
+        }
+
+        .company-section.xiaomi {
+            border-left-color: var(--xiaomi-color);
+        }
+
+        .company-section.meituan {
+            border-left-color: var(--meituan-color);
+        }
+
+        .company-section h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 25px;
+            color: var(--primary-dark);
+        }
+
+        .summary, .competitive, .risks {
+            margin-bottom: 30px;
+        }
+
+        .summary h3, .competitive h3, .risks h3, .financial-tables h3, .charts h3 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: var(--secondary-dark);
+            border-bottom: 2px solid #dee2e6;
+            padding-bottom: 10px;
+        }
+
+        .financial-tables table {
+            width: 100%;
+            margin-bottom: 25px;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .financial-tables table th {
+            background: var(--primary-dark);
+            color: white;
+            padding: 15px;
+            text-align: right;
+            font-weight: 600;
+        }
+
+        .financial-tables table th:first-child {
+            text-align: left;
+        }
+
+        .financial-tables table td {
+            padding: 12px 15px;
+            text-align: right;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .financial-tables table td:first-child {
+            text-align: left;
+            font-weight: 600;
+            color: var(--primary-dark);
+        }
+
+        .financial-tables table tr:hover {
+            background: #f8f9fa;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 350px;
+            margin-bottom: 30px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .callout-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .callout-box h4 {
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .risks ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .risks ul li {
+            background: white;
+            padding: 12px 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            border-left: 4px solid #dc3545;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .risks ul li:before {
+            content: "⚠️ ";
+            margin-right: 8px;
+        }
+
+        #comparative {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            padding: 40px;
+            border-radius: 15px;
+            margin: 40px 0;
+            color: white;
+        }
+
+        #comparative h2 {
+            color: white;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        #conclusion {
+            background: var(--primary-dark);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            margin-top: 40px;
+        }
+
+        #conclusion h2 {
+            color: white;
+            margin-bottom: 25px;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        .rating-table {
+            background: white;
+            color: var(--primary-dark);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .rating-table table {
+            width: 100%;
+        }
+
+        .rating-table th {
+            background: var(--secondary-dark);
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .rating-table td {
+            padding: 12px;
+            text-align: center;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .badge-buy {
+            background: #28a745;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 600;
+        }
+
+        .badge-hold {
+            background: #ffc107;
+            color: var(--primary-dark);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 600;
+        }
+
+        .badge-sell {
+            background: #dc3545;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 600;
+        }
+
+        .disclaimer {
+            background: #fff3cd;
+            color: #856404;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-size: 0.9rem;
+            border: 1px solid #ffc107;
+        }
+    </style>
+</head>
+<body>
+    <div class="container main-container">
+        <header>
+            <h1>🏢 Comprehensive Equity Analysis</h1>
+            <h2>Alibaba Group vs Xiaomi Corporation vs Meituan</h2>
+            <p class="date">Analysis Date: January 3, 2026</p>
+
+            <div class="exec-summary">
+                <h3>📊 Executive Summary</h3>
+                <p>This comparative analysis examines three leading Chinese technology companies across e-commerce, consumer electronics, and local services sectors. <strong>Alibaba Group</strong> demonstrates resilient cloud growth amid e-commerce headwinds, with regulatory tailwinds emerging. <strong>Xiaomi Corporation</strong> is successfully pivoting toward premium smartphones and electric vehicles, showing strong international expansion. <strong>Meituan</strong> maintains dominant market position in local services with improving unit economics and emerging instant retail opportunities. Each company faces distinct regulatory environments, competitive dynamics, and growth catalysts that inform differentiated investment theses.</p>
+            </div>
+        </header>
+
+        <div class="content-wrapper">
+            <div class="disclaimer">
+                <strong>⚠️ Data Disclaimer:</strong> Financial figures presented are approximate/illustrative based on publicly available information and analyst estimates. For investment decisions, please consult official financial statements, latest earnings reports, and qualified financial advisors.
+            </div>
+
+            <!-- ALIBABA SECTION -->
+            <section id="company-alibaba" class="company-section alibaba">
+                <h2>🛒 Alibaba Group Holding Limited (BABA / 9988.HK)</h2>
+
+                <div class="summary">
+                    <h3>Business Overview</h3>
+                    <p>Alibaba Group is China's largest e-commerce conglomerate with diversified business segments including:</p>
+                    <ul>
+                        <li><strong>Core Commerce:</strong> Taobao, Tmall (China retail), Lazada (Southeast Asia), AliExpress (global)</li>
+                        <li><strong>Cloud Computing:</strong> Alibaba Cloud (leading cloud infrastructure provider in China and Asia-Pacific)</li>
+                        <li><strong>Digital Media & Entertainment:</strong> Youku (video streaming), UC Browser, digital content</li>
+                        <li><strong>Innovation & Emerging:</strong> Cainiao (logistics), local services, DingTalk (enterprise collaboration)</li>
+                    </ul>
+                    <p>Revenue model combines marketplace commissions, advertising, cloud subscriptions, and logistics services. The company has undergone significant restructuring, spinning off non-core assets and focusing on AI-driven commerce and cloud infrastructure.</p>
+                </div>
+
+                <div class="financial-tables">
+                    <h3>Key Financials (in RMB Billions)</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Metric</th>
+                                <th>FY 2023</th>
+                                <th>FY 2024</th>
+                                <th>FY 2025E</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Total Revenue</td>
+                                <td>¥868.7</td>
+                                <td>¥902.5</td>
+                                <td>¥945.0</td>
+                            </tr>
+                            <tr>
+                                <td>Net Income</td>
+                                <td>¥76.8</td>
+                                <td>¥95.3</td>
+                                <td>¥112.0</td>
+                            </tr>
+                            <tr>
+                                <td>Gross Margin</td>
+                                <td>37.2%</td>
+                                <td>38.5%</td>
+                                <td>39.0%</td>
+                            </tr>
+                            <tr>
+                                <td>Operating Margin</td>
+                                <td>11.5%</td>
+                                <td>13.2%</td>
+                                <td>14.5%</td>
+                            </tr>
+                            <tr>
+                                <td>Cloud Revenue</td>
+                                <td>¥78.2</td>
+                                <td>¥91.8</td>
+                                <td>¥108.0</td>
+                            </tr>
+                            <tr>
+                                <td>Free Cash Flow</td>
+                                <td>¥148.5</td>
+                                <td>¥165.2</td>
+                                <td>¥182.0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Balance Sheet Highlights</th>
+                                <th>FY 2024</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Total Assets</td>
+                                <td>¥1,458.3</td>
+                            </tr>
+                            <tr>
+                                <td>Cash & Equivalents</td>
+                                <td>¥295.6</td>
+                            </tr>
+                            <tr>
+                                <td>Total Debt</td>
+                                <td>¥127.8</td>
+                            </tr>
+                            <tr>
+                                <td>Shareholders' Equity</td>
+                                <td>¥876.4</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="charts">
+                    <h3>Financial Trends</h3>
+                    <div class="chart-container">
+                        <canvas id="chart-alibaba-revenue"></canvas>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="chart-alibaba-profit"></canvas>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="chart-alibaba-segments"></canvas>
+                    </div>
+                </div>
+
+                <div class="callout-box">
+                    <h4>💡 Key Investment Thesis</h4>
+                    <p><strong>Undervalued AI & Cloud Leader with Regulatory Clarity:</strong> Alibaba trades at ~10x forward P/E despite leading position in China cloud (40%+ market share) and AI infrastructure buildout. Regulatory overhang has largely cleared with fines paid and increased government support for platform economy. Cloud segment approaching profitability inflection, potentially adding $30-40B in market value. Share buyback program of $25B demonstrates confidence and shareholder return commitment.</p>
+                </div>
+
+                <div class="competitive">
+                    <h3>Competitive Analysis & Economic Moat</h3>
+                    <p><strong>Moat Assessment: WIDE</strong></p>
+                    <ul>
+                        <li><strong>Network Effects:</strong> Taobao/Tmall ecosystem with 900M+ annual active consumers creates self-reinforcing merchant and buyer liquidity</li>
+                        <li><strong>Switching Costs:</strong> Deep merchant integration with Alipay payments, Cainiao logistics, and DingTalk enterprise tools creates high switching barriers</li>
+                        <li><strong>Intangible Assets:</strong> Brand strength, proprietary AI algorithms, and extensive consumer data moat</li>
+                        <li><strong>Cost Advantages:</strong> Scale economies in cloud infrastructure and logistics network</li>
+                    </ul>
+                    <p><strong>Competitive Landscape:</strong></p>
+                    <ul>
+                        <li><strong>E-commerce:</strong> Faces intensifying competition from JD.com, Pinduoduo, and emerging platforms (Douyin, Kuaishou e-commerce)</li>
+                        <li><strong>Cloud:</strong> Leading position ahead of Huawei Cloud, Tencent Cloud, and international providers; benefiting from data sovereignty requirements</li>
+                        <li><strong>International:</strong> Lazada competes with Shopee in Southeast Asia; AliExpress faces Shein, Temu globally</li>
+                    </ul>
+                </div>
+
+                <div class="risks">
+                    <h3>Key Risks</h3>
+                    <ul>
+                        <li><strong>Regulatory Risk:</strong> Despite improved environment, potential for renewed antitrust scrutiny or data privacy regulations</li>
+                        <li><strong>Competition:</strong> Market share erosion in core e-commerce from Douyin e-commerce and Pinduoduo's low-price strategy</li>
+                        <li><strong>Macro Headwinds:</strong> China consumer spending weakness impacts GMV growth and advertising budgets</li>
+                        <li><strong>VIE Structure Risk:</strong> Variable Interest Entity structure creates potential delisting or ownership risks for foreign investors</li>
+                        <li><strong>Geopolitical:</strong> US-China tensions could impact cross-border businesses and investor sentiment</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- XIAOMI SECTION -->
+            <section id="company-xiaomi" class="company-section xiaomi">
+                <h2>📱 Xiaomi Corporation (1810.HK)</h2>
+
+                <div class="summary">
+                    <h3>Business Overview</h3>
+                    <p>Xiaomi is a consumer electronics company with integrated hardware-software-internet services ecosystem:</p>
+                    <ul>
+                        <li><strong>Smartphones:</strong> World's #3 smartphone maker (14% global market share), with strong presence in emerging markets and premium segment growth</li>
+                        <li><strong>IoT & Lifestyle Products:</strong> Leading smart home ecosystem with 700M+ connected devices (smart TVs, wearables, home appliances)</li>
+                        <li><strong>Internet Services:</strong> Advertising, gaming, fintech services (HyperOS ecosystem)</li>
+                        <li><strong>Electric Vehicles:</strong> New growth engine with SU7 EV launch, targeting premium segment with technology differentiation</li>
+                    </ul>
+                    <p>Business model emphasizes hardware at low margins to build user base, monetizing through recurring internet services and IoT ecosystem lock-in. Premium smartphone push (priced above ¥3,000) improving margins significantly.</p>
+                </div>
+
+                <div class="financial-tables">
+                    <h3>Key Financials (in RMB Billions)</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Metric</th>
+                                <th>FY 2023</th>
+                                <th>FY 2024</th>
+                                <th>FY 2025E</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Total Revenue</td>
+                                <td>¥270.9</td>
+                                <td>¥305.0</td>
+                                <td>¥348.0</td>
+                            </tr>
+                            <tr>
+                                <td>Net Income</td>
+                                <td>¥19.3</td>
+                                <td>¥24.8</td>
+                                <td>¥30.5</td>
+                            </tr>
+                            <tr>
+                                <td>Gross Margin</td>
+                                <td>19.8%</td>
+                                <td>21.2%</td>
+                                <td>22.5%</td>
+                            </tr>
+                            <tr>
+                                <td>Smartphone Revenue</td>
+                                <td>¥167.5</td>
+                                <td>¥185.0</td>
+                                <td>¥208.0</td>
+                            </tr>
+                            <tr>
+                                <td>IoT Revenue</td>
+                                <td>¥77.6</td>
+                                <td>¥88.5</td>
+                                <td>¥102.0</td>
+                            </tr>
+                            <tr>
+                                <td>Internet Services Revenue</td>
+                                <td>¥25.8</td>
+                                <td>¥31.5</td>
+                                <td>¥38.0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Balance Sheet Highlights</th>
+                                <th>FY 2024</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Total Assets</td>
+                                <td>¥358.2</td>
+                            </tr>
+                            <tr>
+                                <td>Cash & Equivalents</td>
+                                <td>¥125.3</td>
+                            </tr>
+                            <tr>
+                                <td>Total Debt</td>
+                                <td>¥18.6</td>
+                            </tr>
+                            <tr>
+                                <td>Shareholders' Equity</td>
+                                <td>¥187.4</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="charts">
+                    <h3>Financial Trends</h3>
+                    <div class="chart-container">
+                        <canvas id="chart-xiaomi-revenue"></canvas>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="chart-xiaomi-profit"></canvas>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="chart-xiaomi-segments"></canvas>
+                    </div>
+                </div>
+
+                <div class="callout-box">
+                    <h4>💡 Key Investment Thesis</h4>
+                    <p><strong>Premium Transition & EV Optionality Creating Multiple Expansion:</strong> Xiaomi's successful pivot to premium smartphones (30%+ of mix vs. 10% in 2021) is driving margin expansion from 19% to 22%+. The SU7 electric vehicle represents significant upside optionality—if successful, automotive could add ¥100-150B in annual revenue within 3-5 years. IoT ecosystem monetization improving with HyperOS integration. Trading at 15x P/E with 25%+ earnings growth represents attractive risk-reward for hardware-to-platform transformation story.</p>
+                </div>
+
+                <div class="competitive">
+                    <h3>Competitive Analysis & Economic Moat</h3>
+                    <p><strong>Moat Assessment: MODERATE</strong></p>
+                    <ul>
+                        <li><strong>Ecosystem Lock-in:</strong> IoT device network creates moderate switching costs; HyperOS integration increasing stickiness</li>
+                        <li><strong>Brand Loyalty:</strong> Strong brand affinity among price-conscious consumers and tech enthusiasts</li>
+                        <li><strong>Cost Leadership:</strong> Efficient supply chain and online-first distribution enable competitive pricing</li>
+                        <li><strong>Scale in IoT:</strong> 700M+ connected devices create data advantages and cross-selling opportunities</li>
+                    </ul>
+                    <p><strong>Competitive Landscape:</strong></p>
+                    <ul>
+                        <li><strong>Smartphones:</strong> Competes with Apple (premium), Samsung, OPPO, vivo, Honor; gaining share from premium push and international expansion</li>
+                        <li><strong>IoT:</strong> Dominant in China smart home; faces competition from Huawei, traditional appliance makers (Midea, Haier)</li>
+                        <li><strong>EV Market:</strong> Entering highly competitive segment against BYD, Tesla, NIO, Li Auto, XPeng—differentiation through technology integration</li>
+                    </ul>
+                </div>
+
+                <div class="risks">
+                    <h3>Key Risks</h3>
+                    <ul>
+                        <li><strong>EV Execution Risk:</strong> Automotive business unproven; capital intensive with uncertain profitability timeline; intense competition</li>
+                        <li><strong>Smartphone Commoditization:</strong> Intense price competition in China; premium segment execution critical for margins</li>
+                        <li><strong>Component Supply:</strong> Dependent on semiconductor supply chain; potential disruptions from geopolitical tensions</li>
+                        <li><strong>International Headwinds:</strong> Geopolitical risks limiting expansion in Western markets; India regulatory scrutiny</li>
+                        <li><strong>Low Hardware Margins:</strong> Core business model relies on thin hardware margins; internet services monetization must accelerate</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- MEITUAN SECTION -->
+            <section id="company-meituan" class="company-section meituan">
+                <h2>🛵 Meituan (3690.HK)</h2>
+
+                <div class="summary">
+                    <h3>Business Overview</h3>
+                    <p>Meituan is China's leading local services platform, often called the "Amazon of services":</p>
+                    <ul>
+                        <li><strong>Food Delivery:</strong> Dominant market leader with 70%+ share; 700M+ annual transacting users, 9M+ active merchants</li>
+                        <li><strong>In-Store, Hotel & Travel:</strong> Restaurant reservations, movie ticketing, hotel bookings—monetizing local commerce</li>
+                        <li><strong>New Initiatives:</strong> Instant retail/grocery (Meituan Instashopping), Meituan Youxuan (community group buying), bike-sharing, ride-hailing</li>
+                    </ul>
+                    <p>Business model centers on two-sided marketplace connecting consumers with local merchants. Revenue from delivery commissions, advertising, and membership subscriptions. High-frequency food delivery drives platform stickiness and enables cross-selling to higher-margin services.</p>
+                </div>
+
+                <div class="financial-tables">
+                    <h3>Key Financials (in RMB Billions)</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Metric</th>
+                                <th>FY 2023</th>
+                                <th>FY 2024</th>
+                                <th>FY 2025E</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Total Revenue</td>
+                                <td>¥279.8</td>
+                                <td>¥325.5</td>
+                                <td>¥380.0</td>
+                            </tr>
+                            <tr>
+                                <td>Net Income</td>
+                                <td>¥30.2</td>
+                                <td>¥47.5</td>
+                                <td>¥62.0</td>
+                            </tr>
+                            <tr>
+                                <td>Operating Margin</td>
+                                <td>10.8%</td>
+                                <td>14.6%</td>
+                                <td>16.3%</td>
+                            </tr>
+                            <tr>
+                                <td>Food Delivery Revenue</td>
+                                <td>¥168.5</td>
+                                <td>¥195.0</td>
+                                <td>¥228.0</td>
+                            </tr>
+                            <tr>
+                                <td>In-Store Revenue</td>
+                                <td>¥84.3</td>
+                                <td>¥98.5</td>
+                                <td>¥116.0</td>
+                            </tr>
+                            <tr>
+                                <td>New Initiatives Revenue</td>
+                                <td>¥27.0</td>
+                                <td>¥32.0</td>
+                                <td>¥36.0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Balance Sheet Highlights</th>
+                                <th>FY 2024</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Total Assets</td>
+                                <td>¥412.7</td>
+                            </tr>
+                            <tr>
+                                <td>Cash & Equivalents</td>
+                                <td>¥168.9</td>
+                            </tr>
+                            <tr>
+                                <td>Total Debt</td>
+                                <td>¥25.3</td>
+                            </tr>
+                            <tr>
+                                <td>Shareholders' Equity</td>
+                                <td>¥245.8</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="charts">
+                    <h3>Financial Trends</h3>
+                    <div class="chart-container">
+                        <canvas id="chart-meituan-revenue"></canvas>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="chart-meituan-profit"></canvas>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="chart-meituan-segments"></canvas>
+                    </div>
+                </div>
+
+                <div class="callout-box">
+                    <h4>💡 Key Investment Thesis</h4>
+                    <p><strong>Dominant Local Services Platform with Margin Expansion Runway:</strong> Meituan's unassailable position in food delivery (70%+ market share) provides high-frequency touchpoint that drives engagement across all services. Operating margins improving from 11% to 16%+ as delivery unit economics mature and high-margin in-store/hotel businesses scale. Instant retail represents next ¥100B+ revenue opportunity, leveraging existing logistics infrastructure. Trading at ~20x forward P/E with 25-30% earnings growth and net cash balance offers compelling value for quality growth.</p>
+                </div>
+
+                <div class="competitive">
+                    <h3>Competitive Analysis & Economic Moat</h3>
+                    <p><strong>Moat Assessment: WIDE</strong></p>
+                    <ul>
+                        <li><strong>Network Effects:</strong> Powerful three-sided network among consumers, merchants, and delivery drivers; liquidity advantages in tier 2-4 cities create winner-take-most dynamics</li>
+                        <li><strong>Intangible Assets:</strong> Unparalleled local services data and recommendation algorithms; brand synonymous with food delivery in China</li>
+                        <li><strong>Switching Costs:</strong> Merchant integration with POS systems, marketing tools, and financing creates friction; consumer habit formation from daily usage</li>
+                        <li><strong>Scale Economies:</strong> Logistics network density enables faster delivery times and lower costs per order than competitors</li>
+                    </ul>
+                    <p><strong>Competitive Landscape:</strong></p>
+                    <ul>
+                        <li><strong>Food Delivery:</strong> Main competitor Ele.me (Alibaba) has ~25% share but losing ground; Douyin testing social commerce-driven delivery</li>
+                        <li><strong>In-Store Services:</strong> Competes with Douyin for local advertising budgets; traditional players (Dianping competitors) largely consolidated</li>
+                        <li><strong>Instant Retail:</strong> Faces competition from Alibaba's Freshippo/Taocaicai, JD.com's Daojia, and emerging quick commerce players</li>
+                    </ul>
+                </div>
+
+                <div class="risks">
+                    <h3>Key Risks</h3>
+                    <ul>
+                        <li><strong>Labor & Regulatory:</strong> Gig worker regulations could increase delivery costs; social responsibility pressures on platform treatment of workers</li>
+                        <li><strong>Competitive Intensity:</strong> Douyin expanding into local services with short-video advertising advantages; subsidies wars compressing margins</li>
+                        <li><strong>Consumer Spending:</strong> Highly sensitive to macroeconomic conditions; trading down behavior impacts order values</li>
+                        <li><strong>New Initiatives Execution:</strong> Instant retail/grocery faces well-funded competition; unclear path to profitability in ride-hailing, bike-sharing</li>
+                        <li><strong>Commission Rate Pressure:</strong> Government or competitive pressure to reduce merchant commissions could impact revenue growth</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- COMPARATIVE SECTION -->
+            <section id="comparative">
+                <h2>📊 Cross-Company Comparison</h2>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="chart-container">
+                            <canvas id="chart-comparison-revenue"></canvas>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="chart-container">
+                            <canvas id="chart-comparison-profit"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="chart-container">
+                            <canvas id="chart-comparison-margins"></canvas>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="chart-container">
+                            <canvas id="chart-comparison-growth"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <div class="chart-container">
+                            <canvas id="chart-comparison-valuation"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONCLUSION SECTION -->
+            <section id="conclusion">
+                <h2>🎯 Analyst Conclusion & Investment Recommendations</h2>
+
+                <div class="rating-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Company</th>
+                                <th>Rating</th>
+                                <th>Price Target</th>
+                                <th>Upside Potential</th>
+                                <th>Risk Level</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Alibaba (BABA)</strong></td>
+                                <td><span class="badge-buy">BUY</span></td>
+                                <td>$120 (12-month)</td>
+                                <td>+45%</td>
+                                <td>Medium</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Xiaomi (1810.HK)</strong></td>
+                                <td><span class="badge-hold">HOLD</span></td>
+                                <td>HK$22 (12-month)</td>
+                                <td>+15%</td>
+                                <td>High</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Meituan (3690.HK)</strong></td>
+                                <td><span class="badge-buy">BUY</span></td>
+                                <td>HK$180 (12-month)</td>
+                                <td>+35%</td>
+                                <td>Medium</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3 class="mt-4 mb-3">Relative Investment Perspectives</h3>
+
+                <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+                    <h4>🥇 Top Pick: Alibaba Group</h4>
+                    <p><strong>Rationale:</strong> Alibaba offers the most compelling risk-reward at current valuation. Trading at a significant discount to historical multiples and peers (10x P/E vs. 15x+ historically), the market is pricing in excessive pessimism on e-commerce while undervaluing the cloud business worth $150-200B standalone. Regulatory clarity, aggressive buybacks ($25B program), and cloud profitability inflection create multiple catalysts for 2025-2026.</p>
+                    <p><strong>Key Catalysts:</strong></p>
+                    <ul>
+                        <li>Alibaba Cloud reaching sustainable profitability (likely FY2025)</li>
+                        <li>Continued market share stabilization in core e-commerce</li>
+                        <li>Taobao/Tmall AI-driven recommendation and live-streaming GMV acceleration</li>
+                        <li>Potential strategic divestitures unlocking value (logistics, media assets)</li>
+                        <li>Hong Kong primary listing attracting Southbound capital flows</li>
+                    </ul>
+                </div>
+
+                <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+                    <h4>🥈 Strong Alternative: Meituan</h4>
+                    <p><strong>Rationale:</strong> Meituan represents the highest quality business among the three with superior moat characteristics and margin expansion visibility. Food delivery leadership is unassailable, and the platform's high-frequency nature creates powerful engagement flywheel. Operating margin trajectory from 11% to 20%+ over next 3-5 years provides strong earnings CAGR of 25-30%.</p>
+                    <p><strong>Key Catalysts:</strong></p>
+                    <ul>
+                        <li>Food delivery unit economics improvement as density increases</li>
+                        <li>In-store/hotel business scaling with minimal incremental cost (70%+ incremental margins)</li>
+                        <li>Instant retail/grocery achieving positive unit economics and scaling</li>
+                        <li>Market share gains in lower-tier cities where network effects strongest</li>
+                        <li>Potential dividend initiation given strong cash generation and light capex needs</li>
+                    </ul>
+                </div>
+
+                <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+                    <h4>🤔 Hold for Clarity: Xiaomi</h4>
+                    <p><strong>Rationale:</strong> Xiaomi's story is evolving rapidly with EV launch representing significant upside optionality but also execution risk. Premium smartphone transition is progressing well (margin expansion clear), but automotive business timeline and profitability remain uncertain. Current valuation appears fair for the core business; significant upside requires EV success, which is hard to handicap at this stage.</p>
+                    <p><strong>What We're Watching:</strong></p>
+                    <ul>
+                        <li>SU7 EV production ramp, delivery volumes, and gross margin trajectory</li>
+                        <li>Premium smartphone market share in China (above ¥3,000 price point)</li>
+                        <li>IoT ecosystem ARPU expansion through HyperOS integration</li>
+                        <li>International expansion momentum (India, Europe, Latin America)</li>
+                        <li>Automotive partnership developments (potential JVs, technology licensing)</li>
+                    </ul>
+                    <p><em>Note: Rating could upgrade to BUY if EV delivery volumes exceed 100K units with gross margins above 15%, validating the automotive strategy.</em></p>
+                </div>
+
+                <h3 class="mt-4 mb-3">Portfolio Construction Considerations</h3>
+                <p>For diversified exposure to China internet/technology recovery:</p>
+                <ul>
+                    <li><strong>Core Position (50-60%):</strong> Alibaba - Best value, largest market cap, most liquid</li>
+                    <li><strong>Quality Growth (30-40%):</strong> Meituan - Highest quality moat, defensive growth characteristics</li>
+                    <li><strong>Optionality Bet (10-20%):</strong> Xiaomi - EV optionality, hardware-to-ecosystem transformation</li>
+                </ul>
+
+                <h3 class="mt-4 mb-3">Macro & Sector Considerations</h3>
+                <p>All three companies benefit from potential macro tailwinds:</p>
+                <ul>
+                    <li><strong>China Stimulus:</strong> Consumer spending recovery would boost all three; Meituan most sensitive to consumer health</li>
+                    <li><strong>Regulatory Normalization:</strong> Platform economy policy support, reduced fines/investigations</li>
+                    <li><strong>AI Integration:</strong> All three investing heavily in AI-driven personalization, automation, and efficiency</li>
+                    <li><strong>Valuation Reset:</strong> China internet stocks trading at historical lows; mean reversion possible as overhang clears</li>
+                </ul>
+
+                <div style="background: #fff3cd; color: #856404; padding: 15px; border-radius: 8px; margin-top: 20px;">
+                    <strong>⚠️ Important Risk Disclosure:</strong> All three companies face VIE structure risks, geopolitical tensions (US-China relations), and regulatory uncertainty inherent to Chinese technology platforms. Position sizing should reflect these jurisdiction-specific risks. Geographic diversification recommended.
+                </div>
+            </section>
+
+            <footer style="text-align: center; padding: 30px; color: #6c757d; border-top: 2px solid #dee2e6; margin-top: 40px;">
+                <p><strong>Disclaimer:</strong> This analysis is for informational and educational purposes only. Not investment advice. Consult qualified financial professionals before making investment decisions. Data is approximate/illustrative based on publicly available information.</p>
+                <p style="font-size: 0.9rem; margin-top: 10px;">Generated: January 3, 2026 | Analysis period: FY2023-FY2025E</p>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Chart.js Scripts -->
+    <script>
+        // Configure default chart options
+        Chart.defaults.font.family = "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
+        Chart.defaults.color = '#333';
+
+        // ALIBABA CHARTS
+        // Revenue Trend
+        new Chart(document.getElementById('chart-alibaba-revenue'), {
+            type: 'line',
+            data: {
+                labels: ['FY 2023', 'FY 2024', 'FY 2025E'],
+                datasets: [{
+                    label: 'Total Revenue (¥B)',
+                    data: [868.7, 902.5, 945.0],
+                    borderColor: '#FF6A00',
+                    backgroundColor: 'rgba(255, 106, 0, 0.1)',
+                    borderWidth: 3,
+                    fill: true,
+                    tension: 0.4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Alibaba Revenue Trend',
+                        font: { size: 16, weight: 'bold' }
+                    },
+                    legend: { display: true, position: 'bottom' }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: false,
+                        ticks: {
+                            callback: function(value) {
+                                return '¥' + value + 'B';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // Profit Trend
+        new Chart(document.getElementById('chart-alibaba-profit'), {
+            type: 'bar',
+            data: {
+                labels: ['FY 2023', 'FY 2024', 'FY 2025E'],
+                datasets: [{
+                    label: 'Net Income (¥B)',
+                    data: [76.8, 95.3, 112.0],
+                    backgroundColor: ['rgba(255, 106, 0, 0.7)', 'rgba(255, 106, 0, 0.8)', 'rgba(255, 106, 0, 0.9)'],
+                    borderColor: '#FF6A00',
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Alibaba Net Income Growth',
+                        font: { size: 16, weight: 'bold' }
+                    },
+                    legend: { display: true, position: 'bottom' }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            callback: function(value) {
+                                return '¥' + value + 'B';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // Segment Revenue
+        new Chart(document.getElementById('chart-alibaba-segments'), {
+            type: 'doughnut',
+            data: {
+                labels: ['Core Commerce', 'Cloud Computing', 'Digital Media', 'Innovation/Others'],
+                datasets: [{
+                    data: [650, 91.8, 85, 75.7],
+                    backgroundColor: [
+                        'rgba(255, 106, 0, 0.9)',
+                        'rgba(102, 126, 234, 0.9)',
+                        'rgba(118, 75, 162, 0.9)',
+                        'rgba(237, 100, 166, 0.9)'
+                    ],
+                    borderWidth: 2,
+                    borderColor: '#fff'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Alibaba Revenue by Segment (FY 2024)',
+                        font: { size: 16, weight: 'bold' }
+                    },
+                    legend: { display: true, position: 'right' }
+                }
+            }
+        });
+
+        // XIAOMI CHARTS
+        // Revenue Trend
+        new Chart(document.getElementById('chart-xiaomi-revenue'), {
+            type: 'line',
+            data: {
+                labels: ['FY 2023', 'FY 2024', 'FY 2025E'],
+                datasets: [{
+                    label: 'Total Revenue (¥B)',
+                    data: [270.9, 305.0, 348.0],
+                    borderColor: '#FF6700',
+                    backgroundColor: 'rgba(255, 103, 0, 0.1)',
+                    borderWidth: 3,
+                    fill: true,
+                    tension: 0.4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Xiaomi Revenue Trend',
+                        font: { size: 16, weight: 'bold' }
+                    },
+                    legend: { display: true, position: 'bottom' }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: false,
+                        ticks: {
+                            callback: function(value) {
+                                return '¥' + value + 'B';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // Profit and Margin
+        new Chart(document.getElementById('chart-xiaomi-profit'), {
+            type: 'bar',
+            data: {
+                labels: ['FY 2023', 'FY 2024', 'FY 2025E'],
+                datasets: [
+                    {
+                        label: 'Net Income (¥B)',
+                        data: [19.3, 24.8, 30.5],
+                        backgroundColor: 'rgba(255, 103, 0, 0.7)',
+                        borderColor: '#FF6700',
+                        borderWidth: 2,
+                        yAxisID: 'y'
+                    },
+                    {
+                        label: 'Gross Margin (%)',
+                        data: [19.8, 21.2, 22.5],
+                        type: 'line',
+                        borderColor: '#4CAF50',
+                        backgroundColor: 'rgba(76, 175, 80, 0.1)',
+                        borderWidth: 3,
+                        yAxisID: 'y1',
+                        fill: false
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Xiaomi Profitability & Margin Expansion',
+                        font: { size: 16, weight: 'bold' }
+                    },
+                    legend: { display: true, position: 'bottom' }
+                },
+                scales: {
+                    y: {
+                        type: 'linear',
+                        position: 'left',
+                        beginAtZero: true,
+                        ticks: {
+                            callback: function(value) {
+                                return '¥' + value + 'B';
+                            }
+                        }
+                    },
+                    y1: {
+                        type: 'linear',
+                        position: 'right',
+                        beginAtZero: true,
+                        max: 30,
+                        ticks: {
+                            callback: function(value) {
+                                return value + '%';
+                            }
+                        },
+                        grid: {
+                            drawOnChartArea: false
+                        }
+                    }
+                }
+            }
+        });
+
+        // Segment Revenue
+        new Chart(document.getElementById('chart-xiaomi-segments'), {
+            type: 'bar',
+            data: {
+                labels: ['Smartphones', 'IoT & Lifestyle', 'Internet Services'],
+                datasets: [
+                    {
+                        label: 'FY 2023',
+                        data: [167.5, 77.6, 25.8],
+                        backgroundColor: 'rgba(255, 103, 0, 0.6)'
+                    },
+                    {
+                        label: 'FY 2024',
+                        data: [185.0, 88.5, 31.5],
+                        backgroundColor: 'rgba(255, 103, 0, 0.8)'
+                    },
+                    {
+                        label: 'FY 2025E',
+                        data: [208.0, 102.0, 38.0],
+                        backgroundColor: 'rgba(255, 103, 0, 1)'
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Xiaomi Revenue by Segment (¥B)',
+                        font: { size: 16, weight: 'bold' }
+                    },
+                    legend: { display: true, position: 'bottom' }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            callback: function(value) {
+                                return '¥' + value + 'B';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // MEITUAN CHARTS
+        // Revenue Trend
+        new Chart(document.getElementById('chart-meituan-revenue'), {
+            type: 'line',
+            data: {
+                labels: ['FY 2023', 'FY 2024', 'FY 2025E'],
+                datasets: [{
+                    label: 'Total Revenue (¥B)',
+                    data: [279.8, 325.5, 380.0],
+                    borderColor: '#FFD100',
+                    backgroundColor: 'rgba(255, 209, 0, 0.2)',
+                    borderWidth: 3,
+                    fill: true,
+                    tension: 0.4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Meituan Revenue Trend',
+                        font: { size: 16, weight: 'bold' }
+                    },
+                    legend: { display: true, position: 'bottom' }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: false,
+                        ticks: {
+                            callback: function(value) {
+                                return '¥' + value + 'B';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // Operating Margin Expansion
+        new Chart(document.getElementById('chart-meituan-profit'), {
+            type: 'bar',
+            data: {
+                labels: ['FY 2023', 'FY 2024', 'FY 2025E'],
+                datasets: [
+                    {
+                        label: 'Net Income (¥B)',
+                        data: [30.2, 47.5, 62.0],
+                        backgroundColor: 'rgba(255, 209, 0, 0.7)',
+                        borderColor: '#FFD100',
+                        borderWidth: 2,
+                        yAxisID: 'y'
+                    },
+                    {
+                        label: 'Operating Margin (%)',
+                        data: [10.8, 14.6, 16.3],
+                        type: 'line',
+                        borderColor: '#2196F3',
+                        backgroundColor: 'rgba(33, 150, 243, 0.1)',
+                        borderWidth: 3,
+                        yAxisID: 'y1',
+                        fill: false
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Meituan Profitability & Margin Expansion',
+                        font: { size: 16, weight: 'bold' }
+                    },
+                    legend: { display: true, position: 'bottom' }
+                },
+                scales: {
+                    y: {
+                        type: 'linear',
+                        position: 'left',
+                        beginAtZero: true,
+                        ticks: {
+                            callback: function(value) {
+                                return '¥' + value + 'B';
+                            }
+                        }
+                    },
+                    y1: {
+                        type: 'linear',
+                        position: 'right',
+                        beginAtZero: true,
+                        max: 25,
+                        ticks: {
+                            callback: function(value) {
+                                return value + '%';
+                            }
+                        },
+                        grid: {
+                            drawOnChartArea: false
+                        }
+                    }
+                }
+            }
+        });
+
+        // Segment Revenue
+        new Chart(document.getElementById('chart-meituan-segments'), {
+            type: 'bar',
+            data: {
+                labels: ['Food Delivery', 'In-Store/Hotel/Travel', 'New Initiatives'],
+                datasets: [
+                    {
+                        label: 'FY 2023',
+                        data: [168.5, 84.3, 27.0],
+                        backgroundColor: 'rgba(255, 209, 0, 0.6)'
+                    },
+                    {
+                        label: 'FY 2024',
+                        data: [195.0, 98.5, 32.0],
+                        backgroundColor: 'rgba(255, 209, 0, 0.8)'
+                    },
+                    {
+                        label: 'FY 2025E',
+                        data: [228.0, 116.0, 36.0],
+                        backgroundColor: 'rgba(255, 209, 0, 1)'
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Meituan Revenue by Segment (¥B)',
+                        font: { size: 16, weight: 'bold' }
+                    },
+                    legend: { display: true, position: 'bottom' }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            callback: function(value) {
+                                return '¥' + value + 'B';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // COMPARATIVE CHARTS
+        // Revenue Comparison
+        new Chart(document.getElementById('chart-comparison-revenue'), {
+            type: 'bar',
+            data: {
+                labels: ['FY 2023', 'FY 2024', 'FY 2025E'],
+                datasets: [
+                    {
+                        label: 'Alibaba',
+                        data: [868.7, 902.5, 945.0],
+                        backgroundColor: 'rgba(255, 106, 0, 0.8)',
+                        borderColor: '#FF6A00',
+                        borderWidth: 2
+                    },
+                    {
+                        label: 'Meituan',
+                        data: [279.8, 325.5, 380.0],
+                        backgroundColor: 'rgba(255, 209, 0, 0.8)',
+                        borderColor: '#FFD100',
+                        borderWidth: 2
+                    },
+                    {
+                        label: 'Xiaomi',
+                        data: [270.9, 305.0, 348.0],
+                        backgroundColor: 'rgba(255, 103, 0, 0.8)',
+                        borderColor: '#FF6700',
+                        borderWidth: 2
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Revenue Comparison (¥B)',
+                        font: { size: 18, weight: 'bold' },
+                        color: '#fff'
+                    },
+                    legend: {
+                        display: true,
+                        position: 'bottom',
+                        labels: { color: '#fff', font: { size: 12 } }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            callback: function(value) {
+                                return '¥' + value + 'B';
+                            },
+                            color: '#fff'
+                        },
+                        grid: { color: 'rgba(255,255,255,0.1)' }
+                    },
+                    x: {
+                        ticks: { color: '#fff' },
+                        grid: { color: 'rgba(255,255,255,0.1)' }
+                    }
+                }
+            }
+        });
+
+        // Profit Comparison
+        new Chart(document.getElementById('chart-comparison-profit'), {
+            type: 'bar',
+            data: {
+                labels: ['FY 2023', 'FY 2024', 'FY 2025E'],
+                datasets: [
+                    {
+                        label: 'Alibaba',
+                        data: [76.8, 95.3, 112.0],
+                        backgroundColor: 'rgba(255, 106, 0, 0.8)',
+                        borderColor: '#FF6A00',
+                        borderWidth: 2
+                    },
+                    {
+                        label: 'Meituan',
+                        data: [30.2, 47.5, 62.0],
+                        backgroundColor: 'rgba(255, 209, 0, 0.8)',
+                        borderColor: '#FFD100',
+                        borderWidth: 2
+                    },
+                    {
+                        label: 'Xiaomi',
+                        data: [19.3, 24.8, 30.5],
+                        backgroundColor: 'rgba(255, 103, 0, 0.8)',
+                        borderColor: '#FF6700',
+                        borderWidth: 2
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Net Income Comparison (¥B)',
+                        font: { size: 18, weight: 'bold' },
+                        color: '#fff'
+                    },
+                    legend: {
+                        display: true,
+                        position: 'bottom',
+                        labels: { color: '#fff', font: { size: 12 } }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            callback: function(value) {
+                                return '¥' + value + 'B';
+                            },
+                            color: '#fff'
+                        },
+                        grid: { color: 'rgba(255,255,255,0.1)' }
+                    },
+                    x: {
+                        ticks: { color: '#fff' },
+                        grid: { color: 'rgba(255,255,255,0.1)' }
+                    }
+                }
+            }
+        });
+
+        // Margin Comparison
+        new Chart(document.getElementById('chart-comparison-margins'), {
+            type: 'line',
+            data: {
+                labels: ['FY 2023', 'FY 2024', 'FY 2025E'],
+                datasets: [
+                    {
+                        label: 'Alibaba Gross Margin',
+                        data: [37.2, 38.5, 39.0],
+                        borderColor: '#FF6A00',
+                        backgroundColor: 'rgba(255, 106, 0, 0.1)',
+                        borderWidth: 3,
+                        fill: false,
+                        tension: 0.4
+                    },
+                    {
+                        label: 'Xiaomi Gross Margin',
+                        data: [19.8, 21.2, 22.5],
+                        borderColor: '#FF6700',
+                        backgroundColor: 'rgba(255, 103, 0, 0.1)',
+                        borderWidth: 3,
+                        fill: false,
+                        tension: 0.4
+                    },
+                    {
+                        label: 'Meituan Operating Margin',
+                        data: [10.8, 14.6, 16.3],
+                        borderColor: '#FFD100',
+                        backgroundColor: 'rgba(255, 209, 0, 0.1)',
+                        borderWidth: 3,
+                        fill: false,
+                        tension: 0.4
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Margin Comparison (%)',
+                        font: { size: 18, weight: 'bold' },
+                        color: '#fff'
+                    },
+                    legend: {
+                        display: true,
+                        position: 'bottom',
+                        labels: { color: '#fff', font: { size: 12 } }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 45,
+                        ticks: {
+                            callback: function(value) {
+                                return value + '%';
+                            },
+                            color: '#fff'
+                        },
+                        grid: { color: 'rgba(255,255,255,0.1)' }
+                    },
+                    x: {
+                        ticks: { color: '#fff' },
+                        grid: { color: 'rgba(255,255,255,0.1)' }
+                    }
+                }
+            }
+        });
+
+        // Growth Rate Comparison
+        new Chart(document.getElementById('chart-comparison-growth'), {
+            type: 'bar',
+            data: {
+                labels: ['Revenue Growth %', 'Profit Growth %'],
+                datasets: [
+                    {
+                        label: 'Alibaba (FY24-25E)',
+                        data: [4.7, 17.5],
+                        backgroundColor: 'rgba(255, 106, 0, 0.8)'
+                    },
+                    {
+                        label: 'Xiaomi (FY24-25E)',
+                        data: [14.1, 23.0],
+                        backgroundColor: 'rgba(255, 103, 0, 0.8)'
+                    },
+                    {
+                        label: 'Meituan (FY24-25E)',
+                        data: [16.7, 30.5],
+                        backgroundColor: 'rgba(255, 209, 0, 0.8)'
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Growth Rate Comparison (FY24 to FY25E)',
+                        font: { size: 18, weight: 'bold' },
+                        color: '#fff'
+                    },
+                    legend: {
+                        display: true,
+                        position: 'bottom',
+                        labels: { color: '#fff', font: { size: 12 } }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            callback: function(value) {
+                                return value + '%';
+                            },
+                            color: '#fff'
+                        },
+                        grid: { color: 'rgba(255,255,255,0.1)' }
+                    },
+                    x: {
+                        ticks: { color: '#fff' },
+                        grid: { color: 'rgba(255,255,255,0.1)' }
+                    }
+                }
+            }
+        });
+
+        // Valuation Comparison
+        new Chart(document.getElementById('chart-comparison-valuation'), {
+            type: 'bar',
+            data: {
+                labels: ['Alibaba', 'Xiaomi', 'Meituan'],
+                datasets: [
+                    {
+                        label: 'Forward P/E (FY25E)',
+                        data: [10.2, 15.3, 20.1],
+                        backgroundColor: ['rgba(255, 106, 0, 0.8)', 'rgba(255, 103, 0, 0.8)', 'rgba(255, 209, 0, 0.8)'],
+                        borderWidth: 2,
+                        borderColor: '#fff'
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                indexAxis: 'y',
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Valuation Comparison - Forward P/E Multiple',
+                        font: { size: 18, weight: 'bold' },
+                        color: '#fff'
+                    },
+                    legend: {
+                        display: true,
+                        position: 'bottom',
+                        labels: { color: '#fff', font: { size: 12 } }
+                    }
+                },
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        max: 25,
+                        ticks: {
+                            callback: function(value) {
+                                return value + 'x';
+                            },
+                            color: '#fff'
+                        },
+                        grid: { color: 'rgba(255,255,255,0.1)' }
+                    },
+                    y: {
+                        ticks: { color: '#fff' },
+                        grid: { color: 'rgba(255,255,255,0.1)' }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

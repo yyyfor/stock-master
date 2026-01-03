@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0; url=equity-analysis.html">
+    <title>Stock Analysis Dashboard</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            padding: 60px 40px;
+            text-align: center;
+            max-width: 600px;
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #1a1a2e;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .description {
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 40px;
+            font-size: 1rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            padding: 18px 50px;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(102, 126, 234, 0.6);
+        }
+
+        .companies {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+
+        .company-badge {
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .badge-alibaba {
+            background: rgba(255, 106, 0, 0.1);
+            color: #FF6A00;
+            border: 2px solid #FF6A00;
+        }
+
+        .badge-xiaomi {
+            background: rgba(255, 103, 0, 0.1);
+            color: #FF6700;
+            border: 2px solid #FF6700;
+        }
+
+        .badge-meituan {
+            background: rgba(255, 209, 0, 0.1);
+            color: #D4A000;
+            border: 2px solid #FFD100;
+        }
+
+        .features {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid #f0f0f0;
+        }
+
+        .features h3 {
+            font-size: 1.2rem;
+            color: #1a1a2e;
+            margin-bottom: 20px;
+        }
+
+        .features ul {
+            list-style: none;
+            text-align: left;
+            display: inline-block;
+        }
+
+        .features li {
+            padding: 8px 0;
+            color: #555;
+        }
+
+        .features li:before {
+            content: "✓ ";
+            color: #667eea;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+
+        .update-info {
+            margin-top: 30px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .loading {
+            margin-top: 20px;
+            color: #667eea;
+            font-style: italic;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .container {
+                padding: 40px 30px;
+            }
+
+            .companies {
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Stock Analysis Dashboard</h1>
+        <p class="subtitle">China Tech Giants Equity Research</p>
+
+        <p class="description">
+            Comprehensive financial analysis and data visualization for leading Chinese technology companies.
+            Features interactive charts, detailed financials, competitive analysis, and investment recommendations.
+        </p>
+
+        <div class="companies">
+            <span class="company-badge badge-alibaba">Alibaba (9988.HK)</span>
+            <span class="company-badge badge-xiaomi">Xiaomi (1810.HK)</span>
+            <span class="company-badge badge-meituan">Meituan (3690.HK)</span>
+        </div>
+
+        <div style="margin: 40px 0;">
+            <a href="equity-analysis.html" class="cta-button">View Full Analysis →</a>
+        </div>
+
+        <div class="features">
+            <h3>What's Inside</h3>
+            <ul>
+                <li>Interactive financial charts powered by Chart.js</li>
+                <li>3-year historical data and forward estimates</li>
+                <li>Comprehensive competitive analysis & moat assessment</li>
+                <li>Investment ratings and price targets</li>
+                <li>Key risks and catalysts for each company</li>
+                <li>Cross-company comparison visualizations</li>
+            </ul>
+        </div>
+
+        <div class="update-info">
+            <strong>📅 Auto-Updated Daily</strong><br>
+            Data refreshes automatically after Hong Kong market close (4:30 PM HKT)
+        </div>
+
+        <p class="loading">Redirecting to analysis page...</p>
+    </div>
+
+    <script>
+        // Redirect after 2 seconds (or user can click the button immediately)
+        setTimeout(function() {
+            window.location.href = 'equity-analysis.html';
+        }, 2000);
+    </script>
+</body>
+</html>
