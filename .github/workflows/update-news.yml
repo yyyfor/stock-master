@@ -1,0 +1,48 @@
+name: Update Stock News (Hourly)
+
+on:
+  schedule:
+    # Runs every hour at minute 15 (e.g., 00:15, 01:15, 02:15, etc.)
+    - cron: '15 * * * *'
+
+  workflow_dispatch:  # Allows manual triggering
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Fetch latest news
+        run: |
+          echo "Fetching latest news for Alibaba (9988.HK), Xiaomi (1810.HK), Meituan (3690.HK)..."
+          python scripts/update_news_only.py
+          echo "News update completed at $(date)"
+
+      - name: Commit and push if changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/news_*.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: hourly news update - $(date +'%Y-%m-%d %H:%M UTC')" && git push)
+
+      - name: Trigger Pages deployment
+        if: success()
+        run: |
+          echo "News updated, GitHub Pages will auto-deploy"

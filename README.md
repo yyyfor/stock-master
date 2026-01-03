@@ -74,19 +74,42 @@ git push origin main
    - Your site will be live at `https://[your-username].github.io/stock-master/`
    - Check deployment status in the **Actions** tab
 
-## ⏰ Automated Daily Updates
+## ⏰ Automated Updates
 
-The dashboard automatically updates every weekday after Hong Kong market closes:
+The dashboard has two automated update workflows:
+
+### 1. Financial Data Update (Daily)
+
+Updates complete financial data and news after market close:
 
 - **Schedule:** 4:30 PM HKT (8:30 AM UTC), Monday-Friday
 - **Workflow:** `.github/workflows/update-data.yml`
-- **Updates:** Financial data, timestamps, and deploys to GitHub Pages
+- **Updates:**
+  - Stock prices, financials, margins, cash flow
+  - Latest news articles
+  - Timestamps in HTML files
+  - Deploys to GitHub Pages
 
-### Manual Workflow Trigger
+### 2. News Update (Hourly)
 
-1. Go to **Actions** tab in your GitHub repository
-2. Select **"Update Stock Analysis Data"**
-3. Click **"Run workflow"** → **"Run workflow"**
+Fetches only the latest news articles throughout the day:
+
+- **Schedule:** Every hour at :15 (e.g., 00:15, 01:15, 02:15 UTC)
+- **Workflow:** `.github/workflows/update-news.yml`
+- **Updates:**
+  - Latest news articles (10 per company)
+  - News metadata
+  - Deploys to GitHub Pages
+
+### Manual Workflow Triggers
+
+**Financial Data + News:**
+1. Go to **Actions** tab → **"Update Stock Analysis Data"**
+2. Click **"Run workflow"** → **"Run workflow"**
+
+**News Only:**
+1. Go to **Actions** tab → **"Update Stock News (Hourly)"**
+2. Click **"Run workflow"** → **"Run workflow"**
 
 ## 📁 Project Structure
 
@@ -94,12 +117,22 @@ The dashboard automatically updates every weekday after Hong Kong market closes:
 stock-master/
 ├── .github/
 │   └── workflows/
-│       ├── update-data.yml           # Daily data update (4:30 PM HKT)
+│       ├── update-data.yml           # Daily financial data update (4:30 PM HKT)
+│       ├── update-news.yml           # Hourly news update (every hour)
 │       └── deploy-pages.yml          # GitHub Pages deployment
 ├── scripts/
-│   └── update_financials.py          # Python script to fetch real financial data
+│   ├── update_financials.py          # Full data + news update
+│   ├── update_news_only.py           # News-only update (faster)
+│   ├── test_news.py                  # Test script to preview news
+│   ├── create_tabbed_version.py      # Tab CSS generation
+│   ├── restructure_tabs.py           # HTML tab restructuring
+│   └── add_charts_and_news.py        # Chart & news script injection
 ├── data/
-│   └── latest_data.json              # Cached financial data (auto-generated)
+│   ├── latest_data.json              # Financial data (auto-generated)
+│   ├── news_alibaba.json             # Alibaba news (auto-updated hourly)
+│   ├── news_xiaomi.json              # Xiaomi news (auto-updated hourly)
+│   ├── news_meituan.json             # Meituan news (auto-updated hourly)
+│   └── news_metadata.json            # News update metadata
 ├── equity-analysis.html              # Main analysis dashboard (English)
 ├── equity-analysis-zh.html           # Main analysis dashboard (Chinese)
 ├── index.html                        # Landing page (English, auto-redirects)
@@ -162,14 +195,27 @@ See `CLAUDE.md` for detailed implementation information.
 
 See `CLAUDE.md` for detailed development guidelines.
 
-## 📅 Update Schedule
+## 📅 Update Schedules
 
-| Time | Event | Action |
-|------|-------|--------|
-| 4:00 PM HKT | HK Market Closes | Trading day ends |
-| 4:30 PM HKT | Workflow Triggers | Data update begins |
-| ~4:35 PM HKT | Data Updated | New commit to repo |
-| ~4:40 PM HKT | Pages Deployed | Live site updated |
+### Daily Financial Update Schedule
+
+| Time (HKT) | Time (UTC) | Event | Action |
+|------------|------------|-------|--------|
+| 4:00 PM | 8:00 AM | HK Market Closes | Trading day ends |
+| 4:30 PM | 8:30 AM | Workflow Triggers | Full data + news update |
+| ~4:35 PM | ~8:35 AM | Data Updated | New commit to repo |
+| ~4:40 PM | ~8:40 AM | Pages Deployed | Live site updated |
+
+### Hourly News Update Schedule
+
+| Frequency | Example Times (UTC) | Action |
+|-----------|---------------------|--------|
+| Every hour at :15 | 00:15, 01:15, 02:15, ... 23:15 | Fetch latest news |
+| ~2-3 min later | After fetch completes | Commit & deploy |
+
+**Total Updates per Day:**
+- Financial Data: 1x (weekdays only, 4:30 PM HKT)
+- News: 24x (every hour, every day)
 
 *Times are approximate and depend on workflow execution time*
 
