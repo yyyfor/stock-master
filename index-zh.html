@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0; url=equity-analysis.html">
-    <title>Stock Analysis Dashboard</title>
+    <meta http-equiv="refresh" content="0; url=equity-analysis-zh.html">
+    <title>股票分析仪表板</title>
 
     <style>
         * {
@@ -14,7 +14,7 @@
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
             display: flex;
@@ -43,6 +43,36 @@
                 opacity: 1;
                 transform: translateY(0);
             }
+        }
+
+        .lang-switcher {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            gap: 8px;
+        }
+
+        .lang-btn {
+            padding: 6px 16px;
+            border: 2px solid #667eea;
+            background: white;
+            color: #667eea;
+            border-radius: 15px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.85rem;
+            transition: all 0.3s;
+        }
+
+        .lang-btn:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        .lang-btn.active {
+            background: #667eea;
+            color: white;
         }
 
         h1 {
@@ -161,36 +191,6 @@
             font-style: italic;
         }
 
-        .lang-switcher {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            display: flex;
-            gap: 8px;
-        }
-
-        .lang-btn {
-            padding: 6px 16px;
-            border: 2px solid #667eea;
-            background: white;
-            color: #667eea;
-            border-radius: 15px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 0.85rem;
-            transition: all 0.3s;
-        }
-
-        .lang-btn:hover {
-            background: #667eea;
-            color: white;
-        }
-
-        .lang-btn.active {
-            background: #667eea;
-            color: white;
-        }
-
         @media (max-width: 600px) {
             h1 {
                 font-size: 2rem;
@@ -209,52 +209,52 @@
 <body>
     <div class="container">
         <div class="lang-switcher">
-            <a href="index.html" class="lang-btn active">English</a>
-            <a href="index-zh.html" class="lang-btn">中文</a>
+            <a href="index.html" class="lang-btn">English</a>
+            <a href="index-zh.html" class="lang-btn active">中文</a>
         </div>
 
-        <h1>📊 Stock Analysis Dashboard</h1>
-        <p class="subtitle">China Tech Giants Equity Research</p>
+        <h1>📊 股票分析仪表板</h1>
+        <p class="subtitle">中国科技巨头股权研究</p>
 
         <p class="description">
-            Comprehensive financial analysis and data visualization for leading Chinese technology companies.
-            Features interactive charts, detailed financials, competitive analysis, and investment recommendations.
+            为中国领先科技公司提供全面的财务分析和数据可视化。
+            包含交互式图表、详细财务数据、竞争分析和投资建议。
         </p>
 
         <div class="companies">
-            <span class="company-badge badge-alibaba">Alibaba (9988.HK)</span>
-            <span class="company-badge badge-xiaomi">Xiaomi (1810.HK)</span>
-            <span class="company-badge badge-meituan">Meituan (3690.HK)</span>
+            <span class="company-badge badge-alibaba">阿里巴巴 (9988.HK)</span>
+            <span class="company-badge badge-xiaomi">小米 (1810.HK)</span>
+            <span class="company-badge badge-meituan">美团 (3690.HK)</span>
         </div>
 
         <div style="margin: 40px 0;">
-            <a href="equity-analysis.html" class="cta-button">View Full Analysis →</a>
+            <a href="equity-analysis-zh.html" class="cta-button">查看完整分析 →</a>
         </div>
 
         <div class="features">
-            <h3>What's Inside</h3>
+            <h3>报告内容</h3>
             <ul>
-                <li>Interactive financial charts powered by Chart.js</li>
-                <li>3-year historical data and forward estimates</li>
-                <li>Comprehensive competitive analysis & moat assessment</li>
-                <li>Investment ratings and price targets</li>
-                <li>Key risks and catalysts for each company</li>
-                <li>Cross-company comparison visualizations</li>
+                <li>Chart.js 驱动的交互式财务图表</li>
+                <li>3年历史数据和前瞻性预估</li>
+                <li>全面的竞争分析与护城河评估</li>
+                <li>投资评级和目标价格</li>
+                <li>各公司的主要风险和催化剂</li>
+                <li>公司间对比可视化图表</li>
             </ul>
         </div>
 
         <div class="update-info">
-            <strong>📅 Auto-Updated Daily</strong><br>
-            Data refreshes automatically after Hong Kong market close (4:30 PM HKT)
+            <strong>📅 每日自动更新</strong><br>
+            数据在香港市场收盘后自动刷新（香港时间下午4:30）
         </div>
 
-        <p class="loading">Redirecting to analysis page...</p>
+        <p class="loading">正在跳转到分析页面...</p>
     </div>
 
     <script>
         // Redirect after 2 seconds (or user can click the button immediately)
         setTimeout(function() {
-            window.location.href = 'equity-analysis.html';
+            window.location.href = 'equity-analysis-zh.html';
         }, 2000);
     </script>
 </body>

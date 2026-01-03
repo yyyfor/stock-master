@@ -22,8 +22,9 @@ This repository contains comprehensive financial analysis and interactive visual
 - 🔍 **Investment Analysis** - Business moats, competitive positioning, risk assessment
 - 🎯 **Investment Ratings** - BUY/HOLD/SELL recommendations with price targets
 - 📊 **Cross-Company Comparisons** - Side-by-side performance metrics
-- 🤖 **Auto-Updated Daily** - Runs after Hong Kong market close (4:30 PM HKT)
+- 🤖 **Auto-Updated Daily** - Real-time data from yfinance after HK market close (4:30 PM HKT)
 - 🌐 **GitHub Pages Deployment** - Accessible via web browser
+- 🌏 **Bilingual Support** - Full English and Chinese (中文) versions with language switcher
 
 ## 🚀 Quick Start
 
@@ -47,8 +48,11 @@ python3 -m http.server 8000
 
 Once deployed, access the dashboard at:
 ```
-https://yyyfor.github.io/stock-master/
+English: https://yyyfor.github.io/stock-master/
+Chinese: https://yyyfor.github.io/stock-master/index-zh.html
 ```
+
+Or use the language switcher in the top-right corner of any page to toggle between English and Chinese versions.
 
 ## 🔧 Setup GitHub Pages
 
@@ -90,33 +94,49 @@ The dashboard automatically updates every weekday after Hong Kong market closes:
 stock-master/
 ├── .github/
 │   └── workflows/
-│       ├── update-data.yml       # Daily data update (4:30 PM HKT)
-│       └── deploy-pages.yml      # GitHub Pages deployment
-├── equity-analysis.html          # Main analysis dashboard
-├── index.html                    # Landing page (auto-redirects)
-├── CLAUDE.md                     # Development guide for AI
-└── README.md                     # This file
+│       ├── update-data.yml           # Daily data update (4:30 PM HKT)
+│       └── deploy-pages.yml          # GitHub Pages deployment
+├── scripts/
+│   └── update_financials.py          # Python script to fetch real financial data
+├── data/
+│   └── latest_data.json              # Cached financial data (auto-generated)
+├── equity-analysis.html              # Main analysis dashboard (English)
+├── equity-analysis-zh.html           # Main analysis dashboard (Chinese)
+├── index.html                        # Landing page (English, auto-redirects)
+├── index-zh.html                     # Landing page (Chinese, auto-redirects)
+├── requirements.txt                  # Python dependencies
+├── CLAUDE.md                         # Development guide for AI
+└── README.md                         # This file
 ```
 
 ## 🛠️ Technology Stack
 
 - **Frontend:** HTML5, CSS3, Bootstrap 5
 - **Charts:** Chart.js 4.4.0
+- **Languages:** English & Chinese (Simplified)
+- **Backend/Data:** Python 3.11+ (yfinance, pandas, requests)
 - **Deployment:** GitHub Pages
-- **Automation:** GitHub Actions
-- **Data (future):** Python (yfinance, pandas, requests)
+- **Automation:** GitHub Actions (scheduled workflows)
 
 ## 📊 Data Sources
 
-**Current Version:** Uses approximate/illustrative financial data based on publicly available information.
+**Real-Time Data Integration:** The dashboard now fetches live financial data using:
+- **Primary Source:** Yahoo Finance API (`yfinance`) for stock prices, financials, and market data
+- **Update Frequency:** Daily at 4:30 PM HKT after Hong Kong Stock Exchange closes
+- **Data Points:** Revenue, net income, margins, cash flow, balance sheet metrics
 
-**Future Integration:** To fetch real-time data, implement:
-- Yahoo Finance API (`yfinance`)
-- Alpha Vantage
-- Financial Modeling Prep
-- IEX Cloud
+**Data Update Script:** `scripts/update_financials.py`
+- Fetches data for all three companies (Alibaba 9988.HK, Xiaomi 1810.HK, Meituan 3690.HK)
+- Updates both English and Chinese versions
+- Saves snapshot to `data/latest_data.json`
+- Auto-commits and deploys via GitHub Actions
 
-See `CLAUDE.md` for implementation details.
+**Additional Data Sources (Optional Integration):**
+- Alpha Vantage - For historical data and fundamentals
+- Financial Modeling Prep - For detailed financial statements
+- IEX Cloud - For real-time quotes
+
+See `CLAUDE.md` for detailed implementation information.
 
 ## 🔐 Data Disclaimer
 

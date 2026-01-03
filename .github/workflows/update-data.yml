@@ -28,22 +28,13 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests pandas yfinance beautifulsoup4
+          pip install -r requirements.txt
 
       - name: Update financial data
         run: |
           echo "Fetching latest financial data for Alibaba (9988.HK), Xiaomi (1810.HK), Meituan (3690.HK)..."
-          # This is a placeholder - in production, you would run a Python script
-          # that fetches real data from financial APIs and updates equity-analysis.html
-
-          # Example: python scripts/update_financials.py
-
+          python scripts/update_financials.py
           echo "Data update completed at $(date)"
-
-      - name: Update timestamp in HTML
-        run: |
-          CURRENT_DATE=$(date +'%B %d, %Y')
-          sed -i "s/Analysis Date: .*/Analysis Date: $CURRENT_DATE<\/p>/" equity-analysis.html
 
       - name: Commit and push if changes
         run: |

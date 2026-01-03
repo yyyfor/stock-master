@@ -6,7 +6,9 @@ on:
       - main
     paths:
       - 'equity-analysis.html'
+      - 'equity-analysis-zh.html'
       - 'index.html'
+      - 'index-zh.html'
       - '.github/workflows/deploy-pages.yml'
 
   workflow_dispatch:  # Allows manual triggering
