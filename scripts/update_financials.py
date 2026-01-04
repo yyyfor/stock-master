@@ -26,7 +26,7 @@ USD_TO_CNY = 7.2  # Approximate rate, update as needed
 
 
 def get_stock_info(ticker):
-    """Fetch stock information using yfinance"""
+    """Fetch stock information using yfinance with fallback to chart API"""
     try:
         stock = yf.Ticker(ticker)
         info = stock.info
@@ -53,7 +53,42 @@ def get_stock_info(ticker):
 
         return data
     except Exception as e:
-        print(f"Error fetching data for {ticker}: {e}")
+        print(f"Primary API failed for {ticker}: {e}")
+        print(f"Trying fallback chart API...")
+
+        # Fallback to chart API
+        try:
+            import requests
+            url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}"
+            headers = {'User-Agent': 'Mozilla/5.0'}
+            response = requests.get(url, headers=headers, timeout=15)
+
+            if response.status_code == 200:
+                chart_data = response.json()
+                if 'chart' in chart_data and 'result' in chart_data['chart']:
+                    result = chart_data['chart']['result'][0]
+                    meta = result.get('meta', {})
+                    price = meta.get('regularMarketPrice') or meta.get('previousClose', 0)
+
+                    if price:
+                        print(f"✅ Fallback successful, got price: {price}")
+                        # Return minimal data with price only
+                        return {
+                            'ticker': ticker,
+                            'current_price': price,
+                            'market_cap': 0,
+                            'pe_ratio': 0,
+                            'revenue': 0,
+                            'net_income': 0,
+                            'gross_margin': 0,
+                            'operating_margin': 0,
+                            'total_cash': 0,
+                            'total_debt': 0,
+                            'free_cashflow': 0,
+                        }
+        except Exception as fallback_error:
+            print(f"Fallback also failed: {fallback_error}")
+
         return None
 
 
@@ -218,5 +253,3 @@ if __name__ == "__main__":
         import traceback
         traceback.print_exc()
         exit(1)
-# Run metric calculations after data fetch
-python scripts/calculate_live_metrics.py
