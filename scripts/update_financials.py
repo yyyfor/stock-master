@@ -218,3 +218,5 @@ if __name__ == "__main__":
         import traceback
         traceback.print_exc()
         exit(1)
+# Run metric calculations after data fetch
+python scripts/calculate_live_metrics.py
