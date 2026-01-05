@@ -1,5 +1,66 @@
 [
   {
+    "id": "09f0fe12-c832-30e0-879c-b0e664f09acd",
+    "content": {
+      "id": "09f0fe12-c832-30e0-879c-b0e664f09acd",
+      "contentType": "STORY",
+      "title": "This Vietnamese town boomed as factories left China. Now it’s asking what’s next?",
+      "description": "",
+      "summary": "The transformation of Vietnam's Bac Ninh is evident in the signs above its shops and the spicy Chinese and Korean dishes on its tables.  Once known for its rice fields and the love duets of its centuries-old Quan Ho folk songs, the city just north of Hanoi has become one of Vietnam's busiest factory zones, reflecting a surge of investment, hastened by President Donald Trump’s tariff hikes, that are reshaping the region.  The economy has profited from friction between Washington and Beijing as factories shifted out of China, joining earlier waves of foreign investment by the Japanese and South Koreans that have made Vietnam a global manufacturing hub.",
+      "pubDate": "2026-01-05T06:12:55Z",
+      "displayTime": "2026-01-05T06:12:55Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/ap_finance_articles_694/e6b9356cececeb8033a72d35e5a61df0",
+        "originalWidth": 5575,
+        "originalHeight": 4181,
+        "caption": "Two Vietnamese girls come out of a Vietnamese convenience store with signboard including Chinese characters in downtown Bac Ninh, Vietnam, Nov. 3, 2025. (AP Photo/Vincent Thian)",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/6ml8tCGtdz.PQhu..psKXg--~B/aD00MTgxO3c9NTU3NTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/ap_finance_articles_694/e6b9356cececeb8033a72d35e5a61df0",
+            "width": 5575,
+            "height": 4181,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/25fNHIv260c60_MhccxeEQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/ap_finance_articles_694/e6b9356cececeb8033a72d35e5a61df0",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Associated Press Finance",
+        "url": "http://www.ap.org/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/vietnamese-town-boomed-factories-left-061255295.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/vietnamese-town-boomed-factories-left-061255295.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "ef496933-d408-3ef6-9238-62e609a10c17",
     "content": {
       "id": "ef496933-d408-3ef6-9238-62e609a10c17",
@@ -498,67 +559,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/alibaba-group-holding-ltd-major-170024550.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "7cbd16d6-bff5-373a-8447-ae47cbe1c335",
-    "content": {
-      "id": "7cbd16d6-bff5-373a-8447-ae47cbe1c335",
-      "contentType": "STORY",
-      "title": "Nvidia Seeks to Ramp H200 Supply",
-      "description": "",
-      "summary": "China demand overwhelms current inventory",
-      "pubDate": "2025-12-31T16:07:14Z",
-      "displayTime": "2025-12-31T16:07:14Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/528af7acf1b685a79f0a0ee8c34ab69c",
-        "originalWidth": 500,
-        "originalHeight": 500,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/TmwzWnbiiLMX4H6E8MgK_w--~B/aD01MDA7dz01MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/528af7acf1b685a79f0a0ee8c34ab69c",
-            "width": 500,
-            "height": 500,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/YUjVQvtE5RGTeBb3yJfgIg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/528af7acf1b685a79f0a0ee8c34ab69c",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "GuruFocus.com",
-        "url": "http://www.gurufocus.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/nvidia-seeks-ramp-h200-supply-160714763.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/nvidia-seeks-ramp-h200-supply-160714763.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"

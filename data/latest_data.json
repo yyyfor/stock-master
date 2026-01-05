@@ -1,47 +1,44 @@
 {
-  "timestamp": "2026-01-04T22:01:26.642162",
+  "timestamp": "2026-01-05T08:46:49.801930",
   "data": {
     "alibaba": {
-      "source": "yahoo_chart_api",
       "ticker": "9988.HK",
-      "current_price": 149.0,
-      "market_cap": 0,
-      "pe_ratio": 0,
-      "revenue": 0,
-      "net_income": 0,
-      "gross_margin": 0,
-      "operating_margin": 0,
-      "total_cash": 0,
-      "total_debt": 0,
-      "free_cashflow": 0
+      "current_price": 152.8,
+      "market_cap": 2916690690048,
+      "pe_ratio": 16.581957,
+      "revenue": 1012055015424,
+      "net_income": 125433004032,
+      "gross_margin": 41.173,
+      "operating_margin": 2.165,
+      "total_cash": 373572009984,
+      "total_debt": 302947991552,
+      "free_cashflow": -49489498112
     },
     "xiaomi": {
-      "source": "yahoo_chart_api",
       "ticker": "1810.HK",
-      "current_price": 40.28,
-      "market_cap": 0,
-      "pe_ratio": 0,
-      "revenue": 0,
-      "net_income": 0,
-      "gross_margin": 0,
-      "operating_margin": 0,
-      "total_cash": 0,
-      "total_debt": 0,
-      "free_cashflow": 0
+      "current_price": 39.34,
+      "market_cap": 1020036448256,
+      "pe_ratio": 18.53584,
+      "revenue": 449375305728,
+      "net_income": 44125257728,
+      "gross_margin": 22.23,
+      "operating_margin": 8.488,
+      "total_cash": 110150320128,
+      "total_debt": 27588950016,
+      "free_cashflow": 32390629376
     },
     "meituan": {
-      "source": "yahoo_chart_api",
       "ticker": "3690.HK",
-      "current_price": 104.6,
-      "market_cap": 0,
-      "pe_ratio": 0,
-      "revenue": 0,
-      "net_income": 0,
-      "gross_margin": 0,
-      "operating_margin": 0,
-      "total_cash": 0,
-      "total_debt": 0,
-      "free_cashflow": 0
+      "current_price": 105.4,
+      "market_cap": 643663855616,
+      "pe_ratio": 29.268873,
+      "revenue": 362373021696,
+      "net_income": -1988788992,
+      "gross_margin": 33.516,
+      "operating_margin": -20.095,
+      "total_cash": 141287751680,
+      "total_debt": 51265949696,
+      "free_cashflow": 3801446400
     }
   }
 }
