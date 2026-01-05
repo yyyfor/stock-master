@@ -1,5 +1,66 @@
 [
   {
+    "id": "ef496933-d408-3ef6-9238-62e609a10c17",
+    "content": {
+      "id": "ef496933-d408-3ef6-9238-62e609a10c17",
+      "contentType": "STORY",
+      "title": "How Alibaba’s Kunlunxin AI Chip Spin-Off and Cloud Push At Alibaba Group Holding (BABA) Has Changed Its Investment Story",
+      "description": "",
+      "summary": "In recent days, Alibaba Group Holding said it plans to spin off its artificial intelligence computer chip unit Kunlunxin and list it in Hong Kong in early 2027, while simultaneously scaling AI workloads and Qwen model integrations across Alibaba Cloud. This combination of a dedicated AI chip listing and deeper cloud AI deployment highlights how Alibaba is reorganizing around infrastructure that could underpin future AI services for enterprises and developers. We’ll now examine how the...",
+      "pubDate": "2026-01-05T05:05:41Z",
+      "displayTime": "2026-01-05T05:05:41Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+        "originalWidth": 1194,
+        "originalHeight": 432,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Asb.EQEV7awFB_Mkuf_o.A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+            "width": 1194,
+            "height": 432,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/D6tGlHnBV1OBj9DD.GNtjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Simply Wall St.",
+        "url": "https://simplywall.st/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-kunlunxin-ai-chip-spin-050541710.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-kunlunxin-ai-chip-spin-050541710.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "a2464367-bcba-3239-b02e-155756c48899",
     "content": {
       "id": "a2464367-bcba-3239-b02e-155756c48899",
@@ -502,62 +563,6 @@
         "region": "US",
         "lang": "en-US"
       },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "b80793bf-500f-39c9-a3ce-5866063a3eb9",
-    "content": {
-      "id": "b80793bf-500f-39c9-a3ce-5866063a3eb9",
-      "contentType": "STORY",
-      "title": "Last Time Alibaba Stock Had a Year This Good, It Got Ugly. One Risk to Watch.",
-      "description": "",
-      "summary": "History is nothing to fret about, especially after Alibaba’s rally this year fueled by a pivot to artificial intelligence",
-      "pubDate": "2025-12-31T13:59:00Z",
-      "displayTime": "2025-12-31T13:59:00Z",
-      "isHosted": false,
-      "bypassModal": false,
-      "previewUrl": "https://finance.yahoo.com/m/b80793bf-500f-39c9-a3ce-5866063a3eb9/last-time-alibaba-stock-had-a.html",
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/Barrons.com/d9532c8f8536088be8aa8ade1bb31c92",
-        "originalWidth": 1280,
-        "originalHeight": 640,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/KrMFdAoPdqybaRSceNZDpA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/d9532c8f8536088be8aa8ade1bb31c92",
-            "width": 1280,
-            "height": 640,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Yj96pOJzQC8OLvrxJfGmtQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Barrons.com/d9532c8f8536088be8aa8ade1bb31c92",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Barrons.com",
-        "url": "http://www.barrons.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.barrons.com/articles/alibaba-stock-risk-rally-ai-086d36b1?siteid=yhoof2&yptr=yahoo",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": null,
       "metadata": {
         "editorsPick": false
       },
