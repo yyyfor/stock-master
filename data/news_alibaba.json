@@ -1,5 +1,127 @@
 [
   {
+    "id": "1a19f687-2da4-3482-93ff-f63cefd9b3b5",
+    "content": {
+      "id": "1a19f687-2da4-3482-93ff-f63cefd9b3b5",
+      "contentType": "STORY",
+      "title": "MiniMax's Hong Kong IPO set to hit US$538 million amid Chinese AI sector frenzy",
+      "description": "",
+      "summary": "MiniMax is set to raise at least HK$4.2 billion (US$537.7 million) by pricing its Hong Kong initial public offering (IPO) at the top of its marketed range, underscoring strong demand for China's artificial intelligence sector amid an intensifying race with the US. The Shanghai-based firm, backed by Alibaba Group Holding and Tencent Holdings, planned to price its 25.4 million shares on offer at HK$165 each, according to people familiar with the matter. The company would stop taking orders from in",
+      "pubDate": "2026-01-05T09:30:00Z",
+      "displayTime": "2026-01-05T09:30:00Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/south_china_morning_post_us_228/b44bd21dcb4a9e8f35c423a4e468eb4d",
+        "originalWidth": 1999,
+        "originalHeight": 1265,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/4uF62UGEojiV.hu4bVVhQg--~B/aD0xMjY1O3c9MTk5OTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/south_china_morning_post_us_228/b44bd21dcb4a9e8f35c423a4e468eb4d",
+            "width": 1999,
+            "height": 1265,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/3IbxMh6zG6IqMeeoBU8sIA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/south_china_morning_post_us_228/b44bd21dcb4a9e8f35c423a4e468eb4d",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "South China Morning Post",
+        "url": "https://www.scmp.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/minimaxs-hong-kong-ipo-set-093000480.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/minimaxs-hong-kong-ipo-set-093000480.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "c4d6d485-9a09-3083-826e-86061d167e1f",
+    "content": {
+      "id": "c4d6d485-9a09-3083-826e-86061d167e1f",
+      "contentType": "STORY",
+      "title": "Emerging-Market Stocks Set for Record High Amid AI Optimism",
+      "description": "",
+      "summary": "The MSCI Emerging Markets Index rose 1.2% as of 7:51 a.m. London time on Monday, set for a record close and also marking the best start to a year since 2018.  Taiwan Semiconductor Manufacturing Co. accounted for more than half of the gauge’s gains after Goldman Sachs Group Inc. raised its price target for the supplier of Apple Inc. and Nivida Corp. Other major movers included Samsung Electronics, SK Hynix and Alibaba Group Holding Ltd.  The rally has been supported by a weaker dollar and US investors’ search for overseas assets, alongside reform momentum in economies from Ghana to South Korea.",
+      "pubDate": "2026-01-05T09:20:09Z",
+      "displayTime": "2026-01-05T09:20:09Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/72a2e52fab30713cbe417910bcb32912",
+        "originalWidth": 1340,
+        "originalHeight": 784,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/fE7pcBHA1M_SaAU4zmfN2A--~B/aD03ODQ7dz0xMzQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/bloomberg_holding_pen_162/72a2e52fab30713cbe417910bcb32912",
+            "width": 1340,
+            "height": 784,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/f0qVEUVxVsD.F0xKoosgbA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/72a2e52fab30713cbe417910bcb32912",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Bloomberg",
+        "url": "https://www.bloomberg.com/company"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/emerging-market-stocks-set-record-022546949.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/emerging-market-stocks-set-record-022546949.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "09f0fe12-c832-30e0-879c-b0e664f09acd",
     "content": {
       "id": "09f0fe12-c832-30e0-879c-b0e664f09acd",
@@ -456,109 +578,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/best-stock-buy-now-alibaba-212000275.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "3d90780e-85ad-3fcd-a9f7-b0e733b1c111",
-    "content": {
-      "id": "3d90780e-85ad-3fcd-a9f7-b0e733b1c111",
-      "contentType": "STORY",
-      "title": "China's Moonshot AI raises US$500 million in latest funding round: report",
-      "description": "",
-      "summary": "Chinese artificial intelligence unicorn Moonshot AI has raised US$500 million in its recent Series C funding round, according to a report, as start-up rivals MiniMax Group and Zhipu AI gear up for their initial public offerings (IPOs). Moonshot AI, developer of the highly lauded Kimi AI models, saw IDG Capital lay out US$150 million to lead the latest financing round, with existing stakeholders Alibaba Group Holding and Tencent Holdings also participating, Chinese technology news outlet LatePost",
-      "pubDate": "2026-01-01T09:30:00Z",
-      "displayTime": "2026-01-01T09:30:00Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/south_china_morning_post_us_228/ec919148592bd5defc2ec7c51b75c2cb",
-        "originalWidth": 1999,
-        "originalHeight": 1473,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/k_EJXfbDNUY0xUhbx.0DIg--~B/aD0xNDczO3c9MTk5OTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/south_china_morning_post_us_228/ec919148592bd5defc2ec7c51b75c2cb",
-            "width": 1999,
-            "height": 1473,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/TCEKv5ERNDrkhlq_kA.kJQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/south_china_morning_post_us_228/ec919148592bd5defc2ec7c51b75c2cb",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "South China Morning Post",
-        "url": "https://www.scmp.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/chinas-moonshot-ai-raises-us-093000346.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/chinas-moonshot-ai-raises-us-093000346.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "cce316f7-6e37-330a-9941-f3287e35f122",
-    "content": {
-      "id": "cce316f7-6e37-330a-9941-f3287e35f122",
-      "contentType": "STORY",
-      "title": "Alibaba Group Holding Ltd: A Major Addition to Invesco EQV European Equity Fund's Portfolio",
-      "description": "",
-      "summary": "Invesco EQV European Equity Fund (Trades, Portfolio)'s Strategic Moves in Q4 2025",
-      "pubDate": "2025-12-31T17:00:24Z",
-      "displayTime": "2025-12-31T17:00:24Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": null,
-      "provider": {
-        "displayName": "GuruFocus.com",
-        "url": "http://www.gurufocus.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-group-holding-ltd-major-170024550.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-group-holding-ltd-major-170024550.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
