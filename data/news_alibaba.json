@@ -1,5 +1,127 @@
 [
   {
+    "id": "e1a35866-c391-3e0a-8059-d8b5733a4fbc",
+    "content": {
+      "id": "e1a35866-c391-3e0a-8059-d8b5733a4fbc",
+      "contentType": "STORY",
+      "title": "Is Tencent (SEHK:700) Quietly Recasting Its Fintech and AI Narrative Through WeBank and MiniMax?",
+      "description": "",
+      "summary": "In recent days, China's central bank confirmed that from March 20, ten major banks including Tencent-backed WeBank began paying quarterly interest on digital yuan balances, while Chinese AI firm MiniMax, supported by Tencent and Alibaba, priced its Hong Kong IPO at the top of its range and started trading. These developments highlight Tencent's growing exposure to regulated digital finance via WeBank and its participation in China's AI funding cycle through its stake in MiniMax. We’ll now...",
+      "pubDate": "2026-01-06T17:14:05Z",
+      "displayTime": "2026-01-06T17:14:05Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7cd227f8d0d6c5f1f91c43c05edf831f",
+        "originalWidth": 1194,
+        "originalHeight": 432,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/THOXGtG1WchfctUTXzuYNg--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7cd227f8d0d6c5f1f91c43c05edf831f",
+            "width": 1194,
+            "height": 432,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/1z6ElCkt0JzhsQ2w5SeXQQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7cd227f8d0d6c5f1f91c43c05edf831f",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Simply Wall St.",
+        "url": "https://simplywall.st/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/tencent-sehk-700-quietly-recasting-171405940.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/tencent-sehk-700-quietly-recasting-171405940.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "b4b2a41d-34aa-3661-845a-325d86626f4b",
+    "content": {
+      "id": "b4b2a41d-34aa-3661-845a-325d86626f4b",
+      "contentType": "STORY",
+      "title": "Is It Time To Revisit Alibaba Group Holding (NYSE:BABA) After Its 88% One Year Rally?",
+      "description": "",
+      "summary": "If you are wondering whether Alibaba Group Holding's current share price still offers value, this article walks through the key numbers so you can judge that for yourself. The stock recently closed at US$156.26, with returns of 6.0% over the last 7 days, a 1.3% decline over 30 days, a 0.3% gain year to date, 88.1% over 1 year, 43.1% over 3 years, and a 27.1% decline over 5 years. Recent headlines have continued to focus on Alibaba's position as a major Chinese e commerce and cloud player, as...",
+      "pubDate": "2026-01-06T15:14:51Z",
+      "displayTime": "2026-01-06T15:14:51Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+        "originalWidth": 1194,
+        "originalHeight": 432,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Asb.EQEV7awFB_Mkuf_o.A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+            "width": 1194,
+            "height": 432,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/D6tGlHnBV1OBj9DD.GNtjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Simply Wall St.",
+        "url": "https://simplywall.st/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/time-revisit-alibaba-group-holding-151451404.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/time-revisit-alibaba-group-holding-151451404.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "c4d6d485-9a09-3083-826e-86061d167e1f",
     "content": {
       "id": "c4d6d485-9a09-3083-826e-86061d167e1f",
@@ -471,128 +593,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/vietnamese-town-boomed-factories-left-061255295.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "ef496933-d408-3ef6-9238-62e609a10c17",
-    "content": {
-      "id": "ef496933-d408-3ef6-9238-62e609a10c17",
-      "contentType": "STORY",
-      "title": "How Alibaba’s Kunlunxin AI Chip Spin-Off and Cloud Push At Alibaba Group Holding (BABA) Has Changed Its Investment Story",
-      "description": "",
-      "summary": "In recent days, Alibaba Group Holding said it plans to spin off its artificial intelligence computer chip unit Kunlunxin and list it in Hong Kong in early 2027, while simultaneously scaling AI workloads and Qwen model integrations across Alibaba Cloud. This combination of a dedicated AI chip listing and deeper cloud AI deployment highlights how Alibaba is reorganizing around infrastructure that could underpin future AI services for enterprises and developers. We’ll now examine how the...",
-      "pubDate": "2026-01-05T05:05:41Z",
-      "displayTime": "2026-01-05T05:05:41Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-        "originalWidth": 1194,
-        "originalHeight": 432,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Asb.EQEV7awFB_Mkuf_o.A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-            "width": 1194,
-            "height": 432,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/D6tGlHnBV1OBj9DD.GNtjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Simply Wall St.",
-        "url": "https://simplywall.st/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-kunlunxin-ai-chip-spin-050541710.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-kunlunxin-ai-chip-spin-050541710.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "a2464367-bcba-3239-b02e-155756c48899",
-    "content": {
-      "id": "a2464367-bcba-3239-b02e-155756c48899",
-      "contentType": "STORY",
-      "title": "Why Alibaba (BABA) Stock Is Climbing Today",
-      "description": "",
-      "summary": "China's AI Push Sends Alibaba Stock Higher, Baidu Spinoff Adds Momentum",
-      "pubDate": "2026-01-02T19:32:11Z",
-      "displayTime": "2026-01-02T19:32:11Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/87494070325bf64d38485e6998ef390d",
-        "originalWidth": 500,
-        "originalHeight": 500,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/SbVQCMgH056e5l2_BUFccg--~B/aD01MDA7dz01MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/87494070325bf64d38485e6998ef390d",
-            "width": 500,
-            "height": 500,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/yijIllzf4VcMAxsgDKBeZw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/87494070325bf64d38485e6998ef390d",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "GuruFocus.com",
-        "url": "http://www.gurufocus.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/why-alibaba-baba-stock-climbing-193211181.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/why-alibaba-baba-stock-climbing-193211181.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
