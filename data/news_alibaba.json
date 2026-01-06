@@ -1,5 +1,66 @@
 [
   {
+    "id": "c4d6d485-9a09-3083-826e-86061d167e1f",
+    "content": {
+      "id": "c4d6d485-9a09-3083-826e-86061d167e1f",
+      "contentType": "STORY",
+      "title": "Emerging Currencies Shrug Off Weakness as USD Loses Haven Appeal",
+      "description": "",
+      "summary": "The MSCI benchmark for EM currencies recovered from losses during the trading session and closed flat while the dollar slipped 0.1%.  Currencies from Colombia and Brazil climbed, shrugging off early morning’s weakness.  “EM currencies are back on the gaining trend established last year,” said Juan Perez, senior director of trading at Monex USA.",
+      "pubDate": "2026-01-05T21:46:02Z",
+      "displayTime": "2026-01-05T21:46:02Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/72a2e52fab30713cbe417910bcb32912",
+        "originalWidth": 1340,
+        "originalHeight": 784,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/fE7pcBHA1M_SaAU4zmfN2A--~B/aD03ODQ7dz0xMzQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/bloomberg_holding_pen_162/72a2e52fab30713cbe417910bcb32912",
+            "width": 1340,
+            "height": 784,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/f0qVEUVxVsD.F0xKoosgbA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/72a2e52fab30713cbe417910bcb32912",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Bloomberg",
+        "url": "https://www.bloomberg.com/company"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/emerging-market-stocks-set-record-022546949.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/emerging-market-stocks-set-record-022546949.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "870afd38-e77f-31fc-a768-f93dae6f0e75",
     "content": {
       "id": "870afd38-e77f-31fc-a768-f93dae6f0e75",
@@ -349,67 +410,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/minimaxs-hong-kong-ipo-set-093000480.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "c4d6d485-9a09-3083-826e-86061d167e1f",
-    "content": {
-      "id": "c4d6d485-9a09-3083-826e-86061d167e1f",
-      "contentType": "STORY",
-      "title": "Emerging-Market Stocks Set for Record High Amid AI Optimism",
-      "description": "",
-      "summary": "The MSCI Emerging Markets Index rose 1.2% as of 7:51 a.m. London time on Monday, set for a record close and also marking the best start to a year since 2018.  Taiwan Semiconductor Manufacturing Co. accounted for more than half of the gauge’s gains after Goldman Sachs Group Inc. raised its price target for the supplier of Apple Inc. and Nivida Corp. Other major movers included Samsung Electronics, SK Hynix and Alibaba Group Holding Ltd.  The rally has been supported by a weaker dollar and US investors’ search for overseas assets, alongside reform momentum in economies from Ghana to South Korea.",
-      "pubDate": "2026-01-05T09:20:09Z",
-      "displayTime": "2026-01-05T09:20:09Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/72a2e52fab30713cbe417910bcb32912",
-        "originalWidth": 1340,
-        "originalHeight": 784,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/fE7pcBHA1M_SaAU4zmfN2A--~B/aD03ODQ7dz0xMzQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/bloomberg_holding_pen_162/72a2e52fab30713cbe417910bcb32912",
-            "width": 1340,
-            "height": 784,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/f0qVEUVxVsD.F0xKoosgbA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/72a2e52fab30713cbe417910bcb32912",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Bloomberg",
-        "url": "https://www.bloomberg.com/company"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/emerging-market-stocks-set-record-022546949.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/emerging-market-stocks-set-record-022546949.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
