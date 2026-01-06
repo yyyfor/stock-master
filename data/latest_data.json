@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-01-05T08:46:49.801930",
+  "timestamp": "2026-01-06T08:45:15.936709",
   "data": {
     "alibaba": {
       "ticker": "9988.HK",
-      "current_price": 152.8,
-      "market_cap": 2916690690048,
-      "pe_ratio": 16.581957,
+      "current_price": 150.8,
+      "market_cap": 2878514135040,
+      "pe_ratio": 16.36721,
       "revenue": 1012055015424,
       "net_income": 125433004032,
       "gross_margin": 41.173,
@@ -16,9 +16,9 @@
     },
     "xiaomi": {
       "ticker": "1810.HK",
-      "current_price": 39.34,
-      "market_cap": 1020036448256,
-      "pe_ratio": 18.53584,
+      "current_price": 38.76,
+      "market_cap": 1004997705728,
+      "pe_ratio": 18.26512,
       "revenue": 449375305728,
       "net_income": 44125257728,
       "gross_margin": 22.23,
@@ -29,9 +29,9 @@
     },
     "meituan": {
       "ticker": "3690.HK",
-      "current_price": 105.4,
-      "market_cap": 643663855616,
-      "pe_ratio": 29.268873,
+      "current_price": 106.1,
+      "market_cap": 647938637824,
+      "pe_ratio": 29.46739,
       "revenue": 362373021696,
       "net_income": -1988788992,
       "gross_margin": 33.516,
