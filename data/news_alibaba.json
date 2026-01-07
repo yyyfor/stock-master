@@ -1,5 +1,66 @@
 [
   {
+    "id": "39cc9d36-ff66-3725-8226-ccc5e5789949",
+    "content": {
+      "id": "39cc9d36-ff66-3725-8226-ccc5e5789949",
+      "contentType": "STORY",
+      "title": "Alibaba Shares Fall on Analyst Downgrade Flags Rising Costs",
+      "description": "",
+      "summary": "Cloud Growth Keeps Alibaba Afloat Despite Retail Slowdown",
+      "pubDate": "2026-01-07T12:00:31Z",
+      "displayTime": "2026-01-07T12:00:31Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
+        "originalWidth": 952,
+        "originalHeight": 466,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/ra4Ti30CsXfCq7nnMSbi4Q--~B/aD00NjY7dz05NTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
+            "width": 952,
+            "height": 466,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/H7fwXdruZYh3hbuXrJUdKg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "GuruFocus.com",
+        "url": "http://www.gurufocus.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-shares-fall-analyst-downgrade-120031443.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-shares-fall-analyst-downgrade-120031443.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "1c044bb7-741a-3e78-8b44-d536941bee0c",
     "content": {
       "id": "1c044bb7-741a-3e78-8b44-d536941bee0c",
@@ -532,67 +593,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/alibaba-group-launches-ai-tool-121217367.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "1a19f687-2da4-3482-93ff-f63cefd9b3b5",
-    "content": {
-      "id": "1a19f687-2da4-3482-93ff-f63cefd9b3b5",
-      "contentType": "STORY",
-      "title": "MiniMax's Hong Kong IPO set to hit US$538 million amid Chinese AI sector frenzy",
-      "description": "",
-      "summary": "MiniMax is set to raise at least HK$4.2 billion (US$537.7 million) by pricing its Hong Kong initial public offering (IPO) at the top of its marketed range, underscoring strong demand for China's artificial intelligence sector amid an intensifying race with the US. The Shanghai-based firm, backed by Alibaba Group Holding and Tencent Holdings, planned to price its 25.4 million shares on offer at HK$165 each, according to people familiar with the matter. The company would stop taking orders from in",
-      "pubDate": "2026-01-05T09:30:00Z",
-      "displayTime": "2026-01-05T09:30:00Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/south_china_morning_post_us_228/b44bd21dcb4a9e8f35c423a4e468eb4d",
-        "originalWidth": 1999,
-        "originalHeight": 1265,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/4uF62UGEojiV.hu4bVVhQg--~B/aD0xMjY1O3c9MTk5OTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/south_china_morning_post_us_228/b44bd21dcb4a9e8f35c423a4e468eb4d",
-            "width": 1999,
-            "height": 1265,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/3IbxMh6zG6IqMeeoBU8sIA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/south_china_morning_post_us_228/b44bd21dcb4a9e8f35c423a4e468eb4d",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "South China Morning Post",
-        "url": "https://www.scmp.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/minimaxs-hong-kong-ipo-set-093000480.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/minimaxs-hong-kong-ipo-set-093000480.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
