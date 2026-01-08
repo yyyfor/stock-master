@@ -33,11 +33,8 @@ jobs:
       - name: Update financial data
         run: |
           echo "Fetching latest financial data for Alibaba (9988.HK), Xiaomi (1810.HK), Meituan (3690.HK)..."
-          # Try primary update script first
-          python scripts/update_financials.py || {
-            echo "Primary script failed, trying HKEX scraper fallback..."
-            python scripts/hkex_scraper.py
-          }
+          # Use hybrid price fetcher (attempts live fetch, falls back to reliable data)
+          python scripts/fetch_prices_hybrid.py
           # Calculate comprehensive metrics from fetched data
           python scripts/calculate_live_metrics.py
           echo "Data update completed at $(date)"

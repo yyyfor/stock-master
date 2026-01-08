@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-01-08T15:32:58.639823",
+  "prices": {
+    "alibaba": {
+      "price": 131.2,
+      "market_cap": 363000000000,
+      "pe_ratio": 18.4,
+      "pb_ratio": 1.8,
+      "ps_ratio": 1.9,
+      "52w_high": 145.9,
+      "52w_low": 71.25,
+      "source": "Manual Fallback (Yahoo Finance)",
+      "date": "2025-01-08",
+      "company": "alibaba",
+      "timestamp": "2026-01-08T15:32:58.194576",
+      "is_fallback": true
+    },
+    "xiaomi": {
+      "price": 43.35,
+      "market_cap": 190000000000,
+      "pe_ratio": 36.0,
+      "pb_ratio": 5.3,
+      "ps_ratio": 3.1,
+      "52w_high": 44.9,
+      "52w_low": 12.56,
+      "source": "Manual Fallback (Yahoo Finance)",
+      "date": "2025-01-08",
+      "company": "xiaomi",
+      "timestamp": "2026-01-08T15:32:58.413025",
+      "is_fallback": true
+    },
+    "meituan": {
+      "price": 102.4,
+      "market_cap": 80000000000,
+      "pe_ratio": 19.8,
+      "pb_ratio": 3.1,
+      "ps_ratio": 1.6,
+      "52w_high": 217.0,
+      "52w_low": 101.6,
+      "source": "Manual Fallback (Yahoo Finance)",
+      "date": "2025-01-08",
+      "company": "meituan",
+      "timestamp": "2026-01-08T15:32:58.635430",
+      "is_fallback": true
+    }
+  }
+}
