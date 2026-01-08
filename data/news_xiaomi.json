@@ -1,5 +1,66 @@
 [
   {
+    "id": "783a9fa2-f9b5-3913-a732-91f4d4469687",
+    "content": {
+      "id": "783a9fa2-f9b5-3913-a732-91f4d4469687",
+      "contentType": "STORY",
+      "title": "Xiaomi (SEHK:1810) Valuation Check After Recent Share Price Swings And Premiumization Narrative",
+      "description": "",
+      "summary": "Xiaomi (SEHK:1810) is back on investor radars after recent share price moves, with the stock up 2.5% over the past week but showing a decline over the past month and over the past 3 months. See our latest analysis for Xiaomi. The recent 2.7% 7 day share price return sits against a 5.8% 30 day decline and a 25.2% 90 day decline, while the 1 year total shareholder return of 11.1% and very large 3 year total shareholder return around 3.6x suggest longer term momentum has not fully faded. If...",
+      "pubDate": "2026-01-05T06:07:49Z",
+      "displayTime": "2026-01-05T06:07:49Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
+        "originalWidth": 1194,
+        "originalHeight": 432,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/DHq886Ag4G1rS9TKIvWzQQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
+            "width": 1194,
+            "height": 432,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/fl7FB00ESSj9386P3xBSmQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Simply Wall St.",
+        "url": "https://simplywall.st/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/xiaomi-sehk-1810-valuation-check-060749343.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/xiaomi-sehk-1810-valuation-check-060749343.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "51fc906f-a5b4-35e0-8f7a-45b128d09c13",
     "content": {
       "id": "51fc906f-a5b4-35e0-8f7a-45b128d09c13",
@@ -513,67 +574,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/xiaomi-sehk-1810-valuation-check-171004968.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "722bd582-f62a-3e5b-b73a-141cac31c323",
-    "content": {
-      "id": "722bd582-f62a-3e5b-b73a-141cac31c323",
-      "contentType": "STORY",
-      "title": "Sei and Xiaomi Team Up to Roll Out Web3 App Globally",
-      "description": "",
-      "summary": "Sei, a Layer-1 blockchain network, has announced a major collaboration with consumer electronics giant Xiaomi to pre-install a Web3-enabled finance app on smartphones sold outside mainland China and the United States.The partnership includes a $5 million Global Mobile Innovation Program to accelerate blockchain adoption across consumer devices.The Sei-based application will ...",
-      "pubDate": "2025-12-12T12:56:26Z",
-      "displayTime": "2025-12-12T12:56:26Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/cryptonews_us_711/bbf207b6098d5dec2e4a07af2634f82e",
-        "originalWidth": 1024,
-        "originalHeight": 574,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/E22soGP7ZM5NhxEqu0dpVg--~B/aD01NzQ7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/cryptonews_us_711/bbf207b6098d5dec2e4a07af2634f82e",
-            "width": 1024,
-            "height": 574,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/tI3oLHT_UMJfNZ.vyaIjng--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/cryptonews_us_711/bbf207b6098d5dec2e4a07af2634f82e",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Cryptonews",
-        "url": "https://cryptonews.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://cryptonews.com/news/sei-and-xiaomi-team-up-to-roll-out-web3-app-globally/",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/sei-xiaomi-team-roll-web3-125626851.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
