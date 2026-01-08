@@ -1,5 +1,66 @@
 [
   {
+    "id": "3e40ec2d-7f8d-36a1-8eed-c3bc7560cf73",
+    "content": {
+      "id": "3e40ec2d-7f8d-36a1-8eed-c3bc7560cf73",
+      "contentType": "STORY",
+      "title": "Startups go public in litmus test for Chinese AI",
+      "description": "",
+      "summary": "Leading Chinese artificial intelligence startup Zhipu AI soared as it went public in Hong Kong on Thursday, a day before rival MiniMax also makes its market debut in a litmus test for the country's rapidly developing sector.In January 2025, Chinese startup DeepSeek shook the tech world with a low-cost, high-performance reasoning model that upended assumptions of US dominance in the sensitive sector.",
+      "pubDate": "2026-01-08T04:05:56Z",
+      "displayTime": "2026-01-08T04:05:56Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/afp.com/2b50629ccac01752cc972bb4f7b2620a",
+        "originalWidth": 768,
+        "originalHeight": 511,
+        "caption": "China's language learning model market is estimated to grow to 101.1 billion yuan (US$14.5 billion) by 2030, according to consultancy Frost and Sullivan (WANG Zhao)",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/AnJGIRr8NTiLtS0yd0ogZA--~B/aD01MTE7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/afp.com/2b50629ccac01752cc972bb4f7b2620a",
+            "width": 768,
+            "height": 511,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/eJu1slbjcV9_T6jCjB3OKg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/afp.com/2b50629ccac01752cc972bb4f7b2620a",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "AFP",
+        "url": "http://www.afp.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/startups-public-litmus-test-chinese-040556182.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/startups-public-litmus-test-chinese-040556182.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "39cc9d36-ff66-3725-8226-ccc5e5789949",
     "content": {
       "id": "39cc9d36-ff66-3725-8226-ccc5e5789949",
@@ -532,67 +593,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/why-sga-global-growth-strategy-124822289.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "853e2507-a729-3593-9a57-3922764cd876",
-    "content": {
-      "id": "853e2507-a729-3593-9a57-3922764cd876",
-      "contentType": "STORY",
-      "title": "Alibaba Group Launches AI Tool for 3D Restaurant Tours via Amap",
-      "description": "",
-      "summary": "Move targets Meituan in China's local services and food delivery battle",
-      "pubDate": "2026-01-05T12:12:17Z",
-      "displayTime": "2026-01-05T12:12:17Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-        "originalWidth": 952,
-        "originalHeight": 466,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/ra4Ti30CsXfCq7nnMSbi4Q--~B/aD00NjY7dz05NTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-            "width": 952,
-            "height": 466,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/H7fwXdruZYh3hbuXrJUdKg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "GuruFocus.com",
-        "url": "http://www.gurufocus.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-group-launches-ai-tool-121217367.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-group-launches-ai-tool-121217367.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
