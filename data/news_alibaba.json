@@ -1,5 +1,220 @@
 [
   {
+    "id": "bed4097e-702d-35d0-9f2b-6960dad4637b",
+    "content": {
+      "id": "bed4097e-702d-35d0-9f2b-6960dad4637b",
+      "contentType": "STORY",
+      "title": "Alibaba stock target cut at Morgan Stanley on worsening core e-comm business",
+      "description": "",
+      "summary": "Investing.com -- Morgan Stanley lowered its price target on Alibaba to $180 from $200 in a note on Thursday, citing a deteriorating outlook for the company’s core e-commerce operations even as cloud momentum remains strong.",
+      "pubDate": "2026-01-08T16:08:44Z",
+      "displayTime": "2026-01-08T16:08:44Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": null,
+      "provider": {
+        "displayName": "Investing.com",
+        "url": "https://www.investing.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-stock-target-cut-morgan-160844286.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-stock-target-cut-morgan-160844286.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "27d9d70d-d8a2-3e4f-a571-89a39396a8de",
+    "content": {
+      "id": "27d9d70d-d8a2-3e4f-a571-89a39396a8de",
+      "contentType": "STORY",
+      "title": "Nvidia Stock Falls. China Chip Sales Are a Big Question.",
+      "description": "",
+      "summary": "Nvidia  was down early on Thursday amid mixed signals over how close the chip maker is to resuming exports of its hardware to China.  Nvidia shares were down 1.9% at $185.54 in early trading, while the  index was down 0.2% and the tech-heavy Nasdaq Composite was 0.9% lower.  President Donald Trump said last month he would allow shipments of the company’s H200 chip to China, provided that Nvidia gives the U.S. government a 25% cut of sales.",
+      "pubDate": "2026-01-08T16:06:00Z",
+      "displayTime": "2026-01-08T16:06:00Z",
+      "isHosted": false,
+      "bypassModal": false,
+      "previewUrl": "https://finance.yahoo.com/m/27d9d70d-d8a2-3e4f-a571-89a39396a8de/nvidia-stock-falls-china.html",
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/Barrons.com/66960813aaaf7a964eae931655009daa",
+        "originalWidth": 1280,
+        "originalHeight": 640,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/g9OCFNzBbk8Mjii1lo3GXg--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/66960813aaaf7a964eae931655009daa",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/PD3PNvJAvW.EuwfC0iRL9g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Barrons.com/66960813aaaf7a964eae931655009daa",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Barrons.com",
+        "url": "http://www.barrons.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.barrons.com/articles/nvidia-stock-price-china-chips-8548006d?siteid=yhoof2&yptr=yahoo",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": null,
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "31e3af28-d417-3060-b3be-e55986b70843",
+    "content": {
+      "id": "31e3af28-d417-3060-b3be-e55986b70843",
+      "contentType": "STORY",
+      "title": "JD.com Weighs First Dim Sum Bond as Funding Costs Diverge",
+      "description": "",
+      "summary": "JD.com is considering a potential offshore yuan bond sale of about 10 billion yuan, while stressing it currently has no issuance plans.",
+      "pubDate": "2026-01-08T15:10:04Z",
+      "displayTime": "2026-01-08T15:10:04Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/eb43c1a9d348c47e707f9a4a497b5d5b",
+        "originalWidth": 372,
+        "originalHeight": 372,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/dco3yRQiknqjuNaTTY7D_A--~B/aD0zNzI7dz0zNzI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/eb43c1a9d348c47e707f9a4a497b5d5b",
+            "width": 372,
+            "height": 372,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/wh3Dpi2oGg8UnbyvryBTQA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/eb43c1a9d348c47e707f9a4a497b5d5b",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "GuruFocus.com",
+        "url": "http://www.gurufocus.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/jd-com-weighs-first-dim-151004479.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/jd-com-weighs-first-dim-151004479.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "bdcacd20-1e19-3529-83b8-428a1ec7d19e",
+    "content": {
+      "id": "bdcacd20-1e19-3529-83b8-428a1ec7d19e",
+      "contentType": "STORY",
+      "title": "Chinese Stock Charts Reach a Turning Point. What to Watch.",
+      "description": "",
+      "summary": "It also pushed the FXI ETF back above a bearish head-and-shoulders formation.  Alibaba Group  the second-largest holding in the FXI, exerts significant influence on the broader China trade.  In the context of a 79% gain over the past year, the pullback appears orderly and brings shares back into a more attractive entry zone for investors with longer-term horizons.",
+      "pubDate": "2026-01-08T14:26:00Z",
+      "displayTime": "2026-01-08T14:26:00Z",
+      "isHosted": false,
+      "bypassModal": false,
+      "previewUrl": "https://finance.yahoo.com/m/bdcacd20-1e19-3529-83b8-428a1ec7d19e/chinese-stock-charts-reach-a.html",
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/Barrons.com/897bcaa11aaa979a0195e4d39b92b528",
+        "originalWidth": 1280,
+        "originalHeight": 640,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/09dXb36AmTn558Cav4867A--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/897bcaa11aaa979a0195e4d39b92b528",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/1IG1CcJ4rrUGjf0BqTq0KQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Barrons.com/897bcaa11aaa979a0195e4d39b92b528",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Barrons.com",
+        "url": "http://www.barrons.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.barrons.com/articles/chinese-stock-charts-alibaba-netease-h-world-group-turn-bullish-c6f45419?siteid=yhoof2&yptr=yahoo",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": null,
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "f0d1a06f-dfe8-367d-baca-6839b7862746",
     "content": {
       "id": "f0d1a06f-dfe8-367d-baca-6839b7862746",
@@ -164,6 +379,67 @@
     }
   },
   {
+    "id": "428c98dc-911b-32b9-8059-b35ebe560078",
+    "content": {
+      "id": "428c98dc-911b-32b9-8059-b35ebe560078",
+      "contentType": "STORY",
+      "title": "Why Baidu’s Quiet Spin-Off Could Unlock a Major Re-Rating",
+      "description": "",
+      "summary": "The confidential IPO filing for the Kunlunxin AI chip subsidiary signals a strategic pivot that unlocks hidden value for Baidu shareholders.",
+      "pubDate": "2026-01-07T14:32:00Z",
+      "displayTime": "2026-01-07T14:32:00Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/marketbeat_955/fce3787b6d92281480a74fe08cf65823",
+        "originalWidth": 1200,
+        "originalHeight": 675,
+        "caption": "Baidu logo glows inside a data center with AI data streams, highlighting China’s AI development.",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/os6bOpUZHdgLrMKt5EMzAA--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/fce3787b6d92281480a74fe08cf65823",
+            "width": 1200,
+            "height": 675,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/FmqIATdSoZVsQ1HmC9ucEQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/marketbeat_955/fce3787b6d92281480a74fe08cf65823",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "MarketBeat",
+        "url": "https://www.marketbeat.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.marketbeat.com/originals/why-baidus-quiet-spin-off-could-unlock-a-major-re-rating/?utm_source=yahoofinance&utm_medium=yahoofinance",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/why-baidu-quiet-spin-off-143200100.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "39cc9d36-ff66-3725-8226-ccc5e5789949",
     "content": {
       "id": "39cc9d36-ff66-3725-8226-ccc5e5789949",
@@ -269,311 +545,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/alibaba-baba-stock-slides-market-224505351.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "e1a35866-c391-3e0a-8059-d8b5733a4fbc",
-    "content": {
-      "id": "e1a35866-c391-3e0a-8059-d8b5733a4fbc",
-      "contentType": "STORY",
-      "title": "Is Tencent (SEHK:700) Quietly Recasting Its Fintech and AI Narrative Through WeBank and MiniMax?",
-      "description": "",
-      "summary": "In recent days, China's central bank confirmed that from March 20, ten major banks including Tencent-backed WeBank began paying quarterly interest on digital yuan balances, while Chinese AI firm MiniMax, supported by Tencent and Alibaba, priced its Hong Kong IPO at the top of its range and started trading. These developments highlight Tencent's growing exposure to regulated digital finance via WeBank and its participation in China's AI funding cycle through its stake in MiniMax. We’ll now...",
-      "pubDate": "2026-01-06T17:14:05Z",
-      "displayTime": "2026-01-06T17:14:05Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7cd227f8d0d6c5f1f91c43c05edf831f",
-        "originalWidth": 1194,
-        "originalHeight": 432,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/THOXGtG1WchfctUTXzuYNg--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7cd227f8d0d6c5f1f91c43c05edf831f",
-            "width": 1194,
-            "height": 432,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/1z6ElCkt0JzhsQ2w5SeXQQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7cd227f8d0d6c5f1f91c43c05edf831f",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Simply Wall St.",
-        "url": "https://simplywall.st/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/tencent-sehk-700-quietly-recasting-171405940.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/tencent-sehk-700-quietly-recasting-171405940.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "b4b2a41d-34aa-3661-845a-325d86626f4b",
-    "content": {
-      "id": "b4b2a41d-34aa-3661-845a-325d86626f4b",
-      "contentType": "STORY",
-      "title": "Is It Time To Revisit Alibaba Group Holding (NYSE:BABA) After Its 88% One Year Rally?",
-      "description": "",
-      "summary": "If you are wondering whether Alibaba Group Holding's current share price still offers value, this article walks through the key numbers so you can judge that for yourself. The stock recently closed at US$156.26, with returns of 6.0% over the last 7 days, a 1.3% decline over 30 days, a 0.3% gain year to date, 88.1% over 1 year, 43.1% over 3 years, and a 27.1% decline over 5 years. Recent headlines have continued to focus on Alibaba's position as a major Chinese e commerce and cloud player, as...",
-      "pubDate": "2026-01-06T15:14:51Z",
-      "displayTime": "2026-01-06T15:14:51Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-        "originalWidth": 1194,
-        "originalHeight": 432,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Asb.EQEV7awFB_Mkuf_o.A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-            "width": 1194,
-            "height": 432,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/D6tGlHnBV1OBj9DD.GNtjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Simply Wall St.",
-        "url": "https://simplywall.st/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/time-revisit-alibaba-group-holding-151451404.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/time-revisit-alibaba-group-holding-151451404.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "c4d6d485-9a09-3083-826e-86061d167e1f",
-    "content": {
-      "id": "c4d6d485-9a09-3083-826e-86061d167e1f",
-      "contentType": "STORY",
-      "title": "EM Currencies Steady as USD Loses Haven Appeal",
-      "description": "",
-      "summary": "The MSCI benchmark for EM currencies recovered from losses during the trading session and closed flat while the dollar slipped 0.1%.  Currencies from Colombia and Brazil climbed, shrugging off early morning’s weakness.  “EM currencies are back on the gaining trend established last year,” said Juan Perez, senior director of trading at Monex USA.",
-      "pubDate": "2026-01-06T09:12:08Z",
-      "displayTime": "2026-01-06T09:12:08Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/72a2e52fab30713cbe417910bcb32912",
-        "originalWidth": 1340,
-        "originalHeight": 784,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/fE7pcBHA1M_SaAU4zmfN2A--~B/aD03ODQ7dz0xMzQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/bloomberg_holding_pen_162/72a2e52fab30713cbe417910bcb32912",
-            "width": 1340,
-            "height": 784,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/f0qVEUVxVsD.F0xKoosgbA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/72a2e52fab30713cbe417910bcb32912",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Bloomberg",
-        "url": "https://www.bloomberg.com/company"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/emerging-market-stocks-set-record-022546949.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/emerging-market-stocks-set-record-022546949.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "870afd38-e77f-31fc-a768-f93dae6f0e75",
-    "content": {
-      "id": "870afd38-e77f-31fc-a768-f93dae6f0e75",
-      "contentType": "STORY",
-      "title": "MiniMax Targets Top-End Pricing for Hong Kong IPO as Demand Accelerates",
-      "description": "",
-      "summary": "The Chinese generative AI firm plans to price shares at HK$165 and close institutional orders early amid strong interest.",
-      "pubDate": "2026-01-05T16:20:52Z",
-      "displayTime": "2026-01-05T16:20:52Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-        "originalWidth": 952,
-        "originalHeight": 466,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/ra4Ti30CsXfCq7nnMSbi4Q--~B/aD00NjY7dz05NTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-            "width": 952,
-            "height": 466,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/H7fwXdruZYh3hbuXrJUdKg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "GuruFocus.com",
-        "url": "http://www.gurufocus.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/minimax-targets-top-end-pricing-162052737.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/minimax-targets-top-end-pricing-162052737.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "ec4b8e14-4e49-3c1f-8767-1c3554bcfe7e",
-    "content": {
-      "id": "ec4b8e14-4e49-3c1f-8767-1c3554bcfe7e",
-      "contentType": "STORY",
-      "title": "Alibaba Prepares AI Restaurant Tools to Challenge Meituan",
-      "description": "",
-      "summary": "Alibaba plans to let restaurants create 3D interior visuals via Amap using AI, offering the service free to selected merchants for a limited time.",
-      "pubDate": "2026-01-05T16:11:45Z",
-      "displayTime": "2026-01-05T16:11:45Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-        "originalWidth": 952,
-        "originalHeight": 466,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/ra4Ti30CsXfCq7nnMSbi4Q--~B/aD00NjY7dz05NTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-            "width": 952,
-            "height": 466,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/H7fwXdruZYh3hbuXrJUdKg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "GuruFocus.com",
-        "url": "http://www.gurufocus.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-prepares-ai-restaurant-tools-161145533.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-prepares-ai-restaurant-tools-161145533.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
