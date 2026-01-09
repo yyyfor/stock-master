@@ -1,5 +1,122 @@
 [
   {
+    "id": "75f21370-7587-3670-9f0d-31c11953fe93",
+    "content": {
+      "id": "75f21370-7587-3670-9f0d-31c11953fe93",
+      "contentType": "STORY",
+      "title": "This ‘AI Tiger’ Stock Just  IPOed—and Doubled on Its First Day of Trading",
+      "description": "",
+      "summary": "MiniMax shares more than doubled as investors carried on piling into Chinese artificial-intelligence start-ups.",
+      "pubDate": "2026-01-09T13:54:00Z",
+      "displayTime": "2026-01-09T13:54:00Z",
+      "isHosted": false,
+      "bypassModal": false,
+      "previewUrl": "https://finance.yahoo.com/m/75f21370-7587-3670-9f0d-31c11953fe93/this-%E2%80%98ai-tiger%E2%80%99-stock-just-.html",
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/Barrons.com/08be54ca46ff9968755416146bb5bfa7",
+        "originalWidth": 1280,
+        "originalHeight": 640,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/pojuTESDDNW8ZWAGkPaaXA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/08be54ca46ff9968755416146bb5bfa7",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/9k6FW8k6V2ot2m2x2kMmjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Barrons.com/08be54ca46ff9968755416146bb5bfa7",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Barrons.com",
+        "url": "http://www.barrons.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.barrons.com/articles/minimax-stock-ipo-ai-tiger-china-3a8cc2ae?siteid=yhoof2&yptr=yahoo",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": null,
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "0e69ca49-caff-308d-b4da-b5c2a6daf91f",
+    "content": {
+      "id": "0e69ca49-caff-308d-b4da-b5c2a6daf91f",
+      "contentType": "STORY",
+      "title": "Nvidia Could Rally Again if China Approvals Come Through",
+      "description": "",
+      "summary": "Nvidia's H200 Shipments to China Come Back Into Focus",
+      "pubDate": "2026-01-09T12:25:03Z",
+      "displayTime": "2026-01-09T12:25:03Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/528af7acf1b685a79f0a0ee8c34ab69c",
+        "originalWidth": 500,
+        "originalHeight": 500,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/TmwzWnbiiLMX4H6E8MgK_w--~B/aD01MDA7dz01MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/528af7acf1b685a79f0a0ee8c34ab69c",
+            "width": 500,
+            "height": 500,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/YUjVQvtE5RGTeBb3yJfgIg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/528af7acf1b685a79f0a0ee8c34ab69c",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "GuruFocus.com",
+        "url": "http://www.gurufocus.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/nvidia-could-rally-again-china-122503444.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/nvidia-could-rally-again-china-122503444.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "0d5c90c3-6b14-3c9b-bdeb-3836cc2651d0",
     "content": {
       "id": "0d5c90c3-6b14-3c9b-bdeb-3836cc2651d0",
@@ -465,123 +582,6 @@
       },
       "canonicalUrl": {
         "url": "https://www.barrons.com/articles/nvidia-stock-price-china-chips-8548006d?siteid=yhoof2&yptr=yahoo",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": null,
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "53830a90-d29a-3140-833f-d89b14b304d7",
-    "content": {
-      "id": "53830a90-d29a-3140-833f-d89b14b304d7",
-      "contentType": "STORY",
-      "title": "Assessing Alibaba Group Holding (NYSE:BABA) Valuation After Recent Share Price Volatility",
-      "description": "",
-      "summary": "Alibaba Group Holding (NYSE:BABA) has drawn investor attention after its recent share price moves, with the stock now around $146.75 and showing mixed returns over the past year, month and past 3 months. See our latest analysis for Alibaba Group Holding. Recent share price moves have been choppy, with a 1 day share price return of 2.75% decline and a 90 day share price return of 15.51% decline, while the 1 year total shareholder return of 78.28% points to earlier momentum now fading. If...",
-      "pubDate": "2026-01-08T19:12:59Z",
-      "displayTime": "2026-01-08T19:12:59Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-        "originalWidth": 1194,
-        "originalHeight": 432,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Asb.EQEV7awFB_Mkuf_o.A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-            "width": 1194,
-            "height": 432,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/D6tGlHnBV1OBj9DD.GNtjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Simply Wall St.",
-        "url": "https://simplywall.st/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/assessing-alibaba-group-holding-nyse-191259941.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/assessing-alibaba-group-holding-nyse-191259941.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "00da598e-7dcc-3ff1-a7d1-2dc60c47f3d5",
-    "content": {
-      "id": "00da598e-7dcc-3ff1-a7d1-2dc60c47f3d5",
-      "contentType": "STORY",
-      "title": "Alibaba Stock Jumps To Retake Key Level. Here's What To Know.",
-      "description": "",
-      "summary": "Alibaba stock rallied as China AI IPOs performed well and Nvidia's AI chips were set to be allowed.",
-      "pubDate": "2026-01-08T18:52:42Z",
-      "displayTime": "2026-01-08T18:52:42Z",
-      "isHosted": false,
-      "bypassModal": false,
-      "previewUrl": "https://finance.yahoo.com/m/00da598e-7dcc-3ff1-a7d1-2dc60c47f3d5/alibaba-stock-jumps-to-retake.html",
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/ibd.com/36d519c5d45c0a23525fcb3110a740cb",
-        "originalWidth": 1000,
-        "originalHeight": 563,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/iKHH75R1kDQ2MsGv.tfzJA--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/36d519c5d45c0a23525fcb3110a740cb",
-            "width": 1000,
-            "height": 563,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/SyMcipf27p704WbpQYOYuQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/ibd.com/36d519c5d45c0a23525fcb3110a740cb",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Investor's Business Daily",
-        "url": "http://www.investors.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.investors.com/news/technology/alibaba-stock-ai-jan-2026/?src=A00220&yptr=yahoo",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
