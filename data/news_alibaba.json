@@ -1,5 +1,127 @@
 [
   {
+    "id": "6817a73c-cef1-3aa2-9480-bea88f2d6245",
+    "content": {
+      "id": "6817a73c-cef1-3aa2-9480-bea88f2d6245",
+      "contentType": "STORY",
+      "title": "VNET Group (VNET) Soars 10.8% as Goldman Sachs Bullish on Chinese Stocks",
+      "description": "",
+      "summary": "We recently published Wall Street Can’t Keep up With These 10 Stocks on Fire. VNET Group, Inc. (NASDAQ:VNET) was one of the top performers on Thursday. VNET Group rallied for a second day on Thursday, jumping 10.85 percent to close at $10.32 as investors gobbled up shares in Chinese AI companies, supported by an investment […]",
+      "pubDate": "2026-01-09T02:45:42Z",
+      "displayTime": "2026-01-09T02:45:42Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/fabd76d746fb98c8021505089a867168",
+        "originalWidth": 768,
+        "originalHeight": 576,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/92G9WVrJXbTW0MmnJx_fgg--~B/aD01NzY7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/fabd76d746fb98c8021505089a867168",
+            "width": 768,
+            "height": 576,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/aRFEjEl8MxK8v.dbjR0Tqw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/fabd76d746fb98c8021505089a867168",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Insider Monkey",
+        "url": "http://www.insidermonkey.com"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/vnet-group-vnet-soars-10-024542184.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/vnet-group-vnet-soars-10-024542184.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "b3520474-ac63-324f-bcc6-78d23e185d6c",
+    "content": {
+      "id": "b3520474-ac63-324f-bcc6-78d23e185d6c",
+      "contentType": "STORY",
+      "title": "Beijing Steps In To Stop Brutal Online Discount Wars",
+      "description": "",
+      "summary": "China rolled out sweeping new rules on Wednesday to rein in aggressive competition in e-commerce, banning major platforms such as Alibaba Group Holding Ltd. (NYSE:BABA) from forcing online merchants into promotions or deep discounts. The regulations, which take effect in February, follow repeated warnings from Beijing to Alibaba, JD.com Inc. (NASDAQ:JD), and Meituan (OTC:MPNGY) to stop pressuring sellers with pricing tactics that regulators say disrupt market order. Authorities also issued separ",
+      "pubDate": "2026-01-09T02:31:05Z",
+      "displayTime": "2026-01-09T02:31:05Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/Benzinga/f601afd27a30a67618e1813cbb099dfd",
+        "originalWidth": 1000,
+        "originalHeight": 591,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/P8060ag.h7dNVIa7fBNslw--~B/aD01OTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Benzinga/f601afd27a30a67618e1813cbb099dfd",
+            "width": 1000,
+            "height": 591,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/I7HlJvCbcCix_wt4c3_tow--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Benzinga/f601afd27a30a67618e1813cbb099dfd",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Benzinga",
+        "url": "http://www.benzinga.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/beijing-steps-stop-brutal-online-023105230.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/beijing-steps-stop-brutal-online-023105230.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "27d9d70d-d8a2-3e4f-a571-89a39396a8de",
     "content": {
       "id": "27d9d70d-d8a2-3e4f-a571-89a39396a8de",
@@ -428,128 +550,6 @@
       "finance": {
         "premiumFinance": {
           "isPremiumNews": true,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "3e40ec2d-7f8d-36a1-8eed-c3bc7560cf73",
-    "content": {
-      "id": "3e40ec2d-7f8d-36a1-8eed-c3bc7560cf73",
-      "contentType": "STORY",
-      "title": "Startups go public in litmus test for Chinese AI",
-      "description": "",
-      "summary": "Leading Chinese artificial intelligence startup Zhipu AI soared as it went public in Hong Kong on Thursday, a day before rival MiniMax also makes its market debut in a litmus test for the country's rapidly developing sector.Shares in Zhipu AI, which runs the Z.ai tool, rose more than 12 percent on Thursday after its oversubscribed initial public offering raised HK$4.35 billion (US$558 million).",
-      "pubDate": "2026-01-08T09:14:16Z",
-      "displayTime": "2026-01-08T09:14:16Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/afp.com/3df1848fc84aa869c442068fb947a17a",
-        "originalWidth": 768,
-        "originalHeight": 511,
-        "caption": "China's language learning model market is estimated to grow to 101.1 billion yuan (US$14.5 billion) by 2030, according to consultancy Frost and Sullivan (WANG Zhao)",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/1GgFO.BREeqLpRhnOIC3yw--~B/aD01MTE7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/afp.com/3df1848fc84aa869c442068fb947a17a",
-            "width": 768,
-            "height": 511,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/_TbTWkZYKSJDjkm5Y13Qwg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/afp.com/3df1848fc84aa869c442068fb947a17a",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "AFP",
-        "url": "http://www.afp.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/startups-public-litmus-test-chinese-040556182.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/startups-public-litmus-test-chinese-040556182.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "428c98dc-911b-32b9-8059-b35ebe560078",
-    "content": {
-      "id": "428c98dc-911b-32b9-8059-b35ebe560078",
-      "contentType": "STORY",
-      "title": "Why Baidu’s Quiet Spin-Off Could Unlock a Major Re-Rating",
-      "description": "",
-      "summary": "The confidential IPO filing for the Kunlunxin AI chip subsidiary signals a strategic pivot that unlocks hidden value for Baidu shareholders.",
-      "pubDate": "2026-01-07T14:32:00Z",
-      "displayTime": "2026-01-07T14:32:00Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/marketbeat_955/fce3787b6d92281480a74fe08cf65823",
-        "originalWidth": 1200,
-        "originalHeight": 675,
-        "caption": "Baidu logo glows inside a data center with AI data streams, highlighting China’s AI development.",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/os6bOpUZHdgLrMKt5EMzAA--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/fce3787b6d92281480a74fe08cf65823",
-            "width": 1200,
-            "height": 675,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/FmqIATdSoZVsQ1HmC9ucEQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/marketbeat_955/fce3787b6d92281480a74fe08cf65823",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "MarketBeat",
-        "url": "https://www.marketbeat.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.marketbeat.com/originals/why-baidus-quiet-spin-off-could-unlock-a-major-re-rating/?utm_source=yahoofinance&utm_medium=yahoofinance",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/why-baidu-quiet-spin-off-143200100.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
           "isPremiumFreeNews": false
         }
       },

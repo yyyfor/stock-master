@@ -1,5 +1,66 @@
 [
   {
+    "id": "b3520474-ac63-324f-bcc6-78d23e185d6c",
+    "content": {
+      "id": "b3520474-ac63-324f-bcc6-78d23e185d6c",
+      "contentType": "STORY",
+      "title": "Beijing Steps In To Stop Brutal Online Discount Wars",
+      "description": "",
+      "summary": "China rolled out sweeping new rules on Wednesday to rein in aggressive competition in e-commerce, banning major platforms such as Alibaba Group Holding Ltd. (NYSE:BABA) from forcing online merchants into promotions or deep discounts. The regulations, which take effect in February, follow repeated warnings from Beijing to Alibaba, JD.com Inc. (NASDAQ:JD), and Meituan (OTC:MPNGY) to stop pressuring sellers with pricing tactics that regulators say disrupt market order. Authorities also issued separ",
+      "pubDate": "2026-01-09T02:31:05Z",
+      "displayTime": "2026-01-09T02:31:05Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/Benzinga/f601afd27a30a67618e1813cbb099dfd",
+        "originalWidth": 1000,
+        "originalHeight": 591,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/P8060ag.h7dNVIa7fBNslw--~B/aD01OTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Benzinga/f601afd27a30a67618e1813cbb099dfd",
+            "width": 1000,
+            "height": 591,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/I7HlJvCbcCix_wt4c3_tow--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Benzinga/f601afd27a30a67618e1813cbb099dfd",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Benzinga",
+        "url": "http://www.benzinga.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/beijing-steps-stop-brutal-online-023105230.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/beijing-steps-stop-brutal-online-023105230.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "31e3af28-d417-3060-b3be-e55986b70843",
     "content": {
       "id": "31e3af28-d417-3060-b3be-e55986b70843",
@@ -513,67 +574,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/bytedance-dominates-chinas-tech-hiring-093000470.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "abd13d12-e39d-3785-bd6a-6c4c7a782b01",
-    "content": {
-      "id": "abd13d12-e39d-3785-bd6a-6c4c7a782b01",
-      "contentType": "STORY",
-      "title": "JD.com pledges $3.12 billion housing support for couriers",
-      "description": "",
-      "summary": "JD.com, one of China's largest e-commerce firms, pledged 22 billion yuan ($3.12 billion) in housing support for its army of ​couriers, as competition intensifies in the instant retail market.  JD.com's move, announced in ‌a post on its official WeChat account on Friday, follows a similar promise from food delivery firm ‌Meituan.  Last month, Meituan said it would invest 10 billion yuan over the next five years to build a more comprehensive welfare system for its delivery riders.",
-      "pubDate": "2025-12-12T03:58:39Z",
-      "displayTime": "2025-12-12T03:58:39Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/reuters-finance.com/af8a257a45325e41ab9581ec0e84e144",
-        "originalWidth": 800,
-        "originalHeight": 534,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/tJ5LoIM7KY3tlRfDgr1JUw--~B/aD01MzQ7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/af8a257a45325e41ab9581ec0e84e144",
-            "width": 800,
-            "height": 534,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/1Fp3ZivaeQ6iDVK8BgrdYw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/af8a257a45325e41ab9581ec0e84e144",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Reuters",
-        "url": "http://www.reuters.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/jd-com-pledges-3-12-035839968.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/jd-com-pledges-3-12-035839968.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
