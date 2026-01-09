@@ -1,56 +1,14 @@
 [
   {
-    "id": "bed4097e-702d-35d0-9f2b-6960dad4637b",
-    "content": {
-      "id": "bed4097e-702d-35d0-9f2b-6960dad4637b",
-      "contentType": "STORY",
-      "title": "Alibaba stock target cut at Morgan Stanley on worsening core e-comm business",
-      "description": "",
-      "summary": "Investing.com -- Morgan Stanley lowered its price target on Alibaba to $180 from $200 in a note on Thursday, citing a deteriorating outlook for the company’s core e-commerce operations even as cloud momentum remains strong.",
-      "pubDate": "2026-01-08T16:08:44Z",
-      "displayTime": "2026-01-08T16:08:44Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": null,
-      "provider": {
-        "displayName": "Investing.com",
-        "url": "https://www.investing.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-stock-target-cut-morgan-160844286.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-stock-target-cut-morgan-160844286.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
     "id": "27d9d70d-d8a2-3e4f-a571-89a39396a8de",
     "content": {
       "id": "27d9d70d-d8a2-3e4f-a571-89a39396a8de",
       "contentType": "STORY",
       "title": "Nvidia Stock Falls. China Chip Sales Are a Big Question.",
       "description": "",
-      "summary": "Nvidia  was down early on Thursday amid mixed signals over how close the chip maker is to resuming exports of its hardware to China.  Nvidia shares were down 1.9% at $185.54 in early trading, while the  index was down 0.2% and the tech-heavy Nasdaq Composite was 0.9% lower.  President Donald Trump said last month he would allow shipments of the company’s H200 chip to China, provided that Nvidia gives the U.S. government a 25% cut of sales.",
-      "pubDate": "2026-01-08T16:06:00Z",
-      "displayTime": "2026-01-08T16:06:00Z",
+      "summary": "Nvidia  was down early on Thursday amid mixed signals over how close the chip maker is to resuming exports of its hardware to China.  Nvidia shares were down 2.2% at $185 at the end of trading, while the  index was flat and the tech-heavy Nasdaq Composite was down 0.4%.  President Donald Trump said last month he would allow shipments of the company’s H200 chip to China, provided that Nvidia gives the U.S. government a 25% cut of sales.",
+      "pubDate": "2026-01-08T21:11:00Z",
+      "displayTime": "2026-01-08T21:11:00Z",
       "isHosted": false,
       "bypassModal": false,
       "previewUrl": "https://finance.yahoo.com/m/27d9d70d-d8a2-3e4f-a571-89a39396a8de/nvidia-stock-falls-china.html",
@@ -85,6 +43,165 @@
         "lang": "en-US"
       },
       "clickThroughUrl": null,
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "53830a90-d29a-3140-833f-d89b14b304d7",
+    "content": {
+      "id": "53830a90-d29a-3140-833f-d89b14b304d7",
+      "contentType": "STORY",
+      "title": "Assessing Alibaba Group Holding (NYSE:BABA) Valuation After Recent Share Price Volatility",
+      "description": "",
+      "summary": "Alibaba Group Holding (NYSE:BABA) has drawn investor attention after its recent share price moves, with the stock now around $146.75 and showing mixed returns over the past year, month and past 3 months. See our latest analysis for Alibaba Group Holding. Recent share price moves have been choppy, with a 1 day share price return of 2.75% decline and a 90 day share price return of 15.51% decline, while the 1 year total shareholder return of 78.28% points to earlier momentum now fading. If...",
+      "pubDate": "2026-01-08T19:12:59Z",
+      "displayTime": "2026-01-08T19:12:59Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+        "originalWidth": 1194,
+        "originalHeight": 432,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Asb.EQEV7awFB_Mkuf_o.A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+            "width": 1194,
+            "height": 432,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/D6tGlHnBV1OBj9DD.GNtjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Simply Wall St.",
+        "url": "https://simplywall.st/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/assessing-alibaba-group-holding-nyse-191259941.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/assessing-alibaba-group-holding-nyse-191259941.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "00da598e-7dcc-3ff1-a7d1-2dc60c47f3d5",
+    "content": {
+      "id": "00da598e-7dcc-3ff1-a7d1-2dc60c47f3d5",
+      "contentType": "STORY",
+      "title": "Alibaba Stock Jumps To Retake Key Level. Here's What To Know.",
+      "description": "",
+      "summary": "Alibaba stock rallied as China AI IPOs performed well and Nvidia's AI chips were set to be allowed.",
+      "pubDate": "2026-01-08T18:52:42Z",
+      "displayTime": "2026-01-08T18:52:42Z",
+      "isHosted": false,
+      "bypassModal": false,
+      "previewUrl": "https://finance.yahoo.com/m/00da598e-7dcc-3ff1-a7d1-2dc60c47f3d5/alibaba-stock-jumps-to-retake.html",
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/ibd.com/36d519c5d45c0a23525fcb3110a740cb",
+        "originalWidth": 1000,
+        "originalHeight": 563,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/iKHH75R1kDQ2MsGv.tfzJA--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/36d519c5d45c0a23525fcb3110a740cb",
+            "width": 1000,
+            "height": 563,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/SyMcipf27p704WbpQYOYuQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/ibd.com/36d519c5d45c0a23525fcb3110a740cb",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Investor's Business Daily",
+        "url": "http://www.investors.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.investors.com/news/technology/alibaba-stock-ai-jan-2026/?src=A00220&yptr=yahoo",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": null,
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "bed4097e-702d-35d0-9f2b-6960dad4637b",
+    "content": {
+      "id": "bed4097e-702d-35d0-9f2b-6960dad4637b",
+      "contentType": "STORY",
+      "title": "Alibaba stock target cut at Morgan Stanley on worsening core e-comm business",
+      "description": "",
+      "summary": "Investing.com -- Morgan Stanley lowered its price target on Alibaba to $180 from $200 in a note on Thursday, citing a deteriorating outlook for the company’s core e-commerce operations even as cloud momentum remains strong.",
+      "pubDate": "2026-01-08T16:08:44Z",
+      "displayTime": "2026-01-08T16:08:44Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": null,
+      "provider": {
+        "displayName": "Investing.com",
+        "url": "https://www.investing.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-stock-target-cut-morgan-160844286.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-stock-target-cut-morgan-160844286.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
       "metadata": {
         "editorsPick": false
       },
@@ -423,128 +540,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/why-baidu-quiet-spin-off-143200100.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "39cc9d36-ff66-3725-8226-ccc5e5789949",
-    "content": {
-      "id": "39cc9d36-ff66-3725-8226-ccc5e5789949",
-      "contentType": "STORY",
-      "title": "Alibaba Shares Fall on Analyst Downgrade Flags Rising Costs",
-      "description": "",
-      "summary": "Cloud Growth Keeps Alibaba Afloat Despite Retail Slowdown",
-      "pubDate": "2026-01-07T12:00:31Z",
-      "displayTime": "2026-01-07T12:00:31Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-        "originalWidth": 952,
-        "originalHeight": 466,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/ra4Ti30CsXfCq7nnMSbi4Q--~B/aD00NjY7dz05NTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-            "width": 952,
-            "height": 466,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/H7fwXdruZYh3hbuXrJUdKg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "GuruFocus.com",
-        "url": "http://www.gurufocus.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-shares-fall-analyst-downgrade-120031443.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-shares-fall-analyst-downgrade-120031443.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "1c044bb7-741a-3e78-8b44-d536941bee0c",
-    "content": {
-      "id": "1c044bb7-741a-3e78-8b44-d536941bee0c",
-      "contentType": "STORY",
-      "title": "Alibaba (BABA) Stock Slides as Market Rises: Facts to Know Before You Trade",
-      "description": "",
-      "summary": "Alibaba (BABA) reached $150.9 at the closing of the latest trading day, reflecting a -3.43% change compared to its last close.",
-      "pubDate": "2026-01-06T22:45:05Z",
-      "displayTime": "2026-01-06T22:45:05Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/zacks.com/670d1917693293f70179651625deb88f",
-        "originalWidth": 900,
-        "originalHeight": 675,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/5w_iAw5naBqMPrzpIECi9Q--~B/aD02NzU7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/670d1917693293f70179651625deb88f",
-            "width": 900,
-            "height": 675,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Iu37D2mm3Zx1u.iQQ4MxUw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/670d1917693293f70179651625deb88f",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Zacks",
-        "url": "http://www.zacks.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-baba-stock-slides-market-224505351.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-baba-stock-slides-market-224505351.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
