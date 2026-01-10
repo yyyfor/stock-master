@@ -2572,14 +2572,16 @@
         window.addEventListener('DOMContentLoaded', function() {
             console.log('Page loaded, attempting to load news...');
 
-            // Handle hash-based tab navigation
+            // Handle hash-based tab navigation - use Bootstrap's tab instance method
             const hash = window.location.hash;
             if (hash) {
-                const tabId = hash + '-tab';
-                const targetTab = document.getElementById(tabId);
-                if (targetTab) {
-                    const tab = new bootstrap.Tab(targetTab);
-                    tab.show();
+                const tabElement = document.querySelector(`button[data-bs-target="${hash}"]`);
+                if (tabElement) {
+                    const tabInstance = new bootstrap.Tab(tabElement);
+                    tabInstance.show();
+                    console.log(`Activated tab: ${hash}`);
+                } else {
+                    console.log(`Tab element not found for hash: ${hash}`);
                 }
             }
 
