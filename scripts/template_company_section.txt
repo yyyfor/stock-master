@@ -1,0 +1,212 @@
+# Template for Company Tab Content
+
+## Structure:
+```
+<div class="tab-pane fade" id="COMPANY" role="tabpanel">
+    <div class="company-section" style="margin: 0; border-left: none; border-top: 5px solid var(--company-color);">
+        <h2>📢 Company Name (TICKER)</h2>
+
+        <div class="row">
+            <div class="col-md-8">
+                <div class="summary">
+                    <h3>Business Overview</h3>
+                    <p>Description...</p>
+                    <ul>
+                        <li><strong>Segment 1:</strong> Description</li>
+                        <li><strong>Segment 2:</strong> Description</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="callout-box" style="margin-top: 0;">
+                    <h4>💡 Investment Rating</h4>
+                    <p style="font-size: 2rem; text-align: center; margin: 20px 0;">
+                        <span class="badge-buy/hold/sell">RATING</span>
+                    </p>
+                    <p><strong>Target:</strong> PRICE</p>
+                    <p><strong>Upside:</strong> PERCENTAGE</p>
+                    <p><strong>Risk:</strong> Low/Medium/High</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Key Investment Metrics -->
+        <div class="metrics-grid" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+            <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">📊 Key Investment Metrics</h3>
+
+            <div class="row">
+                <!-- Market Data Column -->
+                <div class="col-md-3">
+                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">📈 Market Data</h5>
+                    <div class="metric-item"><span class="metric-label">Ticker:</span> <strong>TICKER</strong></div>
+                    <div class="metric-item"><span class="metric-label">Market Cap:</span> <strong>$XXXB</strong></div>
+                    <div class="metric-item"><span class="metric-label">Enterprise Value:</span> <strong>$XXB</strong></div>
+                    <div class="metric-item"><span class="metric-label">Current Price:</span> <strong>HK$XXX.XX</strong></div>
+                    <div class="metric-item"><span class="metric-label">52W High/Low:</span> <strong>HK$XXX.XX / HK$XX.XX</strong></div>
+                    <div class="metric-item"><span class="metric-label">Avg Volume:</span> <strong>XX.XM</strong></div>
+                    <div class="metric-item"><span class="metric-label">Beta (5Y):</span> <strong>X.XX</strong></div>
+                </div>
+
+                <!-- Valuation Column -->
+                <div class="col-md-3">
+                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">💰 Valuation</h5>
+                    <div class="metric-item"><span class="metric-label">P/E Ratio (TTM):</span> <strong>XX.Xx</strong></div>
+                    <div class="metric-item"><span class="metric-label">Forward P/E:</span> <strong>XX.Xx</strong></div>
+                    <div class="metric-item"><span class="metric-label">P/B Ratio:</span> <strong>X.Xx</strong></div>
+                    <div class="metric-item"><span class="metric-label">P/S Ratio:</span> <strong>X.Xx</strong></div>
+                    <div class="metric-item"><span class="metric-label">EV/EBITDA:</span> <strong>XX.Xx</strong></div>
+                    <div class="metric-item"><span class="metric-label">PEG Ratio:</span> <strong>X.XX</strong></div>
+                    <div class="metric-item"><span class="metric-label">EPS (TTM):</span> <strong>HK$X.XX</strong></div>
+                    <div class="metric-item"><span class="metric-label">Book Value/Share:</span> <strong>HK$XX.XX</strong></div>
+                </div>
+
+                <!-- Profitability Column -->
+                <div class="col-md-3">
+                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">📊 Profitability</h5>
+                    <div class="metric-item"><span class="metric-label">ROE (TTM):</span> <strong>XX.X%</strong></div>
+                    <div class="metric-item"><span class="metric-label">ROA (TTM):</span> <strong>X.X%</strong></div>
+                    <div class="metric-item"><span class="metric-label">Gross Margin:</span> <strong>XX.X%</strong></div>
+                    <div class="metric-item"><span class="metric-label">Operating Margin:</span> <strong>XX.X%</strong></div>
+                    <div class="metric-item"><span class="metric-label">Net Margin:</span> <strong>XX.X%</strong></div>
+                    <div class="metric-item"><span class="metric-label">Revenue Growth (TTM):</span> <strong>X.X%</strong></div>
+                    <div class="metric-item"><span class="metric-label">Earnings Growth (YoY):</span> <strong>XX.X%</strong></div>
+                </div>
+
+                <!-- Balance Sheet Column -->
+                <div class="col-md-3">
+                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">💪 Balance Sheet</h5>
+                    <div class="metric-item"><span class="metric-label">Debt/Equity:</span> <strong>X.XX</strong></div>
+                    <div class="metric-item"><span class="metric-label">Current Ratio:</span> <strong>X.XX</strong></div>
+                    <div class="metric-item"><span class="metric-label">Total Cash:</span> <strong>$XXB</strong></div>
+                    <div class="metric-item"><span class="metric-label">Total Debt:</span> <strong>$XXB</strong></div>
+                    <div class="metric-item"><span class="metric-label">Net Cash:</span> <strong>$XXB</strong></div>
+                    <div class="metric-item"><span class="metric-label">Free Cash Flow:</span> <strong>$XX.XB</strong></div>
+                    <div class="metric-item"><span class="metric-label">Dividend Yield:</span> <strong>X.X%</strong></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bull/Bear Case Analysis -->
+        <div class="bull-bear-analysis" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+            <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">🎯 Bull/Bear Case Analysis</h3>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div style="background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+                        <h4 style="color: #155724; margin-bottom: 15px;">🐂 Bull Case (Probability-Weighted)</h4>
+                        <div style="margin-bottom: 12px;"><strong style="color: #28a745;">Factor 1 (XX%)</strong><br><span style="font-size: 0.9rem;">Description</span></div>
+                        <div style="margin-bottom: 12px;"><strong style="color: #28a745;">Factor 2 (XX%)</strong><br><span style="font-size: 0.9rem;">Description</span></div>
+                        <div style="margin-bottom: 12px;"><strong style="color: #28a745;">Factor 3 (XX%)</strong><br><span style="font-size: 0.9rem;">Description</span></div>
+                        <div style="margin-bottom: 12px;"><strong style="color: #28a745;">Factor 4 (XX%)</strong><br><span style="font-size: 0.9rem;">Description</span></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div style="background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+                        <h4 style="color: #856404; margin-bottom: 15px;">🐻 Bear Case (Risk-Weighted)</h4>
+                        <div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Risk 1 (XX%)</strong><br><span style="font-size: 0.9rem;">Description</span></div>
+                        <div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Risk 2 (XX%)</strong><br><span style="font-size: 0.9rem;">Description</span></div>
+                        <div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Risk 3 (XX%)</strong><br><span style="font-size: 0.9rem;">Description</span></div>
+                        <div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Risk 4 (XX%)</strong><br><span style="font-size: 0.9rem;">Description</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background: #e7f3ff; padding: 15px; border-left: 4px solid #0066cc; border-radius: 5px;">
+                <strong>Base Case:</strong> Target PRICE (+PERCENTAGE upside) based on P/E, assumes assumptions
+            </div>
+        </div>
+
+        <!-- Key Investment Catalysts -->
+        <div class="catalysts-section" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+            <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">📅 Key Investment Catalysts (Next 12 Months)</h3>
+            <div class="timeline">
+                <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
+                    <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">DATE</div>
+                    <div style="flex: 1;">
+                        <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Event Title</div>
+                        <div style="font-size: 0.9rem; color: #666;">Description</div>
+                    </div>
+                </div>
+                <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
+                    <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">DATE</div>
+                    <div style="flex: 1;">
+                        <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Event Title</div>
+                        <div style="font-size: 0.9rem; color: #666;">Description</div>
+                    </div>
+                </div>
+                <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
+                    <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">DATE</div>
+                    <div style="flex: 1;">
+                        <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Event Title</div>
+                        <div style="font-size: 0.9rem; color: #666;">Description</div>
+                    </div>
+                </div>
+                <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
+                    <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">DATE</div>
+                    <div style="flex: 1;">
+                        <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Event Title</div>
+                        <div style="font-size: 0.9rem; color: #666;">Description</div>
+                    </div>
+                </div>
+                <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
+                    <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">DATE</div>
+                    <div style="flex: 1;">
+                        <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Event Title</div>
+                        <div style="font-size: 0.9rem; color: #666;">Description</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Charts Row -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="chart-container">
+                    <canvas id="chart-COMPANY-revenue"></canvas>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="chart-container">
+                    <canvas id="chart-COMPANY-margin"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Investment Thesis -->
+        <div class="callout-box mt-4">
+            <h4>💡 Key Investment Thesis</h4>
+            <p><strong>Thesis Statement:</strong> Investment rationale description</p>
+        </div>
+
+        <!-- Key Risks -->
+        <div class="risks mt-4">
+            <h3>Key Risks</h3>
+            <ul>
+                <li><strong>Risk 1:</strong> Description</li>
+                <li><strong>Risk 2:</strong> Description</li>
+                <li><strong>Risk 3:</strong> Description</li>
+                <li><strong>Risk 4:</strong> Description</li>
+            </ul>
+        </div>
+
+        <!-- News Section -->
+        <div class="news-section">
+            <h3>📰 Latest News</h3>
+            <div id="COMPANY-news">
+                <div class="news-loading">Loading latest news...</div>
+            </div>
+        </div>
+    </div>
+</div>
+```
+
+## Required Sections:
+1. ✅ Business Overview
+2. ✅ Investment Rating (callout-box)
+3. ✅ Key Investment Metrics (metrics-grid with 4 columns: Market Data, Valuation, Profitability, Balance Sheet)
+4. ✅ Bull/Bear Case Analysis
+5. ✅ Key Investment Catalysts
+6. ✅ Charts (2 charts)
+7. ✅ Key Investment Thesis (callout-box)
+8. ✅ Key Risks (risks section)
+9. ✅ News Section

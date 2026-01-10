@@ -428,7 +428,7 @@
 
         .news-loading {
             text-align: center;
-            padding: 20px;
+            padding: 40px;
             color: #6c757d;
             font-style: italic;
         }
@@ -782,14 +782,12 @@
             <div style="margin-top: 20px; padding: 15px; background: #e7f3ff; border-left: 4px solid #0066cc; border-radius: 5px;">
                 <strong>📊 Investment Ranking:</strong>
                 <div style="margin-top: 10px;">
-                    <div>🥇 <strong>Best Value:</strong> JD.com (7.5x forward P/E, 0.68 PEG, $28B net cash, 35% upside)</div>
-                    <div>🥈 <strong>Best Quality:</strong> Tencent (26% net margin, 28.5% op margin, $95B cash, moat leader)</div>
-                    <div>🥉 <strong>Best AI Growth:</strong> Baidu (9.2x forward P/E, ERNIE LLM adoption, autonomous driving leader)</div>
-                    <div>🏅 <strong>Best Cash Flow:</strong> Alibaba (11.1x forward P/E, $55B cash, regulatory reset tailwind)</div>
-                    <div>🏅 <strong>Best Growth:</strong> Xiaomi (133.5% earnings growth, EV optionality, premium pivot)</div>
-                    <div>🏅 <strong>Best Market Leader:</strong> Meituan (70%+ delivery share, margin expansion potential)</div>
+                    <div>🥇 <strong>Best Value:</strong> Alibaba (10.2x P/E, 0.7 PEG, $45B net cash, 45% upside)</div>
+                    <div>🥈 <strong>Best Growth:</strong> Meituan (16.3% revenue CAGR, 57% earnings growth, market leader)</div>
+                    <div>🥉 <strong>Most Balanced:</strong> Xiaomi (EV optionality, premium mix shift, but high execution risk)</div>
                 </div>
             </div>
+        </div>
         
                     <div style="margin-top: 40px;">
                         <h3 style="color: var(--primary-dark); margin-bottom: 20px;">Comparative Analysis</h3>
@@ -1439,7 +1437,23 @@
             </div>
         </div>
 
+        <style>
+        .metric-item {
+            padding: 6px 0;
+            border-bottom: 1px solid #f0f0f0;
+            font-size: 0.85rem;
+        }
+        .metric-item:last-child {
+            border-bottom: none;
+        }
+        .metric-label {
+            color: #666;
+            margin-right: 8px;
+        }
+        </style>
+        
 
+                        
         <div class="bull-bear-analysis" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
             <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">🎯 Bull/Bear Case Analysis</h3>
 
@@ -1635,7 +1649,23 @@
             </div>
         </div>
 
+        <style>
+        .metric-item {
+            padding: 6px 0;
+            border-bottom: 1px solid #f0f0f0;
+            font-size: 0.85rem;
+        }
+        .metric-item:last-child {
+            border-bottom: none;
+        }
+        .metric-label {
+            color: #666;
+            margin-right: 8px;
+        }
+        </style>
+        
 
+                        
         <div class="bull-bear-analysis" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
             <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">🎯 Bull/Bear Case Analysis</h3>
 
@@ -1829,127 +1859,63 @@
                     <div class="metric-item"><span class="metric-label">Free Cash Flow:</span> <strong>$5.1B</strong></div>
                     <div class="metric-item"><span class="metric-label">Dividend Yield:</span> <strong>0.0%</strong></div>
                 </div>
-                    
+            </div>
+        </div>
 
+                <div class="col-md-3">
+                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">💰 Valuation</h5>
+                    <div class="metric-item"><span class="metric-label">P/E Ratio:</span> <strong>29.1x</strong></div>
+                    <div class="metric-item"><span class="metric-label">P/B Ratio:</span> <strong>7.1x</strong></div>
+                    <div class="metric-item"><span class="metric-label">P/S Ratio:</span> <strong>1.8x</strong></div>
+                    <div class="metric-item"><span class="metric-label">EV/EBITDA:</span> <strong>1.9x</strong></div>
+                    <div class="metric-item"><span class="metric-label">PEG Ratio:</span> <strong>0.8</strong></div>
+                    <div class="metric-item"><span class="metric-label">EPS \(TTM\):</span> <strong>HK$-0.33</strong></div>
+                    <div class="metric-item"><span class="metric-label">Book Value/Share:</span> <strong>HK$14.74</strong></div>
+                </div>
 
+                <div class="col-md-3">
+                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">📊 Profitability</h5>
+                    <div class="metric-item"><span class="metric-label">ROE:</span> <strong>4.3%</strong></div>
+                    <div class="metric-item"><span class="metric-label">ROA:</span> <strong>4.1%</strong></div>
+                    <div class="metric-item"><span class="metric-label">ROIC:</span> <strong>4.2%</strong></div>
+                    <div class="metric-item"><span class="metric-label">Gross Margin:</span> <strong>33.5%</strong></div>
+                    <div class="metric-item"><span class="metric-label">Operating Margin:</span> <strong>8.5%</strong></div>
+                    <div class="metric-item"><span class="metric-label">Net Margin:</span> <strong>9.8%</strong></div>
+                    <div class="metric-item"><span class="metric-label">FCF Margin:</span> <strong>1.0%</strong></div>
+                </div>
 
+                <div class="col-md-3">
+                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">💪 Balance Sheet</h5>
+                    <div class="metric-item"><span class="metric-label">Debt/Equity:</span> <strong>0.09</strong></div>
+                    <div class="metric-item"><span class="metric-label">Current Ratio:</span> <strong>1.95</strong></div>
+                    <div class="metric-item"><span class="metric-label">Cash & Equiv:</span> <strong>$22.5B</strong></div>
+                    <div class="metric-item"><span class="metric-label">Net Cash:</span> <strong>$90.0B</strong></div>
+                    <div class="metric-item"><span class="metric-label">FCF/Share:</span> <strong>HK$0.62</strong></div>
+                    <div class="metric-item"><span class="metric-label">Dividend Yield:</span> <strong>0.0%</strong></div>
+                    <div class="metric-item"><span class="metric-label">Institutional Own:</span> <strong>55%</strong></div>
+                </div>
+            </div>
+        </div>
+
+        <style>
+        .metric-item {
+            padding: 6px 0;
+            border-bottom: 1px solid #f0f0f0;
+            font-size: 0.85rem;
+        }
+        .metric-item:last-child {
+            border-bottom: none;
+        }
+        .metric-label {
+            color: #666;
+            margin-right: 8px;
+        }
+        </style>
+        
+
+                        
+        <div class="bull-bear-analysis" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
             <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">🎯 Bull/Bear Case Analysis</h3>
-
-            <div class="row">
-                <div class="col-md-6">
-                    <div style="background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
-                        <h4 style="color: #155724; margin-bottom: 15px;">🐂 Bull Case (Probability-Weighted)</h4>
-                        <div style="margin-bottom: 12px;"><strong style="color: #28a745;">Delivery Margin Expansion (40%)</strong><br><span style="font-size: 0.9rem;">Unit economics improve 300bp, take rates increase to 22%+</span></div>
-                        <div style="margin-bottom: 12px;"><strong style="color: #28a745;">Hotel/Travel Recovery (30%)</strong><br><span style="font-size: 0.9rem;">Domestic travel normalizes, segment margins reach 35%+</span></div>
-                        <div style="margin-bottom: 12px;"><strong style="color: #28a745;">New Initiatives Breakeven (20%)</strong><br><span style="font-size: 0.9rem;">Grocery/retail reaches profitability, adds $1-2B EBIT</span></div>
-                        <div style="margin-bottom: 12px;"><strong style="color: #28a745;">Market Share Defense (10%)</strong><br><span style="font-size: 0.9rem;">Successfully fends off Douyin competition, maintains 70%+ share</span></div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div style="background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
-                        <h4 style="color: #856404; margin-bottom: 15px;">🐻 Bear Case (Risk-Weighted)</h4>
-                        <div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Competition Intensifies (45%)</strong><br><span style="font-size: 0.9rem;">Douyin/Ele.me subsidies force take rate cuts, margins compress 500bp</span></div>
-                        <div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Regulatory Pressure (25%)</strong><br><span style="font-size: 0.9rem;">Delivery rider regulations increase costs by 15-20%</span></div>
-                        <div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Consumer Downtrading (20%)</strong><br><span style="font-size: 0.9rem;">Macro weakness drives ticket size down 10-15%, order frequency drops</span></div>
-                        <div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Expansion Losses (10%)</strong><br><span style="font-size: 0.9rem;">Grocery/retail burns $3-5B before pivot/exit</span></div>
-                    </div>
-                </div>
-            </div>
-
-            <div style="background: #e7f3ff; padding: 15px; border-left: 4px solid #0066cc; border-radius: 5px;">
-                <strong>Base Case:</strong> Target HK$250 (+35% upside) based on 22x FY26E P/E, assumes sustained market leadership and margin expansion
-            </div>
-        </div>
-
-
-
-            <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">📅 Key Investment Catalysts (Next 12 Months)</h3>
-            <div class="timeline">
-                <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                    <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Mar 25, 2026</div>
-                    <div style="flex: 1;">
-                        <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Q4 2025 Earnings</div>
-                        <div style="font-size: 0.9rem; color: #666;">Delivery unit economics, hotel/travel recovery momentum</div>
-                    </div>
-                </div>
-                <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                    <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">May 5, 2026</div>
-                    <div style="flex: 1;">
-                        <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">May Day Travel Data</div>
-                        <div style="font-size: 0.9rem; color: #666;">Hotel bookings vs 2019, ADR trends, margin sustainability</div>
-                    </div>
-                </div>
-                <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                    <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Q2 2026</div>
-                    <div style="flex: 1;">
-                        <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Douyin Competition Response</div>
-                        <div style="font-size: 0.9rem; color: #666;">Strategic pricing, subsidy discipline, differentiation</div>
-                    </div>
-                </div>
-                <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                    <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Q3 2026</div>
-                    <div style="flex: 1;">
-                        <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Grocery Pivot Decision</div>
-                        <div style="font-size: 0.9rem; color: #666;">Continue investment or scale back - $2-4B impact</div>
-                    </div>
-                </div>
-                <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                    <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Oct 8, 2026</div>
-                    <div style="flex: 1;">
-                        <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Golden Week Performance</div>
-                        <div style="font-size: 0.9rem; color: #666;">Order volume growth, merchant retention, take rate</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-                        <div class="row mt-4">
-                            <div class="col-md-6">
-                                <div class="chart-container">
-                                    <canvas id="chart-meituan-revenue"></canvas>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="chart-container">
-                                    <canvas id="chart-meituan-margin"></canvas>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="callout-box mt-4">
-                            <h4>💡 Key Investment Thesis</h4>
-                            <p><strong>Dominant Platform with Margin Expansion:</strong> Unassailable 70%+ food delivery share provides high-frequency engagement. Operating margins improving from 11% to 16%+ as unit economics mature. Trading at ~20x P/E with 25-30% growth.</p>
-                        </div>
-
-                        <div class="risks mt-4">
-                            <h3>Key Risks</h3>
-                            <ul>
-                                <li><strong>Labor Regulations:</strong> Gig worker cost increases</li>
-                                <li><strong>Competition:</strong> Douyin expanding into local services</li>
-                                <li><strong>Consumer Spending:</strong> Macro sensitivity</li>
-                                <li><strong>Commission Pressure:</strong> Potential merchant rate reductions</li>
-                            </ul>
-                        </div>
-                    </div>
-
-            <!-- News Section -->
-                    <div class="news-section">
-                        <h3>📰 Latest News</h3>
-                        <div id="meituan-news">
-                            <div class="news-loading">Loading latest news...</div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <footer style="text-align: center; padding: 30px; color: #6c757d; border-top: 2px solid #dee2e6; margin-top: 40px;">
-                <p><strong>Disclaimer:</strong> This analysis is for informational and educational purposes only. Not investment advice. Consult qualified financial professionals before making investment decisions. Data is approximate/illustrative based on publicly available information.</p>
-                <p style="font-size: 0.9rem; margin-top: 10px;">Generated: January 10, 2026 | Analysis period: FY2023-FY2025E</p>
-            </footer>
-        </div>
-    </div>
 
             <div class="row">
                 <div class="col-md-6">
@@ -2456,12 +2422,35 @@
                 displayNews(newsData, elementId);
             } catch (error) {
                 console.error(`Error loading news for ${company}:`, error);
-                container.innerHTML = `
-                    <div class="news-loading">
-                        <p>暂无新闻数据</p>
-                        <p style="font-size: 0.85em; margin-top: 8px;">News loading...</p>
-                    </div>
-                `;
+
+                // Check if it's a CORS/file protocol issue
+                if (window.location.protocol === 'file:') {
+                    container.innerHTML = `
+                        <div class="news-loading" style="background: #fff3cd; color: #856404; padding: 20px; border-radius: 8px;">
+                            <strong>⚠️ Local File Detected</strong>
+                            <p>News requires a web server to load. Please either:</p>
+                            <ul style="text-align: left; margin: 10px 0;">
+                                <li>Run: <code>python3 -m http.server 8000</code></li>
+                                <li>Or view on GitHub Pages</li>
+                            </ul>
+                            <p><em>Alternatively, news will update automatically when deployed to GitHub Pages.</em></p>
+                        </div>
+                    `;
+                } else {
+                    container.innerHTML = `
+                        <div class="news-loading">
+                            <p>📰 News data not yet available</p>
+                            <p style="font-size: 0.9em; color: #6c757d;">
+                                News updates every 6 hours (00:15, 06:15, 12:15, 18:15 UTC)
+                            </p>
+                            <p style="font-size: 0.85em;">
+                                <a href="https://github.com/yyyfor/stock-master/actions" target="_blank">
+                                    Trigger manual update →
+                                </a>
+                            </p>
+                        </div>
+                    `;
+                }
             }
         }
 
@@ -2471,7 +2460,8 @@
             if (!newsData || newsData.length === 0) {
                 container.innerHTML = `
                     <div class="news-loading">
-                        <p>暂无新闻数据</p>
+                        <p>No recent news available</p>
+                        <p style="font-size: 0.85em; color: #6c757d;">News updates every 6 hours</p>
                     </div>
                 `;
                 return;
@@ -2507,19 +2497,6 @@
         window.addEventListener('DOMContentLoaded', function() {
             console.log('Page loaded, attempting to load news...');
 
-            // Handle hash-based tab navigation - use Bootstrap's tab instance method
-            const hash = window.location.hash;
-            if (hash) {
-                const tabElement = document.querySelector(`button[data-bs-target="${hash}"]`);
-                if (tabElement) {
-                    const tabInstance = new bootstrap.Tab(tabElement);
-                    tabInstance.show();
-                    console.log(`Activated tab: ${hash}`);
-                } else {
-                    console.log(`Tab element not found for hash: ${hash}`);
-                }
-            }
-
             // Try to load news for all companies immediately
             setTimeout(function() {
                 loadNews('tencent', 'tencent-news');
@@ -2529,6 +2506,49 @@
                 loadNews('xiaomi', 'xiaomi-news');
                 loadNews('meituan', 'meituan-news');
             }, 500); // Small delay to ensure page is ready
+        });
+
+        // Also load news when tabs are shown (backup)
+        document.getElementById('tencent-tab').addEventListener('shown.bs.tab', function() {
+            if (!document.getElementById('tencent-news').dataset.loaded) {
+                loadNews('tencent', 'tencent-news');
+                document.getElementById('tencent-news').dataset.loaded = 'true';
+            }
+        });
+
+        document.getElementById('baidu-tab').addEventListener('shown.bs.tab', function() {
+            if (!document.getElementById('baidu-news').dataset.loaded) {
+                loadNews('baidu', 'baidu-news');
+                document.getElementById('baidu-news').dataset.loaded = 'true';
+            }
+        });
+
+        document.getElementById('jd-tab').addEventListener('shown.bs.tab', function() {
+            if (!document.getElementById('jd-news').dataset.loaded) {
+                loadNews('jd', 'jd-news');
+                document.getElementById('jd-news').dataset.loaded = 'true';
+            }
+        });
+
+        document.getElementById('alibaba-tab').addEventListener('shown.bs.tab', function() {
+            if (!document.getElementById('alibaba-news').dataset.loaded) {
+                loadNews('alibaba', 'alibaba-news');
+                document.getElementById('alibaba-news').dataset.loaded = 'true';
+            }
+        });
+
+        document.getElementById('xiaomi-tab').addEventListener('shown.bs.tab', function() {
+            if (!document.getElementById('xiaomi-news').dataset.loaded) {
+                loadNews('xiaomi', 'xiaomi-news');
+                document.getElementById('xiaomi-news').dataset.loaded = 'true';
+            }
+        });
+
+        document.getElementById('meituan-tab').addEventListener('shown.bs.tab', function() {
+            if (!document.getElementById('meituan-news').dataset.loaded) {
+                loadNews('meituan', 'meituan-news');
+                document.getElementById('meituan-news').dataset.loaded = 'true';
+            }
         });
 
 
