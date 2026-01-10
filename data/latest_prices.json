@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-08T07:48:24.481135",
+  "timestamp": "2026-01-09T08:44:54.781059",
   "prices": {
     "alibaba": {
       "price": 131.2,
@@ -12,7 +12,7 @@
       "source": "Manual Fallback (Yahoo Finance)",
       "date": "2025-01-08",
       "company": "alibaba",
-      "timestamp": "2026-01-08T07:48:24.187491",
+      "timestamp": "2026-01-09T08:44:54.576610",
       "is_fallback": true
     },
     "xiaomi": {
@@ -26,7 +26,7 @@
       "source": "Manual Fallback (Yahoo Finance)",
       "date": "2025-01-08",
       "company": "xiaomi",
-      "timestamp": "2026-01-08T07:48:24.310942",
+      "timestamp": "2026-01-09T08:44:54.675564",
       "is_fallback": true
     },
     "meituan": {
@@ -40,7 +40,7 @@
       "source": "Manual Fallback (Yahoo Finance)",
       "date": "2025-01-08",
       "company": "meituan",
-      "timestamp": "2026-01-08T07:48:24.477911",
+      "timestamp": "2026-01-09T08:44:54.777629",
       "is_fallback": true
     }
   }
