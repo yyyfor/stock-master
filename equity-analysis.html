@@ -2572,6 +2572,17 @@
         window.addEventListener('DOMContentLoaded', function() {
             console.log('Page loaded, attempting to load news...');
 
+            // Handle hash-based tab navigation
+            const hash = window.location.hash;
+            if (hash) {
+                const tabId = hash + '-tab';
+                const targetTab = document.getElementById(tabId);
+                if (targetTab) {
+                    const tab = new bootstrap.Tab(targetTab);
+                    tab.show();
+                }
+            }
+
             // Try to load news for all companies immediately
             setTimeout(function() {
                 loadNews('tencent', 'tencent-news');

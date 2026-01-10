@@ -91,11 +91,19 @@
             flex-wrap: wrap;
         }
 
-        .company-badge {
+         .company-badge {
             padding: 10px 20px;
             border-radius: 25px;
             font-weight: 600;
             font-size: 0.9rem;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+
+        .company-badge:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
         }
 
         .badge-alibaba {
@@ -240,12 +248,12 @@
         </p>
 
          <div class="companies">
-            <span class="company-badge badge-tencent">Tencent (0700.HK)</span>
-            <span class="company-badge badge-baidu">Baidu (9888.HK)</span>
-            <span class="company-badge badge-jd">JD.com (9618.HK)</span>
-            <span class="company-badge badge-alibaba">Alibaba (9988.HK)</span>
-            <span class="company-badge badge-xiaomi">Xiaomi (1810.HK)</span>
-            <span class="company-badge badge-meituan">Meituan (3690.HK)</span>
+            <a href="equity-analysis.html#tencent" class="company-badge badge-tencent">Tencent (0700.HK)</a>
+            <a href="equity-analysis.html#baidu" class="company-badge badge-baidu">Baidu (9888.HK)</a>
+            <a href="equity-analysis.html#jd" class="company-badge badge-jd">JD.com (9618.HK)</a>
+            <a href="equity-analysis.html#alibaba" class="company-badge badge-alibaba">Alibaba (9988.HK)</a>
+            <a href="equity-analysis.html#xiaomi" class="company-badge badge-xiaomi">Xiaomi (1810.HK)</a>
+            <a href="equity-analysis.html#meituan" class="company-badge badge-meituan">Meituan (3690.HK)</a>
         </div>
 
         <div style="margin: 40px 0;">
