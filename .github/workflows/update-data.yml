@@ -32,11 +32,9 @@ jobs:
 
       - name: Update financial data
         run: |
-          echo "Fetching latest financial data for Alibaba (9988.HK), Xiaomi (1810.HK), Meituan (3690.HK)..."
-          # Use hybrid price fetcher (attempts live fetch, falls back to reliable data)
-          python scripts/fetch_prices_hybrid.py
-          # Calculate comprehensive metrics from fetched data
-          python scripts/calculate_live_metrics.py
+          echo "Fetching latest financial data for Tencent, Baidu, JD.com, Alibaba, Xiaomi, Meituan..."
+          # Update metrics for all 6 companies
+          python scripts/update_all_companies.py
           echo "Data update completed at $(date)"
 
       - name: Commit and push if changes
