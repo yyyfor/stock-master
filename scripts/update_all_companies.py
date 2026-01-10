@@ -204,7 +204,25 @@ def update_html_with_metrics():
 
     # Update timestamp
     today = datetime.now().strftime("%B %d, %Y")
+    timestamp = datetime.now().strftime("%B %d, %Y at %I:%M %p %Z")
     content = re.sub(r'Analysis Date:.*?</p>', f'Analysis Date: {today}</p>', content)
+
+    # Add or update data timestamp tag
+    timestamp = datetime.now().strftime("%B %d, %Y at %I:%M %p (UTC)")
+    timestamp_replacement = f'<p class="data-timestamp">📅 Last Price Update: {timestamp}</p>'
+
+    # Check if timestamp already exists
+    if '<p class="data-timestamp">' in content:
+        content = re.sub(r'<p class="data-timestamp">.*?</p>', timestamp_replacement, content)
+        print("✅ Updated existing timestamp")
+    else:
+        # Add timestamp after analysis date
+        content = re.sub(
+            r'(Analysis Date:.*?</p>)',
+            rf'\1\n            {timestamp_replacement}',
+            content
+        )
+        print("✅ Added new timestamp")
 
     with open(html_file, 'w', encoding='utf-8') as f:
         f.write(content)
