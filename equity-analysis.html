@@ -428,7 +428,7 @@
 
         .news-loading {
             text-align: center;
-            padding: 40px;
+            padding: 20px;
             color: #6c757d;
             font-style: italic;
         }
@@ -2497,35 +2497,12 @@
                 displayNews(newsData, elementId);
             } catch (error) {
                 console.error(`Error loading news for ${company}:`, error);
-
-                // Check if it's a CORS/file protocol issue
-                if (window.location.protocol === 'file:') {
-                    container.innerHTML = `
-                        <div class="news-loading" style="background: #fff3cd; color: #856404; padding: 20px; border-radius: 8px;">
-                            <strong>⚠️ Local File Detected</strong>
-                            <p>News requires a web server to load. Please either:</p>
-                            <ul style="text-align: left; margin: 10px 0;">
-                                <li>Run: <code>python3 -m http.server 8000</code></li>
-                                <li>Or view on GitHub Pages</li>
-                            </ul>
-                            <p><em>Alternatively, news will update automatically when deployed to GitHub Pages.</em></p>
-                        </div>
-                    `;
-                } else {
-                    container.innerHTML = `
-                        <div class="news-loading">
-                            <p>📰 News data not yet available</p>
-                            <p style="font-size: 0.9em; color: #6c757d;">
-                                News updates every 6 hours (00:15, 06:15, 12:15, 18:15 UTC)
-                            </p>
-                            <p style="font-size: 0.85em;">
-                                <a href="https://github.com/yyyfor/stock-master/actions" target="_blank">
-                                    Trigger manual update →
-                                </a>
-                            </p>
-                        </div>
-                    `;
-                }
+                container.innerHTML = `
+                    <div class="news-loading">
+                        <p>暂无新闻数据</p>
+                        <p style="font-size: 0.85em; margin-top: 8px;">News loading...</p>
+                    </div>
+                `;
             }
         }
 
@@ -2535,8 +2512,7 @@
             if (!newsData || newsData.length === 0) {
                 container.innerHTML = `
                     <div class="news-loading">
-                        <p>No recent news available</p>
-                        <p style="font-size: 0.85em; color: #6c757d;">News updates every 6 hours</p>
+                        <p>暂无新闻数据</p>
                     </div>
                 `;
                 return;
@@ -2594,49 +2570,6 @@
                 loadNews('xiaomi', 'xiaomi-news');
                 loadNews('meituan', 'meituan-news');
             }, 500); // Small delay to ensure page is ready
-        });
-
-        // Also load news when tabs are shown (backup)
-        document.getElementById('tencent-tab').addEventListener('shown.bs.tab', function() {
-            if (!document.getElementById('tencent-news').dataset.loaded) {
-                loadNews('tencent', 'tencent-news');
-                document.getElementById('tencent-news').dataset.loaded = 'true';
-            }
-        });
-
-        document.getElementById('baidu-tab').addEventListener('shown.bs.tab', function() {
-            if (!document.getElementById('baidu-news').dataset.loaded) {
-                loadNews('baidu', 'baidu-news');
-                document.getElementById('baidu-news').dataset.loaded = 'true';
-            }
-        });
-
-        document.getElementById('jd-tab').addEventListener('shown.bs.tab', function() {
-            if (!document.getElementById('jd-news').dataset.loaded) {
-                loadNews('jd', 'jd-news');
-                document.getElementById('jd-news').dataset.loaded = 'true';
-            }
-        });
-
-        document.getElementById('alibaba-tab').addEventListener('shown.bs.tab', function() {
-            if (!document.getElementById('alibaba-news').dataset.loaded) {
-                loadNews('alibaba', 'alibaba-news');
-                document.getElementById('alibaba-news').dataset.loaded = 'true';
-            }
-        });
-
-        document.getElementById('xiaomi-tab').addEventListener('shown.bs.tab', function() {
-            if (!document.getElementById('xiaomi-news').dataset.loaded) {
-                loadNews('xiaomi', 'xiaomi-news');
-                document.getElementById('xiaomi-news').dataset.loaded = 'true';
-            }
-        });
-
-        document.getElementById('meituan-tab').addEventListener('shown.bs.tab', function() {
-            if (!document.getElementById('meituan-news').dataset.loaded) {
-                loadNews('meituan', 'meituan-news');
-                document.getElementById('meituan-news').dataset.loaded = 'true';
-            }
         });
 
 
