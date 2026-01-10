@@ -21,6 +21,13 @@
             --jd-color: #E31837;
             --primary-dark: #1a1a2e;
             --secondary-dark: #16213e;
+            --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+            --shadow-md: 0 4px 16px rgba(0,0,0,0.12);
+            --shadow-lg: 0 8px 32px rgba(0,0,0,0.15);
+        }
+
+        * {
+            scroll-behavior: smooth;
         }
 
         body {
@@ -33,7 +40,7 @@
         .main-container {
             background: white;
             border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            box-shadow: 0 25px 80px rgba(0,0,0,0.35);
             overflow: hidden;
         }
 
@@ -48,6 +55,7 @@
             font-size: 2.5rem;
             font-weight: 700;
             margin-bottom: 15px;
+            letter-spacing: -0.5px;
         }
 
         header .date {
@@ -81,6 +89,11 @@
             border-radius: 15px;
             background: #f8f9fa;
             border-left: 6px solid;
+            transition: all 0.3s ease;
+        }
+
+        .company-section:hover {
+            box-shadow: var(--shadow-md);
         }
 
         .company-section.alibaba {
@@ -98,6 +111,10 @@
         .company-section h2 {
             font-size: 2rem;
             font-weight: 700;
+            margin-bottom: 25px;
+            color: var(--primary-dark);
+            letter-spacing: -0.5px;
+        }
             margin-bottom: 25px;
             color: var(--primary-dark);
         }
@@ -159,7 +176,13 @@
             background: white;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            box-shadow: var(--shadow-sm);
+            transition: all 0.3s ease;
+        }
+
+        .chart-container:hover {
+            box-shadow: var(--shadow-md);
+            transform: translateY(-2px);
         }
 
         .callout-box {
@@ -169,11 +192,18 @@
             border-radius: 10px;
             margin: 20px 0;
             box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+        }
+
+        .callout-box:hover {
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-3px);
         }
 
         .callout-box h4 {
             font-weight: 700;
             margin-bottom: 10px;
+            letter-spacing: 0.5px;
         }
 
         .risks ul {
@@ -321,6 +351,7 @@
             background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
             padding: 10px 20px 0;
             border-radius: 15px 15px 0 0;
+            box-shadow: var(--shadow-sm);
         }
 
         .nav-tabs-custom .nav-link {
@@ -331,18 +362,21 @@
             padding: 15px 30px;
             margin-right: 5px;
             border-radius: 10px 10px 0 0;
-            transition: all 0.3s;
+            transition: all 0.3s ease;
+            background: transparent;
         }
 
         .nav-tabs-custom .nav-link:hover {
-            background: rgba(255,255,255,0.5);
+            background: rgba(255,255,255,0.7);
             color: var(--primary-dark);
+            transform: translateY(-2px);
         }
 
         .nav-tabs-custom .nav-link.active {
             background: white;
             color: var(--primary-dark);
-            box-shadow: 0 -3px 10px rgba(0,0,0,0.1);
+            box-shadow: var(--shadow-sm);
+            border-bottom: 3px solid var(--primary-dark);
         }
 
         .tab-content {
@@ -421,6 +455,153 @@
             color: var(--primary-dark);
         }
 
+        /* Metrics Grid Enhancement */
+        .metrics-grid {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: var(--shadow-sm);
+            transition: all 0.3s ease;
+        }
+
+        .metrics-grid:hover {
+            box-shadow: var(--shadow-md);
+        }
+
+        .metric-item {
+            padding: 6px 0;
+            border-bottom: 1px solid #f0f0f0;
+            font-size: 0.85rem;
+        }
+
+        .metric-item:last-child {
+            border-bottom: none;
+        }
+
+        .metric-label {
+            color: #666;
+            margin-right: 8px;
+        }
+
+        /* Bull/Bear Analysis Enhancement */
+        .bull-bear-analysis {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        /* Catalysts Section Enhancement */
+        .catalysts-section {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        /* Risks Section Enhancement */
+        .risks ul li {
+            background: white;
+            padding: 12px 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            border-left: 4px solid #dc3545;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+        }
+
+        .risks ul li:hover {
+            box-shadow: var(--shadow-sm);
+            transform: translateX(5px);
+        }
+
+        /* Summary Cards Enhancement */
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .summary-card {
+            background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: var(--shadow-sm);
+            border-top: 5px solid;
+            transition: all 0.3s ease;
+        }
+
+        .summary-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .summary-card h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: var(--primary-dark);
+        }
+
+        /* Tab Animation Enhancement */
+        .tab-content {
+            background: white;
+            padding: 30px;
+            border-radius: 0 0 15px 15px;
+            min-height: 500px;
+        }
+
+        .tab-pane {
+            animation: fadeIn 0.4s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Comparison Table Enhancement */
+        .comparison-table-section {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        /* Typography Enhancements */
+        h3 {
+            color: var(--primary-dark);
+            letter-spacing: -0.3px;
+        }
+
+        p {
+            line-height: 1.7;
+            color: #495057;
+        }
+
+        strong {
+            color: var(--primary-dark);
+        }
+
+        /* Button Hover Enhancement */
+        a {
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--primary-dark);
+        }
     </style>
 </head>
 <body>
@@ -1717,10 +1898,10 @@
                     <div class="metric-item"><span class="metric-label">Free Cash Flow:</span> <strong>$5.1B</strong></div>
                     <div class="metric-item"><span class="metric-label">Dividend Yield:</span> <strong>0.0%</strong></div>
                 </div>
-                    
+            </div>
+        </div>
 
-
-
+        <div class="bull-bear-analysis" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
             <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">🎯 Bull/Bear Case Analysis</h3>
 
             <div class="row">
@@ -1732,6 +1913,96 @@
                         <div style="margin-bottom: 12px;"><strong style="color: #28a745;">New Initiatives Breakeven (20%)</strong><br><span style="font-size: 0.9rem;">Grocery/retail reaches profitability, adds $1-2B EBIT</span></div>
                         <div style="margin-bottom: 12px;"><strong style="color: #28a745;">Market Share Defense (10%)</strong><br><span style="font-size: 0.9rem;">Successfully fends off Douyin competition, maintains 70%+ share</span></div>
                     </div>
+                </div>
+                <div class="col-md-6">
+                    <div style="background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+                        <h4 style="color: #856404; margin-bottom: 15px;">🐻 Bear Case (Risk-Weighted)</h4>
+                        <div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Competition Intensifies (45%)</strong><br><span style="font-size: 0.9rem;">Douyin/Ele.me subsidies force take rate cuts, margins compress 500bp</span></div>
+                        <div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Regulatory Pressure (25%)</strong><br><span style="font-size: 0.9rem;">Delivery rider regulations increase costs by 15-20%</span></div>
+                        <div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Consumer Downtrading (20%)</strong><br><span style="font-size: 0.9rem;">Macro weakness drives ticket size down 10-15%, order frequency drops</span></div>
+                        <div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Expansion Losses (10%)</strong><br><span style="font-size: 0.9rem;">Grocery/retail burns $3-5B before pivot/exit</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background: #e7f3ff; padding: 15px; border-left: 4px solid #0066cc; border-radius: 5px;">
+                <strong>Base Case:</strong> Target HK$250 (+35% upside) based on 22x FY26E P/E, assumes sustained market leadership and margin expansion
+            </div>
+        </div>
+
+        <div class="catalysts-section" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+            <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">📅 Key Investment Catalysts (Next 12 Months)</h3>
+            <div class="timeline">
+                <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
+                    <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Mar 25, 2026</div>
+                    <div style="flex: 1;">
+                        <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Q4 2025 Earnings</div>
+                        <div style="font-size: 0.9rem; color: #666;">Delivery unit economics, hotel/travel recovery momentum</div>
+                    </div>
+                </div>
+                <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
+                    <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">May 5, 2026</div>
+                    <div style="flex: 1;">
+                        <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">May Day Travel Data</div>
+                        <div style="font-size: 0.9rem; color: #666;">Hotel bookings vs 2019, ADR trends, margin sustainability</div>
+                    </div>
+                </div>
+                <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
+                    <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Q2 2026</div>
+                    <div style="flex: 1;">
+                        <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Douyin Competition Response</div>
+                        <div style="font-size: 0.9rem; color: #666;">Strategic pricing, subsidy discipline, differentiation</div>
+                    </div>
+                </div>
+                <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
+                    <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Q3 2026</div>
+                    <div style="flex: 1;">
+                        <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Grocery Pivot Decision</div>
+                        <div style="font-size: 0.9rem; color: #666;">Continue investment or scale back - $2-4B impact</div>
+                    </div>
+                </div>
+                <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
+                    <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Oct 8, 2026</div>
+                    <div style="flex: 1;">
+                        <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Golden Week Performance</div>
+                        <div style="font-size: 0.9rem; color: #666;">Order volume growth, merchant retention, take rate</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="chart-container">
+                    <canvas id="chart-meituan-revenue"></canvas>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="chart-container">
+                    <canvas id="chart-meituan-margin"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="callout-box mt-4">
+            <h4>💡 Key Investment Thesis</h4>
+            <p><strong>Dominant Platform with Margin Expansion:</strong> Unassailable 70%+ food delivery share provides high-frequency engagement. Operating margins improving from 11% to 16%+ as unit economics mature. Trading at ~20x P/E with 25-30% growth.</p>
+        </div>
+
+        <div class="risks mt-4">
+            <h3>Key Risks</h3>
+            <ul>
+                <li><strong>Labor Regulations:</strong> Gig worker cost increases</li>
+                <li><strong>Competition:</strong> Douyin expanding into local services</li>
+                <li><strong>Consumer Spending:</strong> Macro sensitivity</li>
+                <li><strong>Commission Pressure:</strong> Potential merchant rate reductions</li>
+            </ul>
+        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
                 </div>
                 <div class="col-md-6">
                     <div style="background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
@@ -1787,26 +2058,11 @@
                         <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Golden Week Performance</div>
                         <div style="font-size: 0.9rem; color: #666;">Order volume growth, merchant retention, take rate</div>
                     </div>
-                </div>
-            </div>
-        </div>
-
+                 </div>
+             </div>
+         </div>
 
-
-                        <div class="row mt-4">
-                            <div class="col-md-6">
-                                <div class="chart-container">
-                                    <canvas id="chart-meituan-revenue"></canvas>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="chart-container">
-                                    <canvas id="chart-meituan-margin"></canvas>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="callout-box mt-4">
+        <div class="callout-box mt-4">
                             <h4>💡 Key Investment Thesis</h4>
                             <p><strong>Dominant Platform with Margin Expansion:</strong> Unassailable 70%+ food delivery share provides high-frequency engagement. Operating margins improving from 11% to 16%+ as unit economics mature. Trading at ~20x P/E with 25-30% growth.</p>
                         </div>
@@ -1819,110 +2075,8 @@
                                 <li><strong>Consumer Spending:</strong> Macro sensitivity</li>
                                 <li><strong>Commission Pressure:</strong> Potential merchant rate reductions</li>
                             </ul>
-                        </div>
+                         </div>
                     </div>
-
-            </div>
-        </div>
-    </div>
-                    <div style="background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
-                        <h4 style="color: #155724; margin-bottom: 15px;">🐂 Bull Case (Probability-Weighted)</h4>
-        <div style="margin-bottom: 12px;"><strong style="color: #28a745;">Delivery Margin Expansion (40%)</strong><br><span style="font-size: 0.9rem;">Unit economics improve 300bp, take rates increase to 22%+</span></div><div style="margin-bottom: 12px;"><strong style="color: #28a745;">Hotel/Travel Recovery (30%)</strong><br><span style="font-size: 0.9rem;">Domestic travel normalizes, segment margins reach 35%+</span></div><div style="margin-bottom: 12px;"><strong style="color: #28a745;">New Initiatives Breakeven (20%)</strong><br><span style="font-size: 0.9rem;">Grocery/retail reaches profitability, adds $1-2B EBIT</span></div><div style="margin-bottom: 12px;"><strong style="color: #28a745;">Market Share Defense (10%)</strong><br><span style="font-size: 0.9rem;">Successfully fends off Douyin competition, maintains 70%+ share</span></div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div style="background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
-                        <h4 style="color: #856404; margin-bottom: 15px;">🐻 Bear Case (Risk-Weighted)</h4>
-        <div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Competition Intensifies (45%)</strong><br><span style="font-size: 0.9rem;">Douyin/Ele.me subsidies force take rate cuts, margins compress 500bp</span></div><div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Regulatory Pressure (25%)</strong><br><span style="font-size: 0.9rem;">Delivery rider regulations increase costs by 15-20%</span></div><div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Consumer Downtrading (20%)</strong><br><span style="font-size: 0.9rem;">Macro weakness drives ticket size down 10-15%, order frequency drops</span></div><div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Expansion Losses (10%)</strong><br><span style="font-size: 0.9rem;">Grocery/retail burns $3-5B before pivot/exit</span></div>
-                    </div>
-                </div>
-            </div>
-
-            <div style="background: #e7f3ff; padding: 15px; border-left: 4px solid #0066cc; border-radius: 5px;">
-                <strong>Base Case:</strong> Target HK$250 (+35% upside) based on 22x FY26E P/E, assumes sustained market leadership and margin expansion
-            </div>
-        </div>
-        
-
-                        
-        <div class="catalysts-section" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-            <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">📅 Key Investment Catalysts (Next 12 Months)</h3>
-            <div class="timeline">
-        
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Mar 25, 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Q4 2025 Earnings</div>
-                    <div style="font-size: 0.9rem; color: #666;">Delivery unit economics, hotel/travel recovery momentum</div>
-                </div>
-            </div>
-            
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">May 5, 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">May Day Travel Data</div>
-                    <div style="font-size: 0.9rem; color: #666;">Hotel bookings vs 2019, ADR trends, margin sustainability</div>
-                </div>
-            </div>
-            
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Q2 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Douyin Competition Response</div>
-                    <div style="font-size: 0.9rem; color: #666;">Strategic pricing, subsidy discipline, differentiation</div>
-                </div>
-            </div>
-            
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Q3 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Grocery Pivot Decision</div>
-                    <div style="font-size: 0.9rem; color: #666;">Continue investment or scale back - $2-4B impact</div>
-                </div>
-            </div>
-            
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Oct 8, 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Golden Week Performance</div>
-                    <div style="font-size: 0.9rem; color: #666;">Order volume growth, merchant retention, take rate</div>
-                </div>
-            </div>
-            
-            </div>
-        </div>
-        
-
-
-                        <div class="row mt-4">
-                            <div class="col-md-6">
-                                <div class="chart-container">
-                                    <canvas id="chart-meituan-revenue"></canvas>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="chart-container">
-                                    <canvas id="chart-meituan-margin"></canvas>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="callout-box mt-4">
-                            <h4>💡 Key Investment Thesis</h4>
-                            <p><strong>Dominant Platform with Margin Expansion:</strong> Unassailable 70%+ food delivery share provides high-frequency engagement. Operating margins improving from 11% to 16%+ as unit economics mature. Trading at ~20x P/E with 25-30% growth.</p>
-                        </div>
-
-                        <div class="risks mt-4">
-                            <h3>Key Risks</h3>
-                            <ul>
-                                <li><strong>Labor Regulations:</strong> Gig worker cost increases</li>
-                                <li><strong>Competition:</strong> Douyin expanding into local services</li>
-                                <li><strong>Consumer Spending:</strong> Macro sensitivity</li>
-                                <li><strong>Commission Pressure:</strong> Potential merchant rate reductions</li>
-                            </ul>
-                        </div>
-                     </div>
-                </div>
 
             </div>
         </div>
