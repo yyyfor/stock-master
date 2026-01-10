@@ -1,5 +1,188 @@
 [
   {
+    "id": "fd721288-7127-3768-a1dc-c8ce5b5afc44",
+    "content": {
+      "id": "fd721288-7127-3768-a1dc-c8ce5b5afc44",
+      "contentType": "STORY",
+      "title": "Logistics Giants Expand Mexico Operations as Cross-Border Trade Volumes Climb",
+      "description": "",
+      "summary": "Alibaba’s logistics arm Cainiao joins Echo Global Logistics, C.H. Robinson and Kuehne+Nagel in scaling infrastructure across the country.",
+      "pubDate": "2026-01-09T19:04:16Z",
+      "displayTime": "2026-01-09T19:04:16Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/sourcing_journal_735/1be500d59b650a3d56fd944d333dd076",
+        "originalWidth": 2998,
+        "originalHeight": 2000,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/DiyPUrhw9P4FIhbts.VLfw--~B/aD0yMDAwO3c9Mjk5ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/sourcing_journal_735/1be500d59b650a3d56fd944d333dd076",
+            "width": 2998,
+            "height": 2000,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Qegz.hEkUgARGzdObkd8rw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/sourcing_journal_735/1be500d59b650a3d56fd944d333dd076",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Sourcing Journal",
+        "url": "https://sourcingjournal.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://sourcingjournal.com/topics/logistics/logistics-us-mexico-cross-border-trade-ch-robinson-cainiao-echo-global-kuehne-nagel-warehouse-customs-1234797832/",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/logistics-giants-expand-mexico-operations-190416022.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "98252b53-2eb1-328b-b9c8-6ab1cb5b4ac9",
+    "content": {
+      "id": "98252b53-2eb1-328b-b9c8-6ab1cb5b4ac9",
+      "contentType": "STORY",
+      "title": "Alibaba Stock Falls Despite Nvidia H200 Chip Approval",
+      "description": "",
+      "summary": "BABA Declines as China Oversight and E-Commerce Woes Weigh",
+      "pubDate": "2026-01-09T18:23:19Z",
+      "displayTime": "2026-01-09T18:23:19Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
+        "originalWidth": 952,
+        "originalHeight": 466,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/ra4Ti30CsXfCq7nnMSbi4Q--~B/aD00NjY7dz05NTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
+            "width": 952,
+            "height": 466,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/H7fwXdruZYh3hbuXrJUdKg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "GuruFocus.com",
+        "url": "http://www.gurufocus.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-stock-falls-despite-nvidia-182319786.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-stock-falls-despite-nvidia-182319786.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "d9cbaae5-28d9-3000-addc-b1d41c789201",
+    "content": {
+      "id": "d9cbaae5-28d9-3000-addc-b1d41c789201",
+      "contentType": "STORY",
+      "title": "Is the Pullback in Alibaba Stock a Buying Opportunity?",
+      "description": "",
+      "summary": "Alibaba’s expanding cloud and AI businesses, rising demand for higher-value services, and improving unit economics in quick commerce provide a solid foundation for long-term growth.",
+      "pubDate": "2026-01-09T16:23:20Z",
+      "displayTime": "2026-01-09T16:23:20Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/barchart_com_477/5682aa19d3bf8055dcbddc6e0016ed4c",
+        "originalWidth": 1600,
+        "originalHeight": 946,
+        "caption": "Alibaba by testing via Shutterstock",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/lXl3XUYjEgKRoATfTUs_8Q--~B/aD05NDY7dz0xNjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/barchart_com_477/5682aa19d3bf8055dcbddc6e0016ed4c",
+            "width": 1600,
+            "height": 946,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/HRk1jEccIgauVwc6Zh1L8w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/barchart_com_477/5682aa19d3bf8055dcbddc6e0016ed4c",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Barchart",
+        "url": "https://www.barchart.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.barchart.com/story/news/36970428/is-the-pullback-in-alibaba-stock-a-buying-opportunity",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/pullback-alibaba-stock-buying-opportunity-162320449.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "75f21370-7587-3670-9f0d-31c11953fe93",
     "content": {
       "id": "75f21370-7587-3670-9f0d-31c11953fe93",
@@ -409,184 +592,6 @@
         "region": "US",
         "lang": "en-US"
       },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "6817a73c-cef1-3aa2-9480-bea88f2d6245",
-    "content": {
-      "id": "6817a73c-cef1-3aa2-9480-bea88f2d6245",
-      "contentType": "STORY",
-      "title": "VNET Group (VNET) Soars 10.8% as Goldman Sachs Bullish on Chinese Stocks",
-      "description": "",
-      "summary": "We recently published Wall Street Can’t Keep up With These 10 Stocks on Fire. VNET Group, Inc. (NASDAQ:VNET) was one of the top performers on Thursday. VNET Group rallied for a second day on Thursday, jumping 10.85 percent to close at $10.32 as investors gobbled up shares in Chinese AI companies, supported by an investment […]",
-      "pubDate": "2026-01-09T02:45:42Z",
-      "displayTime": "2026-01-09T02:45:42Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/fabd76d746fb98c8021505089a867168",
-        "originalWidth": 768,
-        "originalHeight": 576,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/92G9WVrJXbTW0MmnJx_fgg--~B/aD01NzY7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/fabd76d746fb98c8021505089a867168",
-            "width": 768,
-            "height": 576,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/aRFEjEl8MxK8v.dbjR0Tqw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/fabd76d746fb98c8021505089a867168",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Insider Monkey",
-        "url": "http://www.insidermonkey.com"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/vnet-group-vnet-soars-10-024542184.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/vnet-group-vnet-soars-10-024542184.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "b3520474-ac63-324f-bcc6-78d23e185d6c",
-    "content": {
-      "id": "b3520474-ac63-324f-bcc6-78d23e185d6c",
-      "contentType": "STORY",
-      "title": "Beijing Steps In To Stop Brutal Online Discount Wars",
-      "description": "",
-      "summary": "China rolled out sweeping new rules on Wednesday to rein in aggressive competition in e-commerce, banning major platforms such as Alibaba Group Holding Ltd. (NYSE:BABA) from forcing online merchants into promotions or deep discounts. The regulations, which take effect in February, follow repeated warnings from Beijing to Alibaba, JD.com Inc. (NASDAQ:JD), and Meituan (OTC:MPNGY) to stop pressuring sellers with pricing tactics that regulators say disrupt market order. Authorities also issued separ",
-      "pubDate": "2026-01-09T02:31:05Z",
-      "displayTime": "2026-01-09T02:31:05Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/Benzinga/f601afd27a30a67618e1813cbb099dfd",
-        "originalWidth": 1000,
-        "originalHeight": 591,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/P8060ag.h7dNVIa7fBNslw--~B/aD01OTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Benzinga/f601afd27a30a67618e1813cbb099dfd",
-            "width": 1000,
-            "height": 591,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/I7HlJvCbcCix_wt4c3_tow--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Benzinga/f601afd27a30a67618e1813cbb099dfd",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Benzinga",
-        "url": "http://www.benzinga.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/beijing-steps-stop-brutal-online-023105230.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/beijing-steps-stop-brutal-online-023105230.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "27d9d70d-d8a2-3e4f-a571-89a39396a8de",
-    "content": {
-      "id": "27d9d70d-d8a2-3e4f-a571-89a39396a8de",
-      "contentType": "STORY",
-      "title": "Nvidia Stock Falls. China Chip Sales Are a Big Question.",
-      "description": "",
-      "summary": "Nvidia  was down early on Thursday amid mixed signals over how close the chip maker is to resuming exports of its hardware to China.  Nvidia shares were down 2.2% at $185 at the end of trading, while the  index was flat and the tech-heavy Nasdaq Composite was down 0.4%.  President Donald Trump said last month he would allow shipments of the company’s H200 chip to China, provided that Nvidia gives the U.S. government a 25% cut of sales.",
-      "pubDate": "2026-01-08T21:11:00Z",
-      "displayTime": "2026-01-08T21:11:00Z",
-      "isHosted": false,
-      "bypassModal": false,
-      "previewUrl": "https://finance.yahoo.com/m/27d9d70d-d8a2-3e4f-a571-89a39396a8de/nvidia-stock-falls-china.html",
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/Barrons.com/66960813aaaf7a964eae931655009daa",
-        "originalWidth": 1280,
-        "originalHeight": 640,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/g9OCFNzBbk8Mjii1lo3GXg--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/66960813aaaf7a964eae931655009daa",
-            "width": 1280,
-            "height": 640,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/PD3PNvJAvW.EuwfC0iRL9g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Barrons.com/66960813aaaf7a964eae931655009daa",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Barrons.com",
-        "url": "http://www.barrons.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.barrons.com/articles/nvidia-stock-price-china-chips-8548006d?siteid=yhoof2&yptr=yahoo",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": null,
       "metadata": {
         "editorsPick": false
       },
