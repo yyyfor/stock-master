@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Equity Analysis: Alibaba vs Tencent vs Baidu vs JD.com vs Xiaomi vs Meituan</title>
+    <title>Equity Analysis: Chinese Technology Stocks Overview</title>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -13,12 +13,12 @@
 
     <style>
         :root {
-            --alibaba-color: #FF6A00;
-            --xiaomi-color: #FF6700;
-            --meituan-color: #FFD100;
             --tencent-color: #0052D4;
             --baidu-color: #2932E1;
             --jd-color: #E31837;
+            --alibaba-color: #FF6A00;
+            --xiaomi-color: #FF6700;
+            --meituan-color: #FFD100;
             --primary-dark: #1a1a2e;
             --secondary-dark: #16213e;
             --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
@@ -58,380 +58,39 @@
             letter-spacing: -0.5px;
         }
 
-        header .date {
-            font-size:1rem;
-            opacity: 0.8;
-            margin-bottom: 10px;
-        }
-
-        header .data-timestamp {
-            font-size: 0.85rem;
-            opacity: 0.7;
-            margin-bottom: 20px;
-            color: #fff;
-        }
-
-        .exec-summary {
-            background: rgba(255,255,255,0.1);
-            padding: 20px;
-            border-radius: 10px;
-            margin-top: 20px;
-            text-align: left;
-        }
-
         .content-wrapper {
             padding: 40px;
         }
 
-        .company-section {
-            margin-bottom: 60px;
-            padding: 30px;
-            border-radius: 15px;
-            background: #f8f9fa;
-            border-left: 6px solid;
-            transition: all 0.3s ease;
-        }
-
-        .company-section:hover {
-            box-shadow: var(--shadow-md);
-        }
-
-        .company-section.alibaba {
-            border-left-color: var(--alibaba-color);
-        }
-
-        .company-section.xiaomi {
-            border-left-color: var(--xiaomi-color);
-        }
-
-        .company-section.meituan {
-            border-left-color: var(--meituan-color);
-        }
-
-        .company-section h2 {
-            font-size: 2rem;
-            font-weight: 700;
-            margin-bottom: 25px;
-            color: var(--primary-dark);
-            letter-spacing: -0.5px;
-        }
-            margin-bottom: 25px;
-            color: var(--primary-dark);
-        }
-
-        .summary, .competitive, .risks {
-            margin-bottom: 30px;
-        }
-
-        .summary h3, .competitive h3, .risks h3, .financial-tables h3, .charts h3 {
-            font-size: 1.4rem;
-            font-weight: 600;
-            margin-bottom: 15px;
-            color: var(--secondary-dark);
-            border-bottom: 2px solid #dee2e6;
-            padding-bottom: 10px;
-        }
-
-        .financial-tables table {
-            width: 100%;
-            margin-bottom: 25px;
-            background: white;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-
-        .financial-tables table th {
-            background: var(--primary-dark);
-            color: white;
-            padding: 15px;
-            text-align: right;
-            font-weight: 600;
-        }
-
-        .financial-tables table th:first-child {
-            text-align: left;
-        }
-
-        .financial-tables table td {
-            padding: 12px 15px;
-            text-align: right;
-            border-bottom: 1px solid #dee2e6;
-        }
-
-        .financial-tables table td:first-child {
-            text-align: left;
-            font-weight: 600;
-            color: var(--primary-dark);
-        }
-
-        .financial-tables table tr:hover {
-            background: #f8f9fa;
-        }
-
-        .chart-container {
-            position: relative;
-            height: 350px;
-            margin-bottom: 30px;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: var(--shadow-sm);
-            transition: all 0.3s ease;
-        }
-
-        .chart-container:hover {
-            box-shadow: var(--shadow-md);
-            transform: translateY(-2px);
-        }
-
-        .callout-box {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 20px;
-            border-radius: 10px;
-            margin: 20px 0;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-            transition: all 0.3s ease;
-        }
-
-        .callout-box:hover {
-            box-shadow: var(--shadow-lg);
-            transform: translateY(-3px);
-        }
-
-        .callout-box h4 {
-            font-weight: 700;
-            margin-bottom: 10px;
-            letter-spacing: 0.5px;
-        }
-
-        .risks ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .risks ul li {
-            background: white;
-            padding: 12px 15px;
-            margin-bottom: 10px;
-            border-radius: 8px;
-            border-left: 4px solid #dc3545;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-        }
-
-        .risks ul li:before {
-            content: "⚠️ ";
-            margin-right: 8px;
-        }
-
-        #comparative {
-            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-            padding: 40px;
-            border-radius: 15px;
-            margin: 40px 0;
-            color: white;
-        }
-
-        #comparative h2 {
-            color: white;
-            text-align: center;
-            margin-bottom: 30px;
-            font-size: 2rem;
-            font-weight: 700;
-        }
-
-        #conclusion {
-            background: var(--primary-dark);
-            color: white;
-            padding: 40px;
-            border-radius: 15px;
-            margin-top: 40px;
-        }
-
-        #conclusion h2 {
-            color: white;
-            margin-bottom: 25px;
-            font-size: 2rem;
-            font-weight: 700;
-        }
-
-        .rating-table {
-            background: white;
-            color: var(--primary-dark);
-            border-radius: 10px;
-            padding: 20px;
-            margin-top: 20px;
-        }
-
-        .rating-table table {
-            width: 100%;
-        }
-
-        .rating-table th {
-            background: var(--secondary-dark);
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-
-        .rating-table td {
-            padding: 12px;
-            text-align: center;
-            border-bottom: 1px solid #dee2e6;
-        }
-
-        .badge-buy {
-            background: #28a745;
-            color: white;
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-weight: 600;
-        }
-
-        .badge-hold {
-            background: #ffc107;
-            color: var(--primary-dark);
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-weight: 600;
-        }
-
-        .badge-sell {
-            background: #dc3545;
-            color: white;
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-weight: 600;
-        }
-
-        .disclaimer {
-            background: #fff3cd;
-            color: #856404;
-            padding: 15px;
-            border-radius: 8px;
-            margin: 20px 0;
-            font-size: 0.9rem;
-            border: 1px solid #ffc107;
-        }
-
-        .lang-switcher {
-            position: absolute;
-            top: 20px;
-            right: 30px;
-            display: flex;
-            gap: 10px;
-        }
-
-        .lang-btn {
-            padding: 8px 20px;
-            border: 2px solid white;
-            background: rgba(255,255,255,0.1);
-            color: white;
-            border-radius: 20px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: all 0.3s;
-        }
-
-        .lang-btn:hover {
-            background: white;
-            color: var(--primary-dark);
-        }
-
-        .lang-btn.active {
-            background: white;
-            color: var(--primary-dark);
-        }
-    
-        /* Tab Navigation Styles */
-        .nav-tabs-custom {
-            border-bottom: 3px solid var(--primary-dark);
-            margin-bottom: 30px;
-            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-            padding: 10px 20px 0;
-            border-radius: 15px 15px 0 0;
-            box-shadow: var(--shadow-sm);
-        }
-
-        .nav-tabs-custom .nav-link {
-            border: none;
-            color: #6c757d;
-            font-weight: 600;
-            font-size: 1.1rem;
-            padding: 15px 30px;
-            margin-right: 5px;
-            border-radius: 10px 10px 0 0;
-            transition: all 0.3s ease;
-            background: transparent;
-        }
-
-        .nav-tabs-custom .nav-link:hover {
-            background: rgba(255,255,255,0.7);
-            color: var(--primary-dark);
-            transform: translateY(-2px);
-        }
-
-        .nav-tabs-custom .nav-link.active {
-            background: white;
-            color: var(--primary-dark);
-            box-shadow: var(--shadow-sm);
-            border-bottom: 3px solid var(--primary-dark);
-        }
-
-        .tab-content {
-            background: white;
-            padding: 30px;
-            border-radius: 0 0 15px 15px;
-            min-height: 500px;
-        }
-
-        .tab-pane {
-            animation: fadeIn 0.5s;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-         }
-
         .summary-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
             margin: 30px 0;
         }
 
         .summary-card {
             background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
-            padding: 25px;
+            padding: 30px;
             border-radius: 15px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            box-shadow: var(--shadow-sm);
             border-top: 5px solid;
-            transition: all 0.3s;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            display: block;
         }
 
         .summary-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-        }
-
-        .summary-card.alibaba {
-            border-top-color: var(--alibaba-color);
-        }
-
-        .summary-card.xiaomi {
-            border-top-color: var(--xiaomi-color);
-        }
-
-        .summary-card.meituan {
-            border-top-color: var(--meituan-color);
+            box-shadow: var(--shadow-md);
         }
 
         .summary-card h3 {
-            font-size: 1.5rem;
+            font-size: 1.4rem;
             font-weight: 700;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
+            color: var(--primary-dark);
         }
 
         .summary-stat {
@@ -455,37 +114,23 @@
             color: var(--primary-dark);
         }
 
-        /* Metrics Grid Enhancement */
-        .metrics-grid {
-            background: white;
-            padding: 25px;
-            border-radius: 12px;
+        .chart-container {
+            position: relative;
+            height: 350px;
             margin-bottom: 30px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
             box-shadow: var(--shadow-sm);
             transition: all 0.3s ease;
         }
 
-        .metrics-grid:hover {
+        .chart-container:hover {
             box-shadow: var(--shadow-md);
+            transform: translateY(-2px);
         }
 
-        .metric-item {
-            padding: 6px 0;
-            border-bottom: 1px solid #f0f0f0;
-            font-size: 0.85rem;
-        }
-
-        .metric-item:last-child {
-            border-bottom: none;
-        }
-
-        .metric-label {
-            color: #666;
-            margin-right: 8px;
-        }
-
-        /* Bull/Bear Analysis Enhancement */
-        .bull-bear-analysis {
+        .comparison-section {
             background: white;
             padding: 25px;
             border-radius: 12px;
@@ -493,96 +138,18 @@
             box-shadow: var(--shadow-sm);
         }
 
-        /* Catalysts Section Enhancement */
-        .catalysts-section {
-            background: white;
-            padding: 25px;
-            border-radius: 12px;
-            margin-bottom: 30px;
-            box-shadow: var(--shadow-sm);
+        .investment-ranking {
+            background: #e7f3ff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
         }
 
-        /* Risks Section Enhancement */
-        .risks ul li {
-            background: white;
-            padding: 12px 15px;
+        .investment-ranking div {
             margin-bottom: 10px;
+            padding: 10px;
+            background: white;
             border-radius: 8px;
-            border-left: 4px solid #dc3545;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-            transition: all 0.3s ease;
-        }
-
-        .risks ul li:hover {
-            box-shadow: var(--shadow-sm);
-            transform: translateX(5px);
-        }
-
-        /* Summary Cards Enhancement */
-        .summary-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            margin: 30px 0;
-        }
-
-        .summary-card {
-            background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
-            padding: 25px;
-            border-radius: 15px;
-            box-shadow: var(--shadow-sm);
-            border-top: 5px solid;
-            transition: all 0.3s ease;
-        }
-
-        .summary-card:hover {
-            transform: translateY(-5px);
-            box-shadow: var(--shadow-md);
-        }
-
-        .summary-card h3 {
-            font-size: 1.5rem;
-            font-weight: 700;
-            margin-bottom: 15px;
-            color: var(--primary-dark);
-        }
-
-        /* Tab Animation Enhancement */
-        .tab-content {
-            background: white;
-            padding: 30px;
-            border-radius: 0 0 15px 15px;
-            min-height: 500px;
-        }
-
-        .tab-pane {
-            animation: fadeIn 0.4s ease-in-out;
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(10px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        /* Comparison Table Enhancement */
-        .comparison-table-section {
-            background: white;
-            padding: 25px;
-            border-radius: 12px;
-            margin-bottom: 30px;
-            box-shadow: var(--shadow-sm);
-        }
-
-        /* Typography Enhancements */
-        h3 {
-            color: var(--primary-dark);
-            letter-spacing: -0.3px;
         }
 
         p {
@@ -593,1497 +160,212 @@
         strong {
             color: var(--primary-dark);
         }
-
-        /* Button Hover Enhancement */
-        a {
-            transition: all 0.3s ease;
-        }
-
-        a:hover {
-            color: var(--primary-dark);
-        }
     </style>
 </head>
 <body>
     <div class="container main-container">
         <header>
-            <div class="lang-switcher">
-                <a href="equity-analysis.html" class="lang-btn active">English</a>
-                <a href="equity-analysis-zh.html" class="lang-btn">中文</a>
-            </div>
-            <h1>🏢 Comprehensive Equity Analysis</h1>
-            <h2>Alibaba vs Tencent vs Baidu vs JD.com vs Xiaomi vs Meituan</h2>
-            <p class="date">Analysis Date: January 10, 2026</p>
-            <p class="data-timestamp">📅 Last Price Update: January 10, 2026 at 01:05 PM (UTC)</p>
-
-            <div class="exec-summary">
-                <h3>📊 Executive Summary</h3>
-                <p>This comparative analysis examines six leading Chinese technology companies across e-commerce, gaming, social media, search, consumer electronics, and local services sectors. <strong>Alibaba Group</strong> demonstrates resilient cloud growth amid e-commerce headwinds, with regulatory tailwinds emerging. <strong>Tencent Holdings</strong> maintains dominance in gaming and social media with strong AI integration and fintech expansion. <strong>Baidu</strong> leads in AI and autonomous driving with ERNIE LLM gaining traction. <strong>JD.com</strong> excels in logistics-driven e-commerce with premium positioning. <strong>Xiaomi Corporation</strong> is successfully pivoting toward premium smartphones and electric vehicles. <strong>Meituan</strong> maintains dominant market position in local services with improving unit economics. Each company faces distinct regulatory environments, competitive dynamics, and growth catalysts that inform differentiated investment theses.</p>
-            </div>
+            <h1>📊 Equity Analysis: Chinese Technology Stocks</h1>
+            <p style="opacity: 0.9; margin-bottom: 10px;">Comprehensive comparison of 6 leading Chinese technology companies</p>
+            <div class="data-timestamp" style="font-size: 0.85rem; opacity: 0.7;">Data as of: January 10, 2026</div>
         </header>
 
         <div class="content-wrapper">
-            <div class="disclaimer">
-                <strong>⚠️ Data Disclaimer:</strong> Financial figures presented are based on publicly available information. For investment decisions, please consult official financial statements and qualified financial advisors. This is not investment advice.
+            <div class="exec-summary">
+                <p>This comparative analysis examines six leading Chinese technology companies across e-commerce, gaming, social media, search, consumer electronics, and local services sectors. Click on any company card below to view detailed analysis.</p>
             </div>
 
-            <!-- Tab Navigation -->
-            <ul class="nav nav-tabs nav-tabs-custom" id="companyTabs" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="summary-tab" data-bs-toggle="tab" data-bs-target="#summary" type="button" role="tab">
-                        📊 Summary
-                    </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="tencent-tab" data-bs-toggle="tab" data-bs-target="#tencent" type="button" role="tab">
-                        🎮 Tencent
-                    </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="baidu-tab" data-bs-toggle="tab" data-bs-target="#baidu" type="button" role="tab">
-                        🔍 Baidu
-                    </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="jd-tab" data-bs-toggle="tab" data-bs-target="#jd" type="button" role="tab">
-                        📦 JD.com
-                    </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="alibaba-tab" data-bs-toggle="tab" data-bs-target="#alibaba" type="button" role="tab">
-                        🛒 Alibaba
-                    </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="xiaomi-tab" data-bs-toggle="tab" data-bs-target="#xiaomi" type="button" role="tab">
-                        📱 Xiaomi
-                    </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="meituan-tab" data-bs-toggle="tab" data-bs-target="#meituan" type="button" role="tab">
-                        🛵 Meituan
-                    </button>
-                </li>
-            </ul>
-
-            <!-- Tab Content -->
-            <div class="tab-content" id="companyTabsContent">
-
-                <!-- SUMMARY TAB -->
-                <div class="tab-pane fade show active" id="summary" role="tabpanel">
-                    <h2 style="text-align: center; color: var(--primary-dark); margin-bottom: 30px;">📊 Market Overview</h2>
-
-                        <!-- Summary Cards -->
-                    <div class="summary-grid">
-                        <div class="summary-card" style="border-top-color: var(--tencent-color);">
-                            <h3>🎮 Tencent (0700.HK)</h3>
-                            <div class="summary-stat">
-                                <span class="label">Current Price:</span>
-                                <span class="value">HK$418.50</span>
-                            </div>
-                            <div class="summary-stat">
-                                <span class="label">Market Cap:</span>
-                                <span class="value">$498B</span>
-                            </div>
-                            <div class="summary-stat">
-                                <span class="label">P/E Ratio:</span>
-                                <span class="value">17.2x</span>
-                            </div>
-                            <div class="summary-stat">
-                                <span class="label">P/S Ratio:</span>
-                                <span class="value">5.1x</span>
-                            </div>
-                            <div class="summary-stat">
-                                <span class="label">ROE:</span>
-                                <span class="value">13.8%</span>
-                            </div>
-                        </div>
-
-                        <div class="summary-card" style="border-top-color: var(--baidu-color);">
-                            <h3>🔍 Baidu (9888.HK)</h3>
-                            <div class="summary-stat">
-                                <span class="label">Current Price:</span>
-                                <span class="value">HK$118.70</span>
-                            </div>
-                            <div class="summary-stat">
-                                <span class="label">Market Cap:</span>
-                                <span class="value">$42B</span>
-                            </div>
-                            <div class="summary-stat">
-                                <span class="label">P/E Ratio:</span>
-                                <span class="value">11.5x</span>
-                            </div>
-                            <div class="summary-stat">
-                                <span class="label">P/S Ratio:</span>
-                                <span class="value">2.1x</span>
-                            </div>
-                            <div class="summary-stat">
-                                <span class="label">ROE:</span>
-                                <span class="value">9.2%</span>
-                            </div>
-                        </div>
-
-                        <div class="summary-card" style="border-top-color: var(--jd-color);">
-                            <h3>📦 JD.com (9618.HK)</h3>
-                            <div class="summary-stat">
-                                <span class="label">Current Price:</span>
-                                <span class="value">HK$105.40</span>
-                            </div>
-                            <div class="summary-stat">
-                                <span class="label">Market Cap:</span>
-                                <span class="value">$58B</span>
-                            </div>
-                            <div class="summary-stat">
-                                <span class="label">P/E Ratio:</span>
-                                <span class="value">8.9x</span>
-                            </div>
-                            <div class="summary-stat">
-                                <span class="label">P/S Ratio:</span>
-                                <span class="value">0.5x</span>
-                            </div>
-                            <div class="summary-stat">
-                                <span class="label">ROE:</span>
-                                <span class="value">8.4%</span>
-                            </div>
-                        </div>
-
-                        <div class="summary-card alibaba">
-                            <h3>🛒 Alibaba (9988.HK)</h3>
-                            <div class="summary-stat">
-                                <span class="label">Current Price:</span>
-                                <span class="value">HK$131.20</span>
-                            </div>
-                            <div class="summary-stat">
-                                <span class="label">Market Cap:</span>
-                                <span class="value">$363B</span>
-                            </div>
-                            <div class="summary-stat">
-                                <span class="label">P/E Ratio:</span>
-                                <span class="value">18.4x</span>
-                            </div>
-                            <div class="summary-stat">
-                                <span class="label">P/S Ratio:</span>
-                                <span class="value">1.9x</span>
-                            </div>
-                            <div class="summary-stat">
-                                <span class="label">ROE:</span>
-                                <span class="value">11.4%</span>
-                            </div>
-                        </div>
-
-                        <div class="summary-card xiaomi">
-                            <h3>📱 Xiaomi (1810.HK)</h3>
-                            <div class="summary-stat">
-                                <span class="label">Current Price:</span>
-                                <span class="value">HK$43.35</span>
-                            </div>
-                            <div class="summary-stat">
-                                <span class="label">Market Cap:</span>
-                                <span class="value">$190B</span>
-                            </div>
-                            <div class="summary-stat">
-                                <span class="label">P/E Ratio:</span>
-                                <span class="value">36.0x</span>
-                            </div>
-                            <div class="summary-stat">
-                                <span class="label">P/S Ratio:</span>
-                                <span class="value">3.1x</span>
-                            </div>
-                            <div class="summary-stat">
-                                <span class="label">ROE:</span>
-                                <span class="value">17.4%</span>
-                            </div>
-                        </div>
-
-                        <div class="summary-card meituan">
-                            <h3>🛵 Meituan (3690.HK)</h3>
-                            <div class="summary-stat">
-                                <span class="label">Current Price:</span>
-                                <span class="value">HK$102.40</span>
-                            </div>
-                            <div class="summary-stat">
-                                <span class="label">Market Cap:</span>
-                                <span class="value">$80B</span>
-                            </div>
-                            <div class="summary-stat">
-                                <span class="label">P/E Ratio:</span>
-                                <span class="value">19.8x</span>
-                            </div>
-                            <div class="summary-stat">
-                                <span class="label">P/S Ratio:</span>
-                                <span class="value">1.6x</span>
-                            </div>
-                            <div class="summary-stat">
-                                <span class="label">ROE:</span>
-                                <span class="value">17.1%</span>
-                            </div>
-                        </div>
+            <!-- Summary Cards -->
+            <div class="summary-grid">
+                <a href="tencent.html" class="summary-card" style="border-top-color: var(--tencent-color);">
+                    <h3>🎮 Tencent (0700.HK)</h3>
+                    <div class="summary-stat">
+                        <span class="label">Current Price:</span>
+                        <span class="value">HK$418.50</span>
                     </div>
-
-                    <!-- Comparative Charts -->
-                    
-        <div class="comparison-table-section" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-            <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">📊 Comprehensive Metrics Comparison</h3>
-            
-            <div class="table-responsive">
-                <table class="table table-hover" style="font-size: 0.85rem;">
-                    <thead style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
-                        <tr>
-                            <th>Metric</th>
-                            <th style="background-color: rgba(0, 82, 212, 0.9);">Tencent</th>
-                            <th style="background-color: rgba(41, 50, 225, 0.9);">Baidu</th>
-                            <th style="background-color: rgba(227, 24, 55, 0.9);">JD.com</th>
-                            <th style="background-color: rgba(255, 106, 0, 0.9);">Alibaba</th>
-                            <th style="background-color: rgba(255, 103, 0, 0.9);">Xiaomi</th>
-                            <th style="background-color: rgba(255, 209, 0, 0.9); color: #333;">Meituan</th>
-                        </tr>
-                    </thead>
-                                                            <tbody>
-                        <tr style="background: #f8f9fa; font-weight: 600;"><td colspan="7">💰 Valuation</td></tr>
-                        <tr><td>Current Price</td><td>HK$418.50</td><td>HK$118.70</td><td>HK$105.40</td><td>HK$131.20</td><td>HK$43.35</td><td>HK$102.40</td></tr>
-                        <tr><td>Market Cap</td><td style="color: #28a745; font-weight: 600;">$498B</td><td>$42B</td><td>$58B</td><td>$363B</td><td>$190B</td><td>$80B</td></tr>
-                        <tr><td>P/E Ratio (TTM)</td><td>17.2x</td><td style="color: #28a745; font-weight: 600;">11.5x 🔥</td><td style="color: #28a745; font-weight: 600;">8.9x 🔥</td><td>18.4x</td><td>36.0x</td><td>19.8x</td></tr>
-                        <tr><td>Forward P/E</td><td>14.3x</td><td style="color: #28a745; font-weight: 600;">9.2x 🔥</td><td style="color: #28a745; font-weight: 600;">7.5x 🔥</td><td style="color: #28a745; font-weight: 600;">11.1x 🔥</td><td>24.6x</td><td>16.5x</td></tr>
-                        <tr><td>P/B Ratio</td><td>3.7x</td><td>1.4x</td><td style="color: #28a745; font-weight: 600;">0.8x 🔥</td><td style="color: #28a745; font-weight: 600;">1.8x 🔥</td><td>5.3x</td><td>3.1x</td></tr>
-                        <tr><td>P/S Ratio</td><td>5.1x</td><td>2.1x</td><td style="color: #28a745; font-weight: 600;">0.5x 🔥</td><td style="color: #28a745; font-weight: 600;">1.9x 🔥</td><td>3.1x</td><td style="color: #28a745; font-weight: 600;">1.6x 🔥</td></tr>
-                        <tr><td>PEG Ratio</td><td style="color: #28a745; font-weight: 600;">0.95 🔥</td><td style="color: #28a745; font-weight: 600;">0.82 🔥</td><td style="color: #28a745; font-weight: 600;">0.68 🔥</td><td style="color: #28a745; font-weight: 600;">0.86 🔥</td><td style="color: #28a745; font-weight: 600;">0.97 🔥</td><td>2.6x</td></tr>
-
-                        <tr style="background: #f8f9fa; font-weight: 600;"><td colspan="7">📈 Growth</td></tr>
-                        <tr><td>Revenue Growth (YoY)</td><td style="color: #28a745; font-weight: 600;">8.5%</td><td style="color: #28a745; font-weight: 600;">9.2%</td><td style="color: #28a745; font-weight: 600;">7.8%</td><td>6.6%</td><td style="color: #28a745; font-weight: 600;">30.5% 📈</td><td>16.7%</td></tr>
-                        <tr><td>Earnings Growth (YoY)</td><td style="color: #28a745; font-weight: 600;">28.5%</td><td style="color: #28a745; font-weight: 600;">42.3%</td><td style="color: #28a745; font-weight: 600;">35.8%</td><td style="color: #28a745; font-weight: 600;">273.2% 📈</td><td style="color: #28a745; font-weight: 600;">133.5% 📈</td><td>57.2%</td></tr>
-                        <tr><td>Revenue (TTM)</td><td style="color: #28a745; font-weight: 600;">¥620.5B 💰</td><td>¥185.3B</td><td>¥1,150.2B</td><td style="color: #28a745; font-weight: 600;">¥996.4B 💰</td><td>¥428.8B</td><td>¥395.2B</td></tr>
-
-                        <tr style="background: #f8f9fa; font-weight: 600;"><td colspan="7">💪 Profitability</td></tr>
-                        <tr><td>ROE</td><td style="color: #28a745; font-weight: 600;">13.8% 💪</td><td>9.2%</td><td>8.4%</td><td>11.4%</td><td style="color: #28a745; font-weight: 600;">17.4% 💪</td><td style="color: #28a745; font-weight: 600;">17.1% 💪</td></tr>
-                        <tr><td>ROA</td><td style="color: #28a745; font-weight: 600;">6.8% 💪</td><td>5.4%</td><td style="color: #28a745; font-weight: 600;">3.8%</td><td style="color: #28a745; font-weight: 600;">5.3% 💪</td><td>4.8%</td><td>5.2%</td></tr>
-                        <tr><td>Gross Margin</td><td style="color: #28a745; font-weight: 600;">48.5% 💪</td><td style="color: #28a745; font-weight: 600;">45.2% 💪</td><td>15.8%</td><td style="color: #28a745; font-weight: 600;">40.0% 💪</td><td>21.6%</td><td>26.0%</td></tr>
-                        <tr><td>Operating Margin</td><td style="color: #28a745; font-weight: 600;">28.5% 💪</td><td style="color: #28a745; font-weight: 600;">19.8% 💪</td><td>2.5%</td><td style="color: #28a745; font-weight: 600;">14.0% 💪</td><td>8.6%</td><td>4.2%</td></tr>
-                        <tr><td>Net Margin</td><td style="color: #28a745; font-weight: 600;">26.2% 💪</td><td style="color: #28a745; font-weight: 600;">18.5% 💪</td><td>2.3%</td><td style="color: #28a745; font-weight: 600;">13.1% 💪</td><td>8.7%</td><td>2.4%</td></tr>
-
-                        <tr style="background: #f8f9fa; font-weight: 600;"><td colspan="7">💵 Balance Sheet</td></tr>
-                        <tr><td>Debt/Equity</td><td style="color: #28a745; font-weight: 600;">0.08 ✅</td><td>0.35</td><td style="color: #28a745; font-weight: 600;">0.18 ✅</td><td>0.23</td><td style="color: #28a745; font-weight: 600;">0.11 ✅</td><td style="color: #28a745; font-weight: 600;">0.28 ✅</td></tr>
-                        <tr><td>Current Ratio</td><td>1.85</td><td>2.15</td><td>1.42</td><td>1.55</td><td>1.29</td><td>1.93</td></tr>
-                        <tr><td>Cash & Equivalents</td><td style="color: #28a745; font-weight: 600;">$95B 💰</td><td>$28B</td><td>$42B</td><td style="color: #28a745; font-weight: 600;">$55B 💰</td><td>$14B</td><td>$13B</td></tr>
-                        <tr><td>Net Cash Position</td><td style="color: #28a745; font-weight: 600;">$72B 💰</td><td>$15B</td><td style="color: #28a745; font-weight: 600;">$28B 💰</td><td style="color: #28a745; font-weight: 600;">$18B 💰</td><td>$8B</td><td style="color: #28a745; font-weight: 600;">$4B 💰</td></tr>
-
-                        <tr style="background: #f8f9fa; font-weight: 600;"><td colspan="7">🎯 Investment Outlook</td></tr>
-                        <tr><td><strong>Rating</strong></td><td style="background: #d4edda; font-weight: 700;">BUY 🚀</td><td style="background: #d4edda; font-weight: 700;">BUY 🚀</td><td style="background: #d4edda; font-weight: 700;">BUY 🚀</td><td style="background: #d4edda; font-weight: 700;">BUY 🚀</td><td style="background: #fff3cd; font-weight: 700;">HOLD ⚖️</td><td style="background: #fff3cd; font-weight: 700;">HOLD ⚖️</td></tr>
-                        <tr><td><strong>Target Upside</strong></td><td style="color: #28a745; font-weight: 600;">+25%</td><td style="color: #28a745; font-weight: 600;">+40%</td><td style="color: #28a745; font-weight: 600;">+35%</td><td style="color: #28a745; font-weight: 600;">+45%</td><td>+15%</td><td>+35%</td></tr>
-                        <tr><td><strong>Beta (5Y)</strong></td><td>0.32</td><td>0.65</td><td>0.48</td><td>0.21</td><td>1.01</td><td>N/A</td></tr>
-                        <tr><td><strong>Risk Level</strong></td><td style="color: #28a745;">Low ✅</td><td style="color: #28a745;">Low ✅</td><td style="color: #28a745;">Low ✅</td><td style="color: #28a745;">Low ✅</td><td>Medium</td><td>Medium</td></tr>
-                    </tbody>
-                </table>
-            </div>
-            
-            <div style="margin-top: 20px; padding: 15px; background: #e7f3ff; border-left: 4px solid #0066cc; border-radius: 5px;">
-                <strong>📊 Investment Ranking:</strong>
-                <div style="margin-top: 10px;">
-                    <div>🥇 <strong>Best Value:</strong> JD.com (7.5x forward P/E, 0.68 PEG, $28B net cash, 35% upside)</div>
-                    <div>🥈 <strong>Best Quality:</strong> Tencent (26% net margin, 28.5% op margin, $95B cash, moat leader)</div>
-                    <div>🥉 <strong>Best AI Growth:</strong> Baidu (9.2x forward P/E, ERNIE LLM adoption, autonomous driving leader)</div>
-                    <div>🏅 <strong>Best Cash Flow:</strong> Alibaba (11.1x forward P/E, $55B cash, regulatory reset tailwind)</div>
-                    <div>🏅 <strong>Best Growth:</strong> Xiaomi (133.5% earnings growth, EV optionality, premium pivot)</div>
-                    <div>🏅 <strong>Best Market Leader:</strong> Meituan (70%+ delivery share, margin expansion potential)</div>
-                </div>
-            </div>
-        </div>
-            
-            <div style="margin-top: 20px; padding: 15px; background: #e7f3ff; border-left: 4px solid #0066cc; border-radius: 5px;">
-                <strong>📊 Investment Ranking:</strong>
-                <div style="margin-top: 10px;">
-                    <div>🥇 <strong>Best Value:</strong> JD.com (7.5x forward P/E, 0.68 PEG, $28B net cash, 35% upside)</div>
-                    <div>🥈 <strong>Best Quality:</strong> Tencent (26% net margin, 28.5% op margin, $95B cash, moat leader)</div>
-                    <div>🥉 <strong>Best AI Growth:</strong> Baidu (9.2x forward P/E, ERNIE LLM adoption, autonomous driving leader)</div>
-                    <div>🏅 <strong>Best Cash Flow:</strong> Alibaba (11.1x forward P/E, $55B cash, regulatory reset tailwind)</div>
-                    <div>🏅 <strong>Best Growth:</strong> Xiaomi (133.5% earnings growth, EV optionality, premium pivot)</div>
-                    <div>🏅 <strong>Best Market Leader:</strong> Meituan (70%+ delivery share, margin expansion potential)</div>
-                </div>
-            </div>
-        
-                    <div style="margin-top: 40px;">
-                        <h3 style="color: var(--primary-dark); margin-bottom: 20px;">Comparative Analysis</h3>
-
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="chart-container">
-                                    <canvas id="chart-summary-revenue"></canvas>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="chart-container">
-                                    <canvas id="chart-summary-growth"></canvas>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row mt-4">
-                            <div class="col-md-6">
-                                <div class="chart-container">
-                                    <canvas id="chart-summary-margins"></canvas>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="chart-container">
-                                    <canvas id="chart-summary-valuation"></canvas>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="summary-stat">
+                        <span class="label">Market Cap:</span>
+                        <span class="value">$498B</span>
                     </div>
-                </div>
+                    <div class="summary-stat">
+                        <span class="label">P/E Ratio:</span>
+                        <span class="value">17.2x</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="label">ROE:</span>
+                        <span class="value">13.8%</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="label">Rating:</span>
+                        <span class="value" style="color: #28a745;">BUY</span>
+                    </div>
+                </a>
 
-                <!-- TENCENT TAB -->
-                <div class="tab-pane fade" id="tencent" role="tabpanel">
-                    <div class="company-section" style="margin: 0; border-left: none; border-top: 5px solid var(--tencent-color);">
-                        <h2>🎮 Tencent Holdings (0700.HK)</h2>
+                <a href="baidu.html" class="summary-card" style="border-top-color: var(--baidu-color);">
+                    <h3>🔍 Baidu (9888.HK)</h3>
+                    <div class="summary-stat">
+                        <span class="label">Current Price:</span>
+                        <span class="value">HK$118.70</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="label">Market Cap:</span>
+                        <span class="value">$42B</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="label">P/E Ratio:</span>
+                        <span class="value">11.5x</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="label">ROE:</span>
+                        <span class="value">9.2%</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="label">Rating:</span>
+                        <span class="value" style="color: #28a745;">BUY</span>
+                    </div>
+                </a>
 
-                        <div class="row">
-                            <div class="col-md-8">
-                                <div class="summary">
-                                    <h3>Business Overview</h3>
-                                    <p>Tencent is China's leading technology conglomerate with dominant positions in gaming and social media:</p>
-                                    <ul>
-                                        <li><strong>Gaming:</strong> World's #1 gaming company (Honor of Kings, PUBG Mobile, League of Legends)</li>
-                                        <li><strong>Social Media:</strong> WeChat (1.3B+ users), QQ</li>
-                                        <li><strong>Content:</strong> Tencent Music, Tencent Video, Tencent Literature</li>
-                                        <li><strong>Fintech:</strong> WeChat Pay, WeBank</li>
-                                        <li><strong>Cloud:</strong> Tencent Cloud, AI (Hunyuan LLM)</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="callout-box" style="margin-top: 0;">
-                                    <h4>💡 Investment Rating</h4>
-                                    <p style="font-size: 2rem; text-align: center; margin: 20px 0;">
-                                        <span class="badge-buy">BUY</span>
-                                    </p>
-                                    <p><strong>Target:</strong> HK$525</p>
-                                    <p><strong>Upside:</strong> +25%</p>
-                                    <p><strong>Risk:</strong> Low</p>
-                                </div>
-                            </div>
-                        </div>
+                <a href="jd.html" class="summary-card" style="border-top-color: var(--jd-color);">
+                    <h3>📦 JD.com (9618.HK)</h3>
+                    <div class="summary-stat">
+                        <span class="label">Current Price:</span>
+                        <span class="value">HK$105.40</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="label">Market Cap:</span>
+                        <span class="value">$58B</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="label">P/E Ratio:</span>
+                        <span class="value">8.9x</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="label">ROE:</span>
+                        <span class="value">8.4%</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="label">Rating:</span>
+                        <span class="value" style="color: #ffc107;">HOLD</span>
+                    </div>
+                </a>
 
-        <div class="metrics-grid" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-            <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">📊 Key Investment Metrics</h3>
+                <a href="alibaba.html" class="summary-card" style="border-top-color: var(--alibaba-color);">
+                    <h3>🛒 Alibaba (9988.HK)</h3>
+                    <div class="summary-stat">
+                        <span class="label">Current Price:</span>
+                        <span class="value">HK$131.20</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="label">Market Cap:</span>
+                        <span class="value">$363B</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="label">P/E Ratio:</span>
+                        <span class="value">18.4x</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="label">ROE:</span>
+                        <span class="value">11.4%</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="label">Rating:</span>
+                        <span class="value" style="color: #28a745;">BUY</span>
+                    </div>
+                </a>
 
-            <div class="row">
-                <div class="col-md-3">
-                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">📈 Market Data</h5>
-                    <div class="metric-item"><span class="metric-label">Ticker:</span> <strong>0700.HK</strong></div>
-                    <div class="metric-item"><span class="metric-label">Market Cap:</span> <strong>$498B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Enterprise Value:</span> <strong>$426B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Current Price:</span> <strong>HK$418.50</strong></div>
-                    <div class="metric-item"><span class="metric-label">52W High/Low:</span> <strong>HK$476.80 / HK$275.40</strong></div>
-                    <div class="metric-item"><span class="metric-label">Avg Volume:</span> <strong>25.4M</strong></div>
-                    <div class="metric-item"><span class="metric-label">Beta (5Y):</span> <strong>0.32</strong></div>
-                </div>
+                <a href="xiaomi.html" class="summary-card" style="border-top-color: var(--xiaomi-color);">
+                    <h3>📱 Xiaomi (1810.HK)</h3>
+                    <div class="summary-stat">
+                        <span class="label">Current Price:</span>
+                        <span class="value">HK$43.35</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="label">Market Cap:</span>
+                        <span class="value">$190B</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="label">P/E Ratio:</span>
+                        <span class="value">36.0x</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="label">ROE:</span>
+                        <span class="value">17.4%</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="label">Rating:</span>
+                        <span class="value" style="color: #ffc107;">HOLD</span>
+                    </div>
+                </a>
 
-                <div class="col-md-3">
-                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">💰 Valuation</h5>
-                    <div class="metric-item"><span class="metric-label">P/E Ratio (TTM):</span> <strong>17.2x</strong></div>
-                    <div class="metric-item"><span class="metric-label">Forward P/E:</span> <strong>14.3x</strong></div>
-                    <div class="metric-item"><span class="metric-label">P/B Ratio:</span> <strong>3.7x</strong></div>
-                    <div class="metric-item"><span class="metric-label">P/S Ratio:</span> <strong>5.1x</strong></div>
-                    <div class="metric-item"><span class="metric-label">EV/EBITDA:</span> <strong>13.8x</strong></div>
-                    <div class="metric-item"><span class="metric-label">PEG Ratio:</span> <strong>0.95</strong></div>
-                    <div class="metric-item"><span class="metric-label">EPS (TTM):</span> <strong>HK$15.85</strong></div>
-                    <div class="metric-item"><span class="metric-label">Book Value/Share:</span> <strong>HK$112.50</strong></div>
-                </div>
-
-                <div class="col-md-3">
-                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">📊 Profitability</h5>
-                    <div class="metric-item"><span class="metric-label">ROE (TTM):</span> <strong>13.8%</strong></div>
-                    <div class="metric-item"><span class="metric-label">ROA (TTM):</span> <strong>6.8%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Gross Margin:</span> <strong>48.5%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Operating Margin:</span> <strong>28.5%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Net Margin:</span> <strong>26.2%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Revenue Growth (TTM):</span> <strong>8.5%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Earnings Growth (YoY):</span> <strong>28.5%</strong></div>
-                </div>
-
-                <div class="col-md-3">
-                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">💪 Balance Sheet</h5>
-                    <div class="metric-item"><span class="metric-label">Debt/Equity:</span> <strong>0.08</strong></div>
-                    <div class="metric-item"><span class="metric-label">Current Ratio:</span> <strong>1.85</strong></div>
-                    <div class="metric-item"><span class="metric-label">Total Cash:</span> <strong>$95B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Total Debt:</span> <strong>$23B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Net Cash:</span> <strong>$72B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Free Cash Flow:</span> <strong>$42.8B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Dividend Yield:</span> <strong>0.8%</strong></div>
-                </div>
+                <a href="meituan.html" class="summary-card" style="border-top-color: var(--meituan-color);">
+                    <h3>🛵 Meituan (3690.HK)</h3>
+                    <div class="summary-stat">
+                        <span class="label">Current Price:</span>
+                        <span class="value">HK$102.40</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="label">Market Cap:</span>
+                        <span class="value">$80B</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="label">P/E Ratio:</span>
+                        <span class="value">19.8x</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="label">ROE:</span>
+                        <span class="value">17.1%</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="label">Rating:</span>
+                        <span class="value" style="color: #28a745;">BUY</span>
+                    </div>
+                </a>
             </div>
-        </div>
 
-        <div class="bull-bear-analysis" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-            <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">🎯 Bull/Bear Case Analysis</h3>
+            <!-- Comparative Charts -->
+            <h2 style="text-align: center; color: var(--primary-dark); margin-bottom: 30px;">📊 Comparative Analysis</h2>
 
             <div class="row">
                 <div class="col-md-6">
-                    <div style="background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
-                        <h4 style="color: #155724; margin-bottom: 15px;">🐂 Bull Case (Probability-Weighted)</h4>
-        <div style="margin-bottom: 12px;"><strong style="color: #28a745;">Gaming Recovery (40%)</strong><br><span style="font-size: 0.9rem;">Regulatory approval for new titles, China gaming growth 15%+</span></div><div style="margin-bottom: 12px;"><strong style="color: #28a745;">AI Monetization (30%)</strong><br><span style="font-size: 0.9rem;">Hunyuan LLM enterprise adoption, adds $3-5B revenue</span></div><div style="margin-bottom: 12px;"><strong style="color: #28a745;">Fintech Expansion (20%)</strong><br><span style="font-size: 0.9rem;">WeChat Pay merchant fees, cross-border payments growth</span></div><div style="margin-bottom: 12px;"><strong style="color: #28a745;">Video Ads Growth (10%)</strong><br><span style="font-size: 0.9rem;">Tencent Video ad revenue 25%+ growth, monetization improves</span></div>
+                    <div class="chart-container">
+                        <canvas id="chart-summary-revenue"></canvas>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div style="background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
-                        <h4 style="color: #856404; margin-bottom: 15px;">🐻 Bear Case (Risk-Weighted)</h4>
-        <div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Gaming Regulation (35%)</strong><br><span style="font-size: 0.9rem;">Stricter approval process, playtime limits impact user engagement</span></div><div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Competition Intensifies (30%)</strong><br><span style="font-size: 0.9rem;">ByteDance (Douyin)侵蚀 social media/gaming share</span></div><div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Macro Weakness (25%)</strong><br><span style="font-size: 0.9rem;">China consumer spending declines, ad/gaming revenue drops</span></div><div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Tencent Antitrust (10%)</strong><br><span style="font-size: 0.9rem;">Regulatory scrutiny on super app dominance</span></div>
+                    <div class="chart-container">
+                        <canvas id="chart-summary-growth"></canvas>
                     </div>
                 </div>
             </div>
 
-            <div style="background: #e7f3ff; padding: 15px; border-left: 4px solid #0066cc; border-radius: 5px;">
-                <strong>Base Case:</strong> Target HK$525 (+25% upside) based on 18x FY26E P/E, assumes sustained gaming leadership and AI adoption
-            </div>
-        </div>
-
-        <div class="catalysts-section" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-            <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">📅 Key Investment Catalysts (Next 12 Months)</h3>
-            <div class="timeline">
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Mar 20, 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Q4 2025 Earnings</div>
-                    <div style="font-size: 0.9rem; color: #666;">Gaming licenses, AI monetization progress, buyback pace</div>
-                </div>
-            </div>
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Q2 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Major Game Launches</div>
-                    <div style="font-size: 0.9rem; color: #666;">New titles approved, impact on gaming revenue</div>
-                </div>
-            </div>
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Q3 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Hunyuan LLM 3.0</div>
-                    <div style="font-size: 0.9rem; color: #666;">Enterprise adoption milestones, revenue recognition</div>
-                </div>
-            </div>
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Oct 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">WeChat Monetization</div>
-                    <div style="font-size: 0.9rem; color: #666;">New mini-game ads, payment features rollout</div>
-                </div>
-            </div>
-            </div>
-        </div>
-
-                        <div class="row mt-4">
-                            <div class="col-md-6">
-                                <div class="chart-container">
-                                    <canvas id="chart-tencent-revenue"></canvas>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="chart-container">
-                                    <canvas id="chart-tencent-margin"></canvas>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="callout-box mt-4">
-                            <h4>💡 Key Investment Thesis</h4>
-                            <p><strong>Unmatched Moat & Cash Generator:</strong> WeChat (1.3B users) provides unrivaled user engagement and monetization platform. Gaming dominance with improving regulatory outlook. Massive $95B cash balance supports buybacks and M&A. Trading at 14x forward P/E with 15%+ growth.</p>
-                        </div>
-
-                        <div class="risks mt-4">
-                            <h3>Key Risks</h3>
-                            <ul>
-                                <li><strong>Regulatory:</strong> Gaming approval process, antitrust scrutiny</li>
-                                <li><strong>Competition:</strong> ByteDance (Douyin) encroaching on social media</li>
-                                <li><strong>Gaming:</strong> Slower growth, user fatigue in key titles</li>
-                                <li><strong>Macro:</strong> China consumer spending weakness</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- BAIDU TAB -->
-                <div class="tab-pane fade" id="baidu" role="tabpanel">
-                    <div class="company-section" style="margin: 0; border-left: none; border-top: 5px solid var(--baidu-color);">
-                        <h2>🔍 Baidu (9888.HK)</h2>
-
-                        <div class="row">
-                            <div class="col-md-8">
-                                <div class="summary">
-                                    <h3>Business Overview</h3>
-                                    <p>Baidu is China's leading AI and search company with growing autonomous driving footprint:</p>
-                                    <ul>
-                                        <li><strong>Search:</strong> China's #1 search engine (70%+ market share)</li>
-                                        <li><strong>AI Cloud:</strong> ERNIE LLM, AI services, cloud infrastructure</li>
-                                        <li><strong>Autonomous Driving:</strong> Apollo Go robotaxi, Level 4/5 solutions</li>
-                                        <li><strong>Mobile Ecosystem:</strong> Baidu App, Haokan Video, iQIYI</li>
-                                        <li><strong>Smart Devices:</strong> Xiaodu smart speakers, DuerOS AI</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="callout-box" style="margin-top: 0;">
-                                    <h4>💡 Investment Rating</h4>
-                                    <p style="font-size: 2rem; text-align: center; margin: 20px 0;">
-                                        <span class="badge-buy">BUY</span>
-                                    </p>
-                                    <p><strong>Target:</strong> HK$166</p>
-                                    <p><strong>Upside:</strong> +40%</p>
-                                    <p><strong>Risk:</strong> Low</p>
-                                </div>
-                            </div>
-                        </div>
-
-        <div class="metrics-grid" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-            <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">📊 Key Investment Metrics</h3>
-
-            <div class="row">
-                <div class="col-md-3">
-                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">📈 Market Data</h5>
-                    <div class="metric-item"><span class="metric-label">Ticker:</span> <strong>9888.HK</strong></div>
-                    <div class="metric-item"><span class="metric-label">Market Cap:</span> <strong>$42B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Enterprise Value:</span> <strong>$27B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Current Price:</span> <strong>HK$118.70</strong></div>
-                    <div class="metric-item"><span class="metric-label">52W High/Low:</span> <strong>HK$157.20 / HK$87.40</strong></div>
-                    <div class="metric-item"><span class="metric-label">Avg Volume:</span> <strong>8.5M</strong></div>
-                    <div class="metric-item"><span class="metric-label">Beta (5Y):</span> <strong>0.65</strong></div>
-                </div>
-
-                <div class="col-md-3">
-                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">💰 Valuation</h5>
-                    <div class="metric-item"><span class="metric-label">P/E Ratio (TTM):</span> <strong>11.5x</strong></div>
-                    <div class="metric-item"><span class="metric-label">Forward P/E:</span> <strong>9.2x</strong></div>
-                    <div class="metric-item"><span class="metric-label">P/B Ratio:</span> <strong>1.4x</strong></div>
-                    <div class="metric-item"><span class="metric-label">P/S Ratio:</span> <strong>2.1x</strong></div>
-                    <div class="metric-item"><span class="metric-label">EV/EBITDA:</span> <strong>8.5x</strong></div>
-                    <div class="metric-item"><span class="metric-label">PEG Ratio:</span> <strong>0.82</strong></div>
-                    <div class="metric-item"><span class="metric-label">EPS (TTM):</span> <strong>HK$10.25</strong></div>
-                    <div class="metric-item"><span class="metric-label">Book Value/Share:</span> <strong>HK$85.40</strong></div>
-                </div>
-
-                <div class="col-md-3">
-                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">📊 Profitability</h5>
-                    <div class="metric-item"><span class="metric-label">ROE (TTM):</span> <strong>9.2%</strong></div>
-                    <div class="metric-item"><span class="metric-label">ROA (TTM):</span> <strong>5.4%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Gross Margin:</span> <strong>45.2%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Operating Margin:</span> <strong>19.8%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Net Margin:</span> <strong>18.5%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Revenue Growth (TTM):</span> <strong>9.2%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Earnings Growth (YoY):</span> <strong>42.3%</strong></div>
-                </div>
-
-                <div class="col-md-3">
-                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">💪 Balance Sheet</h5>
-                    <div class="metric-item"><span class="metric-label">Debt/Equity:</span> <strong>0.35</strong></div>
-                    <div class="metric-item"><span class="metric-label">Current Ratio:</span> <strong>2.15</strong></div>
-                    <div class="metric-item"><span class="metric-label">Total Cash:</span> <strong>$28B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Total Debt:</span> <strong>$13B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Net Cash:</span> <strong>$15B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Free Cash Flow:</span> <strong>$6.2B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Dividend Yield:</span> <strong>0.6%</strong></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="bull-bear-analysis" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-            <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">🎯 Bull/Bear Case Analysis</h3>
-
-            <div class="row">
+            <div class="row mt-4">
                 <div class="col-md-6">
-                    <div style="background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
-                        <h4 style="color: #155724; margin-bottom: 15px;">🐂 Bull Case (Probability-Weighted)</h4>
-        <div style="margin-bottom: 12px;"><strong style="color: #28a745;">AI Cloud Growth (45%)</strong><br><span style="font-size: 0.9rem;">ERNIE LLM monetization, AI cloud revenue 40%+ growth</span></div><div style="margin-bottom: 12px;"><strong style="color: #28a745;">Robotaxi Success (30%)</strong><br><span style="font-size: 0.9rem;">Apollo Go reaches 50+ cities, adds $5-8B value</span></div><div style="margin-bottom: 12px;"><strong style="color: #28a745;">Search Stabilization (15%)</strong><br><span style="font-size: 0.9rem;">Core search market share maintained, margin expansion</span></div><div style="margin-bottom: 12px;"><strong style="color: #28a745;">iQIYI Profitability (10%)</strong><br><span style="font-size: 0.9rem;">Streaming reaches breakeven, removes drag on earnings</span></div>
+                    <div class="chart-container">
+                        <canvas id="chart-summary-margins"></canvas>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div style="background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
-                        <h4 style="color: #856404; margin-bottom: 15px;">🐻 Bear Case (Risk-Weighted)</h4>
-        <div style="margin-bottom: 12px;"><strong style="color: #d39e00;">AI Competition (40%)</strong><br><span style="font-size: 0.9rem;">Alibaba/Tencent/Huawei AI clouds capture enterprise share</span></div><div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Search Share Loss (30%)</strong><br><span style="font-size: 0.9rem;">Douyin/Sora video search侵蚀 core search queries</span></div><div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Robotaxi Delays (20%)</strong><br><span style="font-size: 0.9rem;">Regulatory approval delays, capital burn continues</span></div><div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Macro Weakness (10%)</strong><br><span style="font-size: 0.9rem;">China GDP growth <4%, advertising spending declines</span></div>
+                    <div class="chart-container">
+                        <canvas id="chart-summary-valuation"></canvas>
                     </div>
                 </div>
             </div>
 
-            <div style="background: #e7f3ff; padding: 15px; border-left: 4px solid #0066cc; border-radius: 5px;">
-                <strong>Base Case:</strong> Target HK$166 (+40% upside) based on 13x FY26E P/E, assumes AI cloud acceleration and robotaxi milestones
+            <!-- Investment Ranking -->
+            <div class="investment-ranking">
+                <h4 style="margin-bottom: 20px;">🏆 Investment Rankings</h4>
+                <div>🥇 <strong>Best Value:</strong> JD.com (7.5x forward P/E, 0.68 PEG, $28B net cash, 35% upside)</div>
+                <div>🥈 <strong>Best Quality:</strong> Tencent (26% net margin, 28.5% op margin, $95B cash, moat leader)</div>
+                <div>🥉 <strong>Best AI Growth:</strong> Baidu (9.2x forward P/E, ERNIE LLM adoption, autonomous driving leader)</div>
+                <div>🏅 <strong>Best Cash Flow:</strong> Alibaba (11.1x forward P/E, $55B cash, regulatory reset tailwind)</div>
+                <div>🏅 <strong>Best Growth:</strong> Xiaomi (133.5% earnings growth, EV optionality, premium pivot)</div>
+                <div>🏅 <strong>Best Market Leader:</strong> Meituan (70%+ delivery share, margin expansion potential)</div>
             </div>
         </div>
-
-        <div class="catalysts-section" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-            <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">📅 Key Investment Catalysts (Next 12 Months)</h3>
-            <div class="timeline">
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Feb 26, 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Q4 2025 Earnings</div>
-                    <div style="font-size: 0.9rem; color: #666;">AI cloud revenue growth, ERNIE enterprise adoption</div>
-                </div>
-            </div>
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Q2 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Apollo Go Expansion</div>
-                    <div style="font-size: 0.9rem; color: #666;">New cities launched, robotaxi fleet size update</div>
-                </div>
-            </div>
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Q3 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">ERNIE 4.0 Launch</div>
-                    <div style="font-size: 0.9rem; color: #666;">Next-gen LLM capabilities, enterprise monetization</div>
-                </div>
-            </div>
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Oct 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Robotaxi Profitability</div>
-                    <div style="font-size: 0.9rem; color: #666;">Unit economics improvement, breakeven timeline</div>
-                </div>
-            </div>
-            </div>
-        </div>
-
-                        <div class="row mt-4">
-                            <div class="col-md-6">
-                                <div class="chart-container">
-                                    <canvas id="chart-baidu-revenue"></canvas>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="chart-container">
-                                    <canvas id="chart-baidu-margin"></canvas>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="callout-box mt-4">
-                            <h4>💡 Key Investment Thesis</h4>
-                            <p><strong>AI Leader Trading at Discount:</strong> ERNIE LLM leads Chinese AI race with 100B+ parameters. Apollo Go robotaxi pioneer with 30+ cities. Search cash fund AI investments. Trading at 9x forward P/E with 40%+ earnings growth potential.</p>
-                        </div>
-
-                        <div class="risks mt-4">
-                            <h3>Key Risks</h3>
-                            <ul>
-                                <li><strong>AI Competition:</strong> Alibaba, Tencent, Huawei advancing rapidly</li>
-                                <li><strong>Search Share:</strong> Douyin/TikTok video search encroachment</li>
-                                <li><strong>Robotaxi:</strong> Capital intensive, regulatory uncertainty</li>
-                                <li><strong>Macro:</strong> Advertising spend sensitivity</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- JD.COM TAB -->
-                <div class="tab-pane fade" id="jd" role="tabpanel">
-                    <div class="company-section" style="margin: 0; border-left: none; border-top: 5px solid var(--jd-color);">
-                        <h2>📦 JD.com (9618.HK)</h2>
-
-                        <div class="row">
-                            <div class="col-md-8">
-                                <div class="summary">
-                                    <h3>Business Overview</h3>
-                                    <p>JD.com is China's leading logistics-driven e-commerce platform with focus on authentic products:</p>
-                                    <ul>
-                                        <li><strong>E-commerce:</strong> JD.com mall, JD Worldwide (cross-border)</li>
-                                        <li><strong>Logistics:</strong> JD Logistics (2000+ warehouses, 90% same/next-day delivery)</li>
-                                        <li><strong>Supermarkets:</strong> JD Fresh, 7FRESH offline stores</li>
-                                        <li><strong>Healthcare:</strong> JD Health (online pharmacy, telemedicine)</li>
-                                        <li><strong>Cloud:</strong> JD Cloud, smart retail solutions</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="callout-box" style="margin-top: 0;">
-                                    <h4>💡 Investment Rating</h4>
-                                    <p style="font-size: 2rem; text-align: center; margin: 20px 0;">
-                                        <span class="badge-buy">BUY</span>
-                                    </p>
-                                    <p><strong>Target:</strong> HK$142</p>
-                                    <p><strong>Upside:</strong> +35%</p>
-                                    <p><strong>Risk:</strong> Low</p>
-                                </div>
-                            </div>
-                        </div>
-
-        <div class="metrics-grid" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-            <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">📊 Key Investment Metrics</h3>
-
-            <div class="row">
-                <div class="col-md-3">
-                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">📈 Market Data</h5>
-                    <div class="metric-item"><span class="metric-label">Ticker:</span> <strong>9618.HK</strong></div>
-                    <div class="metric-item"><span class="metric-label">Market Cap:</span> <strong>$58B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Enterprise Value:</span> <strong>$30B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Current Price:</span> <strong>HK$105.40</strong></div>
-                    <div class="metric-item"><span class="metric-label">52W High/Low:</span> <strong>HK$178.20 / HK$85.50</strong></div>
-                    <div class="metric-item"><span class="metric-label">Avg Volume:</span> <strong>35.2M</strong></div>
-                    <div class="metric-item"><span class="metric-label">Beta (5Y):</span> <strong>0.48</strong></div>
-                </div>
-
-                <div class="col-md-3">
-                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">💰 Valuation</h5>
-                    <div class="metric-item"><span class="metric-label">P/E Ratio (TTM):</span> <strong>8.9x</strong></div>
-                    <div class="metric-item"><span class="metric-label">Forward P/E:</span> <strong>7.5x</strong></div>
-                    <div class="metric-item"><span class="metric-label">P/B Ratio:</span> <strong>0.8x</strong></div>
-                    <div class="metric-item"><span class="metric-label">P/S Ratio:</span> <strong>0.5x</strong></div>
-                    <div class="metric-item"><span class="metric-label">EV/EBITDA:</span> <strong>6.2x</strong></div>
-                    <div class="metric-item"><span class="metric-label">PEG Ratio:</span> <strong>0.68</strong></div>
-                    <div class="metric-item"><span class="metric-label">EPS (TTM):</span> <strong>HK$11.85</strong></div>
-                    <div class="metric-item"><span class="metric-label">Book Value/Share:</span> <strong>HK$131.20</strong></div>
-                </div>
-
-                <div class="col-md-3">
-                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">📊 Profitability</h5>
-                    <div class="metric-item"><span class="metric-label">ROE (TTM):</span> <strong>8.4%</strong></div>
-                    <div class="metric-item"><span class="metric-label">ROA (TTM):</span> <strong>3.8%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Gross Margin:</span> <strong>15.8%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Operating Margin:</span> <strong>2.5%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Net Margin:</span> <strong>2.3%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Revenue Growth (TTM):</span> <strong>7.8%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Earnings Growth (YoY):</span> <strong>35.8%</strong></div>
-                </div>
-
-                <div class="col-md-3">
-                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">💪 Balance Sheet</h5>
-                    <div class="metric-item"><span class="metric-label">Debt/Equity:</span> <strong>0.18</strong></div>
-                    <div class="metric-item"><span class="metric-label">Current Ratio:</span> <strong>1.42</strong></div>
-                    <div class="metric-item"><span class="metric-label">Total Cash:</span> <strong>$42B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Total Debt:</span> <strong>$14B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Net Cash:</span> <strong>$28B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Free Cash Flow:</span> <strong>$8.5B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Dividend Yield:</span> <strong>1.2%</strong></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="bull-bear-analysis" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-            <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">🎯 Bull/Bear Case Analysis</h3>
-
-            <div class="row">
-                <div class="col-md-6">
-                    <div style="background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
-                        <h4 style="color: #155724; margin-bottom: 15px;">🐂 Bull Case (Probability-Weighted)</h4>
-        <div style="margin-bottom: 12px;"><strong style="color: #28a745;">Logistics Profitability (40%)</strong><br><span style="font-size: 0.9rem;">JD Logistics reaches 6%+ margin, external client growth 30%+</span></div><div style="margin-bottom: 12px;"><strong style="color: #28a745;">Pinduoduo Fatigue (30%)</strong><br><span style="font-size: 0.9rem;">Premium consumers return to JD for authenticity</span></div><div style="margin-bottom: 12px;"><strong style="color: #28a745;">Margin Expansion (20%)</strong><br><span style="font-size: 0.9rem;">Operating margin expands to 4%+, cost optimization</span></div><div style="margin-bottom: 12px;"><strong style="color: #28a745;">JD Health IPO (10%)</strong><br><span style="font-size: 0.9rem;">Spin-off unlocks $5-8B value</span></div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div style="background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
-                        <h4 style="color: #856404; margin-bottom: 15px;">🐻 Bear Case (Risk-Weighted)</h4>
-        <div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Pinduoduo Dominance (35%)</strong><br><span style="font-size: 0.9rem;">PDD captures 30%+ share, JD growth slows to <5%</span></div><div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Logistics Costs (30%)</strong><br><span style="font-size: 0.9rem;">Labor costs rise 20%, margins contract to 1.5%</span></div><div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Macro Weakness (25%)</strong><br><span style="font-size: 0.9rem;">Premium consumer spending declines 10-15%</span></div><div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Alibaba Resurgence (10%)</strong><br><span style="font-size: 0.9rem;">Taobao regains share through subsidies</span></div>
-                    </div>
-                </div>
-            </div>
-
-            <div style="background: #e7f3ff; padding: 15px; border-left: 4px solid #0066cc; border-radius: 5px;">
-                <strong>Base Case:</strong> Target HK$142 (+35% upside) based on 10x FY26E P/E, assumes logistics profitability and premium positioning
-            </div>
-        </div>
-
-        <div class="catalysts-section" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-            <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">📅 Key Investment Catalysts (Next 12 Months)</h3>
-            <div class="timeline">
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Mar 8, 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Q4 2025 Earnings</div>
-                    <div style="font-size: 0.9rem; color: #666;">Logistics margin expansion, user growth retention</div>
-                </div>
-            </div>
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Jun 18, 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">618 Shopping Festival</div>
-                    <div style="font-size: 0.9rem; color: #666;">GMV growth vs PDD, premium mix retention</div>
-                </div>
-            </div>
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Q3 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">JD Logistics IPO</div>
-                    <div style="font-size: 0.9rem; color: #666;">Spin-off valuation, unlocking logistics value</div>
-                </div>
-            </div>
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Nov 11, 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">11.11 Singles Day</div>
-                    <div style="font-size: 0.9rem; color: #666;">Market share defense, premium positioning</div>
-                </div>
-            </div>
-            </div>
-        </div>
-
-                        <div class="row mt-4">
-                            <div class="col-md-6">
-                                <div class="chart-container">
-                                    <canvas id="chart-jd-revenue"></canvas>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="chart-container">
-                                    <canvas id="chart-jd-margin"></canvas>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="callout-box mt-4">
-                            <h4>💡 Key Investment Thesis</h4>
-                            <p><strong>Deep Value Logistics Moat:</strong> Unmatched logistics network (90% same/next-day) creates defensible moat. Authentic products positioning appeals to premium consumers. Trading at 7.5x forward P/E with $28B net cash and 35%+ upside.</p>
-                        </div>
-
-                        <div class="risks mt-4">
-                            <h3>Key Risks</h3>
-                            <ul>
-                                <li><strong>Competition:</strong> Pinduoduo aggressive pricing capturing share</li>
-                                <li><strong>Logistics Costs:</strong> Rising labor, fuel costs pressure margins</li>
-                                <li><strong>Macro:</strong> Premium consumer spending weakness</li>
-                                <li><strong>Alibaba:</strong> Taobao market share defense</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- ALIBABA TAB -->
-                <div class="tab-pane fade" id="alibaba" role="tabpanel">
-                    <div class="company-section alibaba" style="margin: 0; border-left: none; border-top: 5px solid var(--alibaba-color);">
-                        <h2>🛒 Alibaba Group (9988.HK / BABA)</h2>
-
-                        <div class="row">
-                            <div class="col-md-8">
-                                <div class="summary">
-                                    <h3>Business Overview</h3>
-                                    <p>Alibaba Group is China's largest e-commerce conglomerate with diversified business segments:</p>
-                                    <ul>
-                                        <li><strong>Core Commerce:</strong> Taobao, Tmall (China retail), Lazada (Southeast Asia)</li>
-                                        <li><strong>Cloud Computing:</strong> Alibaba Cloud (leading provider in China and Asia-Pacific)</li>
-                                        <li><strong>Digital Media:</strong> Youku, UC Browser, digital content</li>
-                                        <li><strong>Innovation:</strong> Cainiao logistics, DingTalk enterprise tools</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="callout-box" style="margin-top: 0;">
-                                    <h4>💡 Investment Rating</h4>
-                                    <p style="font-size: 2rem; text-align: center; margin: 20px 0;">
-                                        <span class="badge-buy">BUY</span>
-                                    </p>
-                                    <p><strong>Target:</strong> $120</p>
-                                    <p><strong>Upside:</strong> +45%</p>
-                                    <p><strong>Risk:</strong> Medium</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        
-        <div class="metrics-grid" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-            <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">📊 Key Investment Metrics</h3>
-
-            <div class="row">
-                <div class="col-md-3">
-                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">📈 Market Data</h5>
-                    <div class="metric-item"><span class="metric-label">Ticker:</span> <strong>9988.HK</strong></div>
-                    <div class="metric-item"><span class="metric-label">Market Cap:</span> <strong>$363B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Enterprise Value:</span> <strong>$235B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Current Price:</span> <strong>HK$131.20</strong></div>
-                    <div class="metric-item"><span class="metric-label">52W High/Low:</span> <strong>HK$145.90 / HK$71.25</strong></div>
-                    <div class="metric-item"><span class="metric-label">Avg Volume:</span> <strong>104.2M</strong></div>
-                    <div class="metric-item"><span class="metric-label">Beta (5Y):</span> <strong>0.21</strong></div>
-                </div>
-
-                <div class="col-md-3">
-                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">💰 Valuation</h5>
-                    <div class="metric-item"><span class="metric-label">P/E Ratio (TTM):</span> <strong>14.5x</strong></div>
-                    <div class="metric-item"><span class="metric-label">Forward P/E:</span> <strong>11.1x</strong></div>
-                    <div class="metric-item"><span class="metric-label">P/B Ratio:</span> <strong>1.8x</strong></div>
-                    <div class="metric-item"><span class="metric-label">P/S Ratio:</span> <strong>1.9x</strong></div>
-                    <div class="metric-item"><span class="metric-label">EV/EBITDA:</span> <strong>12.1x</strong></div>
-                    <div class="metric-item"><span class="metric-label">PEG Ratio:</span> <strong>0.86</strong></div>
-                    <div class="metric-item"><span class="metric-label">EPS (TTM):</span> <strong>HK$7.34</strong></div>
-                    <div class="metric-item"><span class="metric-label">Book Value/Share:</span> <strong>HK$437.30</strong></div>
-                </div>
-
-                <div class="col-md-3">
-                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">📊 Profitability</h5>
-                    <div class="metric-item"><span class="metric-label">ROE (TTM):</span> <strong>11.4%</strong></div>
-                    <div class="metric-item"><span class="metric-label">ROA (TTM):</span> <strong>5.3%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Gross Margin:</span> <strong>40.0%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Operating Margin:</span> <strong>14.0%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Net Margin:</span> <strong>13.1%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Revenue Growth (TTM):</span> <strong>6.6%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Earnings Growth (YoY):</span> <strong>273.2%</strong></div>
-                </div>
-
-                <div class="col-md-3">
-                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">💪 Balance Sheet</h5>
-                    <div class="metric-item"><span class="metric-label">Debt/Equity:</span> <strong>0.23</strong></div>
-                    <div class="metric-item"><span class="metric-label">Current Ratio:</span> <strong>1.55</strong></div>
-                    <div class="metric-item"><span class="metric-label">Total Cash:</span> <strong>$55B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Total Debt:</span> <strong>$37B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Net Cash:</span> <strong>$18B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Free Cash Flow:</span> <strong>$19.0B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Dividend Yield:</span> <strong>0.9%</strong></div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="bull-bear-analysis" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-            <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">🎯 Bull/Bear Case Analysis</h3>
-
-            <div class="row">
-                <div class="col-md-6">
-                    <div style="background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
-                        <h4 style="color: #155724; margin-bottom: 15px;">🐂 Bull Case (Probability-Weighted)</h4>
-        <div style="margin-bottom: 12px;"><strong style="color: #28a745;">Cloud Profitability (40%)</strong><br><span style="font-size: 0.9rem;">Alibaba Cloud reaches breakeven in FY25, adding $5-8B to bottom line</span></div><div style="margin-bottom: 12px;"><strong style="color: #28a745;">Regulatory Reset (30%)</strong><br><span style="font-size: 0.9rem;">Complete regulatory clarity drives P/E re-rating from 10x to 15x</span></div><div style="margin-bottom: 12px;"><strong style="color: #28a745;">AI Monetization (20%)</strong><br><span style="font-size: 0.9rem;">Qwen LLM generates $2-3B revenue from enterprise customers</span></div><div style="margin-bottom: 12px;"><strong style="color: #28a745;">Buyback Acceleration (10%)</strong><br><span style="font-size: 0.9rem;">$25B+ buyback reduces share count by 12-15%</span></div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div style="background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
-                        <h4 style="color: #856404; margin-bottom: 15px;">🐻 Bear Case (Risk-Weighted)</h4>
-        <div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Market Share Loss (35%)</strong><br><span style="font-size: 0.9rem;">Continued erosion to Douyin/Pinduoduo, CMR drops below 45%</span></div><div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Macro Weakness (30%)</strong><br><span style="font-size: 0.9rem;">China GDP growth <4%, consumer spending contracts 5-8%</span></div><div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Delisting Risk (20%)</strong><br><span style="font-size: 0.9rem;">US-China tensions lead to forced delisting, US investors exit</span></div><div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Cloud Competition (15%)</strong><br><span style="font-size: 0.9rem;">Huawei/Tencent gain share, cloud growth slows to single digits</span></div>
-                    </div>
-                </div>
-            </div>
-
-            <div style="background: #e7f3ff; padding: 15px; border-left: 4px solid #0066cc; border-radius: 5px;">
-                <strong>Base Case:</strong> Target $120 (+45% upside) based on 12x FY26E P/E, assumes mid-single-digit revenue growth and margin expansion
-            </div>
-        </div>
-        
-
-                        
-        <div class="catalysts-section" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-            <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">📅 Key Investment Catalysts (Next 12 Months)</h3>
-            <div class="timeline">
-        
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Feb 7, 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Q3 FY25 Earnings</div>
-                    <div style="font-size: 0.9rem; color: #666;">Cloud segment profitability update, buyback pace</div>
-                </div>
-            </div>
-            
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Jun 18, 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">618 Shopping Festival</div>
-                    <div style="font-size: 0.9rem; color: #666;">GMV growth vs Douyin, market share defense</div>
-                </div>
-            </div>
-            
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">H2 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Cloud Spin-off Decision</div>
-                    <div style="font-size: 0.9rem; color: #666;">Potential IPO unlocks $40-60B value</div>
-                </div>
-            </div>
-            
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Q2 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">AI Product Launch</div>
-                    <div style="font-size: 0.9rem; color: #666;">Qwen enterprise monetization, Azure/AWS competition</div>
-                </div>
-            </div>
-            
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Q3 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Regulatory Review Completion</div>
-                    <div style="font-size: 0.9rem; color: #666;">Final antitrust settlement removes overhang</div>
-                </div>
-            </div>
-            
-            </div>
-        </div>
-        
-
-
-                        <div class="row mt-4">
-                            <div class="col-md-6">
-                                <div class="chart-container">
-                                    <canvas id="chart-alibaba-revenue"></canvas>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="chart-container">
-                                    <canvas id="chart-alibaba-margin"></canvas>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="callout-box mt-4">
-                            <h4>💡 Key Investment Thesis</h4>
-                            <p><strong>Undervalued AI & Cloud Leader:</strong> Trading at ~10x forward P/E despite 40%+ cloud market share. Regulatory clarity improving, cloud profitability inflection approaching. $25B buyback demonstrates confidence.</p>
-                        </div>
-
-                        <div class="risks mt-4">
-                            <h3>Key Risks</h3>
-                            <ul>
-                                <li><strong>Regulatory:</strong> Potential renewed antitrust scrutiny</li>
-                                <li><strong>Competition:</strong> Market share erosion from Douyin, Pinduoduo</li>
-                                <li><strong>Macro:</strong> China consumer spending weakness</li>
-                                <li><strong>Geopolitical:</strong> US-China tensions impact</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- XIAOMI TAB -->
-                <div class="tab-pane fade" id="xiaomi" role="tabpanel">
-                    <div class="company-section xiaomi" style="margin: 0; border-left: none; border-top: 5px solid var(--xiaomi-color);">
-                        <h2>📱 Xiaomi Corporation (1810.HK)</h2>
-
-                        <div class="row">
-                            <div class="col-md-8">
-                                <div class="summary">
-                                    <h3>Business Overview</h3>
-                                    <p>Xiaomi is a leading consumer electronics company with integrated ecosystem:</p>
-                                    <ul>
-                                        <li><strong>Smartphones:</strong> World's #3 maker (14% global share), premium segment growth</li>
-                                        <li><strong>IoT & Lifestyle:</strong> 700M+ connected devices (TVs, wearables, appliances)</li>
-                                        <li><strong>Internet Services:</strong> Advertising, gaming, fintech (HyperOS)</li>
-                                        <li><strong>Electric Vehicles:</strong> SU7 EV launch targeting premium segment</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="callout-box" style="margin-top: 0;">
-                                    <h4>💡 Investment Rating</h4>
-                                    <p style="font-size: 2rem; text-align: center; margin: 20px 0;">
-                                        <span class="badge-hold">HOLD</span>
-                                    </p>
-                                    <p><strong>Target:</strong> HK$22</p>
-                                    <p><strong>Upside:</strong> +15%</p>
-                                    <p><strong>Risk:</strong> High</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        
-        <div class="metrics-grid" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-            <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">📊 Key Investment Metrics</h3>
-
-            <div class="row">
-                <div class="col-md-3">
-                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">📈 Market Data</h5>
-                    <div class="metric-item"><span class="metric-label">Ticker:</span> <strong>1810.HK</strong></div>
-                    <div class="metric-item"><span class="metric-label">Market Cap:</span> <strong>$190B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Enterprise Value:</span> <strong>$177B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Current Price:</span> <strong>HK$43.35</strong></div>
-                    <div class="metric-item"><span class="metric-label">52W High/Low:</span> <strong>HK$61.45 / HK$12.56</strong></div>
-                    <div class="metric-item"><span class="metric-label">Avg Volume:</span> <strong>161.8M</strong></div>
-                    <div class="metric-item"><span class="metric-label">Beta (5Y):</span> <strong>1.01</strong></div>
-                </div>
-
-                <div class="col-md-3">
-                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">💰 Valuation</h5>
-                    <div class="metric-item"><span class="metric-label">P/E Ratio (TTM):</span> <strong>36.0x</strong></div>
-                    <div class="metric-item"><span class="metric-label">Forward P/E:</span> <strong>24.6x</strong></div>
-                    <div class="metric-item"><span class="metric-label">P/B Ratio:</span> <strong>5.3x</strong></div>
-                    <div class="metric-item"><span class="metric-label">P/S Ratio:</span> <strong>3.1x</strong></div>
-                    <div class="metric-item"><span class="metric-label">EV/EBITDA:</span> <strong>39.5x</strong></div>
-                    <div class="metric-item"><span class="metric-label">PEG Ratio:</span> <strong>0.97</strong></div>
-                    <div class="metric-item"><span class="metric-label">EPS (TTM):</span> <strong>HK$1.58</strong></div>
-                    <div class="metric-item"><span class="metric-label">Book Value/Share:</span> <strong>HK$9.77</strong></div>
-                </div>
-
-                <div class="col-md-3">
-                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">📊 Profitability</h5>
-                    <div class="metric-item"><span class="metric-label">ROE (TTM):</span> <strong>17.4%</strong></div>
-                    <div class="metric-item"><span class="metric-label">ROA (TTM):</span> <strong>4.8%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Gross Margin:</span> <strong>21.6%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Operating Margin:</span> <strong>8.6%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Net Margin:</span> <strong>8.7%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Revenue Growth (TTM):</span> <strong>30.5%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Earnings Growth (YoY):</span> <strong>133.5%</strong></div>
-                </div>
-
-                <div class="col-md-3">
-                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">💪 Balance Sheet</h5>
-                    <div class="metric-item"><span class="metric-label">Debt/Equity:</span> <strong>0.11</strong></div>
-                    <div class="metric-item"><span class="metric-label">Current Ratio:</span> <strong>1.29</strong></div>
-                    <div class="metric-item"><span class="metric-label">Total Cash:</span> <strong>$14B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Total Debt:</span> <strong>$3B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Net Cash:</span> <strong>$11B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Free Cash Flow:</span> <strong>$59.3B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Dividend Yield:</span> <strong>0.1%</strong></div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="bull-bear-analysis" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-            <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">🎯 Bull/Bear Case Analysis</h3>
-
-            <div class="row">
-                <div class="col-md-6">
-                    <div style="background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
-                        <h4 style="color: #155724; margin-bottom: 15px;">🐂 Bull Case (Probability-Weighted)</h4>
-        <div style="margin-bottom: 12px;"><strong style="color: #28a745;">EV Success (45%)</strong><br><span style="font-size: 0.9rem;">SU7 sells 150K+ units in FY25, establishes premium brand credibility</span></div><div style="margin-bottom: 12px;"><strong style="color: #28a745;">Premium Mix Expansion (25%)</strong><br><span style="font-size: 0.9rem;">30%+ of smartphone mix at >$400 ASP, margins expand to 24%</span></div><div style="margin-bottom: 12px;"><strong style="color: #28a745;">IoT Ecosystem Lock-in (20%)</strong><br><span style="font-size: 0.9rem;">1B+ connected devices by 2026, 35% attach rate drives recurring revenue</span></div><div style="margin-bottom: 12px;"><strong style="color: #28a745;">India Recovery (10%)</strong><br><span style="font-size: 0.9rem;">Smartphone ban lifted, regain 15%+ market share within 18 months</span></div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div style="background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
-                        <h4 style="color: #856404; margin-bottom: 15px;">🐻 Bear Case (Risk-Weighted)</h4>
-        <div style="margin-bottom: 12px;"><strong style="color: #d39e00;">EV Failure (40%)</strong><br><span style="font-size: 0.9rem;">SU7 sales <50K units, $2-3B capital burned, focus diluted</span></div><div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Apple China Resurgence (30%)</strong><br><span style="font-size: 0.9rem;">iPhone gains 5+ points in China, Xiaomi loses premium momentum</span></div><div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Component Cost Inflation (20%)</strong><br><span style="font-size: 0.9rem;">Memory/display prices surge 20%, margins contract to sub-19%</span></div><div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Geopolitical Headwinds (10%)</strong><br><span style="font-size: 0.9rem;">India ban permanent, SEA restrictions spread</span></div>
-                    </div>
-                </div>
-            </div>
-
-            <div style="background: #e7f3ff; padding: 15px; border-left: 4px solid #0066cc; border-radius: 5px;">
-                <strong>Base Case:</strong> Target HK$22 (+15% upside) based on 17x FY26E P/E, assumes successful EV ramp and sustained premium mix
-            </div>
-        </div>
-        
-
-                        
-        <div class="catalysts-section" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-            <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">📅 Key Investment Catalysts (Next 12 Months)</h3>
-            <div class="timeline">
-        
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Apr 15, 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">SU7 Q1 Delivery Update</div>
-                    <div style="font-size: 0.9rem; color: #666;">Monthly run-rate, profitability timeline, SU7 Ultra launch</div>
-                </div>
-            </div>
-            
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">May 20, 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Q1 2026 Earnings</div>
-                    <div style="font-size: 0.9rem; color: #666;">Premium smartphone mix, IoT margin expansion</div>
-                </div>
-            </div>
-            
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Q2-Q3 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">India Market Resolution</div>
-                    <div style="font-size: 0.9rem; color: #666;">Smartphone ban lifted or permanent - clarity needed</div>
-                </div>
-            </div>
-            
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Jul 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">HyperOS 2.0 Launch</div>
-                    <div style="font-size: 0.9rem; color: #666;">Cross-device ecosystem, services revenue acceleration</div>
-                </div>
-            </div>
-            
-            <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Nov 2026</div>
-                <div style="flex: 1;">
-                    <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Redmi K80 Series</div>
-                    <div style="font-size: 0.9rem; color: #666;">Flagship specs at mid-range, competitive response to Apple</div>
-                </div>
-            </div>
-            
-            </div>
-        </div>
-        
-
-
-                        <div class="row mt-4">
-                            <div class="col-md-6">
-                                <div class="chart-container">
-                                    <canvas id="chart-xiaomi-revenue"></canvas>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="chart-container">
-                                    <canvas id="chart-xiaomi-margin"></canvas>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="callout-box mt-4">
-                            <h4>💡 Key Investment Thesis</h4>
-                            <p><strong>Premium Transition & EV Optionality:</strong> Successful pivot to premium smartphones (30%+ of mix) driving margin expansion. SU7 EV represents ¥100-150B revenue opportunity. Trading at 15x P/E with 25%+ growth.</p>
-                        </div>
-
-                        <div class="risks mt-4">
-                            <h3>Key Risks</h3>
-                            <ul>
-                                <li><strong>EV Execution:</strong> Automotive business unproven, capital intensive</li>
-                                <li><strong>Competition:</strong> Intense smartphone price pressure</li>
-                                <li><strong>Supply Chain:</strong> Semiconductor supply dependencies</li>
-                                <li><strong>International:</strong> Geopolitical expansion risks</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- MEITUAN TAB -->
-                <div class="tab-pane fade" id="meituan" role="tabpanel">
-                    <div class="company-section meituan" style="margin: 0; border-left: none; border-top: 5px solid var(--meituan-color);">
-                        <h2>🛵 Meituan (3690.HK)</h2>
-
-                        <div class="row">
-                            <div class="col-md-8">
-                                <div class="summary">
-                                    <h3>Business Overview</h3>
-                                    <p>Meituan is China's leading local services platform:</p>
-                                    <ul>
-                                        <li><strong>Food Delivery:</strong> 70%+ market share, 700M+ users, 9M+ merchants</li>
-                                        <li><strong>In-Store & Travel:</strong> Restaurant reservations, hotel bookings</li>
-                                        <li><strong>New Initiatives:</strong> Instant retail, community buying, ride-hailing</li>
-                                    </ul>
-                                    <p>High-frequency delivery drives platform stickiness and cross-selling opportunities.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="callout-box" style="margin-top: 0;">
-                                    <h4>💡 Investment Rating</h4>
-                                    <p style="font-size: 2rem; text-align: center; margin: 20px 0;">
-                                        <span class="badge-buy">BUY</span>
-                                    </p>
-                                    <p><strong>Target:</strong> HK$180</p>
-                                    <p><strong>Upside:</strong> +35%</p>
-                                    <p><strong>Risk:</strong> Medium</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        
-        <div class="metrics-grid" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-            <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">📊 Key Investment Metrics</h3>
-
-            <div class="row">
-                <div class="col-md-3">
-                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">📈 Market Data</h5>
-                    <div class="metric-item"><span class="metric-label">Ticker:</span> <strong>3690.HK</strong></div>
-                    <div class="metric-item"><span class="metric-label">Market Cap:</span> <strong>$80B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Enterprise Value:</span> <strong>$62B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Current Price:</span> <strong>HK$102.40</strong></div>
-                    <div class="metric-item"><span class="metric-label">52W High/Low:</span> <strong>HK$217.00 / HK$101.60</strong></div>
-                    <div class="metric-item"><span class="metric-label">Avg Volume:</span> <strong>39.8M</strong></div>
-                    <div class="metric-item"><span class="metric-label">Beta (5Y):</span> <strong>N/A</strong></div>
-                </div>
-
-                <div class="col-md-3">
-                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">💰 Valuation</h5>
-                    <div class="metric-item"><span class="metric-label">P/E Ratio (TTM):</span> <strong>19.8x</strong></div>
-                    <div class="metric-item"><span class="metric-label">Forward P/E:</span> <strong>16.5x</strong></div>
-                    <div class="metric-item"><span class="metric-label">P/B Ratio:</span> <strong>3.1x</strong></div>
-                    <div class="metric-item"><span class="metric-label">P/S Ratio:</span> <strong>1.6x</strong></div>
-                    <div class="metric-item"><span class="metric-label">EV/EBITDA:</span> <strong>12.7x</strong></div>
-                    <div class="metric-item"><span class="metric-label">PEG Ratio:</span> <strong>2.64</strong></div>
-                    <div class="metric-item"><span class="metric-label">EPS (TTM):</span> <strong>HK$5.17</strong></div>
-                    <div class="metric-item"><span class="metric-label">Book Value/Share:</span> <strong>HK$33.14</strong></div>
-                </div>
-
-                <div class="col-md-3">
-                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">📊 Profitability</h5>
-                    <div class="metric-item"><span class="metric-label">ROE (TTM):</span> <strong>17.1%</strong></div>
-                    <div class="metric-item"><span class="metric-label">ROA (TTM):</span> <strong>5.2%</strong></div>
-                    <div class="metric-item"><span class="metric-label">ROIC:</span> <strong>7.3%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Gross Margin:</span> <strong>26.0%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Operating Margin:</span> <strong>4.2%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Net Margin:</span> <strong>2.4%</strong></div>
-                    <div class="metric-item"><span class="metric-label">Revenue Growth (TTM):</span> <strong>N/A</strong></div>
-                    <div class="metric-item"><span class="metric-label">Earnings Growth (YoY):</span> <strong>N/A</strong></div>
-                </div>
-
-                <div class="col-md-3">
-                    <h5 style="color: #667eea; font-size: 0.9rem; margin-bottom: 15px;">💵 Balance Sheet</h5>
-                    <div class="metric-item"><span class="metric-label">Debt/Equity:</span> <strong>0.28</strong></div>
-                    <div class="metric-item"><span class="metric-label">Current Ratio:</span> <strong>1.93</strong></div>
-                    <div class="metric-item"><span class="metric-label">Total Cash:</span> <strong>$13B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Total Debt:</span> <strong>$9B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Net Cash:</span> <strong>$4B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Free Cash Flow:</span> <strong>$5.1B</strong></div>
-                    <div class="metric-item"><span class="metric-label">Dividend Yield:</span> <strong>0.0%</strong></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="bull-bear-analysis" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-            <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">🎯 Bull/Bear Case Analysis</h3>
-
-            <div class="row">
-                <div class="col-md-6">
-                    <div style="background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
-                        <h4 style="color: #155724; margin-bottom: 15px;">🐂 Bull Case (Probability-Weighted)</h4>
-                        <div style="margin-bottom: 12px;"><strong style="color: #28a745;">Delivery Margin Expansion (40%)</strong><br><span style="font-size: 0.9rem;">Unit economics improve 300bp, take rates increase to 22%+</span></div>
-                        <div style="margin-bottom: 12px;"><strong style="color: #28a745;">Hotel/Travel Recovery (30%)</strong><br><span style="font-size: 0.9rem;">Domestic travel normalizes, segment margins reach 35%+</span></div>
-                        <div style="margin-bottom: 12px;"><strong style="color: #28a745;">New Initiatives Breakeven (20%)</strong><br><span style="font-size: 0.9rem;">Grocery/retail reaches profitability, adds $1-2B EBIT</span></div>
-                        <div style="margin-bottom: 12px;"><strong style="color: #28a745;">Market Share Defense (10%)</strong><br><span style="font-size: 0.9rem;">Successfully fends off Douyin competition, maintains 70%+ share</span></div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div style="background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
-                        <h4 style="color: #856404; margin-bottom: 15px;">🐻 Bear Case (Risk-Weighted)</h4>
-                        <div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Competition Intensifies (45%)</strong><br><span style="font-size: 0.9rem;">Douyin/Ele.me subsidies force take rate cuts, margins compress 500bp</span></div>
-                        <div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Regulatory Pressure (25%)</strong><br><span style="font-size: 0.9rem;">Delivery rider regulations increase costs by 15-20%</span></div>
-                        <div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Consumer Downtrading (20%)</strong><br><span style="font-size: 0.9rem;">Macro weakness drives ticket size down 10-15%, order frequency drops</span></div>
-                        <div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Expansion Losses (10%)</strong><br><span style="font-size: 0.9rem;">Grocery/retail burns $3-5B before pivot/exit</span></div>
-                    </div>
-                </div>
-            </div>
-
-            <div style="background: #e7f3ff; padding: 15px; border-left: 4px solid #0066cc; border-radius: 5px;">
-                <strong>Base Case:</strong> Target HK$250 (+35% upside) based on 22x FY26E P/E, assumes sustained market leadership and margin expansion
-            </div>
-        </div>
-
-        <div class="catalysts-section" style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-            <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">📅 Key Investment Catalysts (Next 12 Months)</h3>
-            <div class="timeline">
-                <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                    <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Mar 25, 2026</div>
-                    <div style="flex: 1;">
-                        <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Q4 2025 Earnings</div>
-                        <div style="font-size: 0.9rem; color: #666;">Delivery unit economics, hotel/travel recovery momentum</div>
-                    </div>
-                </div>
-                <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                    <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">May 5, 2026</div>
-                    <div style="flex: 1;">
-                        <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">May Day Travel Data</div>
-                        <div style="font-size: 0.9rem; color: #666;">Hotel bookings vs 2019, ADR trends, margin sustainability</div>
-                    </div>
-                </div>
-                <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                    <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Q2 2026</div>
-                    <div style="flex: 1;">
-                        <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Douyin Competition Response</div>
-                        <div style="font-size: 0.9rem; color: #666;">Strategic pricing, subsidy discipline, differentiation</div>
-                    </div>
-                </div>
-                <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                    <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Q3 2026</div>
-                    <div style="flex: 1;">
-                        <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Grocery Pivot Decision</div>
-                        <div style="font-size: 0.9rem; color: #666;">Continue investment or scale back - $2-4B impact</div>
-                    </div>
-                </div>
-                <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                    <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Oct 8, 2026</div>
-                    <div style="flex: 1;">
-                        <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Golden Week Performance</div>
-                        <div style="font-size: 0.9rem; color: #666;">Order volume growth, merchant retention, take rate</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row mt-4">
-            <div class="col-md-6">
-                <div class="chart-container">
-                    <canvas id="chart-meituan-revenue"></canvas>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="chart-container">
-                    <canvas id="chart-meituan-margin"></canvas>
-                </div>
-            </div>
-        </div>
-
-        <div class="callout-box mt-4">
-            <h4>💡 Key Investment Thesis</h4>
-            <p><strong>Dominant Platform with Margin Expansion:</strong> Unassailable 70%+ food delivery share provides high-frequency engagement. Operating margins improving from 11% to 16%+ as unit economics mature. Trading at ~20x P/E with 25-30% growth.</p>
-        </div>
-
-        <div class="risks mt-4">
-            <h3>Key Risks</h3>
-            <ul>
-                <li><strong>Labor Regulations:</strong> Gig worker cost increases</li>
-                <li><strong>Competition:</strong> Douyin expanding into local services</li>
-                <li><strong>Consumer Spending:</strong> Macro sensitivity</li>
-                <li><strong>Commission Pressure:</strong> Potential merchant rate reductions</li>
-            </ul>
-        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-                </div>
-                <div class="col-md-6">
-                    <div style="background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
-                        <h4 style="color: #856404; margin-bottom: 15px;">🐻 Bear Case (Risk-Weighted)</h4>
-                        <div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Competition Intensifies (45%)</strong><br><span style="font-size: 0.9rem;">Douyin/Ele.me subsidies force take rate cuts, margins compress 500bp</span></div>
-                        <div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Regulatory Pressure (25%)</strong><br><span style="font-size: 0.9rem;">Delivery rider regulations increase costs by 15-20%</span></div>
-                        <div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Consumer Downtrading (20%)</strong><br><span style="font-size: 0.9rem;">Macro weakness drives ticket size down 10-15%, order frequency drops</span></div>
-                        <div style="margin-bottom: 12px;"><strong style="color: #d39e00;">Expansion Losses (10%)</strong><br><span style="font-size: 0.9rem;">Grocery/retail burns $3-5B before pivot/exit</span></div>
-                    </div>
-                </div>
-            </div>
-
-            <div style="background: #e7f3ff; padding: 15px; border-left: 4px solid #0066cc; border-radius: 5px;">
-                <strong>Base Case:</strong> Target HK$250 (+35% upside) based on 22x FY26E P/E, assumes sustained market leadership and margin expansion
-            </div>
-        </div>
-
-
-
-            <h3 style="margin-bottom: 20px; color: #1a1a2e; border-bottom: 3px solid #667eea; padding-bottom: 10px;">📅 Key Investment Catalysts (Next 12 Months)</h3>
-            <div class="timeline">
-                <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                    <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Mar 25, 2026</div>
-                    <div style="flex: 1;">
-                        <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Q4 2025 Earnings</div>
-                        <div style="font-size: 0.9rem; color: #666;">Delivery unit economics, hotel/travel recovery momentum</div>
-                    </div>
-                </div>
-                <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                    <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">May 5, 2026</div>
-                    <div style="flex: 1;">
-                        <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">May Day Travel Data</div>
-                        <div style="font-size: 0.9rem; color: #666;">Hotel bookings vs 2019, ADR trends, margin sustainability</div>
-                    </div>
-                </div>
-                <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                    <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Q2 2026</div>
-                    <div style="flex: 1;">
-                        <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Douyin Competition Response</div>
-                        <div style="font-size: 0.9rem; color: #666;">Strategic pricing, subsidy discipline, differentiation</div>
-                    </div>
-                </div>
-                <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                    <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Q3 2026</div>
-                    <div style="flex: 1;">
-                        <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Grocery Pivot Decision</div>
-                        <div style="font-size: 0.9rem; color: #666;">Continue investment or scale back - $2-4B impact</div>
-                    </div>
-                </div>
-                <div style="display: flex; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;">
-                    <div style="min-width: 120px; color: #667eea; font-weight: 600; font-size: 0.85rem;">Oct 8, 2026</div>
-                    <div style="flex: 1;">
-                        <div style="font-weight: 600; color: #1a1a2e; margin-bottom: 5px;">Golden Week Performance</div>
-                        <div style="font-size: 0.9rem; color: #666;">Order volume growth, merchant retention, take rate</div>
-                    </div>
-                 </div>
-             </div>
-         </div>
-
-        <div class="callout-box mt-4">
-                            <h4>💡 Key Investment Thesis</h4>
-                            <p><strong>Dominant Platform with Margin Expansion:</strong> Unassailable 70%+ food delivery share provides high-frequency engagement. Operating margins improving from 11% to 16%+ as unit economics mature. Trading at ~20x P/E with 25-30% growth.</p>
-                        </div>
-
-                        <div class="risks mt-4">
-                            <h3>Key Risks</h3>
-                            <ul>
-                                <li><strong>Labor Regulations:</strong> Gig worker cost increases</li>
-                                <li><strong>Competition:</strong> Douyin expanding into local services</li>
-                                <li><strong>Consumer Spending:</strong> Macro sensitivity</li>
-                                <li><strong>Commission Pressure:</strong> Potential merchant rate reductions</li>
-                            </ul>
-                         </div>
-                    </div>
-
-            </div>
-        </div>
+    </div>
 
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
 
     <!-- Chart.js Scripts -->
     <script>
@@ -2167,303 +449,6 @@
                 }
             }
         });
-
-        // Alibaba Charts
-        new Chart(document.getElementById('chart-alibaba-revenue'), {
-            type: 'line',
-            data: {
-                labels: ['FY 2022', 'FY 2023', 'FY 2024', 'FY 2025E'],
-                datasets: [{
-                    label: 'Revenue (¥B)',
-                    data: [853.1, 868.7, 902.5, 945.0],
-                    borderColor: '#FF6A00',
-                    backgroundColor: 'rgba(255, 106, 0, 0.1)',
-                    borderWidth: 3,
-                    fill: true,
-                    tension: 0.4
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    title: { display: true, text: 'Alibaba Revenue Trend', font: { size: 16, weight: 'bold' } }
-                }
-            }
-        });
-
-        new Chart(document.getElementById('chart-alibaba-margin'), {
-            type: 'line',
-            data: {
-                labels: ['FY 2022', 'FY 2023', 'FY 2024', 'FY 2025E'],
-                datasets: [{
-                    label: 'Operating Margin %',
-                    data: [10.2, 11.5, 13.2, 14.5],
-                    borderColor: '#667eea',
-                    backgroundColor: 'rgba(102, 126, 234, 0.1)',
-                    borderWidth: 3,
-                    fill: true,
-                    tension: 0.4
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    title: { display: true, text: 'Alibaba Operating Margin Expansion', font: { size: 16, weight: 'bold' } }
-                }
-            }
-        });
-
-        // Xiaomi Charts
-        new Chart(document.getElementById('chart-xiaomi-revenue'), {
-            type: 'line',
-            data: {
-                labels: ['FY 2022', 'FY 2023', 'FY 2024', 'FY 2025E'],
-                datasets: [{
-                    label: 'Revenue (¥B)',
-                    data: [280.3, 270.9, 305.0, 348.0],
-                    borderColor: '#FF6700',
-                    backgroundColor: 'rgba(255, 103, 0, 0.1)',
-                    borderWidth: 3,
-                    fill: true,
-                    tension: 0.4
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    title: { display: true, text: 'Xiaomi Revenue Trend', font: { size: 16, weight: 'bold' } }
-                }
-            }
-        });
-
-        new Chart(document.getElementById('chart-xiaomi-margin'), {
-            type: 'line',
-            data: {
-                labels: ['FY 2022', 'FY 2023', 'FY 2024', 'FY 2025E'],
-                datasets: [{
-                    label: 'Gross Margin %',
-                    data: [18.5, 19.8, 21.2, 22.5],
-                    borderColor: '#667eea',
-                    backgroundColor: 'rgba(102, 126, 234, 0.1)',
-                    borderWidth: 3,
-                    fill: true,
-                    tension: 0.4
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    title: { display: true, text: 'Xiaomi Gross Margin Expansion', font: { size: 16, weight: 'bold' } }
-                }
-            }
-        });
-
-        // Meituan Charts
-        new Chart(document.getElementById('chart-meituan-revenue'), {
-            type: 'line',
-            data: {
-                labels: ['FY 2022', 'FY 2023', 'FY 2024', 'FY 2025E'],
-                datasets: [{
-                    label: 'Revenue (¥B)',
-                    data: [207.4, 279.8, 325.5, 380.0],
-                    borderColor: '#FFD100',
-                    backgroundColor: 'rgba(255, 209, 0, 0.1)',
-                    borderWidth: 3,
-                    fill: true,
-                    tension: 0.4
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    title: { display: true, text: 'Meituan Revenue Trend', font: { size: 16, weight: 'bold' } }
-                }
-            }
-        });
-
-        new Chart(document.getElementById('chart-meituan-margin'), {
-            type: 'line',
-            data: {
-                labels: ['FY 2022', 'FY 2023', 'FY 2024', 'FY 2025E'],
-                datasets: [{
-                    label: 'Operating Margin %',
-                    data: [4.3, 10.8, 14.6, 16.3],
-                    borderColor: '#667eea',
-                    backgroundColor: 'rgba(102, 126, 234, 0.1)',
-                    borderWidth: 3,
-                    fill: true,
-                    tension: 0.4
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    title: { display: true, text: 'Meituan Operating Margin Expansion', font: { size: 16, weight: 'bold' } }
-                }
-            }
-        });
-
-        // Tencent Charts
-        new Chart(document.getElementById('chart-tencent-revenue'), {
-            type: 'line',
-            data: {
-                labels: ['FY 2022', 'FY 2023', 'FY 2024', 'FY 2025E'],
-                datasets: [{
-                    label: 'Revenue (¥B)',
-                    data: [554.5, 561.4, 620.5, 675.0],
-                    borderColor: '#0052D4',
-                    backgroundColor: 'rgba(0, 82, 212, 0.1)',
-                    borderWidth: 3,
-                    fill: true,
-                    tension: 0.4
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    title: { display: true, text: 'Tencent Revenue Trend', font: { size: 16, weight: 'bold' } }
-                }
-            }
-        });
-
-        new Chart(document.getElementById('chart-tencent-margin'), {
-            type: 'line',
-            data: {
-                labels: ['FY 2022', 'FY 2023', 'FY 2024', 'FY 2025E'],
-                datasets: [{
-                    label: 'Operating Margin %',
-                    data: [25.8, 26.2, 28.5, 30.2],
-                    borderColor: '#667eea',
-                    backgroundColor: 'rgba(102, 126, 234, 0.1)',
-                    borderWidth: 3,
-                    fill: true,
-                    tension: 0.4
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    title: { display: true, text: 'Tencent Operating Margin Expansion', font: { size: 16, weight: 'bold' } }
-                }
-            }
-        });
-
-        // Baidu Charts
-        new Chart(document.getElementById('chart-baidu-revenue'), {
-            type: 'line',
-            data: {
-                labels: ['FY 2022', 'FY 2023', 'FY 2024', 'FY 2025E'],
-                datasets: [{
-                    label: 'Revenue (¥B)',
-                    data: [154.6, 170.7, 185.3, 205.0],
-                    borderColor: '#2932E1',
-                    backgroundColor: 'rgba(41, 50, 225, 0.1)',
-                    borderWidth: 3,
-                    fill: true,
-                    tension: 0.4
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    title: { display: true, text: 'Baidu Revenue Trend', font: { size: 16, weight: 'bold' } }
-                }
-            }
-        });
-
-        new Chart(document.getElementById('chart-baidu-margin'), {
-            type: 'line',
-            data: {
-                labels: ['FY 2022', 'FY 2023', 'FY 2024', 'FY 2025E'],
-                datasets: [{
-                    label: 'Operating Margin %',
-                    data: [15.2, 17.8, 19.8, 22.5],
-                    borderColor: '#667eea',
-                    backgroundColor: 'rgba(102, 126, 234, 0.1)',
-                    borderWidth: 3,
-                    fill: true,
-                    tension: 0.4
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    title: { display: true, text: 'Baidu Operating Margin Expansion', font: { size: 16, weight: 'bold' } }
-                }
-            }
-        });
-
-        // JD.com Charts
-        new Chart(document.getElementById('chart-jd-revenue'), {
-            type: 'line',
-            data: {
-                labels: ['FY 2022', 'FY 2023', 'FY 2024', 'FY 2025E'],
-                datasets: [{
-                    label: 'Revenue (¥B)',
-                    data: [1046.2, 1085.4, 1150.2, 1230.0],
-                    borderColor: '#E31837',
-                    backgroundColor: 'rgba(227, 24, 55, 0.1)',
-                    borderWidth: 3,
-                    fill: true,
-                    tension: 0.4
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    title: { display: true, text: 'JD.com Revenue Trend', font: { size: 16, weight: 'bold' } }
-                }
-            }
-        });
-
-        new Chart(document.getElementById('chart-jd-margin'), {
-            type: 'line',
-            data: {
-                labels: ['FY 2022', 'FY 2023', 'FY 2024', 'FY 2025E'],
-                datasets: [{
-                    label: 'Operating Margin %',
-                    data: [1.2, 1.8, 2.5, 3.8],
-                    borderColor: '#667eea',
-                    backgroundColor: 'rgba(102, 126, 234, 0.1)',
-                    borderWidth: 3,
-                    fill: true,
-                    tension: 0.4
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    title: { display: true, text: 'JD.com Operating Margin Expansion', font: { size: 16, weight: 'bold' } }
-                }
-            }
-         });
-
-        // Handle hash-based tab navigation
-        window.addEventListener('DOMContentLoaded', function() {
-            const hash = window.location.hash;
-            if (hash) {
-                const tabElement = document.querySelector(`button[data-bs-target="${hash}"]`);
-                if (tabElement) {
-                    const tabInstance = new bootstrap.Tab(tabElement);
-                    tabInstance.show();
-                }
-            }
-        });
-
-
     </script>
-
 </body>
 </html>
