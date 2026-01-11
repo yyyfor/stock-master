@@ -1,5 +1,66 @@
 [
   {
+    "id": "9d823e44-b6a3-3482-8e1b-1c63fe8c78d9",
+    "content": {
+      "id": "9d823e44-b6a3-3482-8e1b-1c63fe8c78d9",
+      "contentType": "STORY",
+      "title": "How Recent Developments Are Reframing The Alibaba Group Holding NYSE:BABA Investment Story",
+      "description": "",
+      "summary": "Why the Fair Value Estimate Just Shifted The slight trim in Alibaba Group Holding's fair value estimate from US$198.04 to US$195.12, along with a small increase in the discount rate from 9.30% to 9.38%, reflects how mixed Street research has become following recent results, cloud trends, and spending plans. On one side, bullish analysts are leaning on strong cloud growth, artificial intelligence driven demand, and more constructive views on execution. On the other, cautious voices are...",
+      "pubDate": "2026-01-11T17:10:57Z",
+      "displayTime": "2026-01-11T17:10:57Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+        "originalWidth": 1194,
+        "originalHeight": 432,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Asb.EQEV7awFB_Mkuf_o.A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+            "width": 1194,
+            "height": 432,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/D6tGlHnBV1OBj9DD.GNtjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Simply Wall St.",
+        "url": "https://simplywall.st/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/recent-developments-reframing-alibaba-group-171057309.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/recent-developments-reframing-alibaba-group-171057309.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "dbaa65e1-e4e4-335c-95a1-9427b81c8635",
     "content": {
       "id": "dbaa65e1-e4e4-335c-95a1-9427b81c8635",
@@ -527,67 +588,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/minimax-shares-jump-109-619-121634320.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "971dc058-d18c-39d3-a346-b386ed862f73",
-    "content": {
-      "id": "971dc058-d18c-39d3-a346-b386ed862f73",
-      "contentType": "STORY",
-      "title": "Alibaba Shares Jump on Reported China Approval of Nvidia H200 Imports",
-      "description": "",
-      "summary": "Stock rallies as Beijing signals potential easing of AI chip restrictions.",
-      "pubDate": "2026-01-09T11:45:44Z",
-      "displayTime": "2026-01-09T11:45:44Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-        "originalWidth": 952,
-        "originalHeight": 466,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/ra4Ti30CsXfCq7nnMSbi4Q--~B/aD00NjY7dz05NTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-            "width": 952,
-            "height": 466,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/H7fwXdruZYh3hbuXrJUdKg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "GuruFocus.com",
-        "url": "http://www.gurufocus.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-shares-jump-reported-china-114544298.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-shares-jump-reported-china-114544298.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
