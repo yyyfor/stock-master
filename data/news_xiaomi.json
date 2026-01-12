@@ -1,5 +1,66 @@
 [
   {
+    "id": "652bcabb-3c67-3396-9202-31317c764f66",
+    "content": {
+      "id": "652bcabb-3c67-3396-9202-31317c764f66",
+      "contentType": "STORY",
+      "title": "Xiaomi Is No Longer a Handset OEM -- But the Market Still Prices It Like One",
+      "description": "",
+      "summary": "EV profitability, high-margin internet services, and IoT scale point to ecosystem economics, constrained by execution and premium brand trust.",
+      "pubDate": "2026-01-12T13:12:47Z",
+      "displayTime": "2026-01-12T13:12:47Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/2e0c93ec1b3413b4e8d0087ac85219d4",
+        "originalWidth": 400,
+        "originalHeight": 400,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/lLgORyKofmCEkfmrXwpWIQ--~B/aD00MDA7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/2e0c93ec1b3413b4e8d0087ac85219d4",
+            "width": 400,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/IesnoAePPvPcOyFuT1iN3A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/2e0c93ec1b3413b4e8d0087ac85219d4",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "GuruFocus.com",
+        "url": "http://www.gurufocus.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/xiaomi-no-longer-handset-oem-131247764.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/xiaomi-no-longer-handset-oem-131247764.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "3599fa04-a7fa-36d2-b5ee-409a3f4e731a",
     "content": {
       "id": "3599fa04-a7fa-36d2-b5ee-409a3f4e731a",
@@ -513,67 +574,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/foreign-phone-shipments-jump-128-155558242.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "30624b80-d79e-3359-810e-8065e193fceb",
-    "content": {
-      "id": "30624b80-d79e-3359-810e-8065e193fceb",
-      "contentType": "STORY",
-      "title": "CATL Pushes Global Expansion as China EV Growth Slows",
-      "description": "",
-      "summary": "Battery giant ramps Europe projects, tests swapping models, and deepens global ties amid rising capacity and geopolitical pressure.",
-      "pubDate": "2025-12-24T13:47:39Z",
-      "displayTime": "2025-12-24T13:47:39Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/6121e58f742136a04cd13cf0e5c5256c",
-        "originalWidth": 2116,
-        "originalHeight": 2822,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/_KgBfb7Uc6._3NYFiZAeVw--~B/aD0yODIyO3c9MjExNjthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/us.finance.gurufocus/6121e58f742136a04cd13cf0e5c5256c",
-            "width": 2116,
-            "height": 2822,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/3VqNr.QQp3NNnDFUHvf6Ng--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/6121e58f742136a04cd13cf0e5c5256c",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "GuruFocus.com",
-        "url": "http://www.gurufocus.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/catl-pushes-global-expansion-china-134739752.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/catl-pushes-global-expansion-china-134739752.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"

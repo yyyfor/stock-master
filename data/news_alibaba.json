@@ -1,5 +1,455 @@
 [
   {
+    "id": "ff6aea7b-a050-3576-ad2c-cdc24d1188b0",
+    "content": {
+      "id": "ff6aea7b-a050-3576-ad2c-cdc24d1188b0",
+      "contentType": "STORY",
+      "title": "Alibaba Group Holding Limited (BABA) Launching its AI Services for Restaurants",
+      "description": "",
+      "summary": "Alibaba Group Holding Limited (NYSE:BABA) is one of the Best Stocks to Buy for High Returns in 2026. On January 5, Bloomberg reported that Alibaba Group Holding Limited (NYSE:BABA) is launching AI services for restaurants to showcase their interiors. According to the report, this strategic move comes as Alibaba competes with Meituan in the Chinese […]",
+      "pubDate": "2026-01-12T17:47:18Z",
+      "displayTime": "2026-01-12T17:47:18Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/090170be12ef840f77e8d544392228a0",
+        "originalWidth": 1456,
+        "originalHeight": 816,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/psAs0pGNqyrt8mJECiI5og--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/090170be12ef840f77e8d544392228a0",
+            "width": 1456,
+            "height": 816,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/HHEIlT7dQsZE36Et8Yp86w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/090170be12ef840f77e8d544392228a0",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Insider Monkey",
+        "url": "http://www.insidermonkey.com"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-group-holding-limited-baba-174718379.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-group-holding-limited-baba-174718379.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "5c66963c-8409-3f83-95cf-0d84a0dfb726",
+    "content": {
+      "id": "5c66963c-8409-3f83-95cf-0d84a0dfb726",
+      "contentType": "STORY",
+      "title": "China Antitrust Probe Lifts Food-Delivery Stocks in Hong Kong",
+      "description": "",
+      "summary": "Regulators launch competition review as Meituan, Alibaba, and JD.com shares rise on hopes of easing subsidy-driven price wars.",
+      "pubDate": "2026-01-12T16:46:35Z",
+      "displayTime": "2026-01-12T16:46:35Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/76a1738dba3b3cb45d19c040ccdb1dd2",
+        "originalWidth": 5215,
+        "originalHeight": 3477,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/ij.PSQVlmwCTNB4anfxtdw--~B/aD0zNDc3O3c9NTIxNTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/us.finance.gurufocus/76a1738dba3b3cb45d19c040ccdb1dd2",
+            "width": 5215,
+            "height": 3477,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/yDwPDmUpHWfnyRfXei5SBg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/76a1738dba3b3cb45d19c040ccdb1dd2",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "GuruFocus.com",
+        "url": "http://www.gurufocus.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/china-antitrust-probe-lifts-food-164635823.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/china-antitrust-probe-lifts-food-164635823.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "af38ae2b-ee54-391f-bcd4-48b65416a8df",
+    "content": {
+      "id": "af38ae2b-ee54-391f-bcd4-48b65416a8df",
+      "contentType": "STORY",
+      "title": "Meituan, Alibaba Shares Jump as China Seeks to Curb Price Wars",
+      "description": "",
+      "summary": "Market leader Meituan’s stock rallied 6.6% in Hong Kong, the most since May 29.  Shares of Alibaba Group Holding Ltd. — the biggest challenger to Meituan — rose 5.3%, while the company’s US-listed shares extended gains to rally as much as 11%.  “The increased scrutiny on competition will be supportive of industry margins,” said Catherine Lim, an analyst at Bloomberg Intelligence.",
+      "pubDate": "2026-01-12T16:36:55Z",
+      "displayTime": "2026-01-12T16:36:55Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/068a2f1547624b07c88db39f35688804",
+        "originalWidth": 2000,
+        "originalHeight": 1333,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/5E7lyCQxDpsT.DrEY8nCNA--~B/aD0xMzMzO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/068a2f1547624b07c88db39f35688804",
+            "width": 2000,
+            "height": 1333,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/bzyOX3CbUKhg8naiN4kL1g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/068a2f1547624b07c88db39f35688804",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Bloomberg",
+        "url": "https://www.bloomberg.com/company"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/meituan-alibaba-shares-jump-china-085618475.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/meituan-alibaba-shares-jump-china-085618475.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "122cb860-592b-3f5e-8722-82be98ef1ca0",
+    "content": {
+      "id": "122cb860-592b-3f5e-8722-82be98ef1ca0",
+      "contentType": "STORY",
+      "title": "Alibaba shares surge as China plans to boost AI in manufacturing",
+      "description": "",
+      "summary": "Investing.com -- Alibaba shares are gaining over 9.3% in U.S. trading on Monday as China announced plans to accelerate the integration of digital technologies like artificial intelligence.",
+      "pubDate": "2026-01-12T16:19:16Z",
+      "displayTime": "2026-01-12T16:19:16Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": null,
+      "provider": {
+        "displayName": "Investing.com",
+        "url": "https://www.investing.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-shares-surge-china-plans-161916112.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-shares-surge-china-plans-161916112.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "ffead536-a2c0-37fa-980b-8f750983b819",
+    "content": {
+      "id": "ffead536-a2c0-37fa-980b-8f750983b819",
+      "contentType": "STORY",
+      "title": "Asian Equities Traded in the US as American Depositary Receipts Rise Sharply in Monday Trading",
+      "description": "",
+      "summary": "Asian equities traded in the US as American depositary receipts kicked off the week sharply higher M",
+      "pubDate": "2026-01-12T15:42:41Z",
+      "displayTime": "2026-01-12T15:42:41Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": null,
+      "provider": {
+        "displayName": "MT Newswires",
+        "url": "https://www.mtnewswires.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/asian-equities-traded-us-american-154241386.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/asian-equities-traded-us-american-154241386.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": true,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "7ec89624-b21e-3ff6-912c-f0d6e9429643",
+    "content": {
+      "id": "7ec89624-b21e-3ff6-912c-f0d6e9429643",
+      "contentType": "STORY",
+      "title": "Alibaba Stock Jumps on Qwen Models Hit 700 Million Downloads",
+      "description": "",
+      "summary": "BABA Stock Gains as AI Adoption Accelerates Across Alibaba Cloud",
+      "pubDate": "2026-01-12T15:09:28Z",
+      "displayTime": "2026-01-12T15:09:28Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
+        "originalWidth": 952,
+        "originalHeight": 466,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/ra4Ti30CsXfCq7nnMSbi4Q--~B/aD00NjY7dz05NTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
+            "width": 952,
+            "height": 466,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/H7fwXdruZYh3hbuXrJUdKg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "GuruFocus.com",
+        "url": "http://www.gurufocus.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-stock-jumps-qwen-models-150928656.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-stock-jumps-qwen-models-150928656.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "af282c51-be86-3daa-9f1f-9a56c8e2504a",
+    "content": {
+      "id": "af282c51-be86-3daa-9f1f-9a56c8e2504a",
+      "contentType": "STORY",
+      "title": "JB Global Capital Highlights Alibaba (BABA)’s AI and Cloud Growth at 18x Earnings",
+      "description": "",
+      "summary": "JB Global Capital, an investment firm, released its fourth-quarter 2025 investor letter. A copy of the letter can be downloaded here. During Q4 2025, JB Global Capital reported an 8.9% decline, largely driven by a sharp drop in Alibaba, its largest holding, while global markets posted modest gains. Despite the quarter’s setback, the fund delivered […]",
+      "pubDate": "2026-01-12T14:43:59Z",
+      "displayTime": "2026-01-12T14:43:59Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/c61ac66cd98860cf43b4d66a43aa74d7",
+        "originalWidth": 1000,
+        "originalHeight": 667,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/ZCW3dzNW._9LkrrH9bRjNQ--~B/aD02Njc7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/c61ac66cd98860cf43b4d66a43aa74d7",
+            "width": 1000,
+            "height": 667,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/zafKjnq6K74h5stI8T.iVg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/c61ac66cd98860cf43b4d66a43aa74d7",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Insider Monkey",
+        "url": "http://www.insidermonkey.com"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/jb-global-capital-highlights-alibaba-144359694.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/jb-global-capital-highlights-alibaba-144359694.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "cae518f9-b92c-3366-985b-c9aa99a74035",
+    "content": {
+      "id": "cae518f9-b92c-3366-985b-c9aa99a74035",
+      "contentType": "STORY",
+      "title": "Meta Platforms is Shifting to Closed AI—Why That’s a Major Winning Move",
+      "description": "",
+      "summary": "Perhaps going down the open-source route wasn’t the way to go. With Meta Platforms (NASDAQ:META) now going down the proprietary AI model route after its LLaMa model fell short of expectations, questions linger as to whether the social-media and metaverse titan can really make up ground in the AI scene, one that’s been dominated by ... Meta Platforms is Shifting to Closed AI—Why That’s a Major Winning Move",
+      "pubDate": "2026-01-12T14:01:36Z",
+      "displayTime": "2026-01-12T14:01:36Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/83775dc9d7a477d3590895c6bd6e3986",
+        "originalWidth": 1366,
+        "originalHeight": 768,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/qXxNYOiT62A7dcVyh0XLkg--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/83775dc9d7a477d3590895c6bd6e3986",
+            "width": 1366,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/6DNED8YdxwbTls4QcJ_SAA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/24_7_wall_st__718/83775dc9d7a477d3590895c6bd6e3986",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "24/7 Wall St.",
+        "url": "https://247wallst.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://247wallst.com/investing/2026/01/12/meta-platforms-is-shifting-to-closed-ai-why-thats-a-major-winning-move/",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/meta-platforms-shifting-closed-ai-140136816.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "e4bf6069-90d0-39ea-97c3-370f1410d602",
     "content": {
       "id": "e4bf6069-90d0-39ea-97c3-370f1410d602",
@@ -105,494 +555,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/walmart-alibaba-novo-nordisk-be-semiconductor-british-land-trending-tickers-094445339.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "af38ae2b-ee54-391f-bcd4-48b65416a8df",
-    "content": {
-      "id": "af38ae2b-ee54-391f-bcd4-48b65416a8df",
-      "contentType": "STORY",
-      "title": "Meituan, Alibaba Shares Jump as China Seeks to Curb Price Wars",
-      "description": "",
-      "summary": "Market leader Meituan’s stock rallied 6.6% in Hong Kong, the most since May 29.  Shares of Alibaba Group Holding Ltd., the biggest challenger to Meituan, rose 5.3% while those of JD.com Inc gained more than 2%.  “The increased scrutiny on competition will be supportive of industry margins,” said Catherine Lim, an analyst at Bloomberg Intelligence.",
-      "pubDate": "2026-01-12T08:56:18Z",
-      "displayTime": "2026-01-12T08:56:18Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/068a2f1547624b07c88db39f35688804",
-        "originalWidth": 2000,
-        "originalHeight": 1333,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/5E7lyCQxDpsT.DrEY8nCNA--~B/aD0xMzMzO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/068a2f1547624b07c88db39f35688804",
-            "width": 2000,
-            "height": 1333,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/bzyOX3CbUKhg8naiN4kL1g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/068a2f1547624b07c88db39f35688804",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Bloomberg",
-        "url": "https://www.bloomberg.com/company"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/meituan-alibaba-shares-jump-china-085618475.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/meituan-alibaba-shares-jump-china-085618475.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "295715b1-1734-31e0-82d7-697d7c911224",
-    "content": {
-      "id": "295715b1-1734-31e0-82d7-697d7c911224",
-      "contentType": "STORY",
-      "title": "Alibaba Steps Up AI Race With Potential Nvidia Mega Order",
-      "description": "",
-      "summary": "Alibaba Group Holding Ltd. (NYSE:BABA) stock rose Thursday after reports signaled expanded access to Nvidia Corp.'s (NASDAQ:NVDA) advanced artificial intelligence chips in China. The Chinese e-commerce giant pared some of those gains in early Friday trading, following a rally of more than 5% the prior session. The Thursday move came after reports that China may approve limited imports of Nvidia's H200 chips as soon as this quarter. Nvidia is tightening its sales of H200 artificial intelligence c",
-      "pubDate": "2026-01-11T19:01:02Z",
-      "displayTime": "2026-01-11T19:01:02Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/Benzinga/ac724c1b99934de44b412161bb966978",
-        "originalWidth": 1024,
-        "originalHeight": 683,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/jU3PngKAFmByOys20AtzVA--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Benzinga/ac724c1b99934de44b412161bb966978",
-            "width": 1024,
-            "height": 683,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/b3Dgd3HKr9M.Fi8v_t7DTA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Benzinga/ac724c1b99934de44b412161bb966978",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Benzinga",
-        "url": "http://www.benzinga.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-steps-ai-race-potential-190102623.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-steps-ai-race-potential-190102623.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "a089ee38-238f-3882-9fe3-3682495c443d",
-    "content": {
-      "id": "a089ee38-238f-3882-9fe3-3682495c443d",
-      "contentType": "STORY",
-      "title": "Morgan Stanley and Jefferies Cut Price Targets on Alibaba (BABA)",
-      "description": "",
-      "summary": "Alibaba Group Holding Limited (NYSE:BABA) is one of the 10 Best NYSE Stocks to Buy According to Analysts. On January 8, Morgan Stanley cut its price target on Alibaba Group Holding Limited (NYSE:BABA) from $200 to $180 and maintained its Overweight rating. The firm pointed to a weaker outlook for the company’s core e-commerce business […]",
-      "pubDate": "2026-01-11T18:59:54Z",
-      "displayTime": "2026-01-11T18:59:54Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/89f2124e05c9b583b4142daea2594a29",
-        "originalWidth": 3872,
-        "originalHeight": 2176,
-        "caption": "Morgan Stanley and Jefferies Cut Price Targets on Alibaba (BABA)",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/U70ckiaMw7_BOlDw14tMIw--~B/aD0yMTc2O3c9Mzg3MjthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/89f2124e05c9b583b4142daea2594a29",
-            "width": 3872,
-            "height": 2176,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/2SlWzQGuF708t3gornsPaQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/89f2124e05c9b583b4142daea2594a29",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Insider Monkey",
-        "url": "http://www.insidermonkey.com"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/morgan-stanley-jefferies-cut-price-185954988.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/morgan-stanley-jefferies-cut-price-185954988.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "9d823e44-b6a3-3482-8e1b-1c63fe8c78d9",
-    "content": {
-      "id": "9d823e44-b6a3-3482-8e1b-1c63fe8c78d9",
-      "contentType": "STORY",
-      "title": "How Recent Developments Are Reframing The Alibaba Group Holding NYSE:BABA Investment Story",
-      "description": "",
-      "summary": "Why the Fair Value Estimate Just Shifted The slight trim in Alibaba Group Holding's fair value estimate from US$198.04 to US$195.12, along with a small increase in the discount rate from 9.30% to 9.38%, reflects how mixed Street research has become following recent results, cloud trends, and spending plans. On one side, bullish analysts are leaning on strong cloud growth, artificial intelligence driven demand, and more constructive views on execution. On the other, cautious voices are...",
-      "pubDate": "2026-01-11T17:10:57Z",
-      "displayTime": "2026-01-11T17:10:57Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-        "originalWidth": 1194,
-        "originalHeight": 432,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Asb.EQEV7awFB_Mkuf_o.A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-            "width": 1194,
-            "height": 432,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/D6tGlHnBV1OBj9DD.GNtjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Simply Wall St.",
-        "url": "https://simplywall.st/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/recent-developments-reframing-alibaba-group-171057309.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/recent-developments-reframing-alibaba-group-171057309.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "dbaa65e1-e4e4-335c-95a1-9427b81c8635",
-    "content": {
-      "id": "dbaa65e1-e4e4-335c-95a1-9427b81c8635",
-      "contentType": "STORY",
-      "title": "China AI Leaders Warn of Widening Gap With US After $1B IPO Week",
-      "description": "",
-      "summary": "“A massive amount of OpenAI’s compute is dedicated to next-generation research, whereas we are stretched thin — just meeting delivery demands consumes most of our resources,” Lin said during a panel at the AGI-Next summit in Beijing on Saturday.  The event, co-organized by Zhipu and Tsinghua University, followed market debuts this week in which Zhipu and Shanghai-based MiniMax Group collectively raised more than $1 billion.",
-      "pubDate": "2026-01-10T14:05:55Z",
-      "displayTime": "2026-01-10T14:05:55Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/0a7c70ce93d039157de17e9f1f320c53",
-        "originalWidth": 1600,
-        "originalHeight": 1067,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Y.cayueqlSXzwzSkrHySHw--~B/aD0xMDY3O3c9MTYwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/0a7c70ce93d039157de17e9f1f320c53",
-            "width": 1600,
-            "height": 1067,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/xcNRNBS994FK4UveFM.Myw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/0a7c70ce93d039157de17e9f1f320c53",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Bloomberg",
-        "url": "https://www.bloomberg.com/company"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/china-ai-leaders-warn-widening-140555407.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/china-ai-leaders-warn-widening-140555407.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "f443cc3f-b444-377e-a813-0c997537ee92",
-    "content": {
-      "id": "f443cc3f-b444-377e-a813-0c997537ee92",
-      "contentType": "STORY",
-      "title": "Freedom Capital Downgrades Alibaba (BABA) Despite Raising Price Target to $180",
-      "description": "",
-      "summary": "Alibaba Group Holding Limited (NYSE:BABA) is one of the AI Stocks Gaining Attention on Wall Street. On January 6, Freedom Capital downgraded the stock to “Hold” from Buy with a price target of $180, up from $140. The downgrade follows BABA’s quarterly results, with analysts highlighting rising capex and cost pressures offsetting cloud momentum. The […]",
-      "pubDate": "2026-01-10T13:35:38Z",
-      "displayTime": "2026-01-10T13:35:38Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/0b26115bd2c6a46cb897bf516f77b9b2",
-        "originalWidth": 1456,
-        "originalHeight": 816,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/t74cTqlfPyEw13wvLv9z.A--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/0b26115bd2c6a46cb897bf516f77b9b2",
-            "width": 1456,
-            "height": 816,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/J30vWJXUIbcaMNcnoI4BqA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/0b26115bd2c6a46cb897bf516f77b9b2",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Insider Monkey",
-        "url": "http://www.insidermonkey.com"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/freedom-capital-downgrades-alibaba-baba-133538153.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/freedom-capital-downgrades-alibaba-baba-133538153.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "fd721288-7127-3768-a1dc-c8ce5b5afc44",
-    "content": {
-      "id": "fd721288-7127-3768-a1dc-c8ce5b5afc44",
-      "contentType": "STORY",
-      "title": "Logistics Giants Expand Mexico Operations as Cross-Border Trade Volumes Climb",
-      "description": "",
-      "summary": "Alibaba’s logistics arm Cainiao joins Echo Global Logistics, C.H. Robinson and Kuehne+Nagel in scaling infrastructure across the country.",
-      "pubDate": "2026-01-09T19:04:16Z",
-      "displayTime": "2026-01-09T19:04:16Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/sourcing_journal_735/1be500d59b650a3d56fd944d333dd076",
-        "originalWidth": 2998,
-        "originalHeight": 2000,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/DiyPUrhw9P4FIhbts.VLfw--~B/aD0yMDAwO3c9Mjk5ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/sourcing_journal_735/1be500d59b650a3d56fd944d333dd076",
-            "width": 2998,
-            "height": 2000,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Qegz.hEkUgARGzdObkd8rw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/sourcing_journal_735/1be500d59b650a3d56fd944d333dd076",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Sourcing Journal",
-        "url": "https://sourcingjournal.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://sourcingjournal.com/topics/logistics/logistics-us-mexico-cross-border-trade-ch-robinson-cainiao-echo-global-kuehne-nagel-warehouse-customs-1234797832/",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/logistics-giants-expand-mexico-operations-190416022.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "98252b53-2eb1-328b-b9c8-6ab1cb5b4ac9",
-    "content": {
-      "id": "98252b53-2eb1-328b-b9c8-6ab1cb5b4ac9",
-      "contentType": "STORY",
-      "title": "Alibaba Stock Falls Despite Nvidia H200 Chip Approval",
-      "description": "",
-      "summary": "BABA Declines as China Oversight and E-Commerce Woes Weigh",
-      "pubDate": "2026-01-09T18:23:19Z",
-      "displayTime": "2026-01-09T18:23:19Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-        "originalWidth": 952,
-        "originalHeight": 466,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/ra4Ti30CsXfCq7nnMSbi4Q--~B/aD00NjY7dz05NTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-            "width": 952,
-            "height": 466,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/H7fwXdruZYh3hbuXrJUdKg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "GuruFocus.com",
-        "url": "http://www.gurufocus.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-stock-falls-despite-nvidia-182319786.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-stock-falls-despite-nvidia-182319786.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"

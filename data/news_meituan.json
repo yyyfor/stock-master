@@ -1,5 +1,188 @@
 [
   {
+    "id": "ff6aea7b-a050-3576-ad2c-cdc24d1188b0",
+    "content": {
+      "id": "ff6aea7b-a050-3576-ad2c-cdc24d1188b0",
+      "contentType": "STORY",
+      "title": "Alibaba Group Holding Limited (BABA) Launching its AI Services for Restaurants",
+      "description": "",
+      "summary": "Alibaba Group Holding Limited (NYSE:BABA) is one of the Best Stocks to Buy for High Returns in 2026. On January 5, Bloomberg reported that Alibaba Group Holding Limited (NYSE:BABA) is launching AI services for restaurants to showcase their interiors. According to the report, this strategic move comes as Alibaba competes with Meituan in the Chinese […]",
+      "pubDate": "2026-01-12T17:47:18Z",
+      "displayTime": "2026-01-12T17:47:18Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/090170be12ef840f77e8d544392228a0",
+        "originalWidth": 1456,
+        "originalHeight": 816,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/psAs0pGNqyrt8mJECiI5og--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/090170be12ef840f77e8d544392228a0",
+            "width": 1456,
+            "height": 816,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/HHEIlT7dQsZE36Et8Yp86w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/090170be12ef840f77e8d544392228a0",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Insider Monkey",
+        "url": "http://www.insidermonkey.com"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-group-holding-limited-baba-174718379.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-group-holding-limited-baba-174718379.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "5c66963c-8409-3f83-95cf-0d84a0dfb726",
+    "content": {
+      "id": "5c66963c-8409-3f83-95cf-0d84a0dfb726",
+      "contentType": "STORY",
+      "title": "China Antitrust Probe Lifts Food-Delivery Stocks in Hong Kong",
+      "description": "",
+      "summary": "Regulators launch competition review as Meituan, Alibaba, and JD.com shares rise on hopes of easing subsidy-driven price wars.",
+      "pubDate": "2026-01-12T16:46:35Z",
+      "displayTime": "2026-01-12T16:46:35Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/76a1738dba3b3cb45d19c040ccdb1dd2",
+        "originalWidth": 5215,
+        "originalHeight": 3477,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/ij.PSQVlmwCTNB4anfxtdw--~B/aD0zNDc3O3c9NTIxNTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/us.finance.gurufocus/76a1738dba3b3cb45d19c040ccdb1dd2",
+            "width": 5215,
+            "height": 3477,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/yDwPDmUpHWfnyRfXei5SBg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/76a1738dba3b3cb45d19c040ccdb1dd2",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "GuruFocus.com",
+        "url": "http://www.gurufocus.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/china-antitrust-probe-lifts-food-164635823.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/china-antitrust-probe-lifts-food-164635823.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "af38ae2b-ee54-391f-bcd4-48b65416a8df",
+    "content": {
+      "id": "af38ae2b-ee54-391f-bcd4-48b65416a8df",
+      "contentType": "STORY",
+      "title": "Meituan, Alibaba Shares Jump as China Seeks to Curb Price Wars",
+      "description": "",
+      "summary": "Market leader Meituan’s stock rallied 6.6% in Hong Kong, the most since May 29.  Shares of Alibaba Group Holding Ltd. — the biggest challenger to Meituan — rose 5.3%, while the company’s US-listed shares extended gains to rally as much as 11%.  “The increased scrutiny on competition will be supportive of industry margins,” said Catherine Lim, an analyst at Bloomberg Intelligence.",
+      "pubDate": "2026-01-12T16:36:55Z",
+      "displayTime": "2026-01-12T16:36:55Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/068a2f1547624b07c88db39f35688804",
+        "originalWidth": 2000,
+        "originalHeight": 1333,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/5E7lyCQxDpsT.DrEY8nCNA--~B/aD0xMzMzO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/068a2f1547624b07c88db39f35688804",
+            "width": 2000,
+            "height": 1333,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/bzyOX3CbUKhg8naiN4kL1g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/068a2f1547624b07c88db39f35688804",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Bloomberg",
+        "url": "https://www.bloomberg.com/company"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/meituan-alibaba-shares-jump-china-085618475.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/meituan-alibaba-shares-jump-china-085618475.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "e9f23a02-dba8-4b09-a9ad-a45e174d0606",
     "content": {
       "id": "e9f23a02-dba8-4b09-a9ad-a45e174d0606",
@@ -44,67 +227,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/walmart-alibaba-novo-nordisk-be-semiconductor-british-land-trending-tickers-094445339.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "af38ae2b-ee54-391f-bcd4-48b65416a8df",
-    "content": {
-      "id": "af38ae2b-ee54-391f-bcd4-48b65416a8df",
-      "contentType": "STORY",
-      "title": "Meituan, Alibaba Shares Jump as China Seeks to Curb Price Wars",
-      "description": "",
-      "summary": "Market leader Meituan’s stock rallied 6.6% in Hong Kong, the most since May 29.  Shares of Alibaba Group Holding Ltd., the biggest challenger to Meituan, rose 5.3% while those of JD.com Inc gained more than 2%.  “The increased scrutiny on competition will be supportive of industry margins,” said Catherine Lim, an analyst at Bloomberg Intelligence.",
-      "pubDate": "2026-01-12T08:56:18Z",
-      "displayTime": "2026-01-12T08:56:18Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/068a2f1547624b07c88db39f35688804",
-        "originalWidth": 2000,
-        "originalHeight": 1333,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/5E7lyCQxDpsT.DrEY8nCNA--~B/aD0xMzMzO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/068a2f1547624b07c88db39f35688804",
-            "width": 2000,
-            "height": 1333,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/bzyOX3CbUKhg8naiN4kL1g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/068a2f1547624b07c88db39f35688804",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Bloomberg",
-        "url": "https://www.bloomberg.com/company"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/meituan-alibaba-shares-jump-china-085618475.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/meituan-alibaba-shares-jump-china-085618475.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
@@ -471,128 +593,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/alibaba-group-launches-ai-tool-121217367.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "a217efa3-506b-36d6-88d4-32a2ac7b5f45",
-    "content": {
-      "id": "a217efa3-506b-36d6-88d4-32a2ac7b5f45",
-      "contentType": "STORY",
-      "title": "Need for speed: Alibaba ramps up China instant commerce push with Cainiao and Tmall tie-up",
-      "description": "",
-      "summary": "Alibaba Group's logistics arm Cainiao and online grocery business Tmall Supermarket are teaming up to expand fulfilment infrastructure and speed up deliveries, as the Chinese e-commerce giant ramps up its efforts in China's fast-growing instant commerce battle to fend off rivals such as JD.com and Meituan. Cainiao will launch new or expand instant commerce warehouses for Tmall Supermarket across 31 mainland Chinese cities by the end of January 2026, it said in a statement on Thursday. Alibaba ow",
-      "pubDate": "2025-12-19T09:30:00Z",
-      "displayTime": "2025-12-19T09:30:00Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/south_china_morning_post_us_228/ff1d4f682b841645508aee22b2998e17",
-        "originalWidth": 1998,
-        "originalHeight": 1030,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/O1D5g8T9f0map29Zlxy3Bw--~B/aD0xMDMwO3c9MTk5ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/south_china_morning_post_us_228/ff1d4f682b841645508aee22b2998e17",
-            "width": 1998,
-            "height": 1030,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/LFmESjh1Ey.fRHj3zS8V2A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/south_china_morning_post_us_228/ff1d4f682b841645508aee22b2998e17",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "South China Morning Post",
-        "url": "https://www.scmp.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/speed-alibaba-ramps-china-instant-093000451.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/speed-alibaba-ramps-china-instant-093000451.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "09339763-3155-307f-8b36-4bea7498cd28",
-    "content": {
-      "id": "09339763-3155-307f-8b36-4bea7498cd28",
-      "contentType": "STORY",
-      "title": "Reassessing Meituan (SEHK:3690) After Recent Share Price Stabilisation: Is the Market Underpricing a Turnaround?",
-      "description": "",
-      "summary": "Recent performance and what is driving Meituan now Meituan (SEHK:3690) has quietly edged higher over the past week and month, even though the stock is still down sharply year to date. This sets up an interesting risk reward debate. See our latest analysis for Meituan. The recent 1 day and 7 day share price gains suggest sentiment is stabilising after a tough stretch, but the steep year to date and 1 year total shareholder return losses show investors are still pricing in meaningful risk...",
-      "pubDate": "2025-12-17T10:06:47Z",
-      "displayTime": "2025-12-17T10:06:47Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/992331fc596d921e34ccfa3b8813259a",
-        "originalWidth": 1194,
-        "originalHeight": 432,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/00OqBzbQM9NM6aQKBzc4vA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/992331fc596d921e34ccfa3b8813259a",
-            "width": 1194,
-            "height": 432,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/AaZVsqIka.7tVyjnKPxpJw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/992331fc596d921e34ccfa3b8813259a",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Simply Wall St.",
-        "url": "https://simplywall.st/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/reassessing-meituan-sehk-3690-recent-100647050.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/reassessing-meituan-sehk-3690-recent-100647050.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
