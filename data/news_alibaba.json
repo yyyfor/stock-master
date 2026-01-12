@@ -1,5 +1,188 @@
 [
   {
+    "id": "e4bf6069-90d0-39ea-97c3-370f1410d602",
+    "content": {
+      "id": "e4bf6069-90d0-39ea-97c3-370f1410d602",
+      "contentType": "STORY",
+      "title": "BrainCo Files Confidentially for Hong Kong IPO, Targeting Several Hundred Million Dollars",
+      "description": "",
+      "summary": "BrainCo is working with CICC and UBS on a Hong Kong listing, with offering size still under discussion.",
+      "pubDate": "2026-01-12T11:52:33Z",
+      "displayTime": "2026-01-12T11:52:33Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/433110cf9f928b1f27e41465a8ce0b49",
+        "originalWidth": 3000,
+        "originalHeight": 2001,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/sitVJaApUNQ_ooR6bWBh6A--~B/aD0yMDAxO3c9MzAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/us.finance.gurufocus/433110cf9f928b1f27e41465a8ce0b49",
+            "width": 3000,
+            "height": 2001,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/F1HPMbm4YeDDONZ_T5WizQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/433110cf9f928b1f27e41465a8ce0b49",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "GuruFocus.com",
+        "url": "http://www.gurufocus.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/brainco-files-confidentially-hong-kong-115233471.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/brainco-files-confidentially-hong-kong-115233471.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "e9f23a02-dba8-4b09-a9ad-a45e174d0606",
+    "content": {
+      "id": "e9f23a02-dba8-4b09-a9ad-a45e174d0606",
+      "contentType": "STORY",
+      "title": "Trending tickers: Walmart, Alibaba, Novo Nordisk, BE Semiconductor and British Land",
+      "description": "",
+      "summary": "The latest investor updates on stocks that are trending on Monday.",
+      "pubDate": "2026-01-12T09:45:21Z",
+      "displayTime": "2026-01-12T09:45:21Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2026-01/50385500-ef95-11f0-bd28-8741c1a61905",
+        "originalWidth": 5196,
+        "originalHeight": 3464,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/rspd54m9HM10KyMPJ8Sucw--~B/aD0zNDY0O3c9NTE5NjthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2026-01/50385500-ef95-11f0-bd28-8741c1a61905",
+            "width": 5196,
+            "height": 3464,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/wskXV2JCOTqK0j3CaztLkw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2026-01/50385500-ef95-11f0-bd28-8741c1a61905",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Yahoo Finance UK",
+        "url": "http://uk.finance.yahoo.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://uk.finance.yahoo.com/news/walmart-alibaba-novo-nordisk-be-semiconductor-british-land-trending-tickers-094445339.html",
+        "site": "finance",
+        "region": "GB",
+        "lang": "en-GB"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/walmart-alibaba-novo-nordisk-be-semiconductor-british-land-trending-tickers-094445339.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "af38ae2b-ee54-391f-bcd4-48b65416a8df",
+    "content": {
+      "id": "af38ae2b-ee54-391f-bcd4-48b65416a8df",
+      "contentType": "STORY",
+      "title": "Meituan, Alibaba Shares Jump as China Seeks to Curb Price Wars",
+      "description": "",
+      "summary": "Market leader Meituan’s stock rallied 6.6% in Hong Kong, the most since May 29.  Shares of Alibaba Group Holding Ltd., the biggest challenger to Meituan, rose 5.3% while those of JD.com Inc gained more than 2%.  “The increased scrutiny on competition will be supportive of industry margins,” said Catherine Lim, an analyst at Bloomberg Intelligence.",
+      "pubDate": "2026-01-12T08:56:18Z",
+      "displayTime": "2026-01-12T08:56:18Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/068a2f1547624b07c88db39f35688804",
+        "originalWidth": 2000,
+        "originalHeight": 1333,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/5E7lyCQxDpsT.DrEY8nCNA--~B/aD0xMzMzO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/068a2f1547624b07c88db39f35688804",
+            "width": 2000,
+            "height": 1333,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/bzyOX3CbUKhg8naiN4kL1g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/068a2f1547624b07c88db39f35688804",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Bloomberg",
+        "url": "https://www.bloomberg.com/company"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/meituan-alibaba-shares-jump-china-085618475.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/meituan-alibaba-shares-jump-china-085618475.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "295715b1-1734-31e0-82d7-697d7c911224",
     "content": {
       "id": "295715b1-1734-31e0-82d7-697d7c911224",
@@ -410,184 +593,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/alibaba-stock-falls-despite-nvidia-182319786.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "d9cbaae5-28d9-3000-addc-b1d41c789201",
-    "content": {
-      "id": "d9cbaae5-28d9-3000-addc-b1d41c789201",
-      "contentType": "STORY",
-      "title": "Is the Pullback in Alibaba Stock a Buying Opportunity?",
-      "description": "",
-      "summary": "Alibaba’s expanding cloud and AI businesses, rising demand for higher-value services, and improving unit economics in quick commerce provide a solid foundation for long-term growth.",
-      "pubDate": "2026-01-09T16:23:20Z",
-      "displayTime": "2026-01-09T16:23:20Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/barchart_com_477/5682aa19d3bf8055dcbddc6e0016ed4c",
-        "originalWidth": 1600,
-        "originalHeight": 946,
-        "caption": "Alibaba by testing via Shutterstock",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/lXl3XUYjEgKRoATfTUs_8Q--~B/aD05NDY7dz0xNjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/barchart_com_477/5682aa19d3bf8055dcbddc6e0016ed4c",
-            "width": 1600,
-            "height": 946,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/HRk1jEccIgauVwc6Zh1L8w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/barchart_com_477/5682aa19d3bf8055dcbddc6e0016ed4c",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Barchart",
-        "url": "https://www.barchart.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.barchart.com/story/news/36970428/is-the-pullback-in-alibaba-stock-a-buying-opportunity",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/pullback-alibaba-stock-buying-opportunity-162320449.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "75f21370-7587-3670-9f0d-31c11953fe93",
-    "content": {
-      "id": "75f21370-7587-3670-9f0d-31c11953fe93",
-      "contentType": "STORY",
-      "title": "This ‘AI Tiger’ Stock Just  IPOed—and Doubled on Its First Day of Trading",
-      "description": "",
-      "summary": "MiniMax shares more than doubled as investors carried on piling into Chinese artificial-intelligence start-ups.",
-      "pubDate": "2026-01-09T13:54:00Z",
-      "displayTime": "2026-01-09T13:54:00Z",
-      "isHosted": false,
-      "bypassModal": false,
-      "previewUrl": "https://finance.yahoo.com/m/75f21370-7587-3670-9f0d-31c11953fe93/this-%E2%80%98ai-tiger%E2%80%99-stock-just-.html",
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/Barrons.com/08be54ca46ff9968755416146bb5bfa7",
-        "originalWidth": 1280,
-        "originalHeight": 640,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/pojuTESDDNW8ZWAGkPaaXA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/08be54ca46ff9968755416146bb5bfa7",
-            "width": 1280,
-            "height": 640,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/9k6FW8k6V2ot2m2x2kMmjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Barrons.com/08be54ca46ff9968755416146bb5bfa7",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Barrons.com",
-        "url": "http://www.barrons.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.barrons.com/articles/minimax-stock-ipo-ai-tiger-china-3a8cc2ae?siteid=yhoof2&yptr=yahoo",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": null,
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "0e69ca49-caff-308d-b4da-b5c2a6daf91f",
-    "content": {
-      "id": "0e69ca49-caff-308d-b4da-b5c2a6daf91f",
-      "contentType": "STORY",
-      "title": "Nvidia Could Rally Again if China Approvals Come Through",
-      "description": "",
-      "summary": "Nvidia's H200 Shipments to China Come Back Into Focus",
-      "pubDate": "2026-01-09T12:25:03Z",
-      "displayTime": "2026-01-09T12:25:03Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/528af7acf1b685a79f0a0ee8c34ab69c",
-        "originalWidth": 500,
-        "originalHeight": 500,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/TmwzWnbiiLMX4H6E8MgK_w--~B/aD01MDA7dz01MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/528af7acf1b685a79f0a0ee8c34ab69c",
-            "width": 500,
-            "height": 500,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/YUjVQvtE5RGTeBb3yJfgIg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/528af7acf1b685a79f0a0ee8c34ab69c",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "GuruFocus.com",
-        "url": "http://www.gurufocus.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/nvidia-could-rally-again-china-122503444.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/nvidia-could-rally-again-china-122503444.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
