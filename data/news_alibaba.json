@@ -1,5 +1,127 @@
 [
   {
+    "id": "295715b1-1734-31e0-82d7-697d7c911224",
+    "content": {
+      "id": "295715b1-1734-31e0-82d7-697d7c911224",
+      "contentType": "STORY",
+      "title": "Alibaba Steps Up AI Race With Potential Nvidia Mega Order",
+      "description": "",
+      "summary": "Alibaba Group Holding Ltd. (NYSE:BABA) stock rose Thursday after reports signaled expanded access to Nvidia Corp.'s (NASDAQ:NVDA) advanced artificial intelligence chips in China. The Chinese e-commerce giant pared some of those gains in early Friday trading, following a rally of more than 5% the prior session. The Thursday move came after reports that China may approve limited imports of Nvidia's H200 chips as soon as this quarter. Nvidia is tightening its sales of H200 artificial intelligence c",
+      "pubDate": "2026-01-11T19:01:02Z",
+      "displayTime": "2026-01-11T19:01:02Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/Benzinga/ac724c1b99934de44b412161bb966978",
+        "originalWidth": 1024,
+        "originalHeight": 683,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/jU3PngKAFmByOys20AtzVA--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Benzinga/ac724c1b99934de44b412161bb966978",
+            "width": 1024,
+            "height": 683,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/b3Dgd3HKr9M.Fi8v_t7DTA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Benzinga/ac724c1b99934de44b412161bb966978",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Benzinga",
+        "url": "http://www.benzinga.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-steps-ai-race-potential-190102623.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-steps-ai-race-potential-190102623.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "a089ee38-238f-3882-9fe3-3682495c443d",
+    "content": {
+      "id": "a089ee38-238f-3882-9fe3-3682495c443d",
+      "contentType": "STORY",
+      "title": "Morgan Stanley and Jefferies Cut Price Targets on Alibaba (BABA)",
+      "description": "",
+      "summary": "Alibaba Group Holding Limited (NYSE:BABA) is one of the 10 Best NYSE Stocks to Buy According to Analysts. On January 8, Morgan Stanley cut its price target on Alibaba Group Holding Limited (NYSE:BABA) from $200 to $180 and maintained its Overweight rating. The firm pointed to a weaker outlook for the company’s core e-commerce business […]",
+      "pubDate": "2026-01-11T18:59:54Z",
+      "displayTime": "2026-01-11T18:59:54Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/89f2124e05c9b583b4142daea2594a29",
+        "originalWidth": 3872,
+        "originalHeight": 2176,
+        "caption": "Morgan Stanley and Jefferies Cut Price Targets on Alibaba (BABA)",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/U70ckiaMw7_BOlDw14tMIw--~B/aD0yMTc2O3c9Mzg3MjthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/89f2124e05c9b583b4142daea2594a29",
+            "width": 3872,
+            "height": 2176,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/2SlWzQGuF708t3gornsPaQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/89f2124e05c9b583b4142daea2594a29",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Insider Monkey",
+        "url": "http://www.insidermonkey.com"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/morgan-stanley-jefferies-cut-price-185954988.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/morgan-stanley-jefferies-cut-price-185954988.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "9d823e44-b6a3-3482-8e1b-1c63fe8c78d9",
     "content": {
       "id": "9d823e44-b6a3-3482-8e1b-1c63fe8c78d9",
@@ -466,128 +588,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/nvidia-could-rally-again-china-122503444.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "0d5c90c3-6b14-3c9b-bdeb-3836cc2651d0",
-    "content": {
-      "id": "0d5c90c3-6b14-3c9b-bdeb-3836cc2651d0",
-      "contentType": "STORY",
-      "title": "Alibaba Shares Jump on China Optimism Around Nvidia H200 Chip Imports",
-      "description": "",
-      "summary": "Alibaba gains as much as 4.8% in Hong Kong amid expectations China may approve H200 chip imports this quarter.",
-      "pubDate": "2026-01-09T12:17:18Z",
-      "displayTime": "2026-01-09T12:17:18Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-        "originalWidth": 952,
-        "originalHeight": 466,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/ra4Ti30CsXfCq7nnMSbi4Q--~B/aD00NjY7dz05NTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-            "width": 952,
-            "height": 466,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/H7fwXdruZYh3hbuXrJUdKg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "GuruFocus.com",
-        "url": "http://www.gurufocus.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-shares-jump-china-optimism-121718690.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-shares-jump-china-optimism-121718690.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "f1100794-5baf-3c9f-bc33-83bbdb8f5a48",
-    "content": {
-      "id": "f1100794-5baf-3c9f-bc33-83bbdb8f5a48",
-      "contentType": "STORY",
-      "title": "MiniMax Shares Jump 109% After $619 Million Hong Kong IPO",
-      "description": "",
-      "summary": "China AI startup prices at HK$165, sees 1,830-times retail demand in upsized Hong Kong listing.",
-      "pubDate": "2026-01-09T12:16:34Z",
-      "displayTime": "2026-01-09T12:16:34Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/cbdfec544d469f13bc2b6056a3f86d8b",
-        "originalWidth": 3940,
-        "originalHeight": 2217,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Tw3JYuOaxXmQJmzfbHOSLg--~B/aD0yMjE3O3c9Mzk0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/us.finance.gurufocus/cbdfec544d469f13bc2b6056a3f86d8b",
-            "width": 3940,
-            "height": 2217,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/2ojjJgGqrfMxYBhl1p.ybw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/cbdfec544d469f13bc2b6056a3f86d8b",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "GuruFocus.com",
-        "url": "http://www.gurufocus.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/minimax-shares-jump-109-619-121634320.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/minimax-shares-jump-109-619-121634320.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
