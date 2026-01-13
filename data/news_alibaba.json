@@ -61,6 +61,128 @@
     }
   },
   {
+    "id": "240c03cc-e800-3ded-a651-d692135585f8",
+    "content": {
+      "id": "240c03cc-e800-3ded-a651-d692135585f8",
+      "contentType": "STORY",
+      "title": "US Stock Market Today S&P 500 Futures Slip As Traders Brace For CPI",
+      "description": "",
+      "summary": "The Morning Bull - US Market Morning Update Tuesday, Jan, 13 2026 US stock futures are slightly softer this morning, with key contracts on the S&P 500 and Nasdaq 100 pointing to a modest dip as investors sit tight ahead of fresh inflation figures. The market is bracing for US consumer prices to hold around 2.7% year on year in December, with core inflation also at 2.7% and monthly gains of 0.3% for both headline and core. This means the cost of living is still rising at a pace that may keep...",
+      "pubDate": "2026-01-13T10:10:08Z",
+      "displayTime": "2026-01-13T10:10:08Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/47b1af040582d42464f0a0f280b2e22b",
+        "originalWidth": 1194,
+        "originalHeight": 432,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/MV0GKRdHWnut1p2TaHOYMQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/47b1af040582d42464f0a0f280b2e22b",
+            "width": 1194,
+            "height": 432,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/xa.weXHMj76pLUj0AQi7xw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/47b1af040582d42464f0a0f280b2e22b",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Simply Wall St.",
+        "url": "https://simplywall.st/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/us-stock-market-today-p-101008369.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/us-stock-market-today-p-101008369.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "95331c30-efe8-3a32-aee2-deed067d163a",
+    "content": {
+      "id": "95331c30-efe8-3a32-aee2-deed067d163a",
+      "contentType": "STORY",
+      "title": "Better Growth Stock to Buy Right Now: Amazon or Alibaba?",
+      "description": "",
+      "summary": "Both of these giants are still growing. But one is delivering faster, more balanced growth.",
+      "pubDate": "2026-01-13T08:36:00Z",
+      "displayTime": "2026-01-13T08:36:00Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/motleyfool.com/a5db9188a337f8e90494da91655add46",
+        "originalWidth": 1400,
+        "originalHeight": 700,
+        "caption": "A golden bull facing a laptop with a stock chart on it.",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/sTnocSLh_ccaJ2ZPW0ryvg--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/a5db9188a337f8e90494da91655add46",
+            "width": 1400,
+            "height": 700,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/LqDxJ5A9F5Rvog2TVS2RtA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/a5db9188a337f8e90494da91655add46",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Motley Fool",
+        "url": "http://www.fool.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.fool.com/investing/2026/01/13/better-growth-stock-to-buy-right-now-amazon-or-ali/",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/better-growth-stock-buy-now-083600993.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "59ab7860-95cd-3863-9083-22f827e41c4e",
     "content": {
       "id": "59ab7860-95cd-3863-9083-22f827e41c4e",
@@ -443,128 +565,6 @@
       "finance": {
         "premiumFinance": {
           "isPremiumNews": true,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "7ec89624-b21e-3ff6-912c-f0d6e9429643",
-    "content": {
-      "id": "7ec89624-b21e-3ff6-912c-f0d6e9429643",
-      "contentType": "STORY",
-      "title": "Alibaba Stock Jumps on Qwen Models Hit 700 Million Downloads",
-      "description": "",
-      "summary": "BABA Stock Gains as AI Adoption Accelerates Across Alibaba Cloud",
-      "pubDate": "2026-01-12T15:09:28Z",
-      "displayTime": "2026-01-12T15:09:28Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-        "originalWidth": 952,
-        "originalHeight": 466,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/ra4Ti30CsXfCq7nnMSbi4Q--~B/aD00NjY7dz05NTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-            "width": 952,
-            "height": 466,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/H7fwXdruZYh3hbuXrJUdKg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "GuruFocus.com",
-        "url": "http://www.gurufocus.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-stock-jumps-qwen-models-150928656.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-stock-jumps-qwen-models-150928656.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "af282c51-be86-3daa-9f1f-9a56c8e2504a",
-    "content": {
-      "id": "af282c51-be86-3daa-9f1f-9a56c8e2504a",
-      "contentType": "STORY",
-      "title": "JB Global Capital Highlights Alibaba (BABA)’s AI and Cloud Growth at 18x Earnings",
-      "description": "",
-      "summary": "JB Global Capital, an investment firm, released its fourth-quarter 2025 investor letter. A copy of the letter can be downloaded here. During Q4 2025, JB Global Capital reported an 8.9% decline, largely driven by a sharp drop in Alibaba, its largest holding, while global markets posted modest gains. Despite the quarter’s setback, the fund delivered […]",
-      "pubDate": "2026-01-12T14:43:59Z",
-      "displayTime": "2026-01-12T14:43:59Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/c61ac66cd98860cf43b4d66a43aa74d7",
-        "originalWidth": 1000,
-        "originalHeight": 667,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/ZCW3dzNW._9LkrrH9bRjNQ--~B/aD02Njc7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/c61ac66cd98860cf43b4d66a43aa74d7",
-            "width": 1000,
-            "height": 667,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/zafKjnq6K74h5stI8T.iVg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/c61ac66cd98860cf43b4d66a43aa74d7",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Insider Monkey",
-        "url": "http://www.insidermonkey.com"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/jb-global-capital-highlights-alibaba-144359694.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/jb-global-capital-highlights-alibaba-144359694.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
           "isPremiumFreeNews": false
         }
       },
