@@ -61,6 +61,189 @@
     }
   },
   {
+    "id": "81def96c-1982-3d25-9ad2-a07fa6813b21",
+    "content": {
+      "id": "81def96c-1982-3d25-9ad2-a07fa6813b21",
+      "contentType": "STORY",
+      "title": "Is Alibaba's Cash Flow Pressure Making Its Growth Strategy Riskier?",
+      "description": "",
+      "summary": "BABA's cash flow is under strain as AI, cloud and quick commerce spending outpace monetization, widening the gap between revenue growth and cash generation.",
+      "pubDate": "2026-01-13T16:15:00Z",
+      "displayTime": "2026-01-13T16:15:00Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/zacks.com/6aeef3c46a6c7ea6b556882abdd6f761",
+        "originalWidth": 635,
+        "originalHeight": 400,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/EmTWvQ4srpUTIJ6nkpmmGQ--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/6aeef3c46a6c7ea6b556882abdd6f761",
+            "width": 635,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/q8ihoTYNJNFJ.YIeBGzdvA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/6aeef3c46a6c7ea6b556882abdd6f761",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Zacks",
+        "url": "http://www.zacks.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibabas-cash-flow-pressure-making-161500997.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibabas-cash-flow-pressure-making-161500997.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "215c821d-5a62-3ad4-ae78-52b5a0ac95eb",
+    "content": {
+      "id": "215c821d-5a62-3ad4-ae78-52b5a0ac95eb",
+      "contentType": "STORY",
+      "title": "What You Need to Know for January 13, 2026",
+      "description": "",
+      "summary": "1. Fed Independence Under Fire The Justice Department’s criminal investigation into Fed Chair Jerome Powell escalated into an unprecedented institutional crisis, drawing condemnation from former Fed chairs Janet Yellen, Ben Bernanke, and Alan Greenspan. Powell called the probe, ostensibly focused on comments about a building renovation project, a “pretext” to win presidential influence over interest ... What You Need to Know for January 13, 2026",
+      "pubDate": "2026-01-13T13:40:12Z",
+      "displayTime": "2026-01-13T13:40:12Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/4bf4d729a101933f502a65c3c58f340e",
+        "originalWidth": 1024,
+        "originalHeight": 683,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/u1aEbWDbO9H9H_1eiE1vLQ--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/4bf4d729a101933f502a65c3c58f340e",
+            "width": 1024,
+            "height": 683,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/l5X2yyilipljKN03SqOzgg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/24_7_wall_st__718/4bf4d729a101933f502a65c3c58f340e",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "24/7 Wall St.",
+        "url": "https://247wallst.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://247wallst.com/investing/2026/01/13/what-you-need-to-know-for-january-13-2026/",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/know-january-13-2026-134012310.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "6f778302-817f-3a84-8b35-329016dda350",
+    "content": {
+      "id": "6f778302-817f-3a84-8b35-329016dda350",
+      "contentType": "STORY",
+      "title": "Alibaba (BABA) Ends 11% Higher, Mirrors Chinese Market",
+      "description": "",
+      "summary": "We recently published 10 Stocks With Crazy Gains. Alibaba Group Holding Ltd. (NYSE:BABA) was one of the top performers on Monday. Alibaba soared by as much as 11 percent at intra-day trading on Monday to hit $167.52 apiece, as investor funds fled to Chinese stocks over a stronger yuan versus a weak US dollar amid […]",
+      "pubDate": "2026-01-13T12:48:45Z",
+      "displayTime": "2026-01-13T12:48:45Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/33ee695530e5963fa1e19ae07efd4e7b",
+        "originalWidth": 1000,
+        "originalHeight": 737,
+        "caption": "Alibaba (BABA) Ends 11% Higher, Mirrors Chinese Market",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Iwr25N.R36LvxYhTGe1g3g--~B/aD03Mzc7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/33ee695530e5963fa1e19ae07efd4e7b",
+            "width": 1000,
+            "height": 737,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/GTuHOjUKyupdhWMOntSzFw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/33ee695530e5963fa1e19ae07efd4e7b",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Insider Monkey",
+        "url": "http://www.insidermonkey.com"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-baba-ends-11-higher-124845298.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-baba-ends-11-higher-124845298.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "240c03cc-e800-3ded-a651-d692135585f8",
     "content": {
       "id": "240c03cc-e800-3ded-a651-d692135585f8",
@@ -420,151 +603,6 @@
       "finance": {
         "premiumFinance": {
           "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "af38ae2b-ee54-391f-bcd4-48b65416a8df",
-    "content": {
-      "id": "af38ae2b-ee54-391f-bcd4-48b65416a8df",
-      "contentType": "STORY",
-      "title": "Meituan, Alibaba Shares Jump as China Seeks to Curb Price Wars",
-      "description": "",
-      "summary": "Market leader Meituan’s stock rallied 6.6% in Hong Kong, the most since May 29.  Shares of Alibaba Group Holding Ltd. — the biggest challenger to Meituan — rose 5.3%, while the company’s US-listed shares extended gains to rally as much as 11%.  “The increased scrutiny on competition will be supportive of industry margins,” said Catherine Lim, an analyst at Bloomberg Intelligence.",
-      "pubDate": "2026-01-12T16:36:55Z",
-      "displayTime": "2026-01-12T16:36:55Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/068a2f1547624b07c88db39f35688804",
-        "originalWidth": 2000,
-        "originalHeight": 1333,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/5E7lyCQxDpsT.DrEY8nCNA--~B/aD0xMzMzO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/068a2f1547624b07c88db39f35688804",
-            "width": 2000,
-            "height": 1333,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/bzyOX3CbUKhg8naiN4kL1g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/068a2f1547624b07c88db39f35688804",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Bloomberg",
-        "url": "https://www.bloomberg.com/company"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/meituan-alibaba-shares-jump-china-085618475.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/meituan-alibaba-shares-jump-china-085618475.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "122cb860-592b-3f5e-8722-82be98ef1ca0",
-    "content": {
-      "id": "122cb860-592b-3f5e-8722-82be98ef1ca0",
-      "contentType": "STORY",
-      "title": "Alibaba shares surge as China plans to boost AI in manufacturing",
-      "description": "",
-      "summary": "Investing.com -- Alibaba shares are gaining over 9.3% in U.S. trading on Monday as China announced plans to accelerate the integration of digital technologies like artificial intelligence.",
-      "pubDate": "2026-01-12T16:19:16Z",
-      "displayTime": "2026-01-12T16:19:16Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": null,
-      "provider": {
-        "displayName": "Investing.com",
-        "url": "https://www.investing.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-shares-surge-china-plans-161916112.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-shares-surge-china-plans-161916112.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "ffead536-a2c0-37fa-980b-8f750983b819",
-    "content": {
-      "id": "ffead536-a2c0-37fa-980b-8f750983b819",
-      "contentType": "STORY",
-      "title": "Asian Equities Traded in the US as American Depositary Receipts Rise Sharply in Monday Trading",
-      "description": "",
-      "summary": "Asian equities traded in the US as American depositary receipts kicked off the week sharply higher M",
-      "pubDate": "2026-01-12T15:42:41Z",
-      "displayTime": "2026-01-12T15:42:41Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": null,
-      "provider": {
-        "displayName": "MT Newswires",
-        "url": "https://www.mtnewswires.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/asian-equities-traded-us-american-154241386.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/asian-equities-traded-us-american-154241386.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": true,
           "isPremiumFreeNews": false
         }
       },
