@@ -1,5 +1,66 @@
 [
   {
+    "id": "31a85e31-2b1f-381c-bc18-8e1e5d355497",
+    "content": {
+      "id": "31a85e31-2b1f-381c-bc18-8e1e5d355497",
+      "contentType": "STORY",
+      "title": "Is Xiaomi (SEHK:1810) Attractive After Recent Share Price Weakness?",
+      "description": "",
+      "summary": "If you are wondering whether Xiaomi at HK$38.74 is offering value or just riding on its brand, you are in the right place to unpack what that price could mean for long term investors. The stock has seen a 1.5% decline over the last week and a 9.8% decline over the last 30 days, while still showing a 3.8% decline year to date and an 18.1% gain over the last year, with a very large return over 3 years and a 29.6% gain over 5 years. Recent coverage has focused on Xiaomi's position as a major...",
+      "pubDate": "2026-01-13T00:17:39Z",
+      "displayTime": "2026-01-13T00:17:39Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
+        "originalWidth": 1194,
+        "originalHeight": 432,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/DHq886Ag4G1rS9TKIvWzQQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
+            "width": 1194,
+            "height": 432,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/fl7FB00ESSj9386P3xBSmQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Simply Wall St.",
+        "url": "https://simplywall.st/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/xiaomi-sehk-1810-attractive-recent-001739083.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/xiaomi-sehk-1810-attractive-recent-001739083.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "652bcabb-3c67-3396-9202-31317c764f66",
     "content": {
       "id": "652bcabb-3c67-3396-9202-31317c764f66",
@@ -513,67 +574,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/samsung-first-trifold-phone-expensive-160009897.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "8ae64539-20be-35ae-ab83-d0cacd6180ff",
-    "content": {
-      "id": "8ae64539-20be-35ae-ab83-d0cacd6180ff",
-      "contentType": "STORY",
-      "title": "Foreign Phone Shipments Jump 128% in China",
-      "description": "",
-      "summary": "Apple-led rebound shows up in November",
-      "pubDate": "2025-12-26T15:55:58Z",
-      "displayTime": "2025-12-26T15:55:58Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/40a12a1b7769c635ead36fab47a12566",
-        "originalWidth": 400,
-        "originalHeight": 400,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/IcEDHtzDwTA4hQbvBfYYrg--~B/aD00MDA7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/40a12a1b7769c635ead36fab47a12566",
-            "width": 400,
-            "height": 400,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/64L6XoMOqcmOFRmvlYxLdQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/40a12a1b7769c635ead36fab47a12566",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "GuruFocus.com",
-        "url": "http://www.gurufocus.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/foreign-phone-shipments-jump-128-155558242.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/foreign-phone-shipments-jump-128-155558242.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"

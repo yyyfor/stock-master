@@ -61,6 +61,67 @@
     }
   },
   {
+    "id": "59ab7860-95cd-3863-9083-22f827e41c4e",
+    "content": {
+      "id": "59ab7860-95cd-3863-9083-22f827e41c4e",
+      "contentType": "STORY",
+      "title": "Why Alibaba Stock Soared Today",
+      "description": "",
+      "summary": "Investors are getting more excited about the online retail giant's artificial intelligence (AI) initiatives.",
+      "pubDate": "2026-01-13T01:46:04Z",
+      "displayTime": "2026-01-13T01:46:04Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/motleyfool.com/ca323dcc99c55f7f71d415c1b2a2e35c",
+        "originalWidth": 1400,
+        "originalHeight": 840,
+        "caption": "Alibaba's logo is displayed in front of a building. ",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/F_8gfaWQKgnii6XYOQ3TAw--~B/aD04NDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/ca323dcc99c55f7f71d415c1b2a2e35c",
+            "width": 1400,
+            "height": 840,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/lttiRGTSQIvgcfi6E.v5MA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/ca323dcc99c55f7f71d415c1b2a2e35c",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Motley Fool",
+        "url": "http://www.fool.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.fool.com/investing/2026/01/12/why-alibaba-stock-is-up-today/",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/why-alibaba-stock-soared-today-014604445.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "dab1aa93-cc8d-3cbd-b019-4e03d86c6060",
     "content": {
       "id": "dab1aa93-cc8d-3cbd-b019-4e03d86c6060",
@@ -494,67 +555,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/jb-global-capital-highlights-alibaba-144359694.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "cae518f9-b92c-3366-985b-c9aa99a74035",
-    "content": {
-      "id": "cae518f9-b92c-3366-985b-c9aa99a74035",
-      "contentType": "STORY",
-      "title": "Meta Platforms is Shifting to Closed AI—Why That’s a Major Winning Move",
-      "description": "",
-      "summary": "Perhaps going down the open-source route wasn’t the way to go. With Meta Platforms (NASDAQ:META) now going down the proprietary AI model route after its LLaMa model fell short of expectations, questions linger as to whether the social-media and metaverse titan can really make up ground in the AI scene, one that’s been dominated by ... Meta Platforms is Shifting to Closed AI—Why That’s a Major Winning Move",
-      "pubDate": "2026-01-12T14:01:36Z",
-      "displayTime": "2026-01-12T14:01:36Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/83775dc9d7a477d3590895c6bd6e3986",
-        "originalWidth": 1366,
-        "originalHeight": 768,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/qXxNYOiT62A7dcVyh0XLkg--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/83775dc9d7a477d3590895c6bd6e3986",
-            "width": 1366,
-            "height": 768,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/6DNED8YdxwbTls4QcJ_SAA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/24_7_wall_st__718/83775dc9d7a477d3590895c6bd6e3986",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "24/7 Wall St.",
-        "url": "https://247wallst.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://247wallst.com/investing/2026/01/12/meta-platforms-is-shifting-to-closed-ai-why-thats-a-major-winning-move/",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/meta-platforms-shifting-closed-ai-140136816.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
