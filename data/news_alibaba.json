@@ -1,5 +1,333 @@
 [
   {
+    "id": "7e2da8e1-2a02-330d-8092-5beaff79a88a",
+    "content": {
+      "id": "7e2da8e1-2a02-330d-8092-5beaff79a88a",
+      "contentType": "STORY",
+      "title": "Montage Technology Draws Alibaba, JPMorgan as Cornerstones for Hong Kong Listing",
+      "description": "",
+      "summary": "Chinese chipmaker plans Hong Kong IPO that could raise about $900 million, backed by major global cornerstone investors.",
+      "pubDate": "2026-01-14T17:43:56Z",
+      "displayTime": "2026-01-14T17:43:56Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
+        "originalWidth": 952,
+        "originalHeight": 466,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/ra4Ti30CsXfCq7nnMSbi4Q--~B/aD00NjY7dz05NTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
+            "width": 952,
+            "height": 466,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/H7fwXdruZYh3hbuXrJUdKg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "GuruFocus.com",
+        "url": "http://www.gurufocus.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/montage-technology-draws-alibaba-jpmorgan-174356544.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/montage-technology-draws-alibaba-jpmorgan-174356544.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "c68a2438-dc2a-36db-ab4b-7c6b28584a7d",
+    "content": {
+      "id": "c68a2438-dc2a-36db-ab4b-7c6b28584a7d",
+      "contentType": "STORY",
+      "title": "Alibaba vs. Microsoft: Which Cloud Stock to Buy on Better AI Upside?",
+      "description": "",
+      "summary": "MSFT's Azure-led AI growth, strong margins and a $400 billion backlog outshine BABA's cloud gains, weighed down by surging costs and profit pressure.",
+      "pubDate": "2026-01-14T15:54:00Z",
+      "displayTime": "2026-01-14T15:54:00Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/zacks.com/a48a4c6119a1768870d887231ede2c4c",
+        "originalWidth": 620,
+        "originalHeight": 327,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/7I7LLoCS24QGqQ8aXuPVWQ--~B/aD0zMjc7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/a48a4c6119a1768870d887231ede2c4c",
+            "width": 620,
+            "height": 327,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/cwYpOx1OZwyhFBp7GDB6qg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/a48a4c6119a1768870d887231ede2c4c",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Zacks",
+        "url": "http://www.zacks.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-vs-microsoft-cloud-stock-155400080.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-vs-microsoft-cloud-stock-155400080.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "99d204ac-fb61-32f0-aa8a-5c1655910582",
+    "content": {
+      "id": "99d204ac-fb61-32f0-aa8a-5c1655910582",
+      "contentType": "STORY",
+      "title": "Is Alibaba (BABA) a Buy as Wall Street Analysts Look Optimistic?",
+      "description": "",
+      "summary": "According to the average brokerage recommendation (ABR), one should invest in Alibaba (BABA). It is debatable whether this highly sought-after metric is effective because Wall Street analysts' recommendations tend to be overly optimistic. Would it be worth investing in the stock?",
+      "pubDate": "2026-01-14T14:30:04Z",
+      "displayTime": "2026-01-14T14:30:04Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/zacks.com/e8e4b0344809eaac6d73c9fd25fd180a",
+        "originalWidth": 900,
+        "originalHeight": 600,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/7h8ntzJXcDOdVmDKQ08gRg--~B/aD02MDA7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/e8e4b0344809eaac6d73c9fd25fd180a",
+            "width": 900,
+            "height": 600,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/HPPe9cVpY.5CDqgVwfXxLg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/e8e4b0344809eaac6d73c9fd25fd180a",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Zacks",
+        "url": "http://www.zacks.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-baba-buy-wall-street-143004179.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-baba-buy-wall-street-143004179.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "8b1246f1-bbed-30c8-b50d-9f4b71c0a273",
+    "content": {
+      "id": "8b1246f1-bbed-30c8-b50d-9f4b71c0a273",
+      "contentType": "STORY",
+      "title": "Sector Update: Consumer Stocks Mixed Pre-Bell Wednesday",
+      "description": "",
+      "summary": "Consumer stocks were mixed pre-bell Wednesday, with the State Street Consumer Staples Select Sector",
+      "pubDate": "2026-01-14T14:21:52Z",
+      "displayTime": "2026-01-14T14:21:52Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": null,
+      "provider": {
+        "displayName": "MT Newswires",
+        "url": "https://www.mtnewswires.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/sector-consumer-stocks-mixed-pre-142152430.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/sector-consumer-stocks-mixed-pre-142152430.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": true,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "6ca8aa5c-a706-36ee-b30f-0ca211520b55",
+    "content": {
+      "id": "6ca8aa5c-a706-36ee-b30f-0ca211520b55",
+      "contentType": "STORY",
+      "title": "Will Alibaba Group (BABA) be Able to Leverage Its Capabilities?",
+      "description": "",
+      "summary": "Oakmark Funds, advised by Harris Associates, released its “Oakmark Global Fund” fourth-quarter 2025 investor letter. The fund’s objective is long-term capital appreciation by investing in a diverse group of U.S. and non-U.S. companies. The all-cap mandate of the fund allows it to invest across all market-cap companies. A copy of the letter can be downloaded here. In […]",
+      "pubDate": "2026-01-14T14:09:31Z",
+      "displayTime": "2026-01-14T14:09:31Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/2ecb0becb2dac43b6c02e70d6d2b18a3",
+        "originalWidth": 768,
+        "originalHeight": 430,
+        "caption": "Alibaba (BABA) Soars 8% on US Chip Exports Ease to China",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Oh.dItO5k8Qnz4qexI2Jxg--~B/aD00MzA7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/2ecb0becb2dac43b6c02e70d6d2b18a3",
+            "width": 768,
+            "height": 430,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/a23tEVx0qwWsbQPpeiw6QQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/2ecb0becb2dac43b6c02e70d6d2b18a3",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Insider Monkey",
+        "url": "http://www.insidermonkey.com"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-group-baba-able-leverage-140931308.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-group-baba-able-leverage-140931308.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "66f83968-ac3c-3d17-8849-3d9e744fa2d8",
+    "content": {
+      "id": "66f83968-ac3c-3d17-8849-3d9e744fa2d8",
+      "contentType": "STORY",
+      "title": "Alibaba shares rise after report shows gains in China AI cloud market",
+      "description": "",
+      "summary": "Investing.com -- Alibaba (NYSE:BABA) shares gained 3.1% in U.S. premarket trading following reports highlighting the company’s growing dominance in China’s AI cloud market and strategic positioning of its Qwen app ecosystem.",
+      "pubDate": "2026-01-14T13:18:35Z",
+      "displayTime": "2026-01-14T13:18:35Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": null,
+      "provider": {
+        "displayName": "Investing.com",
+        "url": "https://www.investing.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-shares-rise-report-shows-131835890.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-shares-rise-report-shows-131835890.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "512ff341-77a0-35ee-8abf-a9fc94275768",
     "content": {
       "id": "512ff341-77a0-35ee-8abf-a9fc94275768",
@@ -227,372 +555,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/alibaba-baba-ends-11-higher-124845298.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "240c03cc-e800-3ded-a651-d692135585f8",
-    "content": {
-      "id": "240c03cc-e800-3ded-a651-d692135585f8",
-      "contentType": "STORY",
-      "title": "US Stock Market Today S&P 500 Futures Slip As Traders Brace For CPI",
-      "description": "",
-      "summary": "The Morning Bull - US Market Morning Update Tuesday, Jan, 13 2026 US stock futures are slightly softer this morning, with key contracts on the S&P 500 and Nasdaq 100 pointing to a modest dip as investors sit tight ahead of fresh inflation figures. The market is bracing for US consumer prices to hold around 2.7% year on year in December, with core inflation also at 2.7% and monthly gains of 0.3% for both headline and core. This means the cost of living is still rising at a pace that may keep...",
-      "pubDate": "2026-01-13T10:10:08Z",
-      "displayTime": "2026-01-13T10:10:08Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/47b1af040582d42464f0a0f280b2e22b",
-        "originalWidth": 1194,
-        "originalHeight": 432,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/MV0GKRdHWnut1p2TaHOYMQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/47b1af040582d42464f0a0f280b2e22b",
-            "width": 1194,
-            "height": 432,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/xa.weXHMj76pLUj0AQi7xw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/47b1af040582d42464f0a0f280b2e22b",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Simply Wall St.",
-        "url": "https://simplywall.st/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/us-stock-market-today-p-101008369.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/us-stock-market-today-p-101008369.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "95331c30-efe8-3a32-aee2-deed067d163a",
-    "content": {
-      "id": "95331c30-efe8-3a32-aee2-deed067d163a",
-      "contentType": "STORY",
-      "title": "Better Growth Stock to Buy Right Now: Amazon or Alibaba?",
-      "description": "",
-      "summary": "Both of these giants are still growing. But one is delivering faster, more balanced growth.",
-      "pubDate": "2026-01-13T08:36:00Z",
-      "displayTime": "2026-01-13T08:36:00Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/motleyfool.com/a5db9188a337f8e90494da91655add46",
-        "originalWidth": 1400,
-        "originalHeight": 700,
-        "caption": "A golden bull facing a laptop with a stock chart on it.",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/sTnocSLh_ccaJ2ZPW0ryvg--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/a5db9188a337f8e90494da91655add46",
-            "width": 1400,
-            "height": 700,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/LqDxJ5A9F5Rvog2TVS2RtA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/a5db9188a337f8e90494da91655add46",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Motley Fool",
-        "url": "http://www.fool.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.fool.com/investing/2026/01/13/better-growth-stock-to-buy-right-now-amazon-or-ali/",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/better-growth-stock-buy-now-083600993.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "59ab7860-95cd-3863-9083-22f827e41c4e",
-    "content": {
-      "id": "59ab7860-95cd-3863-9083-22f827e41c4e",
-      "contentType": "STORY",
-      "title": "Why Alibaba Stock Soared Today",
-      "description": "",
-      "summary": "Investors are getting more excited about the online retail giant's artificial intelligence (AI) initiatives.",
-      "pubDate": "2026-01-13T01:46:04Z",
-      "displayTime": "2026-01-13T01:46:04Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/motleyfool.com/ca323dcc99c55f7f71d415c1b2a2e35c",
-        "originalWidth": 1400,
-        "originalHeight": 840,
-        "caption": "Alibaba's logo is displayed in front of a building. ",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/F_8gfaWQKgnii6XYOQ3TAw--~B/aD04NDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/ca323dcc99c55f7f71d415c1b2a2e35c",
-            "width": 1400,
-            "height": 840,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/lttiRGTSQIvgcfi6E.v5MA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/ca323dcc99c55f7f71d415c1b2a2e35c",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Motley Fool",
-        "url": "http://www.fool.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.fool.com/investing/2026/01/12/why-alibaba-stock-is-up-today/",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/why-alibaba-stock-soared-today-014604445.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "4a0e6739-6d6e-3ab1-ad42-73a417a37c6b",
-    "content": {
-      "id": "4a0e6739-6d6e-3ab1-ad42-73a417a37c6b",
-      "contentType": "VIDEO",
-      "title": "Alibaba stock surges amid probe, Citi to cut 1,000 jobs",
-      "description": "<p>Market Domination Overtime Host <a data-i13n=\"cpos:1;pos:1\" href=\"https://www.yahoo.com/author/brooke-dipalma/\">Brooke DiPalma</a> tracks several of the day's top trending stock tickers, including Alibaba stock (<a data-i13n=\"cpos:2;pos:1\" href=\"https://finance.yahoo.com/quote/BABA\">BABA</a>, <a data-i13n=\"cpos:3;pos:1\" href=\"https://finance.yahoo.com/quote/9988.HK\">9988.HK</a>) surging as Chinese regulators launch a probe into the food delivery space, Walmart (<a data-i13n=\"cpos:4;pos:1\" href=\"https://finance.yahoo.com/quote/WMT\">WMT</a>) to join the Nasdaq 100 (<a data-i13n=\"cpos:5;pos:1\" href=\"https://finance.yahoo.com/quote/%5ENDX\">^NDX</a>) as it teams with Alphabet's Google Gemini AI (<a data-i13n=\"cpos:6;pos:1\" href=\"https://finance.yahoo.com/quote/GOOG\">GOOG</a>, <a data-i13n=\"cpos:7;pos:1\" href=\"https://finance.yahoo.com/quote/GOOGL\">GOOGL</a>), and Bloomberg reporting that Citigroup (<a data-i13n=\"cpos:8;pos:1\" href=\"https://finance.yahoo.com/quote/C\">C</a>) plans to lay off up to 1,000 workers this week.</p>\n<p>To watch more expert insights and analysis on the latest market action, check out more <a data-i13n=\"cpos:9;pos:1\" href=\"https://finance.yahoo.com/videos/series/market-domination-overtime/\">Market Domination Overtime</a>.</p>",
-      "summary": "Market Domination Overtime Host Brooke DiPalma tracks several of the day's top trending stock tickers, including Alibaba stock (BABA, 9988.HK) surging as Chinese regulators launch a probe into the food delivery space, Walmart (WMT) to join the Nasdaq 100 (^NDX) as it teams with Alphabet's Google Gemini AI (GOOG, GOOGL), and Bloomberg reporting that Citigroup (C) plans to lay off up to 1,000 workers this week. To watch more expert insights and analysis on the latest market action, check out more&nbsp;Market Domination Overtime.",
-      "pubDate": "2026-01-12T21:32:08Z",
-      "displayTime": "",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2026-01/9070a0b0-effd-11f0-9bef-2bcc3ec288e6",
-        "originalWidth": 5161,
-        "originalHeight": 2906,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/ovAKPS5ttGEeKbhydSIC2g--~B/aD0yOTA2O3c9NTE2MTthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2026-01/9070a0b0-effd-11f0-9bef-2bcc3ec288e6",
-            "width": 5161,
-            "height": 2906,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/kdmahPqMM_NuHs1AGQ2K5Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2026-01/9070a0b0-effd-11f0-9bef-2bcc3ec288e6",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Yahoo Finance Video",
-        "url": "https://finance.yahoo.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/video/alibaba-stock-surges-amid-probe-213208899.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/video/alibaba-stock-surges-amid-probe-213208899.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "dab1aa93-cc8d-3cbd-b019-4e03d86c6060",
-    "content": {
-      "id": "dab1aa93-cc8d-3cbd-b019-4e03d86c6060",
-      "contentType": "STORY",
-      "title": "China Is Stepping in to Help Alibaba Amid a Major Price War. Does That Make BABA Stock a Buy Here?",
-      "description": "",
-      "summary": "Alibaba stock soars as China announces AI+ Manufacturing action plan. Here’s what makes BABA shares worth owning in 2026.",
-      "pubDate": "2026-01-12T21:30:54Z",
-      "displayTime": "2026-01-12T21:30:54Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/barchart_com_477/5682aa19d3bf8055dcbddc6e0016ed4c",
-        "originalWidth": 1600,
-        "originalHeight": 946,
-        "caption": "Alibaba by testing via Shutterstock",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/lXl3XUYjEgKRoATfTUs_8Q--~B/aD05NDY7dz0xNjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/barchart_com_477/5682aa19d3bf8055dcbddc6e0016ed4c",
-            "width": 1600,
-            "height": 946,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/HRk1jEccIgauVwc6Zh1L8w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/barchart_com_477/5682aa19d3bf8055dcbddc6e0016ed4c",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Barchart",
-        "url": "https://www.barchart.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.barchart.com/story/news/37006290/china-is-stepping-in-to-help-alibaba-amid-a-major-price-war-does-that-make-baba-stock-a-buy-here",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/china-stepping-help-alibaba-amid-213054817.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "ff6aea7b-a050-3576-ad2c-cdc24d1188b0",
-    "content": {
-      "id": "ff6aea7b-a050-3576-ad2c-cdc24d1188b0",
-      "contentType": "STORY",
-      "title": "Alibaba Group Holding Limited (BABA) Launching its AI Services for Restaurants",
-      "description": "",
-      "summary": "Alibaba Group Holding Limited (NYSE:BABA) is one of the Best Stocks to Buy for High Returns in 2026. On January 5, Bloomberg reported that Alibaba Group Holding Limited (NYSE:BABA) is launching AI services for restaurants to showcase their interiors. According to the report, this strategic move comes as Alibaba competes with Meituan in the Chinese […]",
-      "pubDate": "2026-01-12T17:47:18Z",
-      "displayTime": "2026-01-12T17:47:18Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/090170be12ef840f77e8d544392228a0",
-        "originalWidth": 1456,
-        "originalHeight": 816,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/psAs0pGNqyrt8mJECiI5og--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/090170be12ef840f77e8d544392228a0",
-            "width": 1456,
-            "height": 816,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/HHEIlT7dQsZE36Et8Yp86w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/090170be12ef840f77e8d544392228a0",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Insider Monkey",
-        "url": "http://www.insidermonkey.com"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-group-holding-limited-baba-174718379.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-group-holding-limited-baba-174718379.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
