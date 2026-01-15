@@ -1,5 +1,66 @@
 [
   {
+    "id": "06d88754-dfaf-3992-adc2-c0c9a4d81322",
+    "content": {
+      "id": "06d88754-dfaf-3992-adc2-c0c9a4d81322",
+      "contentType": "STORY",
+      "title": "Alibaba Takes Major Step to Link Shopping to Main AI App",
+      "description": "",
+      "summary": "China’s online retail leader aims to connect Taobao, Alipay, travel service Fliggy and Amap to the Qwen app starting Thursday.  The idea is to eventually help Qwen’s 100 million users shop, book travel and pay for services via a single platform with the help of AI.  The newly integrated functions are now available for public testing in China.",
+      "pubDate": "2026-01-15T04:27:59Z",
+      "displayTime": "2026-01-15T04:27:59Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2026-01/3738c660-f1f3-11f0-af9b-f66b9fc2c9ba",
+        "originalWidth": 6245,
+        "originalHeight": 4164,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/KvBrCbxY0To_eWrC5K1mpw--~B/aD00MTY0O3c9NjI0NTthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2026-01/3738c660-f1f3-11f0-af9b-f66b9fc2c9ba",
+            "width": 6245,
+            "height": 4164,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/KyLls0Tv.n_w1Lkbbpw1.Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2026-01/3738c660-f1f3-11f0-af9b-f66b9fc2c9ba",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Bloomberg",
+        "url": "https://www.bloomberg.com/company"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-takes-major-step-shopping-042759890.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-takes-major-step-shopping-042759890.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "53aa27db-9350-33da-81b3-dece527a0c0f",
     "content": {
       "id": "53aa27db-9350-33da-81b3-dece527a0c0f",
@@ -532,67 +593,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/asian-growth-companies-high-insider-043540743.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "ec4b8e14-4e49-3c1f-8767-1c3554bcfe7e",
-    "content": {
-      "id": "ec4b8e14-4e49-3c1f-8767-1c3554bcfe7e",
-      "contentType": "STORY",
-      "title": "Alibaba Prepares AI Restaurant Tools to Challenge Meituan",
-      "description": "",
-      "summary": "Alibaba plans to let restaurants create 3D interior visuals via Amap using AI, offering the service free to selected merchants for a limited time.",
-      "pubDate": "2026-01-05T16:11:45Z",
-      "displayTime": "2026-01-05T16:11:45Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-        "originalWidth": 952,
-        "originalHeight": 466,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/ra4Ti30CsXfCq7nnMSbi4Q--~B/aD00NjY7dz05NTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-            "width": 952,
-            "height": 466,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/H7fwXdruZYh3hbuXrJUdKg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "GuruFocus.com",
-        "url": "http://www.gurufocus.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-prepares-ai-restaurant-tools-161145533.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-prepares-ai-restaurant-tools-161145533.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
