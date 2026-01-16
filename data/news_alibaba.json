@@ -1,5 +1,66 @@
 [
   {
+    "id": "d6d4c240-1670-4956-932d-f1546787b998",
+    "content": {
+      "id": "d6d4c240-1670-4956-932d-f1546787b998",
+      "contentType": "STORY",
+      "title": "'Real nightmare scenario': How Nvidia's China struggles could hurt its competitive edge",
+      "description": "",
+      "summary": "Nvidia could face the risk of ceding its software edge if it loses the China market.",
+      "pubDate": "2026-01-16T11:00:11Z",
+      "displayTime": "2026-01-16T11:00:11Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://s.yimg.com/uu/api/res/1.2/Gz6pSURoepBd2rJqh7s16A--~B/aD00MDAwO3c9NjAwMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-01/a8c7a6f7-982c-4a41-8302-e1330e0704e3",
+        "originalWidth": 6000,
+        "originalHeight": 4000,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Gz6pSURoepBd2rJqh7s16A--~B/aD00MDAwO3c9NjAwMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-01/a8c7a6f7-982c-4a41-8302-e1330e0704e3",
+            "width": 6000,
+            "height": 4000,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/rZ3n1y87yzkIAbF8GaxA0Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://d29szjachogqwa.cloudfront.net/images/2026-01/a8c7a6f7-982c-4a41-8302-e1330e0704e3",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Yahoo Finance",
+        "url": "http://finance.yahoo.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/real-nightmare-scenario-how-nvidias-china-struggles-could-hurt-its-competitive-edge-110011436.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/real-nightmare-scenario-how-nvidias-china-struggles-could-hurt-its-competitive-edge-110011436.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": true
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "5366414a-a3f2-3deb-9d60-b335493c3199",
     "content": {
       "id": "5366414a-a3f2-3deb-9d60-b335493c3199",
@@ -521,62 +582,6 @@
         "region": "US",
         "lang": "en-US"
       },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "578162b4-72de-3492-936b-f0f699c27098",
-    "content": {
-      "id": "578162b4-72de-3492-936b-f0f699c27098",
-      "contentType": "STORY",
-      "title": "Alibaba Updates Its Qwen AI App. How It’s Following Microsoft and Alphabet.",
-      "description": "",
-      "summary": "The online retailer said at a launch event on Thursday that it has connected Qwen to its e-commerce and online travel agency platforms.",
-      "pubDate": "2026-01-15T12:35:00Z",
-      "displayTime": "2026-01-15T12:35:00Z",
-      "isHosted": false,
-      "bypassModal": false,
-      "previewUrl": "https://finance.yahoo.com/m/578162b4-72de-3492-936b-f0f699c27098/alibaba-updates-its-qwen-ai.html",
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/Barrons.com/2a0c25b4c0f8b7c9175847c9bb5544ca",
-        "originalWidth": 1280,
-        "originalHeight": 640,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Pa4pRZOPwfSyIRmArw_aUA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/2a0c25b4c0f8b7c9175847c9bb5544ca",
-            "width": 1280,
-            "height": 640,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/mt1tq1FVodGgSy3023dWxg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Barrons.com/2a0c25b4c0f8b7c9175847c9bb5544ca",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Barrons.com",
-        "url": "http://www.barrons.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.barrons.com/articles/alibaba-stock-qwen-ai-microsoft-alphabet-bfc0713a?siteid=yhoof2&yptr=yahoo",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": null,
       "metadata": {
         "editorsPick": false
       },
