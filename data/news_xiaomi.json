@@ -1,5 +1,66 @@
 [
   {
+    "id": "f0ba1848-1801-30cc-a96b-2e79f6821b2b",
+    "content": {
+      "id": "f0ba1848-1801-30cc-a96b-2e79f6821b2b",
+      "contentType": "STORY",
+      "title": "The Bull Case For Xiaomi (SEHK:1810) Could Change Following India’s Proposed Smartphone Source-Code Rules",
+      "description": "",
+      "summary": "In the past few days, India proposed 83 new smartphone security rules that could require major manufacturers, including Xiaomi, to submit software updates and potentially share source code with government-approved labs. This push to tighten cybersecurity directly affects Xiaomi’s operations in one of its largest overseas markets, raising questions about costs, data governance, and the complexity of rolling out software globally. We’ll now examine how these proposed Indian security...",
+      "pubDate": "2026-01-15T22:11:51Z",
+      "displayTime": "2026-01-15T22:11:51Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
+        "originalWidth": 1194,
+        "originalHeight": 432,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/DHq886Ag4G1rS9TKIvWzQQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
+            "width": 1194,
+            "height": 432,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/fl7FB00ESSj9386P3xBSmQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Simply Wall St.",
+        "url": "https://simplywall.st/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/bull-case-xiaomi-sehk-1810-221151203.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/bull-case-xiaomi-sehk-1810-221151203.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "fc507ed6-1a3c-3a91-b724-40a5db0d4c67",
     "content": {
       "id": "fc507ed6-1a3c-3a91-b724-40a5db0d4c67",
@@ -523,67 +584,6 @@
       "finance": {
         "premiumFinance": {
           "isPremiumNews": true,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "7db66a23-706e-381a-9eed-18a4af65c67a",
-    "content": {
-      "id": "7db66a23-706e-381a-9eed-18a4af65c67a",
-      "contentType": "STORY",
-      "title": "China's CXMT eyes $4.2 billion Shanghai listing to fund DRAM expansion",
-      "description": "",
-      "summary": "China's leading maker of DRAM chips, ChangXin Memory Technologies (CXMT) Corp, said on Tuesday it plans to ​raise 29.5 billion yuan ($4.22 billion) through an initial public offering of 10.6 ‌billion shares in Shanghai.  The company, which directly challenged South Korean and U.S. rivals by unveiling its latest DDR5 ‌DRAM chips last month, will use the listing proceeds to upgrade production lines and technologies, it said in a prospectus on Tuesday.  Founded with state backing in 2016, CXMT ⁠spearheads China's efforts to gain ‌a foothold in the global DRAM market, dominated by South Korea's Samsung Electronics and SK Hynix, and U.S.-based Micron Technology.",
-      "pubDate": "2025-12-31T04:43:25Z",
-      "displayTime": "2025-12-31T04:43:25Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/reuters-finance.com/0bf7ab2bd73181bd034a700827a53354",
-        "originalWidth": 800,
-        "originalHeight": 533,
-        "caption": "Illustration shows CXMT logo",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/MDg5nOs8h2S6bK9YDy1pfg--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/0bf7ab2bd73181bd034a700827a53354",
-            "width": 800,
-            "height": 533,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/aMN2ZbKp8dsESJinaOpBlQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/0bf7ab2bd73181bd034a700827a53354",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Reuters",
-        "url": "http://www.reuters.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/chinas-cxmt-eyes-4-2-044325583.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/chinas-cxmt-eyes-4-2-044325583.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
           "isPremiumFreeNews": false
         }
       },
