@@ -1,5 +1,127 @@
 [
   {
+    "id": "8c6e8ddb-9463-323e-8d13-631c5acb093e",
+    "content": {
+      "id": "8c6e8ddb-9463-323e-8d13-631c5acb093e",
+      "contentType": "STORY",
+      "title": "Porsche Deliveries Drop 10% as China Slump and EV Weakness Bite",
+      "description": "",
+      "summary": "Porsche reports its steepest delivery decline since 2009, citing weaker EV demand, China slowdown, and supply gaps.",
+      "pubDate": "2026-01-16T17:47:17Z",
+      "displayTime": "2026-01-16T17:47:17Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/65ecab895100c5e7a3cd277f48412495",
+        "originalWidth": 220,
+        "originalHeight": 25,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/lEZiHCrrpsEkUUo8DWsNZA--~B/aD0yNTt3PTIyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/us.finance.gurufocus/65ecab895100c5e7a3cd277f48412495",
+            "width": 220,
+            "height": 25,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/IVCksr1qm2iaQ6vPusBu.g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/65ecab895100c5e7a3cd277f48412495",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "GuruFocus.com",
+        "url": "http://www.gurufocus.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/porsche-deliveries-drop-10-china-174717161.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/porsche-deliveries-drop-10-china-174717161.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "f263fe62-373b-3202-a3eb-461bea7e1d49",
+    "content": {
+      "id": "f263fe62-373b-3202-a3eb-461bea7e1d49",
+      "contentType": "STORY",
+      "title": "Chinese EVs inch closer to the US as Canada slashes tariffs",
+      "description": "",
+      "summary": "The country is dropping its import tax from 100% to just 6.1%, with an initial annual cap of 49,000 cars.",
+      "pubDate": "2026-01-16T16:04:02Z",
+      "displayTime": "2026-01-16T16:04:02Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/techcrunch_finance_785/c51d8cc98a1bb4808b0460e5d92ffebf",
+        "originalWidth": 2700,
+        "originalHeight": 1800,
+        "caption": "The Zeekr 001 at Las Vegas Motor Speedway during the 2026 Consumer Electronics Show",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/vlZiHTkWzEyY5hKx49Hf7g--~B/aD0xODAwO3c9MjcwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/techcrunch_finance_785/c51d8cc98a1bb4808b0460e5d92ffebf",
+            "width": 2700,
+            "height": 1800,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/nYDh45RhGJadyUtWX0geGQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/techcrunch_finance_785/c51d8cc98a1bb4808b0460e5d92ffebf",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "TechCrunch",
+        "url": "https://techcrunch.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/chinese-evs-inch-closer-us-160402971.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/chinese-evs-inch-closer-us-160402971.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "f0ba1848-1801-30cc-a96b-2e79f6821b2b",
     "content": {
       "id": "f0ba1848-1801-30cc-a96b-2e79f6821b2b",
@@ -481,109 +603,6 @@
       "finance": {
         "premiumFinance": {
           "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "51fc906f-a5b4-35e0-8f7a-45b128d09c13",
-    "content": {
-      "id": "51fc906f-a5b4-35e0-8f7a-45b128d09c13",
-      "contentType": "STORY",
-      "title": "TSLA: Should You 'Buy' or 'Sell' Tesla Stock in 2026?",
-      "description": "",
-      "summary": "Tesla Stock Has Doubled From Its Lows. Why Analysts Still See Trouble Ahead",
-      "pubDate": "2026-01-02T15:00:54Z",
-      "displayTime": "2026-01-02T15:00:54Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/1008bb60819e494e55049caaa788bf7b",
-        "originalWidth": 400,
-        "originalHeight": 400,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/YVNIxKSblagbj54Y3qvZiA--~B/aD00MDA7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/1008bb60819e494e55049caaa788bf7b",
-            "width": 400,
-            "height": 400,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/7Stwe5jYus21FUVWCtgaPg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/1008bb60819e494e55049caaa788bf7b",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "GuruFocus.com",
-        "url": "http://www.gurufocus.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/tesla-stock-buy-sell-2026-150054602.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/tesla-stock-buy-sell-2026-150054602.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "3149c629-1d7a-349e-86b2-f7c7cfb357e5",
-    "content": {
-      "id": "3149c629-1d7a-349e-86b2-f7c7cfb357e5",
-      "contentType": "STORY",
-      "title": "Chip shortages threaten 20% rise in consumer electronics prices",
-      "description": "",
-      "summary": "Consumers should prepare for price increases this year, of as much as 20 per cent for smartphones, computers and home appliances, analysts and...",
-      "pubDate": "2026-01-01T01:54:52Z",
-      "displayTime": "2026-01-01T01:54:52Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": null,
-      "provider": {
-        "displayName": "Financial Times",
-        "url": "https://www.ft.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/chip-shortages-threaten-20-rise-015452225.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/chip-shortages-threaten-20-rise-015452225.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": true,
           "isPremiumFreeNews": false
         }
       },

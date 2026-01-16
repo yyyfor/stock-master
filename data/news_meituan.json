@@ -1,5 +1,66 @@
 [
   {
+    "id": "5212a271-6d0b-3b35-b3ab-4668b99adb6b",
+    "content": {
+      "id": "5212a271-6d0b-3b35-b3ab-4668b99adb6b",
+      "contentType": "STORY",
+      "title": "Can PDD (PDD) Turn Its Billion-Dollar Supermarket Bet Into Lasting Competitive Advantage?",
+      "description": "",
+      "summary": "PDD Holdings recently began internal beta testing of its “Billion-Dollar Supermarket” grocery service within its app, using heavy subsidies and time-limited coupons to attract price-sensitive users and counter intense competition from JD.com, Alibaba, and Meituan. This move marks a push deeper into everyday essentials, potentially increasing user stickiness at a time when the broader China internet sector faces rising regulatory scrutiny and shifting trade conditions. Now we'll examine how...",
+      "pubDate": "2026-01-16T12:14:11Z",
+      "displayTime": "2026-01-16T12:14:11Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/f6c14537c0beea11607d8ec4c0aa1ba9",
+        "originalWidth": 1194,
+        "originalHeight": 432,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/U.yOkQqL2gUYi2rPHgiv5w--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/f6c14537c0beea11607d8ec4c0aa1ba9",
+            "width": 1194,
+            "height": 432,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/BTeRevA_lx3crLE5C4II4A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/f6c14537c0beea11607d8ec4c0aa1ba9",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Simply Wall St.",
+        "url": "https://simplywall.st/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/pdd-pdd-turn-billion-dollar-121411959.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/pdd-pdd-turn-billion-dollar-121411959.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "06d88754-dfaf-3992-adc2-c0c9a4d81322",
     "content": {
       "id": "06d88754-dfaf-3992-adc2-c0c9a4d81322",
@@ -532,67 +593,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/jd-com-weighs-first-dim-151004479.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "65a81a9b-45e3-384f-8aa0-f4eed7c80f07",
-    "content": {
-      "id": "65a81a9b-45e3-384f-8aa0-f4eed7c80f07",
-      "contentType": "STORY",
-      "title": "Asian Growth Companies With High Insider Ownership January 2026",
-      "description": "",
-      "summary": "As we enter 2026, Asian markets are navigating a complex landscape, with China's manufacturing sector showing signs of recovery and Japan's stock market reflecting strong performances in technology and construction sectors. In this environment, growth companies with high insider ownership can be particularly appealing to investors seeking alignment between management interests and shareholder value.",
-      "pubDate": "2026-01-07T04:35:40Z",
-      "displayTime": "2026-01-07T04:35:40Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/3eb1acfa01a97be66f224c62f2ff60fd",
-        "originalWidth": 1194,
-        "originalHeight": 432,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/8ou9h1aPnDmM7LIetWUw9Q--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/3eb1acfa01a97be66f224c62f2ff60fd",
-            "width": 1194,
-            "height": 432,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/_sYfo3oaqp9UOTD_JpXBBw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/3eb1acfa01a97be66f224c62f2ff60fd",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Simply Wall St.",
-        "url": "https://simplywall.st/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/asian-growth-companies-high-insider-043540743.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/asian-growth-companies-high-insider-043540743.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
