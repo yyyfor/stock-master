@@ -1,31 +1,31 @@
 [
   {
-    "id": "d6d4c240-1670-4956-932d-f1546787b998",
+    "id": "2cf5df84-310c-3ce0-8d4e-201245872efa",
     "content": {
-      "id": "d6d4c240-1670-4956-932d-f1546787b998",
+      "id": "2cf5df84-310c-3ce0-8d4e-201245872efa",
       "contentType": "STORY",
-      "title": "'Real nightmare scenario': How Nvidia's China struggles could hurt its competitive edge",
+      "title": "Alibaba Stock Slides After Trump Tariff Threats Rattle Asian Markets",
       "description": "",
-      "summary": "Nvidia could face the risk of ceding its software edge if it loses the China market.",
-      "pubDate": "2026-01-16T11:00:11Z",
-      "displayTime": "2026-01-18T17:41:50Z",
+      "summary": "Alibaba Shares Slide as Weak China Data and Tariff Fears Hit Markets",
+      "pubDate": "2026-01-19T17:51:22Z",
+      "displayTime": "2026-01-19T17:51:22Z",
       "isHosted": true,
       "bypassModal": false,
       "previewUrl": null,
       "thumbnail": {
-        "originalUrl": "https://s.yimg.com/uu/api/res/1.2/Gz6pSURoepBd2rJqh7s16A--~B/aD00MDAwO3c9NjAwMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-01/a8c7a6f7-982c-4a41-8302-e1330e0704e3",
-        "originalWidth": 6000,
-        "originalHeight": 4000,
+        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
+        "originalWidth": 952,
+        "originalHeight": 466,
         "caption": "",
         "resolutions": [
           {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Gz6pSURoepBd2rJqh7s16A--~B/aD00MDAwO3c9NjAwMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-01/a8c7a6f7-982c-4a41-8302-e1330e0704e3",
-            "width": 6000,
-            "height": 4000,
+            "url": "https://s.yimg.com/uu/api/res/1.2/ra4Ti30CsXfCq7nnMSbi4Q--~B/aD00NjY7dz05NTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
+            "width": 952,
+            "height": 466,
             "tag": "original"
           },
           {
-            "url": "https://s.yimg.com/uu/api/res/1.2/rZ3n1y87yzkIAbF8GaxA0Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://d29szjachogqwa.cloudfront.net/images/2026-01/a8c7a6f7-982c-4a41-8302-e1330e0704e3",
+            "url": "https://s.yimg.com/uu/api/res/1.2/H7fwXdruZYh3hbuXrJUdKg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
             "width": 170,
             "height": 128,
             "tag": "170x128"
@@ -33,23 +33,79 @@
         ]
       },
       "provider": {
-        "displayName": "Yahoo Finance",
-        "url": "http://finance.yahoo.com/"
+        "displayName": "GuruFocus.com",
+        "url": "http://www.gurufocus.com/"
       },
       "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/real-nightmare-scenario-how-nvidias-china-struggles-could-hurt-its-competitive-edge-110011436.html",
+        "url": "https://finance.yahoo.com/news/alibaba-stock-slides-trump-tariff-175122505.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
       },
       "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/real-nightmare-scenario-how-nvidias-china-struggles-could-hurt-its-competitive-edge-110011436.html",
+        "url": "https://finance.yahoo.com/news/alibaba-stock-slides-trump-tariff-175122505.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
       },
       "metadata": {
-        "editorsPick": true
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "0335c0e9-475c-3278-9d83-c1d5f2c083a8",
+    "content": {
+      "id": "0335c0e9-475c-3278-9d83-c1d5f2c083a8",
+      "contentType": "STORY",
+      "title": "Alibaba Stock Drops After a Blistering AI Rally. These 2 Worries Are Rattling Investors.",
+      "description": "",
+      "summary": "Alibaba’s shares fell 3.5% to 160.40 Hong Kong dollars.  The benchmark  closed 1.1% lower as investors ditched risk assets after President Donald Trump threatened to impose tariffs on eight NATO nations.  The selloff came after China said its fourth-quarter gross domestic product grew 4.5% from a year ago, slowing from 4.8% for the third quarter.",
+      "pubDate": "2026-01-19T12:57:00Z",
+      "displayTime": "2026-01-19T12:57:00Z",
+      "isHosted": false,
+      "bypassModal": false,
+      "previewUrl": "https://finance.yahoo.com/m/0335c0e9-475c-3278-9d83-c1d5f2c083a8/alibaba-stock-drops-after-a.html",
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/Barrons.com/2a0c25b4c0f8b7c9175847c9bb5544ca",
+        "originalWidth": 1280,
+        "originalHeight": 640,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Pa4pRZOPwfSyIRmArw_aUA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/2a0c25b4c0f8b7c9175847c9bb5544ca",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/mt1tq1FVodGgSy3023dWxg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Barrons.com/2a0c25b4c0f8b7c9175847c9bb5544ca",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Barrons.com",
+        "url": "http://www.barrons.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.barrons.com/articles/alibaba-stock-price-china-data-consumer-6861954f?siteid=yhoof2&yptr=yahoo",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": null,
+      "metadata": {
+        "editorsPick": false
       },
       "finance": {
         "premiumFinance": {
@@ -532,67 +588,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/3-reasons-buy-alibaba-stock-133200472.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "5212a271-6d0b-3b35-b3ab-4668b99adb6b",
-    "content": {
-      "id": "5212a271-6d0b-3b35-b3ab-4668b99adb6b",
-      "contentType": "STORY",
-      "title": "Can PDD (PDD) Turn Its Billion-Dollar Supermarket Bet Into Lasting Competitive Advantage?",
-      "description": "",
-      "summary": "PDD Holdings recently began internal beta testing of its “Billion-Dollar Supermarket” grocery service within its app, using heavy subsidies and time-limited coupons to attract price-sensitive users and counter intense competition from JD.com, Alibaba, and Meituan. This move marks a push deeper into everyday essentials, potentially increasing user stickiness at a time when the broader China internet sector faces rising regulatory scrutiny and shifting trade conditions. Now we'll examine how...",
-      "pubDate": "2026-01-16T12:14:11Z",
-      "displayTime": "2026-01-16T12:14:11Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/f6c14537c0beea11607d8ec4c0aa1ba9",
-        "originalWidth": 1194,
-        "originalHeight": 432,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/U.yOkQqL2gUYi2rPHgiv5w--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/f6c14537c0beea11607d8ec4c0aa1ba9",
-            "width": 1194,
-            "height": 432,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/BTeRevA_lx3crLE5C4II4A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/f6c14537c0beea11607d8ec4c0aa1ba9",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Simply Wall St.",
-        "url": "https://simplywall.st/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/pdd-pdd-turn-billion-dollar-121411959.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/pdd-pdd-turn-billion-dollar-121411959.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"

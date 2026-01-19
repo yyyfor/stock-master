@@ -1,5 +1,66 @@
 [
   {
+    "id": "b4962ce9-8ad3-3daf-b7e1-dcb7618bcefa",
+    "content": {
+      "id": "b4962ce9-8ad3-3daf-b7e1-dcb7618bcefa",
+      "contentType": "STORY",
+      "title": "Apple Stock in Spotlight -- Tops China as Holiday iPhone Sales Soar",
+      "description": "",
+      "summary": "Apple Surpasses Rivals in China Despite Overall Market Decline",
+      "pubDate": "2026-01-19T15:34:43Z",
+      "displayTime": "2026-01-19T15:34:43Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/40a12a1b7769c635ead36fab47a12566",
+        "originalWidth": 400,
+        "originalHeight": 400,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/IcEDHtzDwTA4hQbvBfYYrg--~B/aD00MDA7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/40a12a1b7769c635ead36fab47a12566",
+            "width": 400,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/64L6XoMOqcmOFRmvlYxLdQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/40a12a1b7769c635ead36fab47a12566",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "GuruFocus.com",
+        "url": "http://www.gurufocus.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/apple-stock-spotlight-tops-china-153443045.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/apple-stock-spotlight-tops-china-153443045.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "9d8bdb44-c3c7-3262-8715-586ebcbdd3be",
     "content": {
       "id": "9d8bdb44-c3c7-3262-8715-586ebcbdd3be",
@@ -532,67 +593,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/video/apple-leads-global-smartphone-market-105756650.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "517f5c78-c265-3a75-8877-0bc7ff04a5f6",
-    "content": {
-      "id": "517f5c78-c265-3a75-8877-0bc7ff04a5f6",
-      "contentType": "STORY",
-      "title": "Apple leads global smartphone market with 20% share in 2025, says Counterpoint",
-      "description": "",
-      "summary": "Jan 12 (Reuters) - Global smartphone shipments rose 2% year-on-year in 2025, lifted ​by stronger demand and economic (?) ‌momentum in emerging markets, Counterpoint Research said on ‌Monday.",
-      "pubDate": "2026-01-12T06:44:20Z",
-      "displayTime": "2026-01-12T06:44:20Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/reuters-finance.com/38edd8ce656a1e695f82f7b759610765",
-        "originalWidth": 800,
-        "originalHeight": 533,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/YiXI17j.U5HuJuVsPZsjmw--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/38edd8ce656a1e695f82f7b759610765",
-            "width": 800,
-            "height": 533,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Uv8LcZ4cVTJh1vebUN04NQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/38edd8ce656a1e695f82f7b759610765",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Reuters",
-        "url": "http://www.reuters.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/apple-leads-global-smartphone-market-064420012.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/apple-leads-global-smartphone-market-064420012.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
