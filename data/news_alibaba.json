@@ -61,6 +61,128 @@
     }
   },
   {
+    "id": "671f0b29-d40a-3db1-884d-deeb10355bc5",
+    "content": {
+      "id": "671f0b29-d40a-3db1-884d-deeb10355bc5",
+      "contentType": "STORY",
+      "title": "The Bull Case For Alibaba Group Holding (BABA) Could Change Following Beijing’s Warmer AI-Cloud Embrace",
+      "description": "",
+      "summary": "In early January 2026, Alibaba Group highlighted its growing AI and cloud ambitions, including new AI-powered restaurant services via its Amap app and supportive commentary from several Wall Street firms, while facing mixed signals from other research houses on earnings momentum and valuation. The Chinese government’s shift toward treating Alibaba as a key digital partner, particularly through Alibaba Cloud’s role in modernization, is emerging as a critical counterbalance to concerns about...",
+      "pubDate": "2026-01-19T11:10:26Z",
+      "displayTime": "2026-01-19T11:10:26Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+        "originalWidth": 1194,
+        "originalHeight": 432,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Asb.EQEV7awFB_Mkuf_o.A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+            "width": 1194,
+            "height": 432,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/D6tGlHnBV1OBj9DD.GNtjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Simply Wall St.",
+        "url": "https://simplywall.st/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/bull-case-alibaba-group-holding-111026888.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/bull-case-alibaba-group-holding-111026888.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "d2c8e5ce-ff0b-4994-ba62-a61f3439578f",
+    "content": {
+      "id": "d2c8e5ce-ff0b-4994-ba62-a61f3439578f",
+      "contentType": "STORY",
+      "title": "Trending tickers: Alibaba, Novo Nordisk, Fresnillo, BAE Systems and Marshalls",
+      "description": "",
+      "summary": "The latest investor updates on stocks that are trending on Monday.",
+      "pubDate": "2026-01-19T10:07:26Z",
+      "displayTime": "2026-01-19T10:07:26Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2023-06/11912490-0f27-11ee-bdaf-913c58372a39",
+        "originalWidth": 6240,
+        "originalHeight": 4160,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/4lHnFF0GBxpLO_nFYLhIMQ--~B/aD00MTYwO3c9NjI0MDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2023-06/11912490-0f27-11ee-bdaf-913c58372a39",
+            "width": 6240,
+            "height": 4160,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/TMI64pSuqiHFMPMaB_QuGA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2023-06/11912490-0f27-11ee-bdaf-913c58372a39",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Yahoo Finance UK",
+        "url": "http://uk.finance.yahoo.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://uk.finance.yahoo.com/news/alibaba-novo-nordisk-fresnillo-bae-systems-marshalls-trending-tickers-100726237.html",
+        "site": "finance",
+        "region": "GB",
+        "lang": "en-GB"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-novo-nordisk-fresnillo-bae-systems-marshalls-trending-tickers-100726237.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "de30fa9d-9739-3836-89f5-4534fe9531c4",
     "content": {
       "id": "de30fa9d-9739-3836-89f5-4534fe9531c4",
@@ -475,118 +597,6 @@
         "region": "US",
         "lang": "en-US"
       },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "5366414a-a3f2-3deb-9d60-b335493c3199",
-    "content": {
-      "id": "5366414a-a3f2-3deb-9d60-b335493c3199",
-      "contentType": "STORY",
-      "title": "Why This Trader Sees A Timing Opportunity In Alibaba Stock",
-      "description": "",
-      "summary": "Investors looking to invest in foreign companies like Alibaba stock could find luck in buying on a pullback.  Alibaba has recently shown signs of bullishness, with several periods of consolidation forming in the stock throughout last year.  David Cox, senior portfolio manager at Raymond James, says the stock is overall in a clear uptrend and a leading stock among publicly traded China stocks.",
-      "pubDate": "2026-01-15T22:00:28Z",
-      "displayTime": "2026-01-15T22:00:28Z",
-      "isHosted": false,
-      "bypassModal": false,
-      "previewUrl": "https://finance.yahoo.com/m/5366414a-a3f2-3deb-9d60-b335493c3199/why-this-trader-sees-a-timing.html",
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/ibd.com/296becea312a997236022a16b68a9482",
-        "originalWidth": 1000,
-        "originalHeight": 511,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/sGqD6MOKHtLfNxBBOlTkbw--~B/aD01MTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/296becea312a997236022a16b68a9482",
-            "width": 1000,
-            "height": 511,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/otguOUnO6Ggb2mzd_MyU9Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/ibd.com/296becea312a997236022a16b68a9482",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Investor's Business Daily",
-        "url": "http://www.investors.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.investors.com/news/alibaba-stock-trader-sees-timing-opportunity/?src=A00220&yptr=yahoo",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": null,
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "7e160069-74b9-3a35-9be0-1eba25dfa064",
-    "content": {
-      "id": "7e160069-74b9-3a35-9be0-1eba25dfa064",
-      "contentType": "STORY",
-      "title": "Tech, Media & Telecom Roundup: Market Talk",
-      "description": "",
-      "summary": "Find insight on data center investments, Airbnb, Netflix and more in the latest Market Talks covering Technology, Media and Telecom.",
-      "pubDate": "2026-01-15T21:52:00Z",
-      "displayTime": "2026-01-15T21:52:00Z",
-      "isHosted": false,
-      "bypassModal": false,
-      "previewUrl": "https://finance.yahoo.com/m/7e160069-74b9-3a35-9be0-1eba25dfa064/tech-media-telecom.html",
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/wsj.com/068bd3ade3718ffce56bd2978e5ce5f1",
-        "originalWidth": 1280,
-        "originalHeight": 640,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/sukGCd7OEEUCfUUL_PoQhg--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/068bd3ade3718ffce56bd2978e5ce5f1",
-            "width": 1280,
-            "height": 640,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/kREYEKq9LTYsX6lRAr07Lw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/wsj.com/068bd3ade3718ffce56bd2978e5ce5f1",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "The Wall Street Journal",
-        "url": "http://www.wsj.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.wsj.com/tech/tech-media-telecom-roundup-market-talk-b8e85f11?siteid=yhoof2&yptr=yahoo",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": null,
       "metadata": {
         "editorsPick": false
       },

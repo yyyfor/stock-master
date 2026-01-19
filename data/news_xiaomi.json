@@ -1,5 +1,66 @@
 [
   {
+    "id": "9d8bdb44-c3c7-3262-8715-586ebcbdd3be",
+    "content": {
+      "id": "9d8bdb44-c3c7-3262-8715-586ebcbdd3be",
+      "contentType": "STORY",
+      "title": "Micron Flags Unprecedented Memory Shortage",
+      "description": "",
+      "summary": "AI-driven demand is stretching supply beyond 2026 and reshaping pricing dynamics.",
+      "pubDate": "2026-01-19T11:48:05Z",
+      "displayTime": "2026-01-19T11:48:05Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/586f6ed952ecc73da387441318521e82",
+        "originalWidth": 3000,
+        "originalHeight": 2500,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/0aSJl2PnR4PoU3F9sszoGA--~B/aD0yNTAwO3c9MzAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/us.finance.gurufocus/586f6ed952ecc73da387441318521e82",
+            "width": 3000,
+            "height": 2500,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/NeQxeUP3Ieaay9_mn3.Wbw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/586f6ed952ecc73da387441318521e82",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "GuruFocus.com",
+        "url": "http://www.gurufocus.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/micron-flags-unprecedented-memory-shortage-114805478.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/micron-flags-unprecedented-memory-shortage-114805478.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "8c6e8ddb-9463-323e-8d13-631c5acb093e",
     "content": {
       "id": "8c6e8ddb-9463-323e-8d13-631c5acb093e",
@@ -532,67 +593,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/apple-leads-global-smartphone-market-064420012.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "783a9fa2-f9b5-3913-a732-91f4d4469687",
-    "content": {
-      "id": "783a9fa2-f9b5-3913-a732-91f4d4469687",
-      "contentType": "STORY",
-      "title": "Xiaomi (SEHK:1810) Valuation Check After Recent Share Price Swings And Premiumization Narrative",
-      "description": "",
-      "summary": "Xiaomi (SEHK:1810) is back on investor radars after recent share price moves, with the stock up 2.5% over the past week but showing a decline over the past month and over the past 3 months. See our latest analysis for Xiaomi. The recent 2.7% 7 day share price return sits against a 5.8% 30 day decline and a 25.2% 90 day decline, while the 1 year total shareholder return of 11.1% and very large 3 year total shareholder return around 3.6x suggest longer term momentum has not fully faded. If...",
-      "pubDate": "2026-01-05T06:07:49Z",
-      "displayTime": "2026-01-05T06:07:49Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
-        "originalWidth": 1194,
-        "originalHeight": 432,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/DHq886Ag4G1rS9TKIvWzQQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
-            "width": 1194,
-            "height": 432,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/fl7FB00ESSj9386P3xBSmQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Simply Wall St.",
-        "url": "https://simplywall.st/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/xiaomi-sehk-1810-valuation-check-060749343.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/xiaomi-sehk-1810-valuation-check-060749343.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
