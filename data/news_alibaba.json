@@ -1,5 +1,127 @@
 [
   {
+    "id": "375310d1-22cd-33ad-9cc0-ddd6f512302f",
+    "content": {
+      "id": "375310d1-22cd-33ad-9cc0-ddd6f512302f",
+      "contentType": "STORY",
+      "title": "Alibaba (BABA) Turns Qwen Into an All-in-One AI Assistant",
+      "description": "",
+      "summary": "Alibaba Group Holding Limited (NYSE:BABA) is one of the AI Stocks Analysts Are Watching Closely. On January 15, Morgan Stanley analyst Gary Yu reiterated an Overweight rating on the stock with a $180.00 price target. Firm analysts believe Qwen’s AI assistant rise plays a critical role in BABA’s agentic AI pivot, anticipating 2C applications and […]",
+      "pubDate": "2026-01-19T20:43:58Z",
+      "displayTime": "2026-01-19T20:43:58Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/047647a88e646a0c922ce223c8f087fa",
+        "originalWidth": 1456,
+        "originalHeight": 816,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/k.Ci7R7lAS_QHDvZjNR3tw--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/047647a88e646a0c922ce223c8f087fa",
+            "width": 1456,
+            "height": 816,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/.RKwWq0pCls00_1FL1LPmg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/047647a88e646a0c922ce223c8f087fa",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Insider Monkey",
+        "url": "http://www.insidermonkey.com"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-baba-turns-qwen-one-204358662.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-baba-turns-qwen-one-204358662.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "12c78800-f9ac-3011-b676-8ace8b18dc0f",
+    "content": {
+      "id": "12c78800-f9ac-3011-b676-8ace8b18dc0f",
+      "contentType": "STORY",
+      "title": "Alibaba Pushes Quick Commerce Hard: Is Margin Pressure Mounting?",
+      "description": "",
+      "summary": "BABA's quick commerce revenues jump 60% YoY, lifting engagement and monetization, but heavy subsidies and logistics costs are squeezing near-term margins.",
+      "pubDate": "2026-01-19T17:57:00Z",
+      "displayTime": "2026-01-19T17:57:00Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/zacks.com/52b17d3ce82a7a3805859939ffc7892f",
+        "originalWidth": 635,
+        "originalHeight": 400,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/cAgEBYaaH9IeUFpeITgQ0A--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/52b17d3ce82a7a3805859939ffc7892f",
+            "width": 635,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/WTQkH4xqUaQK7PGtIo0N5g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/52b17d3ce82a7a3805859939ffc7892f",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Zacks",
+        "url": "http://www.zacks.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-pushes-quick-commerce-hard-175700781.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-pushes-quick-commerce-hard-175700781.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "2cf5df84-310c-3ce0-8d4e-201245872efa",
     "content": {
       "id": "2cf5df84-310c-3ce0-8d4e-201245872efa",
@@ -477,128 +599,6 @@
         "premiumFinance": {
           "isPremiumNews": true,
           "isPremiumFreeNews": true
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "73d85694-a9ed-36b7-a7cd-e8e91165f618",
-    "content": {
-      "id": "73d85694-a9ed-36b7-a7cd-e8e91165f618",
-      "contentType": "STORY",
-      "title": "Here is What to Know Beyond Why Alibaba Group Holding Limited (BABA) is a Trending Stock",
-      "description": "",
-      "summary": "Zacks.com users have recently been watching Alibaba (BABA) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects.",
-      "pubDate": "2026-01-16T14:00:06Z",
-      "displayTime": "2026-01-16T14:00:06Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/zacks.com/2a50596f066181e48e4ae0ad6be00462",
-        "originalWidth": 900,
-        "originalHeight": 600,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/F3nzpi36wi9juoO_v9PrEA--~B/aD02MDA7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/2a50596f066181e48e4ae0ad6be00462",
-            "width": 900,
-            "height": 600,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/KYn_AObIuLKFqfbaX8Kxcg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/2a50596f066181e48e4ae0ad6be00462",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Zacks",
-        "url": "http://www.zacks.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/know-beyond-why-alibaba-group-140006370.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/know-beyond-why-alibaba-group-140006370.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "524370ff-c307-38a8-9995-44da3ef132de",
-    "content": {
-      "id": "524370ff-c307-38a8-9995-44da3ef132de",
-      "contentType": "STORY",
-      "title": "3 Reasons to Buy Alibaba Stock Like There's No Tomorrow",
-      "description": "",
-      "summary": "The company is showing a much-needed rebound after years of struggle.",
-      "pubDate": "2026-01-16T13:32:00Z",
-      "displayTime": "2026-01-16T13:32:00Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/motleyfool.com/4d7449d4ba1a5c023e36ce38d26ba09b",
-        "originalWidth": 1400,
-        "originalHeight": 840,
-        "caption": "An Alibaba logo sign on grass.",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/zByP8.p_gOCK.zH9cS490Q--~B/aD04NDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/4d7449d4ba1a5c023e36ce38d26ba09b",
-            "width": 1400,
-            "height": 840,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/u5biNtK3M1JIavRGzLmMnQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/4d7449d4ba1a5c023e36ce38d26ba09b",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Motley Fool",
-        "url": "http://www.fool.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.fool.com/investing/2026/01/16/3-reasons-to-buy-alibaba-stock-like-theres-no-tomo/",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/3-reasons-buy-alibaba-stock-133200472.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
         }
       },
       "storyline": null
