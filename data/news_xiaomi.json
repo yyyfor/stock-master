@@ -1,5 +1,66 @@
 [
   {
+    "id": "1c814e16-2ad0-3abd-94d4-0d788a576872",
+    "content": {
+      "id": "1c814e16-2ad0-3abd-94d4-0d788a576872",
+      "contentType": "STORY",
+      "title": "Assessing Xiaomi’s (SEHK:1810) Valuation After New 7 Year Low Interest EV Financing Plan",
+      "description": "",
+      "summary": "Xiaomi (SEHK:1810) is drawing fresh attention after launching a 7 year low interest financing plan for its electric vehicles, targeting first time buyers and raising questions about future demand and margin sensitivity. See our latest analysis for Xiaomi. That new EV financing plan lands after a weaker patch for the shares, with a 30 day share price return of 10.01% and a 90 day share price return of a 21.48% decline, even as the 3 year total shareholder return sits at 207.59% and the 1 year...",
+      "pubDate": "2026-01-20T01:08:23Z",
+      "displayTime": "2026-01-20T01:08:23Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
+        "originalWidth": 1194,
+        "originalHeight": 432,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/DHq886Ag4G1rS9TKIvWzQQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
+            "width": 1194,
+            "height": 432,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/fl7FB00ESSj9386P3xBSmQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Simply Wall St.",
+        "url": "https://simplywall.st/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/assessing-xiaomi-sehk-1810-valuation-010823573.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/assessing-xiaomi-sehk-1810-valuation-010823573.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "b4962ce9-8ad3-3daf-b7e1-dcb7618bcefa",
     "content": {
       "id": "b4962ce9-8ad3-3daf-b7e1-dcb7618bcefa",
@@ -532,67 +593,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/apple-leads-global-smartphone-market-113854832.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "1dc427d2-62b2-3c32-8872-bd343069c1bb",
-    "content": {
-      "id": "1dc427d2-62b2-3c32-8872-bd343069c1bb",
-      "contentType": "VIDEO",
-      "title": "Apple leads global smartphone market in 2025, says Counterpoint",
-      "description": "<title><body><p>STORY: Global smartphone shipments rose 2% year-on-year in 2025.</p><p>That's according to leading analyst Counterpoint Research Monday (January 12).</p><p>It said sales were lifted by stronger demand and economic strength in emerging markets.</p><p>Apple led the market with a 20% share.</p><p>Counterpoint said the U.S. tech giant saw solid demand in emerging and mid-sized markets.</p><p>And it enjoyed strong sales of the iPhone 17 series.</p><p>Galaxy maker Samsung came second with a 19% share on modest shipment growth.</p><p>While China's Xiaomi was third on a 13% share and supported by steady demand in emerging markets.</p><p>Counterpoint said the global smartphone market is expected to soften this year due to chip shortages and rising component costs.</p><p>That as chipmakers focus on AI data centers over handsets.</p></body></title>",
-      "summary": "<body><p>STORY: Global smartphone shipments rose 2% year-on-year in 2025.</p><p>That's according to leading analyst Counterpoint Research Monday (January 12).</p><p>It said sales were lifted by stronger demand and economic strength in emerging markets.</p><p>Apple led the market with a 20% share.</p><p>Counterpoint said the U.S. tech giant saw solid demand in emerging and mid-sized markets.</p><p>And it enjoyed&nbsp;strong sales of the iPhone 17 series.</p><p>Galaxy maker Samsung came second with a 19% share on modest shipment growth.</p><p>While China's Xiaomi was third on a 13% share and supported by steady demand in emerging markets.</p><p>Counterpoint said the global smartphone market is expected to soften this year due to chip shortages and rising component costs.</p><p>That as chipmakers focus on AI data centers over handsets.</p></body>",
-      "pubDate": "2026-01-12T10:57:56Z",
-      "displayTime": "",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://s.yimg.com/uu/api/res/1.2/4r9iCTfrl7o1B9Ou3uK9Ew--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://cf-images.us-east-1.prod.boltdns.net/v1/jit/6415665815001/92b8c885-b5b3-439f-969b-d0dac598c390/main/1280x720/26s421ms/match/image.jpg",
-        "originalWidth": 1280,
-        "originalHeight": 720,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/4r9iCTfrl7o1B9Ou3uK9Ew--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://cf-images.us-east-1.prod.boltdns.net/v1/jit/6415665815001/92b8c885-b5b3-439f-969b-d0dac598c390/main/1280x720/26s421ms/match/image.jpg",
-            "width": 1280,
-            "height": 720,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/nctrPNAwVnYHPYYfG.XGgg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://cf-images.us-east-1.prod.boltdns.net/v1/jit/6415665815001/92b8c885-b5b3-439f-969b-d0dac598c390/main/1280x720/26s421ms/match/image.jpg",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Reuters Videos",
-        "url": "http://www.reuters.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/video/apple-leads-global-smartphone-market-105756650.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/video/apple-leads-global-smartphone-market-105756650.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
