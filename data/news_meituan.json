@@ -1,5 +1,47 @@
 [
   {
+    "id": "ad0433bc-8281-3960-b1c5-8f1d8b414181",
+    "content": {
+      "id": "ad0433bc-8281-3960-b1c5-8f1d8b414181",
+      "contentType": "STORY",
+      "title": "Baidu shares climb as Ernie AI reportedly hits 200 million monthly user mark",
+      "description": "",
+      "summary": "Investing.com -- Baidu Inc (NASDAQ:BIDU) shares rose 1% in Tuesday trading following reports that its primary artificial intelligence interface has reached a significant adoption milestone. The Beijing-based search giant’s Ernie Assistant has officially surpassed 200 million monthly active users, according to reporting from The Wall Street Journal, citing people familiar with the matter. The growth comes as the company deepens the integration of its Ernie model into its flagship search applicati",
+      "pubDate": "2026-01-20T15:25:15Z",
+      "displayTime": "2026-01-20T15:25:15Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": null,
+      "provider": {
+        "displayName": "Investing.com",
+        "url": "https://www.investing.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/baidu-shares-climb-ernie-ai-152515850.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/baidu-shares-climb-ernie-ai-152515850.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "998bf5fb-867b-357e-b5c0-2c678c7c9ae4",
     "content": {
       "id": "998bf5fb-867b-357e-b5c0-2c678c7c9ae4",
@@ -532,67 +574,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/walmart-alibaba-novo-nordisk-be-semiconductor-british-land-trending-tickers-094445339.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "b3520474-ac63-324f-bcc6-78d23e185d6c",
-    "content": {
-      "id": "b3520474-ac63-324f-bcc6-78d23e185d6c",
-      "contentType": "STORY",
-      "title": "Beijing Steps In To Stop Brutal Online Discount Wars",
-      "description": "",
-      "summary": "China rolled out sweeping new rules on Wednesday to rein in aggressive competition in e-commerce, banning major platforms such as Alibaba Group Holding Ltd. (NYSE:BABA) from forcing online merchants into promotions or deep discounts. The regulations, which take effect in February, follow repeated warnings from Beijing to Alibaba, JD.com Inc. (NASDAQ:JD), and Meituan (OTC:MPNGY) to stop pressuring sellers with pricing tactics that regulators say disrupt market order. Authorities also issued separ",
-      "pubDate": "2026-01-09T02:31:05Z",
-      "displayTime": "2026-01-09T02:31:05Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/Benzinga/f601afd27a30a67618e1813cbb099dfd",
-        "originalWidth": 1000,
-        "originalHeight": 591,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/P8060ag.h7dNVIa7fBNslw--~B/aD01OTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Benzinga/f601afd27a30a67618e1813cbb099dfd",
-            "width": 1000,
-            "height": 591,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/I7HlJvCbcCix_wt4c3_tow--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Benzinga/f601afd27a30a67618e1813cbb099dfd",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Benzinga",
-        "url": "http://www.benzinga.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/beijing-steps-stop-brutal-online-023105230.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/beijing-steps-stop-brutal-online-023105230.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"

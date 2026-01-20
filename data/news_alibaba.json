@@ -1,5 +1,61 @@
 [
   {
+    "id": "dcecb173-77f2-3e08-b90b-b3eae1c802db",
+    "content": {
+      "id": "dcecb173-77f2-3e08-b90b-b3eae1c802db",
+      "contentType": "STORY",
+      "title": "Tech, Media & Telecom Roundup: Market Talk",
+      "description": "",
+      "summary": "Find insight on American artificial-intelligence investment, Meta, AI infrastructure and more in the latest Market Talks covering Technology, Media and Telecom.",
+      "pubDate": "2026-01-20T17:23:00Z",
+      "displayTime": "2026-01-20T17:23:00Z",
+      "isHosted": false,
+      "bypassModal": false,
+      "previewUrl": "https://finance.yahoo.com/m/dcecb173-77f2-3e08-b90b-b3eae1c802db/tech-media-telecom.html",
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/wsj.com/547fbf7006d0e41e44a40bb77fb2641a",
+        "originalWidth": 1280,
+        "originalHeight": 640,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/q6b__JhCyJ7mz1mpRA7zfA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/547fbf7006d0e41e44a40bb77fb2641a",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Ci6LLV.mmMQFDK0wC.LJuQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/wsj.com/547fbf7006d0e41e44a40bb77fb2641a",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "The Wall Street Journal",
+        "url": "http://www.wsj.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.wsj.com/tech/tech-media-telecom-roundup-market-talk-71bd8506?siteid=yhoof2&yptr=yahoo",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": null,
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "375310d1-22cd-33ad-9cc0-ddd6f512302f",
     "content": {
       "id": "375310d1-22cd-33ad-9cc0-ddd6f512302f",
@@ -538,67 +594,6 @@
         "premiumFinance": {
           "isPremiumNews": false,
           "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "28539900-33ae-3638-b4cb-7d00ea556e2b",
-    "content": {
-      "id": "28539900-33ae-3638-b4cb-7d00ea556e2b",
-      "contentType": "STORY",
-      "title": "Nvidia suppliers halt H200 output after China blocks chip shipments",
-      "description": "",
-      "summary": "Suppliers of parts for Nvidia’s H200 chips, which recently gained US approval for sale in China, have paused production after local customs officials...",
-      "pubDate": "2026-01-17T01:30:05Z",
-      "displayTime": "2026-01-17T13:26:56Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://s.yimg.com/uu/api/res/1.2/Gz6pSURoepBd2rJqh7s16A--~B/aD00MDAwO3c9NjAwMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-01/a8c7a6f7-982c-4a41-8302-e1330e0704e3",
-        "originalWidth": 6000,
-        "originalHeight": 4000,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Gz6pSURoepBd2rJqh7s16A--~B/aD00MDAwO3c9NjAwMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-01/a8c7a6f7-982c-4a41-8302-e1330e0704e3",
-            "width": 6000,
-            "height": 4000,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/rZ3n1y87yzkIAbF8GaxA0Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://d29szjachogqwa.cloudfront.net/images/2026-01/a8c7a6f7-982c-4a41-8302-e1330e0704e3",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Financial Times",
-        "url": "https://www.ft.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/nvidia-suppliers-halt-h200-output-013005391.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/nvidia-suppliers-halt-h200-output-013005391.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": true,
-          "isPremiumFreeNews": true
         }
       },
       "storyline": null
