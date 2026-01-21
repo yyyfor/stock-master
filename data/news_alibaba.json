@@ -1,5 +1,66 @@
 [
   {
+    "id": "e87e56d8-d5f1-36dc-83d4-5cb0e4055abe",
+    "content": {
+      "id": "e87e56d8-d5f1-36dc-83d4-5cb0e4055abe",
+      "contentType": "STORY",
+      "title": "Alibaba Teams With China’s Nuclear Leader to Power AI Expansion",
+      "description": "",
+      "summary": "Alibaba this week established a 250 million yuan ($35.9 million) joint venture with China National Nuclear Power Co. and several other partners, according to data on corporate database Tianyancha.  The registration documents outlined areas of cooperation including energy generation, but didn’t specify the exact scope of their partnership or operations.  Alibaba representatives didn’t immediately respond to requests for comment.",
+      "pubDate": "2026-01-21T04:13:35Z",
+      "displayTime": "2026-01-21T04:13:35Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/f867b18c44b89ad4269ec47e11dd1cda",
+        "originalWidth": 594,
+        "originalHeight": 396,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/tn6LNPJAbazj4Geoe4Za7w--~B/aD0zOTY7dz01OTQ7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/f867b18c44b89ad4269ec47e11dd1cda",
+            "width": 594,
+            "height": 396,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/jOCa_oiH4mREVEhP4wF5OA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/f867b18c44b89ad4269ec47e11dd1cda",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Bloomberg",
+        "url": "https://www.bloomberg.com/company"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-teams-china-nuclear-leader-041335539.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-teams-china-nuclear-leader-041335539.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "fd748415-417f-3f8f-bb2b-66f3a627d827",
     "content": {
       "id": "fd748415-417f-3f8f-bb2b-66f3a627d827",
@@ -512,62 +573,6 @@
         "region": "US",
         "lang": "en-US"
       },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "0335c0e9-475c-3278-9d83-c1d5f2c083a8",
-    "content": {
-      "id": "0335c0e9-475c-3278-9d83-c1d5f2c083a8",
-      "contentType": "STORY",
-      "title": "Alibaba Stock Drops After a Blistering AI Rally. These 2 Worries Are Rattling Investors.",
-      "description": "",
-      "summary": "Alibaba’s shares fell 3.5% to 160.40 Hong Kong dollars.  The benchmark  closed 1.1% lower as investors ditched risk assets after President Donald Trump threatened to impose tariffs on eight NATO nations.  The selloff came after China said its fourth-quarter gross domestic product grew 4.5% from a year ago, slowing from 4.8% for the third quarter.",
-      "pubDate": "2026-01-19T12:57:00Z",
-      "displayTime": "2026-01-19T12:57:00Z",
-      "isHosted": false,
-      "bypassModal": false,
-      "previewUrl": "https://finance.yahoo.com/m/0335c0e9-475c-3278-9d83-c1d5f2c083a8/alibaba-stock-drops-after-a.html",
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/Barrons.com/2a0c25b4c0f8b7c9175847c9bb5544ca",
-        "originalWidth": 1280,
-        "originalHeight": 640,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Pa4pRZOPwfSyIRmArw_aUA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/2a0c25b4c0f8b7c9175847c9bb5544ca",
-            "width": 1280,
-            "height": 640,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/mt1tq1FVodGgSy3023dWxg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Barrons.com/2a0c25b4c0f8b7c9175847c9bb5544ca",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Barrons.com",
-        "url": "http://www.barrons.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.barrons.com/articles/alibaba-stock-price-china-data-consumer-6861954f?siteid=yhoof2&yptr=yahoo",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": null,
       "metadata": {
         "editorsPick": false
       },
