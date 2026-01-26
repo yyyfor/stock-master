@@ -1,5 +1,122 @@
 [
   {
+    "id": "4da6d2b2-bd57-3cb7-b802-20e5c877aac4",
+    "content": {
+      "id": "4da6d2b2-bd57-3cb7-b802-20e5c877aac4",
+      "contentType": "STORY",
+      "title": "Nvidia Stock Gains. What It Needs From Big Tech Earnings.",
+      "description": "",
+      "summary": "Nvidia stock could rise if technology companies like Microsoft raise their capital expenditure guidance for the year.",
+      "pubDate": "2026-01-26T15:01:00Z",
+      "displayTime": "2026-01-26T15:01:00Z",
+      "isHosted": false,
+      "bypassModal": false,
+      "previewUrl": "https://finance.yahoo.com/m/4da6d2b2-bd57-3cb7-b802-20e5c877aac4/nvidia-stock-gains-what-it.html",
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/Barrons.com/654fcd13be4e43dca7e6ff6e8e2b2942",
+        "originalWidth": 1280,
+        "originalHeight": 640,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/byS8qTApAAhYoKVD4Qlzuw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/654fcd13be4e43dca7e6ff6e8e2b2942",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/_iFqAW10UDXJSJv7sF4OkQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Barrons.com/654fcd13be4e43dca7e6ff6e8e2b2942",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Barrons.com",
+        "url": "http://www.barrons.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.barrons.com/articles/nvidia-stock-price-earnings-tech-676426ea?siteid=yhoof2&yptr=yahoo",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": null,
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "0dda9124-9c49-3514-a19f-3f9cf3dc9271",
+    "content": {
+      "id": "0dda9124-9c49-3514-a19f-3f9cf3dc9271",
+      "contentType": "STORY",
+      "title": "Nvidia, Amazon and TikTok Shape Tech Headlines",
+      "description": "",
+      "summary": "China access, job cuts and politics collide",
+      "pubDate": "2026-01-26T14:55:35Z",
+      "displayTime": "2026-01-26T14:55:35Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/528af7acf1b685a79f0a0ee8c34ab69c",
+        "originalWidth": 500,
+        "originalHeight": 500,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/TmwzWnbiiLMX4H6E8MgK_w--~B/aD01MDA7dz01MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/528af7acf1b685a79f0a0ee8c34ab69c",
+            "width": 500,
+            "height": 500,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/YUjVQvtE5RGTeBb3yJfgIg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/528af7acf1b685a79f0a0ee8c34ab69c",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "GuruFocus.com",
+        "url": "http://www.gurufocus.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/nvidia-amazon-tiktok-shape-tech-145535837.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/nvidia-amazon-tiktok-shape-tech-145535837.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "56fa6bcd-bc1b-33a8-9dbc-1b224644a86f",
     "content": {
       "id": "56fa6bcd-bc1b-33a8-9dbc-1b224644a86f",
@@ -457,90 +574,6 @@
       "finance": {
         "premiumFinance": {
           "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "3bc388a0-f557-368e-a19b-02ff889a2d31",
-    "content": {
-      "id": "3bc388a0-f557-368e-a19b-02ff889a2d31",
-      "contentType": "STORY",
-      "title": "Top Midday Stories: Intel Shares Fall on Downbeat Earnings Outlook; Chinese Tech Firms Clear Regulatory Hurdle for Buying Nvidia Chips",
-      "description": "",
-      "summary": "US stocks were mixed in late-morning trading Friday after a two-day rally stemming from an easing of",
-      "pubDate": "2026-01-23T16:28:53Z",
-      "displayTime": "2026-01-23T16:28:53Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": null,
-      "provider": {
-        "displayName": "MT Newswires",
-        "url": "https://www.mtnewswires.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/top-midday-stories-intel-shares-162853901.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/top-midday-stories-intel-shares-162853901.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": true,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "e93755a9-7335-3de5-b3b4-301827ad23c9",
-    "content": {
-      "id": "e93755a9-7335-3de5-b3b4-301827ad23c9",
-      "contentType": "STORY",
-      "title": "Sector Update: Consumer Stocks Lean Lower Premarket Friday",
-      "description": "",
-      "summary": "Consumer stocks were leaning lower premarket Friday, with the State Street Consumer Staples Select S",
-      "pubDate": "2026-01-23T14:16:48Z",
-      "displayTime": "2026-01-23T14:16:48Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": null,
-      "provider": {
-        "displayName": "MT Newswires",
-        "url": "https://www.mtnewswires.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/sector-consumer-stocks-lean-lower-141648382.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/sector-consumer-stocks-lean-lower-141648382.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": true,
           "isPremiumFreeNews": false
         }
       },
