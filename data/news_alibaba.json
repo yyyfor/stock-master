@@ -1,31 +1,31 @@
 [
   {
-    "id": "2c1c404b-6983-34c3-aa1d-0f173f3fe6b8",
+    "id": "8289bbe9-877a-353a-bbce-ccfa973197ac",
     "content": {
-      "id": "2c1c404b-6983-34c3-aa1d-0f173f3fe6b8",
+      "id": "8289bbe9-877a-353a-bbce-ccfa973197ac",
       "contentType": "STORY",
-      "title": "Tesla’s Price Target Is Rising Even as Its Profit Outlook Tanks",
+      "title": "Dow Jones AI Giant Nvidia Set To Hit New Buy Point After This Bullish Move",
       "description": "",
-      "summary": "“Tesla is truly unique in capital markets,” said Nicholas Colas, co-founder at DataTrek Research.  Over the past 12 months, the average forecast for Tesla’s 2026 net income has tumbled 56% from $14.1 billion to $6.1 billion.  The stock is up 7% in that time after closing Tuesday at $435.20, well above Wall Street’s expectations for a year from now.",
-      "pubDate": "2026-01-27T11:27:16Z",
-      "displayTime": "2026-01-27T11:27:16Z",
-      "isHosted": true,
+      "summary": "Dow Jones AI giant Nvidia stock is poised to hit a new buy point following last week's bullish retake of the 50-day line.",
+      "pubDate": "2026-01-27T17:29:39Z",
+      "displayTime": "2026-01-27T17:29:39Z",
+      "isHosted": false,
       "bypassModal": false,
-      "previewUrl": null,
+      "previewUrl": "https://finance.yahoo.com/m/8289bbe9-877a-353a-bbce-ccfa973197ac/dow-jones-ai-giant-nvidia-set.html",
       "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/6a7cb34c63337deae4f9f77b81d3acc7",
-        "originalWidth": 2000,
-        "originalHeight": 1333,
+        "originalUrl": "https://media.zenfs.com/en/ibd.com/fdc289c4d66a72da9baddabddd437be7",
+        "originalWidth": 1000,
+        "originalHeight": 563,
         "caption": "",
         "resolutions": [
           {
-            "url": "https://s.yimg.com/uu/api/res/1.2/dMJpuYhu9v7Qy58PHIxvHA--~B/aD0xMzMzO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/6a7cb34c63337deae4f9f77b81d3acc7",
-            "width": 2000,
-            "height": 1333,
+            "url": "https://s.yimg.com/uu/api/res/1.2/1JJXZWUm3K8E4NxHnsRFGQ--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/fdc289c4d66a72da9baddabddd437be7",
+            "width": 1000,
+            "height": 563,
             "tag": "original"
           },
           {
-            "url": "https://s.yimg.com/uu/api/res/1.2/3FvDiFaSaIpOCZhAcrD62Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/6a7cb34c63337deae4f9f77b81d3acc7",
+            "url": "https://s.yimg.com/uu/api/res/1.2/IKM89auQ3aRlzz05JhA2GA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/ibd.com/fdc289c4d66a72da9baddabddd437be7",
             "width": 170,
             "height": 128,
             "tag": "170x128"
@@ -33,17 +33,195 @@
         ]
       },
       "provider": {
-        "displayName": "Bloomberg",
-        "url": "https://www.bloomberg.com/company"
+        "displayName": "Investor's Business Daily",
+        "url": "http://www.investors.com/"
       },
       "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/tesla-price-target-rising-even-112716958.html",
+        "url": "https://www.investors.com/stock-lists/stocks-near-a-buy-zone/dow-jones-nvidia-nvda-stock-new-buy-point/?src=A00220&yptr=yahoo",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": null,
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "c54d1ee0-2a27-3345-803b-e4316ce43975",
+    "content": {
+      "id": "c54d1ee0-2a27-3345-803b-e4316ce43975",
+      "contentType": "STORY",
+      "title": "Chinese Tech Giants Receive the OK to ‘Prep’ for H200 Orders. How Should Nvidia Stock Investors Play the Return to China Thesis?",
+      "description": "",
+      "summary": "Top tech companies like Alibaba and ByteDance have been told they can prepare for H200 orders.",
+      "pubDate": "2026-01-27T14:00:02Z",
+      "displayTime": "2026-01-27T14:00:02Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/barchart_com_477/828805b72adb05952504a4fefd6c1a8a",
+        "originalWidth": 1254,
+        "originalHeight": 836,
+        "caption": "NVIDIA Corp logo outside building-by BING-JHEN_HONG via iStock",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/H.C.geGpwvh36Gj_VZcwjg--~B/aD04MzY7dz0xMjU0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/barchart_com_477/828805b72adb05952504a4fefd6c1a8a",
+            "width": 1254,
+            "height": 836,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/3wo8M4bLoNJw2ssv0RMlAw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/barchart_com_477/828805b72adb05952504a4fefd6c1a8a",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Barchart",
+        "url": "https://www.barchart.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.barchart.com/story/news/37249248/chinese-tech-giants-receive-the-ok-to-prep-for-h200-orders-how-should-nvidia-stock-investors-play-the-return-to-china-thesis",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
       },
       "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/tesla-price-target-rising-even-112716958.html",
+        "url": "https://finance.yahoo.com/news/chinese-tech-giants-receive-ok-140002576.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "180e533d-7ebf-3c2f-b6ff-1c3c555c8c9b",
+    "content": {
+      "id": "180e533d-7ebf-3c2f-b6ff-1c3c555c8c9b",
+      "contentType": "STORY",
+      "title": "Node-based design tool Flora raises $42M from Redpoint Ventures",
+      "description": "",
+      "summary": "Flora's node-based design tool is being used by companies like Pentagram and Lionsgate.",
+      "pubDate": "2026-01-27T14:00:00Z",
+      "displayTime": "2026-01-27T14:00:00Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/techcrunch_finance_785/f896657dcd5438a2e9338dce77e2bd4a",
+        "originalWidth": 2022,
+        "originalHeight": 1093,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/ZKVJRqBIkYI9sQJnyaVU6Q--~B/aD0xMDkzO3c9MjAyMjthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/techcrunch_finance_785/f896657dcd5438a2e9338dce77e2bd4a",
+            "width": 2022,
+            "height": 1093,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/9CwahMPVuFsbFeo.9K4wAg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/techcrunch_finance_785/f896657dcd5438a2e9338dce77e2bd4a",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "TechCrunch",
+        "url": "https://techcrunch.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/node-based-design-tool-flora-140000565.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/node-based-design-tool-flora-140000565.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "983f566f-7083-35ca-9249-fe145d233b71",
+    "content": {
+      "id": "983f566f-7083-35ca-9249-fe145d233b71",
+      "contentType": "STORY",
+      "title": "China AI Hardware Earnings Pull Further Ahead of Internet Giants",
+      "description": "",
+      "summary": "Bloomberg Intelligence data shows IT profit estimates up 50% year-on-year, while China's Tech 8 face a 12% decline amid competition.",
+      "pubDate": "2026-01-27T13:08:32Z",
+      "displayTime": "2026-01-27T13:08:32Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/76a1738dba3b3cb45d19c040ccdb1dd2",
+        "originalWidth": 5215,
+        "originalHeight": 3477,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/ij.PSQVlmwCTNB4anfxtdw--~B/aD0zNDc3O3c9NTIxNTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/us.finance.gurufocus/76a1738dba3b3cb45d19c040ccdb1dd2",
+            "width": 5215,
+            "height": 3477,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/yDwPDmUpHWfnyRfXei5SBg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/76a1738dba3b3cb45d19c040ccdb1dd2",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "GuruFocus.com",
+        "url": "http://www.gurufocus.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/china-ai-hardware-earnings-pull-130832076.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/china-ai-hardware-earnings-pull-130832076.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
@@ -400,184 +578,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/analysts-think-changing-story-alibaba-070650451.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "ff3c5d68-5280-3976-b4a2-5f55d306d15c",
-    "content": {
-      "id": "ff3c5d68-5280-3976-b4a2-5f55d306d15c",
-      "contentType": "STORY",
-      "title": "Nvidia, IBD Stock Of The Day, Looks To Finally Score China Sales",
-      "description": "",
-      "summary": "Nvidia is the IBD Stock Of The Day as signs point to the AI chipmaker finally regaining access to the China market.",
-      "pubDate": "2026-01-23T21:57:21Z",
-      "displayTime": "2026-01-23T21:57:21Z",
-      "isHosted": false,
-      "bypassModal": false,
-      "previewUrl": "https://finance.yahoo.com/m/ff3c5d68-5280-3976-b4a2-5f55d306d15c/nvidia-ibd-stock-of-the-day-.html",
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/ibd.com/b94515bfbfd7109dbd258be630a9fa07",
-        "originalWidth": 816,
-        "originalHeight": 430,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/oJ_fQKqUC5PCglIdtlQ_CQ--~B/aD00MzA7dz04MTY7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/ibd.com/b94515bfbfd7109dbd258be630a9fa07",
-            "width": 816,
-            "height": 430,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/ctKXm83dzy5uUr1b3j0hVQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/ibd.com/b94515bfbfd7109dbd258be630a9fa07",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Investor's Business Daily",
-        "url": "http://www.investors.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.investors.com/research/ibd-stock-of-the-day/nvidia-stock-nvda-looks-to-score-china-sales/?src=A00220&yptr=yahoo",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": null,
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "3e0363c4-acf1-384a-9d34-3e8cb6056a57",
-    "content": {
-      "id": "3e0363c4-acf1-384a-9d34-3e8cb6056a57",
-      "contentType": "STORY",
-      "title": "Earnings, Macro Data Leave Equities Mixed Intraday; Silver Tops $100",
-      "description": "",
-      "summary": "US benchmark equity indexes were mixed intraday following the latest batch of corporate earnings and",
-      "pubDate": "2026-01-23T19:04:28Z",
-      "displayTime": "2026-01-23T19:04:28Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/mt_newswires_premium_news_706/0c887a492733aab96ac405a5871f559a",
-        "originalWidth": 1024,
-        "originalHeight": 768,
-        "caption": "Stocks_Chart market equity trading wall street - Shutterstock",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/_8ROLj_eGdOJIxXAZcVMog--~B/aD03Njg7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/mt_newswires_premium_news_706/0c887a492733aab96ac405a5871f559a",
-            "width": 1024,
-            "height": 768,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/rqztGf2Nf3s4yE7KC_yddQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/mt_newswires_premium_news_706/0c887a492733aab96ac405a5871f559a",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "MT Newswires",
-        "url": "https://www.mtnewswires.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/earnings-macro-data-leave-equities-190428073.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/earnings-macro-data-leave-equities-190428073.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": true,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "9d475e9b-5ed9-3765-9603-f3788cd5d746",
-    "content": {
-      "id": "9d475e9b-5ed9-3765-9603-f3788cd5d746",
-      "contentType": "STORY",
-      "title": "Alibaba Is Prepping for an AI Chip IPO. Does That Make BABA Stock a Buy Here?",
-      "description": "",
-      "summary": "As Chinese juggernaut Alibaba reportedly preps to list its chipmaking arm, should you consider buying the stock here?",
-      "pubDate": "2026-01-23T18:27:38Z",
-      "displayTime": "2026-01-23T18:27:38Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/barchart_com_477/48907868f89dbe4d9d0a93e7803069d1",
-        "originalWidth": 1600,
-        "originalHeight": 960,
-        "caption": "A concept image of a ticker tape that says Going Public by iQoncept via Shutterstock",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/aVaQ0XvM0lIOvtNP4iBabw--~B/aD05NjA7dz0xNjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/barchart_com_477/48907868f89dbe4d9d0a93e7803069d1",
-            "width": 1600,
-            "height": 960,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/DHZTTDusYfhAdMuUOknnBA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/barchart_com_477/48907868f89dbe4d9d0a93e7803069d1",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Barchart",
-        "url": "https://www.barchart.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.barchart.com/story/news/37200637/alibaba-is-prepping-for-an-ai-chip-ipo-does-that-make-baba-stock-a-buy-here",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-prepping-ai-chip-ipo-182738941.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
