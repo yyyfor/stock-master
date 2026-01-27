@@ -239,6 +239,67 @@
     }
   },
   {
+    "id": "ef68d5d3-1e5b-34bb-9509-23aa2554c5ee",
+    "content": {
+      "id": "ef68d5d3-1e5b-34bb-9509-23aa2554c5ee",
+      "contentType": "STORY",
+      "title": "Micron Says AI-Driven Memory Crunch Is ‘Unprecedented’",
+      "description": "",
+      "summary": "“The shortage we are seeing is really unprecedented,” Micron Executive Vice President of Operations Manish Bhatia said in an interview shortly after the chipmaker held a groundbreaking ceremony for a $100 billion production site outside Syracuse, New York, on Friday, amplifying a similar forecast the company provided in December.  High-bandwidth memory required to make artificial intelligence accelerators is “consuming so much of the available capacity across the industry that it’s leaving a tremendous shortage for the conventional side of the industry, for phones or PCs,” Bhatia said.",
+      "pubDate": "2026-01-19T04:15:23Z",
+      "displayTime": "2026-01-19T04:15:23Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/281f7c321f0cf1215615bd21feb3c90e",
+        "originalWidth": 2010,
+        "originalHeight": 1278,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/HmD8SJVLccxQBzR8UMXRBQ--~B/aD0xMjc4O3c9MjAxMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/281f7c321f0cf1215615bd21feb3c90e",
+            "width": 2010,
+            "height": 1278,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/fiqWjmcXbLuiChUOjP3AUA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/281f7c321f0cf1215615bd21feb3c90e",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Bloomberg",
+        "url": "https://www.bloomberg.com/company"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/micron-says-ai-driven-memory-041523843.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/micron-says-ai-driven-memory-041523843.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "8c6e8ddb-9463-323e-8d13-631c5acb093e",
     "content": {
       "id": "8c6e8ddb-9463-323e-8d13-631c5acb093e",
@@ -527,67 +588,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/xiaomi-sehk-1810-attractive-recent-001739083.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "652bcabb-3c67-3396-9202-31317c764f66",
-    "content": {
-      "id": "652bcabb-3c67-3396-9202-31317c764f66",
-      "contentType": "STORY",
-      "title": "Xiaomi Is No Longer a Handset OEM -- But the Market Still Prices It Like One",
-      "description": "",
-      "summary": "EV profitability, high-margin internet services, and IoT scale point to ecosystem economics, constrained by execution and premium brand trust.",
-      "pubDate": "2026-01-12T13:12:47Z",
-      "displayTime": "2026-01-12T13:12:47Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/2e0c93ec1b3413b4e8d0087ac85219d4",
-        "originalWidth": 400,
-        "originalHeight": 400,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/lLgORyKofmCEkfmrXwpWIQ--~B/aD00MDA7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/2e0c93ec1b3413b4e8d0087ac85219d4",
-            "width": 400,
-            "height": 400,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/IesnoAePPvPcOyFuT1iN3A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/2e0c93ec1b3413b4e8d0087ac85219d4",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "GuruFocus.com",
-        "url": "http://www.gurufocus.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/xiaomi-no-longer-handset-oem-131247764.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/xiaomi-no-longer-handset-oem-131247764.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
