@@ -1,5 +1,66 @@
 [
   {
+    "id": "4befd4d2-fb51-36d2-a6b6-95492c7a8e79",
+    "content": {
+      "id": "4befd4d2-fb51-36d2-a6b6-95492c7a8e79",
+      "contentType": "STORY",
+      "title": "China’s Moonshot Unveils New AI Model Ahead of DeepSeek Release",
+      "description": "",
+      "summary": "The latest iteration of Moonshot’s Kimi can process text, images, and videos simultaneously from a single prompt, the company said in a statement on Tuesday, aligning with a trend toward so-called omni models pioneered by industry leaders like OpenAI and Alphabet Inc.’s Google.  Seeking to capitalize on reignited investor appetite for the country’s top-tier model makers, Moonshot last month raised $500 million from investors including Alibaba and IDG Capital at a post-money valuation of $4.3 billion, according to people familiar with the matter.  To satisfy pent-up investor demand, the company has kicked off new rounds of financing seeking a valuation of as much as $5 billion, one of the people said.",
+      "pubDate": "2026-01-27T04:23:06Z",
+      "displayTime": "2026-01-27T04:23:06Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/be8c48130bb3e9aadf554f1f56ce19e2",
+        "originalWidth": 2000,
+        "originalHeight": 1333,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/GSB68QkdyArNjfHXZtiSlA--~B/aD0xMzMzO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/be8c48130bb3e9aadf554f1f56ce19e2",
+            "width": 2000,
+            "height": 1333,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/aau1Sa.qP7nj3Esve_Rw1g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/be8c48130bb3e9aadf554f1f56ce19e2",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Bloomberg",
+        "url": "https://www.bloomberg.com/company"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/china-moonshot-unveils-ai-model-042306788.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/china-moonshot-unveils-ai-model-042306788.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "290829f2-1bb6-3df8-acc9-264715ee2b08",
     "content": {
       "id": "290829f2-1bb6-3df8-acc9-264715ee2b08",
@@ -503,67 +564,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/top-em-fund-shifts-alibaba-181322744.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "06faf8f0-3778-3ec1-8e0b-2b4a83b58513",
-    "content": {
-      "id": "06faf8f0-3778-3ec1-8e0b-2b4a83b58513",
-      "contentType": "STORY",
-      "title": "China--Nvidia Ties Appear Back On",
-      "description": "",
-      "summary": "Officials move to restart H200 order preparations.",
-      "pubDate": "2026-01-23T18:08:34Z",
-      "displayTime": "2026-01-23T18:08:34Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/528af7acf1b685a79f0a0ee8c34ab69c",
-        "originalWidth": 500,
-        "originalHeight": 500,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/TmwzWnbiiLMX4H6E8MgK_w--~B/aD01MDA7dz01MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/528af7acf1b685a79f0a0ee8c34ab69c",
-            "width": 500,
-            "height": 500,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/YUjVQvtE5RGTeBb3yJfgIg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/528af7acf1b685a79f0a0ee8c34ab69c",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "GuruFocus.com",
-        "url": "http://www.gurufocus.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/china-nvidia-ties-appear-back-180834649.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/china-nvidia-ties-appear-back-180834649.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
