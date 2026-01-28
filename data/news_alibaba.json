@@ -7,8 +7,8 @@
       "title": "Dow Jones AI Giant Nvidia Set To Hit New Buy Point After This Bullish Move",
       "description": "",
       "summary": "Dow Jones AI giant Nvidia stock is poised to hit a new buy point following last week's bullish retake of the 50-day line.",
-      "pubDate": "2026-01-27T17:29:39Z",
-      "displayTime": "2026-01-27T17:29:39Z",
+      "pubDate": "2026-01-27T20:37:27Z",
+      "displayTime": "2026-01-27T20:37:27Z",
       "isHosted": false,
       "bypassModal": false,
       "previewUrl": "https://finance.yahoo.com/m/8289bbe9-877a-353a-bbce-ccfa973197ac/dow-jones-ai-giant-nvidia-set.html",
@@ -43,6 +43,128 @@
         "lang": "en-US"
       },
       "clickThroughUrl": null,
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "706bd439-0e1f-344e-9b80-5f266093a493",
+    "content": {
+      "id": "706bd439-0e1f-344e-9b80-5f266093a493",
+      "contentType": "STORY",
+      "title": "Alibaba Stock Climbs -- New AI Model Matches Google and OpenAI",
+      "description": "",
+      "summary": "Alibaba Cloud Shines as AI Model Competes With Global Leaders",
+      "pubDate": "2026-01-27T18:59:31Z",
+      "displayTime": "2026-01-27T18:59:31Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
+        "originalWidth": 952,
+        "originalHeight": 466,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/ra4Ti30CsXfCq7nnMSbi4Q--~B/aD00NjY7dz05NTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
+            "width": 952,
+            "height": 466,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/H7fwXdruZYh3hbuXrJUdKg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/568a0ae2bcba0ce9fbd06e691db9f39e",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "GuruFocus.com",
+        "url": "http://www.gurufocus.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-stock-climbs-ai-model-185931208.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-stock-climbs-ai-model-185931208.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "a416001e-a7f9-33df-a541-b09fa3e3b8dc",
+    "content": {
+      "id": "a416001e-a7f9-33df-a541-b09fa3e3b8dc",
+      "contentType": "STORY",
+      "title": "Is Alibaba's \"All Others\" Revenues Becoming a Drag on Growth?",
+      "description": "",
+      "summary": "BABA's \"All Others\" unit's revenues decline 25% YoY in Q2 FY26, widening losses and dragging growth despite strength in core businesses.",
+      "pubDate": "2026-01-27T17:23:00Z",
+      "displayTime": "2026-01-27T17:23:00Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/zacks.com/6aeef3c46a6c7ea6b556882abdd6f761",
+        "originalWidth": 635,
+        "originalHeight": 400,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/EmTWvQ4srpUTIJ6nkpmmGQ--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/6aeef3c46a6c7ea6b556882abdd6f761",
+            "width": 635,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/q8ihoTYNJNFJ.YIeBGzdvA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/6aeef3c46a6c7ea6b556882abdd6f761",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Zacks",
+        "url": "http://www.zacks.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibabas-others-revenues-becoming-drag-172300014.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibabas-others-revenues-becoming-drag-172300014.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
       "metadata": {
         "editorsPick": false
       },
@@ -460,128 +582,6 @@
         "lang": "en-US"
       },
       "clickThroughUrl": null,
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "0dda9124-9c49-3514-a19f-3f9cf3dc9271",
-    "content": {
-      "id": "0dda9124-9c49-3514-a19f-3f9cf3dc9271",
-      "contentType": "STORY",
-      "title": "Nvidia, Amazon and TikTok Shape Tech Headlines",
-      "description": "",
-      "summary": "China access, job cuts and politics collide",
-      "pubDate": "2026-01-26T14:55:35Z",
-      "displayTime": "2026-01-26T14:55:35Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/528af7acf1b685a79f0a0ee8c34ab69c",
-        "originalWidth": 500,
-        "originalHeight": 500,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/TmwzWnbiiLMX4H6E8MgK_w--~B/aD01MDA7dz01MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/528af7acf1b685a79f0a0ee8c34ab69c",
-            "width": 500,
-            "height": 500,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/YUjVQvtE5RGTeBb3yJfgIg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/528af7acf1b685a79f0a0ee8c34ab69c",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "GuruFocus.com",
-        "url": "http://www.gurufocus.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/nvidia-amazon-tiktok-shape-tech-145535837.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/nvidia-amazon-tiktok-shape-tech-145535837.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "56fa6bcd-bc1b-33a8-9dbc-1b224644a86f",
-    "content": {
-      "id": "56fa6bcd-bc1b-33a8-9dbc-1b224644a86f",
-      "contentType": "STORY",
-      "title": "What Analysts Think Is Changing The Story For Alibaba Group Holding (NYSE:BABA)",
-      "description": "",
-      "summary": "Why Alibaba’s Price Target Just Shifted Alibaba Group Holding just saw its price target revised, and that change reflects a fresh narrative investors are building around the stock rather than a simple reaction to short term price moves. Analysts are reassessing what matters most for Alibaba now, including how its business mix, regulatory backdrop, capital allocation choices, and shareholder focus are being weighed in current expectations. Continue reading to see how you can keep on top of...",
-      "pubDate": "2026-01-26T07:06:50Z",
-      "displayTime": "2026-01-26T07:06:50Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-        "originalWidth": 1194,
-        "originalHeight": 432,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Asb.EQEV7awFB_Mkuf_o.A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-            "width": 1194,
-            "height": 432,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/D6tGlHnBV1OBj9DD.GNtjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Simply Wall St.",
-        "url": "https://simplywall.st/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/analysts-think-changing-story-alibaba-070650451.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/analysts-think-changing-story-alibaba-070650451.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
       "metadata": {
         "editorsPick": false
       },
