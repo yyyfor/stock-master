@@ -1,68 +1,13 @@
 {
   "tencent": {
-    "price": 613.0,
-    "change_pct": -1.45,
-    "market_cap": "$734B",
+    "price": 614.5,
+    "change_pct": -1.21,
+    "market_cap": "$736B",
     "pe_ratio": 4.5,
     "technical_rating": "Hold",
-    "rsi": 44.25287356321839,
-    "volatility": 19.422450238022265,
+    "rsi": 45.029239766081865,
+    "volatility": 19.216760329359083,
     "52w_high": 677.5,
     "52w_low": 376.7
-  },
-  "baidu": {
-    "price": 153.1,
-    "change_pct": -1.54,
-    "market_cap": "$68B",
-    "pe_ratio": 2.0,
-    "technical_rating": "Buy",
-    "rsi": 63.63636363636366,
-    "volatility": 35.27802122694897,
-    "52w_high": 160.5,
-    "52w_low": 75.5
-  },
-  "jd": {
-    "price": 113.2,
-    "change_pct": -1.22,
-    "market_cap": "$186B",
-    "pe_ratio": 7.1,
-    "technical_rating": "Buy",
-    "rsi": 39.54802259887005,
-    "volatility": 23.458513214677424,
-    "52w_high": 175.114,
-    "52w_low": 110.3
-  },
-  "alibaba": {
-    "price": 168.3,
-    "change_pct": -2.89,
-    "market_cap": "$507B",
-    "pe_ratio": 3.9,
-    "technical_rating": "Buy",
-    "rsi": 63.25757575757576,
-    "volatility": 44.411283360209445,
-    "52w_high": 185.1,
-    "52w_low": 80.949
-  },
-  "xiaomi": {
-    "price": 35.88,
-    "change_pct": -2.02,
-    "market_cap": "$111B",
-    "pe_ratio": 3.0,
-    "technical_rating": "Sell",
-    "rsi": 31.713554987212262,
-    "volatility": 26.19606891903129,
-    "52w_high": 60.15,
-    "52w_low": 34.5
-  },
-  "meituan": {
-    "price": 98.55,
-    "change_pct": -0.05,
-    "market_cap": "$713B",
-    "pe_ratio": 75.3,
-    "technical_rating": "Sell",
-    "rsi": 22.317596566523576,
-    "volatility": 32.82525112618026,
-    "52w_high": 183.5,
-    "52w_low": 94.5
   }
 }

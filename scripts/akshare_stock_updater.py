@@ -804,6 +804,59 @@ def update_company_html(company: str, data: Dict) -> bool:
         pattern = rf'(<div class="metric-item"><span class="metric-label">{label}</span> <strong>)[^<]+(</strong>)'
         content = re.sub(pattern, rf"\g<1>{value}\g<2>", content)
 
+    # Update timestamp
+    now = datetime.now()
+    timestamp = now.strftime("%B %d, %Y")
+    content = re.sub(
+        r'📅 Data Snapshot:.*?</span>',
+        f'📅 Data Snapshot: {timestamp}</span>',
+        content
+    )
+
+    # Update 52W High/Low combined format
+    high_low_pattern = r'(<div class="metric-item"><span class="metric-label">52W High/Low:</span> <strong>)[^<]+(</strong>)'
+    content = re.sub(high_low_pattern, rf"\g<1>HK${data['52w_high']:.2f} / HK${data['52w_low']:.2f}\g<2>", content)
+
+    # Add technical indicators section if not exists
+    tech_section = f'''
+            <!-- Technical Indicators -->
+            <div class="metrics-grid" style="margin-top: 20px;">
+                <h4 style="color: var(--company-color); margin-bottom: 15px; font-size: 1.1rem;">📈 Technical Indicators</h4>
+                <div class="row">
+                    <div class="col-md-6">
+                        <table class="table table-sm" style="font-size: 0.85rem;">
+                            <tr><td>RSI (14)</td><td class="text-end fw-bold">{data['rsi_14']:.1f}</td></tr>
+                            <tr><td>MACD</td><td class="text-end fw-bold">{data['macd']:.2f}</td></tr>
+                            <tr><td>Volatility</td><td class="text-end fw-bold">{data['volatility']:.1f}%</td></tr>
+                        </table>
+                    </div>
+                    <div class="col-md-6">
+                        <table class="table table-sm" style="font-size: 0.85rem;">
+                            <tr><td>20D MA</td><td class="text-end fw-bold">HK${data['ma_20']:.2f}</td></tr>
+                            <tr><td>50D MA</td><td class="text-end fw-bold">HK${data['ma_50']:.2f}</td></tr>
+                            <tr><td>Technical Rating</td><td class="text-end fw-bold" style="color: {data['technical_rating']['color']};">{data['technical_rating']['rating']}</td></tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+    '''
+
+    # Only add if not already present
+    if 'Technical Indicators' not in content:
+        # Find after the metrics grid section
+        content = re.sub(
+            r'(</div>\s*</div>\s*<!-- Investment Thesis -->)',
+            tech_section + r'\1',
+            content
+        )
+        # Alternative pattern
+        if 'Technical Indicators' not in content:
+            content = re.sub(
+                r'(<!-- Investment Thesis -->)',
+                tech_section + r'\1',
+                content
+            )
+
     with open(html_file, 'w', encoding='utf-8') as f:
         f.write(content)
 
