@@ -33,8 +33,8 @@ jobs:
       - name: Update financial data
         run: |
           echo "Fetching latest financial data for Tencent, Baidu, JD.com, Alibaba, Xiaomi, Meituan..."
-          # Update metrics for all 6 companies
-          python scripts/update_all_companies.py
+          # Update metrics for all 6 companies using AkShare
+          python scripts/akshare_stock_updater.py
           echo "Data update completed at $(date)"
 
       - name: Commit and push if changes
