@@ -1,5 +1,66 @@
 [
   {
+    "id": "0341e2d0-6b14-3511-ac76-269d876766a5",
+    "content": {
+      "id": "0341e2d0-6b14-3511-ac76-269d876766a5",
+      "contentType": "STORY",
+      "title": "Baidu’s AI Models Continue to Expand with Ernie Assistant Surpassing 200 million Monthly Active Users",
+      "description": "",
+      "summary": "Baidu, Inc. (NASDAQ:BIDU) is one of the Top 15 Chinese Companies on US Exchanges. On January 20, WSJ reported that Baidu, Inc.’s AI assistant has surpassed 200 million monthly active users. Amid the growing AI competition among Chinese tech giants, Baidu’s flagship AI model Ernie Assistant is integrated into the company’s leading search engine app […]",
+      "pubDate": "2026-01-30T20:23:34Z",
+      "displayTime": "2026-01-30T20:23:34Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/ce42ff41031579901fca0ebdde0e6d06",
+        "originalWidth": 1000,
+        "originalHeight": 688,
+        "caption": "Baidu's AI Models Continues to Expand With Ernie Assistant Surpassing 200 million Monthly Active Users",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/zkdHQu2owLHaiWQIXWU.lA--~B/aD02ODg7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/ce42ff41031579901fca0ebdde0e6d06",
+            "width": 1000,
+            "height": 688,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/fioPi30oTUiPY_DYD3l16g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/ce42ff41031579901fca0ebdde0e6d06",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Insider Monkey",
+        "url": "http://www.insidermonkey.com"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/baidu-ai-models-continue-expand-202334075.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/baidu-ai-models-continue-expand-202334075.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "983f566f-7083-35ca-9249-fe145d233b71",
     "content": {
       "id": "983f566f-7083-35ca-9249-fe145d233b71",
@@ -513,67 +574,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/china-antitrust-probe-lifts-food-164635823.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "af38ae2b-ee54-391f-bcd4-48b65416a8df",
-    "content": {
-      "id": "af38ae2b-ee54-391f-bcd4-48b65416a8df",
-      "contentType": "STORY",
-      "title": "Meituan, Alibaba Shares Jump as China Seeks to Curb Price Wars",
-      "description": "",
-      "summary": "Market leader Meituan’s stock rallied 6.6% in Hong Kong, the most since May 29.  Shares of Alibaba Group Holding Ltd. — the biggest challenger to Meituan — rose 5.3%, while the company’s US-listed shares extended gains to rally as much as 11%.  “The increased scrutiny on competition will be supportive of industry margins,” said Catherine Lim, an analyst at Bloomberg Intelligence.",
-      "pubDate": "2026-01-12T16:36:55Z",
-      "displayTime": "2026-01-12T16:36:55Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/068a2f1547624b07c88db39f35688804",
-        "originalWidth": 2000,
-        "originalHeight": 1333,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/5E7lyCQxDpsT.DrEY8nCNA--~B/aD0xMzMzO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/068a2f1547624b07c88db39f35688804",
-            "width": 2000,
-            "height": 1333,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/bzyOX3CbUKhg8naiN4kL1g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/068a2f1547624b07c88db39f35688804",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Bloomberg",
-        "url": "https://www.bloomberg.com/company"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/meituan-alibaba-shares-jump-china-085618475.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/meituan-alibaba-shares-jump-china-085618475.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
