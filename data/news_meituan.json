@@ -1,5 +1,66 @@
 [
   {
+    "id": "197e9efc-536b-3f07-9eaa-46bb9be3f0a4",
+    "content": {
+      "id": "197e9efc-536b-3f07-9eaa-46bb9be3f0a4",
+      "contentType": "STORY",
+      "title": "Assessing Meituan (SEHK:3690) Valuation After Prolonged Share Price Weakness",
+      "description": "",
+      "summary": "Recent share performance puts Meituan in focus With no single headline event driving Meituan (SEHK:3690) today, recent share performance is drawing attention. The stock shows negative returns over the past week, month, past 3 months, year, and three and five year periods. See our latest analysis for Meituan. At the current share price of HK$97.2, Meituan’s recent 1 month share price return of a 5.91% decline sits alongside a 1 year total shareholder return of a 34.41% decline. This suggests...",
+      "pubDate": "2026-02-01T14:10:18Z",
+      "displayTime": "2026-02-01T14:10:18Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/992331fc596d921e34ccfa3b8813259a",
+        "originalWidth": 1194,
+        "originalHeight": 432,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/00OqBzbQM9NM6aQKBzc4vA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/992331fc596d921e34ccfa3b8813259a",
+            "width": 1194,
+            "height": 432,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/AaZVsqIka.7tVyjnKPxpJw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/992331fc596d921e34ccfa3b8813259a",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Simply Wall St.",
+        "url": "https://simplywall.st/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/assessing-meituan-sehk-3690-valuation-141018036.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/assessing-meituan-sehk-3690-valuation-141018036.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "0341e2d0-6b14-3511-ac76-269d876766a5",
     "content": {
       "id": "0341e2d0-6b14-3511-ac76-269d876766a5",
@@ -513,67 +574,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/alibaba-group-holding-limited-baba-174718379.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "5c66963c-8409-3f83-95cf-0d84a0dfb726",
-    "content": {
-      "id": "5c66963c-8409-3f83-95cf-0d84a0dfb726",
-      "contentType": "STORY",
-      "title": "China Antitrust Probe Lifts Food-Delivery Stocks in Hong Kong",
-      "description": "",
-      "summary": "Regulators launch competition review as Meituan, Alibaba, and JD.com shares rise on hopes of easing subsidy-driven price wars.",
-      "pubDate": "2026-01-12T16:46:35Z",
-      "displayTime": "2026-01-12T16:46:35Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/76a1738dba3b3cb45d19c040ccdb1dd2",
-        "originalWidth": 5215,
-        "originalHeight": 3477,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/ij.PSQVlmwCTNB4anfxtdw--~B/aD0zNDc3O3c9NTIxNTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/us.finance.gurufocus/76a1738dba3b3cb45d19c040ccdb1dd2",
-            "width": 5215,
-            "height": 3477,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/yDwPDmUpHWfnyRfXei5SBg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/76a1738dba3b3cb45d19c040ccdb1dd2",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "GuruFocus.com",
-        "url": "http://www.gurufocus.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/china-antitrust-probe-lifts-food-164635823.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/china-antitrust-probe-lifts-food-164635823.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
