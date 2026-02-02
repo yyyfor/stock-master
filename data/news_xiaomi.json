@@ -1,5 +1,183 @@
 [
   {
+    "id": "c658cccd-6048-4441-9eac-d6eb9cb17f48",
+    "content": {
+      "id": "c658cccd-6048-4441-9eac-d6eb9cb17f48",
+      "contentType": "STORY",
+      "title": "Tesla, US automakers under threat by Chinese joint ventures",
+      "description": "",
+      "summary": "Tesla shares dropped in early trade on Monday on the potential of a new threat to its auto business.",
+      "pubDate": "2026-02-02T16:16:21Z",
+      "displayTime": "2026-02-02T16:16:21Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2026-02/5a3e8530-004b-11f1-abff-7d22489db2f6",
+        "originalWidth": 5449,
+        "originalHeight": 3549,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/UydFNCxEanW8Mq.xm9Ov9A--~B/aD0zNTQ5O3c9NTQ0OTthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2026-02/5a3e8530-004b-11f1-abff-7d22489db2f6",
+            "width": 5449,
+            "height": 3549,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/QgMkZ53BmUYhcXHxk2Je8w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2026-02/5a3e8530-004b-11f1-abff-7d22489db2f6",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Yahoo Finance",
+        "url": "http://finance.yahoo.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/tesla-us-automakers-under-threat-by-chinese-joint-ventures-161621957.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/tesla-us-automakers-under-threat-by-chinese-joint-ventures-161621957.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": true
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "37b2bfde-5004-3247-8912-5a744f852431",
+    "content": {
+      "id": "37b2bfde-5004-3247-8912-5a744f852431",
+      "contentType": "STORY",
+      "title": "Ford Xiaomi Talks Highlight Questions On Xiaomi’s Global EV Ambitions",
+      "description": "",
+      "summary": "Reports indicate Ford and Xiaomi (SEHK:1810) have discussed a partnership that could help Chinese EV makers access the U.S. market. Both companies have publicly denied that a deal is currently in place or being finalized. The news has drawn attention because it touches on EV competition, tech auto partnerships, and geopolitical sensitivities around Chinese brands entering the U.S. Xiaomi, best known for smartphones and consumer electronics, has been expanding into electric vehicles as part...",
+      "pubDate": "2026-02-02T16:14:13Z",
+      "displayTime": "2026-02-02T16:14:13Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
+        "originalWidth": 1194,
+        "originalHeight": 432,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/DHq886Ag4G1rS9TKIvWzQQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
+            "width": 1194,
+            "height": 432,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/fl7FB00ESSj9386P3xBSmQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Simply Wall St.",
+        "url": "https://simplywall.st/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/ford-xiaomi-talks-highlight-questions-161413521.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/ford-xiaomi-talks-highlight-questions-161413521.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "8439389c-dc90-3119-8b21-93193611bd35",
+    "content": {
+      "id": "8439389c-dc90-3119-8b21-93193611bd35",
+      "contentType": "STORY",
+      "title": "Ford Denies Collaboration With Chinese EV Maker. Tesla Stock Is Dropping Anyway.",
+      "description": "",
+      "summary": "If Chinese EVs were to land in America, it would represent more competition for Elon Musk’s company in a weakening U.S. market.",
+      "pubDate": "2026-02-02T14:55:00Z",
+      "displayTime": "2026-02-02T14:55:00Z",
+      "isHosted": false,
+      "bypassModal": false,
+      "previewUrl": "https://finance.yahoo.com/m/8439389c-dc90-3119-8b21-93193611bd35/ford-denies-collaboration.html",
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/Barrons.com/251717e347bd6a4ff202f85bea60f380",
+        "originalWidth": 1280,
+        "originalHeight": 640,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/9C_0_88DMsUaYhtBdEK9Iw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/251717e347bd6a4ff202f85bea60f380",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/tajIEFuypPkwFTZhK.6b3Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Barrons.com/251717e347bd6a4ff202f85bea60f380",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Barrons.com",
+        "url": "http://www.barrons.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.barrons.com/articles/tesla-stock-price-ford-china-evs-bf0a2518?siteid=yhoof2&yptr=yahoo",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": null,
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "6b3518c9-b2d4-38d9-b8f6-846e3275963c",
     "content": {
       "id": "6b3518c9-b2d4-38d9-b8f6-846e3275963c",
@@ -7,8 +185,8 @@
       "title": "Tesla's Direct China Rival Reports Strong Sales, But This Giant Is Tumbling",
       "description": "",
       "summary": "Xiaomi and Nio had the strongest showings. The upcoming Lunar New Year holiday will hit February sales.",
-      "pubDate": "2026-02-02T11:02:36Z",
-      "displayTime": "2026-02-02T11:02:36Z",
+      "pubDate": "2026-02-02T14:36:03Z",
+      "displayTime": "2026-02-02T14:36:03Z",
       "isHosted": false,
       "bypassModal": false,
       "previewUrl": "https://finance.yahoo.com/m/6b3518c9-b2d4-38d9-b8f6-846e3275963c/tesla-s-direct-china-rival.html",
@@ -399,189 +577,6 @@
         "lang": "en-US"
       },
       "clickThroughUrl": null,
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "1c814e16-2ad0-3abd-94d4-0d788a576872",
-    "content": {
-      "id": "1c814e16-2ad0-3abd-94d4-0d788a576872",
-      "contentType": "STORY",
-      "title": "Assessing Xiaomi’s (SEHK:1810) Valuation After New 7 Year Low Interest EV Financing Plan",
-      "description": "",
-      "summary": "Xiaomi (SEHK:1810) is drawing fresh attention after launching a 7 year low interest financing plan for its electric vehicles, targeting first time buyers and raising questions about future demand and margin sensitivity. See our latest analysis for Xiaomi. That new EV financing plan lands after a weaker patch for the shares, with a 30 day share price return of 10.01% and a 90 day share price return of a 21.48% decline, even as the 3 year total shareholder return sits at 207.59% and the 1 year...",
-      "pubDate": "2026-01-20T01:08:23Z",
-      "displayTime": "2026-01-20T01:08:23Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
-        "originalWidth": 1194,
-        "originalHeight": 432,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/DHq886Ag4G1rS9TKIvWzQQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
-            "width": 1194,
-            "height": 432,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/fl7FB00ESSj9386P3xBSmQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Simply Wall St.",
-        "url": "https://simplywall.st/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/assessing-xiaomi-sehk-1810-valuation-010823573.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/assessing-xiaomi-sehk-1810-valuation-010823573.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "b4962ce9-8ad3-3daf-b7e1-dcb7618bcefa",
-    "content": {
-      "id": "b4962ce9-8ad3-3daf-b7e1-dcb7618bcefa",
-      "contentType": "STORY",
-      "title": "Apple regains top spot in China as iPhone shipments soar 22%",
-      "description": "",
-      "summary": "Apple Surpasses Rivals in China Despite Overall Market Decline",
-      "pubDate": "2026-01-19T15:34:43Z",
-      "displayTime": "2026-01-19T15:34:43Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/40a12a1b7769c635ead36fab47a12566",
-        "originalWidth": 400,
-        "originalHeight": 400,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/IcEDHtzDwTA4hQbvBfYYrg--~B/aD00MDA7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/40a12a1b7769c635ead36fab47a12566",
-            "width": 400,
-            "height": 400,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/64L6XoMOqcmOFRmvlYxLdQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/40a12a1b7769c635ead36fab47a12566",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "GuruFocus.com",
-        "url": "http://www.gurufocus.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/apple-stock-spotlight-tops-china-153443045.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/apple-stock-spotlight-tops-china-153443045.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "9d8bdb44-c3c7-3262-8715-586ebcbdd3be",
-    "content": {
-      "id": "9d8bdb44-c3c7-3262-8715-586ebcbdd3be",
-      "contentType": "STORY",
-      "title": "Micron Flags Unprecedented Memory Shortage",
-      "description": "",
-      "summary": "AI-driven demand is stretching supply beyond 2026 and reshaping pricing dynamics.",
-      "pubDate": "2026-01-19T11:48:05Z",
-      "displayTime": "2026-01-19T11:48:05Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/586f6ed952ecc73da387441318521e82",
-        "originalWidth": 3000,
-        "originalHeight": 2500,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/0aSJl2PnR4PoU3F9sszoGA--~B/aD0yNTAwO3c9MzAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/us.finance.gurufocus/586f6ed952ecc73da387441318521e82",
-            "width": 3000,
-            "height": 2500,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/NeQxeUP3Ieaay9_mn3.Wbw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/586f6ed952ecc73da387441318521e82",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "GuruFocus.com",
-        "url": "http://www.gurufocus.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/micron-flags-unprecedented-memory-shortage-114805478.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/micron-flags-unprecedented-memory-shortage-114805478.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
       "metadata": {
         "editorsPick": false
       },
