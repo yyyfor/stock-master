@@ -7,8 +7,8 @@
       "title": "Tesla's Direct China Rival Reports Strong Sales, But This Giant Is Tumbling",
       "description": "",
       "summary": "Xiaomi and Nio had the strongest showings. The upcoming Lunar New Year holiday will hit February sales.",
-      "pubDate": "2026-02-02T02:09:43Z",
-      "displayTime": "2026-02-02T02:09:43Z",
+      "pubDate": "2026-02-02T11:02:36Z",
+      "displayTime": "2026-02-02T11:02:36Z",
       "isHosted": false,
       "bypassModal": false,
       "previewUrl": "https://finance.yahoo.com/m/6b3518c9-b2d4-38d9-b8f6-846e3275963c/tesla-s-direct-china-rival.html",
@@ -38,6 +38,62 @@
       },
       "canonicalUrl": {
         "url": "https://www.investors.com/news/teslas-china-ev-rivals-xiaomi-xpeng-nio-byd-january-sales-lunar-new-year/?src=A00220&yptr=yahoo",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": null,
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "1099a850-c67f-3a1a-9aa4-ce0a76575119",
+    "content": {
+      "id": "1099a850-c67f-3a1a-9aa4-ce0a76575119",
+      "contentType": "STORY",
+      "title": "Chinese EV Makers Hit Speed Bump",
+      "description": "",
+      "summary": "Chinese electric-vehicle stocks dropped on Monday after manufacturers reported weak January sales due to waning government support. Market leader BYD said it sold about 210,000 vehicles in the month— down 30% from January last year and missing expectations, according to Citi.",
+      "pubDate": "2026-02-02T10:33:04Z",
+      "displayTime": "2026-02-02T10:33:04Z",
+      "isHosted": false,
+      "bypassModal": false,
+      "previewUrl": "https://finance.yahoo.com/m/1099a850-c67f-3a1a-9aa4-ce0a76575119/chinese-ev-makers-hit-speed.html",
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8",
+        "originalWidth": 1200,
+        "originalHeight": 630,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Fwf5HL4GsEGPbDfR3MJBPg--~B/aD02MzA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8",
+            "width": 1200,
+            "height": 630,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/c34MZxHLZOfDYN2BBjM9ww--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "The Wall Street Journal",
+        "url": "http://www.wsj.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-02-02-2026/card/chinese-ev-makers-hit-speed-bump-zeHFw2bYSQPBDjbI0iXS?siteid=yhoof2&yptr=yahoo",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
@@ -522,67 +578,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/micron-flags-unprecedented-memory-shortage-114805478.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "ef68d5d3-1e5b-34bb-9509-23aa2554c5ee",
-    "content": {
-      "id": "ef68d5d3-1e5b-34bb-9509-23aa2554c5ee",
-      "contentType": "STORY",
-      "title": "Micron Says AI-Driven Memory Crunch Is ‘Unprecedented’",
-      "description": "",
-      "summary": "“The shortage we are seeing is really unprecedented,” Micron Executive Vice President of Operations Manish Bhatia said in an interview shortly after the chipmaker held a groundbreaking ceremony for a $100 billion production site outside Syracuse, New York, on Friday, amplifying a similar forecast the company provided in December.  High-bandwidth memory required to make artificial intelligence accelerators is “consuming so much of the available capacity across the industry that it’s leaving a tremendous shortage for the conventional side of the industry, for phones or PCs,” Bhatia said.",
-      "pubDate": "2026-01-19T04:15:23Z",
-      "displayTime": "2026-01-19T04:15:23Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/281f7c321f0cf1215615bd21feb3c90e",
-        "originalWidth": 2010,
-        "originalHeight": 1278,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/HmD8SJVLccxQBzR8UMXRBQ--~B/aD0xMjc4O3c9MjAxMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/281f7c321f0cf1215615bd21feb3c90e",
-            "width": 2010,
-            "height": 1278,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/fiqWjmcXbLuiChUOjP3AUA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/281f7c321f0cf1215615bd21feb3c90e",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Bloomberg",
-        "url": "https://www.bloomberg.com/company"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/micron-says-ai-driven-memory-041523843.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/micron-says-ai-driven-memory-041523843.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
