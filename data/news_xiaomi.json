@@ -7,8 +7,8 @@
       "title": "Tesla, US automakers under threat by Chinese joint ventures",
       "description": "",
       "summary": "Tesla shares dropped in early trade on Monday on the potential of a new threat to its auto business.",
-      "pubDate": "2026-02-02T16:16:21Z",
-      "displayTime": "2026-02-02T16:16:21Z",
+      "pubDate": "2026-02-02T21:10:14Z",
+      "displayTime": "2026-02-02T21:17:39Z",
       "isHosted": true,
       "bypassModal": false,
       "previewUrl": null,
@@ -50,6 +50,184 @@
       },
       "metadata": {
         "editorsPick": true
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "8dd53234-e06d-3534-abf2-f6bf2502695f",
+    "content": {
+      "id": "8dd53234-e06d-3534-abf2-f6bf2502695f",
+      "contentType": "STORY",
+      "title": "Xiaomi issues surprising words on Ford merger",
+      "description": "",
+      "summary": "You know how fast a single story can change the mood around a stock or a whole sector. That is what happened here. Over the weekend, a report suggested Ford Motor Company financeF was exploring a joint venture with Xiaomi to build electric vehicles in the United States, a move that would have ...",
+      "pubDate": "2026-02-03T00:00:00Z",
+      "displayTime": "2026-02-03T00:00:00Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/thestreet_881/7a99ea6c42cfee696b0a943f84ab2d0a",
+        "originalWidth": 1200,
+        "originalHeight": 800,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/D.o1iW8z_7NSM8WYHbZyHQ--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/thestreet_881/7a99ea6c42cfee696b0a943f84ab2d0a",
+            "width": 1200,
+            "height": 800,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/qNIhsCLRGyZc0RYYdYRTjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/thestreet_881/7a99ea6c42cfee696b0a943f84ab2d0a",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "TheStreet",
+        "url": "https://www.thestreet.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.thestreet.com/automotive/xiaomi-issues-surprising-words-on-ford-merger",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/xiaomi-issues-surprising-words-ford-000000460.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "f423d0be-a5c1-379a-afc7-582e1799ffaf",
+    "content": {
+      "id": "f423d0be-a5c1-379a-afc7-582e1799ffaf",
+      "contentType": "STORY",
+      "title": "Ford, Xiaomi Deny JV Talks Even As Jim Farley Expressed Admiration For Chinese EVs While Flagging Them As Competitive Threat",
+      "description": "",
+      "summary": "Ford Motor Co. (NYSE:F) and Chinese tech giant Xiaomi (OTC:XIACF) have both denied reports of a potential collaboration to produce electric vehicles in the United States. Ford Reportedly Held Preliminary Talks With Xiaomi The Financial Times reported that Ford had preliminary discussions with Xiaomi about a joint venture, aiming to facilitate Chinese carmakers’ entry into the U.S. market. However, both companies have refuted these claims. A Ford spokesperson stated, \"This story is completely fal",
+      "pubDate": "2026-02-02T23:01:11Z",
+      "displayTime": "2026-02-02T23:01:11Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/Benzinga/82e766609ddd624ef276bc0353862984",
+        "originalWidth": 1024,
+        "originalHeight": 576,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/GdXrG2I4rG29pr80UmkGSQ--~B/aD01NzY7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Benzinga/82e766609ddd624ef276bc0353862984",
+            "width": 1024,
+            "height": 576,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/mCihiblfDDX7zuGluFCFjA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Benzinga/82e766609ddd624ef276bc0353862984",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Benzinga",
+        "url": "http://www.benzinga.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/ford-xiaomi-deny-jv-talks-230111582.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/ford-xiaomi-deny-jv-talks-230111582.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "8439389c-dc90-3119-8b21-93193611bd35",
+    "content": {
+      "id": "8439389c-dc90-3119-8b21-93193611bd35",
+      "contentType": "STORY",
+      "title": "Ford Denies Collaboration With Chinese EV Maker. Tesla Stock Is Dropped Anyway.",
+      "description": "",
+      "summary": "If Chinese EVs were to land in America, it would represent more competition for Elon Musk’s company in a weakening U.S. market.",
+      "pubDate": "2026-02-02T21:14:00Z",
+      "displayTime": "2026-02-02T21:14:00Z",
+      "isHosted": false,
+      "bypassModal": false,
+      "previewUrl": "https://finance.yahoo.com/m/8439389c-dc90-3119-8b21-93193611bd35/ford-denies-collaboration.html",
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/Barrons.com/251717e347bd6a4ff202f85bea60f380",
+        "originalWidth": 1280,
+        "originalHeight": 640,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/9C_0_88DMsUaYhtBdEK9Iw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/251717e347bd6a4ff202f85bea60f380",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/tajIEFuypPkwFTZhK.6b3Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Barrons.com/251717e347bd6a4ff202f85bea60f380",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Barrons.com",
+        "url": "http://www.barrons.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.barrons.com/articles/tesla-stock-price-ford-china-evs-bf0a2518?siteid=yhoof2&yptr=yahoo",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": null,
+      "metadata": {
+        "editorsPick": false
       },
       "finance": {
         "premiumFinance": {
@@ -109,62 +287,6 @@
         "region": "US",
         "lang": "en-US"
       },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "8439389c-dc90-3119-8b21-93193611bd35",
-    "content": {
-      "id": "8439389c-dc90-3119-8b21-93193611bd35",
-      "contentType": "STORY",
-      "title": "Ford Denies Collaboration With Chinese EV Maker. Tesla Stock Is Dropping Anyway.",
-      "description": "",
-      "summary": "If Chinese EVs were to land in America, it would represent more competition for Elon Musk’s company in a weakening U.S. market.",
-      "pubDate": "2026-02-02T14:55:00Z",
-      "displayTime": "2026-02-02T14:55:00Z",
-      "isHosted": false,
-      "bypassModal": false,
-      "previewUrl": "https://finance.yahoo.com/m/8439389c-dc90-3119-8b21-93193611bd35/ford-denies-collaboration.html",
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/Barrons.com/251717e347bd6a4ff202f85bea60f380",
-        "originalWidth": 1280,
-        "originalHeight": 640,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/9C_0_88DMsUaYhtBdEK9Iw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/251717e347bd6a4ff202f85bea60f380",
-            "width": 1280,
-            "height": 640,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/tajIEFuypPkwFTZhK.6b3Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Barrons.com/251717e347bd6a4ff202f85bea60f380",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Barrons.com",
-        "url": "http://www.barrons.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.barrons.com/articles/tesla-stock-price-ford-china-evs-bf0a2518?siteid=yhoof2&yptr=yahoo",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": null,
       "metadata": {
         "editorsPick": false
       },
@@ -460,123 +582,6 @@
         "region": "US",
         "lang": "en-US"
       },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "7fa995d8-6e90-359c-8497-8ea94a6b2c00",
-    "content": {
-      "id": "7fa995d8-6e90-359c-8497-8ea94a6b2c00",
-      "contentType": "STORY",
-      "title": "Snap seeks investments as new smart glasses unit takes on Meta",
-      "description": "",
-      "summary": "Jan 28 (Reuters) - Snap will create an independent subsidiary for its augmented reality smart glasses, as it looks to ​attract external investment and challenge bigger rival Meta in the fast-growing ‌wearables market. The launch of the Specs unit, announced on Wednesday, comes as the success of Ray-Ban Meta ‌smart glasses positions eyewear as an early frontrunner in the race for gadgets powered by artificial intelligence.",
-      "pubDate": "2026-01-28T14:02:50Z",
-      "displayTime": "2026-01-28T14:02:50Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/reuters.com/db7691437829986ec4e6c3c7b278b606",
-        "originalWidth": 800,
-        "originalHeight": 540,
-        "caption": "FILE PHOTO: Snapchat logo is seen in this illustration taken July 28, 2022. REUTERS/Dado Ruvic/Illustration/File Photo",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/kdBWciyHKQTzDDKFIVfD7w--~B/aD01NDA7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/db7691437829986ec4e6c3c7b278b606",
-            "width": 800,
-            "height": 540,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/HVHukiC6bhHVpxBDRi87rA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/db7691437829986ec4e6c3c7b278b606",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Reuters",
-        "url": "https://www.reuters.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/snap-seeks-investments-smart-glasses-140250898.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/snap-seeks-investments-smart-glasses-140250898.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "a6660a28-9e89-3db2-8d1e-389ed10d172f",
-    "content": {
-      "id": "a6660a28-9e89-3db2-8d1e-389ed10d172f",
-      "contentType": "STORY",
-      "title": "Tech, Media & Telecom Roundup: Market Talk",
-      "description": "",
-      "summary": "Find insight on Rogers Communications, Delivery Hero and more in the latest Market Talks covering Technology, Media and Telecom.",
-      "pubDate": "2026-01-26T17:24:00Z",
-      "displayTime": "2026-01-26T17:24:00Z",
-      "isHosted": false,
-      "bypassModal": false,
-      "previewUrl": "https://finance.yahoo.com/m/a6660a28-9e89-3db2-8d1e-389ed10d172f/tech-media-telecom.html",
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/wsj.com/8e7fd35005bb664cf228528f26deb7ad",
-        "originalWidth": 1280,
-        "originalHeight": 640,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/e4bRj38462YemEdwznx.9Q--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/8e7fd35005bb664cf228528f26deb7ad",
-            "width": 1280,
-            "height": 640,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/ebndr_PKFT6iSf92agP5BA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/wsj.com/8e7fd35005bb664cf228528f26deb7ad",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "The Wall Street Journal",
-        "url": "http://www.wsj.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.wsj.com/tech/tech-media-telecom-roundup-market-talk-54a73a86?siteid=yhoof2&yptr=yahoo",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": null,
       "metadata": {
         "editorsPick": false
       },
