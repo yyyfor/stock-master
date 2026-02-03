@@ -61,6 +61,128 @@
     }
   },
   {
+    "id": "52d5a118-5a04-3ebc-a547-e09ffe38928d",
+    "content": {
+      "id": "52d5a118-5a04-3ebc-a547-e09ffe38928d",
+      "contentType": "STORY",
+      "title": "China Bans Hidden EV Door Handles in World-First Safety Rule",
+      "description": "",
+      "summary": "Cars sold in China will be required to have mechanical release both on the inside and outside, according to new safety rules issued by the Ministry of Industry and Information Technology on Monday.  Models that have already been approved by the regulator and are in the final stages of launching in China have until January 2029 to change their designs.  The crackdown follows several high-profile incidents, including two fiery Xiaomi Corp. EV crashes in China where power failures were suspected to have prevented doors from opening, leaving people — unable to escape or be rescued – to die.",
+      "pubDate": "2026-02-03T07:30:45Z",
+      "displayTime": "2026-02-03T07:30:45Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/974f02540acc2a808a946b02bc1cb016",
+        "originalWidth": 2000,
+        "originalHeight": 1333,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/YIE2lBL2uOfcHmrktwGZsw--~B/aD0xMzMzO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/974f02540acc2a808a946b02bc1cb016",
+            "width": 2000,
+            "height": 1333,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/0enUauDaD_0ZuehekCV3TQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/974f02540acc2a808a946b02bc1cb016",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Bloomberg",
+        "url": "https://www.bloomberg.com/company"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/china-bans-hidden-ev-door-073045650.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/china-bans-hidden-ev-door-073045650.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "696f37ba-9802-3e32-897f-6eaca44f96fc",
+    "content": {
+      "id": "696f37ba-9802-3e32-897f-6eaca44f96fc",
+      "contentType": "STORY",
+      "title": "A Look At Xiaomi (SEHK:1810) Valuation After Recent Share Price Pullback",
+      "description": "",
+      "summary": "Context for Xiaomi’s Recent Share Performance Xiaomi (SEHK:1810) has been drawing attention after recent share price moves, with the stock showing a 1.2% decline over the past day and a 12.9% decline over the past month. See our latest analysis for Xiaomi. Set against a HK$35.06 share price, Xiaomi’s recent pullback, including a 30 day share price return of 12.96% decline and a year to date share price return of 12.96% decline, contrasts with a 3 year total shareholder return of about 2.7x...",
+      "pubDate": "2026-02-03T06:11:18Z",
+      "displayTime": "2026-02-03T06:11:18Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
+        "originalWidth": 1194,
+        "originalHeight": 432,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/DHq886Ag4G1rS9TKIvWzQQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
+            "width": 1194,
+            "height": 432,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/fl7FB00ESSj9386P3xBSmQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Simply Wall St.",
+        "url": "https://simplywall.st/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/look-xiaomi-sehk-1810-valuation-061118253.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/look-xiaomi-sehk-1810-valuation-061118253.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "8dd53234-e06d-3534-abf2-f6bf2502695f",
     "content": {
       "id": "8dd53234-e06d-3534-abf2-f6bf2502695f",
@@ -466,128 +588,6 @@
       "finance": {
         "premiumFinance": {
           "isPremiumNews": true,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "a8fd1630-6a29-356c-8ba2-e40e514af6fe",
-    "content": {
-      "id": "a8fd1630-6a29-356c-8ba2-e40e514af6fe",
-      "contentType": "STORY",
-      "title": "Ford held talks with China's Xiaomi over EV partnership, FT reports",
-      "description": "",
-      "summary": "Jan 31 () - Ford has held talks with electric-vehicle maker Xiaomi about forming a joint venture to manufacture ​EVs in the U., the Financial Times reported on ‌Saturday, citing people familiar with the matter.",
-      "pubDate": "2026-01-31T19:52:24Z",
-      "displayTime": "2026-01-31T19:52:24Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/reuters.com/6b58fdf9b770fdbfbb49e1f42a27b794",
-        "originalWidth": 800,
-        "originalHeight": 492,
-        "caption": "FILE PHOTO: The blue Ford oval logo is displayed on the new Ford World Headquarters in Dearborn, Michigan, U.S. November 16, 2025.     REUTERS/Rebecca Cook/File Photo",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/v2SCDqTXmktGNmx7HEGBRA--~B/aD00OTI7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/6b58fdf9b770fdbfbb49e1f42a27b794",
-            "width": 800,
-            "height": 492,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/7q_hMIShfI4EOHHbJpRe5g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/6b58fdf9b770fdbfbb49e1f42a27b794",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Reuters",
-        "url": "https://www.reuters.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/ford-held-talks-chinas-xiaomi-195224743.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/ford-held-talks-chinas-xiaomi-195224743.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "7cece1f4-68e2-3152-b0a9-4aed33e6dd0f",
-    "content": {
-      "id": "7cece1f4-68e2-3152-b0a9-4aed33e6dd0f",
-      "contentType": "STORY",
-      "title": "Is Xiaomi (SEHK:1810) Pricing Look Attractive After Recent Share Price Weakness",
-      "description": "",
-      "summary": "If you are wondering whether Xiaomi's current share price really reflects what the business is worth, you are not alone. This article aims to unpack that question clearly. Xiaomi's stock recently closed at HK$36.62, with returns of 3.9% over 7 days, a 7.0% decline over 30 days, a 9.1% decline year to date, a 4.4% decline over 1 year and gains of 167.7% over 3 years and 32.9% over 5 years. Recent moves in Xiaomi's share price have kept investor attention on how the market is weighing its...",
-      "pubDate": "2026-01-29T21:10:11Z",
-      "displayTime": "2026-01-29T21:10:11Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
-        "originalWidth": 1194,
-        "originalHeight": 432,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/DHq886Ag4G1rS9TKIvWzQQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
-            "width": 1194,
-            "height": 432,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/fl7FB00ESSj9386P3xBSmQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Simply Wall St.",
-        "url": "https://simplywall.st/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/xiaomi-sehk-1810-pricing-look-211011414.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/xiaomi-sehk-1810-pricing-look-211011414.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
           "isPremiumFreeNews": false
         }
       },
