@@ -61,6 +61,62 @@
     }
   },
   {
+    "id": "18dd2dea-676c-3cf6-acce-c6f6f084f8ca",
+    "content": {
+      "id": "18dd2dea-676c-3cf6-acce-c6f6f084f8ca",
+      "contentType": "STORY",
+      "title": "Nvidia Stock Caught Up in AI Drop. What AMD Earnings Mean for the Chip Maker.",
+      "description": "",
+      "summary": "Nvidia stock was reacting after Advanced Micro Devices earnings, including its comments on China sales.",
+      "pubDate": "2026-02-04T08:28:00Z",
+      "displayTime": "2026-02-04T08:28:00Z",
+      "isHosted": false,
+      "bypassModal": false,
+      "previewUrl": "https://finance.yahoo.com/m/18dd2dea-676c-3cf6-acce-c6f6f084f8ca/nvidia-stock-caught-up-in-ai.html",
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/Barrons.com/f0391d9ff5b7c08cfe842f20fe50ede3",
+        "originalWidth": 1280,
+        "originalHeight": 640,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/ZVO9V9_cXefK3xg0Do_RUg--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/f0391d9ff5b7c08cfe842f20fe50ede3",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/1OtS0V2oovjS5bbdDLYEbg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Barrons.com/f0391d9ff5b7c08cfe842f20fe50ede3",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Barrons.com",
+        "url": "http://www.barrons.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.barrons.com/articles/nvidia-stock-price-ai-chips-amd-46fefd5f?siteid=yhoof2&yptr=yahoo",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": null,
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "ff3bcbdd-1541-3631-a7a6-92d4d2af258f",
     "content": {
       "id": "ff3bcbdd-1541-3631-a7a6-92d4d2af258f",
@@ -532,67 +588,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/alibaba-group-holding-robovan-unit-145157856.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "6d82ad59-3d5a-3a08-85ff-71029395cc00",
-    "content": {
-      "id": "6d82ad59-3d5a-3a08-85ff-71029395cc00",
-      "contentType": "STORY",
-      "title": "Alibaba’s Expanding AI Push Puts Chip And Qwen Ambitions In Focus",
-      "description": "",
-      "summary": "Alibaba Group Holding (NYSE:BABA) is launching a new proprietary AI chip aimed at competing with Nvidia in generative AI infrastructure. The company is upgrading its advanced AI models, which are reportedly positioned to surpass major U.S. rivals on certain benchmarks. Alibaba is planning a multi billion yuan Lunar New Year marketing campaign for its Qwen AI app, reportedly larger than promotions by Tencent and Baidu. Alibaba, through NYSE:BABA, runs a broad platform that spans e commerce,...",
-      "pubDate": "2026-02-02T14:12:50Z",
-      "displayTime": "2026-02-02T14:12:50Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-        "originalWidth": 1194,
-        "originalHeight": 432,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Asb.EQEV7awFB_Mkuf_o.A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-            "width": 1194,
-            "height": 432,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/D6tGlHnBV1OBj9DD.GNtjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Simply Wall St.",
-        "url": "https://simplywall.st/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-expanding-ai-push-puts-141250721.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-expanding-ai-push-puts-141250721.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
