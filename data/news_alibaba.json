@@ -61,6 +61,67 @@
     }
   },
   {
+    "id": "ff3bcbdd-1541-3631-a7a6-92d4d2af258f",
+    "content": {
+      "id": "ff3bcbdd-1541-3631-a7a6-92d4d2af258f",
+      "contentType": "STORY",
+      "title": "Assessing Alibaba Group Holding (NYSE:BABA) After Strong 1 Year Rally And Recent Pullback",
+      "description": "",
+      "summary": "If you are looking at Alibaba Group Holding and wondering whether the current share price still offers value, you are not alone. The numbers give us plenty to unpack. The stock last closed at US$163.65, with returns of 5.1% over the past month and 62.6% over the past year. However, the recent 7 day return of a 5.3% decline and the 5 year return of a 35.4% decline show that the ride has not been smooth. Recent news coverage has focused on Alibaba's position as a major Chinese e commerce and...",
+      "pubDate": "2026-02-04T04:39:26Z",
+      "displayTime": "2026-02-04T04:39:26Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+        "originalWidth": 1194,
+        "originalHeight": 432,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Asb.EQEV7awFB_Mkuf_o.A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+            "width": 1194,
+            "height": 432,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/D6tGlHnBV1OBj9DD.GNtjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Simply Wall St.",
+        "url": "https://simplywall.st/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/assessing-alibaba-group-holding-nyse-043926272.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/assessing-alibaba-group-holding-nyse-043926272.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "0a24538d-b9db-3db6-8d04-ff95b4fb4b5b",
     "content": {
       "id": "0a24538d-b9db-3db6-8d04-ff95b4fb4b5b",
@@ -532,67 +593,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/alibaba-expanding-ai-push-puts-141250721.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "f01575f9-f369-39d1-9e96-b70fa0e8d55d",
-    "content": {
-      "id": "f01575f9-f369-39d1-9e96-b70fa0e8d55d",
-      "contentType": "STORY",
-      "title": "NVIDIA Corporation (NVDA)’s CEO Claims China is Still Finalizing Licence for the H200 Chip",
-      "description": "",
-      "summary": "NVIDIA Corporation (NASDAQ:NVDA) is among the Ken Fisher Stock Portfolio: 12 Best Stocks to Buy. NVIDIA Corporation (NASDAQ:NVDA) CEO Jensen Huang stated that China is still finalizing a license to permit sales of the H200 artificial intelligence chip, according to a January 29, 2026, Reuters report. Speaking in Taipei following visits to Chinese officials, partners, […]",
-      "pubDate": "2026-02-02T14:05:08Z",
-      "displayTime": "2026-02-02T14:05:08Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/aa94e059977d3251b8b0630718e013fc",
-        "originalWidth": 1456,
-        "originalHeight": 816,
-        "caption": "NVIDIA Corporation (NVDA)'s CEO Claims China is Still Finalizing Licence for the H200 Chip",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/TTeuFy5Yw2gv7xivFvRsTg--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/aa94e059977d3251b8b0630718e013fc",
-            "width": 1456,
-            "height": 816,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/OOLpgO9iYhjDMfrtb.kSUA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/aa94e059977d3251b8b0630718e013fc",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Insider Monkey",
-        "url": "http://www.insidermonkey.com"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/nvidia-corporation-nvda-ceo-claims-140508333.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/nvidia-corporation-nvda-ceo-claims-140508333.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
