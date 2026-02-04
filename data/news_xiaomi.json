@@ -1,5 +1,47 @@
 [
   {
+    "id": "a34ad25f-5b22-3aed-8256-de42b04d5659",
+    "content": {
+      "id": "a34ad25f-5b22-3aed-8256-de42b04d5659",
+      "contentType": "STORY",
+      "title": "Tesla Sees 9.3% Jump in China-Made EV Sales in January",
+      "description": "",
+      "summary": "Growth continues despite sliding market share and stiff competition in China and Europe.",
+      "pubDate": "2026-02-04T12:16:40Z",
+      "displayTime": "2026-02-04T12:16:40Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": null,
+      "provider": {
+        "displayName": "GuruFocus.com",
+        "url": "http://www.gurufocus.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/tesla-sees-9-3-jump-121640642.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/tesla-sees-9-3-jump-121640642.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "52d5a118-5a04-3ebc-a547-e09ffe38928d",
     "content": {
       "id": "52d5a118-5a04-3ebc-a547-e09ffe38928d",
@@ -527,67 +569,6 @@
       "finance": {
         "premiumFinance": {
           "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "f77e8f8d-d533-3401-9781-2746b7198d6c",
-    "content": {
-      "id": "f77e8f8d-d533-3401-9781-2746b7198d6c",
-      "contentType": "STORY",
-      "title": "Ford held talks with China’s Xiaomi over EV partnership",
-      "description": "",
-      "summary": "Ford has held talks with electric vehicle maker Xiaomi over a partnership that would pave the way for Chinese carmakers to gain a foothold in...",
-      "pubDate": "2026-02-01T02:58:12Z",
-      "displayTime": "2026-02-01T02:58:12Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2026-01/512fa180-fee4-11f0-bff3-0030bb03e33f",
-        "originalWidth": 6000,
-        "originalHeight": 4002,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/OOG9SDf_yhOiU4Lv_zfX1w--~B/aD00MDAyO3c9NjAwMDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2026-01/512fa180-fee4-11f0-bff3-0030bb03e33f",
-            "width": 6000,
-            "height": 4002,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/yjbJbAved17ftCImxcQLWA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2026-01/512fa180-fee4-11f0-bff3-0030bb03e33f",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Financial Times",
-        "url": "https://www.ft.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/ford-held-talks-china-xiaomi-181748690.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/ford-held-talks-china-xiaomi-181748690.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": true,
           "isPremiumFreeNews": false
         }
       },
