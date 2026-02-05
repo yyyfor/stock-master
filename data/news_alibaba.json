@@ -1,5 +1,164 @@
 [
   {
+    "id": "69917fe0-fb44-3588-9cd5-224643103e38",
+    "content": {
+      "id": "69917fe0-fb44-3588-9cd5-224643103e38",
+      "contentType": "STORY",
+      "title": "Why Jefferies Still Sees Alibaba Group Holding Limited (BABA) as a Compelling Buy for 2026",
+      "description": "",
+      "summary": "We recently published an article titled 12 High Growth E-commerce Stocks To Buy. Jefferies analyst Thomas Chong lowered the firm’s price target on Alibaba Group Holding Limited (NYSE:BABA) to $225 from $231 while maintaining a Buy rating on the shares as part of an earnings preview on January 8. Despite the modest adjustment, Jefferies reaffirmed […]",
+      "pubDate": "2026-02-05T15:42:52Z",
+      "displayTime": "2026-02-05T15:42:52Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/0f80d62d30186855ddb1b0392843bf40",
+        "originalWidth": 1280,
+        "originalHeight": 813,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/aqYiKLwYGkNhKGm_N8qLIw--~B/aD04MTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/0f80d62d30186855ddb1b0392843bf40",
+            "width": 1280,
+            "height": 813,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/pyeJwHEsk4UcO5mw6HD0mA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/0f80d62d30186855ddb1b0392843bf40",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Insider Monkey",
+        "url": "http://www.insidermonkey.com"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/why-jefferies-still-sees-alibaba-154252429.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/why-jefferies-still-sees-alibaba-154252429.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "53245baf-63bb-3c7c-b6da-d5c91dd49bce",
+    "content": {
+      "id": "53245baf-63bb-3c7c-b6da-d5c91dd49bce",
+      "contentType": "STORY",
+      "title": "Nvidia Warns Trump Administration That China Chip Rules Would Wreck Export Plan",
+      "description": "",
+      "summary": "Nvidia is warning Trump administration officials that recently released rules governing chip exports to China are too strict and would destroy demand, the latest twist in the company’s saga to regain access to the lucrative Chinese market.  The H200 was released in 2024 and isn’t as advanced as Nvidia’s newer Blackwell and Rubin chips.  Trump approved the exports to keep the U.S. competitive in the Chinese market without dramatically boosting the nation’s AI capabilities.",
+      "pubDate": "2026-02-05T14:34:16Z",
+      "displayTime": "2026-02-05T14:34:16Z",
+      "isHosted": false,
+      "bypassModal": false,
+      "previewUrl": "https://finance.yahoo.com/m/53245baf-63bb-3c7c-b6da-d5c91dd49bce/nvidia-warns-trump.html",
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8",
+        "originalWidth": 1200,
+        "originalHeight": 630,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Fwf5HL4GsEGPbDfR3MJBPg--~B/aD02MzA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8",
+            "width": 1200,
+            "height": 630,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/c34MZxHLZOfDYN2BBjM9ww--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "The Wall Street Journal",
+        "url": "http://www.wsj.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-02-05-2026/card/nvidia-warns-trump-administration-that-china-chip-rules-would-wreck-export-plan-ttf7667KS2rh4RcUIliC?siteid=yhoof2&yptr=yahoo",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": null,
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "02b7fbc1-5201-3751-b3d8-43cfeaaa54b1",
+    "content": {
+      "id": "02b7fbc1-5201-3751-b3d8-43cfeaaa54b1",
+      "contentType": "STORY",
+      "title": "Nippon Steel Slides 7.6% on $3.2 Billion Convertible Bond Consideration",
+      "description": "",
+      "summary": "Shares fall after reports the steelmaker may sell up to 500 billion yen in convertible bonds as investment needs rise.",
+      "pubDate": "2026-02-05T13:19:40Z",
+      "displayTime": "2026-02-05T13:19:40Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": null,
+      "provider": {
+        "displayName": "GuruFocus.com",
+        "url": "http://www.gurufocus.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/nippon-steel-slides-7-6-131940733.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/nippon-steel-slides-7-6-131940733.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "c5dd51bc-594b-337f-ab37-40db657a5da6",
     "content": {
       "id": "c5dd51bc-594b-337f-ab37-40db657a5da6",
@@ -405,189 +564,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/assessing-alibaba-group-holding-nyse-043926272.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "0a24538d-b9db-3db6-8d04-ff95b4fb4b5b",
-    "content": {
-      "id": "0a24538d-b9db-3db6-8d04-ff95b4fb4b5b",
-      "contentType": "STORY",
-      "title": "Alibaba (BABA) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
-      "description": "",
-      "summary": "In the latest trading session, Alibaba (BABA) closed at $163.65, marking a -2.81% move from the previous day.",
-      "pubDate": "2026-02-03T22:45:02Z",
-      "displayTime": "2026-02-03T22:45:02Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/zacks.com/737ffb82e07dc8bffb77e72d153c91f2",
-        "originalWidth": 900,
-        "originalHeight": 469,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/T44Iwg7RbRrkaTIYz_liyQ--~B/aD00Njk7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/737ffb82e07dc8bffb77e72d153c91f2",
-            "width": 900,
-            "height": 469,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/EYRUzXGjRyiee50fz6.x3Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/737ffb82e07dc8bffb77e72d153c91f2",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Zacks",
-        "url": "http://www.zacks.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-baba-sees-more-significant-224502562.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-baba-sees-more-significant-224502562.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "2c1f0453-87f6-4396-aad4-b9375c4eb67f",
-    "content": {
-      "id": "2c1f0453-87f6-4396-aad4-b9375c4eb67f",
-      "contentType": "STORY",
-      "title": "PayPal bulls set to win big as spooked investors 'puke in the hole': Analyst",
-      "description": "",
-      "summary": "Markets may have given PayPal's new CEO a cold reception, but the underlying math says the payment giant is sitting on a fortune.",
-      "pubDate": "2026-02-03T18:19:20Z",
-      "displayTime": "2026-02-03T18:19:20Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2026-02/b4390710-0125-11f1-bd7f-0437420188c2",
-        "originalWidth": 4000,
-        "originalHeight": 2667,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/mJB6n78TgH538tka_OBE1g--~B/aD0yNjY3O3c9NDAwMDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2026-02/b4390710-0125-11f1-bd7f-0437420188c2",
-            "width": 4000,
-            "height": 2667,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/XP2urLY2RjxXtOryhD_7Cw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2026-02/b4390710-0125-11f1-bd7f-0437420188c2",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Yahoo Finance",
-        "url": "http://finance.yahoo.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/paypal-bulls-set-to-win-big-as-spooked-investors-puke-in-the-hole-analyst-181841351.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/paypal-bulls-set-to-win-big-as-spooked-investors-puke-in-the-hole-analyst-181841351.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "187dfaef-d27c-3839-82c6-66a588de6204",
-    "content": {
-      "id": "187dfaef-d27c-3839-82c6-66a588de6204",
-      "contentType": "STORY",
-      "title": "Where is Alibaba Group Holding Limited (BABA) Headed According to the Street?",
-      "description": "",
-      "summary": "Alibaba Group Holding Limited (NYSE:BABA) is one of the best long term low volatility stocks to invest in. On January 29, China Merchants Securities reiterated a Buy rating on Alibaba Group Holding Limited (NYSE:BABA) and set a price target of HK$194.00. The rating update came the same day Reuters reported that Alibaba Group Holding Limited’s […]",
-      "pubDate": "2026-02-03T09:34:11Z",
-      "displayTime": "2026-02-03T09:34:11Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/090170be12ef840f77e8d544392228a0",
-        "originalWidth": 1456,
-        "originalHeight": 816,
-        "caption": "Alibaba (BABA) Soars 8% on US Chip Exports Ease to China",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/psAs0pGNqyrt8mJECiI5og--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/090170be12ef840f77e8d544392228a0",
-            "width": 1456,
-            "height": 816,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/HHEIlT7dQsZE36Et8Yp86w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/090170be12ef840f77e8d544392228a0",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Insider Monkey",
-        "url": "http://www.insidermonkey.com"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/where-alibaba-group-holding-limited-093411959.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/where-alibaba-group-holding-limited-093411959.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
