@@ -1,5 +1,66 @@
 [
   {
+    "id": "c5dd51bc-594b-337f-ab37-40db657a5da6",
+    "content": {
+      "id": "c5dd51bc-594b-337f-ab37-40db657a5da6",
+      "contentType": "STORY",
+      "title": "Baidu Plans First Dividend, $5 Billion Buyback as AI Rally Fades",
+      "description": "",
+      "summary": "The Chinese AI and search specialist authorized a buyback program that will cover the period through the end of 2028, it said in a filing on Thursday.  Beijing-based Baidu also expects to declare the first payment of a dividend this year, which may include regular or special distributions.  The internet company, one of China’s earliest to embrace artificial intelligence, joins Tencent Holdings Ltd. and Alibaba Group Holding Ltd. in enhancing shareholder returns.",
+      "pubDate": "2026-02-05T05:24:07Z",
+      "displayTime": "2026-02-05T05:24:07Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/4b7e794a3ca99f4168c22fd045f2699f",
+        "originalWidth": 2000,
+        "originalHeight": 1334,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/zShOhBzY_ayVGCZ9HXdG3Q--~B/aD0xMzM0O3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/4b7e794a3ca99f4168c22fd045f2699f",
+            "width": 2000,
+            "height": 1334,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/sZVZ7M7XI_ZexT1d6e1XKw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/4b7e794a3ca99f4168c22fd045f2699f",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Bloomberg",
+        "url": "https://www.bloomberg.com/company"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/baidu-plans-first-dividend-5-052407618.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/baidu-plans-first-dividend-5-052407618.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "837040c1-2318-3fec-b5c6-58c6cc6988b3",
     "content": {
       "id": "837040c1-2318-3fec-b5c6-58c6cc6988b3",
@@ -527,67 +588,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/where-alibaba-group-holding-limited-093411959.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "531f294b-bf1a-3dc2-8318-02dfd20cc628",
-    "content": {
-      "id": "531f294b-bf1a-3dc2-8318-02dfd20cc628",
-      "contentType": "STORY",
-      "title": "Samsung’s Best Day Since 2008 Powers South Korean Stock Rally",
-      "description": "",
-      "summary": "Samsung Electronics Co shares jumped 11% on Korea Exchange, the most since 2008, while SK Hynix Inc. added more than 9%.  Up more than 39% each this year, the chip duo have continued to set new records as investors embrace AI’s voracious demand for memory chips.",
-      "pubDate": "2026-02-03T07:03:15Z",
-      "displayTime": "2026-02-03T07:03:15Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/b197a2cf22e89c592d89cad1fbc31918",
-        "originalWidth": 2000,
-        "originalHeight": 1333,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/iRJNXo9REYUfFvVs9u.dkA--~B/aD0xMzMzO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/b197a2cf22e89c592d89cad1fbc31918",
-            "width": 2000,
-            "height": 1333,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/h8WFQ_uIGovvTN0D0sQ_1Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/b197a2cf22e89c592d89cad1fbc31918",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Bloomberg",
-        "url": "https://www.bloomberg.com/company"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/samsung-best-day-since-2008-070315920.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/samsung-best-day-since-2008-070315920.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
