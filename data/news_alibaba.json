@@ -1,5 +1,66 @@
 [
   {
+    "id": "7a29b2e5-f2f9-3b07-95e3-673b028d537f",
+    "content": {
+      "id": "7a29b2e5-f2f9-3b07-95e3-673b028d537f",
+      "contentType": "STORY",
+      "title": "Stock Market Today, Feb. 5: Amazon Shares Drop on Tech Sell-Off Ahead of Earnings and AWS Growth Outlook",
+      "description": "",
+      "summary": "On Feb. 5, 2026, investors weighed Amazon's surging AI and cloud capex against bold long-term targets.",
+      "pubDate": "2026-02-05T23:02:50Z",
+      "displayTime": "2026-02-05T23:02:50Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/motleyfool.com/ece2644f62c999828edb4a744e8a56b7",
+        "originalWidth": 1401,
+        "originalHeight": 1251,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/C8Z.edwcv5LnY1X79lXlqg--~B/aD0xMjUxO3c9MTQwMTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/motleyfool.com/ece2644f62c999828edb4a744e8a56b7",
+            "width": 1401,
+            "height": 1251,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/por.ey9JT.I7DXXFMtt3aQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/ece2644f62c999828edb4a744e8a56b7",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Motley Fool",
+        "url": "http://www.fool.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/02/05/stock-market-today-feb-5-amazon-shares-drop-on-tech-sell-off-ahead-of-earnings-and-aws-growth-outlook/",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/stock-market-today-feb-5-230250634.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "69917fe0-fb44-3588-9cd5-224643103e38",
     "content": {
       "id": "69917fe0-fb44-3588-9cd5-224643103e38",
@@ -503,67 +564,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/nvidia-vs-palantir-one-ai-200500692.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "ff3bcbdd-1541-3631-a7a6-92d4d2af258f",
-    "content": {
-      "id": "ff3bcbdd-1541-3631-a7a6-92d4d2af258f",
-      "contentType": "STORY",
-      "title": "Assessing Alibaba Group Holding (NYSE:BABA) After Strong 1 Year Rally And Recent Pullback",
-      "description": "",
-      "summary": "If you are looking at Alibaba Group Holding and wondering whether the current share price still offers value, you are not alone. The numbers give us plenty to unpack. The stock last closed at US$163.65, with returns of 5.1% over the past month and 62.6% over the past year. However, the recent 7 day return of a 5.3% decline and the 5 year return of a 35.4% decline show that the ride has not been smooth. Recent news coverage has focused on Alibaba's position as a major Chinese e commerce and...",
-      "pubDate": "2026-02-04T04:39:26Z",
-      "displayTime": "2026-02-04T04:39:26Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-        "originalWidth": 1194,
-        "originalHeight": 432,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Asb.EQEV7awFB_Mkuf_o.A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-            "width": 1194,
-            "height": 432,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/D6tGlHnBV1OBj9DD.GNtjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Simply Wall St.",
-        "url": "https://simplywall.st/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/assessing-alibaba-group-holding-nyse-043926272.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/assessing-alibaba-group-holding-nyse-043926272.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
