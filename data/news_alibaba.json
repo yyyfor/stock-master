@@ -1,66 +1,5 @@
 [
   {
-    "id": "f1bf92d9-fb77-379c-8089-3532f5278851",
-    "content": {
-      "id": "f1bf92d9-fb77-379c-8089-3532f5278851",
-      "contentType": "STORY",
-      "title": "Exclusive-Intel, AMD notify customers in China of lengthy waits for CPUs",
-      "description": "",
-      "summary": "Intel and AMD have notified Chinese customers of supply shortages for server central processing units (CPUs), with Intel warning of delivery lead times of up to six months, people with knowledge of the delays said.  The supply ​constraints have driven up prices for Intel's server products in China by more than 10% generally, although pricing varies by ‌customer contract, according to one of the people.  Booming investment in artificial intelligence infrastructure has created a frantic rush not only for AI-specific chips, but also other parts of ‌the supply chain - most acutely in memory chips, prices of which continue to soar.",
-      "pubDate": "2026-02-06T05:32:38Z",
-      "displayTime": "2026-02-06T05:32:38Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/reuters-finance.com/ff912e8f0c6499cf51c242df10d1dd52",
-        "originalWidth": 800,
-        "originalHeight": 534,
-        "caption": "FILE PHOTO: Illustration shows Intel logo and computer motherboard",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/qick.XlK0vc5f7lT5QAAiw--~B/aD01MzQ7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/ff912e8f0c6499cf51c242df10d1dd52",
-            "width": 800,
-            "height": 534,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/HQqGowwBoCWAYRVlOH5Pfg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/ff912e8f0c6499cf51c242df10d1dd52",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Reuters",
-        "url": "http://www.reuters.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/exclusive-intel-amd-notify-customers-053238727.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/exclusive-intel-amd-notify-customers-053238727.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
     "id": "8a63fd96-7e19-37bd-a9f8-5e9c821aa8a9",
     "content": {
       "id": "8a63fd96-7e19-37bd-a9f8-5e9c821aa8a9",
@@ -573,6 +512,62 @@
         "region": "US",
         "lang": "en-US"
       },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "18dd2dea-676c-3cf6-acce-c6f6f084f8ca",
+    "content": {
+      "id": "18dd2dea-676c-3cf6-acce-c6f6f084f8ca",
+      "contentType": "STORY",
+      "title": "Why Nvidia Stock Has Been Caught Up in AI Drop",
+      "description": "",
+      "summary": "Nvidia stock was reacting after Advanced Micro Devices earnings, including its comments on China sales.",
+      "pubDate": "2026-02-04T21:04:00Z",
+      "displayTime": "2026-02-04T21:04:00Z",
+      "isHosted": false,
+      "bypassModal": false,
+      "previewUrl": "https://finance.yahoo.com/m/18dd2dea-676c-3cf6-acce-c6f6f084f8ca/why-nvidia-stock-has-been.html",
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/Barrons.com/f0391d9ff5b7c08cfe842f20fe50ede3",
+        "originalWidth": 1280,
+        "originalHeight": 640,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/ZVO9V9_cXefK3xg0Do_RUg--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/f0391d9ff5b7c08cfe842f20fe50ede3",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/1OtS0V2oovjS5bbdDLYEbg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Barrons.com/f0391d9ff5b7c08cfe842f20fe50ede3",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Barrons.com",
+        "url": "http://www.barrons.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.barrons.com/articles/nvidia-stock-price-ai-chips-amd-46fefd5f?siteid=yhoof2&yptr=yahoo",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": null,
       "metadata": {
         "editorsPick": false
       },
