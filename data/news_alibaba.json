@@ -1,5 +1,108 @@
 [
   {
+    "id": "bdcf574a-05fc-33ef-aa24-afeab77c2329",
+    "content": {
+      "id": "bdcf574a-05fc-33ef-aa24-afeab77c2329",
+      "contentType": "STORY",
+      "title": "Alibaba’s Qwen pauses AI shopping coupons after 10 mln orders flood system",
+      "description": "",
+      "summary": "Investing.com -- Alibaba’s AI chatbot Qwen has temporarily suspended issuing shopping coupons after being overwhelmed by a surge in demand, disrupting a fresh push to position the tool as more than just a question-and-answer assistant.",
+      "pubDate": "2026-02-09T11:24:59Z",
+      "displayTime": "2026-02-09T11:24:59Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": null,
+      "provider": {
+        "displayName": "Investing.com",
+        "url": "https://www.investing.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-qwen-pauses-ai-shopping-112459412.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-qwen-pauses-ai-shopping-112459412.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "7709dacc-2d25-3c61-a520-2d77fa393e3c",
+    "content": {
+      "id": "7709dacc-2d25-3c61-a520-2d77fa393e3c",
+      "contentType": "STORY",
+      "title": "Alibaba pleads for shoppers to give its overloaded AI chatbot a break",
+      "description": "",
+      "summary": "Alibaba's artificial intelligence chatbot Qwen has temporarily stopped issuing coupons due to customer overload, hampering ​a new campaign to promote the tool's capabilities beyond simply ‌answering questions to assist shopping.  Qwen began offering coupons to users on Friday that allow for ‌in-app purchases from Alibaba-owned retail platforms using chatbot prompts alone.  The initiative is the first phase in a 3-billion-yuan ($433 million) plan to attract more users to the chatbot during China's annual Spring Festival holiday.",
+      "pubDate": "2026-02-09T07:45:05Z",
+      "displayTime": "2026-02-09T08:41:15Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/reuters-finance.com/07c8c03d314ab603b8f08bd302d9882d",
+        "originalWidth": 800,
+        "originalHeight": 533,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/SkcKYFloq9_wv6LQT4TVvw--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/07c8c03d314ab603b8f08bd302d9882d",
+            "width": 800,
+            "height": 533,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/mg0_RwwmUto_N3rAPbSngA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/07c8c03d314ab603b8f08bd302d9882d",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Reuters",
+        "url": "http://www.reuters.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibabas-overloaded-ai-chatbot-stops-074505329.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibabas-overloaded-ai-chatbot-stops-074505329.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "c891278a-b425-34ca-a5e1-6f0636e15de5",
     "content": {
       "id": "c891278a-b425-34ca-a5e1-6f0636e15de5",
@@ -447,128 +550,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/baidu-plans-first-dividend-5-052407618.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "837040c1-2318-3fec-b5c6-58c6cc6988b3",
-    "content": {
-      "id": "837040c1-2318-3fec-b5c6-58c6cc6988b3",
-      "contentType": "STORY",
-      "title": "Alibaba Bets On Cainiao RoboVans As Automation And Valuation Draw Focus",
-      "description": "",
-      "summary": "Alibaba's logistics unit Cainiao is working with Zelos Technology to develop L4 autonomous driving solutions. The partnership includes jointly building a RoboVan Super Carrier for unmanned freight and automated delivery. The move signals a deeper integration of advanced automation into the NYSE:BABA logistics network. Alibaba Group Holding, listed as NYSE:BABA, has long treated logistics as core infrastructure for its e commerce ecosystem, and Cainiao sits at the center of that effort. By...",
-      "pubDate": "2026-02-05T05:16:02Z",
-      "displayTime": "2026-02-05T05:16:02Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-        "originalWidth": 1194,
-        "originalHeight": 432,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Asb.EQEV7awFB_Mkuf_o.A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-            "width": 1194,
-            "height": 432,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/D6tGlHnBV1OBj9DD.GNtjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Simply Wall St.",
-        "url": "https://simplywall.st/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-bets-cainiao-robovans-automation-051602576.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-bets-cainiao-robovans-automation-051602576.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "a4aecb25-b224-3e38-96e6-907a254d76a7",
-    "content": {
-      "id": "a4aecb25-b224-3e38-96e6-907a254d76a7",
-      "contentType": "STORY",
-      "title": "Alibaba Group Holding Limited (BABA): A Bull Case Theory",
-      "description": "",
-      "summary": "We came across a bullish thesis on Alibaba Group Holding Limited on Valueinvesting subreddit by Illustrious_Lie_954. In this article, we will summarize the bulls’ thesis on BABA. Alibaba Group Holding Limited’s share was trading at $175.66 as of January 28th. BABA’s trailing and forward P/E were 22.96 and 19.19 respectively according to Yahoo Finance. Alibaba Group Holding Limited, […]",
-      "pubDate": "2026-02-05T02:40:55Z",
-      "displayTime": "2026-02-05T02:40:55Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/3041338cfe6366e1543689d2c770526d",
-        "originalWidth": 750,
-        "originalHeight": 476,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/chZ2_JmBumFwZoyElcf8bw--~B/aD00NzY7dz03NTA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/3041338cfe6366e1543689d2c770526d",
-            "width": 750,
-            "height": 476,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/KGDt2GSTK8KZPrqivZWSMg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/3041338cfe6366e1543689d2c770526d",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Insider Monkey",
-        "url": "http://www.insidermonkey.com"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-group-holding-limited-baba-024055003.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-group-holding-limited-baba-024055003.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"

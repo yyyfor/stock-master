@@ -1,5 +1,47 @@
 [
   {
+    "id": "7c755441-94c9-316c-b083-f5ed158453da",
+    "content": {
+      "id": "7c755441-94c9-316c-b083-f5ed158453da",
+      "contentType": "STORY",
+      "title": "Chinese vacuum maker Dreame pushes its planned EV with Super Bowl ad",
+      "description": "",
+      "summary": "Dreame Technology, a Chinese maker of robot vacuum cleaners with an audacious goal ​to build electric supercars, ran a 30-second Super Bowl ‌commercial showcasing its planned electric luxury car.  The Dreame ad, which cost $10 million ‌to run according to a company press release on Monday, featured a vacuum cleaner, a lawn mower and a green supercar transforming into robots and tossing a flaming ball.  Last year, ⁠Dreame Technology said it ‌would build \"the world's fastest car,\" adding that its first pure electric luxury cars would debut ‍in 2027.",
+      "pubDate": "2026-02-09T07:27:30Z",
+      "displayTime": "2026-02-09T07:27:30Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": null,
+      "provider": {
+        "displayName": "Reuters",
+        "url": "http://www.reuters.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/chinese-vacuum-maker-dreame-pushes-072730341.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/chinese-vacuum-maker-dreame-pushes-072730341.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "bebfa693-d65c-3803-930b-05f469610eff",
     "content": {
       "id": "bebfa693-d65c-3803-930b-05f469610eff",
@@ -512,62 +554,6 @@
         "region": "US",
         "lang": "en-US"
       },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "6b3518c9-b2d4-38d9-b8f6-846e3275963c",
-    "content": {
-      "id": "6b3518c9-b2d4-38d9-b8f6-846e3275963c",
-      "contentType": "STORY",
-      "title": "Tesla's Direct China Rival Reports Strong Sales, But This Giant Is Tumbling",
-      "description": "",
-      "summary": "Xiaomi and Nio had the strongest showings. The upcoming Lunar New Year holiday will hit February sales.",
-      "pubDate": "2026-02-02T14:36:03Z",
-      "displayTime": "2026-02-02T14:36:03Z",
-      "isHosted": false,
-      "bypassModal": false,
-      "previewUrl": "https://finance.yahoo.com/m/6b3518c9-b2d4-38d9-b8f6-846e3275963c/tesla-s-direct-china-rival.html",
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/ibd.com/08d0f5623a3c2362588dcdcc124e0134",
-        "originalWidth": 1000,
-        "originalHeight": 511,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Jg8hQUeQiBBBKRcbJWO67w--~B/aD01MTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/08d0f5623a3c2362588dcdcc124e0134",
-            "width": 1000,
-            "height": 511,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/9QVh9KQm21SXgPRAQDPMNQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/ibd.com/08d0f5623a3c2362588dcdcc124e0134",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Investor's Business Daily",
-        "url": "http://www.investors.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.investors.com/news/teslas-china-ev-rivals-xiaomi-xpeng-nio-byd-january-sales-lunar-new-year/?src=A00220&yptr=yahoo",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": null,
       "metadata": {
         "editorsPick": false
       },
