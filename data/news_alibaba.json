@@ -1,5 +1,169 @@
 [
   {
+    "id": "49e71b9e-e31d-35b6-b968-678f479c98e0",
+    "content": {
+      "id": "49e71b9e-e31d-35b6-b968-678f479c98e0",
+      "contentType": "STORY",
+      "title": "Alibaba’s New AI Push Tests Real World Usage And Valuation Gap",
+      "description": "",
+      "summary": "Alibaba Group Holding (NYSE:BABA) temporarily pauses shopping coupons on its Qwen AI chatbot after heavy user demand. The company introduces its RynnBrain AI foundation model aimed at real world applications. Alibaba rolls out AI powered retail experiences around the Olympics, bringing its technology into physical shopping settings. For you as an investor, these updates show how Alibaba is pushing its consumer internet and cloud capabilities into everyday use cases. Qwen ties AI directly...",
+      "pubDate": "2026-02-10T17:11:43Z",
+      "displayTime": "2026-02-10T17:11:43Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+        "originalWidth": 1194,
+        "originalHeight": 432,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Asb.EQEV7awFB_Mkuf_o.A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+            "width": 1194,
+            "height": 432,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/D6tGlHnBV1OBj9DD.GNtjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Simply Wall St.",
+        "url": "https://simplywall.st/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-ai-push-tests-real-171143588.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-ai-push-tests-real-171143588.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "1c535076-00a5-36b9-b0de-bd5baedf271b",
+    "content": {
+      "id": "1c535076-00a5-36b9-b0de-bd5baedf271b",
+      "contentType": "STORY",
+      "title": "International ETFs to Watch as Foreign Stock Markets Beat the US",
+      "description": "",
+      "summary": "International stocks crushed U.S. markets in 2025, with ETFs such as SPDW and JIVE emerging as top plays on the global shift.",
+      "pubDate": "2026-02-10T14:02:00Z",
+      "displayTime": "2026-02-10T14:02:00Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/zacks.com/124f1f4e4fcc578e5486ea52e0d08740",
+        "originalWidth": 620,
+        "originalHeight": 413,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/SZN1KtruvN1kE7KHISHrJw--~B/aD00MTM7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/124f1f4e4fcc578e5486ea52e0d08740",
+            "width": 620,
+            "height": 413,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/JJQStPgTUEgppFqeV7_jvA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/124f1f4e4fcc578e5486ea52e0d08740",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Zacks",
+        "url": "http://www.zacks.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/international-etfs-watch-foreign-stock-140200447.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/international-etfs-watch-foreign-stock-140200447.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "d864dce7-c9d7-3db5-88a3-f3edcfef31a6",
+    "content": {
+      "id": "d864dce7-c9d7-3db5-88a3-f3edcfef31a6",
+      "contentType": "STORY",
+      "title": "Alibaba launches new AI model to power robots",
+      "description": "",
+      "summary": "Investing.com -- Alibaba unveiled a new artificial intelligence model called RynnBrain on Tuesday, designed specifically to power robots and help them understand their physical surroundings.",
+      "pubDate": "2026-02-10T13:01:53Z",
+      "displayTime": "2026-02-10T13:01:53Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": null,
+      "provider": {
+        "displayName": "Investing.com",
+        "url": "https://www.investing.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://tech.yahoo.com/ai/articles/alibaba-launches-ai-model-power-130153560.html",
+        "site": "tech",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://tech.yahoo.com/ai/articles/alibaba-launches-ai-model-power-130153560.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "d3409a5f-cc32-3f13-81ff-b730677963b5",
     "content": {
       "id": "d3409a5f-cc32-3f13-81ff-b730677963b5",
@@ -391,189 +555,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/alibaba-qwen-pauses-ai-shopping-112459412.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "7709dacc-2d25-3c61-a520-2d77fa393e3c",
-    "content": {
-      "id": "7709dacc-2d25-3c61-a520-2d77fa393e3c",
-      "contentType": "STORY",
-      "title": "Alibaba's AI chatbot struggles with coupon giveaway, asks shoppers for patience",
-      "description": "",
-      "summary": "Alibaba's artificial intelligence chatbot Qwen temporarily stopped issuing coupons due to customer overload, hampering a new ​campaign to promote the tool's capabilities beyond simply answering questions to ‌assist shopping.  Qwen began offering coupons to users on Friday that allow for in-app purchases from ‌Alibaba-owned retail platforms using chatbot prompts alone.  The initiative is the first phase in a 3-billion-yuan ($433 million) plan to attract more users to the chatbot during China's annual Spring Festival holiday.",
-      "pubDate": "2026-02-09T07:45:05Z",
-      "displayTime": "2026-02-09T07:45:05Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/reuters-finance.com/07c8c03d314ab603b8f08bd302d9882d",
-        "originalWidth": 800,
-        "originalHeight": 533,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/SkcKYFloq9_wv6LQT4TVvw--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/07c8c03d314ab603b8f08bd302d9882d",
-            "width": 800,
-            "height": 533,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/mg0_RwwmUto_N3rAPbSngA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/07c8c03d314ab603b8f08bd302d9882d",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Reuters",
-        "url": "http://www.reuters.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibabas-overloaded-ai-chatbot-stops-074505329.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibabas-overloaded-ai-chatbot-stops-074505329.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "c891278a-b425-34ca-a5e1-6f0636e15de5",
-    "content": {
-      "id": "c891278a-b425-34ca-a5e1-6f0636e15de5",
-      "contentType": "STORY",
-      "title": "Stock Market Today, Feb. 6: Amazon Falls After $200 Billion AI and Cloud Spending Plan Raises Cash Flow Concerns",
-      "description": "",
-      "summary": "On Feb. 6, 2026, investors weighed a massive AI buildout against dwindling free cash flows and the timing of a return on investment from this spending.",
-      "pubDate": "2026-02-06T23:15:49Z",
-      "displayTime": "2026-02-06T23:15:49Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/motleyfool.com/a2f2374d3f08fab54d1bd5abe908bf3d",
-        "originalWidth": 384,
-        "originalHeight": 384,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Ew5dIgqCV9yeOG.hdgEQgw--~B/aD0zODQ7dz0zODQ7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/a2f2374d3f08fab54d1bd5abe908bf3d",
-            "width": 384,
-            "height": 384,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/JjaooPgviFyNhGcakhmHHA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/a2f2374d3f08fab54d1bd5abe908bf3d",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Motley Fool",
-        "url": "http://www.fool.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/02/06/stock-market-today-feb-6-amazon-falls-after-200-billion-ai-and-cloud-spending-plan-raises-cash-flow-concerns/",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/stock-market-today-feb-6-231549677.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "11997666-4e24-3ebb-ada0-947be2fdcdbe",
-    "content": {
-      "id": "11997666-4e24-3ebb-ada0-947be2fdcdbe",
-      "contentType": "STORY",
-      "title": "Baidu Unveils First Dividend and $5 Billion Buyback Plan: ETFs in Focus",
-      "description": "",
-      "summary": "Baidu unveils its first-ever dividend and a $5 billion buyback plan, signaling a shift toward shareholder returns. ETFs tied to BIDU come into focus.",
-      "pubDate": "2026-02-06T14:00:00Z",
-      "displayTime": "2026-02-06T14:00:00Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/zacks.com/25ee87d98c274ae0070cd3a16894feb1",
-        "originalWidth": 635,
-        "originalHeight": 400,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/P._GLHNOS4_Y72LMd5xbLg--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/25ee87d98c274ae0070cd3a16894feb1",
-            "width": 635,
-            "height": 400,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Jh7mf3Lw2ikPkijxiJhSIQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/25ee87d98c274ae0070cd3a16894feb1",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Zacks",
-        "url": "http://www.zacks.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/baidu-unveils-first-dividend-5-140000191.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/baidu-unveils-first-dividend-5-140000191.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
