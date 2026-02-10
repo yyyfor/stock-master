@@ -1,5 +1,66 @@
 [
   {
+    "id": "cc49d5bb-72d8-3c9b-a927-3f5f4b8a9d09",
+    "content": {
+      "id": "cc49d5bb-72d8-3c9b-a927-3f5f4b8a9d09",
+      "contentType": "STORY",
+      "title": "Looking At The Alibaba Group Holding (NYSE:BABA) Narrative After Mixed Cloud And Retail Signals",
+      "description": "",
+      "summary": "Analysts have adjusted their Alibaba fair value estimate to about US$197.66 per share from US$196.46, while refining key assumptions such as the discount rate to 9.30% from 9.26% and revenue growth to 9.20% from 9.27% in light of mixed signals across cloud and core retail. These small shifts reflect how enthusiasm around fiscal Q2 cloud revenue growth of 34% and artificial intelligence workloads is being evaluated against concerns over quick commerce profitability, rising capital expenditure...",
+      "pubDate": "2026-02-10T01:11:28Z",
+      "displayTime": "2026-02-10T01:11:28Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+        "originalWidth": 1194,
+        "originalHeight": 432,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Asb.EQEV7awFB_Mkuf_o.A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+            "width": 1194,
+            "height": 432,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/D6tGlHnBV1OBj9DD.GNtjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Simply Wall St.",
+        "url": "https://simplywall.st/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/looking-alibaba-group-holding-nyse-011128663.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/looking-alibaba-group-holding-nyse-011128663.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "8edbb540-e0d3-3cfb-a06f-70938a9cf6ed",
     "content": {
       "id": "8edbb540-e0d3-3cfb-a06f-70938a9cf6ed",
@@ -517,62 +578,6 @@
         "region": "US",
         "lang": "en-US"
       },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "53245baf-63bb-3c7c-b6da-d5c91dd49bce",
-    "content": {
-      "id": "53245baf-63bb-3c7c-b6da-d5c91dd49bce",
-      "contentType": "STORY",
-      "title": "Nvidia Warns Trump Administration That China Chip Rules Would Wreck Export Plan",
-      "description": "",
-      "summary": "Nvidia is warning Trump administration officials that recently released rules governing chip exports to China are too strict and would destroy demand, the latest twist in the company’s saga to regain access to the lucrative Chinese market.  The H200 was released in 2024 and isn’t as advanced as Nvidia’s newer Blackwell and Rubin chips.  Trump approved the exports to keep the U.S. competitive in the Chinese market without dramatically boosting the nation’s AI capabilities.",
-      "pubDate": "2026-02-05T14:34:16Z",
-      "displayTime": "2026-02-05T14:34:16Z",
-      "isHosted": false,
-      "bypassModal": false,
-      "previewUrl": "https://finance.yahoo.com/m/53245baf-63bb-3c7c-b6da-d5c91dd49bce/nvidia-warns-trump.html",
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8",
-        "originalWidth": 1200,
-        "originalHeight": 630,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Fwf5HL4GsEGPbDfR3MJBPg--~B/aD02MzA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8",
-            "width": 1200,
-            "height": 630,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/c34MZxHLZOfDYN2BBjM9ww--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "The Wall Street Journal",
-        "url": "http://www.wsj.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-02-05-2026/card/nvidia-warns-trump-administration-that-china-chip-rules-would-wreck-export-plan-ttf7667KS2rh4RcUIliC?siteid=yhoof2&yptr=yahoo",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": null,
       "metadata": {
         "editorsPick": false
       },
