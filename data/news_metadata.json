@@ -1,9 +1,8 @@
 {
-  "last_update": "2026-02-10T18:36:52.589016",
+  "last_update": "2026-02-11T00:57:33.401604",
   "news_counts": {
     "alibaba": 10,
-    "xiaomi": 10,
-    "meituan": 10
+    "xiaomi": 10
   },
   "update_type": "hourly_news"
 }
