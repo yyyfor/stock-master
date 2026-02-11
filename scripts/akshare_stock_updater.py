@@ -22,6 +22,14 @@ except ImportError:
     subprocess.check_call(['pip', 'install', 'akshare>=1.12.0'])
     import akshare as ak
 
+try:
+    import yfinance as yf
+except ImportError:
+    print("Installing yfinance...")
+    import subprocess
+    subprocess.check_call(['pip', 'install', 'yfinance>=0.2.36'])
+    import yfinance as yf
+
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
@@ -573,6 +581,124 @@ def get_comprehensive_stock_data(symbol: str) -> Dict[str, Any]:
         return {}
 
 
+def get_comprehensive_stock_data_yfinance(symbol_hk: str) -> Dict[str, Any]:
+    """Fallback: Get comprehensive stock data using yfinance when akshare fails"""
+    try:
+        logger.info(f"  � attempting yfinance fallback for {symbol_hk}...")
+        # Convert symbol format if needed (e.g., "00700" to "0700.HK")
+        if '.' not in symbol_hk:
+            yf_symbol = f"{int(symbol_hk)}.HK"
+        else:
+            yf_symbol = symbol_hk
+
+        ticker = yf.Ticker(yf_symbol)
+        # Get 1 year of historical data
+        df = ticker.history(period="1y", interval="1d")
+
+        if df.empty or len(df) < 50:
+            logger.warning(f"  Insufficient yfinance data for {yf_symbol}")
+            return {}
+
+        # Convert to numpy arrays
+        closes = df['Close'].values
+        highs = df['High'].values
+        lows = df['Low'].values
+        opens = df['Open'].values
+        volumes = df['Volume'].values
+
+        latest = df.iloc[-1]
+        prev = df.iloc[-2]
+
+        # Calculate change and change percentage
+        change = float(latest['Close'] - prev['Close'])
+        change_pct = float((latest['Close'] - prev['Close']) / prev['Close'] * 100)
+
+        result = {
+            # Price data
+            'price': float(latest['Close']),
+            'open': float(latest['Open']),
+            'high': float(latest['High']),
+            'low': float(latest['Low']),
+            'volume': int(latest['Volume']),
+            'turnover': float(latest['Close'] * latest['Volume']),
+            'change': change,
+            'change_pct': change_pct,
+            'amplitude': float((latest['High'] - latest['Low']) / latest['Close'] * 100),
+
+            # Moving averages
+            'ma_5': calculate_sma(closes, 5),
+            'ma_10': calculate_sma(closes, 10),
+            'ma_20': calculate_sma(closes, 20),
+            'ma_50': calculate_sma(closes, 50),
+            'ma_200': calculate_sma(closes, 200),
+            'ema_12': calculate_ema(closes, 12),
+            'ema_26': calculate_ema(closes, 26),
+
+            # Technical indicators
+            'rsi_14': calculate_rsi(closes, 14),
+            'rsi_6': calculate_rsi(closes, 6),
+
+            # MACD
+            'macd': calculate_macd(closes)[0],
+            'macd_signal': calculate_macd(closes)[1],
+            'macd_histogram': calculate_macd(closes)[2],
+
+            # Bollinger Bands
+            'bb_upper': calculate_bollinger_bands(closes)[0],
+            'bb_middle': calculate_bollinger_bands(closes)[1],
+            'bb_lower': calculate_bollinger_bands(closes)[2],
+            'bb_width': 0,
+
+            # Volatility
+            'atr': calculate_atr(highs, lows, closes),
+            'volatility': calculate_volatility(closes),
+            'historical_vol_20': calculate_volatility(closes, 20),
+            'historical_vol_60': calculate_volatility(closes, 60),
+
+            # Momentum
+            'momentum_10': calculate_momentum(closes, 10),
+
+            # Stochastic
+            'stoch_k': calculate_stochastic(highs, lows, closes)[0],
+            'stoch_d': calculate_stochastic(highs, lows, closes)[1],
+
+            # Williams %R
+            'williams_r': williams_r(highs, lows, closes),
+
+            # 52-week data
+            '52w_high': float(closes[-252:].max()) if len(closes) >= 252 else float(closes.max()),
+            '52w_low': float(closes[-252:].min()) if len(closes) >= 252 else float(closes.min()),
+        }
+
+        # Calculate Bollinger Band width
+        if result['bb_middle'] > 0:
+            result['bb_width'] = (result['bb_upper'] - result['bb_lower']) / result['bb_middle'] * 100
+
+        # Support and Resistance levels
+        support, resistance = find_support_resistance(closes)
+        result['support_levels'] = support
+        result['resistance_levels'] = resistance
+
+        # Price position vs 52W range
+        range_52w = result['52w_high'] - result['52w_low']
+        if range_52w > 0:
+            result['52w_position'] = (result['price'] - result['52w_low']) / range_52w * 100
+        else:
+            result['52w_position'] = 50
+
+        # Volume analysis
+        avg_volume_20 = np.mean(volumes[-20:])
+        result['avg_volume_20'] = float(avg_volume_20)
+        result['volume_ratio'] = float(result['volume'] / avg_volume_20) if avg_volume_20 > 0 else 1
+
+        logger.info(f"  ✅ yfinance fallback successful: {symbol_hk}")
+        return result
+
+    except Exception as e:
+        logger.error(f"  ❌ yfinance fallback also failed for {symbol_hk}: {e}")
+        return {}
+
+
 # ==================== Fallback Financial Data ====================
 
 FALLBACK_FINANCIAL_DATA = {
@@ -675,8 +801,13 @@ def fetch_all_stock_data() -> Dict[str, Dict]:
         # Get comprehensive stock data
         stock_data = get_comprehensive_stock_data(config['symbol'])
 
+        # If akshare fails, try yfinance fallback
         if not stock_data:
-            logger.warning(f"No data retrieved for {company_key}")
+            logger.warning(f"Akshare failed for {company_key}, trying yfinance fallback...")
+            stock_data = get_comprehensive_stock_data_yfinance(config['code_hk'])
+
+        if not stock_data:
+            logger.warning(f"No data retrieved for {company_key} from any source")
             continue
 
         # Add market cap metrics
@@ -713,7 +844,7 @@ def fetch_all_stock_data() -> Dict[str, Dict]:
 
         all_data[company_key] = stock_data
 
-        time.sleep(0.3)  # Rate limiting
+        time.sleep(1)  # Rate limiting to avoid yfinance API limits
 
     return all_data
 
@@ -731,31 +862,64 @@ def update_equity_analysis_html(data: Dict[str, Dict]) -> bool:
     with open(html_file, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # Update each company's summary card
+    # Update each company's stock card
     for company, metrics in data.items():
         price = metrics['price']
+        change_pct = metrics['change_pct']
         rating = metrics['technical_rating']['rating']
         rating_color = metrics['technical_rating']['color']
 
-        # Update price
-        price_pattern = rf'(<a href="{company}\.html" class="summary-card"[^>]*>.*?<div class="summary-stat">\s*<span class="label">Current Price:</span>\s*<span class="value">)[^<]+(</span>)'
+        # Determine rating class
+        rating_class_map = {
+            'Strong Buy': 'rating-strong-buy',
+            'Buy': 'rating-buy',
+            'Hold': 'rating-hold',
+            'Sell': 'rating-sell',
+            'Strong Sell': 'rating-strong-sell'
+        }
+        rating_class = rating_class_map.get(rating, 'rating-hold')
+
+        # Update current price - match the company's stock card section
+        price_pattern = rf'(<a href="{company}\.html" class="stock-card [^"]*">.*?<div class="current-price">)HK\$[\d.,]+(</div>)'
         content = re.sub(price_pattern, rf"\g<1>HK${price:.2f}\g<2>", content, flags=re.DOTALL)
 
+        # Update price change - find within the stock card only
+        change_class = "positive" if change_pct > 0 else "negative" if change_pct < 0 else ""
+        card_start = content.find(f'<a href="{company}.html" class="stock-card')
+        if card_start != -1:
+            # Find the end of this stock card (next opening a tag or end of grid)
+            next_card_start = content.find('<a href="', card_start + 1)
+            if next_card_start == -1:
+                next_card_start = content.find('</div>', card_start + 200)  # Fallback
+
+            card_section = content[card_start:next_card_start]
+
+            # Replace the price-change div in this section
+            # Match the entire div including any accumulated content
+            new_section = re.sub(
+                rf'<div class="price-change[^>]*">[^<]*</div>',
+                f'<div class="price-change {change_class}">{change_pct:+.2f}%</div>',
+                card_section,
+                count=1
+            )
+
+            content = content[:card_start] + new_section + content[next_card_start:]
+
         # Update market cap
-        mcap_pattern = rf'(<a href="{company}\.html" class="summary-card"[^>]*>.*?<div class="summary-stat">\s*<span class="label">Market Cap:</span>\s*<span class="value">)[^<]+(</span>)'
+        mcap_pattern = rf'(<a href="{company}\.html" class="stock-card [^"]*">.*?<div class="metric-label">Market Cap</div>\s*<div class="metric-value">)[^<]+(</div>)'
         content = re.sub(mcap_pattern, rf"\g<1>{metrics['market_cap_display']}\g<2>", content, flags=re.DOTALL)
 
         # Update P/E ratio
-        pe_pattern = rf'(<a href="{company}\.html" class="summary-card"[^>]*>.*?<div class="summary-stat">\s*<span class="label">P/E Ratio:</span>\s*<span class="value">)[^<]+(</span>)'
+        pe_pattern = rf'(<a href="{company}\.html" class="stock-card [^"]*">.*?<div class="metric-label">P/E Ratio</div>\s*<div class="metric-value">)[^<]+(</div>)'
         content = re.sub(pe_pattern, rf"\g<1>{metrics['pe_ratio']:.1f}x\g<2>", content, flags=re.DOTALL)
 
         # Update ROE
-        roe_pattern = rf'(<a href="{company}\.html" class="summary-card"[^>]*>.*?<div class="summary-stat">\s*<span class="label">ROE:</span>\s*<span class="value">)[^<]+(</span>)'
+        roe_pattern = rf'(<a href="{company}\.html" class="stock-card [^"]*">.*?<div class="metric-label">ROE</div>\s*<div class="metric-value">)[^<]+(</div>)'
         content = re.sub(roe_pattern, rf"\g<1>{metrics['roe']:.1f}%\g<2>", content, flags=re.DOTALL)
 
-        # Update Rating
-        rating_pattern = rf'(<a href="{company}\.html" class="summary-card"[^>]*>.*?<div class="summary-stat">\s*<span class="label">Rating:</span>\s*<span class="value" style="color:)[^>]+>([^<]+)(</span>)'
-        content = re.sub(rating_pattern, rf"\g<1>{rating_color}>\g<2>{rating}\g<3>", content, flags=re.DOTALL)
+        # Update rating badge
+        rating_pattern = rf'(<a href="{company}\.html" class="stock-card [^"]*">.*?<span class="rating-badge\s+)rating-[a-z-]+(">[^<]*?)(?:\w+)(</span>)'
+        content = re.sub(rating_pattern, rf"\g<1>{rating_class}\g<2>{rating}\g<3>", content, flags=re.DOTALL)
 
     # Update timestamps
     now = datetime.now()
