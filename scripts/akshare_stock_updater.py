@@ -844,7 +844,7 @@ def fetch_all_stock_data() -> Dict[str, Dict]:
 
         all_data[company_key] = stock_data
 
-        time.sleep(1)  # Rate limiting to avoid yfinance API limits
+        time.sleep(3)  # Rate limiting - 3 seconds between API calls to avoid limits
 
     return all_data
 
