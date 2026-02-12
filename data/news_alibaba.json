@@ -1,5 +1,66 @@
 [
   {
+    "id": "afbe0fe8-e0c6-3f29-bfb7-f7faa593762c",
+    "content": {
+      "id": "afbe0fe8-e0c6-3f29-bfb7-f7faa593762c",
+      "contentType": "STORY",
+      "title": "SoftBank Swings to Profit on Valuation Boost From OpenAI Bet",
+      "description": "",
+      "summary": "As of December, SoftBank’s investment gain on OpenAI stood at $19.8 billion, the company said Thursday.  SoftBank’s bet in OpenAI is based on its visibility into the startup’s technology and business model, as well as communication with top management, SoftBank Chief Financial Officer Yoshimitsu Goto said.",
+      "pubDate": "2026-02-12T11:59:35Z",
+      "displayTime": "2026-02-12T11:59:35Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/2a715dc38c7de7984756935014b34782",
+        "originalWidth": 2000,
+        "originalHeight": 1333,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/nNvg9en.xP2lBwRbVel7sQ--~B/aD0xMzMzO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/2a715dc38c7de7984756935014b34782",
+            "width": 2000,
+            "height": 1333,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/d0ZgadqsSb14JwTaZ7uQKQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/2a715dc38c7de7984756935014b34782",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Bloomberg",
+        "url": "https://www.bloomberg.com/company"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/softbank-swings-profit-valuation-boost-074014227.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/softbank-swings-profit-valuation-boost-074014227.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "7a1f518d-7066-36d5-a21c-c02b49f1cd88",
     "content": {
       "id": "7a1f518d-7066-36d5-a21c-c02b49f1cd88",
@@ -447,67 +508,6 @@
       "finance": {
         "premiumFinance": {
           "isPremiumNews": true,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "49e71b9e-e31d-35b6-b968-678f479c98e0",
-    "content": {
-      "id": "49e71b9e-e31d-35b6-b968-678f479c98e0",
-      "contentType": "STORY",
-      "title": "Alibaba’s New AI Push Tests Real World Usage And Valuation Gap",
-      "description": "",
-      "summary": "Alibaba Group Holding (NYSE:BABA) temporarily pauses shopping coupons on its Qwen AI chatbot after heavy user demand. The company introduces its RynnBrain AI foundation model aimed at real world applications. Alibaba rolls out AI powered retail experiences around the Olympics, bringing its technology into physical shopping settings. For you as an investor, these updates show how Alibaba is pushing its consumer internet and cloud capabilities into everyday use cases. Qwen ties AI directly...",
-      "pubDate": "2026-02-10T17:11:43Z",
-      "displayTime": "2026-02-10T17:11:43Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-        "originalWidth": 1194,
-        "originalHeight": 432,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Asb.EQEV7awFB_Mkuf_o.A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-            "width": 1194,
-            "height": 432,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/D6tGlHnBV1OBj9DD.GNtjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Simply Wall St.",
-        "url": "https://simplywall.st/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-ai-push-tests-real-171143588.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-ai-push-tests-real-171143588.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
           "isPremiumFreeNews": false
         }
       },
