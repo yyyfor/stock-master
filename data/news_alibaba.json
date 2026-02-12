@@ -1,5 +1,127 @@
 [
   {
+    "id": "f97b167d-9b6f-36fb-b7eb-8f2338f4c102",
+    "content": {
+      "id": "f97b167d-9b6f-36fb-b7eb-8f2338f4c102",
+      "contentType": "STORY",
+      "title": "Will Heavy Capex Spending Weigh on Alibaba's AI Ambitions?",
+      "description": "",
+      "summary": "BABA's AI push is fueling cloud growth, but an 80% capex surge and negative free cash flow are clouding its near-term profit outlook.",
+      "pubDate": "2026-02-12T15:35:00Z",
+      "displayTime": "2026-02-12T15:35:00Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/zacks.com/f922715989a3a3ec368f11b74d19c0f2",
+        "originalWidth": 620,
+        "originalHeight": 413,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/wN.UAOvLmmmGRNaIOO_Baw--~B/aD00MTM7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/f922715989a3a3ec368f11b74d19c0f2",
+            "width": 620,
+            "height": 413,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/riFEGZXrVeUnUub.nEPN.w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/f922715989a3a3ec368f11b74d19c0f2",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Zacks",
+        "url": "http://www.zacks.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/heavy-capex-spending-weigh-alibabas-153500790.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/heavy-capex-spending-weigh-alibabas-153500790.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "c27c02c4-9327-3ceb-a274-6319acb17a0b",
+    "content": {
+      "id": "c27c02c4-9327-3ceb-a274-6319acb17a0b",
+      "contentType": "STORY",
+      "title": "Slowing Growth in the Core Commerce Business Hurt Alibaba (BABA) in Q4",
+      "description": "",
+      "summary": "Sustainable Growth Advisers (SGA), an investment management company, released its fourth-quarter investor letter for its “Emerging Markets Growth Strategy.” A copy of the letter can be downloaded here. The fourth quarter of 2025 marked strong divergence from the market. Market leadership by AI beneficiaries and revival of cyclical sectors dominated the market, while quality growth strategies faced […]",
+      "pubDate": "2026-02-12T15:34:22Z",
+      "displayTime": "2026-02-12T15:34:22Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/2ecb0becb2dac43b6c02e70d6d2b18a3",
+        "originalWidth": 768,
+        "originalHeight": 430,
+        "caption": "Alibaba (BABA) Soars 8% on US Chip Exports Ease to China",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Oh.dItO5k8Qnz4qexI2Jxg--~B/aD00MzA7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/2ecb0becb2dac43b6c02e70d6d2b18a3",
+            "width": 768,
+            "height": 430,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/a23tEVx0qwWsbQPpeiw6QQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/2ecb0becb2dac43b6c02e70d6d2b18a3",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Insider Monkey",
+        "url": "http://www.insidermonkey.com"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/slowing-growth-core-commerce-business-153422094.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/slowing-growth-core-commerce-business-153422094.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "afbe0fe8-e0c6-3f29-bfb7-f7faa593762c",
     "content": {
       "id": "afbe0fe8-e0c6-3f29-bfb7-f7faa593762c",
@@ -405,109 +527,6 @@
       "finance": {
         "premiumFinance": {
           "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "86afc7da-f715-303d-8950-d92ba927029d",
-    "content": {
-      "id": "86afc7da-f715-303d-8950-d92ba927029d",
-      "contentType": "STORY",
-      "title": "Alibaba (BABA) Rises As Market Takes a Dip: Key Facts",
-      "description": "",
-      "summary": "In the closing of the recent trading day, Alibaba (BABA) stood at $166.51, denoting a +2.15% move from the preceding trading day.",
-      "pubDate": "2026-02-10T22:45:04Z",
-      "displayTime": "2026-02-10T22:45:04Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/zacks.com/7853de8d69faeccb7d1ad6ebba40b8a2",
-        "originalWidth": 900,
-        "originalHeight": 741,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/d6hN0_BhikrNdWTnix6fng--~B/aD03NDE7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/7853de8d69faeccb7d1ad6ebba40b8a2",
-            "width": 900,
-            "height": 741,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/8C1MiSlUPXRmm_enKpBGcg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/7853de8d69faeccb7d1ad6ebba40b8a2",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Zacks",
-        "url": "http://www.zacks.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-baba-rises-market-takes-224504391.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-baba-rises-market-takes-224504391.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "94fab09a-34f3-318e-9c2f-cd89efee3f5e",
-    "content": {
-      "id": "94fab09a-34f3-318e-9c2f-cd89efee3f5e",
-      "contentType": "STORY",
-      "title": "Sector Update: Tech Stocks Mixed Tuesday Afternoon",
-      "description": "",
-      "summary": "Tech stocks were mixed Tuesday afternoon, with the State Street Technology Select Sector SPDR ETF (X",
-      "pubDate": "2026-02-10T18:38:37Z",
-      "displayTime": "2026-02-10T18:38:37Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": null,
-      "provider": {
-        "displayName": "MT Newswires",
-        "url": "https://www.mtnewswires.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/sector-tech-stocks-mixed-tuesday-183837786.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/sector-tech-stocks-mixed-tuesday-183837786.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": true,
           "isPremiumFreeNews": false
         }
       },

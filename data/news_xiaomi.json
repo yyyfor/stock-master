@@ -1,5 +1,108 @@
 [
   {
+    "id": "f67a925f-c591-3ef7-ab5b-9b42fcbd9ec4",
+    "content": {
+      "id": "f67a925f-c591-3ef7-ab5b-9b42fcbd9ec4",
+      "contentType": "STORY",
+      "title": "iPhone sales in China grew in January despite massive market slump",
+      "description": "",
+      "summary": "Investing.com -- Apple defied trends in China by posting 8% year-on-year sales growth in January, making it the only major smartphone brand to achieve positive results in the world's largest smartphone market.",
+      "pubDate": "2026-02-12T14:48:30Z",
+      "displayTime": "2026-02-12T14:48:30Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": null,
+      "provider": {
+        "displayName": "Investing.com",
+        "url": "https://www.investing.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/iphone-sales-china-grew-january-144830055.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/iphone-sales-china-grew-january-144830055.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "fe97a9b4-fd6e-3501-8f6b-52150952a907",
+    "content": {
+      "id": "fe97a9b4-fd6e-3501-8f6b-52150952a907",
+      "contentType": "STORY",
+      "title": "China's January smartphone sales down 23% Y/Y, says Counterpoint",
+      "description": "",
+      "summary": "BEIJING, Feb 12 (Reuters) - China's smartphone sales fell 23% in January compared with a year ago due to a high base in 2025 and a shift in the timing of Chinese New Year promotions, Counterpoint",
+      "pubDate": "2026-02-12T14:17:49Z",
+      "displayTime": "2026-02-12T14:17:49Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/reuters.com/8820a293dfd72ff1ac9f4b2d2b54ca5f",
+        "originalWidth": 800,
+        "originalHeight": 533,
+        "caption": "FILE PHOTO: People check Huawei's foldable smartphones displayed at a Huawei flagship store in Beijing, China September 10, 2024. REUTERS/Florence Lo/ File Photo",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/yz0tQst6qW9MkqeQxOAN7A--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/8820a293dfd72ff1ac9f4b2d2b54ca5f",
+            "width": 800,
+            "height": 533,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/1EMz_IhWq.xvAfXKcoySzg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/8820a293dfd72ff1ac9f4b2d2b54ca5f",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Reuters",
+        "url": "https://www.reuters.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/chinas-january-smartphone-sales-down-141749430.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/chinas-january-smartphone-sales-down-141749430.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "c76e3663-0332-3fd9-81b9-4567df003dc9",
     "content": {
       "id": "c76e3663-0332-3fd9-81b9-4567df003dc9",
@@ -433,128 +536,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/look-xiaomi-sehk-1810-valuation-061118253.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "8dd53234-e06d-3534-abf2-f6bf2502695f",
-    "content": {
-      "id": "8dd53234-e06d-3534-abf2-f6bf2502695f",
-      "contentType": "STORY",
-      "title": "Xiaomi issues surprising words on Ford merger",
-      "description": "",
-      "summary": "You know how fast a single story can change the mood around a stock or a whole sector. That is what happened here. Over the weekend, a report suggested Ford Motor Company financeF was exploring a joint venture with Xiaomi to build electric vehicles in the United States, a move that would have ...",
-      "pubDate": "2026-02-03T00:00:00Z",
-      "displayTime": "2026-02-03T00:00:00Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/thestreet_881/7a99ea6c42cfee696b0a943f84ab2d0a",
-        "originalWidth": 1200,
-        "originalHeight": 800,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/D.o1iW8z_7NSM8WYHbZyHQ--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/thestreet_881/7a99ea6c42cfee696b0a943f84ab2d0a",
-            "width": 1200,
-            "height": 800,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/qNIhsCLRGyZc0RYYdYRTjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/thestreet_881/7a99ea6c42cfee696b0a943f84ab2d0a",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "TheStreet",
-        "url": "https://www.thestreet.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.thestreet.com/automotive/xiaomi-issues-surprising-words-on-ford-merger",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/xiaomi-issues-surprising-words-ford-000000460.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "f423d0be-a5c1-379a-afc7-582e1799ffaf",
-    "content": {
-      "id": "f423d0be-a5c1-379a-afc7-582e1799ffaf",
-      "contentType": "STORY",
-      "title": "Ford, Xiaomi Deny JV Talks Even As Jim Farley Expressed Admiration For Chinese EVs While Flagging Them As Competitive Threat",
-      "description": "",
-      "summary": "Ford Motor Co. (NYSE:F) and Chinese tech giant Xiaomi (OTC:XIACF) have both denied reports of a potential collaboration to produce electric vehicles in the United States. Ford Reportedly Held Preliminary Talks With Xiaomi The Financial Times reported that Ford had preliminary discussions with Xiaomi about a joint venture, aiming to facilitate Chinese carmakers’ entry into the U.S. market. However, both companies have refuted these claims. A Ford spokesperson stated, \"This story is completely fal",
-      "pubDate": "2026-02-02T23:01:11Z",
-      "displayTime": "2026-02-02T23:01:11Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/Benzinga/82e766609ddd624ef276bc0353862984",
-        "originalWidth": 1024,
-        "originalHeight": 576,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/GdXrG2I4rG29pr80UmkGSQ--~B/aD01NzY7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Benzinga/82e766609ddd624ef276bc0353862984",
-            "width": 1024,
-            "height": 576,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/mCihiblfDDX7zuGluFCFjA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Benzinga/82e766609ddd624ef276bc0353862984",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Benzinga",
-        "url": "http://www.benzinga.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/ford-xiaomi-deny-jv-talks-230111582.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/ford-xiaomi-deny-jv-talks-230111582.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
