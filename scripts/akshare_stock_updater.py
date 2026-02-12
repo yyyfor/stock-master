@@ -862,14 +862,12 @@ def update_equity_analysis_html(data: Dict[str, Dict]) -> bool:
     with open(html_file, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # Update each company's stock card
     for company, metrics in data.items():
         price = metrics['price']
         change_pct = metrics['change_pct']
         rating = metrics['technical_rating']['rating']
         rating_color = metrics['technical_rating']['color']
 
-        # Determine rating class
         rating_class_map = {
             'Strong Buy': 'rating-strong-buy',
             'Buy': 'rating-buy',
@@ -879,23 +877,18 @@ def update_equity_analysis_html(data: Dict[str, Dict]) -> bool:
         }
         rating_class = rating_class_map.get(rating, 'rating-hold')
 
-        # Update current price - match the company's stock card section
         price_pattern = rf'(<a href="{company}\.html" class="stock-card [^"]*">.*?<div class="current-price">)HK\$[\d.,]+(</div>)'
         content = re.sub(price_pattern, rf"\g<1>HK${price:.2f}\g<2>", content, flags=re.DOTALL)
 
-        # Update price change - find within the stock card only
         change_class = "positive" if change_pct > 0 else "negative" if change_pct < 0 else ""
         card_start = content.find(f'<a href="{company}.html" class="stock-card')
         if card_start != -1:
-            # Find the end of this stock card (next opening a tag or end of grid)
             next_card_start = content.find('<a href="', card_start + 1)
             if next_card_start == -1:
-                next_card_start = content.find('</div>', card_start + 200)  # Fallback
+                next_card_start = content.find('</div>', card_start + 200)
 
             card_section = content[card_start:next_card_start]
 
-            # Replace the price-change div in this section
-            # Match the entire div including any accumulated content
             new_section = re.sub(
                 rf'<div class="price-change[^>]*">[^<]*</div>',
                 f'<div class="price-change {change_class}">{change_pct:+.2f}%</div>',
@@ -905,42 +898,77 @@ def update_equity_analysis_html(data: Dict[str, Dict]) -> bool:
 
             content = content[:card_start] + new_section + content[next_card_start:]
 
-        # Update market cap
         mcap_pattern = rf'(<a href="{company}\.html" class="stock-card [^"]*">.*?<div class="metric-label">Market Cap</div>\s*<div class="metric-value">)[^<]+(</div>)'
         content = re.sub(mcap_pattern, rf"\g<1>{metrics['market_cap_display']}\g<2>", content, flags=re.DOTALL)
 
-        # Update P/E ratio
-        pe_pattern = rf'(<a href="{company}\.html" class="stock-card [^"]*">.*?<div class="metric-label">P/E Ratio</div>\s*<div class="metric-value">)[^<]+(</div>)'
+        pe_pattern = rf'(<a href="{company}\.html" class="stock-card [^"]*">.*?<div class="metric-label">P/E</div>\s*<div class="metric-value">)[^<]+(</div>)'
         content = re.sub(pe_pattern, rf"\g<1>{metrics['pe_ratio']:.1f}x\g<2>", content, flags=re.DOTALL)
 
-        # Update ROE
         roe_pattern = rf'(<a href="{company}\.html" class="stock-card [^"]*">.*?<div class="metric-label">ROE</div>\s*<div class="metric-value">)[^<]+(</div>)'
         content = re.sub(roe_pattern, rf"\g<1>{metrics['roe']:.1f}%\g<2>", content, flags=re.DOTALL)
 
-        # Update rating badge
+        pb = metrics.get('pb_ratio', 1.0)
+        pb_pattern = rf'(<a href="{company}\.html" class="stock-card [^"]*">.*?<div class="metric-label">P/B</div>\s*<div class="metric-value small">)[^<]+(</div>)'
+        content = re.sub(pb_pattern, rf"\g<1>{pb:.1f}x\g<2>", content, flags=re.DOTALL)
+
+        peg = metrics.get('peg_ratio', 1.0)
+        peg_class = "positive" if peg < 1 else "negative" if peg > 1.5 else ""
+        peg_pattern = rf'(<a href="{company}\.html" class="stock-card [^"]*">.*?<div class="metric-label">PEG</div>\s*<div class="metric-value small)[^"]*">[^<]+(</div>)'
+        content = re.sub(peg_pattern, rf'\g<1> {peg_class}">{peg:.2f}\g<2>', content, flags=re.DOTALL)
+
+        de = metrics.get('debt_equity', 0.2)
+        de_pattern = rf'(<a href="{company}\.html" class="stock-card [^"]*">.*?<div class="metric-label">D/E</div>\s*<div class="metric-value small">)[^<]+(</div>)'
+        content = re.sub(de_pattern, rf"\g<1>{de:.2f}\g<2>", content, flags=re.DOTALL)
+
+        fcf = metrics.get('fcf_billion', 10)
+        fcf_pattern = rf'(<a href="{company}\.html" class="stock-card [^"]*">.*?<div class="metric-label">FCF</div>\s*<div class="metric-value small">)[^<]+(</div>)'
+        content = re.sub(fcf_pattern, rf"\g<1>${int(fcf)}B\g<2>", content, flags=re.DOTALL)
+
+        beta = metrics.get('beta', 0.5)
+        beta_pattern = rf'(<a href="{company}\.html" class="stock-card [^"]*">.*?<div class="metric-label">Beta</div>\s*<div class="metric-value small">)[^<]+(</div>)'
+        content = re.sub(beta_pattern, rf"\g<1>{beta:.2f}\g<2>", content, flags=re.DOTALL)
+
+        vol = metrics.get('volatility', 30)
+        vol_class = "positive" if vol < 25 else "negative" if vol > 40 else "neutral"
+        vol_pattern = rf'(<a href="{company}\.html" class="stock-card [^"]*">.*?<div class="metric-label">Vol</div>\s*<div class="metric-value small)[^"]*">[^<]+(</div>)'
+        content = re.sub(vol_pattern, rf'\g<1> {vol_class}">{int(vol)}%\g<2>', content, flags=re.DOTALL)
+
+        rsi = metrics.get('rsi_14', 50)
+        rsi_class = "bullish" if rsi < 40 else "bearish" if rsi > 60 else "neutral"
+        rsi_pattern = rf'(<a href="{company}\.html" class="stock-card [^"]*">.*?<div class="label">RSI\(14\)</div>\s*<div class="value)[^"]*">[^<]+(</div>)'
+        content = re.sub(rsi_pattern, rf'\g<1> {rsi_class}">{rsi:.1f}\g<2>', content, flags=re.DOTALL)
+
+        macd = metrics.get('macd', 0)
+        macd_class = "bullish" if macd > 0 else "bearish"
+        macd_pattern = rf'(<a href="{company}\.html" class="stock-card [^"]*">.*?<div class="label">MACD</div>\s*<div class="value)[^"]*">[^<]+(</div>)'
+        content = re.sub(macd_pattern, rf'\g<1> {macd_class}">{macd:+.1f}\g<2>', content, flags=re.DOTALL)
+
+        sma50 = metrics.get('ma_50', price)
+        sma50_class = "bullish" if price > sma50 else "bearish"
+        sma50_pattern = rf'(<a href="{company}\.html" class="stock-card [^"]*">.*?<div class="label">SMA50</div>\s*<div class="value)[^"]*">[^<]+(</div>)'
+        content = re.sub(sma50_pattern, rf'\g<1> {sma50_class}">{int(sma50)}\g<2>', content, flags=re.DOTALL)
+
+        pos_52w = metrics.get('52w_position', 50)
+        pos_52w_class = "bullish" if pos_52w > 60 else "bearish" if pos_52w < 20 else "neutral"
+        pos_52w_pattern = rf'(<a href="{company}\.html" class="stock-card [^"]*">.*?<div class="label">52W Pos</div>\s*<div class="value)[^"]*">[^<]+(</div>)'
+        content = re.sub(pos_52w_pattern, rf'\g<1> {pos_52w_class}">{int(pos_52w)}%\g<2>', content, flags=re.DOTALL)
+
         rating_pattern = rf'(<a href="{company}\.html" class="stock-card [^"]*">.*?<span class="rating-badge\s+)rating-[a-z-]+(">[^<]*?)(?:\w+)(</span>)'
         content = re.sub(rating_pattern, rf"\g<1>{rating_class}\g<2>{rating}\g<3>", content, flags=re.DOTALL)
 
-    # Update timestamps
     now = datetime.now()
-    timestamp = now.strftime("%B %d, %Y")
+    timestamp = now.strftime("%B %d, %Y %H:%M HKT")
 
     content = re.sub(
-        r'<div class="data-timestamp"[^>]*>Data as of:.*?</div>',
-        f'<div class="data-timestamp" style="font-size: 0.85rem; opacity: 0.7;">Data as of: {timestamp}</div>',
-        content
-    )
-
-    content = re.sub(
-        r'<div class="data-timestamp"[^>]*>📅 Market Data Snapshot:.*?</div>',
-        f'<div class="data-timestamp" style="text-align: center; font-size: 0.9rem; color: #6c757d; margin-bottom: 20px; font-style: italic; padding: 10px; background: #f8f9fa; border-radius: 8px;">📅 Market Data Snapshot: {timestamp}</div>',
+        r'Last updated: [^<]+',
+        f'Last updated: {timestamp}',
         content
     )
 
     with open(html_file, 'w', encoding='utf-8') as f:
         f.write(content)
 
-    logger.info("✅ Updated equity-analysis.html")
+    logger.info("✅ Updated equity-analysis.html with enhanced metrics")
     return True
 
 

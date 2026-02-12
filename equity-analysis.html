@@ -263,39 +263,62 @@
         .rating-sell { background: rgba(244, 67, 54, 0.2); color: #F44336; border: 1px solid rgba(244, 67, 54, 0.3); }
         .rating-hold { background: rgba(255, 152, 0, 0.2); color: #FF9800; border: 1px solid rgba(255, 152, 0, 0.3); }
 
-        /* Metrics Grid */
+        /* Extended Metrics Grid - 6 columns */
         .metrics-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 15px;
-            margin-top: 20px;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .metrics-grid-extended {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 8px;
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(255,255,255,0.08);
         }
 
         .metric-item {
             background: rgba(255,255,255,0.03);
             border: 1px solid rgba(255,255,255,0.05);
-            border-radius: 12px;
-            padding: 12px;
+            border-radius: 10px;
+            padding: 10px 8px;
             text-align: center;
         }
 
+        .metric-item.small {
+            padding: 8px 4px;
+        }
+
         .metric-label {
-            font-size: 0.75rem;
+            font-size: 0.65rem;
             color: var(--text-secondary);
-            margin-bottom: 5px;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
         }
 
         .metric-value {
-            font-size: 1rem;
+            font-size: 0.95rem;
             font-weight: 700;
         }
+
+        .metric-value.small {
+            font-size: 0.85rem;
+        }
+
+        .metric-value.positive { color: #00C853; }
+        .metric-value.negative { color: #F44336; }
+        .metric-value.neutral { color: #FF9800; }
 
         /* Technical Indicators Mini */
         .tech-indicators {
             display: flex;
-            gap: 10px;
-            margin-top: 15px;
-            padding-top: 15px;
+            gap: 8px;
+            margin-top: 12px;
+            padding-top: 12px;
             border-top: 1px solid rgba(255,255,255,0.1);
         }
 
@@ -305,18 +328,53 @@
         }
 
         .tech-indicator .label {
-            font-size: 0.7rem;
+            font-size: 0.65rem;
             color: var(--text-secondary);
+            text-transform: uppercase;
         }
 
         .tech-indicator .value {
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             font-weight: 600;
         }
 
         .tech-indicator .value.bullish { color: #00C853; }
         .tech-indicator .value.bearish { color: #F44336; }
         .tech-indicator .value.neutral { color: #FF9800; }
+
+        /* Signal Summary */
+        .signal-summary {
+            display: flex;
+            gap: 6px;
+            margin-top: 10px;
+            flex-wrap: wrap;
+        }
+
+        .signal-tag {
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 0.65rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .signal-tag.bullish {
+            background: rgba(0, 200, 83, 0.15);
+            color: #00C853;
+            border: 1px solid rgba(0, 200, 83, 0.3);
+        }
+
+        .signal-tag.bearish {
+            background: rgba(244, 67, 54, 0.15);
+            color: #F44336;
+            border: 1px solid rgba(244, 67, 54, 0.3);
+        }
+
+        .signal-tag.neutral {
+            background: rgba(255, 152, 0, 0.15);
+            color: #FF9800;
+            border: 1px solid rgba(255, 152, 0, 0.3);
+        }
 
         /* Charts Section */
         .charts-section {
@@ -465,40 +523,75 @@
                         </div>
                     </div>
                     <div class="stock-price">
-                        <div class="current-price">HK$613.00</div>
-                        <div class="price-change negative">-1.45%</div>
+                        <div class="current-price">HK$548.00</div>
+                        <div class="price-change negative">-0.54%</div>
                     </div>
                 </div>
                 <div>
-                    <span class="rating-badge rating-hold">HOLD</span>
+                    <span class="rating-badge rating-sell">Sell</span>
                 </div>
                 <div class="metrics-grid">
                     <div class="metric-item">
                         <div class="metric-label">Market Cap</div>
-                        <div class="metric-value">$734B</div>
+                        <div class="metric-value">$656B</div>
                     </div>
                     <div class="metric-item">
-                        <div class="metric-label">P/E Ratio</div>
-                        <div class="metric-value">4.5x</div>
+                        <div class="metric-label">P/E</div>
+                        <div class="metric-value">4.0x</div>
                     </div>
                     <div class="metric-item">
                         <div class="metric-label">ROE</div>
                         <div class="metric-value">13.8%</div>
                     </div>
                 </div>
+                <div class="metrics-grid-extended">
+                    <div class="metric-item small">
+                        <div class="metric-label">P/B</div>
+                        <div class="metric-value small">0.6x</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">PEG</div>
+                        <div class="metric-value small positive">0.2</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">D/E</div>
+                        <div class="metric-value small">0.08</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">FCF</div>
+                        <div class="metric-value small">$43B</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">Beta</div>
+                        <div class="metric-value small">0.32</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">Vol</div>
+                        <div class="metric-value small neutral">28%</div>
+                    </div>
+                </div>
                 <div class="tech-indicators">
                     <div class="tech-indicator">
-                        <div class="label">RSI</div>
+                        <div class="label">RSI(14)</div>
                         <div class="value neutral">44.3</div>
                     </div>
                     <div class="tech-indicator">
-                        <div class="label">Vol</div>
-                        <div class="value bullish">19.4%</div>
+                        <div class="label">MACD</div>
+                        <div class="value bearish">-2.1</div>
                     </div>
                     <div class="tech-indicator">
-                        <div class="label">52W</div>
+                        <div class="label">SMA50</div>
+                        <div class="value neutral">552</div>
+                    </div>
+                    <div class="tech-indicator">
+                        <div class="label">52W Pos</div>
                         <div class="value neutral">62%</div>
                     </div>
+                </div>
+                <div class="signal-summary">
+                    <span class="signal-tag bullish">Low Valuation</span>
+                    <span class="signal-tag bullish">Strong FCF</span>
+                    <span class="signal-tag bearish">Below SMA50</span>
                 </div>
             </a>
 
@@ -513,40 +606,75 @@
                         </div>
                     </div>
                     <div class="stock-price">
-                        <div class="current-price">HK$153.10</div>
-                        <div class="price-change negative">-1.54%</div>
+                        <div class="current-price">HK$144.90</div>
+                        <div class="price-change positive">+1.05%</div>
                     </div>
                 </div>
                 <div>
-                    <span class="rating-badge rating-buy">BUY</span>
+                    <span class="rating-badge rating-buy">Buy</span>
                 </div>
                 <div class="metrics-grid">
                     <div class="metric-item">
                         <div class="metric-label">Market Cap</div>
-                        <div class="metric-value">$68B</div>
+                        <div class="metric-value">$64B</div>
                     </div>
                     <div class="metric-item">
-                        <div class="metric-label">P/E Ratio</div>
-                        <div class="metric-value">2.0x</div>
+                        <div class="metric-label">P/E</div>
+                        <div class="metric-value">1.9x</div>
                     </div>
                     <div class="metric-item">
                         <div class="metric-label">ROE</div>
                         <div class="metric-value">9.2%</div>
                     </div>
                 </div>
+                <div class="metrics-grid-extended">
+                    <div class="metric-item small">
+                        <div class="metric-label">P/B</div>
+                        <div class="metric-value small">0.4x</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">PEG</div>
+                        <div class="metric-value small positive">0.05</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">D/E</div>
+                        <div class="metric-value small">0.35</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">FCF</div>
+                        <div class="metric-value small">$6B</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">Beta</div>
+                        <div class="metric-value small">0.65</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">Vol</div>
+                        <div class="metric-value small neutral">32%</div>
+                    </div>
+                </div>
                 <div class="tech-indicators">
                     <div class="tech-indicator">
-                        <div class="label">RSI</div>
+                        <div class="label">RSI(14)</div>
                         <div class="value bearish">63.6</div>
                     </div>
                     <div class="tech-indicator">
-                        <div class="label">Vol</div>
-                        <div class="value neutral">35.3%</div>
+                        <div class="label">MACD</div>
+                        <div class="value bullish">1.8</div>
                     </div>
                     <div class="tech-indicator">
-                        <div class="label">52W</div>
+                        <div class="label">SMA50</div>
+                        <div class="value bullish">138</div>
+                    </div>
+                    <div class="tech-indicator">
+                        <div class="label">52W Pos</div>
                         <div class="value bullish">78%</div>
                     </div>
+                </div>
+                <div class="signal-summary">
+                    <span class="signal-tag bullish">Undervalued</span>
+                    <span class="signal-tag bullish">Above SMA50</span>
+                    <span class="signal-tag neutral">High RSI</span>
                 </div>
             </a>
 
@@ -561,40 +689,75 @@
                         </div>
                     </div>
                     <div class="stock-price">
-                        <div class="current-price">HK$113.20</div>
-                        <div class="price-change negative">-1.22%</div>
+                        <div class="current-price">HK$110.60</div>
+                        <div class="price-change positive">+0.55%</div>
                     </div>
                 </div>
                 <div>
-                    <span class="rating-badge rating-buy">BUY</span>
+                    <span class="rating-badge rating-sell">Sell</span>
                 </div>
                 <div class="metrics-grid">
                     <div class="metric-item">
                         <div class="metric-label">Market Cap</div>
-                        <div class="metric-value">$186B</div>
+                        <div class="metric-value">$182B</div>
                     </div>
                     <div class="metric-item">
-                        <div class="metric-label">P/E Ratio</div>
-                        <div class="metric-value">7.1x</div>
+                        <div class="metric-label">P/E</div>
+                        <div class="metric-value">6.9x</div>
                     </div>
                     <div class="metric-item">
                         <div class="metric-label">ROE</div>
                         <div class="metric-value">8.4%</div>
                     </div>
                 </div>
+                <div class="metrics-grid-extended">
+                    <div class="metric-item small">
+                        <div class="metric-label">P/B</div>
+                        <div class="metric-value small">0.6x</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">PEG</div>
+                        <div class="metric-value small positive">0.2</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">D/E</div>
+                        <div class="metric-value small">0.18</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">FCF</div>
+                        <div class="metric-value small">$9B</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">Beta</div>
+                        <div class="metric-value small">0.48</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">Vol</div>
+                        <div class="metric-value small neutral">26%</div>
+                    </div>
+                </div>
                 <div class="tech-indicators">
                     <div class="tech-indicator">
-                        <div class="label">RSI</div>
+                        <div class="label">RSI(14)</div>
                         <div class="value bullish">39.5</div>
                     </div>
                     <div class="tech-indicator">
-                        <div class="label">Vol</div>
-                        <div class="value bullish">23.5%</div>
+                        <div class="label">MACD</div>
+                        <div class="value bearish">-0.8</div>
                     </div>
                     <div class="tech-indicator">
-                        <div class="label">52W</div>
+                        <div class="label">SMA50</div>
+                        <div class="value bearish">115</div>
+                    </div>
+                    <div class="tech-indicator">
+                        <div class="label">52W Pos</div>
                         <div class="value bearish">8%</div>
                     </div>
+                </div>
+                <div class="signal-summary">
+                    <span class="signal-tag bullish">Low RSI</span>
+                    <span class="signal-tag bullish">Low Valuation</span>
+                    <span class="signal-tag bearish">Near 52W Low</span>
                 </div>
             </a>
 
@@ -609,40 +772,75 @@
                         </div>
                     </div>
                     <div class="stock-price">
-                        <div class="current-price">HK$168.30</div>
-                        <div class="price-change negative">-2.89%</div>
+                        <div class="current-price">HK$161.70</div>
+                        <div class="price-change positive">+0.75%</div>
                     </div>
                 </div>
                 <div>
-                    <span class="rating-badge rating-buy">BUY</span>
+                    <span class="rating-badge rating-buy">Buy</span>
                 </div>
                 <div class="metrics-grid">
                     <div class="metric-item">
                         <div class="metric-label">Market Cap</div>
-                        <div class="metric-value">$507B</div>
+                        <div class="metric-value">$487B</div>
                     </div>
                     <div class="metric-item">
-                        <div class="metric-label">P/E Ratio</div>
-                        <div class="metric-value">3.9x</div>
+                        <div class="metric-label">P/E</div>
+                        <div class="metric-value">3.7x</div>
                     </div>
                     <div class="metric-item">
                         <div class="metric-label">ROE</div>
                         <div class="metric-value">11.4%</div>
                     </div>
                 </div>
+                <div class="metrics-grid-extended">
+                    <div class="metric-item small">
+                        <div class="metric-label">P/B</div>
+                        <div class="metric-value small">0.5x</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">PEG</div>
+                        <div class="metric-value small positive">0.01</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">D/E</div>
+                        <div class="metric-value small">0.23</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">FCF</div>
+                        <div class="metric-value small">$19B</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">Beta</div>
+                        <div class="metric-value small">0.21</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">Vol</div>
+                        <div class="metric-value small neutral">31%</div>
+                    </div>
+                </div>
                 <div class="tech-indicators">
                     <div class="tech-indicator">
-                        <div class="label">RSI</div>
+                        <div class="label">RSI(14)</div>
                         <div class="value bearish">63.3</div>
                     </div>
                     <div class="tech-indicator">
-                        <div class="label">Vol</div>
-                        <div class="value bearish">44.4%</div>
+                        <div class="label">MACD</div>
+                        <div class="value bullish">3.2</div>
                     </div>
                     <div class="tech-indicator">
-                        <div class="label">52W</div>
+                        <div class="label">SMA50</div>
+                        <div class="value bullish">152</div>
+                    </div>
+                    <div class="tech-indicator">
+                        <div class="label">52W Pos</div>
                         <div class="value bullish">71%</div>
                     </div>
+                </div>
+                <div class="signal-summary">
+                    <span class="signal-tag bullish">Very Undervalued</span>
+                    <span class="signal-tag bullish">Strong FCF</span>
+                    <span class="signal-tag bullish">Uptrend</span>
                 </div>
             </a>
 
@@ -657,40 +855,75 @@
                         </div>
                     </div>
                     <div class="stock-price">
-                        <div class="current-price">HK$35.88</div>
-                        <div class="price-change negative">-2.02%</div>
+                        <div class="current-price">HK$37.22</div>
+                        <div class="price-change positive">+4.61%</div>
                     </div>
                 </div>
                 <div>
-                    <span class="rating-badge rating-sell">SELL</span>
+                    <span class="rating-badge rating-sell">Sell</span>
                 </div>
                 <div class="metrics-grid">
                     <div class="metric-item">
                         <div class="metric-label">Market Cap</div>
-                        <div class="metric-value">$111B</div>
+                        <div class="metric-value">$115B</div>
                     </div>
                     <div class="metric-item">
-                        <div class="metric-label">P/E Ratio</div>
-                        <div class="metric-value">3.0x</div>
+                        <div class="metric-label">P/E</div>
+                        <div class="metric-value">3.1x</div>
                     </div>
                     <div class="metric-item">
                         <div class="metric-label">ROE</div>
                         <div class="metric-value">17.4%</div>
                     </div>
                 </div>
+                <div class="metrics-grid-extended">
+                    <div class="metric-item small">
+                        <div class="metric-label">P/B</div>
+                        <div class="metric-value small">0.8x</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">PEG</div>
+                        <div class="metric-value small positive">0.02</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">D/E</div>
+                        <div class="metric-value small">0.11</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">FCF</div>
+                        <div class="metric-value small">$59B</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">Beta</div>
+                        <div class="metric-value small">1.01</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">Vol</div>
+                        <div class="metric-value small neutral">38%</div>
+                    </div>
+                </div>
                 <div class="tech-indicators">
                     <div class="tech-indicator">
-                        <div class="label">RSI</div>
+                        <div class="label">RSI(14)</div>
                         <div class="value bullish">31.7</div>
                     </div>
                     <div class="tech-indicator">
-                        <div class="label">Vol</div>
-                        <div class="value bullish">26.2%</div>
+                        <div class="label">MACD</div>
+                        <div class="value bearish">-0.4</div>
                     </div>
                     <div class="tech-indicator">
-                        <div class="label">52W</div>
+                        <div class="label">SMA50</div>
+                        <div class="value bearish">39</div>
+                    </div>
+                    <div class="tech-indicator">
+                        <div class="label">52W Pos</div>
                         <div class="value bearish">3%</div>
                     </div>
+                </div>
+                <div class="signal-summary">
+                    <span class="signal-tag bullish">Oversold RSI</span>
+                    <span class="signal-tag bullish">High ROE</span>
+                    <span class="signal-tag bearish">Near 52W Low</span>
                 </div>
             </a>
 
@@ -705,42 +938,101 @@
                         </div>
                     </div>
                     <div class="stock-price">
-                        <div class="current-price">HK$98.55</div>
-                        <div class="price-change negative">-0.05%</div>
+                        <div class="current-price">HK$89.00</div>
+                        <div class="price-change " negative">-0.06%</div>
                     </div>
                 </div>
                 <div>
-                    <span class="rating-badge rating-sell">SELL</span>
+                    <span class="rating-badge rating-hold">Hold</span>
                 </div>
                 <div class="metrics-grid">
                     <div class="metric-item">
                         <div class="metric-label">Market Cap</div>
-                        <div class="metric-value">$713B</div>
+                        <div class="metric-value">$644B</div>
                     </div>
                     <div class="metric-item">
-                        <div class="metric-label">P/E Ratio</div>
-                        <div class="metric-value">75.3x</div>
+                        <div class="metric-label">P/E</div>
+                        <div class="metric-value negative">68x</div>
                     </div>
                     <div class="metric-item">
                         <div class="metric-label">ROE</div>
                         <div class="metric-value">17.1%</div>
                     </div>
                 </div>
+                <div class="metrics-grid-extended">
+                    <div class="metric-item small">
+                        <div class="metric-label">P/B</div>
+                        <div class="metric-value small">4.2x</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">PEG</div>
+                        <div class="metric-value small negative">1.2</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">D/E</div>
+                        <div class="metric-value small">0.28</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">FCF</div>
+                        <div class="metric-value small">$5B</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">Beta</div>
+                        <div class="metric-value small negative">1.15</div>
+                    </div>
+                    <div class="metric-item small">
+                        <div class="metric-label">Vol</div>
+                        <div class="metric-value small neutral">35%</div>
+                    </div>
+                </div>
                 <div class="tech-indicators">
                     <div class="tech-indicator">
-                        <div class="label">RSI</div>
+                        <div class="label">RSI(14)</div>
                         <div class="value bullish">22.3</div>
                     </div>
                     <div class="tech-indicator">
-                        <div class="label">Vol</div>
-                        <div class="value neutral">32.8%</div>
+                        <div class="label">MACD</div>
+                        <div class="value bearish">-1.5</div>
                     </div>
                     <div class="tech-indicator">
-                        <div class="label">52W</div>
+                        <div class="label">SMA50</div>
+                        <div class="value bearish">98</div>
+                    </div>
+                    <div class="tech-indicator">
+                        <div class="label">52W Pos</div>
                         <div class="value bearish">5%</div>
                     </div>
                 </div>
+                <div class="signal-summary">
+                    <span class="signal-tag bullish">Oversold RSI</span>
+                    <span class="signal-tag neutral">High Growth</span>
+                    <span class="signal-tag bearish">High Valuation</span>
+                </div>
             </a>
+        </div>
+
+        <!-- Decision Support Section -->
+        <div class="stats-bar" style="margin-top: 30px;">
+            <div class="stat-box" style="background: linear-gradient(135deg, rgba(0, 200, 83, 0.1) 0%, rgba(0, 200, 83, 0.05) 100%); border: 1px solid rgba(0, 200, 83, 0.3);">
+                <div class="value" style="background: linear-gradient(135deg, #00C853, #00E676); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Alibaba</div>
+                <div class="label" style="color: #00C853;">Best Value Pick</div>
+                <div style="font-size: 0.75rem; margin-top: 8px; color: var(--text-secondary);">P/E: 3.7x | PEG: 0.01</div>
+            </div>
+            <div class="stat-box" style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(102, 126, 234, 0.05) 100%); border: 1px solid rgba(102, 126, 234, 0.3);">
+                <div class="value" style="background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Baidu</div>
+                <div class="label" style="color: #667eea;">Best Technical Setup</div>
+                <div style="font-size: 0.75rem; margin-top: 8px; color: var(--text-secondary);">MACD Bullish | Above SMA50</div>
+            </div>
+            <div class="stat-box" style="background: linear-gradient(135deg, rgba(255, 152, 0, 0.1) 0%, rgba(255, 152, 0, 0.05) 100%); border: 1px solid rgba(255, 152, 0, 0.3);">
+                <div class="value" style="background: linear-gradient(135deg, #FF9800, #FFB74D); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Xiaomi</div>
+                <div class="label" style="color: #FF9800;">Best Oversold Opportunity</div>
+                <div style="font-size: 0.75rem; margin-top: 8px; color: var(--text-secondary);">RSI: 31.7 | Near 52W Low</div>
+            </div>
+            <div class="stat-box" style="background: linear-gradient(135deg, rgba(244, 67, 54, 0.1) 0%, rgba(244, 67, 54, 0.05) 100%); border: 1px solid rgba(244, 67, 54, 0.3);">
+                <div class="value" style="background: linear-gradient(135deg, #F44336, #EF5350); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Meituan</div>
+                <div class="label" style="color: #F44336;">Highest Risk</div>
+                <div style="font-size: 0.75rem; margin-top: 8px; color: var(--text-secondary);">P/E: 68x | Beta: 1.15</div>
+            </div>
         </div>
 
         <!-- Charts Section -->
@@ -759,12 +1051,24 @@
                 <div class="chart-card">
                     <canvas id="peChart"></canvas>
                 </div>
+                <div class="chart-card">
+                    <canvas id="valuationChart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <canvas id="riskChart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <canvas id="fcfChart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <canvas id="technicalChart"></canvas>
+                </div>
             </div>
         </div>
 
         <!-- Footer -->
         <footer class="dashboard-footer">
-            <p>Data provided by akshare • Updated daily at 4:30 PM HKT</p>
+            <p>Data provided by akshare • Updated hourly during market hours (9:30 AM - 4:00 PM HKT)</p>
             <p style="margin-top: 5px; opacity: 0.6;">Last updated: January 30, 2026</p>
         </footer>
     </div>
@@ -889,6 +1193,137 @@
                 },
                 scales: {
                     y: { grid: { color: 'rgba(255,255,255,0.1)' } },
+                    x: { grid: { display: false } }
+                }
+            }
+        });
+
+        // Valuation Chart (P/B & PEG)
+        new Chart(document.getElementById('valuationChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Tencent', 'Baidu', 'JD.com', 'Alibaba', 'Xiaomi', 'Meituan'],
+                datasets: [{
+                    label: 'P/B Ratio',
+                    data: [0.6, 0.4, 0.6, 0.5, 0.8, 4.2],
+                    backgroundColor: 'rgba(102, 126, 234, 0.6)',
+                    borderRadius: 4
+                }, {
+                    label: 'PEG Ratio',
+                    data: [0.2, 0.05, 0.2, 0.01, 0.02, 1.2],
+                    backgroundColor: 'rgba(118, 75, 162, 0.6)',
+                    borderRadius: 4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: { display: true, text: 'Valuation: P/B & PEG Ratio', font: { size: 16, weight: 'bold' } }
+                },
+                scales: {
+                    y: { grid: { color: 'rgba(255,255,255,0.1)' }, beginAtZero: true },
+                    x: { grid: { display: false } }
+                }
+            }
+        });
+
+        // Risk Chart (Beta & Volatility)
+        new Chart(document.getElementById('riskChart'), {
+            type: 'radar',
+            data: {
+                labels: ['Beta', 'Volatility %', 'D/E Ratio', '52W Position'],
+                datasets: [{
+                    label: 'Tencent',
+                    data: [0.32, 28, 0.08, 62],
+                    borderColor: chartColors.tencent,
+                    backgroundColor: 'rgba(0, 82, 212, 0.2)'
+                }, {
+                    label: 'Baidu',
+                    data: [0.65, 32, 0.35, 78],
+                    borderColor: chartColors.baidu,
+                    backgroundColor: 'rgba(41, 50, 225, 0.2)'
+                }, {
+                    label: 'Alibaba',
+                    data: [0.21, 31, 0.23, 71],
+                    borderColor: chartColors.alibaba,
+                    backgroundColor: 'rgba(255, 106, 0, 0.2)'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: { display: true, text: 'Risk Profile Comparison', font: { size: 16, weight: 'bold' } }
+                },
+                scales: {
+                    r: {
+                        grid: { color: 'rgba(255,255,255,0.1)' },
+                        pointLabels: { color: 'rgba(255,255,255,0.7)' }
+                    }
+                }
+            }
+        });
+
+        // FCF Chart
+        new Chart(document.getElementById('fcfChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Tencent', 'Baidu', 'JD.com', 'Alibaba', 'Xiaomi', 'Meituan'],
+                datasets: [{
+                    label: 'Free Cash Flow ($B)',
+                    data: [43, 6, 9, 19, 59, 5],
+                    backgroundColor: Object.values(chartColors),
+                    borderRadius: 8
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: { display: true, text: 'Free Cash Flow ($B) - Higher is Better', font: { size: 16, weight: 'bold' } },
+                    legend: { display: false }
+                },
+                scales: {
+                    y: { grid: { color: 'rgba(255,255,255,0.1)' } },
+                    x: { grid: { display: false } }
+                }
+            }
+        });
+
+        // Technical Chart (RSI)
+        new Chart(document.getElementById('technicalChart'), {
+            type: 'line',
+            data: {
+                labels: ['Tencent', 'Baidu', 'JD.com', 'Alibaba', 'Xiaomi', 'Meituan'],
+                datasets: [{
+                    label: 'RSI (14)',
+                    data: [44.3, 63.6, 39.5, 63.3, 31.7, 22.3],
+                    borderColor: '#667eea',
+                    backgroundColor: 'rgba(102, 126, 234, 0.2)',
+                    fill: true,
+                    tension: 0.4,
+                    pointBackgroundColor: Object.values(chartColors),
+                    pointBorderColor: '#fff',
+                    pointBorderWidth: 2,
+                    pointRadius: 8
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: { display: true, text: 'RSI (14) - <30 Oversold, >70 Overbought', font: { size: 16, weight: 'bold' } },
+                    legend: { display: false },
+                    annotation: {
+                        annotations: {
+                            line1: { type: 'line', yMin: 30, yMax: 30, borderColor: 'rgba(0, 200, 83, 0.5)', borderWidth: 2, borderDash: [5, 5] },
+                            line2: { type: 'line', yMin: 70, yMax: 70, borderColor: 'rgba(244, 67, 54, 0.5)', borderWidth: 2, borderDash: [5, 5] }
+                        }
+                    }
+                },
+                scales: {
+                    y: { grid: { color: 'rgba(255,255,255,0.1)' }, min: 0, max: 100 },
                     x: { grid: { display: false } }
                 }
             }
