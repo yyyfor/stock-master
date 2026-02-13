@@ -1,5 +1,66 @@
 [
   {
+    "id": "fd47a180-8ede-38bb-bc99-807b5e3c81c7",
+    "content": {
+      "id": "fd47a180-8ede-38bb-bc99-807b5e3c81c7",
+      "contentType": "STORY",
+      "title": "NIO Inc. (NIO) Balances Recall With Strong Sales and Expansion",
+      "description": "",
+      "summary": "NIO Inc. (NYSE:NIO) is one of Goldman Sachs’ top penny stock picks. On February 9, NIO Inc. (NYSE:NIO) announced its largest recall yet, affecting 246229 ES8, ES6, and EC6 vehicles produced from 2018 to 2023 due to a software issue that can temporarily disable dashboard and control screens. The recall represents about three-quarters of its […]",
+      "pubDate": "2026-02-13T12:14:18Z",
+      "displayTime": "2026-02-13T12:14:18Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/dff2ee49d793905f28f7ef451ce3153c",
+        "originalWidth": 640,
+        "originalHeight": 427,
+        "caption": "NIO Inc. (NIO) Balances Recall With Strong Sales and Expansion",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/OkgJI.0mxImoZ6VyqPLoTA--~B/aD00Mjc7dz02NDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/dff2ee49d793905f28f7ef451ce3153c",
+            "width": 640,
+            "height": 427,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/PYh435KBeH.Ii5eD1c322w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/dff2ee49d793905f28f7ef451ce3153c",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Insider Monkey",
+        "url": "http://www.insidermonkey.com"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/nio-inc-nio-balances-recall-121418080.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/nio-inc-nio-balances-recall-121418080.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "9239ad87-3c99-3361-a05b-0acd43f5aa6c",
     "content": {
       "id": "9239ad87-3c99-3361-a05b-0acd43f5aa6c",
@@ -500,48 +561,6 @@
         "premiumFinance": {
           "isPremiumNews": true,
           "isPremiumFreeNews": true
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "a34ad25f-5b22-3aed-8256-de42b04d5659",
-    "content": {
-      "id": "a34ad25f-5b22-3aed-8256-de42b04d5659",
-      "contentType": "STORY",
-      "title": "Tesla Sees 9.3% Jump in China-Made EV Sales in January",
-      "description": "",
-      "summary": "Growth continues despite sliding market share and stiff competition in China and Europe.",
-      "pubDate": "2026-02-04T12:16:40Z",
-      "displayTime": "2026-02-04T12:16:40Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": null,
-      "provider": {
-        "displayName": "GuruFocus.com",
-        "url": "http://www.gurufocus.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/tesla-sees-9-3-jump-121640642.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/tesla-sees-9-3-jump-121640642.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
         }
       },
       "storyline": null
