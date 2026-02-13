@@ -439,6 +439,131 @@
             margin-top: 5px;
         }
 
+        /* Metrics Guide Section */
+        .metrics-guide {
+            background: var(--card-gradient);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            padding: 25px;
+            margin-bottom: 40px;
+        }
+
+        .metrics-guide h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+        }
+
+        .metrics-guide h3:hover {
+            color: #667eea;
+        }
+
+        .guide-toggle {
+            margin-left: auto;
+            font-size: 1.2rem;
+            transition: transform 0.3s ease;
+        }
+
+        .guide-toggle.expanded {
+            transform: rotate(180deg);
+        }
+
+        .guide-content {
+            display: none;
+        }
+
+        .guide-content.show {
+            display: block;
+        }
+
+        .metric-category {
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .metric-category:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+
+        .metric-category h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #667eea;
+        }
+
+        .metric-item-guide {
+            background: rgba(255,255,255,0.03);
+            border-radius: 12px;
+            padding: 12px 15px;
+            margin-bottom: 10px;
+        }
+
+        .metric-item-guide .metric-name {
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .metric-item-guide .metric-name .badge {
+            font-size: 0.65rem;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        .badge-good { background: rgba(0, 200, 83, 0.2); color: #00C853; }
+        .badge-caution { background: rgba(255, 152, 0, 0.2); color: #FF9800; }
+        .badge-bad { background: rgba(244, 67, 54, 0.2); color: #F44336; }
+
+        .metric-item-guide .metric-desc {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+
+        .metric-item-guide .metric-usage {
+            font-size: 0.75rem;
+            color: #667eea;
+            margin-top: 5px;
+            font-style: italic;
+        }
+
+        .reference-links {
+            background: rgba(102, 126, 234, 0.1);
+            border-radius: 12px;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        .reference-links h4 {
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+
+        .reference-links a {
+            color: #667eea;
+            text-decoration: none;
+            font-size: 0.8rem;
+            display: inline-block;
+            margin-right: 15px;
+            margin-bottom: 5px;
+        }
+
+        .reference-links a:hover {
+            text-decoration: underline;
+        }
+
         /* Footer */
         .dashboard-footer {
             text-align: center;
@@ -507,6 +632,202 @@
             <div class="stat-box">
                 <div class="value" id="avgPE">15x</div>
                 <div class="label">Avg P/E Ratio</div>
+            </div>
+        </div>
+
+        <!-- Investor Metrics Guide -->
+        <div class="metrics-guide">
+            <h3 onclick="toggleGuide()">
+                📚 Investor's Guide: How to Use These Metrics
+                <span class="guide-toggle" id="guideToggle">▼</span>
+            </h3>
+            <div class="guide-content" id="guideContent">
+                <!-- Valuation Metrics -->
+                <div class="metric-category">
+                    <h4>💰 Valuation Metrics - "Is the stock cheap or expensive?"</h4>
+                    
+                    <div class="metric-item-guide">
+                        <div class="metric-name">
+                            P/E Ratio (Price-to-Earnings)
+                            <span class="badge badge-good">&lt;15 Good</span>
+                            <span class="badge badge-caution">15-25 Fair</span>
+                            <span class="badge badge-bad">&gt;25 Expensive</span>
+                        </div>
+                        <div class="metric-desc">Price per share divided by earnings per share. Lower P/E suggests the stock is undervalued relative to its earnings. Compare with industry peers and historical averages.</div>
+                        <div class="metric-usage">💡 Usage: Look for P/E below industry average. A P/E of 4x means you pay $4 for every $1 of annual earnings.</div>
+                    </div>
+
+                    <div class="metric-item-guide">
+                        <div class="metric-name">
+                            P/B Ratio (Price-to-Book)
+                            <span class="badge badge-good">&lt;1 Undervalued</span>
+                            <span class="badge badge-caution">1-3 Fair</span>
+                            <span class="badge badge-bad">&gt;3 Expensive</span>
+                        </div>
+                        <div class="metric-desc">Market price vs. book value (assets minus liabilities). P/B &lt;1 means the stock trades below its net asset value - potential bargain.</div>
+                        <div class="metric-usage">💡 Usage: Best for asset-heavy companies. P/B &lt;1 with profitable business = strong buy signal.</div>
+                    </div>
+
+                    <div class="metric-item-guide">
+                        <div class="metric-name">
+                            PEG Ratio (Price/Earnings-to-Growth)
+                            <span class="badge badge-good">&lt;1 Undervalued</span>
+                            <span class="badge badge-caution">1-2 Fair</span>
+                            <span class="badge badge-bad">&gt;2 Overvalued</span>
+                        </div>
+                        <div class="metric-desc">P/E divided by earnings growth rate. Accounts for growth - a high P/E may be justified if growth is high. PEG &lt;1 indicates undervaluation relative to growth.</div>
+                        <div class="metric-usage">💡 Usage: Compare companies with different growth rates. Alibaba PEG=0.01 means extremely undervalued given its growth.</div>
+                    </div>
+                </div>
+
+                <!-- Financial Health -->
+                <div class="metric-category">
+                    <h4>🏥 Financial Health - "Can the company survive and thrive?"</h4>
+                    
+                    <div class="metric-item-guide">
+                        <div class="metric-name">
+                            ROE (Return on Equity)
+                            <span class="badge badge-good">&gt;15% Excellent</span>
+                            <span class="badge badge-caution">10-15% Good</span>
+                            <span class="badge badge-bad">&lt;10% Poor</span>
+                        </div>
+                        <div class="metric-desc">Net income as percentage of shareholder equity. Measures how efficiently the company uses investor money. Higher = better management efficiency.</div>
+                        <div class="metric-usage">💡 Usage: Look for consistent ROE &gt;15%. Compare with competitors in same industry.</div>
+                    </div>
+
+                    <div class="metric-item-guide">
+                        <div class="metric-name">
+                            D/E Ratio (Debt-to-Equity)
+                            <span class="badge badge-good">&lt;0.5 Low Risk</span>
+                            <span class="badge badge-caution">0.5-1 Moderate</span>
+                            <span class="badge badge-bad">&gt;1 High Risk</span>
+                        </div>
+                        <div class="metric-desc">Total debt divided by shareholder equity. Lower is generally safer. High D/E means the company relies heavily on borrowed money.</div>
+                        <div class="metric-usage">💡 Usage: Avoid companies with D/E &gt;2 in volatile industries. Tech companies typically have low D/E.</div>
+                    </div>
+
+                    <div class="metric-item-guide">
+                        <div class="metric-name">
+                            FCF (Free Cash Flow)
+                            <span class="badge badge-good">Positive &amp; Growing</span>
+                            <span class="badge badge-bad">Negative</span>
+                        </div>
+                        <div class="metric-desc">Cash generated after capital expenditures. The "real" money available for dividends, buybacks, acquisitions, or debt repayment. More important than net income.</div>
+                        <div class="metric-usage">💡 Usage: FCF should be positive and growing. FCF/Market Cap = FCF Yield (compare to bond yields).</div>
+                    </div>
+                </div>
+
+                <!-- Technical Indicators -->
+                <div class="metric-category">
+                    <h4>📊 Technical Indicators - "What does the price action say?"</h4>
+                    
+                    <div class="metric-item-guide">
+                        <div class="metric-name">
+                            RSI (Relative Strength Index, 0-100)
+                            <span class="badge badge-good">&lt;30 Oversold (Buy)</span>
+                            <span class="badge badge-caution">30-70 Neutral</span>
+                            <span class="badge badge-bad">&gt;70 Overbought (Sell)</span>
+                        </div>
+                        <div class="metric-desc">Momentum oscillator measuring speed and change of price movements. RSI &lt;30 suggests the stock is oversold and may bounce back. RSI &gt;70 suggests overbought conditions.</div>
+                        <div class="metric-usage">💡 Usage: Buy when RSI &lt;30 in an uptrend. Sell/avoid when RSI &gt;70. Don't use alone - combine with trend analysis.</div>
+                    </div>
+
+                    <div class="metric-item-guide">
+                        <div class="metric-name">
+                            MACD (Moving Average Convergence Divergence)
+                            <span class="badge badge-good">Positive &amp; Rising = Bullish</span>
+                            <span class="badge badge-bad">Negative &amp; Falling = Bearish</span>
+                        </div>
+                        <div class="metric-desc">Shows relationship between two moving averages. MACD above signal line = bullish. MACD below signal line = bearish. Crossovers indicate trend changes.</div>
+                        <div class="metric-usage">💡 Usage: Buy on bullish crossover (MACD crosses above signal). Sell on bearish crossover.</div>
+                    </div>
+
+                    <div class="metric-item-guide">
+                        <div class="metric-name">
+                            SMA 50/200 (Simple Moving Average)
+                            <span class="badge badge-good">Price &gt; SMA50 &gt; SMA200 = Uptrend</span>
+                            <span class="badge badge-bad">Price &lt; SMA50 &lt; SMA200 = Downtrend</span>
+                        </div>
+                        <div class="metric-desc">Average price over 50 or 200 trading days. "Golden Cross" (SMA50 crosses above SMA200) = strong buy signal. "Death Cross" = strong sell signal.</div>
+                        <div class="metric-usage">💡 Usage: Buy when price bounces off SMA50 in uptrend. Use SMA200 as major support/resistance level.</div>
+                    </div>
+
+                    <div class="metric-item-guide">
+                        <div class="metric-name">
+                            52-Week Position (0-100%)
+                            <span class="badge badge-good">&lt;20% Near Low (Buy Opportunity)</span>
+                            <span class="badge badge-caution">20-80% Mid-Range</span>
+                            <span class="badge badge-bad">&gt;80% Near High (Caution)</span>
+                        </div>
+                        <div class="metric-desc">Where current price sits within 52-week range. 0% = at 52-week low. 100% = at 52-week high. Helps identify entry points.</div>
+                        <div class="metric-usage">💡 Usage: Stocks near 52-week lows with good fundamentals may be undervalued. Be cautious near 52-week highs.</div>
+                    </div>
+                </div>
+
+                <!-- Risk Metrics -->
+                <div class="metric-category">
+                    <h4>⚠️ Risk Metrics - "How risky is this investment?"</h4>
+                    
+                    <div class="metric-item-guide">
+                        <div class="metric-name">
+                            Beta (Volatility vs Market)
+                            <span class="badge badge-good">&lt;0.5 Low Volatility</span>
+                            <span class="badge badge-caution">0.5-1.2 Normal</span>
+                            <span class="badge badge-bad">&gt;1.5 High Volatility</span>
+                        </div>
+                        <div class="metric-desc">Measures stock's volatility relative to market (Beta=1). Beta &lt;1 = less volatile than market. Beta &gt;1 = more volatile. High beta = bigger swings.</div>
+                        <div class="metric-usage">💡 Usage: Conservative investors prefer Beta &lt;1. Aggressive investors may seek Beta &gt;1 for higher potential returns.</div>
+                    </div>
+
+                    <div class="metric-item-guide">
+                        <div class="metric-name">
+                            Volatility (Annualized %)
+                            <span class="badge badge-good">&lt;25% Low</span>
+                            <span class="badge badge-caution">25-40% Moderate</span>
+                            <span class="badge badge-bad">&gt;40% High</span>
+                        </div>
+                        <div class="metric-desc">Standard deviation of returns, annualized. Higher volatility = wider price swings = more risk but potentially more reward.</div>
+                        <div class="metric-usage">💡 Usage: High volatility stocks need wider stop-losses. Consider position sizing based on volatility.</div>
+                    </div>
+                </div>
+
+                <!-- Investment Strategy -->
+                <div class="metric-category">
+                    <h4>🎯 Investment Decision Framework</h4>
+                    
+                    <div class="metric-item-guide">
+                        <div class="metric-name">🟢 Strong Buy Signals</div>
+                        <div class="metric-desc">• P/E &amp; P/B below industry average • PEG &lt; 1 • ROE &gt; 15% • Low debt (D/E &lt; 0.5) • Positive &amp; growing FCF • RSI &lt; 35 (oversold) • Price above SMA50</div>
+                    </div>
+
+                    <div class="metric-item-guide">
+                        <div class="metric-name">🔴 Warning Signs</div>
+                        <div class="metric-desc">• P/E &gt; 30 with slowing growth • Declining ROE • High debt (D/E &gt; 1) • Negative FCF • RSI &gt; 70 (overbought) • Price below SMA200</div>
+                    </div>
+
+                    <div class="metric-item-guide">
+                        <div class="metric-name">⏰ When to Buy</div>
+                        <div class="metric-desc">1. Fundamentals are strong (low P/E, high ROE, positive FCF)<br>2. Technicals confirm (RSI oversold, MACD bullish crossover)<br>3. Price near support levels or 52-week low<br>4. Market sentiment is negative (contrarian opportunity)</div>
+                    </div>
+
+                    <div class="metric-item-guide">
+                        <div class="metric-name">🚪 When to Sell</div>
+                        <div class="metric-desc">1. Valuation becomes excessive (P/E &gt; industry + 50%)<br>2. Fundamentals deteriorate (declining ROE, negative FCF)<br>3. Technical breakdown (price below SMA200)<br>4. Better opportunities elsewhere</div>
+                    </div>
+                </div>
+
+                <!-- References -->
+                <div class="reference-links">
+                    <h4>📖 Learn More - Recommended Resources</h4>
+                    <a href="https://www.investopedia.com/terms/p/price-earningsratio.asp" target="_blank">Investopedia: P/E Ratio</a>
+                    <a href="https://www.investopedia.com/terms/p/pegratio.asp" target="_blank">PEG Ratio Explained</a>
+                    <a href="https://www.investopedia.com/terms/r/returnonequity.asp" target="_blank">ROE Guide</a>
+                    <a href="https://www.investopedia.com/terms/r/rsi.asp" target="_blank">RSI Indicator</a>
+                    <a href="https://www.investopedia.com/terms/m/macd.asp" target="_blank">MACD Explained</a>
+                    <a href="https://www.investopedia.com/terms/b/beta.asp" target="_blank">Beta & Volatility</a>
+                    <a href="https://www.buffett.online/" target="_blank">Buffett's Value Investing</a>
+                    <a href="https://www.gurufocus.com/" target="_blank">GuruFocus Stock Analysis</a>
+                </div>
             </div>
         </div>
 
@@ -1074,6 +1395,14 @@
     </div>
 
     <script>
+        // Toggle Guide Function
+        function toggleGuide() {
+            const content = document.getElementById('guideContent');
+            const toggle = document.getElementById('guideToggle');
+            content.classList.toggle('show');
+            toggle.classList.toggle('expanded');
+        }
+
         // Chart.js Configuration
         Chart.defaults.color = 'rgba(255,255,255,0.7)';
         Chart.defaults.font.family = 'Inter';
