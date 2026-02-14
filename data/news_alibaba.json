@@ -1,5 +1,66 @@
 [
   {
+    "id": "099f97cb-c262-30ff-9622-00e890d9d81e",
+    "content": {
+      "id": "099f97cb-c262-30ff-9622-00e890d9d81e",
+      "contentType": "STORY",
+      "title": "Alibaba Faces Rising US Scrutiny While Shares Trade Below Valuation Estimates",
+      "description": "",
+      "summary": "The US Department of Defense briefly added Alibaba Group Holding (NYSE:BABA) to its list of Chinese military companies, then removed it shortly afterward. The company remains under US government scrutiny, including an investigation into alleged national security risks tied to its operations. These developments highlight increased geopolitical and regulatory pressure that goes beyond Alibaba's usual business challenges. For investors watching NYSE:BABA, the timing is sensitive, with the...",
+      "pubDate": "2026-02-14T09:12:38Z",
+      "displayTime": "2026-02-14T09:12:38Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+        "originalWidth": 1194,
+        "originalHeight": 432,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Asb.EQEV7awFB_Mkuf_o.A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+            "width": 1194,
+            "height": 432,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/D6tGlHnBV1OBj9DD.GNtjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Simply Wall St.",
+        "url": "https://simplywall.st/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-faces-rising-us-scrutiny-091238058.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-faces-rising-us-scrutiny-091238058.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "d5c6e025-5cc7-3cb5-96cb-f5867381b3bc",
     "content": {
       "id": "d5c6e025-5cc7-3cb5-96cb-f5867381b3bc",
@@ -493,67 +554,6 @@
         "lang": "en-US"
       },
       "clickThroughUrl": null,
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "8d31b16c-ef54-37cc-9050-5f010e84aeff",
-    "content": {
-      "id": "8d31b16c-ef54-37cc-9050-5f010e84aeff",
-      "contentType": "STORY",
-      "title": "Alibaba’s RynnBrain And Qwen Push Expand AI Ecosystem And User Reach",
-      "description": "",
-      "summary": "Alibaba Group Holding (NYSE:BABA) has launched RynnBrain, an open-source robotics foundation model, as part of its expanding AI efforts. The company reports rapid user adoption of its Qwen AI platform during the recent Lunar New Year period. Usage of Qwen increased especially among rural communities and older users, including many first-time online participants. For you as an investor following NYSE:BABA, these updates sit at the intersection of AI, e commerce and cloud services, where the...",
-      "pubDate": "2026-02-13T00:26:15Z",
-      "displayTime": "2026-02-13T00:26:15Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-        "originalWidth": 1194,
-        "originalHeight": 432,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Asb.EQEV7awFB_Mkuf_o.A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-            "width": 1194,
-            "height": 432,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/D6tGlHnBV1OBj9DD.GNtjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Simply Wall St.",
-        "url": "https://simplywall.st/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-rynnbrain-qwen-push-expand-002615863.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-rynnbrain-qwen-push-expand-002615863.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
       "metadata": {
         "editorsPick": false
       },
