@@ -4,11 +4,11 @@
     "content": {
       "id": "6d5012d9-d66b-3077-962c-99c460fa6de6",
       "contentType": "STORY",
-      "title": "US Briefly Lists Alibaba, Baidu as Aiding China’s Military",
+      "title": "US Briefly Names Alibaba, Baidu as Firms Aiding China’s Military",
       "description": "",
-      "summary": "If the list is reposted, they said it would be a show of strength ahead of President Donald Trump’s expected trip to China this spring.  The updated list, which the US Federal Register a short while later declared “unpublished,” also removed two of China’s champions in production of memory chips, ChangXin Memory Technologies Inc. and Yangtze Memory Technologies Co.",
-      "pubDate": "2026-02-13T18:05:52Z",
-      "displayTime": "2026-02-13T18:05:52Z",
+      "summary": "If the list is reposted, they said it would be a show of strength ahead of President Donald Trump’s expected trip to China and meeting with Chinese leader Xi Jinping in April.  The updated list, which the US Federal Register a short while later declared “unpublished,” also removed two of China’s champions in production of memory chips, ChangXin Memory Technologies Inc. and Yangtze Memory Technologies Co.",
+      "pubDate": "2026-02-13T20:52:59Z",
+      "displayTime": "2026-02-13T20:52:59Z",
       "isHosted": true,
       "bypassModal": false,
       "previewUrl": null,
@@ -44,6 +44,67 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/us-adds-alibaba-byd-list-140956283.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "abdb1335-e6b4-3d45-a1df-02a158f73053",
+    "content": {
+      "id": "abdb1335-e6b4-3d45-a1df-02a158f73053",
+      "contentType": "STORY",
+      "title": "Lutnick Signals No Wiggle Room For Nvidia On China Chip Controls",
+      "description": "",
+      "summary": "U.S. Commerce Secretary Howard Lutnick addressed the licensing requirements governing Nvidia Corp.’s (NASDAQ:NVDA) sales of its advanced AI chips to China during a hearing on Tuesday. Lutnick stated that Nvidia must adhere to the detailed licensing terms for the sale of its second-most-advanced AI chip, the H200, to China, Reuters reported on Tuesday. He explained that the terms, which were developed in collaboration with the State Department, are detailed and non-negotiable. Don't Miss: Missed",
+      "pubDate": "2026-02-13T19:31:09Z",
+      "displayTime": "2026-02-13T19:31:09Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/Benzinga/87ae56305971892b7f595d4ca903b745",
+        "originalWidth": 1000,
+        "originalHeight": 667,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/VFK4bP0JGrmMxXVorD4rnA--~B/aD02Njc7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Benzinga/87ae56305971892b7f595d4ca903b745",
+            "width": 1000,
+            "height": 667,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/le.r8qyxH.JbeWU93r_V1w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Benzinga/87ae56305971892b7f595d4ca903b745",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Benzinga",
+        "url": "http://www.benzinga.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/lutnick-signals-no-wiggle-room-193109503.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/lutnick-signals-no-wiggle-room-193109503.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
@@ -212,26 +273,26 @@
       "contentType": "STORY",
       "title": "US withdraws newly updated list of firms allegedly aiding China's military",
       "description": "",
-      "summary": "The U.S. withdrew an updated list of Chinese firms allegedly aiding Beijing's military ‌shortly after it was posted earlier on Friday with the addition of ‌some of China's biggest companies, including Alibaba and Baidu.  The link to the U.S. government's Federal ​Register where the Pentagon's 1260H list had been posted was replaced with a \"withdrawn,\" notice about an hour after being published.  \"An agency letter requesting withdrawal of this document was received after placement on public inspection,\" the Federal Register posted in an editorial ‌note, without providing a reason.",
+      "summary": "The United States withdrew an updated list of Chinese firms allegedly aiding Beijing's military shortly after it was posted on Friday with the addition of some of China's biggest tech companies, ‌including Alibaba and Baidu.  The document, which was posted for about an hour, also had removed China's top memory chipmakers CXMT and ‌YMTC from the list, drawing fire from China hawks in Washington who fear the growing chipmaking expertise of these companies could help supercharge China's military.",
       "pubDate": "2026-02-13T13:08:08Z",
       "displayTime": "2026-02-13T13:08:08Z",
       "isHosted": true,
       "bypassModal": false,
       "previewUrl": null,
       "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/reuters-finance.com/8a4eb4d2e7d0d986be3c71ea4cc0f690",
+        "originalUrl": "https://media.zenfs.com/en/reuters-finance.com/fd6f6c0021446f94555942f57d587092",
         "originalWidth": 800,
         "originalHeight": 533,
         "caption": "FILE PHOTO: China International Supply Chain Expo in Beijing",
         "resolutions": [
           {
-            "url": "https://s.yimg.com/uu/api/res/1.2/sX4HHvUeIqPGIDAKVMsIYg--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/8a4eb4d2e7d0d986be3c71ea4cc0f690",
+            "url": "https://s.yimg.com/uu/api/res/1.2/gKXqgfRwKcHLOsz6kOAD8w--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/fd6f6c0021446f94555942f57d587092",
             "width": 800,
             "height": 533,
             "tag": "original"
           },
           {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Jl.was5co.6t2cZWFLiHkQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/8a4eb4d2e7d0d986be3c71ea4cc0f690",
+            "url": "https://s.yimg.com/uu/api/res/1.2/LbUmUVwBVgXkRCdjX_Kcrw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/fd6f6c0021446f94555942f57d587092",
             "width": 170,
             "height": 128,
             "tag": "170x128"
@@ -489,67 +550,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/stock-market-today-feb-12-221030579.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "d5145ce5-d08c-3ce6-8b1c-261ec02d5749",
-    "content": {
-      "id": "d5145ce5-d08c-3ce6-8b1c-261ec02d5749",
-      "contentType": "STORY",
-      "title": "Bitcoin vs. NVIDIA: Digital Gold or AI Giant for Long-Term Growth?",
-      "description": "",
-      "summary": "Bitcoin tumbles 22.9% YTD amid ETF outflows and weak sentiment, while NVIDIA rides the AI boom with soaring revenues and a strong growth outlook.",
-      "pubDate": "2026-02-12T20:00:00Z",
-      "displayTime": "2026-02-12T20:00:00Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/zacks.com/9a0909c06173d9257a0a4c61b5b2d64e",
-        "originalWidth": 620,
-        "originalHeight": 413,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/dAvwcPS7bZdhku5eKoMAiw--~B/aD00MTM7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/9a0909c06173d9257a0a4c61b5b2d64e",
-            "width": 620,
-            "height": 413,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/sHk5.xuWNxWdIIt.ksXBTw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/9a0909c06173d9257a0a4c61b5b2d64e",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Zacks",
-        "url": "http://www.zacks.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/bitcoin-vs-nvidia-digital-gold-200000316.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/bitcoin-vs-nvidia-digital-gold-200000316.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
