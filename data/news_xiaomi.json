@@ -1,5 +1,66 @@
 [
   {
+    "id": "27227983-bcdc-4210-892d-c230724dcd60",
+    "content": {
+      "id": "27227983-bcdc-4210-892d-c230724dcd60",
+      "contentType": "STORY",
+      "title": "From 'slippery slope' to 'existential threat,' auto CEOs sound alarm on Chinese competition",
+      "description": "",
+      "summary": "Western automakers, from the Big Three to EV pure plays, are delivering the same stark warning: Chinese automakers pose a threat to their survival if domestic production isn't protected.",
+      "pubDate": "2026-02-14T15:30:37Z",
+      "displayTime": "2026-02-14T15:30:37Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2026-02/7e04c760-091d-11f1-b5ff-eb69fd3db5f8",
+        "originalWidth": 6000,
+        "originalHeight": 3680,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/F0gI52_QvD4Ax0c.UUgHuA--~B/aD0zNjgwO3c9NjAwMDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2026-02/7e04c760-091d-11f1-b5ff-eb69fd3db5f8",
+            "width": 6000,
+            "height": 3680,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/ADlfRz6SZ_qXfL5g3NVHHw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2026-02/7e04c760-091d-11f1-b5ff-eb69fd3db5f8",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Yahoo Finance",
+        "url": "http://finance.yahoo.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/from-slippery-slope-to-existential-threat-auto-ceos-sound-alarm-on-chinese-competition-153037342.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/from-slippery-slope-to-existential-threat-auto-ceos-sound-alarm-on-chinese-competition-153037342.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": true
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "fd47a180-8ede-38bb-bc99-807b5e3c81c7",
     "content": {
       "id": "fd47a180-8ede-38bb-bc99-807b5e3c81c7",
@@ -500,67 +561,6 @@
         "premiumFinance": {
           "isPremiumNews": false,
           "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "bebfa693-d65c-3803-930b-05f469610eff",
-    "content": {
-      "id": "bebfa693-d65c-3803-930b-05f469610eff",
-      "contentType": "STORY",
-      "title": "‘Hermès orange’ iPhone sparks Apple comeback in China",
-      "description": "",
-      "summary": "Chinese consumers are snapping up Apple’s new iPhones, with a flashy “Hermès orange” premium model going viral and helping reverse a lengthy sales decline in one of the Silicon Valley company’s largest markets.",
-      "pubDate": "2026-02-07T07:00:00Z",
-      "displayTime": "2026-02-08T12:51:53Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2026-02/755d3ea0-0461-11f1-9bef-7bc578a6c14f",
-        "originalWidth": 2886,
-        "originalHeight": 1924,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Nt6SQ54OozQWedt6yEa3jg--~B/aD0xOTI0O3c9Mjg4NjthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2026-02/755d3ea0-0461-11f1-9bef-7bc578a6c14f",
-            "width": 2886,
-            "height": 1924,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/EjYyiuMC7Gp9TK1AujifiA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2026-02/755d3ea0-0461-11f1-9bef-7bc578a6c14f",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Financial Times",
-        "url": "https://www.ft.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/herm-orange-iphone-sparks-apple-070000926.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/herm-orange-iphone-sparks-apple-070000926.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": true,
-          "isPremiumFreeNews": true
         }
       },
       "storyline": null
