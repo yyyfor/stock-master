@@ -408,67 +408,6 @@
     }
   },
   {
-    "id": "06d88754-dfaf-3992-adc2-c0c9a4d81322",
-    "content": {
-      "id": "06d88754-dfaf-3992-adc2-c0c9a4d81322",
-      "contentType": "STORY",
-      "title": "Alibaba Takes Major Step to Link Shopping to Main AI App",
-      "description": "",
-      "summary": "China’s online retail leader aims to connect Taobao, Alipay, travel service Fliggy and Amap to the Qwen app starting Thursday.  The idea is to eventually help Qwen’s 100 million users shop, book travel and pay for services via a single platform with the help of AI.  The newly integrated functions are now available for public testing in China.",
-      "pubDate": "2026-01-15T04:27:59Z",
-      "displayTime": "2026-01-15T04:27:59Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2026-01/3738c660-f1f3-11f0-af9b-f66b9fc2c9ba",
-        "originalWidth": 6245,
-        "originalHeight": 4164,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/KvBrCbxY0To_eWrC5K1mpw--~B/aD00MTY0O3c9NjI0NTthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2026-01/3738c660-f1f3-11f0-af9b-f66b9fc2c9ba",
-            "width": 6245,
-            "height": 4164,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/KyLls0Tv.n_w1Lkbbpw1.Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2026-01/3738c660-f1f3-11f0-af9b-f66b9fc2c9ba",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Bloomberg",
-        "url": "https://www.bloomberg.com/company"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-takes-major-step-shopping-042759890.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-takes-major-step-shopping-042759890.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
     "id": "53aa27db-9350-33da-81b3-dece527a0c0f",
     "content": {
       "id": "53aa27db-9350-33da-81b3-dece527a0c0f",
@@ -574,6 +513,67 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/assessing-meituan-sehk-3690-valuation-191412127.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "ff6aea7b-a050-3576-ad2c-cdc24d1188b0",
+    "content": {
+      "id": "ff6aea7b-a050-3576-ad2c-cdc24d1188b0",
+      "contentType": "STORY",
+      "title": "Alibaba Group Holding Limited (BABA) Launching its AI Services for Restaurants",
+      "description": "",
+      "summary": "Alibaba Group Holding Limited (NYSE:BABA) is one of the Best Stocks to Buy for High Returns in 2026. On January 5, Bloomberg reported that Alibaba Group Holding Limited (NYSE:BABA) is launching AI services for restaurants to showcase their interiors. According to the report, this strategic move comes as Alibaba competes with Meituan in the Chinese […]",
+      "pubDate": "2026-01-12T17:47:18Z",
+      "displayTime": "2026-01-12T17:47:18Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/090170be12ef840f77e8d544392228a0",
+        "originalWidth": 1456,
+        "originalHeight": 816,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/psAs0pGNqyrt8mJECiI5og--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/090170be12ef840f77e8d544392228a0",
+            "width": 1456,
+            "height": 816,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/HHEIlT7dQsZE36Et8Yp86w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/090170be12ef840f77e8d544392228a0",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Insider Monkey",
+        "url": "http://www.insidermonkey.com"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-group-holding-limited-baba-174718379.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-group-holding-limited-baba-174718379.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
