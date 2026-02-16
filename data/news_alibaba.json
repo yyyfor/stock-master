@@ -1,5 +1,66 @@
 [
   {
+    "id": "dade154b-3863-30af-b0ed-d8d808bec4a4",
+    "content": {
+      "id": "dade154b-3863-30af-b0ed-d8d808bec4a4",
+      "contentType": "STORY",
+      "title": "Alibaba Leads Tech Slide After Pentagon Briefly Shows Blacklist",
+      "description": "",
+      "summary": "The Chinese AI leader’s stock slid more than 3% in Hong Kong, while BYD Co. and Baidu Inc. were down about 1%.  All three appeared on the updated Pentagon list on the US Federal Register, though it was later declared “unpublished.”  The agency also removed two of China’s leaders in memory chips, ChangXin Memory Technologies Inc. and Yangtze Memory Technologies Co.",
+      "pubDate": "2026-02-16T02:14:37Z",
+      "displayTime": "2026-02-16T02:14:37Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/c790e113b6ffccba0746dc4876b758bd",
+        "originalWidth": 2000,
+        "originalHeight": 1334,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/uhOP3lkdEM4DE.5mcfQqaQ--~B/aD0xMzM0O3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/c790e113b6ffccba0746dc4876b758bd",
+            "width": 2000,
+            "height": 1334,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/unJSZkWrCC4o0Wv.a7GLLQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/c790e113b6ffccba0746dc4876b758bd",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Bloomberg",
+        "url": "https://www.bloomberg.com/company"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-leads-tech-slide-pentagon-021437545.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-leads-tech-slide-pentagon-021437545.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "0e4b7d1c-79b2-3e8d-b820-ebeddfce9d4e",
     "content": {
       "id": "0e4b7d1c-79b2-3e8d-b820-ebeddfce9d4e",
@@ -470,67 +531,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/alibaba-stock-falls-5-potential-134720040.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "fa3c0891-8aa7-36e7-a4fa-4933dbbaa768",
-    "content": {
-      "id": "fa3c0891-8aa7-36e7-a4fa-4933dbbaa768",
-      "contentType": "STORY",
-      "title": "US withdraws newly updated list of firms allegedly aiding China's military",
-      "description": "",
-      "summary": "The United States withdrew an updated list of Chinese firms allegedly aiding Beijing's military shortly after it was posted on Friday with the addition of some of China's biggest tech companies, ‌including Alibaba and Baidu.  The document, which was posted for about an hour, also had removed China's top memory chipmakers CXMT and ‌YMTC from the list, drawing fire from China hawks in Washington who fear the growing chipmaking expertise of these companies could help supercharge China's military.",
-      "pubDate": "2026-02-13T13:08:08Z",
-      "displayTime": "2026-02-13T13:08:08Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/reuters-finance.com/fd6f6c0021446f94555942f57d587092",
-        "originalWidth": 800,
-        "originalHeight": 533,
-        "caption": "FILE PHOTO: China International Supply Chain Expo in Beijing",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/gKXqgfRwKcHLOsz6kOAD8w--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/fd6f6c0021446f94555942f57d587092",
-            "width": 800,
-            "height": 533,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/LbUmUVwBVgXkRCdjX_Kcrw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/fd6f6c0021446f94555942f57d587092",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Reuters",
-        "url": "http://www.reuters.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/us-expected-add-alibaba-other-130808897.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/us-expected-add-alibaba-other-130808897.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"

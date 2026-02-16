@@ -61,6 +61,67 @@
     }
   },
   {
+    "id": "210bad59-edeb-3989-814d-47bc50d392dc",
+    "content": {
+      "id": "210bad59-edeb-3989-814d-47bc50d392dc",
+      "contentType": "STORY",
+      "title": "Rampant AI Demand for Memory Is Fueling a Growing Chip Crisis",
+      "description": "",
+      "summary": "Since the start of 2026, Tesla Inc., Apple Inc. and a dozen other major corporations have signaled that the shortage of DRAM, or dynamic random access memory — the fundamental building block of almost all technology — will constrain production.  Cook warned it will compress iPhone margins.  Micron Technology Inc. called the bottleneck “unprecedented.”",
+      "pubDate": "2026-02-15T22:30:00Z",
+      "displayTime": "2026-02-15T22:30:00Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/056bf7bb54670c890df9b2b1f7a7ee55",
+        "originalWidth": 2000,
+        "originalHeight": 1333,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/HgTsOxoHvgj19oCxxO9S8w--~B/aD0xMzMzO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/056bf7bb54670c890df9b2b1f7a7ee55",
+            "width": 2000,
+            "height": 1333,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/bvLihHfvxX504JkOe9r0mg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/056bf7bb54670c890df9b2b1f7a7ee55",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Bloomberg",
+        "url": "https://www.bloomberg.com/company"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/rampant-ai-demand-memory-fueling-223000743.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/rampant-ai-demand-memory-fueling-223000743.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "1230b1b0-7000-324b-ba13-60fbcee58a6f",
     "content": {
       "id": "1230b1b0-7000-324b-ba13-60fbcee58a6f",
@@ -508,67 +569,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/micron-stock-t-stop-going-130203804.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "c9a7e390-a22a-3cbd-b612-cefdfb18b993",
-    "content": {
-      "id": "c9a7e390-a22a-3cbd-b612-cefdfb18b993",
-      "contentType": "STORY",
-      "title": "Nio recalls record 246,229 cars over software problem",
-      "description": "",
-      "summary": "China's Nio is recalling 246,229 vehicles due to a software issue ​that poses safety hazards, marking the largest ‌recall by a homegrown electric vehicle maker. The recalled EVs include ‌models ES8, ES6 and EC6 and were manufactured between March 16, 2018 and January 16, 2023, a statement released by the State Administration for Market ⁠Regulation on Monday ‌said. The scale of the recall, equivalent to roughly ​three quarters of Nio's 2025 sales volume, surpassed that ‌of Xiaomi's in September, when the tech firm issued a software update for over 115,000 of its popular SU7 electric sedans to fix potential safety issues involving assisted driving features.",
-      "pubDate": "2026-02-09T11:06:27Z",
-      "displayTime": "2026-02-09T11:06:27Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/reuters-finance.com/edf48c518bd6e76f75a46f3dc96961f6",
-        "originalWidth": 800,
-        "originalHeight": 518,
-        "caption": "Beijing International Automotive Exhibition",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/YbWc801H21PWWmmxQeXwWQ--~B/aD01MTg7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/edf48c518bd6e76f75a46f3dc96961f6",
-            "width": 800,
-            "height": 518,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/4pq630Tpmkq1R3m3fAxwOA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/edf48c518bd6e76f75a46f3dc96961f6",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Reuters",
-        "url": "http://www.reuters.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/nio-recalls-record-246-229-110627039.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/nio-recalls-record-246-229-110627039.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
