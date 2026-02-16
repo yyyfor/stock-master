@@ -1,5 +1,188 @@
 [
   {
+    "id": "815109fa-f8c0-37b6-b5fc-eafb7c642dd1",
+    "content": {
+      "id": "815109fa-f8c0-37b6-b5fc-eafb7c642dd1",
+      "contentType": "STORY",
+      "title": "Alibaba Faces Pentagon Scrutiny As Qwen 3.5 Sharpens AI Investment Case",
+      "description": "",
+      "summary": "Alibaba Group Holding (NYSE:BABA) was briefly listed by the U.S. Department of Defense as a company allegedly linked to the Chinese military, a designation that was quickly withdrawn. The episode has triggered investigations and fresh questions about Alibaba’s relationship with U.S. authorities and potential regulatory exposure. At the same time, Alibaba announced Qwen 3.5, an updated AI model that claims technical improvements and lower costs, entering a more intense phase of AI competition...",
+      "pubDate": "2026-02-16T10:06:06Z",
+      "displayTime": "2026-02-16T10:06:06Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+        "originalWidth": 1194,
+        "originalHeight": 432,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Asb.EQEV7awFB_Mkuf_o.A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+            "width": 1194,
+            "height": 432,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/D6tGlHnBV1OBj9DD.GNtjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Simply Wall St.",
+        "url": "https://simplywall.st/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-faces-pentagon-scrutiny-qwen-100606392.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-faces-pentagon-scrutiny-qwen-100606392.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "b65fa069-c520-4e41-94b3-628c4b8d1663",
+    "content": {
+      "id": "b65fa069-c520-4e41-94b3-628c4b8d1663",
+      "contentType": "STORY",
+      "title": "Trending tickers: Warner Bros, Alibaba, NatWest and Zurich Insurance",
+      "description": "",
+      "summary": "The latest investor updates on stocks that are trending on Monday.",
+      "pubDate": "2026-02-16T09:46:31Z",
+      "displayTime": "2026-02-16T09:46:32Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2026-02/6e088e00-0b11-11f1-9ef7-fb06d3085e7e",
+        "originalWidth": 4013,
+        "originalHeight": 2676,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/KfCSbuJwzvBdxWsmBnWqtA--~B/aD0yNjc2O3c9NDAxMzthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2026-02/6e088e00-0b11-11f1-9ef7-fb06d3085e7e",
+            "width": 4013,
+            "height": 2676,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/DHC9Y0FzUIoAte4la4D3HA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2026-02/6e088e00-0b11-11f1-9ef7-fb06d3085e7e",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Yahoo Finance UK",
+        "url": "http://uk.finance.yahoo.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://uk.finance.yahoo.com/news/warner-bros-alibaba-natwest-zurich-insurance-trending-tickers-094631374.html",
+        "site": "finance",
+        "region": "GB",
+        "lang": "en-GB"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/warner-bros-alibaba-natwest-zurich-insurance-trending-tickers-094631374.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "9a72e091-5188-3a2a-8b87-3806b7968aa8",
+    "content": {
+      "id": "9a72e091-5188-3a2a-8b87-3806b7968aa8",
+      "contentType": "STORY",
+      "title": "Alibaba unveils new Qwen3.5 model for 'agentic AI era'",
+      "description": "",
+      "summary": "Alibaba on Monday unveiled a new artificial intelligence model Qwen 3.5 designed to execute complex tasks independently, with big improvements in performance ‌and cost that the Chinese tech giant claims beat major U.S. rival models on ‌several benchmarks.  The release comes as Alibaba looks to attract more users to its Qwen chatbot app in China, a ​landscape currently dominated by rival tech giant ByteDance's Doubao and DeepSeek, which became the first Chinese AI firm to break through globally last year.  Alibaba said Qwen3.5 was 60% cheaper to use and eight times better at processing large workloads than its immediate predecessor, adding that the model also came ‌with the ability to independently ⁠take actions across mobile and desktop apps, or what the company calls \"visual agentic capabilities\".",
+      "pubDate": "2026-02-16T09:01:41Z",
+      "displayTime": "2026-02-16T09:01:41Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2025-11/19c012d0-cb6c-11f0-bf3f-5b54eeb1c9e6",
+        "originalWidth": 4269,
+        "originalHeight": 2853,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/fcYSTvpjf4GxNVsBNeGE4A--~B/aD0yODUzO3c9NDI2OTthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2025-11/19c012d0-cb6c-11f0-bf3f-5b54eeb1c9e6",
+            "width": 4269,
+            "height": 2853,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/I3U4aEolHFyc93Fr4foyDg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2025-11/19c012d0-cb6c-11f0-bf3f-5b54eeb1c9e6",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Reuters",
+        "url": "http://www.reuters.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-unveils-qwen3-5-model-090141816.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-unveils-qwen3-5-model-090141816.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "dade154b-3863-30af-b0ed-d8d808bec4a4",
     "content": {
       "id": "dade154b-3863-30af-b0ed-d8d808bec4a4",
@@ -386,151 +569,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/lutnick-signals-no-wiggle-room-193109503.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "5b12a3ac-46c5-3a4d-8c93-96e2fed83807",
-    "content": {
-      "id": "5b12a3ac-46c5-3a4d-8c93-96e2fed83807",
-      "contentType": "STORY",
-      "title": "India partners with Alibaba.com for export push despite past China tech bans",
-      "description": "",
-      "summary": "India turns to Alibaba.com's B2B network of 50 million buyers in 200 countries to help businesses scale global exports.",
-      "pubDate": "2026-02-13T17:32:59Z",
-      "displayTime": "2026-02-13T17:32:59Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/techcrunch_finance_785/8b8fd77636fcd3fc89a509388705f8ee",
-        "originalWidth": 1920,
-        "originalHeight": 1280,
-        "caption": "Alibaba.com",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/aFvdX8yOEd.x9Uqeg9613w--~B/aD0xMjgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/techcrunch_finance_785/8b8fd77636fcd3fc89a509388705f8ee",
-            "width": 1920,
-            "height": 1280,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/G8qbBRkeuMmOM0gJ0jVkaQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/techcrunch_finance_785/8b8fd77636fcd3fc89a509388705f8ee",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "TechCrunch",
-        "url": "https://techcrunch.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/india-partners-alibaba-com-export-173259693.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/india-partners-alibaba-com-export-173259693.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "6cb5cb93-03d0-3707-9a85-3c80a3c5e5cd",
-    "content": {
-      "id": "6cb5cb93-03d0-3707-9a85-3c80a3c5e5cd",
-      "contentType": "STORY",
-      "title": "Top Midday Stories: Core CPI Slows Year Over Year in January; Pentagon Withdraws Document Listing Alibaba as 'Chinese Military Company'",
-      "description": "",
-      "summary": "All three major US stock indexes were up in late-morning trading Friday, as investors process a new",
-      "pubDate": "2026-02-13T16:52:35Z",
-      "displayTime": "2026-02-13T16:52:35Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": null,
-      "provider": {
-        "displayName": "MT Newswires",
-        "url": "https://www.mtnewswires.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/top-midday-stories-core-cpi-165235983.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/top-midday-stories-core-cpi-165235983.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": true,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "905b44e2-4e32-31ef-baa9-926e6dc8dbe4",
-    "content": {
-      "id": "905b44e2-4e32-31ef-baa9-926e6dc8dbe4",
-      "contentType": "STORY",
-      "title": "Alibaba stock falls 5% on potential Pentagon blacklisting",
-      "description": "",
-      "summary": "Investing.com -- Alibaba (NYSE:BABA) stock fell 5% and Baidu (NASDAQ:BIDU) dropped 2% Friday following reports that the U.S. government is expected to add tech companies to a Pentagon list of firms allegedly aiding China’s military.",
-      "pubDate": "2026-02-13T13:47:20Z",
-      "displayTime": "2026-02-13T13:47:20Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": null,
-      "provider": {
-        "displayName": "Investing.com",
-        "url": "https://www.investing.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-stock-falls-5-potential-134720040.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-stock-falls-5-potential-134720040.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
