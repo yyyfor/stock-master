@@ -1,5 +1,47 @@
 [
   {
+    "id": "58b7e9ec-74c0-360a-b955-aefa5c3c7575",
+    "content": {
+      "id": "58b7e9ec-74c0-360a-b955-aefa5c3c7575",
+      "contentType": "STORY",
+      "title": "Tesla Faces a New Test in China. A Fresh Rival Takes the Sales Lead",
+      "description": "",
+      "summary": "Xiaomi Shakes Up China's EV Market. What It Means for Established Players",
+      "pubDate": "2026-02-17T12:03:17Z",
+      "displayTime": "2026-02-17T12:03:17Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": null,
+      "provider": {
+        "displayName": "GuruFocus.com",
+        "url": "http://www.gurufocus.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/tesla-faces-test-china-fresh-120317759.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/tesla-faces-test-china-fresh-120317759.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "210bad59-edeb-3989-814d-47bc50d392dc",
     "content": {
       "id": "210bad59-edeb-3989-814d-47bc50d392dc",
@@ -508,67 +550,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/iphone-17-bucked-china-mobile-050045391.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "9d0b2758-4c87-3871-bab7-40599b35597e",
-    "content": {
-      "id": "9d0b2758-4c87-3871-bab7-40599b35597e",
-      "contentType": "STORY",
-      "title": "Micron Stock Can’t Stop Going Up and Goldman Sachs Knows Exactly Why",
-      "description": "",
-      "summary": "When it comes to electronic devices, the technology sector is facing some major hurdles: Smartphone production from Apple, Qualcomm, Xiaomi, and ARM Holdings are all being reduced. Tablets and PCs will all be climbing in price, according Dell, Lenovo, and ASUS. Charter Communications announced that its routers and HD boxes will all be getting price ... Micron Stock Can’t Stop Going Up and Goldman Sachs Knows Exactly Why",
-      "pubDate": "2026-02-09T13:02:03Z",
-      "displayTime": "2026-02-09T13:02:03Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/8df37ca298d80708d42e6ab56d00eebe",
-        "originalWidth": 1366,
-        "originalHeight": 768,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/q1O0Xpjjxn6Dvq.u_H_Ljw--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/8df37ca298d80708d42e6ab56d00eebe",
-            "width": 1366,
-            "height": 768,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/lsKHRj0VqdVWJuHWJ0kpHw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/24_7_wall_st__718/8df37ca298d80708d42e6ab56d00eebe",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "24/7 Wall St.",
-        "url": "https://247wallst.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://247wallst.com/investing/2026/02/09/micron-stock-cant-stop-going-up-and-goldman-sachs-knows-exactly-why/",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/micron-stock-t-stop-going-130203804.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
