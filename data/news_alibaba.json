@@ -1,5 +1,66 @@
 [
   {
+    "id": "3768db96-1657-317c-96f7-94d7dc62d201",
+    "content": {
+      "id": "3768db96-1657-317c-96f7-94d7dc62d201",
+      "contentType": "STORY",
+      "title": "Alibaba’s New AI Model Runs 8x Faster While Sentiment Hits 60.6",
+      "description": "",
+      "summary": "Over the past week, shares of Alibaba (NYSE:BABA) fell 4.46%, coinciding with a shift in retail investor sentiment. Discussion around the stock remains elevated on Reddit and X, with sentiment improving from neutral in January 2026 to a bullish 60.6 in recent weeks. Attention centers on Alibaba’s aggressive AI push, particularly the February 16th launch ... Alibaba’s New AI Model Runs 8x Faster While Sentiment Hits 60.6",
+      "pubDate": "2026-02-16T19:00:05Z",
+      "displayTime": "2026-02-16T19:00:05Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/b89221dfbd35188ad46061b4cfa60c8a",
+        "originalWidth": 1366,
+        "originalHeight": 767,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Y_85YgeM8NgJWt8Itva5Tg--~B/aD03Njc7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/b89221dfbd35188ad46061b4cfa60c8a",
+            "width": 1366,
+            "height": 767,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/ILrc5vX4E5Xly6hpsO_Adw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/24_7_wall_st__718/b89221dfbd35188ad46061b4cfa60c8a",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "24/7 Wall St.",
+        "url": "https://247wallst.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://247wallst.com/investing/2026/02/16/alibabas-new-ai-model-runs-8x-faster-while-sentiment-hits-60-6/",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-ai-model-runs-8x-190005297.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "8a716a7c-55e8-3ddc-8685-1154a9247e31",
     "content": {
       "id": "8a716a7c-55e8-3ddc-8685-1154a9247e31",
@@ -503,67 +564,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/alibaba-unveils-qwen3-5-model-090141816.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "dade154b-3863-30af-b0ed-d8d808bec4a4",
-    "content": {
-      "id": "dade154b-3863-30af-b0ed-d8d808bec4a4",
-      "contentType": "STORY",
-      "title": "Alibaba Leads Tech Slide After Pentagon Briefly Shows Blacklist",
-      "description": "",
-      "summary": "The Chinese AI leader’s stock slid more than 3% in Hong Kong, while BYD Co. and Baidu Inc. were down about 1%.  All three appeared on the updated Pentagon list on the US Federal Register, though it was later declared “unpublished.”  The agency also removed two of China’s leaders in memory chips, ChangXin Memory Technologies Inc. and Yangtze Memory Technologies Co.",
-      "pubDate": "2026-02-16T02:14:37Z",
-      "displayTime": "2026-02-16T02:14:37Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/c790e113b6ffccba0746dc4876b758bd",
-        "originalWidth": 2000,
-        "originalHeight": 1334,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/uhOP3lkdEM4DE.5mcfQqaQ--~B/aD0xMzM0O3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/c790e113b6ffccba0746dc4876b758bd",
-            "width": 2000,
-            "height": 1334,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/unJSZkWrCC4o0Wv.a7GLLQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/c790e113b6ffccba0746dc4876b758bd",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Bloomberg",
-        "url": "https://www.bloomberg.com/company"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-leads-tech-slide-pentagon-021437545.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-leads-tech-slide-pentagon-021437545.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
