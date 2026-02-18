@@ -1,5 +1,249 @@
 [
   {
+    "id": "86ff85cb-c244-3b51-836d-3b1faf3fb900",
+    "content": {
+      "id": "86ff85cb-c244-3b51-836d-3b1faf3fb900",
+      "contentType": "STORY",
+      "title": "Billionaire David Tepper Goes Big on Micron, Meta, and Alphabet in AI All-In",
+      "description": "",
+      "summary": "It’s 13F season when Wall Street funds release their holdings. One of the most widely followed 13F reports is David Tepper’s Appaloosa Management. Tepper is one of the most successful hedge fund managers of all time, known for high-conviction bets at inflection points. His latest filing reveals a clear thesis: all-in on AI infrastructure. Tepper ... Billionaire David Tepper Goes Big on Micron, Meta, and Alphabet in AI All-In",
+      "pubDate": "2026-02-18T15:19:32Z",
+      "displayTime": "2026-02-18T15:19:32Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/3560f277f118f828f43f1230262622fd",
+        "originalWidth": 1376,
+        "originalHeight": 768,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/OAdY1.Z1bW3eTPpwQia1Jg--~B/aD03Njg7dz0xMzc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/3560f277f118f828f43f1230262622fd",
+            "width": 1376,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/cuL1qhuOIFYpyfSMKyABjQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/24_7_wall_st__718/3560f277f118f828f43f1230262622fd",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "24/7 Wall St.",
+        "url": "https://247wallst.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://247wallst.com/investing/2026/02/18/billionaire-david-tepper-goes-big-on-micron-meta-and-alphabet-in-ai-all-in/",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/billionaire-david-tepper-goes-big-151932045.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "fda560f8-56c2-32b4-83ed-4ba6424f4c62",
+    "content": {
+      "id": "fda560f8-56c2-32b4-83ed-4ba6424f4c62",
+      "contentType": "STORY",
+      "title": "Retail ETFs in Spotlight as US Releases Holiday Season Report Card",
+      "description": "",
+      "summary": "XRT and other retail ETFs come into focus after flat December sales and weak real spending cast a shadow over the 2025 holiday season.",
+      "pubDate": "2026-02-18T14:31:00Z",
+      "displayTime": "2026-02-18T14:31:00Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/zacks.com/b552abaf6196477ec5fc3311afbcbb50",
+        "originalWidth": 620,
+        "originalHeight": 413,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/XljMZjwUGt8T54tvDs2r9g--~B/aD00MTM7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/b552abaf6196477ec5fc3311afbcbb50",
+            "width": 620,
+            "height": 413,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/_LwbdWb8koMj3oIqbmuLpw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/b552abaf6196477ec5fc3311afbcbb50",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Zacks",
+        "url": "http://www.zacks.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/retail-etfs-spotlight-us-releases-143100989.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/retail-etfs-spotlight-us-releases-143100989.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "90ebd5cb-0930-31d1-8f1e-c3d637918f9f",
+    "content": {
+      "id": "90ebd5cb-0930-31d1-8f1e-c3d637918f9f",
+      "contentType": "STORY",
+      "title": "Warner Bros. Discovery Gives Paramount (Yet) Another Chance",
+      "description": "",
+      "summary": "Netflix retains the ability to match any Paramount offer moving forward, and WBD shareholders won't vote on either bid until April.",
+      "pubDate": "2026-02-18T05:01:00Z",
+      "displayTime": "2026-02-18T05:01:00Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/the_daily_upside_435/c769fbd66ffc061cee67efb0e1f941c5",
+        "originalWidth": 1600,
+        "originalHeight": 901,
+        "caption": "Photo of the Paramount office building in Times Square.",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/08SzrbhKTsty15SqKpBCCw--~B/aD05MDE7dz0xNjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/the_daily_upside_435/c769fbd66ffc061cee67efb0e1f941c5",
+            "width": 1600,
+            "height": 901,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/c7uLVjQF_9QlFzMzP_yCzg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/the_daily_upside_435/c769fbd66ffc061cee67efb0e1f941c5",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "The Daily Upside",
+        "url": "http://thedailyupside.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.thedailyupside.com/industries/media-entertainment/warner-bros-discovery-gives-paramount-one-more-chance/",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/warner-bros-discovery-gives-paramount-050100089.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "ca6b3d07-71ef-3763-8704-715f93d1ca49",
+    "content": {
+      "id": "ca6b3d07-71ef-3763-8704-715f93d1ca49",
+      "contentType": "STORY",
+      "title": "Cruising for Trouble: Activist Investor Elliott Chastises Norwegian Board for CEO Picks",
+      "description": "",
+      "summary": "In a letter, Elliott said that they see a path for the stock to hit $56 per share, a roughly 159% increase from its current price.",
+      "pubDate": "2026-02-18T05:01:00Z",
+      "displayTime": "2026-02-18T05:01:00Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/the_daily_upside_435/1c2c7cc9d9c68ec72c0c7adef245b446",
+        "originalWidth": 1600,
+        "originalHeight": 901,
+        "caption": "Photo of a Norwegian Cruise Line ship.",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/hPg7Au2OBOywpa3ISC3Q.w--~B/aD05MDE7dz0xNjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/the_daily_upside_435/1c2c7cc9d9c68ec72c0c7adef245b446",
+            "width": 1600,
+            "height": 901,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/.z1doZeS6bbZTjPrNVbAig--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/the_daily_upside_435/1c2c7cc9d9c68ec72c0c7adef245b446",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "The Daily Upside",
+        "url": "http://thedailyupside.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.thedailyupside.com/industries/consumer/cruising-for-trouble-activist-investor-elliott-chastises-norwegian-board-for-ceo-picks/",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/cruising-trouble-activist-investor-elliott-050100486.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "51464d95-a5f6-3c63-b123-ff321d8c68ac",
     "content": {
       "id": "51464d95-a5f6-3c63-b123-ff321d8c68ac",
@@ -306,250 +550,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/alibaba-stock-rises-28-6-160000371.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "18ba5775-5adb-3990-a2c4-9dbc4f848513",
-    "content": {
-      "id": "18ba5775-5adb-3990-a2c4-9dbc4f848513",
-      "contentType": "STORY",
-      "title": "Amazon vs. Alibaba: Which E-Commerce Titan Has an Edge Right Now?",
-      "description": "",
-      "summary": "AMZN's AWS surge, $244 billion backlog and $200 billion AI spend highlight its edge over Alibaba amid BABA's profit slump and rising competition.",
-      "pubDate": "2026-02-17T15:56:00Z",
-      "displayTime": "2026-02-17T15:56:00Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/zacks.com/ecce6792fa253aab7199bcceb922c964",
-        "originalWidth": 635,
-        "originalHeight": 400,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/.zBTWnHVTymVn4FSF0snEw--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/ecce6792fa253aab7199bcceb922c964",
-            "width": 635,
-            "height": 400,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Y7Xz67mFnNJa_ixJlgTTcA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/ecce6792fa253aab7199bcceb922c964",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Zacks",
-        "url": "http://www.zacks.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/amazon-vs-alibaba-e-commerce-155600149.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/amazon-vs-alibaba-e-commerce-155600149.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "71c480b4-990c-3b6a-80ab-47fe1103252e",
-    "content": {
-      "id": "71c480b4-990c-3b6a-80ab-47fe1103252e",
-      "contentType": "STORY",
-      "title": "Week ahead: AI sell-off, Fed minutes, and Q4 GDP to shape Wall Street",
-      "description": "",
-      "summary": "US stock markets are starting the week on a slower note after the NYSE closed on Monday for Presidents’ Day. But while traders get a long weekend, the back half of the week is packed with economic data that could move markets. Thursday will bring the Federal Reserve’s January meeting minutes...",
-      "pubDate": "2026-02-17T15:16:00Z",
-      "displayTime": "2026-02-17T15:16:00Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/proactive_us_504/96bd00ff60ca5786a723ea7f412b6094",
-        "originalWidth": 1280,
-        "originalHeight": 591,
-        "caption": "Week ahead: AI sell-off, Fed minutes, and Q4 GDP to shape Wall Street",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/EOx9nl.vsJG9FE1QHOmWtg--~B/aD01OTE7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/proactive_us_504/96bd00ff60ca5786a723ea7f412b6094",
-            "width": 1280,
-            "height": 591,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/mDbFHw53ZVhG43hA3vM7jg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/proactive_us_504/96bd00ff60ca5786a723ea7f412b6094",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Proactive",
-        "url": "https://www.proactiveinvestors.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.proactiveinvestors.com/companies/news/1087493/week-ahead-ai-sell-off-fed-minutes-and-q4-gdp-to-shape-wall-street-1087493.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/week-ahead-ai-sell-off-151600662.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "a1d4bafc-f3ce-385e-9615-0eb9ef839a5c",
-    "content": {
-      "id": "a1d4bafc-f3ce-385e-9615-0eb9ef839a5c",
-      "contentType": "STORY",
-      "title": "Amazon's Losing Streak Extends as AI Jitters Weigh on Tech",
-      "description": "",
-      "summary": "Amazon logs a rare nine-day losing streak, shedding 18.2% as AI spending doubts rattle tech valuations and spark a pullback in mega-cap names.",
-      "pubDate": "2026-02-17T14:48:00Z",
-      "displayTime": "2026-02-17T14:48:00Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/zacks.com/ecce6792fa253aab7199bcceb922c964",
-        "originalWidth": 635,
-        "originalHeight": 400,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/.zBTWnHVTymVn4FSF0snEw--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/ecce6792fa253aab7199bcceb922c964",
-            "width": 635,
-            "height": 400,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/Y7Xz67mFnNJa_ixJlgTTcA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/ecce6792fa253aab7199bcceb922c964",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Zacks",
-        "url": "http://www.zacks.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/amazons-losing-streak-extends-ai-144800185.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/amazons-losing-streak-extends-ai-144800185.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "e9e67a56-716f-3858-939d-3018b7046685",
-    "content": {
-      "id": "e9e67a56-716f-3858-939d-3018b7046685",
-      "contentType": "STORY",
-      "title": "These 3 International Stocks Could Be the Best-Performing Stocks In 2026",
-      "description": "",
-      "summary": "Investors in U.S. stocks have broadly outperformed the rest of the world for more than a decade straight. That is, until 2025 when international stocks really started picking up steam. Some of the heightened returns seen from international stocks came from currency fluctuations, with the U.S. dollar weakening relative to a basket of global currencies. ... These 3 International Stocks Could Be the Best-Performing Stocks In 2026",
-      "pubDate": "2026-02-17T14:42:06Z",
-      "displayTime": "2026-02-17T14:42:06Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/d2b49ea6c6e6116c29279bf02663cd81",
-        "originalWidth": 1500,
-        "originalHeight": 1000,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/5_8uU2zdxcVOp7hGj4v7qA--~B/aD0xMDAwO3c9MTUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/d2b49ea6c6e6116c29279bf02663cd81",
-            "width": 1500,
-            "height": 1000,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/o.dItj3sNbH6azOSEZyG2Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/24_7_wall_st__718/d2b49ea6c6e6116c29279bf02663cd81",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "24/7 Wall St.",
-        "url": "https://247wallst.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://247wallst.com/investing/2026/02/17/these-3-international-stocks-could-be-the-best-performing-stocks-in-2026/",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/3-international-stocks-could-best-144206165.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
