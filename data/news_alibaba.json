@@ -281,128 +281,6 @@
     }
   },
   {
-    "id": "90ebd5cb-0930-31d1-8f1e-c3d637918f9f",
-    "content": {
-      "id": "90ebd5cb-0930-31d1-8f1e-c3d637918f9f",
-      "contentType": "STORY",
-      "title": "Warner Bros. Discovery Gives Paramount (Yet) Another Chance",
-      "description": "",
-      "summary": "Netflix retains the ability to match any Paramount offer moving forward, and WBD shareholders won't vote on either bid until April.",
-      "pubDate": "2026-02-18T05:01:00Z",
-      "displayTime": "2026-02-18T05:01:00Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/the_daily_upside_435/c769fbd66ffc061cee67efb0e1f941c5",
-        "originalWidth": 1600,
-        "originalHeight": 901,
-        "caption": "Photo of the Paramount office building in Times Square.",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/08SzrbhKTsty15SqKpBCCw--~B/aD05MDE7dz0xNjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/the_daily_upside_435/c769fbd66ffc061cee67efb0e1f941c5",
-            "width": 1600,
-            "height": 901,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/c7uLVjQF_9QlFzMzP_yCzg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/the_daily_upside_435/c769fbd66ffc061cee67efb0e1f941c5",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "The Daily Upside",
-        "url": "http://thedailyupside.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.thedailyupside.com/industries/media-entertainment/warner-bros-discovery-gives-paramount-one-more-chance/",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/warner-bros-discovery-gives-paramount-050100089.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "ca6b3d07-71ef-3763-8704-715f93d1ca49",
-    "content": {
-      "id": "ca6b3d07-71ef-3763-8704-715f93d1ca49",
-      "contentType": "STORY",
-      "title": "Cruising for Trouble: Activist Investor Elliott Chastises Norwegian Board for CEO Picks",
-      "description": "",
-      "summary": "In a letter, Elliott said that they see a path for the stock to hit $56 per share, a roughly 159% increase from its current price.",
-      "pubDate": "2026-02-18T05:01:00Z",
-      "displayTime": "2026-02-18T05:01:00Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/the_daily_upside_435/1c2c7cc9d9c68ec72c0c7adef245b446",
-        "originalWidth": 1600,
-        "originalHeight": 901,
-        "caption": "Photo of a Norwegian Cruise Line ship.",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/hPg7Au2OBOywpa3ISC3Q.w--~B/aD05MDE7dz0xNjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/the_daily_upside_435/1c2c7cc9d9c68ec72c0c7adef245b446",
-            "width": 1600,
-            "height": 901,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/.z1doZeS6bbZTjPrNVbAig--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/the_daily_upside_435/1c2c7cc9d9c68ec72c0c7adef245b446",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "The Daily Upside",
-        "url": "http://thedailyupside.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.thedailyupside.com/industries/consumer/cruising-for-trouble-activist-investor-elliott-chastises-norwegian-board-for-ceo-picks/",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/cruising-trouble-activist-investor-elliott-050100486.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
     "id": "51464d95-a5f6-3c63-b123-ff321d8c68ac",
     "content": {
       "id": "51464d95-a5f6-3c63-b123-ff321d8c68ac",
@@ -535,6 +413,123 @@
         "region": "US",
         "lang": "en-US"
       },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "9a33b4e9-3545-3e08-bcb0-1367df657a77",
+    "content": {
+      "id": "9a33b4e9-3545-3e08-bcb0-1367df657a77",
+      "contentType": "STORY",
+      "title": "Stock Market Today, Feb. 17: Amazon Rises After Nine-Day Slide Ends on AI Investment Reassessment",
+      "description": "",
+      "summary": "Today, Feb. 17, 2026, investors weigh a $200 billion AI buildout against the profit power of Amazon's cloud business.",
+      "pubDate": "2026-02-17T22:12:34Z",
+      "displayTime": "2026-02-17T22:12:34Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/motleyfool.com/5d2da5008ecc68517d4be6e78a6572a1",
+        "originalWidth": 384,
+        "originalHeight": 384,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/ffye2Unc1mfeE1kMm6J4Pg--~B/aD0zODQ7dz0zODQ7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/5d2da5008ecc68517d4be6e78a6572a1",
+            "width": 384,
+            "height": 384,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/yzhu1itGkGwaqzfn9bDaBg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/5d2da5008ecc68517d4be6e78a6572a1",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Motley Fool",
+        "url": "http://www.fool.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/02/17/stock-market-today-feb-17-amazon-rises-after-nine-day-slide-ends-on-ai-investment-reassessment/",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/stock-market-today-feb-17-221234578.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "2e9c543e-b3f9-3ca8-acee-7471c508d02b",
+    "content": {
+      "id": "2e9c543e-b3f9-3ca8-acee-7471c508d02b",
+      "contentType": "STORY",
+      "title": "The Pentagon Is Keeping a Close Eye on These Chinese Firms. Investors Should Too.",
+      "description": "",
+      "summary": "The Trump administration is likely to crackdown further on Chinese companies this year, Jonathan E. Hillman writes in a guest commentary.",
+      "pubDate": "2026-02-17T19:50:00Z",
+      "displayTime": "2026-02-17T19:50:00Z",
+      "isHosted": false,
+      "bypassModal": false,
+      "previewUrl": "https://finance.yahoo.com/m/2e9c543e-b3f9-3ca8-acee-7471c508d02b/the-pentagon-is-keeping-a.html",
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/Barrons.com/d538f865a667072fe90201ead76e019c",
+        "originalWidth": 1280,
+        "originalHeight": 640,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/NGWmSRFJHm.0YOEzTWJ.0Q--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/d538f865a667072fe90201ead76e019c",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/ReqaigNOWcQEzc0UBJNcMQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Barrons.com/d538f865a667072fe90201ead76e019c",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Barrons.com",
+        "url": "http://www.barrons.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.barrons.com/articles/the-pentagon-is-keeping-a-close-eye-on-these-chinese-firms-investors-should-too-e48c08fa?siteid=yhoof2&yptr=yahoo",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": null,
       "metadata": {
         "editorsPick": false
       },
