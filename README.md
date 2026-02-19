@@ -254,3 +254,46 @@ For questions or feedback, please open an issue on GitHub.
 **Status:** 🟢 Active Development
 
 Made with ❤️ for equity research and data visualization
+
+## Data Pipeline V1 (Provider Registry)
+
+This project now uses a unified provider registry and quality checks:
+
+- Entry point: `python scripts/run_update.py`
+- Stocks only: `python scripts/run_update.py --stocks-only`
+- News only: `python scripts/run_update.py --news-only`
+- Quality checks: `python scripts/quality/check_data_quality.py`
+
+### Provider Priority
+
+Configured in `config/data_sources.yaml`:
+
+- Quote: `akshare -> yfinance -> finnhub -> alpha_vantage`
+- OHLCV: `akshare -> yfinance`
+- Fundamentals: `yfinance -> finnhub -> alpha_vantage`
+- News: `yfinance -> newsapi`
+
+### API Keys (Optional but recommended)
+
+Set in environment or GitHub Secrets:
+
+- `FINNHUB_API_KEY`
+- `ALPHA_VANTAGE_API_KEY`
+- `NEWSAPI_API_KEY`
+
+Use `.env.example` as template.
+
+### Data Provenance
+
+Generated datasets now include:
+
+- `source`
+- `confidence`
+- `source_timestamp`
+- `is_estimated`
+- `last_verified_at`
+
+Schema files:
+
+- `schemas/stock_data.schema.json`
+- `schemas/news_data.schema.json`

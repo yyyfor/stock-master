@@ -211,3 +211,44 @@ To add a new metric to the comparison table:
 ## License
 
 These scripts are part of the stock-master project.
+
+## Unified Runner (V1)
+
+Use `run_update.py` as the main entrypoint:
+
+```bash
+python scripts/run_update.py
+python scripts/run_update.py --stocks-only
+python scripts/run_update.py --news-only
+```
+
+## Provider Layer
+
+Provider implementations are in `scripts/providers/`:
+
+- `akshare_provider.py`
+- `yfinance_provider.py`
+- `finnhub_provider.py`
+- `alpha_vantage_provider.py`
+- `registry.py`
+
+Configuration lives in `config/data_sources.yaml`.
+
+## Quality Gate
+
+Run quality checks explicitly:
+
+```bash
+python scripts/quality/check_data_quality.py
+```
+
+## Deprecated Scripts
+
+These scripts are legacy and kept only for compatibility:
+
+- `calculate_live_metrics.py`
+- `update_financials.py`
+- `fetch_prices_hybrid.py`
+- `multi_source_fetcher.py`
+
+Prefer `run_update.py` for new workflows.

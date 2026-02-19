@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""DEPRECATED: Legacy script kept for backward compatibility. Use scripts/run_update.py instead."""
 """
 Calculate comprehensive metrics from latest_data.json
 This ensures metrics are always based on latest automated fetch

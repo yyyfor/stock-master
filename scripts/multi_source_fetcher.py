@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""DEPRECATED: Legacy script kept for backward compatibility. Use scripts/run_update.py instead."""
 """
 Multi-source data fetcher with fallback options
 Tries multiple data sources to avoid rate limiting

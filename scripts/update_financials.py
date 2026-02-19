@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""DEPRECATED: Legacy script kept for backward compatibility. Use scripts/run_update.py instead."""
 """
 Stock Analysis Dashboard - Financial Data Updater
 

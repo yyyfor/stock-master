@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""DEPRECATED: Legacy script kept for backward compatibility. Use scripts/run_update.py instead."""
 """
 Hybrid Price Fetcher - Uses real-time APIs with reliable fallback
 

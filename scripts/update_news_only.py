@@ -1,109 +1,87 @@
 #!/usr/bin/env python3
-"""
-Stock News Updater - Hourly news fetch only (no financial data)
+"""News updater for all tracked companies with optional sentiment enrichment."""
 
-This script fetches only the latest news for all companies and updates
-the news JSON files. It's optimized for frequent updates (hourly).
-"""
+from __future__ import annotations
 
-import yfinance as yf
 import json
+import sys
 from datetime import datetime
 from pathlib import Path
 
-# Stock tickers
+ROOT = Path(__file__).resolve().parent.parent
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from scripts.news.sentiment import SentimentAnalyzer
+from scripts.providers.registry import ProviderRegistry
+
 TICKERS = {
-    'alibaba': '9988.HK',
-    'xiaomi': '1810.HK',
-    'meituan': '3690.HK'
+    "tencent": "0700.HK",
+    "baidu": "9888.HK",
+    "jd": "9618.HK",
+    "alibaba": "9988.HK",
+    "xiaomi": "1810.HK",
+    "meituan": "3690.HK",
 }
 
 
-def get_stock_news(ticker):
-    """Fetch latest news for a stock"""
-    try:
-        stock = yf.Ticker(ticker)
-        news = stock.news
-
-        if news:
-            # Return top 10 news items
-            return news[:10]
-        return []
-    except Exception as e:
-        print(f"Error fetching news for {ticker}: {e}")
-        return []
-
-
-def update_news():
-    """Main function to update news for all companies"""
+def update_news() -> None:
     print("=" * 60)
-    print("Stock News Updater - Hourly Update")
+    print("Stock News Updater - 6 Companies")
     print("=" * 60)
-    print(f"Update Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}")
-    print()
+    print(f"Update Time: {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}\n")
 
-    news_data = {}
-
-    # Fetch news for all companies
-    print("Fetching latest news...")
-    for company, ticker in TICKERS.items():
-        print(f"\n📰 Fetching {company.upper()} ({ticker})...")
-
-        news = get_stock_news(ticker)
-        if news:
-            news_data[company] = news
-            print(f"  ✅ Fetched {len(news)} news items")
-
-            # Show latest headline
-            if len(news) > 0:
-                latest = news[0]
-                title = latest.get('title', 'No title')[:60]
-                publisher = latest.get('publisher', 'Unknown')
-                print(f"  📌 Latest: \"{title}...\" - {publisher}")
-        else:
-            print(f"  ⚠️  No news available")
-
-    print("\n" + "=" * 60)
-    print("Saving news to JSON files...")
-    print("=" * 60)
-
-    # Save news for each company
-    data_dir = Path(__file__).parent.parent / 'data'
+    registry = ProviderRegistry()
+    analyzer = SentimentAnalyzer()
+    data_dir = Path(__file__).parent.parent / "data"
     data_dir.mkdir(exist_ok=True)
 
-    for company, news in news_data.items():
-        news_file = data_dir / f'news_{company}.json'
-        with open(news_file, 'w', encoding='utf-8') as f:
-            json.dump(news, f, indent=2, ensure_ascii=False)
-        print(f"  💾 Saved {len(news)} items to {news_file.name}")
+    news_counts = {}
+    provider_map = {}
 
-    # Save metadata
-    meta_file = data_dir / 'news_metadata.json'
-    with open(meta_file, 'w', encoding='utf-8') as f:
-        json.dump({
-            'last_update': datetime.now().isoformat(),
-            'news_counts': {company: len(news) for company, news in news_data.items()},
-            'update_type': 'hourly_news'
-        }, f, indent=2)
-    print(f"  💾 Saved metadata to {meta_file.name}")
+    for company, symbol in TICKERS.items():
+        print(f"Fetching {company.upper()} ({symbol})...")
+        payload = registry.get_news(company, symbol, limit=10)
+        items = []
+        provider = "none"
+        confidence = 0.0
 
-    print("\n" + "=" * 60)
-    print("✅ News update completed successfully!")
-    print("=" * 60)
+        if payload:
+            provider = payload.meta.provider
+            confidence = payload.meta.confidence
+            for n in payload.data:
+                sentiment = analyzer.score(f"{n.title} {n.summary}")
+                items.append(
+                    {
+                        "title": n.title,
+                        "publisher": n.publisher,
+                        "link": n.link,
+                        "providerPublishTime": n.provider_publish_time,
+                        "summary": n.summary,
+                        "source": provider,
+                        "confidence": confidence,
+                        **sentiment,
+                    }
+                )
 
-    # Summary
-    total_news = sum(len(news) for news in news_data.values())
-    print(f"\nSummary:")
-    print(f"  Total news items: {total_news}")
-    print(f"  Companies updated: {len(news_data)}")
-    print(f"  Update time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}")
+        news_counts[company] = len(items)
+        provider_map[company] = provider
+
+        out_file = data_dir / f"news_{company}.json"
+        out_file.write_text(json.dumps(items, indent=2, ensure_ascii=False), encoding="utf-8")
+        print(f"  saved {len(items)} items -> {out_file.name} (source={provider})")
+
+    meta = {
+        "last_update": datetime.utcnow().isoformat(),
+        "news_counts": news_counts,
+        "news_sources": provider_map,
+        "update_type": "6h_news",
+        "schema_version": "v1",
+    }
+    (data_dir / "news_metadata.json").write_text(json.dumps(meta, indent=2), encoding="utf-8")
+
+    print("\nDone")
 
 
 if __name__ == "__main__":
-    try:
-        update_news()
-    except Exception as e:
-        print(f"\n❌ Error during news update: {e}")
-        import traceback
-        traceback.print_exc()
-        exit(1)
+    update_news()

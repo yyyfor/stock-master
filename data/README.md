@@ -95,3 +95,28 @@ python3 scripts/test_news.py
 - [yfinance Documentation](https://github.com/ranaroussi/yfinance)
 - [Workflow Files](../.github/workflows/)
 - [Update Scripts](../scripts/)
+
+## V1 Schema and Quality
+
+Data files are validated against JSON Schemas before completion:
+
+- `../schemas/stock_data.schema.json`
+- `../schemas/news_data.schema.json`
+
+Freshness checks are enforced by `scripts/quality/check_data_quality.py`.
+
+### Provenance Fields
+
+`comprehensive_stock_data.json` and `stock_summary.json` now include:
+
+- `source` (provider by domain: quote/ohlcv/fundamentals)
+- `confidence` (0.0 to 1.0)
+- `is_estimated` (true only if fallback estimates were used)
+- `last_verified_at`
+
+News items now include:
+
+- `source`
+- `confidence`
+- `sentiment_score`
+- `sentiment_label`

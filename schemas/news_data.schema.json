@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "News Item",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["title", "publisher", "link", "providerPublishTime", "source", "confidence", "sentiment_score", "sentiment_label"],
+    "properties": {
+      "title": { "type": "string" },
+      "publisher": { "type": "string" },
+      "link": { "type": "string" },
+      "providerPublishTime": { "type": "integer" },
+      "summary": { "type": "string" },
+      "source": { "type": "string" },
+      "confidence": { "type": "number" },
+      "sentiment_score": { "type": "number" },
+      "sentiment_label": { "type": "string", "enum": ["positive", "negative", "neutral"] }
+    }
+  }
+}

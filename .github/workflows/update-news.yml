@@ -2,10 +2,8 @@ name: Update Stock News (Every 6 Hours)
 
 on:
   schedule:
-    # Runs every 6 hours at minute 15 (00:15, 06:15, 12:15, 18:15 UTC)
     - cron: '15 */6 * * *'
-
-  workflow_dispatch:  # Allows manual triggering
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -15,6 +13,10 @@ permissions:
 jobs:
   update-news:
     runs-on: ubuntu-latest
+    env:
+      NEWSAPI_API_KEY: ${{ secrets.NEWSAPI_API_KEY }}
+      FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+      ALPHA_VANTAGE_API_KEY: ${{ secrets.ALPHA_VANTAGE_API_KEY }}
 
     steps:
       - name: Checkout repository
@@ -26,23 +28,21 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
+        run: pip install -r requirements.txt
 
-      - name: Fetch latest news
+      - name: Fetch latest news for all companies
         run: |
-          echo "Fetching latest news for Alibaba (9988.HK), Xiaomi (1810.HK), Meituan (3690.HK)..."
-          python scripts/update_news_only.py
+          echo "Fetching latest news for Tencent, Baidu, JD.com, Alibaba, Xiaomi, Meituan"
+          python scripts/run_update.py --news-only
           echo "News update completed at $(date)"
 
       - name: Commit and push if changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/news_*.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: hourly news update - $(date +'%Y-%m-%d %H:%M UTC')" && git push)
+          git add data/news_*.json data/news_metadata.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: 6h news update - $(date +'%Y-%m-%d %H:%M UTC')" && git push)
 
       - name: Trigger Pages deployment
         if: success()
-        run: |
-          echo "News updated, GitHub Pages will auto-deploy"
+        run: echo "News updated, GitHub Pages will auto-deploy"

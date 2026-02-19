@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Comprehensive Stock Data",
+  "type": "object",
+  "required": ["timestamp", "companies"],
+  "properties": {
+    "timestamp": { "type": "string" },
+    "schema_version": { "type": "string" },
+    "companies": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["price", "change_pct", "source", "confidence", "is_estimated", "last_verified_at"],
+        "properties": {
+          "price": { "type": "number" },
+          "change_pct": { "type": "number" },
+          "source": { "type": "object" },
+          "confidence": { "type": "object" },
+          "source_timestamp": { "type": "string" },
+          "is_estimated": { "type": "boolean" },
+          "last_verified_at": { "type": "string" }
+        }
+      }
+    }
+  }
+}

@@ -2,14 +2,10 @@ name: Update Stock Analysis Data
 
 on:
   schedule:
-    # Reduced schedule to avoid API rate limits
-    # Hong Kong Stock Exchange: 9:30 AM - 4:00 PM HKT (UTC+8)
-    # Key update times: open, midday, pre-close, post-close
-    - cron: '30 1 * * 1-5'   # 9:30 AM HKT - Market open
-    - cron: '0 4 * * 1-5'   # 12:00 PM HKT - Midday
-    - cron: '0 7 * * 1-5'   # 3:00 PM HKT - Pre-close
-    - cron: '30 8 * * 1-5'  # 4:30 PM HKT - After close
-
+    - cron: '30 1 * * 1-5'
+    - cron: '0 4 * * 1-5'
+    - cron: '0 7 * * 1-5'
+    - cron: '30 8 * * 1-5'
   workflow_dispatch:
 
 permissions:
@@ -20,6 +16,10 @@ permissions:
 jobs:
   update-analysis:
     runs-on: ubuntu-latest
+    env:
+      FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+      ALPHA_VANTAGE_API_KEY: ${{ secrets.ALPHA_VANTAGE_API_KEY }}
+      NEWSAPI_API_KEY: ${{ secrets.NEWSAPI_API_KEY }}
 
     steps:
       - name: Checkout repository
@@ -31,24 +31,21 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
+        run: pip install -r requirements.txt
 
-      - name: Update financial data
+      - name: Update stock data and validate
         run: |
-          echo "Fetching latest financial data for Tencent, Baidu, JD.com, Alibaba, Xiaomi, Meituan..."
-          # Update metrics for all 6 companies using AkShare
-          python scripts/akshare_stock_updater.py
-          echo "Data update completed at $(date)"
+          echo "Running unified stock pipeline with provider fallback"
+          python scripts/run_update.py --stocks-only
+          echo "Stock update completed at $(date)"
 
       - name: Commit and push if changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -A
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update stock analysis data - $(date +'%Y-%m-%d')" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update stock analysis data - $(date +'%Y-%m-%d %H:%M UTC')" && git push)
 
       - name: Trigger Pages deployment
         if: success()
-        run: |
-          echo "Changes committed, GitHub Pages will auto-deploy"
+        run: echo "Changes committed, GitHub Pages will auto-deploy"

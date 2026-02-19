@@ -1,0 +1,26 @@
+providers:
+  quote:
+    - akshare
+    - yfinance
+    - finnhub
+    - alpha_vantage
+  ohlcv:
+    - akshare
+    - yfinance
+  fundamentals:
+    - yfinance
+    - finnhub
+    - alpha_vantage
+  news:
+    - yfinance
+    - newsapi
+
+request:
+  timeout_seconds: 15
+  max_retries: 2
+
+freshness:
+  max_age_hours:
+    comprehensive_stock_data: 12
+    stock_summary: 12
+    news: 8
