@@ -1,9 +1,21 @@
 {
-  "last_update": "2026-02-19T06:37:58.895046",
+  "last_update": "2026-02-19T12:29:26.406596",
   "news_counts": {
-    "alibaba": 10,
-    "xiaomi": 10,
-    "meituan": 10
+    "tencent": 0,
+    "baidu": 0,
+    "jd": 0,
+    "alibaba": 0,
+    "xiaomi": 0,
+    "meituan": 0
   },
-  "update_type": "hourly_news"
+  "news_sources": {
+    "tencent": "none",
+    "baidu": "none",
+    "jd": "none",
+    "alibaba": "none",
+    "xiaomi": "none",
+    "meituan": "none"
+  },
+  "update_type": "6h_news",
+  "schema_version": "v1"
 }
