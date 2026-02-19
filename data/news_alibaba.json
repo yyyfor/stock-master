@@ -1,5 +1,164 @@
 [
   {
+    "id": "175d0673-3ff9-35da-bb88-a20a24a351f5",
+    "content": {
+      "id": "175d0673-3ff9-35da-bb88-a20a24a351f5",
+      "contentType": "STORY",
+      "title": "Alibaba’s Qwen 3.5 AI Launch Sparks Questions For Undervalued Shares",
+      "description": "",
+      "summary": "Alibaba Group Holding (NYSE:BABA) has launched its advanced Qwen 3.5 AI model, highlighting performance and cost changes versus earlier versions. The model includes agentic features that allow it to carry out complex tasks independently across commerce and enterprise use cases. Alibaba is rolling out Qwen 3.5 across its platforms alongside a major Lunar New Year marketing campaign aimed at consumers and business clients. The move comes as competition in China’s AI sector intensifies, with...",
+      "pubDate": "2026-02-18T20:10:22Z",
+      "displayTime": "2026-02-18T20:10:22Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+        "originalWidth": 1194,
+        "originalHeight": 432,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Asb.EQEV7awFB_Mkuf_o.A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+            "width": 1194,
+            "height": 432,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/D6tGlHnBV1OBj9DD.GNtjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7ea8a72848a91550608dfe380952013a",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Simply Wall St.",
+        "url": "https://simplywall.st/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-qwen-3-5-ai-201022913.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/alibaba-qwen-3-5-ai-201022913.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "75b1b427-f441-38d7-b3da-3b0705b22f78",
+    "content": {
+      "id": "75b1b427-f441-38d7-b3da-3b0705b22f78",
+      "contentType": "STORY",
+      "title": "David Tepper’s Appaloosa Trims Alibaba and Adds Micron, Alphabet in Stock Reshuffle",
+      "description": "",
+      "summary": "Appaloosa’s single largest increase in holdings by dollar value was for chip maker  Micron  It acquired 1 million new shares, for a total of 1.5 million valued at $428 million at the end of 2025.  It also bumped up its  Alphabet  holdings to around 1.8 million shares, valued at around $560 million for the same period.",
+      "pubDate": "2026-02-18T19:20:00Z",
+      "displayTime": "2026-02-18T19:20:00Z",
+      "isHosted": false,
+      "bypassModal": false,
+      "previewUrl": "https://finance.yahoo.com/m/75b1b427-f441-38d7-b3da-3b0705b22f78/david-tepper%E2%80%99s-appaloosa.html",
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/Barrons.com/933683a62742614c70722f81ff60218a",
+        "originalWidth": 1280,
+        "originalHeight": 640,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/ow26X_A1_nKbB9GqoI5KPQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/933683a62742614c70722f81ff60218a",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/lpTJmiZBQ.8HzB0.VP2cKA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Barrons.com/933683a62742614c70722f81ff60218a",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Barrons.com",
+        "url": "http://www.barrons.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.barrons.com/articles/david-tepper-appaloosa-micron-alibaba-alphabet-f3f56579?siteid=yhoof2&yptr=yahoo",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": null,
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "1b489391-35be-3b4f-8d9f-e346bec9d60f",
+    "content": {
+      "id": "1b489391-35be-3b4f-8d9f-e346bec9d60f",
+      "contentType": "STORY",
+      "title": "Microsoft’s Brad Smith says U.S. firms should \"worry\" about China’s AI subsidies",
+      "description": "",
+      "summary": "Investing.com -- Microsoft President Brad Smith cautioned that American tech companies should \"worry a little bit\" about subsidies Chinese competitors receive from their government in the artificial intelligence race.",
+      "pubDate": "2026-02-18T18:53:13Z",
+      "displayTime": "2026-02-18T18:53:13Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": null,
+      "provider": {
+        "displayName": "Investing.com",
+        "url": "https://www.investing.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/microsoft-brad-smith-says-u-185313277.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/microsoft-brad-smith-says-u-185313277.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
     "id": "86ff85cb-c244-3b51-836d-3b1faf3fb900",
     "content": {
       "id": "86ff85cb-c244-3b51-836d-3b1faf3fb900",
@@ -372,184 +531,6 @@
       },
       "clickThroughUrl": {
         "url": "https://finance.yahoo.com/news/david-teppers-strategic-moves-closer-230514892.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "9a33b4e9-3545-3e08-bcb0-1367df657a77",
-    "content": {
-      "id": "9a33b4e9-3545-3e08-bcb0-1367df657a77",
-      "contentType": "STORY",
-      "title": "Stock Market Today, Feb. 17: Amazon Rises After Nine-Day Slide Ends on AI Investment Reassessment",
-      "description": "",
-      "summary": "Today, Feb. 17, 2026, investors weigh a $200 billion AI buildout against the profit power of Amazon's cloud business.",
-      "pubDate": "2026-02-17T22:12:34Z",
-      "displayTime": "2026-02-17T22:12:34Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/motleyfool.com/5d2da5008ecc68517d4be6e78a6572a1",
-        "originalWidth": 384,
-        "originalHeight": 384,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/ffye2Unc1mfeE1kMm6J4Pg--~B/aD0zODQ7dz0zODQ7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/5d2da5008ecc68517d4be6e78a6572a1",
-            "width": 384,
-            "height": 384,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/yzhu1itGkGwaqzfn9bDaBg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/5d2da5008ecc68517d4be6e78a6572a1",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Motley Fool",
-        "url": "http://www.fool.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/02/17/stock-market-today-feb-17-amazon-rises-after-nine-day-slide-ends-on-ai-investment-reassessment/",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/stock-market-today-feb-17-221234578.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "2e9c543e-b3f9-3ca8-acee-7471c508d02b",
-    "content": {
-      "id": "2e9c543e-b3f9-3ca8-acee-7471c508d02b",
-      "contentType": "STORY",
-      "title": "The Pentagon Is Keeping a Close Eye on These Chinese Firms. Investors Should Too.",
-      "description": "",
-      "summary": "The Trump administration is likely to crackdown further on Chinese companies this year, Jonathan E. Hillman writes in a guest commentary.",
-      "pubDate": "2026-02-17T19:50:00Z",
-      "displayTime": "2026-02-17T19:50:00Z",
-      "isHosted": false,
-      "bypassModal": false,
-      "previewUrl": "https://finance.yahoo.com/m/2e9c543e-b3f9-3ca8-acee-7471c508d02b/the-pentagon-is-keeping-a.html",
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/Barrons.com/d538f865a667072fe90201ead76e019c",
-        "originalWidth": 1280,
-        "originalHeight": 640,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/NGWmSRFJHm.0YOEzTWJ.0Q--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/d538f865a667072fe90201ead76e019c",
-            "width": 1280,
-            "height": 640,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/ReqaigNOWcQEzc0UBJNcMQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Barrons.com/d538f865a667072fe90201ead76e019c",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Barrons.com",
-        "url": "http://www.barrons.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://www.barrons.com/articles/the-pentagon-is-keeping-a-close-eye-on-these-chinese-firms-investors-should-too-e48c08fa?siteid=yhoof2&yptr=yahoo",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": null,
-      "metadata": {
-        "editorsPick": false
-      },
-      "finance": {
-        "premiumFinance": {
-          "isPremiumNews": false,
-          "isPremiumFreeNews": false
-        }
-      },
-      "storyline": null
-    }
-  },
-  {
-    "id": "6a0d10c9-f7cc-31f2-a0a7-11110434aef0",
-    "content": {
-      "id": "6a0d10c9-f7cc-31f2-a0a7-11110434aef0",
-      "contentType": "STORY",
-      "title": "Alibaba Stock Rises 28% in 6 Months: Hold Tight or Time to Let Go?",
-      "description": "",
-      "summary": "BABA stock is up 28% in six months, but plunging earnings, soaring AI costs and mounting competition raise red flags for 2026 investors.",
-      "pubDate": "2026-02-17T16:00:00Z",
-      "displayTime": "2026-02-17T16:00:00Z",
-      "isHosted": true,
-      "bypassModal": false,
-      "previewUrl": null,
-      "thumbnail": {
-        "originalUrl": "https://media.zenfs.com/en/zacks.com/6aeef3c46a6c7ea6b556882abdd6f761",
-        "originalWidth": 635,
-        "originalHeight": 400,
-        "caption": "",
-        "resolutions": [
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/EmTWvQ4srpUTIJ6nkpmmGQ--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/6aeef3c46a6c7ea6b556882abdd6f761",
-            "width": 635,
-            "height": 400,
-            "tag": "original"
-          },
-          {
-            "url": "https://s.yimg.com/uu/api/res/1.2/q8ihoTYNJNFJ.YIeBGzdvA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/6aeef3c46a6c7ea6b556882abdd6f761",
-            "width": 170,
-            "height": 128,
-            "tag": "170x128"
-          }
-        ]
-      },
-      "provider": {
-        "displayName": "Zacks",
-        "url": "http://www.zacks.com/"
-      },
-      "canonicalUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-stock-rises-28-6-160000371.html",
-        "site": "finance",
-        "region": "US",
-        "lang": "en-US"
-      },
-      "clickThroughUrl": {
-        "url": "https://finance.yahoo.com/news/alibaba-stock-rises-28-6-160000371.html",
         "site": "finance",
         "region": "US",
         "lang": "en-US"
