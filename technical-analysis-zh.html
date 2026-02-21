@@ -71,7 +71,7 @@
             border-radius: 8px;
         }
 
-        /* Technical Rating Cards */
+        /* 技术评级 Cards */
         .tech-rating-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -324,8 +324,8 @@
                 📅 正在加载数据...
             </div>
 
-            <!-- Technical Rating Cards -->
-            <h3 style="color: var(--primary-dark); margin-bottom: 20px;">🎯 技术评级</h3>
+            <!-- 技术评级 Cards -->
+            <h3 style="color: var(--primary-dark); margin-bottom: 20px;">🎯 技术评级s</h3>
             <div class="tech-rating-grid" id="techRatingsGrid">
                 <!-- Cards will be inserted here by JavaScript -->
             </div>
@@ -622,8 +622,8 @@
                         <div class="col-md-6">
                             <h6 style="color: var(--primary-dark);">📊 Key Levels</h6>
                             <table class="table table-sm">
-                                <tr><td>Support</td><td class="text-success">HK$${(derivAnalysis.support_level || 0).toFixed(2)}</td></tr>
-                                <tr><td>Resistance</td><td class="text-danger">HK$${(derivAnalysis.resistance_level || 0).toFixed(2)}</td></tr>
+                                <tr><td>支撑位</td><td class="text-success">HK$${(derivAnalysis.support_level || 0).toFixed(2)}</td></tr>
+                                <tr><td>阻力位</td><td class="text-danger">HK$${(derivAnalysis.resistance_level || 0).toFixed(2)}</td></tr>
                                 <tr><td>52W High</td><td>HK$${(data['52w_high'] || 0).toFixed(2)}</td></tr>
                                 <tr><td>52W Low</td><td>HK$${(data['52w_low'] || 0).toFixed(2)}</td></tr>
                             </table>
