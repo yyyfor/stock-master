@@ -1,0 +1,38 @@
+module.exports = [
+  {
+    "title": "Tencent Q4 2025 Earnings Preview",
+    "canonicalUrl": {"url": "#"},
+    "provider": {"displayName": "Market Watch"},
+    "pubDate": "2025-01-09T10:00:00Z",
+    "summary": "Tencent is expected to report strong Q4 earnings driven by gaming recovery and cloud growth. Analysts anticipate revenue growth of 8.5% year-over-year."
+  },
+  {
+    "title": "Hunyuan LLM Enterprise Adoption Accelerates",
+    "canonicalUrl": {"url": "#"},
+    "provider": {"displayName": "Tech Daily"},
+    "pubDate": "2025-01-08T14:30:00Z",
+    "summary": "Tencent's Hunyuan large language model sees growing adoption in enterprise sector, with over 500 companies now using the AI platform."
+  },
+  {
+    "title": "WeChat Pay Expands Cross-Border Services",
+    "canonicalUrl": {"url": "#"},
+    "provider": {"displayName": "Financial Times"},
+    "pubDate": "2025-01-07T09:15:00Z",
+    "summary": "Tencent announces expansion of WeChat Pay cross-border services to 10 new countries, enhancing its fintech footprint globally."
+  },
+  {
+    "title": "Tencent Gaming Licenses Approved",
+    "canonicalUrl": {"url": "#"},
+    "provider": {"displayName": "Gaming News"},
+    "pubDate": "2025-01-06T16:45:00Z",
+    "summary": "Chinese regulators approve new gaming licenses for Tencent, including anticipated mobile titles expected to drive revenue growth."
+  },
+  {
+    "title": "Tencent Share Buyback Program Continues",
+    "canonicalUrl": {"url": "#"},
+    "provider": {"displayName": "Bloomberg"},
+    "pubDate": "2025-01-05T11:20:00Z",
+    "summary": "Tencent repurchases additional shares as part of ongoing buyback program, signaling confidence in long-term growth prospects."
+  }
+]
+;

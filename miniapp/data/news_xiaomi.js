@@ -1,0 +1,569 @@
+module.exports = [
+  {
+    "id": "a19753a4-8cfd-3858-9a43-039f100c0766",
+    "content": {
+      "id": "a19753a4-8cfd-3858-9a43-039f100c0766",
+      "contentType": "STORY",
+      "title": "Tesla Falters in China Again: How to Play TSLA Stock as Xiaomi Outsells",
+      "description": "",
+      "summary": "Tesla loses its top spot in China as Xiaomi’s YU7 surges, testing investor confidence amid lofty valuation and slowing deliveries.",
+      "pubDate": "2026-02-18T16:32:47Z",
+      "displayTime": "2026-02-18T16:32:47Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/barchart_com_477/4455e5a030b85f304b688601254fc82c",
+        "originalWidth": 1280,
+        "originalHeight": 853,
+        "caption": "Tesla charging station black background by Blomst via Pixabay",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/ekI6i73eGi5XHLzkVaTcFg--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/barchart_com_477/4455e5a030b85f304b688601254fc82c",
+            "width": 1280,
+            "height": 853,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/S8kw1ZjHBAg91YN4nMgQSQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/barchart_com_477/4455e5a030b85f304b688601254fc82c",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Barchart",
+        "url": "https://www.barchart.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.barchart.com/story/news/284337/tesla-falters-in-china-again-how-to-play-tsla-stock-as-xiaomi-outsells",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/tesla-falters-china-again-play-163247402.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "9a49b6d0-3a4a-3abe-9c3d-24ca7d08eca1",
+    "content": {
+      "id": "9a49b6d0-3a4a-3abe-9c3d-24ca7d08eca1",
+      "contentType": "STORY",
+      "title": "Assessing Xiaomi (SEHK:1810) Valuation After Mixed Short And Long Term Share Returns",
+      "description": "",
+      "summary": "Xiaomi (SEHK:1810) has drawn fresh attention after recent share price moves, with returns mixed across different periods and investors reassessing how its smartphones, IoT products, and internet services business fit in their portfolios. See our latest analysis for Xiaomi. At the latest share price of HK$36.66, Xiaomi’s 1-day share price return of a 0.49% decline and 7-day share price return of 4.15% sit against a 1-year total shareholder return of an 18.8% decline and a very large 3-year...",
+      "pubDate": "2026-02-17T18:13:23Z",
+      "displayTime": "2026-02-17T18:13:23Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
+        "originalWidth": 1194,
+        "originalHeight": 432,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/DHq886Ag4G1rS9TKIvWzQQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
+            "width": 1194,
+            "height": 432,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/fl7FB00ESSj9386P3xBSmQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Simply Wall St.",
+        "url": "https://simplywall.st/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/assessing-xiaomi-sehk-1810-valuation-181323759.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/assessing-xiaomi-sehk-1810-valuation-181323759.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "58b7e9ec-74c0-360a-b955-aefa5c3c7575",
+    "content": {
+      "id": "58b7e9ec-74c0-360a-b955-aefa5c3c7575",
+      "contentType": "STORY",
+      "title": "Tesla Faces a New Test in China. A Fresh Rival Takes the Sales Lead",
+      "description": "",
+      "summary": "Xiaomi Shakes Up China's EV Market. What It Means for Established Players",
+      "pubDate": "2026-02-17T12:03:17Z",
+      "displayTime": "2026-02-17T12:03:17Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": null,
+      "provider": {
+        "displayName": "GuruFocus.com",
+        "url": "http://www.gurufocus.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/tesla-faces-test-china-fresh-120317759.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/tesla-faces-test-china-fresh-120317759.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "210bad59-edeb-3989-814d-47bc50d392dc",
+    "content": {
+      "id": "210bad59-edeb-3989-814d-47bc50d392dc",
+      "contentType": "STORY",
+      "title": "Rampant AI Demand for Memory Is Fueling a Growing Chip Crisis",
+      "description": "",
+      "summary": "Since the start of 2026, Tesla Inc., Apple Inc. and a dozen other major corporations have signaled that the shortage of DRAM, or dynamic random access memory — the fundamental building block of almost all technology — will constrain production.  Cook warned it will compress iPhone margins.  Micron Technology Inc. called the bottleneck “unprecedented.”",
+      "pubDate": "2026-02-15T22:30:00Z",
+      "displayTime": "2026-02-15T22:30:00Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/056bf7bb54670c890df9b2b1f7a7ee55",
+        "originalWidth": 2000,
+        "originalHeight": 1333,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/HgTsOxoHvgj19oCxxO9S8w--~B/aD0xMzMzO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/056bf7bb54670c890df9b2b1f7a7ee55",
+            "width": 2000,
+            "height": 1333,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/bvLihHfvxX504JkOe9r0mg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/056bf7bb54670c890df9b2b1f7a7ee55",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Bloomberg",
+        "url": "https://www.bloomberg.com/company"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/rampant-ai-demand-memory-fueling-223000743.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/rampant-ai-demand-memory-fueling-223000743.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "1230b1b0-7000-324b-ba13-60fbcee58a6f",
+    "content": {
+      "id": "1230b1b0-7000-324b-ba13-60fbcee58a6f",
+      "contentType": "STORY",
+      "title": "Tesla Rival Xiaomi's YU7 SUV Overtakes Model Y China Sales In January",
+      "description": "",
+      "summary": "Xiaomi Corp. (OTC:XIACF) (OTC:XIACY) outsold Tesla Inc. (NASDAQ:TSLA) in China's electric vehicle market in January, with its YU7 SUV delivering more than double the sales of the U.S. EV maker’s Model Y, according to data released on Thursday by the China Passenger Car Association. The YU7 recorded 37,869 deliveries during the month, compared with 16,845 for the Model Y. The Model Y, previously December’s top seller, dropped to 20th place in January. Among new energy vehicles, it fell from first",
+      "pubDate": "2026-02-15T18:32:33Z",
+      "displayTime": "2026-02-15T18:32:33Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/Benzinga/4c0deafafa6bcfb67d4299e56d2edc2e",
+        "originalWidth": 1024,
+        "originalHeight": 682,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/yeEfKq0fGQjhmZ3_0I3j.A--~B/aD02ODI7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Benzinga/4c0deafafa6bcfb67d4299e56d2edc2e",
+            "width": 1024,
+            "height": 682,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/MKq30HrgSmhL_.E7hnVp3A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Benzinga/4c0deafafa6bcfb67d4299e56d2edc2e",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Benzinga",
+        "url": "http://www.benzinga.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/tesla-rival-xiaomis-yu7-suv-183233313.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/tesla-rival-xiaomis-yu7-suv-183233313.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "27227983-bcdc-4210-892d-c230724dcd60",
+    "content": {
+      "id": "27227983-bcdc-4210-892d-c230724dcd60",
+      "contentType": "STORY",
+      "title": "From 'slippery slope' to 'existential threat,' auto CEOs sound alarm on Chinese competition",
+      "description": "",
+      "summary": "Western automakers, from the Big Three to EV pure plays, are delivering the same stark warning: Chinese automakers pose a threat to their survival if domestic production isn't protected.",
+      "pubDate": "2026-02-14T15:30:37Z",
+      "displayTime": "2026-02-15T21:52:43Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2026-02/7e04c760-091d-11f1-b5ff-eb69fd3db5f8",
+        "originalWidth": 6000,
+        "originalHeight": 3680,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/F0gI52_QvD4Ax0c.UUgHuA--~B/aD0zNjgwO3c9NjAwMDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2026-02/7e04c760-091d-11f1-b5ff-eb69fd3db5f8",
+            "width": 6000,
+            "height": 3680,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/ADlfRz6SZ_qXfL5g3NVHHw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2026-02/7e04c760-091d-11f1-b5ff-eb69fd3db5f8",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Yahoo Finance",
+        "url": "http://finance.yahoo.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/from-slippery-slope-to-existential-threat-auto-ceos-sound-alarm-on-chinese-competition-153037342.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/from-slippery-slope-to-existential-threat-auto-ceos-sound-alarm-on-chinese-competition-153037342.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "fd47a180-8ede-38bb-bc99-807b5e3c81c7",
+    "content": {
+      "id": "fd47a180-8ede-38bb-bc99-807b5e3c81c7",
+      "contentType": "STORY",
+      "title": "NIO Inc. (NIO) Balances Recall With Strong Sales and Expansion",
+      "description": "",
+      "summary": "NIO Inc. (NYSE:NIO) is one of Goldman Sachs’ top penny stock picks. On February 9, NIO Inc. (NYSE:NIO) announced its largest recall yet, affecting 246229 ES8, ES6, and EC6 vehicles produced from 2018 to 2023 due to a software issue that can temporarily disable dashboard and control screens. The recall represents about three-quarters of its […]",
+      "pubDate": "2026-02-13T12:14:18Z",
+      "displayTime": "2026-02-13T12:14:18Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/dff2ee49d793905f28f7ef451ce3153c",
+        "originalWidth": 640,
+        "originalHeight": 427,
+        "caption": "NIO Inc. (NIO) Balances Recall With Strong Sales and Expansion",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/OkgJI.0mxImoZ6VyqPLoTA--~B/aD00Mjc7dz02NDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/dff2ee49d793905f28f7ef451ce3153c",
+            "width": 640,
+            "height": 427,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/PYh435KBeH.Ii5eD1c322w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/dff2ee49d793905f28f7ef451ce3153c",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Insider Monkey",
+        "url": "http://www.insidermonkey.com"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/nio-inc-nio-balances-recall-121418080.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/nio-inc-nio-balances-recall-121418080.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "9239ad87-3c99-3361-a05b-0acd43f5aa6c",
+    "content": {
+      "id": "9239ad87-3c99-3361-a05b-0acd43f5aa6c",
+      "contentType": "STORY",
+      "title": "A Memory-Chip Shortage Is Squeezing Consumer Tech—and It’s Set to Get Worse",
+      "description": "",
+      "summary": "Facing soaring prices, the world’s biggest electronics companies are staring at a list of unpalatable responses.",
+      "pubDate": "2026-02-13T03:00:00Z",
+      "displayTime": "2026-02-13T03:00:00Z",
+      "isHosted": false,
+      "bypassModal": false,
+      "previewUrl": "https://finance.yahoo.com/m/9239ad87-3c99-3361-a05b-0acd43f5aa6c/a-memory-chip-shortage-is.html",
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/wsj.com/1ed18022bda82d9bf7a5873f03032568",
+        "originalWidth": 1280,
+        "originalHeight": 640,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/rhsQ_TDtiVj0ZWJDnkE26w--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/1ed18022bda82d9bf7a5873f03032568",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/eaxVw4JGOEDcIPnjfq2Tug--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/wsj.com/1ed18022bda82d9bf7a5873f03032568",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "The Wall Street Journal",
+        "url": "http://www.wsj.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.wsj.com/tech/a-memory-chip-shortage-is-squeezing-consumer-techand-its-set-to-get-worse-95002024?siteid=yhoof2&yptr=yahoo",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": null,
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "224543b3-65d7-3d7c-a638-80ed77102e44",
+    "content": {
+      "id": "224543b3-65d7-3d7c-a638-80ed77102e44",
+      "contentType": "STORY",
+      "title": "Is Xiaomi (SEHK:1810) Pricing Reflect Its Ecosystem Expansion And Recent Share Pullback?",
+      "description": "",
+      "summary": "If you are wondering whether Xiaomi's current share price reflects its true worth, this article will walk you through what the numbers are saying about value and risk today. Xiaomi's shares last closed at HK$36.52, with returns of 4.6% over the past week, a 3.8% decline over 30 days, a 9.3% decline year to date and a 12.3% decline over 1 year. The 3 year and 5 year returns sit at 177.9% and 26.8% respectively. Recent Xiaomi headlines have focused on ongoing product launches and ecosystem...",
+      "pubDate": "2026-02-13T02:13:07Z",
+      "displayTime": "2026-02-13T02:13:07Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
+        "originalWidth": 1194,
+        "originalHeight": 432,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/DHq886Ag4G1rS9TKIvWzQQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
+            "width": 1194,
+            "height": 432,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/fl7FB00ESSj9386P3xBSmQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/4ede54afa2108a12bdee07c0b0d94a59",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Simply Wall St.",
+        "url": "https://simplywall.st/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/xiaomi-sehk-1810-pricing-reflect-021307302.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/xiaomi-sehk-1810-pricing-reflect-021307302.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "f67a925f-c591-3ef7-ab5b-9b42fcbd9ec4",
+    "content": {
+      "id": "f67a925f-c591-3ef7-ab5b-9b42fcbd9ec4",
+      "contentType": "STORY",
+      "title": "iPhone sales in China grew in January despite massive market slump",
+      "description": "",
+      "summary": "Investing.com -- Apple defied trends in China by posting 8% year-on-year sales growth in January, making it the only major smartphone brand to achieve positive results in the world's largest smartphone market.",
+      "pubDate": "2026-02-12T14:48:30Z",
+      "displayTime": "2026-02-12T14:48:30Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": null,
+      "provider": {
+        "displayName": "Investing.com",
+        "url": "https://www.investing.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/iphone-sales-china-grew-january-144830055.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/iphone-sales-china-grew-january-144830055.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  }
+];

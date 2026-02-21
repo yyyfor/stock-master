@@ -1,0 +1,29 @@
+<view class="page">
+  <view class="header card">
+    <view class="name">{{companyName}}</view>
+    <view class="news-ts">News update: {{newsUpdate}}</view>
+  </view>
+
+  <view wx:if="{{loading}}" class="loading">Loading...</view>
+
+  <view class="card section" wx:if="{{!loading}}">
+    <view class="section-title">Key Metrics</view>
+    <view wx:for="{{metrics}}" wx:key="label" class="metric-row">
+      <text class="metric-label">{{item.label}}</text>
+      <text class="metric-value">{{item.value}}</text>
+    </view>
+  </view>
+
+  <view class="card section" wx:if="{{!loading}}">
+    <view class="section-title">Latest News</view>
+    <view wx:if="{{news.length === 0}}" class="empty">No news available</view>
+    <view wx:for="{{news}}" wx:key="index" class="news-item" data-url="{{item.link}}" bindtap="openNews">
+      <view class="news-title">{{item.title}}</view>
+      <view class="news-meta">
+        <text>{{item.publisher}}</text>
+        <text class="sentiment">{{item.sentiment_label}}</text>
+      </view>
+      <view class="news-summary">{{item.summary}}</view>
+    </view>
+  </view>
+</view>

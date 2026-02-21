@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technical Analysis Dashboard - Chinese Tech Stocks</title>
+    <title>技术分析仪表盘 - 中国科技股</title>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -314,24 +314,24 @@
 <body>
     <div class="container main-container">
         <header>
-            <a href="equity-analysis.html" class="back-btn">← Back to Overview</a>
-            <h1>📈 Technical Analysis Dashboard</h1>
-            <p>Real-time technical indicators and derivative trading analysis</p>
+            <a href="equity-analysis-zh.html" class="back-btn">← 返回总览</a>
+            <h1>📈 技术分析仪表盘</h1>
+            <p>实时技术指标与衍生品交易分析</p>
         </header>
 
         <div class="content-wrapper">
             <div class="last-updated" id="lastUpdated">
-                📅 Loading data...
+                📅 正在加载数据...
             </div>
 
             <!-- Technical Rating Cards -->
-            <h3 style="color: var(--primary-dark); margin-bottom: 20px;">🎯 Technical Ratings</h3>
+            <h3 style="color: var(--primary-dark); margin-bottom: 20px;">🎯 技术评级</h3>
             <div class="tech-rating-grid" id="techRatingsGrid">
                 <!-- Cards will be inserted here by JavaScript -->
             </div>
 
             <!-- Technical Indicators Comparison -->
-            <h3 style="color: var(--primary-dark); margin: 30px 0 20px;">📊 Technical Indicators Comparison</h3>
+            <h3 style="color: var(--primary-dark); margin: 30px 0 20px;">📊 技术指标对比</h3>
             <div class="row">
                 <div class="col-md-6">
                     <div class="chart-container" style="height: 350px; background: white; padding: 20px; border-radius: 10px; box-shadow: var(--shadow-sm);">
@@ -632,18 +632,18 @@
 
                     ${commentary.technical ? `
                     <div class="expert-commentary mt-3">
-                        <h6>🔬 Technical Analysis</h6>
+                        <h6>🔬 技术分析</h6>
                         <p style="margin-bottom: 0;">${commentary.technical}</p>
                     </div>
                     ` : ''}
 
                     ${commentary.derivative ? `
                     <div class="derivative-box mt-3">
-                        <h6>🎯 Derivative Trading Analysis</h6>
+                        <h6>🎯 衍生品交易分析</h6>
                         <div class="row">
                             <div class="col-md-3">
                                 <div class="derivative-item">
-                                    <div class="label">Expected Daily Move</div>
+                                    <div class="label">预期日波动</div>
                                     <div class="value">HK$${(derivAnalysis.daily_expected_move || 0).toFixed(2)}</div>
                                 </div>
                             </div>
@@ -655,13 +655,13 @@
                             </div>
                             <div class="col-md-3">
                                 <div class="derivative-item">
-                                    <div class="label">Tight Stop</div>
+                                    <div class="label">紧凑止损</div>
                                     <div class="value">HK$${(derivAnalysis.tight_stop_loss || 0).toFixed(2)}</div>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="derivative-item">
-                                    <div class="label">Target (2:1)</div>
+                                    <div class="label">目标位（2:1）</div>
                                     <div class="value">HK$${(derivAnalysis.target_2r || 0).toFixed(2)}</div>
                                 </div>
                             </div>

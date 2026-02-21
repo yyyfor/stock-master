@@ -1,0 +1,19 @@
+page {
+  background: #f5f7fb;
+  color: #1f2937;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16rpx;
+  box-shadow: 0 8rpx 20rpx rgba(15, 23, 42, 0.06);
+}
+
+.positive {
+  color: #0f9d58;
+}
+
+.negative {
+  color: #d93025;
+}
