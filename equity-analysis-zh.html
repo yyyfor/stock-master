@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>中国科技股分析仪表盘</title>
+    <title>Chinese Tech Stocks Analysis Dashboard</title>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -601,7 +601,7 @@
             <p>Real-time analysis of 6 leading Chinese technology companies</p>
             <div class="live-indicator">
                 <span class="live-dot"></span>
-                <span>Live 市场数据</span>
+                <span>Live Market Data</span>
             </div>
         </header>
 
@@ -611,7 +611,7 @@
                 <a class="nav-link active" href="#">Overview</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="technical-analysis-zh.html">技术分析</a>
+                <a class="nav-link" href="technical-analysis-zh.html">Technical Analysis</a>
             </li>
         </ul>
 
@@ -642,9 +642,9 @@
                 <span class="guide-toggle" id="guideToggle">▼</span>
             </h3>
             <div class="guide-content" id="guideContent">
-                <!-- 估值 Metrics -->
+                <!-- Valuation Metrics -->
                 <div class="metric-category">
-                    <h4>💰 估值 Metrics - "Is the stock cheap or expensive?"</h4>
+                    <h4>💰 Valuation Metrics - "Is the stock cheap or expensive?"</h4>
                     
                     <div class="metric-item-guide">
                         <div class="metric-name">
@@ -708,7 +708,7 @@
 
                     <div class="metric-item-guide">
                         <div class="metric-name">
-                            FCF (自由现金流)
+                            FCF (Free Cash Flow)
                             <span class="badge badge-good">Positive &amp; Growing</span>
                             <span class="badge badge-bad">Negative</span>
                         </div>
@@ -812,7 +812,7 @@
 
                     <div class="metric-item-guide">
                         <div class="metric-name">🚪 When to Sell</div>
-                        <div class="metric-desc">1. 估值 becomes excessive (P/E &gt; industry + 50%)<br>2. Fundamentals deteriorate (declining ROE, negative FCF)<br>3. Technical breakdown (price below SMA200)<br>4. Better opportunities elsewhere</div>
+                        <div class="metric-desc">1. Valuation becomes excessive (P/E &gt; industry + 50%)<br>2. Fundamentals deteriorate (declining ROE, negative FCF)<br>3. Technical breakdown (price below SMA200)<br>4. Better opportunities elsewhere</div>
                     </div>
                 </div>
 
@@ -910,7 +910,7 @@
                     </div>
                 </div>
                 <div class="signal-summary">
-                    <span class="signal-tag bullish">Low 估值</span>
+                    <span class="signal-tag bullish">Low Valuation</span>
                     <span class="signal-tag bullish">Strong FCF</span>
                     <span class="signal-tag bearish">Below SMA50</span>
                 </div>
@@ -1077,7 +1077,7 @@
                 </div>
                 <div class="signal-summary">
                     <span class="signal-tag bullish">Low RSI</span>
-                    <span class="signal-tag bullish">Low 估值</span>
+                    <span class="signal-tag bullish">Low Valuation</span>
                     <span class="signal-tag bearish">Near 52W Low</span>
                 </div>
             </a>
@@ -1327,7 +1327,7 @@
                 <div class="signal-summary">
                     <span class="signal-tag bullish">Oversold RSI</span>
                     <span class="signal-tag neutral">High Growth</span>
-                    <span class="signal-tag bearish">High 估值</span>
+                    <span class="signal-tag bearish">High Valuation</span>
                 </div>
             </a>
         </div>
@@ -1390,7 +1390,7 @@
         <!-- Footer -->
         <footer class="dashboard-footer">
             <p>Data provided by akshare • Updated hourly during market hours (9:30 AM - 4:00 PM HKT)</p>
-            <p style="margin-top: 5px; opacity: 0.6;">最近更新： February 20, 2026 08:54 HKT</p>
+            <p style="margin-top: 5px; opacity: 0.6;">Last updated: February 20, 2026 08:54 HKT</p>
         </footer>
     </div>
 
@@ -1527,7 +1527,7 @@
             }
         });
 
-        // 估值 Chart (P/B & PEG)
+        // Valuation Chart (P/B & PEG)
         new Chart(document.getElementById('valuationChart'), {
             type: 'bar',
             data: {
@@ -1548,7 +1548,7 @@
                 responsive: true,
                 maintainAspectRatio: false,
                 plugins: {
-                    title: { display: true, text: '估值: P/B & PEG Ratio', font: { size: 16, weight: 'bold' } }
+                    title: { display: true, text: 'Valuation: P/B & PEG Ratio', font: { size: 16, weight: 'bold' } }
                 },
                 scales: {
                     y: { grid: { color: 'rgba(255,255,255,0.1)' }, beginAtZero: true },
@@ -1600,7 +1600,7 @@
             data: {
                 labels: ['Tencent', 'Baidu', 'JD.com', 'Alibaba', 'Xiaomi', 'Meituan'],
                 datasets: [{
-                    label: '自由现金流 ($B)',
+                    label: 'Free Cash Flow ($B)',
                     data: [43, 6, 9, 19, 59, 5],
                     backgroundColor: Object.values(chartColors),
                     borderRadius: 8
@@ -1610,7 +1610,7 @@
                 responsive: true,
                 maintainAspectRatio: false,
                 plugins: {
-                    title: { display: true, text: '自由现金流 ($B) - Higher is Better', font: { size: 16, weight: 'bold' } },
+                    title: { display: true, text: 'Free Cash Flow ($B) - Higher is Better', font: { size: 16, weight: 'bold' } },
                     legend: { display: false }
                 },
                 scales: {
