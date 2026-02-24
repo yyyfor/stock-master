@@ -712,7 +712,7 @@
         <!-- Quick Stats -->
         <div class="stats-bar">
             <div class="stat-box">
-                <div class="value">18</div>
+                <div class="value">33</div>
                 <div class="label">Companies In Universe</div>
             </div>
             <div class="stat-box">
@@ -952,11 +952,11 @@
                     </div>
                     <div class="metric-item">
                         <div class="metric-label">P/E</div>
-                        <div class="metric-value">14.7x</div>
+                        <div class="metric-value">46.4x</div>
                     </div>
                     <div class="metric-item">
                         <div class="metric-label">ROE</div>
-                        <div class="metric-value">19.8%</div>
+                        <div class="metric-value">13.8%</div>
                     </div>
                 </div>
                 <div class="metrics-grid-extended">
@@ -1493,7 +1493,7 @@
         <!-- Footer -->
         <footer class="dashboard-footer">
             <p>Data provided by akshare • Updated hourly during market hours (9:30 AM - 4:00 PM HKT)</p>
-            <p style="margin-top: 5px; opacity: 0.6;">Last updated: February 24, 2026 20:41 HKT</p>
+            <p style="margin-top: 5px; opacity: 0.6;">Last updated: February 24, 2026 21:59 HKT</p>
         </footer>
     </div>
 
@@ -1508,7 +1508,7 @@
 
         const sectorUniverse = {
             internet: {
-                label: 'Internet Tech',
+                label: '互联网科技 Internet',
                 companies: [
                     { name: 'Tencent', symbol: '0700.HK', href: 'tencent.html', note: 'Gaming, social platforms, cloud' },
                     { name: 'Baidu', symbol: '9888.HK', href: 'baidu.html', note: 'Search, AI cloud, autonomous tech' },
@@ -1518,8 +1518,16 @@
                     { name: 'Meituan', symbol: '3690.HK', href: 'meituan.html', note: 'Local services and on-demand' }
                 ]
             },
+            energy_power: {
+                label: '新能源与电力运营商',
+                companies: [
+                    { name: 'China Longyuan Power', symbol: '0916.HK', href: 'https://finance.yahoo.com/quote/0916.HK', note: 'Leading wind power operator', external: true },
+                    { name: 'China Resources Power', symbol: '0836.HK', href: 'https://finance.yahoo.com/quote/0836.HK', note: 'Thermal + renewable generation', external: true },
+                    { name: 'CLP Holdings', symbol: '0002.HK', href: 'https://finance.yahoo.com/quote/0002.HK', note: 'Hong Kong and APAC power utility', external: true }
+                ]
+            },
             energy: {
-                label: 'Energy',
+                label: '传统能源 Energy',
                 companies: [
                     { name: 'CNOOC', symbol: '0883.HK', href: 'https://finance.yahoo.com/quote/0883.HK', note: 'Offshore oil & gas major', external: true },
                     { name: 'PetroChina', symbol: '0857.HK', href: 'https://finance.yahoo.com/quote/0857.HK', note: 'Integrated oil and gas', external: true },
@@ -1527,7 +1535,7 @@
                 ]
             },
             commodities: {
-                label: 'Commodities',
+                label: '大宗商品 Commodities',
                 companies: [
                     { name: 'Zijin Mining', symbol: '2899.HK', href: 'https://finance.yahoo.com/quote/2899.HK', note: 'Gold and copper producer', external: true },
                     { name: 'Jiangxi Copper', symbol: '0358.HK', href: 'https://finance.yahoo.com/quote/0358.HK', note: 'Copper smelting and mining', external: true },
@@ -1535,7 +1543,7 @@
                 ]
             },
             consumer: {
-                label: 'Consumer',
+                label: '消费 Consumer',
                 companies: [
                     { name: 'ANTA Sports', symbol: '2020.HK', href: 'https://finance.yahoo.com/quote/2020.HK', note: 'Sportswear and retail brands', external: true },
                     { name: 'Mengniu Dairy', symbol: '2319.HK', href: 'https://finance.yahoo.com/quote/2319.HK', note: 'Leading dairy products company', external: true },
@@ -1543,11 +1551,51 @@
                 ]
             },
             banks: {
-                label: 'Banks',
+                label: '银行 Banks',
                 companies: [
                     { name: 'HSBC Holdings', symbol: '0005.HK', href: 'https://finance.yahoo.com/quote/0005.HK', note: 'Global universal bank', external: true },
                     { name: 'BOC Hong Kong', symbol: '2388.HK', href: 'https://finance.yahoo.com/quote/2388.HK', note: 'Hong Kong retail & corporate bank', external: true },
                     { name: 'ICBC', symbol: '1398.HK', href: 'https://finance.yahoo.com/quote/1398.HK', note: 'Largest mainland commercial bank', external: true }
+                ]
+            },
+            healthcare: {
+                label: '医疗健康 Healthcare',
+                companies: [
+                    { name: 'CSPC Pharmaceutical', symbol: '1093.HK', href: 'https://finance.yahoo.com/quote/1093.HK', note: 'Innovative and generic pharma', external: true },
+                    { name: 'Sino Biopharmaceutical', symbol: '1177.HK', href: 'https://finance.yahoo.com/quote/1177.HK', note: 'Large cap biopharma platform', external: true },
+                    { name: 'Wuxi Biologics', symbol: '2269.HK', href: 'https://finance.yahoo.com/quote/2269.HK', note: 'Biologics CDMO', external: true }
+                ]
+            },
+            shipping_ports: {
+                label: '航运 / 港口 / 物流',
+                companies: [
+                    { name: 'COSCO SHIPPING Holdings', symbol: '1919.HK', href: 'https://finance.yahoo.com/quote/1919.HK', note: 'Container shipping operator', external: true },
+                    { name: 'Orient Overseas (International)', symbol: '0316.HK', href: 'https://finance.yahoo.com/quote/0316.HK', note: 'Shipping and logistics', external: true },
+                    { name: 'China Merchants Port', symbol: '0144.HK', href: 'https://finance.yahoo.com/quote/0144.HK', note: 'Port terminal operator', external: true }
+                ]
+            },
+            insurance: {
+                label: '保险 Insurance',
+                companies: [
+                    { name: 'AIA Group', symbol: '1299.HK', href: 'https://finance.yahoo.com/quote/1299.HK', note: 'Pan-Asia life insurance leader', external: true },
+                    { name: 'Ping An Insurance', symbol: '2318.HK', href: 'https://finance.yahoo.com/quote/2318.HK', note: 'Life + P&C + fintech ecosystem', external: true },
+                    { name: 'China Life Insurance', symbol: '2628.HK', href: 'https://finance.yahoo.com/quote/2628.HK', note: 'Large state-owned life insurer', external: true }
+                ]
+            },
+            semiconductor: {
+                label: '半导体 / 硬科技',
+                companies: [
+                    { name: 'SMIC', symbol: '0981.HK', href: 'https://finance.yahoo.com/quote/0981.HK', note: 'Mainland foundry champion', external: true },
+                    { name: 'Hua Hong Semiconductor', symbol: '1347.HK', href: 'https://finance.yahoo.com/quote/1347.HK', note: 'Specialty foundry', external: true },
+                    { name: 'ASMPT', symbol: '0522.HK', href: 'https://finance.yahoo.com/quote/0522.HK', note: 'Semiconductor equipment and packaging', external: true }
+                ]
+            },
+            utilities_dividend: {
+                label: '公用事业 / 高股息资产',
+                companies: [
+                    { name: 'Power Assets Holdings', symbol: '0006.HK', href: 'https://finance.yahoo.com/quote/0006.HK', note: 'Defensive utility cash flows', external: true },
+                    { name: 'Hong Kong and China Gas', symbol: '0003.HK', href: 'https://finance.yahoo.com/quote/0003.HK', note: 'Gas utility and infrastructure', external: true },
+                    { name: 'Link REIT', symbol: '0823.HK', href: 'https://finance.yahoo.com/quote/0823.HK', note: 'High-dividend real asset platform', external: true }
                 ]
             }
         };

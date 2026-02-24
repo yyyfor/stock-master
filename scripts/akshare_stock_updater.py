@@ -7,6 +7,7 @@ import json
 import logging
 import re
 import sys
+import time
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
@@ -21,6 +22,11 @@ from scripts.providers.registry import ProviderRegistry
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
+
+# AkShare/yfinance mixed providers: keep a controlled but higher request cadence.
+MAX_FETCH_RETRIES = 3
+RETRY_BACKOFF_BASE_SEC = 1.0
+REQUEST_INTERVAL_SEC = 0.5
 
 STOCK_CONFIG = {
     "tencent": {"symbol": "0700.HK", "code": "00700", "name": "Tencent", "industry": "Technology / Gaming / Social Media", "sector": "Communication Services"},
@@ -479,15 +485,32 @@ def save_comprehensive_data(data: Dict[str, Dict]):
     data_dir = Path(__file__).parent.parent / "data"
     data_dir.mkdir(parents=True, exist_ok=True)
 
+    comp_path = data_dir / "comprehensive_stock_data.json"
+    summary_path = data_dir / "stock_summary.json"
+    prev_companies: Dict[str, Any] = {}
+    prev_summary: Dict[str, Any] = {}
+
+    if comp_path.exists():
+        try:
+            prev_companies = json.loads(comp_path.read_text(encoding="utf-8")).get("companies", {})
+        except Exception:
+            prev_companies = {}
+    if summary_path.exists():
+        try:
+            prev_summary = json.loads(summary_path.read_text(encoding="utf-8"))
+        except Exception:
+            prev_summary = {}
+
+    merged_companies = {**prev_companies, **data}
     comprehensive = {
         "timestamp": datetime.utcnow().isoformat(),
-        "companies": data,
+        "companies": merged_companies,
         "schema_version": "v1",
     }
-    (data_dir / "comprehensive_stock_data.json").write_text(json.dumps(comprehensive, indent=2, ensure_ascii=False), encoding="utf-8")
+    comp_path.write_text(json.dumps(comprehensive, indent=2, ensure_ascii=False), encoding="utf-8")
 
-    summary = {}
-    for company, metrics in data.items():
+    summary = dict(prev_summary)
+    for company, metrics in merged_companies.items():
         summary[company] = {
             "price": metrics["price"],
             "change_pct": metrics["change_pct"],
@@ -503,7 +526,7 @@ def save_comprehensive_data(data: Dict[str, Dict]):
             "is_estimated": metrics["is_estimated"],
             "last_verified_at": metrics["last_verified_at"],
         }
-    (data_dir / "stock_summary.json").write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
+    summary_path.write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
 def main() -> int:
@@ -512,20 +535,39 @@ def main() -> int:
     all_data = {}
 
     for company in STOCK_CONFIG:
-        try:
-            payload = build_company_payload(company, registry)
-            all_data[company] = payload
-            logger.info(
-                "%s HK$%.2f (%+.2f%%) %s/%s est=%s",
-                company.upper(),
-                payload["price"],
-                payload["change_pct"],
-                payload["source"]["quote"],
-                payload["source"]["fundamentals"],
-                payload["is_estimated"],
-            )
-        except Exception as exc:
-            logger.error("Failed to process %s: %s", company, exc)
+        payload = None
+        last_exc = None
+        for attempt in range(1, MAX_FETCH_RETRIES + 1):
+            try:
+                payload = build_company_payload(company, registry)
+                break
+            except Exception as exc:
+                last_exc = exc
+                backoff = attempt * RETRY_BACKOFF_BASE_SEC
+                logger.warning(
+                    "Attempt %s failed for %s: %s (sleep %.1fs before retry)",
+                    attempt,
+                    company,
+                    exc,
+                    backoff,
+                )
+                time.sleep(backoff)
+
+        if payload is None:
+            logger.error("Failed to process %s after retries: %s", company, last_exc)
+            continue
+
+        all_data[company] = payload
+        logger.info(
+            "%s HK$%.2f (%+.2f%%) %s/%s est=%s",
+            company.upper(),
+            payload["price"],
+            payload["change_pct"],
+            payload["source"]["quote"],
+            payload["source"]["fundamentals"],
+            payload["is_estimated"],
+        )
+        time.sleep(REQUEST_INTERVAL_SEC)
 
     if not all_data:
         logger.error("No data fetched")
