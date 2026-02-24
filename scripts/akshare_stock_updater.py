@@ -380,6 +380,59 @@ def update_equity_analysis_file(html_file: Path, data: Dict[str, Dict], zh: bool
         roe_pattern = rf'(<a href="{href_company}\.html" class="stock-card [^"]*">.*?<div class="metric-label">ROE</div>\s*<div class="metric-value">)[^<]+(</div>)'
         content = re.sub(roe_pattern, rf"\g<1>{metrics['roe']:.1f}%\g<2>", content, flags=re.DOTALL)
 
+    order = ["tencent", "baidu", "jd", "alibaba", "xiaomi", "meituan"]
+    metrics = [data[c] for c in order if c in data]
+
+    def replace_series(label: str, values: List[float], digits: int = 1) -> None:
+        nonlocal content
+        series = ", ".join(f"{v:.{digits}f}" for v in values)
+        pattern = rf"(label:\s*'{re.escape(label)}',\s*data:\s*)\[[^\]]*\]"
+        content = re.sub(pattern, rf"\g<1>[{series}]", content)
+
+    def value(company: str, key: str, fallback: float = 0.0) -> float:
+        try:
+            return float(data[company].get(key, fallback))
+        except Exception:
+            return float(fallback)
+
+    if len(metrics) == 6:
+        replace_series("Revenue (¥B)", [value(c, "revenue_billion") for c in order], 1)
+        replace_series("Revenue Growth %", [value(c, "revenue_growth") for c in order], 1)
+        replace_series("P/E Ratio", [value(c, "pe_ratio") for c in order], 1)
+        replace_series("P/B Ratio", [value(c, "pb_ratio") for c in order], 2)
+        replace_series("PEG Ratio", [value(c, "peg_ratio") for c in order], 2)
+        replace_series("Free Cash Flow ($B)", [value(c, "fcf_billion") for c in order], 1)
+        replace_series("RSI (14)", [value(c, "rsi_14") for c in order], 1)
+
+        # Margins chart has no dataset label in current HTML; replace first data array in that chart block.
+        margin_series = ", ".join(f"{value(c, 'op_margin'):.1f}" for c in order)
+        content = re.sub(
+            r"(// Margins Chart[\s\S]*?datasets:\s*\[\{\s*data:\s*)\[[^\]]*\]",
+            rf"\g<1>[{margin_series}]",
+            content,
+        )
+
+        # Risk chart keeps three key names in the current UI, update each with live values.
+        risk_map = [
+            ("Tencent", "tencent"),
+            ("Baidu", "baidu"),
+            ("Alibaba", "alibaba"),
+        ]
+        for label, company in risk_map:
+            risk_values = ", ".join(
+                [
+                    f"{value(company, 'beta'):.2f}",
+                    f"{value(company, 'volatility'):.1f}",
+                    f"{value(company, 'debt_equity'):.2f}",
+                    f"{value(company, '52w_position'):.0f}",
+                ]
+            )
+            content = re.sub(
+                rf"(label:\s*'{label}',\s*data:\s*)\[[^\]]*\]",
+                rf"\g<1>[{risk_values}]",
+                content,
+            )
+
     timestamp = datetime.now().strftime("%B %d, %Y %H:%M HKT")
     content = re.sub(r"Last updated: [^<]+", f"Last updated: {timestamp}", content)
     content = re.sub(r"最近更新： [^<]+", f"最近更新： {timestamp}", content)
@@ -390,9 +443,7 @@ def update_equity_analysis_file(html_file: Path, data: Dict[str, Dict], zh: bool
 
 def update_equity_analysis_html(data: Dict[str, Dict]) -> bool:
     root = Path(__file__).parent.parent
-    updated_en = update_equity_analysis_file(root / "equity-analysis.html", data, zh=False)
-    updated_zh = update_equity_analysis_file(root / "equity-analysis-zh.html", data, zh=True)
-    return updated_en or updated_zh
+    return update_equity_analysis_file(root / "equity-analysis.html", data, zh=False)
 
 
 def update_company_file(html_file: Path, data: Dict[str, Any]) -> bool:
@@ -421,9 +472,7 @@ def update_company_file(html_file: Path, data: Dict[str, Any]) -> bool:
 
 def update_company_html(company: str, data: Dict[str, Any]) -> bool:
     root = Path(__file__).parent.parent
-    updated_en = update_company_file(root / f"{company}.html", data)
-    updated_zh = update_company_file(root / f"{company}-zh.html", data)
-    return updated_en or updated_zh
+    return update_company_file(root / f"{company}.html", data)
 
 
 def save_comprehensive_data(data: Dict[str, Dict]):

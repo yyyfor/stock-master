@@ -2,10 +2,7 @@ name: Update Stock Analysis Data
 
 on:
   schedule:
-    - cron: '30 1 * * 1-5'
-    - cron: '0 4 * * 1-5'
-    - cron: '0 7 * * 1-5'
-    - cron: '30 8 * * 1-5'
+    - cron: '30 1-8 * * 1-5'
   workflow_dispatch:
 
 permissions:

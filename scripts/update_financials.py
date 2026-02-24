@@ -190,9 +190,7 @@ def update_all_html_files():
     # Update English version
     html_files = {
         'equity-analysis.html': 'en',
-        'equity-analysis-zh.html': 'zh',
-        'index.html': 'en',
-        'index-zh.html': 'zh'
+        'index.html': 'en'
     }
 
     for filename, lang in html_files.items():

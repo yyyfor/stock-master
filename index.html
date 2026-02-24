@@ -233,11 +233,10 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="lang-switcher">
-            <a href="index.html" class="lang-btn active">English</a>
-            <a href="index-zh.html" class="lang-btn">中文</a>
-        </div>
+        <div class="container">
+            <div class="lang-switcher">
+                <a href="#" id="translate-btn" class="lang-btn">Translate 中文</a>
+            </div>
 
         <h1>📊 Stock Analysis Dashboard</h1>
         <p class="subtitle">China Tech Giants Equity Research</p>
@@ -281,6 +280,11 @@
     </div>
 
     <script>
+        var translateBtn = document.getElementById('translate-btn');
+        if (translateBtn) {
+            translateBtn.href = 'https://translate.google.com/translate?sl=auto&tl=zh-CN&u=' + encodeURIComponent(window.location.href);
+        }
+
         // Redirect after 2 seconds (or user can click the button immediately)
         setTimeout(function() {
             window.location.href = 'equity-analysis.html';
