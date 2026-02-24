@@ -87,8 +87,23 @@ class AkshareProvider(DataProvider):
                     }
                 )
 
+            lookback = _period_to_points(period)
+            if lookback and len(points) > lookback:
+                points = points[-lookback:]
+
             ohlcv = OHLCVData(symbol=f"{int(hk_code)}.HK", points=points)
             meta = ProviderMeta(provider=self.name, confidence=0.95)
             return ohlcv, meta
         except Exception:
             return None, None
+
+
+def _period_to_points(period: str) -> int:
+    p = (period or "").lower()
+    mapping = {
+        "1mo": 22,
+        "3mo": 66,
+        "6mo": 132,
+        "1y": 252,
+    }
+    return mapping.get(p, 66)

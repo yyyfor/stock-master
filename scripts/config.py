@@ -12,12 +12,12 @@ import yaml
 
 DEFAULT_CONFIG = {
     "providers": {
-        "quote": ["akshare", "yfinance", "finnhub", "alpha_vantage"],
-        "ohlcv": ["akshare", "yfinance"],
-        "fundamentals": ["yfinance", "finnhub", "alpha_vantage"],
+        "quote": ["akshare", "yfinance", "finnhub", "alpha_vantage", "fmp"],
+        "ohlcv": ["akshare", "yfinance", "fmp"],
+        "fundamentals": ["yfinance", "finnhub", "alpha_vantage", "fmp"],
         "news": ["yfinance", "newsapi"],
     },
-    "request": {"timeout_seconds": 15, "max_retries": 2},
+    "request": {"timeout_seconds": 15, "max_retries": 2, "ohlcv_period": "3mo", "min_points": 30},
     "freshness": {
         "max_age_hours": {"comprehensive_stock_data": 12, "news": 8, "stock_summary": 12}
     },
@@ -37,6 +37,7 @@ def load_config() -> Dict[str, Any]:
     cfg["api_keys"] = {
         "finnhub": os.getenv("FINNHUB_API_KEY", ""),
         "alpha_vantage": os.getenv("ALPHA_VANTAGE_API_KEY", ""),
+        "fmp": os.getenv("FMP_API_KEY", ""),
         "newsapi": os.getenv("NEWSAPI_API_KEY", ""),
     }
     return cfg

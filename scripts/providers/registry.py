@@ -11,6 +11,7 @@ from scripts.config import load_config
 from .akshare_provider import AkshareProvider
 from .alpha_vantage_provider import AlphaVantageProvider
 from .finnhub_provider import FinnhubProvider
+from .fmp_provider import FMPProvider
 from .news_provider import NewsProvider
 from .types import FundamentalsData, NewsItem, OHLCVData, ProviderMeta, QuoteData
 from .yfinance_provider import YFinanceProvider
@@ -33,6 +34,7 @@ class ProviderRegistry:
             "yfinance": YFinanceProvider(),
             "finnhub": FinnhubProvider(api_key=keys.get("finnhub", ""), timeout=timeout),
             "alpha_vantage": AlphaVantageProvider(api_key=keys.get("alpha_vantage", ""), timeout=timeout),
+            "fmp": FMPProvider(api_key=keys.get("fmp", ""), timeout=timeout),
         }
         self.news_provider = NewsProvider(newsapi_key=keys.get("newsapi", ""), timeout=timeout)
 
@@ -47,12 +49,14 @@ class ProviderRegistry:
         return None
 
     def get_ohlcv(self, symbol: str) -> Optional[ProviderPayload]:
+        period = str(self.config.get("request", {}).get("ohlcv_period", "3mo"))
+        min_points = int(self.config.get("request", {}).get("min_points", 30))
         for name in self.config["providers"]["ohlcv"]:
             provider = self.providers.get(name)
             if not provider or not provider.is_available():
                 continue
-            o, meta = provider.fetch_ohlcv(symbol)
-            if o and meta and len(o.points) >= 30:
+            o, meta = provider.fetch_ohlcv(symbol, period=period)
+            if o and meta and len(o.points) >= min_points:
                 return ProviderPayload(o, meta)
         return None
 

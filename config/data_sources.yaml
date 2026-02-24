@@ -4,13 +4,16 @@ providers:
     - yfinance
     - finnhub
     - alpha_vantage
+    - fmp
   ohlcv:
     - akshare
     - yfinance
+    - fmp
   fundamentals:
     - yfinance
     - finnhub
     - alpha_vantage
+    - fmp
   news:
     - yfinance
     - newsapi
@@ -18,6 +21,8 @@ providers:
 request:
   timeout_seconds: 15
   max_retries: 2
+  ohlcv_period: "3mo"
+  min_points: 30
 
 freshness:
   max_age_hours:
