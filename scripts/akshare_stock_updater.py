@@ -357,38 +357,45 @@ def build_company_payload(company: str, registry: ProviderRegistry) -> Dict[str,
     return payload
 
 
-def update_equity_analysis_html(data: Dict[str, Dict]) -> bool:
-    html_file = Path(__file__).parent.parent / "equity-analysis.html"
+def update_equity_analysis_file(html_file: Path, data: Dict[str, Dict], zh: bool = False) -> bool:
     if not html_file.exists():
         return False
 
     content = html_file.read_text(encoding="utf-8")
     for company, metrics in data.items():
-        price_pattern = rf'(<a href="{company}\.html" class="stock-card [^"]*">.*?<div class="current-price">)HK\$[\d.,]+(</div>)'
+        href_company = f"{company}-zh" if zh else company
+        price_pattern = rf'(<a href="{href_company}\.html" class="stock-card [^"]*">.*?<div class="current-price">)HK\$[\d.,]+(</div>)'
         content = re.sub(price_pattern, rf"\g<1>HK${metrics['price']:.2f}\g<2>", content, flags=re.DOTALL)
 
         change_class = "positive" if metrics["change_pct"] > 0 else "negative" if metrics["change_pct"] < 0 else ""
-        change_pattern = rf'(<a href="{company}\.html" class="stock-card [^"]*">.*?<div class="price-change)[^"]*">[^<]*(</div>)'
+        change_pattern = rf'(<a href="{href_company}\.html" class="stock-card [^"]*">.*?<div class="price-change)[^"]*">[^<]*(</div>)'
         content = re.sub(change_pattern, rf'\g<1> {change_class}">{metrics["change_pct"]:+.2f}%\g<2>', content, flags=re.DOTALL)
 
-        mcap_pattern = rf'(<a href="{company}\.html" class="stock-card [^"]*">.*?<div class="metric-label">Market Cap</div>\s*<div class="metric-value">)[^<]+(</div>)'
+        mcap_pattern = rf'(<a href="{href_company}\.html" class="stock-card [^"]*">.*?<div class="metric-label">Market Cap</div>\s*<div class="metric-value">)[^<]+(</div>)'
         content = re.sub(mcap_pattern, rf"\g<1>{metrics['market_cap_display']}\g<2>", content, flags=re.DOTALL)
 
-        pe_pattern = rf'(<a href="{company}\.html" class="stock-card [^"]*">.*?<div class="metric-label">P/E</div>\s*<div class="metric-value">)[^<]+(</div>)'
+        pe_pattern = rf'(<a href="{href_company}\.html" class="stock-card [^"]*">.*?<div class="metric-label">P/E</div>\s*<div class="metric-value">)[^<]+(</div>)'
         content = re.sub(pe_pattern, rf"\g<1>{metrics['pe_ratio']:.1f}x\g<2>", content, flags=re.DOTALL)
 
-        roe_pattern = rf'(<a href="{company}\.html" class="stock-card [^"]*">.*?<div class="metric-label">ROE</div>\s*<div class="metric-value">)[^<]+(</div>)'
+        roe_pattern = rf'(<a href="{href_company}\.html" class="stock-card [^"]*">.*?<div class="metric-label">ROE</div>\s*<div class="metric-value">)[^<]+(</div>)'
         content = re.sub(roe_pattern, rf"\g<1>{metrics['roe']:.1f}%\g<2>", content, flags=re.DOTALL)
 
     timestamp = datetime.now().strftime("%B %d, %Y %H:%M HKT")
     content = re.sub(r"Last updated: [^<]+", f"Last updated: {timestamp}", content)
+    content = re.sub(r"最近更新： [^<]+", f"最近更新： {timestamp}", content)
     html_file.write_text(content, encoding="utf-8")
-    logger.info("Updated equity-analysis.html")
+    logger.info("Updated %s", html_file.name)
     return True
 
 
-def update_company_html(company: str, data: Dict[str, Any]) -> bool:
-    html_file = Path(__file__).parent.parent / f"{company}.html"
+def update_equity_analysis_html(data: Dict[str, Dict]) -> bool:
+    root = Path(__file__).parent.parent
+    updated_en = update_equity_analysis_file(root / "equity-analysis.html", data, zh=False)
+    updated_zh = update_equity_analysis_file(root / "equity-analysis-zh.html", data, zh=True)
+    return updated_en or updated_zh
+
+
+def update_company_file(html_file: Path, data: Dict[str, Any]) -> bool:
     if not html_file.exists():
         return False
 
@@ -406,9 +413,17 @@ def update_company_html(company: str, data: Dict[str, Any]) -> bool:
         content = re.sub(pattern, rf"\g<1>{value}\g<2>", content)
 
     content = re.sub(r"📅 Data Snapshot:.*?</span>", f"📅 Data Snapshot: {datetime.now().strftime('%B %d, %Y')}</span>", content)
+    content = re.sub(r"📅 数据快照：.*?</span>", f"📅 数据快照： {datetime.now().strftime('%B %d, %Y')}</span>", content)
     html_file.write_text(content, encoding="utf-8")
     logger.info("Updated %s", html_file.name)
     return True
+
+
+def update_company_html(company: str, data: Dict[str, Any]) -> bool:
+    root = Path(__file__).parent.parent
+    updated_en = update_company_file(root / f"{company}.html", data)
+    updated_zh = update_company_file(root / f"{company}-zh.html", data)
+    return updated_en or updated_zh
 
 
 def save_comprehensive_data(data: Dict[str, Dict]):
