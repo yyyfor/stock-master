@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0; url=equity-analysis.html">
     <title>Stock Analysis Dashboard</title>
 
     <style>
@@ -148,6 +147,51 @@
             border-top: 2px solid #f0f0f0;
         }
 
+        .sector-tabs {
+            margin-top: 26px;
+            text-align: left;
+            border: 1px solid #eceff7;
+            border-radius: 14px;
+            padding: 14px;
+            background: #fbfcff;
+        }
+
+        .sector-tabs h3 {
+            font-size: 1rem;
+            color: #1a1a2e;
+            margin-bottom: 10px;
+        }
+
+        .sector-tab-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 10px;
+        }
+
+        .sector-tab-btn {
+            border: 1px solid #d8dff7;
+            border-radius: 999px;
+            background: white;
+            color: #374151;
+            font-size: 0.78rem;
+            font-weight: 700;
+            padding: 6px 12px;
+            cursor: pointer;
+        }
+
+        .sector-tab-btn.active {
+            background: #667eea;
+            color: #fff;
+            border-color: #667eea;
+        }
+
+        .sector-tab-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
         .features h3 {
             font-size: 1.2rem;
             color: #1a1a2e;
@@ -255,6 +299,12 @@
             <a href="meituan.html" class="company-badge badge-meituan">Meituan (3690.HK)</a>
         </div>
 
+        <div class="sector-tabs">
+            <h3>Sector Tabs</h3>
+            <div class="sector-tab-buttons" id="index-sector-tab-buttons"></div>
+            <div class="sector-tab-list" id="index-sector-tab-list"></div>
+        </div>
+
         <div style="margin: 40px 0;">
             <a href="equity-analysis.html" class="cta-button">View Full Analysis →</a>
         </div>
@@ -285,10 +335,78 @@
             translateBtn.href = 'https://translate.google.com/translate?sl=auto&tl=zh-CN&u=' + encodeURIComponent(window.location.href);
         }
 
-        // Redirect after 2 seconds (or user can click the button immediately)
+        const indexSectors = {
+            internet: {
+                label: 'Internet Tech',
+                companies: [
+                    { name: 'Tencent (0700.HK)', href: 'tencent.html' },
+                    { name: 'Baidu (9888.HK)', href: 'baidu.html' },
+                    { name: 'JD.com (9618.HK)', href: 'jd.html' },
+                    { name: 'Alibaba (9988.HK)', href: 'alibaba.html' },
+                    { name: 'Xiaomi (1810.HK)', href: 'xiaomi.html' },
+                    { name: 'Meituan (3690.HK)', href: 'meituan.html' }
+                ]
+            },
+            energy: {
+                label: 'Energy',
+                companies: [
+                    { name: 'CNOOC (0883.HK)', href: 'https://finance.yahoo.com/quote/0883.HK', external: true },
+                    { name: 'PetroChina (0857.HK)', href: 'https://finance.yahoo.com/quote/0857.HK', external: true },
+                    { name: 'Sinopec (0386.HK)', href: 'https://finance.yahoo.com/quote/0386.HK', external: true }
+                ]
+            },
+            commodities: {
+                label: 'Commodities',
+                companies: [
+                    { name: 'Zijin Mining (2899.HK)', href: 'https://finance.yahoo.com/quote/2899.HK', external: true },
+                    { name: 'Jiangxi Copper (0358.HK)', href: 'https://finance.yahoo.com/quote/0358.HK', external: true },
+                    { name: 'Aluminum Corp (2600.HK)', href: 'https://finance.yahoo.com/quote/2600.HK', external: true }
+                ]
+            },
+            consumer: {
+                label: 'Consumer',
+                companies: [
+                    { name: 'ANTA Sports (2020.HK)', href: 'https://finance.yahoo.com/quote/2020.HK', external: true },
+                    { name: 'Mengniu Dairy (2319.HK)', href: 'https://finance.yahoo.com/quote/2319.HK', external: true },
+                    { name: 'Budweiser APAC (1876.HK)', href: 'https://finance.yahoo.com/quote/1876.HK', external: true }
+                ]
+            },
+            banks: {
+                label: 'Banks',
+                companies: [
+                    { name: 'HSBC (0005.HK)', href: 'https://finance.yahoo.com/quote/0005.HK', external: true },
+                    { name: 'BOC Hong Kong (2388.HK)', href: 'https://finance.yahoo.com/quote/2388.HK', external: true },
+                    { name: 'ICBC (1398.HK)', href: 'https://finance.yahoo.com/quote/1398.HK', external: true }
+                ]
+            }
+        };
+
+        function renderIndexSector(key) {
+            const list = document.getElementById('index-sector-tab-list');
+            if (!list || !indexSectors[key]) return;
+            document.querySelectorAll('#index-sector-tab-buttons .sector-tab-btn').forEach((btn) => {
+                btn.classList.toggle('active', btn.dataset.key === key);
+            });
+            list.innerHTML = indexSectors[key].companies.map((c) =>
+                `<a class="company-badge" href="${c.href}" ${c.external ? 'target="_blank" rel="noopener noreferrer"' : ''}>${c.name}</a>`
+            ).join('');
+        }
+
+        const tabWrap = document.getElementById('index-sector-tab-buttons');
+        if (tabWrap) {
+            tabWrap.innerHTML = Object.entries(indexSectors).map(([key, value]) =>
+                `<button type="button" class="sector-tab-btn" data-key="${key}">${value.label}</button>`
+            ).join('');
+            tabWrap.querySelectorAll('.sector-tab-btn').forEach((btn) => {
+                btn.addEventListener('click', () => renderIndexSector(btn.dataset.key));
+            });
+            renderIndexSector('internet');
+        }
+
+        // Redirect after 8 seconds (or user can click the button immediately)
         setTimeout(function() {
             window.location.href = 'equity-analysis.html';
-        }, 2000);
+        }, 8000);
     </script>
 </body>
 </html>

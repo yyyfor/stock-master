@@ -564,6 +564,100 @@
             text-decoration: underline;
         }
 
+        .sector-tabs-section {
+            margin: 30px 0 20px;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            padding: 20px;
+        }
+
+        .sector-tabs-header h3 {
+            font-size: 1.1rem;
+            margin-bottom: 6px;
+        }
+
+        .sector-tabs-header p {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            margin-bottom: 14px;
+        }
+
+        .sector-tab-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+
+        .sector-tab-btn {
+            border: 1px solid rgba(255, 255, 255, 0.16);
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.06);
+            color: #fff;
+            font-size: 0.82rem;
+            font-weight: 600;
+            padding: 8px 14px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .sector-tab-btn:hover {
+            border-color: rgba(102, 126, 234, 0.8);
+        }
+
+        .sector-tab-btn.active {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border-color: transparent;
+        }
+
+        .sector-company-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 12px;
+        }
+
+        .sector-company-card {
+            display: block;
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 12px;
+            padding: 12px;
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .sector-company-card:hover {
+            transform: translateY(-2px);
+            border-color: rgba(102, 126, 234, 0.85);
+        }
+
+        .sector-company-name {
+            font-weight: 700;
+            font-size: 0.9rem;
+        }
+
+        .sector-company-symbol {
+            color: var(--text-secondary);
+            font-size: 0.78rem;
+            margin-top: 2px;
+        }
+
+        .sector-company-note {
+            margin-top: 8px;
+            color: var(--text-secondary);
+            font-size: 0.78rem;
+            line-height: 1.4;
+        }
+
+        .sector-link-chip {
+            display: inline-block;
+            margin-top: 8px;
+            font-size: 0.72rem;
+            color: #b8c6ff;
+        }
+
         /* Footer */
         .dashboard-footer {
             text-align: center;
@@ -597,8 +691,8 @@
     <div class="main-wrapper">
         <!-- Header -->
         <header class="dashboard-header">
-            <h1>Chinese Tech Stocks Dashboard</h1>
-            <p>Real-time analysis of 6 leading Chinese technology companies</p>
+            <h1>Hong Kong Sector Equity Dashboard</h1>
+            <p>Core internet names + sector watchlists across energy, commodities, consumer, and banks</p>
             <div class="live-indicator">
                 <span class="live-dot"></span>
                 <span>Live Market Data</span>
@@ -618,8 +712,8 @@
         <!-- Quick Stats -->
         <div class="stats-bar">
             <div class="stat-box">
-                <div class="value">6</div>
-                <div class="label">Companies Tracked</div>
+                <div class="value">18</div>
+                <div class="label">Companies In Universe</div>
             </div>
             <div class="stat-box">
                 <div class="value">$1.7T</div>
@@ -1332,6 +1426,15 @@
             </a>
         </div>
 
+        <section class="sector-tabs-section">
+            <div class="sector-tabs-header">
+                <h3>Sector Tabs</h3>
+                <p>Internet tab includes the 6 core names in this dashboard. Other tabs add representative Hong Kong stocks by sector.</p>
+            </div>
+            <div class="sector-tab-buttons" id="sector-tab-buttons"></div>
+            <div class="sector-company-grid" id="sector-company-grid"></div>
+        </section>
+
         <!-- Decision Support Section -->
         <div class="stats-bar" style="margin-top: 30px;">
             <div class="stat-box" style="background: linear-gradient(135deg, rgba(0, 200, 83, 0.1) 0%, rgba(0, 200, 83, 0.05) 100%); border: 1px solid rgba(0, 200, 83, 0.3);">
@@ -1402,6 +1505,88 @@
             content.classList.toggle('show');
             toggle.classList.toggle('expanded');
         }
+
+        const sectorUniverse = {
+            internet: {
+                label: 'Internet Tech',
+                companies: [
+                    { name: 'Tencent', symbol: '0700.HK', href: 'tencent.html', note: 'Gaming, social platforms, cloud' },
+                    { name: 'Baidu', symbol: '9888.HK', href: 'baidu.html', note: 'Search, AI cloud, autonomous tech' },
+                    { name: 'JD.com', symbol: '9618.HK', href: 'jd.html', note: 'E-commerce + logistics' },
+                    { name: 'Alibaba', symbol: '9988.HK', href: 'alibaba.html', note: 'Commerce + cloud + local services' },
+                    { name: 'Xiaomi', symbol: '1810.HK', href: 'xiaomi.html', note: 'Smartphone + IoT ecosystem' },
+                    { name: 'Meituan', symbol: '3690.HK', href: 'meituan.html', note: 'Local services and on-demand' }
+                ]
+            },
+            energy: {
+                label: 'Energy',
+                companies: [
+                    { name: 'CNOOC', symbol: '0883.HK', href: 'https://finance.yahoo.com/quote/0883.HK', note: 'Offshore oil & gas major', external: true },
+                    { name: 'PetroChina', symbol: '0857.HK', href: 'https://finance.yahoo.com/quote/0857.HK', note: 'Integrated oil and gas', external: true },
+                    { name: 'Sinopec', symbol: '0386.HK', href: 'https://finance.yahoo.com/quote/0386.HK', note: 'Refining and petrochemicals', external: true }
+                ]
+            },
+            commodities: {
+                label: 'Commodities',
+                companies: [
+                    { name: 'Zijin Mining', symbol: '2899.HK', href: 'https://finance.yahoo.com/quote/2899.HK', note: 'Gold and copper producer', external: true },
+                    { name: 'Jiangxi Copper', symbol: '0358.HK', href: 'https://finance.yahoo.com/quote/0358.HK', note: 'Copper smelting and mining', external: true },
+                    { name: 'Aluminum Corp of China', symbol: '2600.HK', href: 'https://finance.yahoo.com/quote/2600.HK', note: 'Aluminum and industrial metals', external: true }
+                ]
+            },
+            consumer: {
+                label: 'Consumer',
+                companies: [
+                    { name: 'ANTA Sports', symbol: '2020.HK', href: 'https://finance.yahoo.com/quote/2020.HK', note: 'Sportswear and retail brands', external: true },
+                    { name: 'Mengniu Dairy', symbol: '2319.HK', href: 'https://finance.yahoo.com/quote/2319.HK', note: 'Leading dairy products company', external: true },
+                    { name: 'Budweiser APAC', symbol: '1876.HK', href: 'https://finance.yahoo.com/quote/1876.HK', note: 'Beer and beverage consumption', external: true }
+                ]
+            },
+            banks: {
+                label: 'Banks',
+                companies: [
+                    { name: 'HSBC Holdings', symbol: '0005.HK', href: 'https://finance.yahoo.com/quote/0005.HK', note: 'Global universal bank', external: true },
+                    { name: 'BOC Hong Kong', symbol: '2388.HK', href: 'https://finance.yahoo.com/quote/2388.HK', note: 'Hong Kong retail & corporate bank', external: true },
+                    { name: 'ICBC', symbol: '1398.HK', href: 'https://finance.yahoo.com/quote/1398.HK', note: 'Largest mainland commercial bank', external: true }
+                ]
+            }
+        };
+
+        function renderSectorTab(tabKey) {
+            const buttonWrap = document.getElementById('sector-tab-buttons');
+            const grid = document.getElementById('sector-company-grid');
+            if (!buttonWrap || !grid) return;
+
+            buttonWrap.querySelectorAll('.sector-tab-btn').forEach((btn) => {
+                btn.classList.toggle('active', btn.dataset.key === tabKey);
+            });
+
+            const tab = sectorUniverse[tabKey];
+            if (!tab) return;
+            grid.innerHTML = tab.companies.map((company) => `
+                <a class="sector-company-card" href="${company.href}" ${company.external ? 'target="_blank" rel="noopener noreferrer"' : ''}>
+                    <div class="sector-company-name">${company.name}</div>
+                    <div class="sector-company-symbol">${company.symbol}</div>
+                    <div class="sector-company-note">${company.note}</div>
+                    <span class="sector-link-chip">${company.external ? 'Open quote page' : 'Open full analysis'}</span>
+                </a>
+            `).join('');
+        }
+
+        function initSectorTabs() {
+            const buttonWrap = document.getElementById('sector-tab-buttons');
+            if (!buttonWrap) return;
+
+            buttonWrap.innerHTML = Object.entries(sectorUniverse).map(([key, tab]) => `
+                <button type="button" class="sector-tab-btn" data-key="${key}">${tab.label}</button>
+            `).join('');
+
+            buttonWrap.querySelectorAll('.sector-tab-btn').forEach((btn) => {
+                btn.addEventListener('click', () => renderSectorTab(btn.dataset.key));
+            });
+            renderSectorTab('internet');
+        }
+        initSectorTabs();
 
         // Chart.js Configuration
         Chart.defaults.color = 'rgba(255,255,255,0.7)';
