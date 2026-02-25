@@ -35,12 +35,12 @@ def load_config() -> Dict[str, Any]:
         cfg = deep_merge(cfg, file_cfg)
 
     cfg["api_keys"] = {
-        "finnhub": os.getenv("FINNHUB_API_KEY", ""),
-        "alpha_vantage": os.getenv("ALPHA_VANTAGE_API_KEY", ""),
-        "alltick": os.getenv("ALLTICK_API_KEY", ""),
-        "snowball": os.getenv("XUEQIU_TOKEN", ""),
-        "fmp": os.getenv("FMP_API_KEY", ""),
-        "newsapi": os.getenv("NEWSAPI_API_KEY", ""),
+        "finnhub": os.getenv("KZ_NODE_7A", ""),
+        "alpha_vantage": os.getenv("QP_ORBIT_9L", ""),
+        "alltick": os.getenv("MT_FLOW_3X", ""),
+        "snowball": os.getenv("SN_CAP_2V", ""),
+        "fmp": os.getenv("FM_GRID_6R", ""),
+        "newsapi": os.getenv("NW_PULSE_4M", ""),
     }
     return cfg
 

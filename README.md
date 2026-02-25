@@ -277,9 +277,12 @@ Configured in `config/data_sources.yaml`:
 
 Set in environment or GitHub Secrets:
 
-- `FINNHUB_API_KEY`
-- `ALPHA_VANTAGE_API_KEY`
-- `NEWSAPI_API_KEY`
+- `KZ_NODE_7A`
+- `QP_ORBIT_9L`
+- `MT_FLOW_3X`
+- `SN_CAP_2V`
+- `FM_GRID_6R`
+- `NW_PULSE_4M`
 
 Use `.env.example` as template.
 
