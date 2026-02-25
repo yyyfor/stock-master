@@ -1,19 +1,16 @@
 providers:
   quote:
     - akshare
+    - alltick
     - yfinance
-    - finnhub
-    - alpha_vantage
-    - fmp
+    - snowball
   ohlcv:
     - akshare
+    - alltick
     - yfinance
-    - fmp
+    - snowball
   fundamentals:
     - yfinance
-    - finnhub
-    - alpha_vantage
-    - fmp
   news:
     - yfinance
     - newsapi

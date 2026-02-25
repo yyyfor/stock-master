@@ -9,10 +9,12 @@ from typing import Any, Dict, List, Optional
 from scripts.config import load_config
 
 from .akshare_provider import AkshareProvider
+from .alltick_provider import AllTickProvider
 from .alpha_vantage_provider import AlphaVantageProvider
 from .finnhub_provider import FinnhubProvider
 from .fmp_provider import FMPProvider
 from .news_provider import NewsProvider
+from .snowball_provider import SnowballProvider
 from .types import FundamentalsData, NewsItem, OHLCVData, ProviderMeta, QuoteData
 from .yfinance_provider import YFinanceProvider
 
@@ -31,6 +33,8 @@ class ProviderRegistry:
 
         self.providers = {
             "akshare": AkshareProvider(),
+            "alltick": AllTickProvider(api_key=keys.get("alltick", ""), timeout=timeout),
+            "snowball": SnowballProvider(token=keys.get("snowball", "")),
             "yfinance": YFinanceProvider(),
             "finnhub": FinnhubProvider(api_key=keys.get("finnhub", ""), timeout=timeout),
             "alpha_vantage": AlphaVantageProvider(api_key=keys.get("alpha_vantage", ""), timeout=timeout),

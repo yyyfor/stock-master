@@ -25,8 +25,8 @@ logger = logging.getLogger(__name__)
 
 # AkShare/yfinance mixed providers: keep a controlled but higher request cadence.
 MAX_FETCH_RETRIES = 3
-RETRY_BACKOFF_BASE_SEC = 1.0
-REQUEST_INTERVAL_SEC = 0.5
+RETRY_BACKOFF_BASE_SEC = 4.0
+REQUEST_INTERVAL_SEC = 3.0
 
 STOCK_CONFIG = {
     "tencent": {"symbol": "0700.HK", "code": "00700", "name": "Tencent", "industry": "Technology / Gaming / Social Media", "sector": "Communication Services"},
