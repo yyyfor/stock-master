@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-26T04:24:29.222407",
+  "timestamp": "2026-02-26T05:11:21.269936",
   "companies": {
     "tencent": {
       "price": 518.5,
@@ -80,8 +80,8 @@
         "ohlcv": 0.85,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-02-26T04:20:41.426062",
-      "last_verified_at": "2026-02-26T04:20:43.051621",
+      "source_timestamp": "2026-02-26T05:07:43.873234",
+      "last_verified_at": "2026-02-26T05:07:45.866379",
       "is_estimated": true,
       "estimated_fields": [
         "peg_ratio"
@@ -195,8 +195,8 @@
         "ohlcv": 0.85,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-02-26T04:21:24.513874",
-      "last_verified_at": "2026-02-26T04:21:25.373227",
+      "source_timestamp": "2026-02-26T05:08:28.085343",
+      "last_verified_at": "2026-02-26T05:08:29.179697",
       "is_estimated": true,
       "estimated_fields": [
         "earnings_growth",
@@ -310,8 +310,8 @@
         "ohlcv": 0.85,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-02-26T04:22:09.369630",
-      "last_verified_at": "2026-02-26T04:22:11.183224",
+      "source_timestamp": "2026-02-26T05:09:11.380425",
+      "last_verified_at": "2026-02-26T05:09:12.627966",
       "is_estimated": true,
       "estimated_fields": [
         "peg_ratio"
@@ -424,8 +424,8 @@
         "ohlcv": 0.85,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-02-26T04:22:51.932957",
-      "last_verified_at": "2026-02-26T04:22:52.964139",
+      "source_timestamp": "2026-02-26T05:09:50.510303",
+      "last_verified_at": "2026-02-26T05:09:51.393137",
       "is_estimated": true,
       "estimated_fields": [
         "peg_ratio"
@@ -538,8 +538,8 @@
         "ohlcv": 0.85,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-02-26T04:23:35.918064",
-      "last_verified_at": "2026-02-26T04:23:42.281104",
+      "source_timestamp": "2026-02-26T05:10:31.522870",
+      "last_verified_at": "2026-02-26T05:10:32.954557",
       "is_estimated": true,
       "estimated_fields": [
         "dividend_yield",
@@ -653,8 +653,8 @@
         "ohlcv": 0.85,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-02-26T04:24:25.112258",
-      "last_verified_at": "2026-02-26T04:24:26.201961",
+      "source_timestamp": "2026-02-26T05:11:17.189089",
+      "last_verified_at": "2026-02-26T05:11:18.250134",
       "is_estimated": true,
       "estimated_fields": [
         "earnings_growth",
