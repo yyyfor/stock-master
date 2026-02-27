@@ -1,12 +1,12 @@
 {
   "tencent": {
-    "price": 520.5,
-    "change_pct": 1.66016,
-    "market_cap": "$623B",
-    "pe_ratio": 14.660828,
+    "price": 518.0,
+    "change_pct": 1.17188,
+    "market_cap": "$620B",
+    "pe_ratio": 14.590411,
     "technical_rating": "Sell",
-    "rsi": 34.854771784232355,
-    "volatility": 29.87891617706077,
+    "rsi": 32.90598290598291,
+    "volatility": 29.13260741248969,
     "52w_high": 633.0,
     "52w_low": 512.0,
     "source": {
@@ -20,7 +20,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-02-27T07:50:03.085635"
+    "last_verified_at": "2026-02-27T08:50:11.353088"
   },
   "baidu": {
     "price": 123.7,
@@ -28,31 +28,31 @@
     "market_cap": "$55B",
     "pe_ratio": 13.121787,
     "technical_rating": "Hold",
-    "rsi": 35.16483018974226,
-    "volatility": 41.14849867727557,
+    "rsi": 35.48387096774192,
+    "volatility": 41.95599161084368,
     "52w_high": 160.5,
-    "52w_low": 112.69999694824219,
+    "52w_low": 107.3,
     "source": {
       "quote": "akshare",
-      "ohlcv": "yfinance",
+      "ohlcv": "akshare",
       "fundamentals": "yfinance"
     },
     "confidence": {
       "quote": 0.95,
-      "ohlcv": 0.85,
+      "ohlcv": 0.95,
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-02-27T07:50:44.766678"
+    "last_verified_at": "2026-02-27T08:51:14.316016"
   },
   "jd": {
-    "price": 104.6,
-    "change_pct": 0.57692,
+    "price": 104.4,
+    "change_pct": 0.38462,
     "market_cap": "$172B",
-    "pe_ratio": 8.481675,
+    "pe_ratio": 8.473558,
     "technical_rating": "Sell",
-    "rsi": 41.82691761022369,
-    "volatility": 24.44579136264546,
+    "rsi": 41.54589247343532,
+    "volatility": 24.3943558735373,
     "52w_high": 117.4000015258789,
     "52w_low": 103.80000305175781,
     "source": {
@@ -66,16 +66,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-02-27T07:51:21.439455"
+    "last_verified_at": "2026-02-27T08:51:55.373430"
   },
   "alibaba": {
-    "price": 143.9,
-    "change_pct": 0.62937,
-    "market_cap": "$433B",
-    "pe_ratio": 16.300098,
+    "price": 142.89999,
+    "change_pct": -0.06993,
+    "market_cap": "$430B",
+    "pe_ratio": 16.186825,
     "technical_rating": "Hold",
-    "rsi": 30.203034872922146,
-    "volatility": 32.549806396315844,
+    "rsi": 28.49740482035348,
+    "volatility": 32.18974791166943,
     "52w_high": 173.5,
     "52w_low": 142.60000610351562,
     "source": {
@@ -89,16 +89,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-02-27T07:51:58.741862"
+    "last_verified_at": "2026-02-27T08:53:00.059453"
   },
   "xiaomi": {
-    "price": 34.96,
-    "change_pct": -0.62536,
+    "price": 34.9,
+    "change_pct": -0.7959,
     "market_cap": "$108B",
-    "pe_ratio": 16.9104,
+    "pe_ratio": 16.881378,
     "technical_rating": "Sell",
-    "rsi": 56.009615605046775,
-    "volatility": 31.82453420408564,
+    "rsi": 55.60860829055074,
+    "volatility": 31.861859273055636,
     "52w_high": 42.959999084472656,
     "52w_low": 33.959999084472656,
     "source": {
@@ -112,16 +112,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-02-27T07:52:36.583745"
+    "last_verified_at": "2026-02-27T08:54:08.181505"
   },
   "meituan": {
-    "price": 81.2,
-    "change_pct": 0.93226,
-    "market_cap": "$588B",
-    "pe_ratio": 26.424885,
+    "price": 81.15,
+    "change_pct": 0.87011,
+    "market_cap": "$587B",
+    "pe_ratio": 26.408615,
     "technical_rating": "Hold",
-    "rsi": 29.684584568687086,
-    "volatility": 36.320392046820864,
+    "rsi": 29.553898706576263,
+    "volatility": 36.27770002938378,
     "52w_high": 106.0999984741211,
     "52w_low": 80.44999694824219,
     "source": {
@@ -135,6 +135,6 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-02-27T07:53:11.835726"
+    "last_verified_at": "2026-02-27T08:55:17.103713"
   }
 }
