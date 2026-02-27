@@ -522,6 +522,16 @@ def update_company_html(company: str, data: Dict[str, Any]) -> bool:
     return update_company_file(root / f"{company}.html", data)
 
 
+def load_previous_companies() -> Dict[str, Any]:
+    comp_path = Path(__file__).parent.parent / "data" / "comprehensive_stock_data.json"
+    if not comp_path.exists():
+        return {}
+    try:
+        return json.loads(comp_path.read_text(encoding="utf-8")).get("companies", {})
+    except Exception:
+        return {}
+
+
 def save_comprehensive_data(data: Dict[str, Dict]):
     data_dir = Path(__file__).parent.parent / "data"
     data_dir.mkdir(parents=True, exist_ok=True)
@@ -574,6 +584,7 @@ def main() -> int:
     logger.info("Starting unified stock update")
     registry = ProviderRegistry()
     all_data = {}
+    previous_companies = load_previous_companies()
 
     for company in STOCK_CONFIG:
         payload = None
@@ -596,8 +607,17 @@ def main() -> int:
 
         if payload is None:
             logger.error("Failed to process %s after retries: %s", company, last_exc)
+            prev = previous_companies.get(company)
+            if prev:
+                prev = dict(prev)
+                prev["stale"] = True
+                prev["stale_reason"] = f"live fetch failed: {last_exc}"
+                prev["last_attempt_at"] = datetime.utcnow().isoformat()
+                all_data[company] = prev
+                logger.warning("Using last known snapshot for %s", company)
             continue
 
+        payload["stale"] = False
         all_data[company] = payload
         logger.info(
             "%s HK$%.2f (%+.2f%%) %s/%s est=%s",
