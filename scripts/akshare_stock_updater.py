@@ -369,6 +369,16 @@ def update_equity_analysis_file(html_file: Path, data: Dict[str, Dict], zh: bool
         return False
 
     content = html_file.read_text(encoding="utf-8")
+
+    def _rating_view(raw: str) -> tuple[str, str, str]:
+        r = (raw or "Hold").strip()
+        l = r.lower()
+        if "buy" in l:
+            return r, "rating-buy", "#4CAF50"
+        if "sell" in l:
+            return r, "rating-sell", "#F44336"
+        return r, "rating-hold", "#FF9800"
+
     for company, metrics in data.items():
         href_company = f"{company}-zh" if zh else company
         price_pattern = rf'(<a href="{href_company}\.html" class="stock-card [^"]*">.*?<div class="current-price">)HK\$[\d.,]+(</div>)'
@@ -386,6 +396,10 @@ def update_equity_analysis_file(html_file: Path, data: Dict[str, Dict], zh: bool
 
         roe_pattern = rf'(<a href="{href_company}\.html" class="stock-card [^"]*">.*?<div class="metric-label">ROE</div>\s*<div class="metric-value">)[^<]+(</div>)'
         content = re.sub(roe_pattern, rf"\g<1>{metrics['roe']:.1f}%\g<2>", content, flags=re.DOTALL)
+
+        rating_text, rating_class, _ = _rating_view(metrics.get("technical_rating", {}).get("rating", "Hold"))
+        rating_pattern = rf'(<a href="{href_company}\.html" class="stock-card [^"]*">.*?<span class="rating-badge )[^\"]*(">)[^<]*(</span>)'
+        content = re.sub(rating_pattern, rf'\g<1>{rating_class}\g<2>{rating_text}\g<3>', content, flags=re.DOTALL)
 
     order = ["tencent", "baidu", "jd", "alibaba", "xiaomi", "meituan"]
     metrics = [data[c] for c in order if c in data]
@@ -470,6 +484,31 @@ def update_company_file(html_file: Path, data: Dict[str, Any]) -> bool:
     for label, value in replacements.items():
         pattern = rf'(<div class="metric-item"><span class="metric-label">{re.escape(label)}</span> <strong>)[^<]+(</strong>)'
         content = re.sub(pattern, rf"\g<1>{value}\g<2>", content)
+
+    rating_raw = data.get("technical_rating", {}).get("rating", "Hold")
+    rating_upper = rating_raw.upper()
+    rating_lower = rating_raw.lower()
+    if "buy" in rating_lower:
+        badge_class = "badge-buy"
+        rating_color = "#4CAF50"
+    elif "sell" in rating_lower:
+        badge_class = "badge-sell"
+        rating_color = "#F44336"
+    else:
+        badge_class = "badge-hold"
+        rating_color = "#FF9800"
+
+    content = re.sub(
+        r'(<h4>💡 Investment Rating</h4>[\s\S]*?<span class=")badge-[^"]*(">)[^<]*(</span>)',
+        rf'\g<1>{badge_class}\g<2>{rating_upper}\g<3>',
+        content,
+        flags=re.DOTALL,
+    )
+    content = re.sub(
+        r'(<tr><td>Technical Rating</td><td class="text-end fw-bold"><span style="color:\s*)#[0-9A-Fa-f]{6}(;\s*font-weight:\s*700;">)[^<]*(</span>)',
+        rf'\g<1>{rating_color}\g<2>{rating_upper}\g<3>',
+        content,
+    )
 
     content = re.sub(r"📅 Data Snapshot:.*?</span>", f"📅 Data Snapshot: {datetime.now().strftime('%B %d, %Y')}</span>", content)
     content = re.sub(r"📅 数据快照：.*?</span>", f"📅 数据快照： {datetime.now().strftime('%B %d, %Y')}</span>", content)
