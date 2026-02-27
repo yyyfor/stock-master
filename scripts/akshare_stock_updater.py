@@ -9,6 +9,7 @@ import re
 import sys
 import time
 from datetime import datetime
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
@@ -439,7 +440,8 @@ def update_equity_analysis_file(html_file: Path, data: Dict[str, Dict], zh: bool
                 content,
             )
 
-    timestamp = datetime.now().strftime("%B %d, %Y %H:%M HKT")
+    hkt_now = datetime.now(ZoneInfo("Asia/Hong_Kong"))
+    timestamp = hkt_now.strftime("%B %d, %Y %H:%M HKT")
     content = re.sub(r"Last updated: [^<]+", f"Last updated: {timestamp}", content)
     content = re.sub(r"最近更新： [^<]+", f"最近更新： {timestamp}", content)
     html_file.write_text(content, encoding="utf-8")
