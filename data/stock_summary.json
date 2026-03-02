@@ -5,22 +5,22 @@
     "market_cap": "$619B",
     "pe_ratio": 14.544886,
     "technical_rating": "Sell",
-    "rsi": 32.203389830508485,
-    "volatility": 28.95138352588206,
+    "rsi": 32.64462809917356,
+    "volatility": 29.27236719581787,
     "52w_high": 633.0,
     "52w_low": 512.0,
     "source": {
       "quote": "akshare",
-      "ohlcv": "akshare",
+      "ohlcv": "yfinance",
       "fundamentals": "yfinance"
     },
     "confidence": {
       "quote": 0.95,
-      "ohlcv": 0.95,
+      "ohlcv": 0.85,
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-02T04:19:29.902738"
+    "last_verified_at": "2026-03-02T05:05:01.075369"
   },
   "baidu": {
     "price": 120.4,
@@ -43,7 +43,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-02T04:20:08.645892"
+    "last_verified_at": "2026-03-02T05:05:35.335737"
   },
   "jd": {
     "price": 101.8,
@@ -66,7 +66,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-02T04:20:47.564414"
+    "last_verified_at": "2026-03-02T05:06:17.418567"
   },
   "alibaba": {
     "price": 139.1,
@@ -89,7 +89,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-02T04:21:26.067641"
+    "last_verified_at": "2026-03-02T05:06:52.395567"
   },
   "xiaomi": {
     "price": 33.3,
@@ -112,7 +112,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-02T04:22:05.878847"
+    "last_verified_at": "2026-03-02T05:07:31.188326"
   },
   "meituan": {
     "price": 78.8,
@@ -135,6 +135,6 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-02T04:22:46.157424"
+    "last_verified_at": "2026-03-02T05:08:04.309767"
   }
 }
