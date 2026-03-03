@@ -20,7 +20,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-03T04:21:31.664694"
+    "last_verified_at": "2026-03-03T05:04:27.595221"
   },
   "baidu": {
     "price": 118.6,
@@ -43,7 +43,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-03T04:22:14.257503"
+    "last_verified_at": "2026-03-03T05:05:03.395080"
   },
   "jd": {
     "price": 101.8,
@@ -66,7 +66,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-03T04:22:54.880242"
+    "last_verified_at": "2026-03-03T05:05:38.226344"
   },
   "alibaba": {
     "price": 137.0,
@@ -89,7 +89,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-03T04:23:39.733992"
+    "last_verified_at": "2026-03-03T05:06:17.657192"
   },
   "xiaomi": {
     "price": 32.14,
@@ -112,7 +112,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-03T04:24:23.039792"
+    "last_verified_at": "2026-03-03T05:06:52.497578"
   },
   "meituan": {
     "price": 76.45,
@@ -135,6 +135,6 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-03T04:25:03.967680"
+    "last_verified_at": "2026-03-03T05:07:25.563437"
   }
 }
