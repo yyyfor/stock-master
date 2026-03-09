@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-09T04:25:36.088239",
+  "timestamp": "2026-03-09T05:10:53.628614",
   "companies": {
     "tencent": {
       "price": 510.5,
@@ -7,39 +7,39 @@
       "high": 513.0,
       "low": 502.5,
       "volume": 18177358,
-      "turnover": 9263926528.0,
+      "turnover": 9279541259.0,
       "change": -8.5,
       "change_pct": -1.63777,
       "amplitude": 2.056807051909892,
       "ma_5": 509.6,
       "ma_10": 513.45,
-      "ma_20": 528.0,
-      "ma_50": 576.57,
-      "ma_200": 584.2575757575758,
-      "ema_12": 519.1263422119571,
-      "ema_26": 539.2693229283104,
-      "rsi_14": 38.63636363636364,
+      "ma_20": 528.075,
+      "ma_50": 576.59,
+      "ma_200": 580.9491525423729,
+      "ema_12": 519.1574285737122,
+      "ema_26": 539.2151706481711,
+      "rsi_14": 38.93805309734513,
       "rsi_6": 40.96385542168675,
-      "macd": -20.14298071635335,
-      "macd_signal": -18.128682644718015,
-      "macd_histogram": -2.0142980716353343,
-      "bb_upper": 562.6309110477908,
-      "bb_middle": 528.0,
-      "bb_lower": 493.36908895220915,
-      "bb_width": 13.117769336284413,
-      "atr": 15.514285714285714,
-      "volatility": 28.39496007917259,
-      "historical_vol_20": 28.39496007917259,
-      "historical_vol_60": 25.888361780256346,
+      "macd": -20.05774207445893,
+      "macd_signal": -18.051967867013037,
+      "macd_histogram": -2.005774207445892,
+      "bb_upper": 562.7553618781582,
+      "bb_middle": 528.075,
+      "bb_lower": 493.394638121842,
+      "bb_width": 13.134634996225191,
+      "atr": 15.264286586216517,
+      "volatility": 28.720518148546088,
+      "historical_vol_20": 28.720518148546088,
+      "historical_vol_60": 0.0,
       "momentum_10": -1.826923076923077,
-      "stoch_k": 26.470588235294098,
-      "stoch_d": 26.470588235294098,
-      "williams_r": -73.5294117647059,
+      "stoch_k": 26.470608542433922,
+      "stoch_d": 26.470608542433922,
+      "williams_r": -73.52939145756608,
       "52w_high": 633.0,
       "52w_low": 502.0,
       "52w_position": 6.488549618320611,
-      "avg_volume_20": 29592827.9,
-      "volume_ratio": 0.6142487653233033,
+      "avg_volume_20": 29231603.75,
+      "volume_ratio": 0.621839231109583,
       "support_levels": [
         502.0
       ],
@@ -72,16 +72,16 @@
       "eps": 25.22,
       "source": {
         "quote": "akshare",
-        "ohlcv": "akshare",
+        "ohlcv": "yfinance",
         "fundamentals": "yfinance"
       },
       "confidence": {
         "quote": 0.95,
-        "ohlcv": 0.95,
+        "ohlcv": 0.85,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-03-09T04:22:31.949717",
-      "last_verified_at": "2026-03-09T04:22:34.667263",
+      "source_timestamp": "2026-03-09T05:07:46.944726",
+      "last_verified_at": "2026-03-09T05:07:48.507535",
       "is_estimated": true,
       "estimated_fields": [
         "peg_ratio"
@@ -100,19 +100,19 @@
         ]
       },
       "derivative_analysis": {
-        "daily_expected_move": 9.131386775844838,
-        "atr_percent": 3.0390373583321675,
+        "daily_expected_move": 9.236081293504231,
+        "atr_percent": 2.990065932657496,
         "support_level": 502.0,
         "resistance_level": 560.0,
-        "tight_stop_loss": 487.2285714285714,
-        "target_1r": 533.7714285714286,
-        "target_2r": 557.0428571428572,
+        "tight_stop_loss": 487.6035701206752,
+        "target_1r": 533.3964298793247,
+        "target_2r": 556.2928597586496,
         "risk_reward_ratio": "1:2"
       },
       "expert_commentary": {
-        "technical": "Tencent RSI 38.6, MACD -20.14, trend bearish.",
-        "volatility": "Annualized volatility 28.4% with ATR 3.0%.",
-        "derivative": "Expected daily move HK$9.13; support HK$502.00, resistance HK$560.00."
+        "technical": "Tencent RSI 38.9, MACD -20.06, trend bearish.",
+        "volatility": "Annualized volatility 28.7% with ATR 3.0%.",
+        "derivative": "Expected daily move HK$9.24; support HK$502.00, resistance HK$560.00."
       },
       "stale": false
     },
@@ -195,8 +195,8 @@
         "ohlcv": 0.85,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-03-09T04:23:07.709410",
-      "last_verified_at": "2026-03-09T04:23:08.732704",
+      "source_timestamp": "2026-03-09T05:08:23.047924",
+      "last_verified_at": "2026-03-09T05:08:24.008675",
       "is_estimated": true,
       "estimated_fields": [
         "dividend_yield",
@@ -312,8 +312,8 @@
         "ohlcv": 0.85,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-03-09T04:23:42.397457",
-      "last_verified_at": "2026-03-09T04:23:43.674963",
+      "source_timestamp": "2026-03-09T05:09:00.128812",
+      "last_verified_at": "2026-03-09T05:09:02.131380",
       "is_estimated": true,
       "estimated_fields": [
         "earnings_growth",
@@ -428,8 +428,8 @@
         "ohlcv": 0.85,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-03-09T04:24:19.359975",
-      "last_verified_at": "2026-03-09T04:24:20.304248",
+      "source_timestamp": "2026-03-09T05:09:37.171179",
+      "last_verified_at": "2026-03-09T05:09:38.045854",
       "is_estimated": true,
       "estimated_fields": [
         "peg_ratio"
@@ -544,8 +544,8 @@
         "ohlcv": 0.85,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-03-09T04:24:56.566395",
-      "last_verified_at": "2026-03-09T04:24:57.682205",
+      "source_timestamp": "2026-03-09T05:10:14.097721",
+      "last_verified_at": "2026-03-09T05:10:16.308410",
       "is_estimated": true,
       "estimated_fields": [
         "dividend_yield",
@@ -660,8 +660,8 @@
         "ohlcv": 0.85,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-03-09T04:25:32.223273",
-      "last_verified_at": "2026-03-09T04:25:33.065588",
+      "source_timestamp": "2026-03-09T05:10:49.808502",
+      "last_verified_at": "2026-03-09T05:10:50.605956",
       "is_estimated": true,
       "estimated_fields": [
         "earnings_growth",
