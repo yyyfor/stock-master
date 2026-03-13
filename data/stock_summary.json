@@ -1,12 +1,12 @@
 {
   "tencent": {
-    "price": 546.5,
-    "change_pct": -0.99638,
-    "market_cap": "$655B",
-    "pe_ratio": 15.400603,
+    "price": 549.0,
+    "change_pct": 0.45746,
+    "market_cap": "$658B",
+    "pe_ratio": 15.45791,
     "technical_rating": "Hold",
-    "rsi": 59.17602996254682,
-    "volatility": 37.24575413969347,
+    "rsi": 57.254901960784316,
+    "volatility": 37.74668679978217,
     "52w_high": 633.0,
     "52w_low": 502.0,
     "source": {
@@ -20,18 +20,18 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-12T08:50:37.834462"
+    "last_verified_at": "2026-03-13T02:22:02.940397"
   },
   "baidu": {
-    "price": 120.4,
-    "change_pct": -1.14942,
-    "market_cap": "$53B",
-    "pe_ratio": 12.94621,
+    "price": 121.8,
+    "change_pct": 1.16279,
+    "market_cap": "$54B",
+    "pe_ratio": 13.073712,
     "technical_rating": "Sell",
-    "rsi": 37.85310734463276,
-    "volatility": 41.00203639714341,
+    "rsi": 32.92682926829268,
+    "volatility": 41.417770343645294,
     "52w_high": 160.5,
-    "52w_low": 114.6,
+    "52w_low": 115.0,
     "source": {
       "quote": "akshare",
       "ohlcv": "akshare",
@@ -43,16 +43,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-12T08:51:43.322563"
+    "last_verified_at": "2026-03-13T02:22:42.136482"
   },
   "jd": {
-    "price": 109.5,
-    "change_pct": 0.82873,
-    "market_cap": "$180B",
-    "pe_ratio": 7.0010014,
+    "price": 111.5,
+    "change_pct": 1.82648,
+    "market_cap": "$184B",
+    "pe_ratio": 7.1288733,
     "technical_rating": "Hold",
-    "rsi": 59.25324675324676,
-    "volatility": 45.45690119902702,
+    "rsi": 56.42361111111112,
+    "volatility": 45.77171362898524,
     "52w_high": 117.4,
     "52w_low": 96.95,
     "source": {
@@ -66,16 +66,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-12T08:52:23.738497"
+    "last_verified_at": "2026-03-13T02:23:24.529864"
   },
   "alibaba": {
-    "price": 131.60001,
-    "change_pct": -1.2012,
-    "market_cap": "$396B",
-    "pe_ratio": 15.098299,
-    "technical_rating": "Sell",
-    "rsi": 32.66219239373602,
-    "volatility": 39.10543257783537,
+    "price": 133.8,
+    "change_pct": 1.67173,
+    "market_cap": "$403B",
+    "pe_ratio": 15.380966,
+    "technical_rating": "Hold",
+    "rsi": 28.16229116945111,
+    "volatility": 40.24412026531698,
     "52w_high": 173.5,
     "52w_low": 126.3,
     "source": {
@@ -89,16 +89,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-12T08:53:22.454284"
+    "last_verified_at": "2026-03-13T02:24:05.147996"
   },
   "xiaomi": {
-    "price": 33.3,
-    "change_pct": -0.11998,
-    "market_cap": "$103B",
-    "pe_ratio": 18.262096,
-    "technical_rating": "Sell",
-    "rsi": 38.106235565819865,
-    "volatility": 39.31541012256663,
+    "price": 33.54,
+    "change_pct": 0.72072,
+    "market_cap": "$104B",
+    "pe_ratio": 18.728083,
+    "technical_rating": "Hold",
+    "rsi": 28.723404255319153,
+    "volatility": 35.46773447056815,
     "52w_high": 42.96,
     "52w_low": 31.58,
     "source": {
@@ -112,16 +112,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-12T08:54:36.738462"
+    "last_verified_at": "2026-03-13T02:24:45.553924"
   },
   "meituan": {
-    "price": 76.7,
-    "change_pct": -0.9044,
-    "market_cap": "$555B",
-    "pe_ratio": 36.46011,
+    "price": 77.1,
+    "change_pct": 0.52151,
+    "market_cap": "$558B",
+    "pe_ratio": 43.202137,
     "technical_rating": "Sell",
-    "rsi": 42.13592233009709,
-    "volatility": 41.278425694479445,
+    "rsi": 30.69767441860465,
+    "volatility": 41.264604687115735,
     "52w_high": 106.1,
     "52w_low": 74.5,
     "source": {
@@ -135,6 +135,6 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-12T08:55:57.959734"
+    "last_verified_at": "2026-03-13T02:25:26.436050"
   }
 }
