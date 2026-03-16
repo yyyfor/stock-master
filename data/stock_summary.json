@@ -1,81 +1,81 @@
 {
   "tencent": {
-    "price": 558.0,
-    "change_pct": 1.91781,
-    "market_cap": "$668B",
-    "pe_ratio": 15.73375,
+    "price": 561.5,
+    "change_pct": 2.55708,
+    "market_cap": "$673B",
+    "pe_ratio": 15.860748,
     "technical_rating": "Hold",
-    "rsi": 67.41071428571429,
-    "volatility": 36.840871639818786,
+    "rsi": 68.26086956521739,
+    "volatility": 37.50114571141393,
     "52w_high": 633.0,
     "52w_low": 502.0,
     "source": {
       "quote": "akshare",
-      "ohlcv": "akshare",
+      "ohlcv": "yfinance",
       "fundamentals": "yfinance"
     },
     "confidence": {
       "quote": 0.95,
-      "ohlcv": 0.95,
+      "ohlcv": 0.85,
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-16T03:41:05.705155"
+    "last_verified_at": "2026-03-16T05:20:20.503688"
   },
   "baidu": {
-    "price": 121.4,
-    "change_pct": -0.65466,
+    "price": 122.2,
+    "change_pct": 0.0,
     "market_cap": "$54B",
-    "pe_ratio": 13.078618,
+    "pe_ratio": 13.164803,
     "technical_rating": "Sell",
-    "rsi": 37.49999999999999,
-    "volatility": 40.90518162139213,
+    "rsi": 37.2881290180421,
+    "volatility": 40.061303495058176,
     "52w_high": 160.5,
     "52w_low": 115.0,
     "source": {
       "quote": "akshare",
-      "ohlcv": "akshare",
+      "ohlcv": "yfinance",
       "fundamentals": "yfinance"
     },
     "confidence": {
       "quote": 0.95,
-      "ohlcv": 0.95,
+      "ohlcv": 0.85,
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-16T03:41:43.995568"
+    "last_verified_at": "2026-03-16T05:20:59.713916"
   },
   "jd": {
     "price": 111.6,
     "change_pct": 1.82482,
     "market_cap": "$184B",
-    "pe_ratio": 7.135267,
+    "pe_ratio": 7.14166,
     "technical_rating": "Hold",
-    "rsi": 59.89399293286221,
-    "volatility": 45.739180067156205,
-    "52w_high": 117.4,
-    "52w_low": 96.95,
+    "rsi": 59.608527977879646,
+    "volatility": 45.643586002211144,
+    "52w_high": 117.4000015258789,
+    "52w_low": 96.94999694824219,
     "source": {
       "quote": "akshare",
-      "ohlcv": "akshare",
+      "ohlcv": "yfinance",
       "fundamentals": "yfinance"
     },
     "confidence": {
       "quote": 0.95,
-      "ohlcv": 0.95,
+      "ohlcv": 0.85,
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-16T03:42:22.430018"
+    "last_verified_at": "2026-03-16T05:21:38.843546"
   },
   "alibaba": {
-    "price": 132.7,
-    "change_pct": 0.15094,
-    "market_cap": "$399B",
-    "pe_ratio": 15.253519,
-    "technical_rating": "Hold",
-    "rsi": 29.234971652414714,
-    "volatility": 39.707613764288844,
+    "price": 134.0,
+    "change_pct": 1.13208,
+    "market_cap": "$403B",
+    "pe_ratio": 15.391456,
+    "technical_rating": "Sell",
+    "rsi": 31.481475501158528,
+    "volatility": 40.17498911213475,
     "52w_high": 173.5,
     "52w_low": 126.30000305175781,
     "source": {
@@ -89,16 +89,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-16T03:42:59.482218"
+    "last_verified_at": "2026-03-16T05:22:18.555333"
   },
   "xiaomi": {
-    "price": 34.44,
-    "change_pct": 3.36135,
-    "market_cap": "$107B",
-    "pe_ratio": 19.300924,
+    "price": 35.0,
+    "change_pct": 5.04202,
+    "market_cap": "$109B",
+    "pe_ratio": 19.580973,
     "technical_rating": "Hold",
-    "rsi": 41.794858376974105,
-    "volatility": 37.46009243244342,
+    "rsi": 45.30119092047232,
+    "volatility": 39.73375195161298,
     "52w_high": 41.220001220703125,
     "52w_low": 31.579999923706055,
     "source": {
@@ -112,7 +112,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-16T03:43:37.128021"
+    "last_verified_at": "2026-03-16T05:22:57.427984"
   },
   "meituan": {
     "price": 78.55,
@@ -135,6 +135,6 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-16T03:44:14.186042"
+    "last_verified_at": "2026-03-16T05:23:35.578094"
   }
 }
