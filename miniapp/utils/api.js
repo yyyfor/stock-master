@@ -6,8 +6,6 @@ const localNewsMeta = require('../data/news_metadata.js');
 
 const localNewsByCompany = {
   tencent: require('../data/news_tencent.js'),
-  baidu: require('../data/news_baidu.js'),
-  jd: require('../data/news_jd.js'),
   alibaba: require('../data/news_alibaba.js'),
   xiaomi: require('../data/news_xiaomi.js'),
   meituan: require('../data/news_meituan.js')

@@ -1,1 +1,112 @@
-[]
+[
+  {
+    "title": "Tencent Announces 2025 Annual and Fourth Quarter Results",
+    "publisher": "Tencent",
+    "link": "https://static.www.tencent.com/uploads/2026/03/18/e6a646796d0d869acc76271c9ee1a6a5.pdf",
+    "providerPublishTime": "2026-03-18T00:00:00",
+    "summary": "",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Tencent and City University of Hong Kong Launch “WeTech Academy Principals’ AI Open Class x Tencent AI Campus Tour”",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202291.html",
+    "providerPublishTime": "2026-03-17T00:00:00",
+    "summary": "Tencent has partnered with the City University of Hong Kong (CityU) to host the inaugural “WeTech Academy Principals’ AI Open Class x Tencent AI Campus tour”.",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "DBS Bank and TenPay Global Launch Service Providing Instant DBS Remit Transfers to Weixin Pay",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202287.html",
+    "providerPublishTime": "2026-02-13T00:00:00",
+    "summary": "DBS customers can now send money instantly to Weixin Pay, the digital RMB wallet within Weixin/WeChat, connecting to over a billion Weixin and WeChat users.",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "HeritageSG and Tencent Launch Wonderbot 2.0, Transforming Learning at Children's Museum Singapore",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202284.html",
+    "providerPublishTime": "2026-02-04T00:00:00",
+    "summary": "WonderBot 2.0 debuts at Children’s Museum Singapore as part of a three-year digital heritage commitment by Tencent.",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "OCA and Tencent Esports Launch Decade-Long Strategic Partnership to Forge a New Era for Asian Esports",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202282.html",
+    "providerPublishTime": "2026-01-22T00:00:00",
+    "summary": "Tencent Esports and the Olympic Council of Asia (OCA) jointly announced a comprehensive ten-year strategic partnership.",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Tourism Malaysia and Weixin Pay Formalize Strategic Collaboration to Enhance Travel Experience",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202274.html",
+    "providerPublishTime": "2026-01-08T00:00:00",
+    "summary": "Tourism Malaysia and Weixin Pay today agreed to a Memorandum of Collaboration aimed at supporting the sustainable growth and digital transformation of Malaysia’s tourism industry,",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.027,
+    "sentiment_label": "positive"
+  },
+  {
+    "title": "Tencent MIDAS and Mastercard Launch Global Collaboration to Transform Digital Commerce",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202265.html",
+    "providerPublishTime": "2025-12-23T00:00:00",
+    "summary": "Tencent MIDAS and Mastercard have announced a new collaboration to accelerate the future of digital commerce for the global entertainment ecosystem.",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "TenPay Global and Mastercard Collaborate to Enable Fast and Secure Remittances to Weixin Pay",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202249.html",
+    "providerPublishTime": "2025-12-08T00:00:00",
+    "summary": "TenPay Global and Mastercard Move have announced a collaboration to facilitate fast, secure and transparent digital remittances directly to Weixin Pay.",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Tencent Reinforces Commitment to Malaysia with Expanded Office, Plans to Develop Local Tech Talent",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202240.html",
+    "providerPublishTime": "2025-12-01T00:00:00",
+    "summary": "Tencent Malaysia doubled its local workforce in 2025.",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Tencent Donates HK$30M to Aid Hong Kong's Fire Relief",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202237.html",
+    "providerPublishTime": "2025-11-27T00:00:00",
+    "summary": "Tencent Charity Foundation today announced a donation totaling HK$30 million (US$3.6 million) to aid emergency relief efforts.",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  }
+]

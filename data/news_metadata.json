@@ -1,21 +1,17 @@
 {
-  "last_update": "2026-03-26T00:56:37.792660",
+  "last_update": "2026-03-26T02:38:27.204652+00:00",
   "news_counts": {
-    "tencent": 0,
-    "baidu": 0,
-    "jd": 0,
-    "alibaba": 0,
-    "xiaomi": 0,
-    "meituan": 0
+    "tencent": 10,
+    "alibaba": 10,
+    "xiaomi": 4,
+    "meituan": 10
   },
   "news_sources": {
-    "tencent": "none",
-    "baidu": "none",
-    "jd": "none",
-    "alibaba": "none",
-    "xiaomi": "none",
-    "meituan": "none"
+    "tencent": "official_tencent",
+    "alibaba": "official_alibaba",
+    "xiaomi": "official_xiaomi",
+    "meituan": "official_meituan"
   },
-  "update_type": "6h_news",
+  "update_type": "official_news",
   "schema_version": "v1"
 }

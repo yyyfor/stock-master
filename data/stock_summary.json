@@ -22,52 +22,6 @@
     "is_estimated": true,
     "last_verified_at": "2026-03-26T02:22:24.522814"
   },
-  "baidu": {
-    "price": 111.0,
-    "change_pct": -0.89286,
-    "market_cap": "$49B",
-    "pe_ratio": 11.956787,
-    "technical_rating": "Sell",
-    "rsi": 36.60714285714285,
-    "volatility": 37.254397949390686,
-    "52w_high": 160.5,
-    "52w_low": 109.8,
-    "source": {
-      "quote": "akshare",
-      "ohlcv": "akshare",
-      "fundamentals": "yfinance"
-    },
-    "confidence": {
-      "quote": 0.95,
-      "ohlcv": 0.95,
-      "fundamentals": 0.8
-    },
-    "is_estimated": true,
-    "last_verified_at": "2026-03-26T02:22:59.233122"
-  },
-  "jd": {
-    "price": 114.9,
-    "change_pct": 2.2242,
-    "market_cap": "$189B",
-    "pe_ratio": 7.3686347,
-    "technical_rating": "Hold",
-    "rsi": 65.75875486381324,
-    "volatility": 47.85879576544148,
-    "52w_high": 117.4,
-    "52w_low": 96.95,
-    "source": {
-      "quote": "akshare",
-      "ohlcv": "akshare",
-      "fundamentals": "yfinance"
-    },
-    "confidence": {
-      "quote": 0.95,
-      "ohlcv": 0.95,
-      "fundamentals": 0.8
-    },
-    "is_estimated": true,
-    "last_verified_at": "2026-03-26T02:23:34.114018"
-  },
   "alibaba": {
     "price": 125.7,
     "change_pct": -2.48255,

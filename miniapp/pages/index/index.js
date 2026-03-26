@@ -1,10 +1,8 @@
 const api = require('../../utils/api');
 
-const COMPANY_ORDER = ['tencent', 'baidu', 'jd', 'alibaba', 'xiaomi', 'meituan'];
+const COMPANY_ORDER = ['tencent', 'alibaba', 'xiaomi', 'meituan'];
 const COMPANY_NAMES = {
   tencent: 'Tencent',
-  baidu: 'Baidu',
-  jd: 'JD.com',
   alibaba: 'Alibaba',
   xiaomi: 'Xiaomi',
   meituan: 'Meituan'

@@ -1,1 +1,112 @@
-[]
+[
+  {
+    "title": "Announcements and Notices - Date of Board Meeting",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260316164002197412052903_en.pdf",
+    "providerPublishTime": "2026-03-16T00:00:00",
+    "summary": "Announcements and Notices - Date of Board Meeting",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Next Day Disclosure Return (resubmission)",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260309164001617412045283_en.pdf",
+    "providerPublishTime": "2026-03-09T00:00:00",
+    "summary": "Next Day Disclosure Returns, OthersNext Day Disclosure Return (Resubmission)",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Next Day Disclosure Return",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260305191601397512043121_en.pdf",
+    "providerPublishTime": "2026-03-05T00:00:00",
+    "summary": "Next Day Disclosure Returns, OthersNext Day Disclosure Return",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Monthly Return of Equity Issuer on Movements in Securities for the month ended 28 February 2026",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260304164802529812039951_en.pdf",
+    "providerPublishTime": "2026-03-04T00:00:00",
+    "summary": "Monthly ReturnsMonthly Return of Equity Issuer on Movements in Securities for the month ended 28 February 2026",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Announcements and Notices - Profit Warning",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260213200801422012025140_en.pdf",
+    "providerPublishTime": "2026-02-13T00:00:00",
+    "summary": "Announcements and Notices - PROFIT WARNING",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.1667,
+    "sentiment_label": "positive"
+  },
+  {
+    "title": "Monthly Return of Equity Issuer on Movements in Securities for the month ended 31 January 2026",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260205174002552412016357_en.pdf",
+    "providerPublishTime": "2026-02-05T00:00:00",
+    "summary": "Monthly ReturnsMonthly Return of Equity Issuer on Movements in Securities for the month ended 31 January 2026",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Announcements and Notices - Discloseable Transaction\nacquisition of All Issued Shares Of\ndingdong Fresh Holding Limited",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260205171601453312016197_en.pdf",
+    "providerPublishTime": "2026-02-05T00:00:00",
+    "summary": "Announcements and Notices - DISCLOSEABLE TRANSACTION\nACQUISITION OF ALL ISSUED SHARES OF\nDINGDONG FRESH HOLDING LIMITED",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Announcements and Notices - Grant of Restricted Share Units",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260123220802485712000317_en.pdf",
+    "providerPublishTime": "2026-01-23T00:00:00",
+    "summary": "Announcements and Notices - GRANT OF RESTRICTED SHARE UNITS",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Monthly Return of Equity Issuer on Movements in Securities for the month ended 31 December 2025",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260107194001853711983971_en.pdf",
+    "providerPublishTime": "2026-01-07T00:00:00",
+    "summary": "Monthly ReturnsMonthly Return of Equity Issuer on Movements in Securities for the month ended 31 December 2025",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Monthly Return of Equity Issuer on Movements in Securities for the month ended 30 November 2025",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20251204183201423711944827_en.pdf",
+    "providerPublishTime": "2025-12-04T00:00:00",
+    "summary": "Monthly ReturnsMonthly Return of Equity Issuer on Movements in Securities for the month ended 30 November 2025",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  }
+]

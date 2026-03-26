@@ -2,8 +2,6 @@ const api = require('../../utils/api');
 
 const COMPANY_NAMES = {
   tencent: 'Tencent',
-  baidu: 'Baidu',
-  jd: 'JD.com',
   alibaba: 'Alibaba',
   xiaomi: 'Xiaomi',
   meituan: 'Meituan'

@@ -10,28 +10,6 @@ module.exports = {
     "52w_high": 677.5,
     "52w_low": 430.9
   },
-  "baidu": {
-    "price": 137.6,
-    "change_pct": 1.33,
-    "market_cap": "$61B",
-    "pe_ratio": 1.8,
-    "technical_rating": "Hold",
-    "rsi": 29.723502304147473,
-    "volatility": 39.74822176723504,
-    "52w_high": 160.5,
-    "52w_low": 75.5
-  },
-  "jd": {
-    "price": 105.9,
-    "change_pct": -0.47,
-    "market_cap": "$174B",
-    "pe_ratio": 6.6,
-    "technical_rating": "Sell",
-    "rsi": 32.07547169811319,
-    "volatility": 22.262070443914354,
-    "52w_high": 175.114,
-    "52w_low": 105.9
-  },
   "alibaba": {
     "price": 154.7,
     "change_pct": -0.45,
