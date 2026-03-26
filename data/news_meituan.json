@@ -1,5 +1,16 @@
 [
   {
+    "title": "Announcements and Notices - Announcement of the Results\nfor the Year ended December 31, 2025",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260326174002715012069122_en.pdf",
+    "providerPublishTime": "2026-03-26T00:00:00",
+    "summary": "Announcements and Notices - ANNOUNCEMENT OF THE RESULTS\nFOR THE YEAR ENDED DECEMBER 31, 2025",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Announcements and Notices - Date of Board Meeting",
     "publisher": "Meituan",
     "link": "https://media-meituan.todayir.com/20260316164002197412052903_en.pdf",
@@ -93,17 +104,6 @@
     "link": "https://media-meituan.todayir.com/20260107194001853711983971_en.pdf",
     "providerPublishTime": "2026-01-07T00:00:00",
     "summary": "Monthly ReturnsMonthly Return of Equity Issuer on Movements in Securities for the month ended 31 December 2025",
-    "source": "official_meituan",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Monthly Return of Equity Issuer on Movements in Securities for the month ended 30 November 2025",
-    "publisher": "Meituan",
-    "link": "https://media-meituan.todayir.com/20251204183201423711944827_en.pdf",
-    "providerPublishTime": "2025-12-04T00:00:00",
-    "summary": "Monthly ReturnsMonthly Return of Equity Issuer on Movements in Securities for the month ended 30 November 2025",
     "source": "official_meituan",
     "confidence": 0.8,
     "sentiment_score": 0.0,
