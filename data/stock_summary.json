@@ -1,37 +1,37 @@
 {
   "tencent": {
-    "price": 488.0,
-    "change_pct": 1.3289,
-    "market_cap": "$584B",
-    "pe_ratio": 12.594315,
+    "price": 484.4,
+    "change_pct": 0.5814,
+    "market_cap": "$580B",
+    "pe_ratio": 12.516859,
     "technical_rating": "Hold",
-    "rsi": 25.93984962406016,
-    "volatility": 44.19119087595399,
+    "rsi": 23.76160990712073,
+    "volatility": 43.928244425347785,
     "52w_high": 633.0,
-    "52w_low": 481.6000061035156,
+    "52w_low": 481.6,
     "source": {
       "quote": "akshare",
-      "ohlcv": "yfinance",
+      "ohlcv": "akshare",
       "fundamentals": "yfinance"
     },
     "confidence": {
       "quote": 0.95,
-      "ohlcv": 0.85,
+      "ohlcv": 0.95,
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-31T06:57:27.929280"
+    "last_verified_at": "2026-03-31T07:56:48.661820"
   },
   "alibaba": {
-    "price": 118.9,
-    "change_pct": -1.3278,
-    "market_cap": "$358B",
-    "pe_ratio": 14.977873,
+    "price": 119.5,
+    "change_pct": -0.82988,
+    "market_cap": "$360B",
+    "pe_ratio": 15.053455,
     "technical_rating": "Sell",
-    "rsi": 34.07571864609935,
-    "volatility": 46.67901435628969,
+    "rsi": 34.53723990723478,
+    "volatility": 46.58400712127633,
     "52w_high": 173.5,
-    "52w_low": 118.9000015258789,
+    "52w_low": 119.5,
     "source": {
       "quote": "akshare",
       "ohlcv": "yfinance",
@@ -43,18 +43,18 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-31T06:59:30.677091"
+    "last_verified_at": "2026-03-31T07:58:48.343190"
   },
   "xiaomi": {
-    "price": 31.52,
-    "change_pct": -2.65596,
+    "price": 31.72,
+    "change_pct": -2.0383,
     "market_cap": "$98B",
-    "pe_ratio": 15.690578,
+    "pe_ratio": 15.790074,
     "technical_rating": "Sell",
-    "rsi": 41.54135951610723,
-    "volatility": 46.445199790932705,
+    "rsi": 42.33716611592911,
+    "volatility": 46.04324014083346,
     "52w_high": 40.279998779296875,
-    "52w_low": 31.540000915527344,
+    "52w_low": 31.579999923706055,
     "source": {
       "quote": "akshare",
       "ohlcv": "yfinance",
@@ -66,16 +66,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-31T07:00:10.537534"
+    "last_verified_at": "2026-03-31T07:59:26.661140"
   },
   "meituan": {
-    "price": 83.0,
-    "change_pct": -1.42518,
-    "market_cap": "$601B",
-    "pe_ratio": 15.902452,
+    "price": 83.25,
+    "change_pct": -1.12827,
+    "market_cap": "$603B",
+    "pe_ratio": 15.959966,
     "technical_rating": "Hold",
-    "rsi": 58.99513078909707,
-    "volatility": 59.98810635390633,
+    "rsi": 59.57446702240545,
+    "volatility": 59.839286607422636,
     "52w_high": 106.0999984741211,
     "52w_low": 74.5,
     "source": {
@@ -89,18 +89,18 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-31T07:00:50.774495"
+    "last_verified_at": "2026-03-31T08:00:10.522393"
   },
   "baidu": {
-    "price": 104.9,
-    "change_pct": -0.66288,
+    "price": 105.3,
+    "change_pct": -0.28409,
     "market_cap": "$46B",
-    "pe_ratio": 11.322646,
+    "pe_ratio": 11.376615,
     "technical_rating": "Hold",
-    "rsi": 24.159022691029392,
-    "volatility": 35.631229270208706,
+    "rsi": 24.534162741596475,
+    "volatility": 35.63452662978273,
     "52w_high": 160.5,
-    "52w_low": 104.9000015258789,
+    "52w_low": 105.4000015258789,
     "source": {
       "quote": "akshare",
       "ohlcv": "yfinance",
@@ -112,16 +112,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-31T06:58:08.064680"
+    "last_verified_at": "2026-03-31T07:57:29.523272"
   },
   "jd": {
-    "price": 112.1,
-    "change_pct": -0.79646,
-    "market_cap": "$185B",
-    "pe_ratio": 7.189068,
+    "price": 112.8,
+    "change_pct": -0.17699,
+    "market_cap": "$186B",
+    "pe_ratio": 7.23396,
     "technical_rating": "Hold",
-    "rsi": 57.918549849276346,
-    "volatility": 44.6426643570741,
+    "rsi": 59.81309410786181,
+    "volatility": 44.411814770377234,
     "52w_high": 117.4000015258789,
     "52w_low": 96.94999694824219,
     "source": {
@@ -135,6 +135,6 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-31T06:58:49.820278"
+    "last_verified_at": "2026-03-31T07:58:08.721806"
   }
 }
