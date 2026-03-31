@@ -1,12 +1,12 @@
 {
   "tencent": {
-    "price": 484.4,
-    "change_pct": 0.5814,
+    "price": 484.0,
+    "change_pct": 0.49834,
     "market_cap": "$580B",
-    "pe_ratio": 12.516859,
+    "pe_ratio": 12.496204,
     "technical_rating": "Hold",
-    "rsi": 23.76160990712073,
-    "volatility": 43.928244425347785,
+    "rsi": 23.643410852713174,
+    "volatility": 43.91929574217722,
     "52w_high": 633.0,
     "52w_low": 481.6,
     "source": {
@@ -20,18 +20,18 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-31T07:56:48.661820"
+    "last_verified_at": "2026-03-31T08:51:44.402810"
   },
   "alibaba": {
-    "price": 119.5,
-    "change_pct": -0.82988,
-    "market_cap": "$360B",
-    "pe_ratio": 15.053455,
+    "price": 119.0,
+    "change_pct": -1.24481,
+    "market_cap": "$358B",
+    "pe_ratio": 14.99047,
     "technical_rating": "Sell",
-    "rsi": 34.53723990723478,
-    "volatility": 46.58400712127633,
+    "rsi": 34.151779404096246,
+    "volatility": 46.658557143744964,
     "52w_high": 173.5,
-    "52w_low": 119.5,
+    "52w_low": 119.0,
     "source": {
       "quote": "akshare",
       "ohlcv": "yfinance",
@@ -43,16 +43,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-31T07:58:48.343190"
+    "last_verified_at": "2026-03-31T08:54:30.316364"
   },
   "xiaomi": {
-    "price": 31.72,
-    "change_pct": -2.0383,
+    "price": 31.76,
+    "change_pct": -1.91476,
     "market_cap": "$98B",
-    "pe_ratio": 15.790074,
+    "pe_ratio": 15.800024,
     "technical_rating": "Sell",
-    "rsi": 42.33716611592911,
-    "volatility": 46.04324014083346,
+    "rsi": 42.41842930081786,
+    "volatility": 46.0085808645326,
     "52w_high": 40.279998779296875,
     "52w_low": 31.579999923706055,
     "source": {
@@ -66,16 +66,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-31T07:59:26.661140"
+    "last_verified_at": "2026-03-31T08:55:29.172270"
   },
   "meituan": {
-    "price": 83.25,
-    "change_pct": -1.12827,
-    "market_cap": "$603B",
-    "pe_ratio": 15.959966,
+    "price": 82.95,
+    "change_pct": -1.48456,
+    "market_cap": "$600B",
+    "pe_ratio": 15.902452,
     "technical_rating": "Hold",
-    "rsi": 59.57446702240545,
-    "volatility": 59.839286607422636,
+    "rsi": 58.99513078909707,
+    "volatility": 59.98810635390633,
     "52w_high": 106.0999984741211,
     "52w_low": 74.5,
     "source": {
@@ -89,18 +89,18 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-31T08:00:10.522393"
+    "last_verified_at": "2026-03-31T08:56:23.907908"
   },
   "baidu": {
-    "price": 105.3,
-    "change_pct": -0.28409,
-    "market_cap": "$46B",
-    "pe_ratio": 11.376615,
+    "price": 105.7,
+    "change_pct": 0.09469,
+    "market_cap": "$47B",
+    "pe_ratio": 11.408996,
     "technical_rating": "Hold",
-    "rsi": 24.534162741596475,
-    "volatility": 35.63452662978273,
+    "rsi": 24.922113641354827,
+    "volatility": 35.674426240988275,
     "52w_high": 160.5,
-    "52w_low": 105.4000015258789,
+    "52w_low": 105.5999984741211,
     "source": {
       "quote": "akshare",
       "ohlcv": "yfinance",
@@ -112,16 +112,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-31T07:57:29.523272"
+    "last_verified_at": "2026-03-31T08:52:42.690465"
   },
   "jd": {
-    "price": 112.8,
-    "change_pct": -0.17699,
+    "price": 113.2,
+    "change_pct": 0.17699,
     "market_cap": "$186B",
-    "pe_ratio": 7.23396,
+    "pe_ratio": 7.259612,
     "technical_rating": "Hold",
-    "rsi": 59.81309410786181,
-    "volatility": 44.411814770377234,
+    "rsi": 60.747659219926554,
+    "volatility": 44.32822663259592,
     "52w_high": 117.4000015258789,
     "52w_low": 96.94999694824219,
     "source": {
@@ -135,6 +135,6 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-03-31T07:58:08.721806"
+    "last_verified_at": "2026-03-31T08:53:32.006937"
   }
 }
