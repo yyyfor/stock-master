@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-04-06T05:24:22.581796",
+  "timestamp": "2026-04-06T06:15:45.371854",
   "companies": {
     "tencent": {
-      "price": 487.8,
+      "price": 486.4,
       "open": 496.0,
       "high": 496.0,
-      "low": 487.8,
-      "volume": 6787237,
-      "turnover": 3310814208.6,
-      "change": -8.8,
-      "change_pct": -1.77205,
-      "amplitude": 1.6810168101680993,
+      "low": 485.0,
+      "volume": 10479859,
+      "turnover": 5097403417.599999,
+      "change": -10.2,
+      "change_pct": -2.05397,
+      "amplitude": 2.2615131578947367,
       "ma_5": 488.9600036621094,
       "ma_10": 496.6300018310547,
       "ma_20": 518.6400009155274,
@@ -46,15 +46,15 @@
       "resistance_levels": [
         558.5
       ],
-      "market_cap_billion": 584,
-      "market_cap_display": "$584B",
-      "market_cap_hkd": "HK$4560B",
+      "market_cap_billion": 583,
+      "market_cap_display": "$583B",
+      "market_cap_hkd": "HK$4547B",
       "pe_ratio": 12.577492,
       "pb_ratio": 3.3767152,
       "ps_ratio": 5.8809266,
       "peg_ratio": 1.2,
       "ev_ebitda": 16.35,
-      "fcf_yield": 29.495988325328387,
+      "fcf_yield": 29.5808863180411,
       "roe": 20.027,
       "roa": 8.035,
       "gross_margin": 56.21300299999999,
@@ -80,8 +80,8 @@
         "ohlcv": 0.85,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-04-06T05:21:07.533518",
-      "last_verified_at": "2026-04-06T05:21:10.644757",
+      "source_timestamp": "2026-04-06T06:11:45.025992",
+      "last_verified_at": "2026-04-06T06:11:51.593097",
       "is_estimated": true,
       "estimated_fields": [
         "peg_ratio"
@@ -101,19 +101,19 @@
         ]
       },
       "derivative_analysis": {
-        "daily_expected_move": 13.31868358276359,
-        "atr_percent": 3.4996778539213964,
+        "daily_expected_move": 13.280458578631018,
+        "atr_percent": 3.5097509398496243,
         "support_level": 481.6000061035156,
         "resistance_level": 558.5,
-        "tight_stop_loss": 462.1928571428572,
-        "target_1r": 513.4071428571428,
-        "target_2r": 539.0142857142857,
+        "tight_stop_loss": 460.7928571428571,
+        "target_1r": 512.0071428571429,
+        "target_2r": 537.6142857142856,
         "risk_reward_ratio": "1:2"
       },
       "expert_commentary": {
         "technical": "Tencent RSI 29.5, MACD -15.34, trend bearish.",
         "volatility": "Annualized volatility 43.3% with ATR 3.5%.",
-        "derivative": "Expected daily move HK$13.32; support HK$481.60, resistance HK$558.50."
+        "derivative": "Expected daily move HK$13.28; support HK$481.60, resistance HK$558.50."
       },
       "stale": false
     },
@@ -122,8 +122,8 @@
       "open": 121.0,
       "high": 121.0,
       "low": 117.6,
-      "volume": 43613125,
-      "turnover": 5133264812.5,
+      "volume": 55692374,
+      "turnover": 6554992419.8,
       "change": -5.0,
       "change_pct": -4.07498,
       "amplitude": 2.888700084961772,
@@ -196,8 +196,8 @@
         "ohlcv": 0.85,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-04-06T05:23:03.801718",
-      "last_verified_at": "2026-04-06T05:23:05.252155",
+      "source_timestamp": "2026-04-06T06:14:17.947286",
+      "last_verified_at": "2026-04-06T06:14:18.972672",
       "is_estimated": true,
       "estimated_fields": [
         "peg_ratio"
@@ -233,15 +233,15 @@
       "stale": false
     },
     "xiaomi": {
-      "price": 30.62,
+      "price": 30.56,
       "open": 31.7,
       "high": 31.72,
       "low": 30.52,
-      "volume": 149269268,
-      "turnover": 4570624986.16,
-      "change": -1.4,
-      "change_pct": -4.37227,
-      "amplitude": 3.9190071848465036,
+      "volume": 176209943,
+      "turnover": 5384975858.08,
+      "change": -1.46,
+      "change_pct": -4.55965,
+      "amplitude": 3.9267015706806263,
       "ma_5": 32.008000183105466,
       "ma_10": 32.294000244140626,
       "ma_20": 33.28199996948242,
@@ -279,13 +279,13 @@
       ],
       "market_cap_billion": 95,
       "market_cap_display": "$95B",
-      "market_cap_hkd": "HK$744B",
+      "market_cap_hkd": "HK$742B",
       "pe_ratio": 15.717516,
       "pb_ratio": 2.6434245,
       "ps_ratio": 1.748637,
       "peg_ratio": 1.2,
       "ev_ebitda": 16.935,
-      "fcf_yield": 13.176822190289569,
+      "fcf_yield": 13.202692914485167,
       "roe": 18.25,
       "roa": 4.7,
       "gross_margin": 22.263001,
@@ -311,8 +311,8 @@
         "ohlcv": 0.85,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-04-06T05:23:39.890967",
-      "last_verified_at": "2026-04-06T05:23:42.296762",
+      "source_timestamp": "2026-04-06T06:15:00.005386",
+      "last_verified_at": "2026-04-06T06:15:01.472321",
       "is_estimated": true,
       "estimated_fields": [
         "dividend_yield",
@@ -332,32 +332,32 @@
         ]
       },
       "derivative_analysis": {
-        "daily_expected_move": 0.8761196723628646,
-        "atr_percent": 4.870764097082222,
+        "daily_expected_move": 0.8744029127174767,
+        "atr_percent": 4.880327115597436,
         "support_level": 30.8799991607666,
         "resistance_level": 36.31999969482422,
-        "tight_stop_loss": 28.382858050210135,
-        "target_1r": 32.85714194978986,
-        "target_2r": 35.09428389957973,
+        "tight_stop_loss": 28.322858050210133,
+        "target_1r": 32.79714194978986,
+        "target_2r": 35.03428389957973,
         "risk_reward_ratio": "1:2"
       },
       "expert_commentary": {
         "technical": "Xiaomi RSI 39.6, MACD -0.84, trend bearish.",
         "volatility": "Annualized volatility 45.4% with ATR 4.9%.",
-        "derivative": "Expected daily move HK$0.88; support HK$30.88, resistance HK$36.32."
+        "derivative": "Expected daily move HK$0.87; support HK$30.88, resistance HK$36.32."
       },
       "stale": false
     },
     "meituan": {
-      "price": 79.2,
+      "price": 79.7,
       "open": 81.3,
       "high": 81.5,
       "low": 78.7,
-      "volume": 26336381,
-      "turnover": 2085841375.2,
-      "change": -2.75,
-      "change_pct": -3.35571,
-      "amplitude": 3.535353535353532,
+      "volume": 29940405,
+      "turnover": 2386250278.5,
+      "change": -2.25,
+      "change_pct": -2.74558,
+      "amplitude": 3.5131744040150528,
       "ma_5": 83.0499984741211,
       "ma_10": 82.66499938964844,
       "ma_20": 80.53249931335449,
@@ -393,15 +393,15 @@
       "resistance_levels": [
         90.0
       ],
-      "market_cap_billion": 573,
-      "market_cap_display": "$573B",
-      "market_cap_hkd": "HK$4474B",
+      "market_cap_billion": 577,
+      "market_cap_display": "$577B",
+      "market_cap_hkd": "HK$4503B",
       "pe_ratio": 15.926796,
       "pb_ratio": 2.8401742,
       "ps_ratio": 1.3580589,
       "peg_ratio": 1.2,
       "ev_ebitda": -19.494,
-      "fcf_yield": -0.5975472193081255,
+      "fcf_yield": -0.5937984914580117,
       "roe": -14.434,
       "roa": -5.778999600000001,
       "gross_margin": 30.425,
@@ -427,8 +427,8 @@
         "ohlcv": 0.85,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-04-06T05:24:18.442467",
-      "last_verified_at": "2026-04-06T05:24:19.560183",
+      "source_timestamp": "2026-04-06T06:15:41.538818",
+      "last_verified_at": "2026-04-06T06:15:42.350962",
       "is_estimated": true,
       "estimated_fields": [
         "earnings_growth",
@@ -449,32 +449,32 @@
         ]
       },
       "derivative_analysis": {
-        "daily_expected_move": 2.9869301288856347,
-        "atr_percent": 5.456349894425914,
+        "daily_expected_move": 3.0057870110124383,
+        "atr_percent": 5.422119343017972,
         "support_level": 75.94999694824219,
         "resistance_level": 90.0,
-        "tight_stop_loss": 72.71785632542202,
-        "target_1r": 85.68214367457799,
-        "target_2r": 92.16428734915597,
+        "tight_stop_loss": 73.21785632542202,
+        "target_1r": 86.18214367457799,
+        "target_2r": 92.66428734915597,
         "risk_reward_ratio": "1:2"
       },
       "expert_commentary": {
         "technical": "Meituan RSI 56.7, MACD -0.26, trend bearish.",
-        "volatility": "Annualized volatility 59.9% with ATR 5.5%.",
-        "derivative": "Expected daily move HK$2.99; support HK$75.95, resistance HK$90.00."
+        "volatility": "Annualized volatility 59.9% with ATR 5.4%.",
+        "derivative": "Expected daily move HK$3.01; support HK$75.95, resistance HK$90.00."
       },
       "stale": false
     },
     "baidu": {
-      "price": 108.1,
+      "price": 107.8,
       "open": 109.0,
       "high": 109.9,
-      "low": 108.0,
-      "volume": 2202703,
-      "turnover": 238112194.29999998,
-      "change": -1.5,
-      "change_pct": -1.36861,
-      "amplitude": 1.7576318223866843,
+      "low": 107.5,
+      "volume": 2601074,
+      "turnover": 280395777.2,
+      "change": -1.8,
+      "change_pct": -1.64234,
+      "amplitude": 2.226345083487946,
       "ma_5": 107.61999969482422,
       "ma_10": 109.75,
       "ma_20": 115.06500053405762,
@@ -512,13 +512,13 @@
       ],
       "market_cap_billion": 48,
       "market_cap_display": "$48B",
-      "market_cap_hkd": "HK$376B",
+      "market_cap_hkd": "HK$375B",
       "pe_ratio": 11.748546,
       "pb_ratio": 0.12227083,
       "ps_ratio": 2.2943773,
       "peg_ratio": 1.2,
       "ev_ebitda": 12.149,
-      "fcf_yield": 34.817837705827934,
+      "fcf_yield": 34.9147333580705,
       "roe": 1.9040000000000001,
       "roa": 1.4780000999999998,
       "gross_margin": 43.882,
@@ -544,8 +544,8 @@
         "ohlcv": 0.85,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-04-06T05:21:44.595477",
-      "last_verified_at": "2026-04-06T05:21:45.708483",
+      "source_timestamp": "2026-04-06T06:12:36.761981",
+      "last_verified_at": "2026-04-06T06:12:37.868309",
       "is_estimated": true,
       "estimated_fields": [
         "dividend_yield",
@@ -565,32 +565,32 @@
         ]
       },
       "derivative_analysis": {
-        "daily_expected_move": 2.4678022819346053,
-        "atr_percent": 3.9117212448029384,
+        "daily_expected_move": 2.460953616952363,
+        "atr_percent": 3.9226072965046157,
         "support_level": 105.5999984741211,
         "resistance_level": 122.9000015258789,
-        "tight_stop_loss": 101.75714400155204,
-        "target_1r": 114.44285599844795,
-        "target_2r": 120.78571199689593,
+        "tight_stop_loss": 101.45714400155204,
+        "target_1r": 114.14285599844796,
+        "target_2r": 120.48571199689593,
         "risk_reward_ratio": "1:2"
       },
       "expert_commentary": {
         "technical": "Baidu RSI 30.1, MACD -5.81, trend bearish.",
         "volatility": "Annualized volatility 36.2% with ATR 3.9%.",
-        "derivative": "Expected daily move HK$2.47; support HK$105.60, resistance HK$122.90."
+        "derivative": "Expected daily move HK$2.46; support HK$105.60, resistance HK$122.90."
       },
       "stale": false
     },
     "jd": {
-      "price": 111.1,
+      "price": 110.9,
       "open": 112.2,
       "high": 112.8,
       "low": 110.7,
-      "volume": 3549299,
-      "turnover": 394327118.9,
-      "change": -1.8,
-      "change_pct": -1.59433,
-      "amplitude": 1.890189018901885,
+      "volume": 4035352,
+      "turnover": 447520536.8,
+      "change": -2.0,
+      "change_pct": -1.77148,
+      "amplitude": 1.8935978358881822,
       "ma_5": 112.93999938964843,
       "ma_10": 111.15999908447266,
       "ma_20": 110.34999923706054,
@@ -628,13 +628,13 @@
       ],
       "market_cap_billion": 183,
       "market_cap_display": "$183B",
-      "market_cap_hkd": "HK$1430B",
+      "market_cap_hkd": "HK$1428B",
       "pe_ratio": 7.176242,
       "pb_ratio": 1.1956925,
       "ps_ratio": 0.2638167,
       "peg_ratio": 1.2,
       "ev_ebitda": 20.627,
-      "fcf_yield": -9.874020885218956,
+      "fcf_yield": -9.891827956247305,
       "roe": 7.6240000000000006,
       "roa": 0.331,
       "gross_margin": 9.308,
@@ -660,8 +660,8 @@
         "ohlcv": 0.85,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-04-06T05:22:27.520878",
-      "last_verified_at": "2026-04-06T05:22:29.554837",
+      "source_timestamp": "2026-04-06T06:13:19.771280",
+      "last_verified_at": "2026-04-06T06:13:25.243427",
       "is_estimated": true,
       "estimated_fields": [
         "earnings_growth",
@@ -681,19 +681,19 @@
         ]
       },
       "derivative_analysis": {
-        "daily_expected_move": 1.966510926566705,
-        "atr_percent": 3.0024438862692073,
+        "daily_expected_move": 1.9629708528915175,
+        "atr_percent": 3.0078585731696026,
         "support_level": 105.0999984741211,
         "resistance_level": 113.69999694824219,
-        "tight_stop_loss": 106.09642726353236,
-        "target_1r": 116.10357273646763,
-        "target_2r": 121.10714547293526,
+        "tight_stop_loss": 105.89642726353237,
+        "target_1r": 115.90357273646764,
+        "target_2r": 120.90714547293527,
         "risk_reward_ratio": "1:2"
       },
       "expert_commentary": {
         "technical": "JD.com RSI 55.3, MACD 1.36, trend bullish.",
         "volatility": "Annualized volatility 28.1% with ATR 3.0%.",
-        "derivative": "Expected daily move HK$1.97; support HK$105.10, resistance HK$113.70."
+        "derivative": "Expected daily move HK$1.96; support HK$105.10, resistance HK$113.70."
       },
       "stale": false
     }
