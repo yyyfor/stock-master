@@ -1,5 +1,16 @@
 [
   {
+    "title": "Announcements and Notices - Grant of Restricted Share Units",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/202604132208016812104195_en.pdf",
+    "providerPublishTime": "2026-04-13T00:00:00",
+    "summary": "Announcements and Notices - GRANT OF RESTRICTED SHARE UNITS",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Monthly Return of Equity Issuer on Movements in Securities for the month ended 31 March 2026",
     "publisher": "Meituan",
     "link": "https://media-meituan.todayir.com/20260409164801583412099547_en.pdf",
@@ -93,17 +104,6 @@
     "link": "https://media-meituan.todayir.com/20260205171601453312016197_en.pdf",
     "providerPublishTime": "2026-02-05T00:00:00",
     "summary": "Announcements and Notices - DISCLOSEABLE TRANSACTION\nACQUISITION OF ALL ISSUED SHARES OF\nDINGDONG FRESH HOLDING LIMITED",
-    "source": "official_meituan",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Announcements and Notices - Grant of Restricted Share Units",
-    "publisher": "Meituan",
-    "link": "https://media-meituan.todayir.com/20260123220802485712000317_en.pdf",
-    "providerPublishTime": "2026-01-23T00:00:00",
-    "summary": "Announcements and Notices - GRANT OF RESTRICTED SHARE UNITS",
     "source": "official_meituan",
     "confidence": 0.8,
     "sentiment_score": 0.0,
