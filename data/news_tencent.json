@@ -1,5 +1,16 @@
 [
   {
+    "title": "Weixin Empowers Local Businesses with Mini Program and Payment Solutions Ahead of Visit Malaysia 2026",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202317.html",
+    "providerPublishTime": "2026-04-17T00:00:00",
+    "summary": "Malaysian businesses tap Weixin ecosystem to capture booming Chinese visitor spending.",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Games for Change and Tencent Games Expand Raising Good Gamers with New Program to Help Families Navigate Positive Play in Video Games",
     "publisher": "Tencent",
     "link": "https://www.tencent.com/en-us/articles/2202316.html",
@@ -93,17 +104,6 @@
     "link": "https://www.tencent.com/en-us/articles/2202265.html",
     "providerPublishTime": "2025-12-23T00:00:00",
     "summary": "Tencent MIDAS and Mastercard have announced a new collaboration to accelerate the future of digital commerce for the global entertainment ecosystem.",
-    "source": "official_tencent",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "TenPay Global and Mastercard Collaborate to Enable Fast and Secure Remittances to Weixin Pay",
-    "publisher": "Tencent",
-    "link": "https://www.tencent.com/en-us/articles/2202249.html",
-    "providerPublishTime": "2025-12-08T00:00:00",
-    "summary": "TenPay Global and Mastercard Move have announced a collaboration to facilitate fast, secure and transparent digital remittances directly to Weixin Pay.",
     "source": "official_tencent",
     "confidence": 0.8,
     "sentiment_score": 0.0,
