@@ -1,12 +1,12 @@
 {
   "tencent": {
-    "price": 510.5,
-    "change_pct": -1.25725,
-    "market_cap": "$611B",
-    "pe_ratio": 13.081493,
+    "price": 516.0,
+    "change_pct": 1.07738,
+    "market_cap": "$618B",
+    "pe_ratio": 13.218094,
     "technical_rating": "Hold",
-    "rsi": 52.12585078146814,
-    "volatility": 39.89324559487294,
+    "rsi": 59.010599468314695,
+    "volatility": 32.0033740037408,
     "52w_high": 622.0,
     "52w_low": 481.6000061035156,
     "source": {
@@ -20,16 +20,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-04-17T09:04:31.212130"
+    "last_verified_at": "2026-04-20T02:23:30.817760"
   },
   "alibaba": {
-    "price": 136.39999,
-    "change_pct": 0.44182,
-    "market_cap": "$410B",
-    "pe_ratio": 17.789854,
+    "price": 136.8,
+    "change_pct": 0.29326,
+    "market_cap": "$412B",
+    "pe_ratio": 17.82847,
     "technical_rating": "Hold",
-    "rsi": 57.8947393781929,
-    "volatility": 57.46911785859129,
+    "rsi": 66.42857506161644,
+    "volatility": 55.32674798583398,
     "52w_high": 173.5,
     "52w_low": 118.5,
     "source": {
@@ -43,16 +43,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-04-17T09:08:02.151437"
+    "last_verified_at": "2026-04-20T02:25:06.441399"
   },
   "xiaomi": {
-    "price": 32.0,
-    "change_pct": -0.18715,
-    "market_cap": "$99B",
-    "pe_ratio": 16.985178,
-    "technical_rating": "Sell",
-    "rsi": 47.01834772082906,
-    "volatility": 50.65673044095488,
+    "price": 32.62,
+    "change_pct": 1.9375,
+    "market_cap": "$101B",
+    "pe_ratio": 17.299526,
+    "technical_rating": "Hold",
+    "rsi": 50.97192366982032,
+    "volatility": 49.48084993270023,
     "52w_high": 37.099998474121094,
     "52w_low": 30.65999984741211,
     "source": {
@@ -66,16 +66,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-04-17T09:09:08.278997"
+    "last_verified_at": "2026-04-20T02:25:37.971056"
   },
   "meituan": {
-    "price": 86.5,
-    "change_pct": -2.53521,
-    "market_cap": "$626B",
-    "pe_ratio": 15.513155,
+    "price": 85.35,
+    "change_pct": -1.32948,
+    "market_cap": "$618B",
+    "pe_ratio": 15.779337,
     "technical_rating": "Buy",
-    "rsi": 43.58974430632043,
-    "volatility": 69.80915648970335,
+    "rsi": 47.222233995980645,
+    "volatility": 70.12308637003557,
     "52w_high": 98.5999984741211,
     "52w_low": 74.5,
     "source": {
@@ -89,16 +89,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-04-17T09:10:20.834946"
+    "last_verified_at": "2026-04-20T02:26:10.770016"
   },
   "baidu": {
-    "price": 121.9,
-    "change_pct": -1.13544,
-    "market_cap": "$54B",
-    "pe_ratio": 13.263425,
-    "technical_rating": "Hold",
-    "rsi": 63.94366711762487,
-    "volatility": 47.02403031172236,
+    "price": 123.4,
+    "change_pct": 1.23052,
+    "market_cap": "$55B",
+    "pe_ratio": 13.417552,
+    "technical_rating": "Sell",
+    "rsi": 70.26239559906215,
+    "volatility": 45.4576816053504,
     "52w_high": 160.5,
     "52w_low": 105.5999984741211,
     "source": {
@@ -112,16 +112,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-04-17T09:05:40.804144"
+    "last_verified_at": "2026-04-20T02:24:02.920393"
   },
   "jd": {
-    "price": 122.6,
-    "change_pct": -0.96931,
-    "market_cap": "$202B",
-    "pe_ratio": 7.9046946,
+    "price": 122.3,
+    "change_pct": -0.2447,
+    "market_cap": "$201B",
+    "pe_ratio": 7.885352,
     "technical_rating": "Hold",
-    "rsi": 79.58974886862842,
-    "volatility": 32.60300331006879,
+    "rsi": 76.78228566102553,
+    "volatility": 31.546739178011173,
     "52w_high": 123.80000305175781,
     "52w_low": 96.51679992675781,
     "source": {
@@ -135,6 +135,6 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-04-17T09:06:51.640224"
+    "last_verified_at": "2026-04-20T02:24:34.917757"
   }
 }
