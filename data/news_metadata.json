@@ -1,10 +1,10 @@
 {
-  "last_update": "2026-04-21T12:40:25.195625+00:00",
+  "last_update": "2026-04-21T18:39:29.120581+00:00",
   "news_counts": {
     "tencent": 10,
     "alibaba": 10,
     "xiaomi": 4,
-    "meituan": 10
+    "meituan": 0
   },
   "news_sources": {
     "tencent": "official_tencent",
