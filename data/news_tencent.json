@@ -1,5 +1,16 @@
 [
   {
+    "title": "Tencent Launches QClaw Globally, Lowering Barriers to AI Agent Deployment",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202318.html",
+    "providerPublishTime": "2026-04-21T00:00:00",
+    "summary": "Tencent launched an international beta version of QClaw, enabling users to cultivate AI Agents that can help to enhance daily productivity and knowledge.",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Weixin Empowers Local Businesses with Mini Program and Payment Solutions Ahead of Visit Malaysia 2026",
     "publisher": "Tencent",
     "link": "https://www.tencent.com/en-us/articles/2202317.html",
@@ -97,16 +108,5 @@
     "confidence": 0.8,
     "sentiment_score": 0.027,
     "sentiment_label": "positive"
-  },
-  {
-    "title": "Tencent MIDAS and Mastercard Launch Global Collaboration to Transform Digital Commerce",
-    "publisher": "Tencent",
-    "link": "https://www.tencent.com/en-us/articles/2202265.html",
-    "providerPublishTime": "2025-12-23T00:00:00",
-    "summary": "Tencent MIDAS and Mastercard have announced a new collaboration to accelerate the future of digital commerce for the global entertainment ecosystem.",
-    "source": "official_tencent",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
   }
 ]
