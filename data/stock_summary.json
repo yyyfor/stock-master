@@ -3,10 +3,10 @@
     "price": 493.39999,
     "change_pct": -0.36349,
     "market_cap": "$591B",
-    "pe_ratio": 12.716861,
+    "pe_ratio": 12.68088,
     "technical_rating": "Sell",
-    "rsi": 49.23985709318507,
-    "volatility": 31.806984692736794,
+    "rsi": 48.66443550371586,
+    "volatility": 31.821378108629165,
     "52w_high": 622.0,
     "52w_low": 481.6000061035156,
     "source": {
@@ -20,7 +20,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-04-24T08:18:28.951585"
+    "last_verified_at": "2026-04-24T09:12:42.279881"
   },
   "alibaba": {
     "price": 131.8,
@@ -43,16 +43,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-04-24T08:20:30.000036"
+    "last_verified_at": "2026-04-24T09:15:46.887264"
   },
   "xiaomi": {
     "price": 31.2,
     "change_pct": 0.06415,
     "market_cap": "$97B",
-    "pe_ratio": 16.587685,
+    "pe_ratio": 16.577059,
     "technical_rating": "Sell",
-    "rsi": 45.145626236217154,
-    "volatility": 37.13145568569598,
+    "rsi": 45.01217036186233,
+    "volatility": 37.124919037024284,
     "52w_high": 37.099998474121094,
     "52w_low": 30.65999984741211,
     "source": {
@@ -66,7 +66,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-04-24T08:21:22.221713"
+    "last_verified_at": "2026-04-24T09:16:35.362619"
   },
   "meituan": {
     "price": 82.45,
@@ -89,7 +89,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-04-24T08:22:02.027501"
+    "last_verified_at": "2026-04-24T09:17:20.115344"
   },
   "baidu": {
     "price": 121.4,
@@ -112,16 +112,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-04-24T08:19:08.707707"
+    "last_verified_at": "2026-04-24T09:13:46.383570"
   },
   "jd": {
     "price": 118.5,
     "change_pct": -0.16849,
     "market_cap": "$195B",
-    "pe_ratio": 7.645807,
+    "pe_ratio": 7.63936,
     "technical_rating": "Buy",
-    "rsi": 64.91776647064457,
-    "volatility": 24.351346852354943,
+    "rsi": 64.60709356584222,
+    "volatility": 24.371636772163683,
     "52w_high": 123.80000305175781,
     "52w_low": 96.51679992675781,
     "source": {
@@ -135,6 +135,6 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-04-24T08:19:54.105651"
+    "last_verified_at": "2026-04-24T09:14:52.444554"
   }
 }
