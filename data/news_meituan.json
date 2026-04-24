@@ -1,5 +1,27 @@
 [
   {
+    "title": "Circulars - Notification Letter and Reply Form To Non-registered Shareholders",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/2026042406560292112120057_en.pdf",
+    "providerPublishTime": "2026-04-24T00:00:00",
+    "summary": "Circulars - Notification Letter and Reply Form to Non-registered Shareholders",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Circulars - Notification Letter and Reply Form To Registered Shareholders",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260424065602653212120055_en.pdf",
+    "providerPublishTime": "2026-04-24T00:00:00",
+    "summary": "Circulars - Notification Letter and Reply Form to Registered Shareholders",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Announcements and Notices - Grant of Restricted Share Units",
     "publisher": "Meituan",
     "link": "https://media-meituan.todayir.com/202604132208016812104195_en.pdf",
@@ -86,27 +108,5 @@
     "confidence": 0.8,
     "sentiment_score": 0.1667,
     "sentiment_label": "positive"
-  },
-  {
-    "title": "Monthly Return of Equity Issuer on Movements in Securities for the month ended 31 January 2026",
-    "publisher": "Meituan",
-    "link": "https://media-meituan.todayir.com/20260205174002552412016357_en.pdf",
-    "providerPublishTime": "2026-02-05T00:00:00",
-    "summary": "Monthly ReturnsMonthly Return of Equity Issuer on Movements in Securities for the month ended 31 January 2026",
-    "source": "official_meituan",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Announcements and Notices - Discloseable Transaction\nacquisition of All Issued Shares Of\ndingdong Fresh Holding Limited",
-    "publisher": "Meituan",
-    "link": "https://media-meituan.todayir.com/20260205171601453312016197_en.pdf",
-    "providerPublishTime": "2026-02-05T00:00:00",
-    "summary": "Announcements and Notices - DISCLOSEABLE TRANSACTION\nACQUISITION OF ALL ISSUED SHARES OF\nDINGDONG FRESH HOLDING LIMITED",
-    "source": "official_meituan",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
   }
 ]
