@@ -20,7 +20,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-04-27T08:22:06.383243"
+    "last_verified_at": "2026-04-27T09:20:43.414867"
   },
   "alibaba": {
     "price": 130.2,
@@ -43,7 +43,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-04-27T08:24:31.703634"
+    "last_verified_at": "2026-04-27T09:23:48.121553"
   },
   "xiaomi": {
     "price": 31.1,
@@ -66,7 +66,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-04-27T08:25:14.888812"
+    "last_verified_at": "2026-04-27T09:24:28.345721"
   },
   "meituan": {
     "price": 81.85,
@@ -89,7 +89,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-04-27T08:25:59.181686"
+    "last_verified_at": "2026-04-27T09:25:20.989433"
   },
   "baidu": {
     "price": 125.7,
@@ -97,8 +97,8 @@
     "market_cap": "$56B",
     "pe_ratio": 13.918651,
     "technical_rating": "Hold",
-    "rsi": 73.78378662599854,
-    "volatility": 41.75068405523059,
+    "rsi": 73.27823633560268,
+    "volatility": 41.18848454009171,
     "52w_high": 156.10000610351562,
     "52w_low": 105.5999984741211,
     "source": {
@@ -112,7 +112,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-04-27T08:22:55.109540"
+    "last_verified_at": "2026-04-27T09:21:32.772867"
   },
   "jd": {
     "price": 117.0,
@@ -135,6 +135,6 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-04-27T08:23:43.308982"
+    "last_verified_at": "2026-04-27T09:22:39.976902"
   }
 }
