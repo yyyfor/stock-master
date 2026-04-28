@@ -1,5 +1,16 @@
 [
   {
+    "title": "Partial Early Redemption of the Convertible Bonds - Zero Coupon Convertible Bonds Due 2028",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/202604290046171765261687_en.pdf",
+    "providerPublishTime": "2026-04-28T00:00:00",
+    "summary": "PARTIAL EARLY REDEMPTION OF THE CONVERTIBLE BONDS - ZERO COUPON CONVERTIBLE BONDS DUE 2028",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Circulars - Notification Letter and Reply Form To Non-registered Shareholders",
     "publisher": "Meituan",
     "link": "https://media-meituan.todayir.com/2026042406560292112120057_en.pdf",
@@ -97,16 +108,5 @@
     "confidence": 0.8,
     "sentiment_score": 0.0,
     "sentiment_label": "neutral"
-  },
-  {
-    "title": "Announcements and Notices - Profit Warning",
-    "publisher": "Meituan",
-    "link": "https://media-meituan.todayir.com/20260213200801422012025140_en.pdf",
-    "providerPublishTime": "2026-02-13T00:00:00",
-    "summary": "Announcements and Notices - PROFIT WARNING",
-    "source": "official_meituan",
-    "confidence": 0.8,
-    "sentiment_score": 0.1667,
-    "sentiment_label": "positive"
   }
 ]
