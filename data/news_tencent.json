@@ -1,5 +1,16 @@
 [
   {
+    "title": "Weixin Brand Protection Report Marks a Decade of Partnership, Trust, and Progress in IP Protection",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202321.html",
+    "providerPublishTime": "2026-05-04T00:00:00",
+    "summary": "Tencent today released its 2025 Weixin Brand Protection Report, marking a decade of progress in intellectual property (IP) protection on Weixin.",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Tencent Unveils Hy3 preview; Model Enhances Agent Capabilities and Real-World Usability",
     "publisher": "Tencent",
     "link": "https://www.tencent.com/en-us/articles/2202320.html",
@@ -93,17 +104,6 @@
     "link": "https://www.tencent.com/en-us/articles/2202284.html",
     "providerPublishTime": "2026-02-04T00:00:00",
     "summary": "WonderBot 2.0 debuts at Children’s Museum Singapore as part of a three-year digital heritage commitment by Tencent.",
-    "source": "official_tencent",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "OCA and Tencent Esports Launch Decade-Long Strategic Partnership to Forge a New Era for Asian Esports",
-    "publisher": "Tencent",
-    "link": "https://www.tencent.com/en-us/articles/2202282.html",
-    "providerPublishTime": "2026-01-22T00:00:00",
-    "summary": "Tencent Esports and the Olympic Council of Asia (OCA) jointly announced a comprehensive ten-year strategic partnership.",
     "source": "official_tencent",
     "confidence": 0.8,
     "sentiment_score": 0.0,
