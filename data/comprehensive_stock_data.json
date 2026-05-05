@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-05T08:22:58.937739",
+  "timestamp": "2026-05-05T09:22:17.881232",
   "companies": {
     "tencent": {
       "price": 472.20001,
@@ -80,8 +80,8 @@
         "ohlcv": 0.95,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-05-05T08:19:18.042266",
-      "last_verified_at": "2026-05-05T08:19:20.704243",
+      "source_timestamp": "2026-05-05T09:17:44.291020",
+      "last_verified_at": "2026-05-05T09:17:46.681043",
       "is_estimated": false,
       "estimated_fields": [],
       "company_name": "Tencent",
@@ -193,8 +193,8 @@
         "ohlcv": 0.95,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-05-05T08:21:22.773506",
-      "last_verified_at": "2026-05-05T08:21:24.935805",
+      "source_timestamp": "2026-05-05T09:20:24.499087",
+      "last_verified_at": "2026-05-05T09:20:27.865967",
       "is_estimated": false,
       "estimated_fields": [],
       "company_name": "Alibaba",
@@ -305,8 +305,8 @@
         "ohlcv": 0.95,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-05-05T08:22:14.237879",
-      "last_verified_at": "2026-05-05T08:22:16.047812",
+      "source_timestamp": "2026-05-05T09:21:29.989127",
+      "last_verified_at": "2026-05-05T09:21:31.798946",
       "is_estimated": true,
       "estimated_fields": [
         "dividend_yield"
@@ -420,8 +420,8 @@
         "ohlcv": 0.95,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-05-05T08:22:54.432518",
-      "last_verified_at": "2026-05-05T08:22:55.909493",
+      "source_timestamp": "2026-05-05T09:22:12.953722",
+      "last_verified_at": "2026-05-05T09:22:14.859753",
       "is_estimated": true,
       "estimated_fields": [
         "earnings_growth",
@@ -535,8 +535,8 @@
         "ohlcv": 0.95,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-05-05T08:20:07.579833",
-      "last_verified_at": "2026-05-05T08:20:08.737918",
+      "source_timestamp": "2026-05-05T09:18:39.205017",
+      "last_verified_at": "2026-05-05T09:18:40.322242",
       "is_estimated": true,
       "estimated_fields": [
         "dividend_yield"
@@ -649,8 +649,8 @@
         "ohlcv": 0.95,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-05-05T08:20:45.503032",
-      "last_verified_at": "2026-05-05T08:20:46.893371",
+      "source_timestamp": "2026-05-05T09:19:39.095405",
+      "last_verified_at": "2026-05-05T09:19:41.953901",
       "is_estimated": true,
       "estimated_fields": [
         "earnings_growth"
