@@ -1,5 +1,16 @@
 [
   {
+    "title": "Monthly Return of Equity Issuer on Movements in Securities for the month ended 30 April 2026",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/2026050618160148212149201_en.pdf",
+    "providerPublishTime": "2026-05-06T00:00:00",
+    "summary": "Monthly ReturnsMonthly Return of Equity Issuer on Movements in Securities for the month ended 30 April 2026",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Partial Early Redemption of the Convertible Bonds - Zero Coupon Convertible Bonds Due 2028",
     "publisher": "Meituan",
     "link": "https://media-meituan.todayir.com/202604290046171765261687_en.pdf",
@@ -93,17 +104,6 @@
     "link": "https://media-meituan.todayir.com/20260305191601397512043121_en.pdf",
     "providerPublishTime": "2026-03-05T00:00:00",
     "summary": "Next Day Disclosure Returns, OthersNext Day Disclosure Return",
-    "source": "official_meituan",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Monthly Return of Equity Issuer on Movements in Securities for the month ended 28 February 2026",
-    "publisher": "Meituan",
-    "link": "https://media-meituan.todayir.com/20260304164802529812039951_en.pdf",
-    "providerPublishTime": "2026-03-04T00:00:00",
-    "summary": "Monthly ReturnsMonthly Return of Equity Issuer on Movements in Securities for the month ended 28 February 2026",
     "source": "official_meituan",
     "confidence": 0.8,
     "sentiment_score": 0.0,
