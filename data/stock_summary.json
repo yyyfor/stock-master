@@ -1,12 +1,12 @@
 {
   "tencent": {
-    "price": 463.0,
-    "change_pct": -1.94833,
-    "market_cap": "$555B",
-    "pe_ratio": 11.906923,
-    "technical_rating": "Sell",
-    "rsi": 34.641638225255974,
-    "volatility": 28.351741364664008,
+    "price": 474.0,
+    "change_pct": 2.37581,
+    "market_cap": "$568B",
+    "pe_ratio": 12.175682,
+    "technical_rating": "Hold",
+    "rsi": 29.724770642201833,
+    "volatility": 29.75714626096903,
     "52w_high": 622.0,
     "52w_low": 463.0,
     "source": {
@@ -20,16 +20,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-05-06T09:21:57.825977"
+    "last_verified_at": "2026-05-07T02:24:24.063114"
   },
   "alibaba": {
-    "price": 134.2,
-    "change_pct": 2.28658,
-    "market_cap": "$404B",
-    "pe_ratio": 17.554188,
+    "price": 140.1,
+    "change_pct": 4.39642,
+    "market_cap": "$422B",
+    "pe_ratio": 18.339025,
     "technical_rating": "Hold",
-    "rsi": 57.070691696718626,
-    "volatility": 41.550989202970655,
+    "rsi": 55.72915507688199,
+    "volatility": 42.187244281801725,
     "52w_high": 160.5,
     "52w_low": 118.5,
     "source": {
@@ -43,16 +43,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-05-06T09:24:09.121215"
+    "last_verified_at": "2026-05-07T02:26:30.250569"
   },
   "xiaomi": {
-    "price": 30.82,
-    "change_pct": 1.18188,
-    "market_cap": "$96B",
-    "pe_ratio": 16.474882,
-    "technical_rating": "Sell",
-    "rsi": 49.519231540740094,
-    "volatility": 40.06862545814935,
+    "price": 31.18,
+    "change_pct": 1.16807,
+    "market_cap": "$97B",
+    "pe_ratio": 16.71901,
+    "technical_rating": "Hold",
+    "rsi": 44.29708175842256,
+    "volatility": 37.476916735210615,
     "52w_high": 37.099998474121094,
     "52w_low": 29.020000457763672,
     "source": {
@@ -66,17 +66,17 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-05-06T09:25:10.717685"
+    "last_verified_at": "2026-05-07T02:27:12.003132"
   },
   "meituan": {
-    "price": 82.5,
-    "change_pct": -1.25673,
-    "market_cap": "$597B",
-    "pe_ratio": 15.492964,
+    "price": 84.9,
+    "change_pct": 2.90909,
+    "market_cap": "$614B",
+    "pe_ratio": 15.9342785,
     "technical_rating": "Hold",
-    "rsi": 40.3061025890149,
-    "volatility": 26.764655898050698,
-    "52w_high": 91.4000015258789,
+    "rsi": 39.99998434994157,
+    "volatility": 29.046695930880357,
+    "52w_high": 91.05000305175781,
     "52w_low": 74.5,
     "source": {
       "quote": "akshare",
@@ -89,16 +89,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-05-06T09:25:47.940910"
+    "last_verified_at": "2026-05-07T02:27:53.888051"
   },
   "baidu": {
-    "price": 131.60001,
-    "change_pct": 4.94418,
-    "market_cap": "$58B",
-    "pe_ratio": 14.563964,
-    "technical_rating": "Hold",
-    "rsi": 70.30879290310561,
-    "volatility": 44.331952343875265,
+    "price": 137.5,
+    "change_pct": 4.48328,
+    "market_cap": "$61B",
+    "pe_ratio": 15.227974,
+    "technical_rating": "Buy",
+    "rsi": 68.27410676041916,
+    "volatility": 44.98634697820471,
     "52w_high": 144.3000030517578,
     "52w_low": 105.5999984741211,
     "source": {
@@ -112,16 +112,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-05-06T09:22:41.356243"
+    "last_verified_at": "2026-05-07T02:25:06.124752"
   },
   "jd": {
-    "price": 116.4,
-    "change_pct": 0.17212,
-    "market_cap": "$192B",
-    "pe_ratio": 7.498662,
-    "technical_rating": "Hold",
-    "rsi": 37.7143041493861,
-    "volatility": 26.258387489028294,
+    "price": 119.0,
+    "change_pct": 2.23368,
+    "market_cap": "$196B",
+    "pe_ratio": 7.6661577,
+    "technical_rating": "Buy",
+    "rsi": 35.8823439654182,
+    "volatility": 27.148363221854215,
     "52w_high": 123.80000305175781,
     "52w_low": 96.51679992675781,
     "source": {
@@ -135,6 +135,6 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-05-06T09:23:22.867231"
+    "last_verified_at": "2026-05-07T02:25:47.563598"
   }
 }
