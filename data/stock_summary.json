@@ -5,10 +5,33 @@
     "market_cap": "$548B",
     "pe_ratio": 11.715156,
     "technical_rating": "Hold",
-    "rsi": 22.361377101016956,
-    "volatility": 30.168505739263217,
-    "52w_high": 558.5,
-    "52w_low": 457.20001220703125,
+    "rsi": 22.36135957066186,
+    "volatility": 30.16850311779946,
+    "52w_high": 606.0,
+    "52w_low": 457.2,
+    "source": {
+      "quote": "akshare",
+      "ohlcv": "akshare",
+      "fundamentals": "yfinance"
+    },
+    "confidence": {
+      "quote": 0.95,
+      "ohlcv": 0.95,
+      "fundamentals": 0.8
+    },
+    "is_estimated": false,
+    "last_verified_at": "2026-05-12T09:27:56.388440"
+  },
+  "alibaba": {
+    "price": 133.3,
+    "change_pct": -0.44809,
+    "market_cap": "$401B",
+    "pe_ratio": 17.364834,
+    "technical_rating": "Buy",
+    "rsi": 46.651787082759135,
+    "volatility": 45.01205937950525,
+    "52w_high": 158.60000610351562,
+    "52w_low": 118.5,
     "source": {
       "quote": "akshare",
       "ohlcv": "yfinance",
@@ -20,30 +43,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-05-12T08:28:19.104134"
-  },
-  "alibaba": {
-    "price": 133.3000030517578,
-    "change_pct": -0.448088776755587,
-    "market_cap": "$2558B",
-    "pe_ratio": 17.364834,
-    "technical_rating": "Buy",
-    "rsi": 46.651787082759135,
-    "volatility": 45.01205937950525,
-    "52w_high": 158.60000610351562,
-    "52w_low": 118.5,
-    "source": {
-      "quote": "yfinance",
-      "ohlcv": "yfinance",
-      "fundamentals": "yfinance"
-    },
-    "confidence": {
-      "quote": 0.85,
-      "ohlcv": 0.85,
-      "fundamentals": 0.8
-    },
-    "is_estimated": false,
-    "last_verified_at": "2026-05-12T08:30:28.216133"
+    "last_verified_at": "2026-05-12T09:30:15.975696"
   },
   "xiaomi": {
     "price": 31.46,
@@ -66,7 +66,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-05-12T08:31:26.556140"
+    "last_verified_at": "2026-05-12T09:30:58.758604"
   },
   "meituan": {
     "price": 84.15,
@@ -89,7 +89,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-05-12T08:32:05.857398"
+    "last_verified_at": "2026-05-12T09:31:36.972616"
   },
   "baidu": {
     "price": 139.7,
@@ -112,7 +112,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-05-12T08:29:06.010214"
+    "last_verified_at": "2026-05-12T09:28:47.839065"
   },
   "jd": {
     "price": 118.4,
@@ -135,6 +135,6 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-05-12T08:29:43.447469"
+    "last_verified_at": "2026-05-12T09:29:25.345548"
   }
 }
