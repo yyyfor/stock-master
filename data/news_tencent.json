@@ -22,6 +22,17 @@
     "sentiment_label": "neutral"
   },
   {
+    "title": "IMDA and Tencent Debut “Beyond the Screen” to Champion Real-World Connection through Digital Play",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202322.html",
+    "providerPublishTime": "2026-05-02T00:00:00",
+    "summary": "The campaign encourages families to bridge the gap between play and purpose through gaming.",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Tencent Unveils Hy3 preview; Model Enhances Agent Capabilities and Real-World Usability",
     "publisher": "Tencent",
     "link": "https://www.tencent.com/en-us/articles/2202320.html",
@@ -93,17 +104,6 @@
     "link": "https://www.tencent.com/en-us/articles/2202291.html",
     "providerPublishTime": "2026-03-17T00:00:00",
     "summary": "Tencent has partnered with the City University of Hong Kong (CityU) to host the inaugural “WeTech Academy Principals’ AI Open Class x Tencent AI Campus tour”.",
-    "source": "official_tencent",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "DBS Bank and TenPay Global Launch Service Providing Instant DBS Remit Transfers to Weixin Pay",
-    "publisher": "Tencent",
-    "link": "https://www.tencent.com/en-us/articles/2202287.html",
-    "providerPublishTime": "2026-02-13T00:00:00",
-    "summary": "DBS customers can now send money instantly to Weixin Pay, the digital RMB wallet within Weixin/WeChat, connecting to over a billion Weixin and WeChat users.",
     "source": "official_tencent",
     "confidence": 0.8,
     "sentiment_score": 0.0,
