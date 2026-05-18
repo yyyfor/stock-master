@@ -1,5 +1,16 @@
 [
   {
+    "title": "Tencent Signs Partnership Agreements to Advance Gaming and AVGC Talent Development in India",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202330.html",
+    "providerPublishTime": "2026-05-18T00:00:00",
+    "summary": "Tencent has signed Memoranda of Understanding with the Services Export Promotion Council and the Game Developer Association of India.",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Tencent Announces 2026 First Quarter Results",
     "publisher": "Tencent",
     "link": "https://static.www.tencent.com/uploads/2026/05/13/47382ae415a209fd161bc19a1f9b3704.pdf",
@@ -93,17 +104,6 @@
     "link": "https://static.www.tencent.com/uploads/2026/03/18/e6a646796d0d869acc76271c9ee1a6a5.pdf",
     "providerPublishTime": "2026-03-18T00:00:00",
     "summary": "",
-    "source": "official_tencent",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Tencent and City University of Hong Kong Launch “WeTech Academy Principals’ AI Open Class x Tencent AI Campus Tour”",
-    "publisher": "Tencent",
-    "link": "https://www.tencent.com/en-us/articles/2202291.html",
-    "providerPublishTime": "2026-03-17T00:00:00",
-    "summary": "Tencent has partnered with the City University of Hong Kong (CityU) to host the inaugural “WeTech Academy Principals’ AI Open Class x Tencent AI Campus tour”.",
     "source": "official_tencent",
     "confidence": 0.8,
     "sentiment_score": 0.0,
