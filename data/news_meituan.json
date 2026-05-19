@@ -1,5 +1,16 @@
 [
   {
+    "title": "Announcements and Notices - Date of Board Meeting",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/202605191640014712163395_en.pdf",
+    "providerPublishTime": "2026-05-19T00:00:00",
+    "summary": "Announcements and Notices - Date of Board Meeting",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Monthly Return of Equity Issuer on Movements in Securities for the month ended 30 April 2026",
     "publisher": "Meituan",
     "link": "https://media-meituan.todayir.com/2026050618160148212149201_en.pdf",
@@ -93,17 +104,6 @@
     "link": "https://media-meituan.todayir.com/20260309164001617412045283_en.pdf",
     "providerPublishTime": "2026-03-09T00:00:00",
     "summary": "Next Day Disclosure Returns, OthersNext Day Disclosure Return (Resubmission)",
-    "source": "official_meituan",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Next Day Disclosure Return",
-    "publisher": "Meituan",
-    "link": "https://media-meituan.todayir.com/20260305191601397512043121_en.pdf",
-    "providerPublishTime": "2026-03-05T00:00:00",
-    "summary": "Next Day Disclosure Returns, OthersNext Day Disclosure Return",
     "source": "official_meituan",
     "confidence": 0.8,
     "sentiment_score": 0.0,
