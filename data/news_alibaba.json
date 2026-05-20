@@ -1,5 +1,16 @@
 [
   {
+    "title": "Letter from our Chairman and our CEO",
+    "publisher": "Alibaba Group",
+    "link": "https://www.alibabagroup.com/news-and-resource?documentId=1993785120221298688",
+    "providerPublishTime": "May 20, 2026",
+    "summary": "",
+    "source": "official_alibaba",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Alibaba Group Announces March Quarter 2026 and Fiscal Year 2026 Results",
     "publisher": "Alibaba Group",
     "link": "https://www.alibabagroup.com/news-and-resource?documentId=1991237455038119936",
@@ -92,17 +103,6 @@
     "publisher": "Alibaba Group",
     "link": "https://www.alibabagroup.com/news-and-resource?documentId=1899628123796799488",
     "providerPublishTime": "September 2, 2025",
-    "summary": "",
-    "source": "official_alibaba",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Alibaba Group Announces June Quarter 2025 Results",
-    "publisher": "Alibaba Group",
-    "link": "https://www.alibabagroup.com/news-and-resource?documentId=1897714462505304064",
-    "providerPublishTime": "August 29, 2025",
     "summary": "",
     "source": "official_alibaba",
     "confidence": 0.8,
