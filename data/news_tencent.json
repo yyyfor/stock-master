@@ -1,5 +1,16 @@
 [
   {
+    "title": "Tencent Expands Support for Korea’s Game Ecosystem: Partners with Game Culture Foundation and KOCCA",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202332.html",
+    "providerPublishTime": "2026-05-20T00:00:00",
+    "summary": "Tencent and the Game Culture Foundation (GCF) today announced the signing of a Memorandum of Understanding (MOU).",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Tencent Signs Partnership Agreements to Advance Gaming and AVGC Talent Development in India",
     "publisher": "Tencent",
     "link": "https://www.tencent.com/en-us/articles/2202330.html",
@@ -93,17 +104,6 @@
     "link": "https://www.tencent.com/en-us/articles/2202306.html",
     "providerPublishTime": "2026-04-01T00:00:00",
     "summary": "Tencent’s subsidiary, WeChat Malaysia Sdn. Bhd., has been awarded “Malaysia Digital” (MD) status by the Malaysia Digital Economy Corporation (MDEC).",
-    "source": "official_tencent",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Tencent Announces 2025 Annual and Fourth Quarter Results",
-    "publisher": "Tencent",
-    "link": "https://static.www.tencent.com/uploads/2026/03/18/e6a646796d0d869acc76271c9ee1a6a5.pdf",
-    "providerPublishTime": "2026-03-18T00:00:00",
-    "summary": "",
     "source": "official_tencent",
     "confidence": 0.8,
     "sentiment_score": 0.0,
