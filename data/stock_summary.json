@@ -1,7 +1,7 @@
 {
   "tencent": {
-    "price": 441.6,
-    "change_pct": 0.59226,
+    "price": 441.39999,
+    "change_pct": 0.5467,
     "market_cap": "$529B",
     "pe_ratio": 11.549836,
     "technical_rating": "Sell",
@@ -20,11 +20,11 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-05-25T08:05:33.057354"
+    "last_verified_at": "2026-05-25T09:52:03.876742"
   },
   "alibaba": {
-    "price": 127.1,
-    "change_pct": 0.87302,
+    "price": 127.0,
+    "change_pct": 0.79365,
     "market_cap": "$382B",
     "pe_ratio": 13.099202,
     "technical_rating": "Hold",
@@ -43,7 +43,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-05-25T08:06:14.581248"
+    "last_verified_at": "2026-05-25T09:52:50.213941"
   },
   "xiaomi": {
     "price": 30.0,
@@ -66,11 +66,11 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-05-25T08:06:58.867603"
+    "last_verified_at": "2026-05-25T09:53:45.964460"
   },
   "meituan": {
-    "price": 81.4,
-    "change_pct": -0.85262,
+    "price": 81.35,
+    "change_pct": -0.91352,
     "market_cap": "$589B",
     "pe_ratio": 15.322247,
     "technical_rating": "Hold",
@@ -89,7 +89,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-05-25T08:07:40.920413"
+    "last_verified_at": "2026-05-25T09:54:42.141025"
   },
   "baidu": {
     "price": 128.2,
@@ -138,10 +138,10 @@
     "last_verified_at": "2026-05-22T09:49:10.990736"
   },
   "hsbc": {
-    "price": 143.7,
-    "change_pct": 1.41143,
-    "market_cap": "$331B",
-    "pe_ratio": 9.965376,
+    "price": 143.89999,
+    "change_pct": 1.55257,
+    "market_cap": "$332B",
+    "pe_ratio": 10.129664,
     "technical_rating": "Buy",
     "rsi": 50.78374654223621,
     "volatility": 32.17551338428341,
@@ -158,6 +158,6 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-05-25T08:08:23.948879"
+    "last_verified_at": "2026-05-25T09:55:56.826871"
   }
 }
