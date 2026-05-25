@@ -1,7 +1,7 @@
 {
   "tencent": {
-    "price": 442.0,
-    "change_pct": 0.68337,
+    "price": 441.6,
+    "change_pct": 0.59226,
     "market_cap": "$529B",
     "pe_ratio": 11.549836,
     "technical_rating": "Sell",
@@ -20,34 +20,34 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-05-25T06:04:05.060873"
+    "last_verified_at": "2026-05-25T08:05:33.057354"
   },
   "alibaba": {
-    "price": 128.0,
-    "change_pct": 1.5873,
-    "market_cap": "$385B",
+    "price": 127.1,
+    "change_pct": 0.87302,
+    "market_cap": "$382B",
     "pe_ratio": 13.099202,
     "technical_rating": "Hold",
-    "rsi": 44.05063291139243,
-    "volatility": 45.05493393062999,
-    "52w_high": 160.1,
+    "rsi": 44.05063447614626,
+    "volatility": 45.05492156888735,
+    "52w_high": 152.1999969482422,
     "52w_low": 118.5,
     "source": {
       "quote": "akshare",
-      "ohlcv": "akshare",
+      "ohlcv": "yfinance",
       "fundamentals": "yfinance"
     },
     "confidence": {
       "quote": 0.95,
-      "ohlcv": 0.95,
+      "ohlcv": 0.85,
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-05-25T06:04:52.503757"
+    "last_verified_at": "2026-05-25T08:06:14.581248"
   },
   "xiaomi": {
-    "price": 30.04,
-    "change_pct": 1.28119,
+    "price": 30.0,
+    "change_pct": 1.14633,
     "market_cap": "$93B",
     "pe_ratio": 16.332243,
     "technical_rating": "Sell",
@@ -66,12 +66,12 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-05-25T06:05:39.805705"
+    "last_verified_at": "2026-05-25T08:06:58.867603"
   },
   "meituan": {
-    "price": 81.85,
-    "change_pct": -0.30451,
-    "market_cap": "$592B",
+    "price": 81.4,
+    "change_pct": -0.85262,
+    "market_cap": "$589B",
     "pe_ratio": 15.322247,
     "technical_rating": "Hold",
     "rsi": 40.25156870563611,
@@ -89,7 +89,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-05-25T06:06:21.268956"
+    "last_verified_at": "2026-05-25T08:07:40.920413"
   },
   "baidu": {
     "price": 128.2,
@@ -138,8 +138,8 @@
     "last_verified_at": "2026-05-22T09:49:10.990736"
   },
   "hsbc": {
-    "price": 143.8,
-    "change_pct": 1.482,
+    "price": 143.7,
+    "change_pct": 1.41143,
     "market_cap": "$331B",
     "pe_ratio": 9.965376,
     "technical_rating": "Buy",
@@ -158,6 +158,6 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-05-25T06:07:02.899878"
+    "last_verified_at": "2026-05-25T08:08:23.948879"
   }
 }
