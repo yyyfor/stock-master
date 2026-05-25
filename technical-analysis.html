@@ -14,11 +14,10 @@
     <style>
         :root {
             --tencent-color: #0052D4;
-            --baidu-color: #2932E1;
-            --jd-color: #E31837;
             --alibaba-color: #FF6A00;
             --xiaomi-color: #FF6700;
             --meituan-color: #FFD100;
+            --hsbc-color: #DB0011;
             --primary-dark: #1a1a2e;
             --secondary-dark: #16213e;
             --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
@@ -98,11 +97,10 @@
         }
 
         .tech-rating-card.tencent::before { background: var(--tencent-color); }
-        .tech-rating-card.baidu::before { background: var(--baidu-color); }
-        .tech-rating-card.jd::before { background: var(--jd-color); }
         .tech-rating-card.alibaba::before { background: var(--alibaba-color); }
         .tech-rating-card.xiaomi::before { background: var(--xiaomi-color); }
         .tech-rating-card.meituan::before { background: var(--meituan-color); }
+        .tech-rating-card.hsbc::before { background: var(--hsbc-color); }
 
         .tech-rating-card:hover {
             box-shadow: var(--shadow-md);
@@ -369,11 +367,10 @@
     <script>
         const STOCK_CONFIG = {
             'tencent': { name: 'Tencent', symbol: '00700', color: '#0052D4' },
-            'baidu': { name: 'Baidu', symbol: '09888', color: '#2932E1' },
-            'jd': { name: 'JD.com', symbol: '09618', color: '#E31837' },
             'alibaba': { name: 'Alibaba', symbol: '09988', color: '#FF6A00' },
             'xiaomi': { name: 'Xiaomi', symbol: '01810', color: '#FF6700' },
-            'meituan': { name: 'Meituan', symbol: '03690', color: '#FFD100' }
+            'meituan': { name: 'Meituan', symbol: '03690', color: '#FFD100' },
+            'hsbc': { name: 'HSBC', symbol: '00005', color: '#DB0011' }
         };
 
         let stockData = {};

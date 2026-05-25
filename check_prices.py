@@ -7,11 +7,10 @@ try:
     
     stocks = [
         ('Tencent', '00700'),
-        ('Baidu', '09888'),
-        ('JD.com', '09618'),
         ('Alibaba', '09988'),
         ('Xiaomi', '01810'),
-        ('Meituan', '03690')
+        ('Meituan', '03690'),
+        ('HSBC', '00005')
     ]
     
     print("\n" + "="*60)

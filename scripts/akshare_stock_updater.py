@@ -31,21 +31,19 @@ REQUEST_INTERVAL_SEC = 3.0
 
 STOCK_CONFIG = {
     "tencent": {"symbol": "0700.HK", "code": "00700", "name": "Tencent", "industry": "Technology / Gaming / Social Media", "sector": "Communication Services"},
-    "baidu": {"symbol": "9888.HK", "code": "09888", "name": "Baidu", "industry": "Technology / Search / AI", "sector": "Communication Services"},
-    "jd": {"symbol": "9618.HK", "code": "09618", "name": "JD.com", "industry": "E-commerce / Logistics", "sector": "Consumer Discretionary"},
     "alibaba": {"symbol": "9988.HK", "code": "09988", "name": "Alibaba", "industry": "E-commerce / Cloud", "sector": "Consumer Discretionary"},
     "xiaomi": {"symbol": "1810.HK", "code": "01810", "name": "Xiaomi", "industry": "Consumer Electronics / EV / IoT", "sector": "Information Technology"},
     "meituan": {"symbol": "3690.HK", "code": "03690", "name": "Meituan", "industry": "Local Services", "sector": "Consumer Discretionary"},
+    "hsbc": {"symbol": "0005.HK", "code": "00005", "name": "HSBC", "industry": "Banking / Financial Services", "sector": "Financials"},
 }
 
 # Last resort estimates only when providers cannot provide fields.
 FALLBACK_ESTIMATES = {
     "tencent": {"roe": 13.8, "roa": 6.8, "gross_margin": 48.5, "op_margin": 28.5, "net_margin": 26.2, "revenue_growth": 8.5, "earnings_growth": 28.5, "revenue_billion": 620.5, "debt_equity": 0.08, "cash_billion": 95.0, "net_cash_billion": 72.0, "fcf_billion": 42.8, "ps_ratio": 5.1, "dividend_yield": 0.8, "beta": 0.32, "eps": 11.2, "shares_billion": 9.35},
-    "baidu": {"roe": 9.2, "roa": 5.4, "gross_margin": 45.2, "op_margin": 19.8, "net_margin": 18.5, "revenue_growth": 9.2, "earnings_growth": 42.3, "revenue_billion": 185.3, "debt_equity": 0.35, "cash_billion": 28.0, "net_cash_billion": 15.0, "fcf_billion": 6.2, "ps_ratio": 2.1, "dividend_yield": 0.6, "beta": 0.65, "eps": 13.8, "shares_billion": 3.48},
-    "jd": {"roe": 8.4, "roa": 3.8, "gross_margin": 15.8, "op_margin": 2.5, "net_margin": 2.3, "revenue_growth": 7.8, "earnings_growth": 35.8, "revenue_billion": 1150.2, "debt_equity": 0.18, "cash_billion": 42.0, "net_cash_billion": 28.0, "fcf_billion": 8.5, "ps_ratio": 0.5, "dividend_yield": 1.2, "beta": 0.48, "eps": 12.8, "shares_billion": 12.88},
     "alibaba": {"roe": 11.4, "roa": 5.3, "gross_margin": 40.0, "op_margin": 14.0, "net_margin": 13.1, "revenue_growth": 6.6, "earnings_growth": 27.2, "revenue_billion": 996.4, "debt_equity": 0.23, "cash_billion": 55.0, "net_cash_billion": 18.0, "fcf_billion": 19.0, "ps_ratio": 1.9, "dividend_yield": 0.9, "beta": 0.21, "eps": 9.2, "shares_billion": 23.5},
     "xiaomi": {"roe": 17.4, "roa": 4.8, "gross_margin": 21.6, "op_margin": 8.6, "net_margin": 8.7, "revenue_growth": 30.5, "earnings_growth": 33.5, "revenue_billion": 428.8, "debt_equity": 0.11, "cash_billion": 14.0, "net_cash_billion": 11.0, "fcf_billion": 9.3, "ps_ratio": 3.1, "dividend_yield": 0.1, "beta": 1.01, "eps": 1.0, "shares_billion": 24.3},
     "meituan": {"roe": 17.1, "roa": 5.2, "gross_margin": 26.0, "op_margin": 4.2, "net_margin": 2.4, "revenue_growth": 16.7, "earnings_growth": 57.2, "revenue_billion": 395.2, "debt_equity": 0.28, "cash_billion": 13.0, "net_cash_billion": 4.0, "fcf_billion": 5.1, "ps_ratio": 1.6, "dividend_yield": 0.0, "beta": 1.15, "eps": 5.0, "shares_billion": 56.5},
+    "hsbc": {"roe": 12.0, "roa": 0.7, "gross_margin": 0.0, "op_margin": 32.0, "net_margin": 24.0, "revenue_growth": 3.0, "earnings_growth": 4.0, "revenue_billion": 510.0, "debt_equity": 0.0, "cash_billion": 0.0, "net_cash_billion": 0.0, "fcf_billion": 0.0, "ps_ratio": 2.2, "dividend_yield": 6.0, "beta": 0.85, "eps": 8.0, "shares_billion": 18.0},
 }
 
 
@@ -401,7 +399,7 @@ def update_equity_analysis_file(html_file: Path, data: Dict[str, Dict], zh: bool
         rating_pattern = rf'(<a href="{href_company}\.html" class="stock-card [^"]*">.*?<span class="rating-badge )[^\"]*(">)[^<]*(</span>)'
         content = re.sub(rating_pattern, rf'\g<1>{rating_class}\g<2>{rating_text}\g<3>', content, flags=re.DOTALL)
 
-    order = ["tencent", "baidu", "jd", "alibaba", "xiaomi", "meituan"]
+    order = ["tencent", "alibaba", "xiaomi", "meituan"]
     metrics = [data[c] for c in order if c in data]
 
     def replace_series(label: str, values: List[float], digits: int = 1) -> None:
@@ -416,7 +414,7 @@ def update_equity_analysis_file(html_file: Path, data: Dict[str, Dict], zh: bool
         except Exception:
             return float(fallback)
 
-    if len(metrics) == 6:
+    if len(metrics) == 4:
         replace_series("Revenue (¥B)", [value(c, "revenue_billion") for c in order], 1)
         replace_series("Revenue Growth %", [value(c, "revenue_growth") for c in order], 1)
         replace_series("P/E Ratio", [value(c, "pe_ratio") for c in order], 1)
@@ -436,7 +434,6 @@ def update_equity_analysis_file(html_file: Path, data: Dict[str, Dict], zh: bool
         # Risk chart keeps three key names in the current UI, update each with live values.
         risk_map = [
             ("Tencent", "tencent"),
-            ("Baidu", "baidu"),
             ("Alibaba", "alibaba"),
         ]
         for label, company in risk_map:

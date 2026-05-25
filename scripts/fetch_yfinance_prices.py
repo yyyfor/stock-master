@@ -34,14 +34,15 @@ def fetch_yahoo_price(ticker):
     return None
 
 def fetch_all_prices():
-    """Fetch prices for all 6 companies"""
+    """Fetch prices for dashboard stocks and benchmarks"""
     companies = {
         'tencent': {'ticker': '0700.HK', 'name': 'Tencent'},
-        'baidu': {'ticker': '9888.HK', 'name': 'Baidu'},
-        'jd': {'ticker': '9618.HK', 'name': 'JD.com'},
         'alibaba': {'ticker': '9988.HK', 'name': 'Alibaba'},
         'xiaomi': {'ticker': '1810.HK', 'name': 'Xiaomi'},
-        'meituan': {'ticker': '3690.HK', 'name': 'Meituan'}
+        'meituan': {'ticker': '3690.HK', 'name': 'Meituan'},
+        'qqq': {'ticker': 'QQQ', 'name': 'QQQ'},
+        'sp500': {'ticker': '^GSPC', 'name': 'S&P 500'},
+        'hsbc': {'ticker': '0005.HK', 'name': 'HSBC'}
     }
 
     results = {}
@@ -60,7 +61,7 @@ def fetch_all_prices():
         data = fetch_yahoo_price(ticker)
 
         if data:
-            print(f"  ✅ Price: HK${data['price']:.2f}")
+            print(f"  ✅ Price: {data['price']:.2f}")
             print(f"     Market Cap: ${data['market_cap']/(10**9):.1f}B")
             print(f"     P/E Ratio: {data['pe_ratio']:.1f}x")
 
