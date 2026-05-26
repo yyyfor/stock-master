@@ -10,7 +10,8 @@ try:
         ('Alibaba', '09988'),
         ('Xiaomi', '01810'),
         ('Meituan', '03690'),
-        ('HSBC', '00005')
+        ('HSBC', '00005'),
+        ('CSOP HS TECH', '03033')
     ]
     
     print("\n" + "="*60)

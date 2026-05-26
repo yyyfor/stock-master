@@ -35,6 +35,7 @@ STOCK_CONFIG = {
     "xiaomi": {"symbol": "1810.HK", "code": "01810", "name": "Xiaomi", "industry": "Consumer Electronics / EV / IoT", "sector": "Information Technology"},
     "meituan": {"symbol": "3690.HK", "code": "03690", "name": "Meituan", "industry": "Local Services", "sector": "Consumer Discretionary"},
     "hsbc": {"symbol": "0005.HK", "code": "00005", "name": "HSBC", "industry": "Banking / Financial Services", "sector": "Financials"},
+    "hk3033": {"symbol": "3033.HK", "code": "03033", "name": "CSOP HS TECH", "industry": "ETF / Hang Seng TECH", "sector": "ETF"},
 }
 
 # Last resort estimates only when providers cannot provide fields.
@@ -44,6 +45,7 @@ FALLBACK_ESTIMATES = {
     "xiaomi": {"roe": 17.4, "roa": 4.8, "gross_margin": 21.6, "op_margin": 8.6, "net_margin": 8.7, "revenue_growth": 30.5, "earnings_growth": 33.5, "revenue_billion": 428.8, "debt_equity": 0.11, "cash_billion": 14.0, "net_cash_billion": 11.0, "fcf_billion": 9.3, "ps_ratio": 3.1, "dividend_yield": 0.1, "beta": 1.01, "eps": 1.0, "shares_billion": 24.3},
     "meituan": {"roe": 17.1, "roa": 5.2, "gross_margin": 26.0, "op_margin": 4.2, "net_margin": 2.4, "revenue_growth": 16.7, "earnings_growth": 57.2, "revenue_billion": 395.2, "debt_equity": 0.28, "cash_billion": 13.0, "net_cash_billion": 4.0, "fcf_billion": 5.1, "ps_ratio": 1.6, "dividend_yield": 0.0, "beta": 1.15, "eps": 5.0, "shares_billion": 56.5},
     "hsbc": {"roe": 12.0, "roa": 0.7, "gross_margin": 0.0, "op_margin": 32.0, "net_margin": 24.0, "revenue_growth": 3.0, "earnings_growth": 4.0, "revenue_billion": 510.0, "debt_equity": 0.0, "cash_billion": 0.0, "net_cash_billion": 0.0, "fcf_billion": 0.0, "ps_ratio": 2.2, "dividend_yield": 6.0, "beta": 0.85, "eps": 8.0, "shares_billion": 18.0},
+    "hk3033": {"roe": 0.0, "roa": 0.0, "gross_margin": 0.0, "op_margin": 0.0, "net_margin": 0.0, "revenue_growth": 0.0, "earnings_growth": 0.0, "revenue_billion": 0.0, "debt_equity": 0.0, "cash_billion": 0.0, "net_cash_billion": 0.0, "fcf_billion": 0.0, "ps_ratio": 0.0, "dividend_yield": 0.0, "beta": 1.0, "eps": 0.0, "shares_billion": 0.0},
 }
 
 
