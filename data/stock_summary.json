@@ -1,9 +1,9 @@
 {
   "tencent": {
-    "price": 434.4,
+    "price": 434.39999,
     "change_pct": -1.04784,
     "market_cap": "$520B",
-    "pe_ratio": 11.345052,
+    "pe_ratio": 11.350277,
     "technical_rating": "Sell",
     "rsi": 37.32853490329349,
     "volatility": 25.905482944754503,
@@ -20,16 +20,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-05-27T07:53:34.653491"
+    "last_verified_at": "2026-05-27T09:50:55.502040"
   },
   "alibaba": {
-    "price": 124.2,
-    "change_pct": -2.66458,
+    "price": 124.3,
+    "change_pct": -2.58621,
     "market_cap": "$374B",
-    "pe_ratio": 12.812006,
+    "pe_ratio": 12.822323,
     "technical_rating": "Hold",
-    "rsi": 37.4999952316266,
-    "volatility": 44.78450718631535,
+    "rsi": 37.593985968790214,
+    "volatility": 44.72480023349212,
     "52w_high": 142.89999389648438,
     "52w_low": 118.5,
     "source": {
@@ -43,18 +43,18 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-05-27T07:54:12.512268"
+    "last_verified_at": "2026-05-27T09:51:41.715284"
   },
   "xiaomi": {
-    "price": 28.68,
-    "change_pct": -3.62903,
-    "market_cap": "$89B",
-    "pe_ratio": 16.02938,
+    "price": 28.4,
+    "change_pct": -4.56989,
+    "market_cap": "$88B",
+    "pe_ratio": 15.872887,
     "technical_rating": "Hold",
-    "rsi": 29.657808740149605,
-    "volatility": 36.441289746173105,
+    "rsi": 28.158855205802467,
+    "volatility": 37.74596963763479,
     "52w_high": 36.31999969482422,
-    "52w_low": 28.68000030517578,
+    "52w_low": 28.399999618530273,
     "source": {
       "quote": "akshare",
       "ohlcv": "yfinance",
@@ -66,16 +66,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-05-27T07:54:51.862286"
+    "last_verified_at": "2026-05-27T09:52:50.334877"
   },
   "meituan": {
-    "price": 77.8,
-    "change_pct": -1.26904,
-    "market_cap": "$563B",
-    "pe_ratio": 14.646023,
+    "price": 77.7,
+    "change_pct": -1.39594,
+    "market_cap": "$562B",
+    "pe_ratio": 14.636603,
     "technical_rating": "Sell",
-    "rsi": 36.467227054416966,
-    "volatility": 30.563797755470173,
+    "rsi": 36.363620600416326,
+    "volatility": 30.59713452508705,
     "52w_high": 90.0,
     "52w_low": 74.5,
     "source": {
@@ -89,7 +89,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-05-27T07:55:31.358362"
+    "last_verified_at": "2026-05-27T09:53:32.337184"
   },
   "baidu": {
     "price": 128.2,
@@ -138,14 +138,14 @@
     "last_verified_at": "2026-05-22T09:49:10.990736"
   },
   "hsbc": {
-    "price": 146.3,
-    "change_pct": 0.54983,
-    "market_cap": "$337B",
-    "pe_ratio": 10.120429,
+    "price": 146.60001,
+    "change_pct": 0.75602,
+    "market_cap": "$338B",
+    "pe_ratio": 10.141182,
     "technical_rating": "Buy",
-    "rsi": 60.07231440548114,
-    "volatility": 32.360548901231134,
-    "52w_high": 146.1999969482422,
+    "rsi": 60.61947457783056,
+    "volatility": 32.40342992545677,
+    "52w_high": 146.60000610351562,
     "52w_low": 118.81573486328125,
     "source": {
       "quote": "akshare",
@@ -158,16 +158,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-05-27T07:56:09.439411"
+    "last_verified_at": "2026-05-27T09:54:22.916808"
   },
   "hk3033": {
-    "price": 4.794000148773193,
-    "change_pct": -0.9504132719934235,
+    "price": 4.802000045776367,
+    "change_pct": -0.785126149039587,
     "market_cap": "$N/A",
-    "pe_ratio": 19.724285,
+    "pe_ratio": 19.7572,
     "technical_rating": "Hold",
-    "rsi": 45.297046501650335,
-    "volatility": 23.73605564636973,
+    "rsi": 45.750011026856654,
+    "volatility": 23.647363837763155,
     "52w_high": 5.03000020980835,
     "52w_low": 4.550000190734863,
     "source": {
@@ -181,6 +181,6 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-05-27T07:56:46.554379"
+    "last_verified_at": "2026-05-27T09:55:35.615195"
   }
 }
