@@ -1,14 +1,14 @@
 {
   "tencent": {
-    "price": 434.39999,
-    "change_pct": -1.04784,
-    "market_cap": "$520B",
-    "pe_ratio": 11.350277,
-    "technical_rating": "Sell",
-    "rsi": 37.32853490329349,
-    "volatility": 25.905482944754503,
+    "price": 424.6,
+    "change_pct": -2.25599,
+    "market_cap": "$508B",
+    "pe_ratio": 11.08899,
+    "technical_rating": "Hold",
+    "rsi": 22.82795946031925,
+    "volatility": 26.13749834203704,
     "52w_high": 552.06787109375,
-    "52w_low": 434.3999938964844,
+    "52w_low": 424.20001220703125,
     "source": {
       "quote": "akshare",
       "ohlcv": "yfinance",
@@ -20,17 +20,17 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-05-27T09:50:55.502040"
+    "last_verified_at": "2026-05-28T02:25:54.651492"
   },
   "alibaba": {
-    "price": 124.3,
-    "change_pct": -2.58621,
-    "market_cap": "$374B",
-    "pe_ratio": 12.822323,
+    "price": 121.0,
+    "change_pct": -2.65487,
+    "market_cap": "$364B",
+    "pe_ratio": 12.481907,
     "technical_rating": "Hold",
-    "rsi": 37.593985968790214,
-    "volatility": 44.72480023349212,
-    "52w_high": 142.89999389648438,
+    "rsi": 22.739722992245603,
+    "volatility": 43.84012317455751,
+    "52w_high": 140.89999389648438,
     "52w_low": 118.5,
     "source": {
       "quote": "akshare",
@@ -43,18 +43,18 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-05-27T09:51:41.715284"
+    "last_verified_at": "2026-05-28T02:26:37.822605"
   },
   "xiaomi": {
-    "price": 28.4,
-    "change_pct": -4.56989,
-    "market_cap": "$88B",
-    "pe_ratio": 15.872887,
+    "price": 27.98,
+    "change_pct": -1.47887,
+    "market_cap": "$87B",
+    "pe_ratio": 15.707952,
     "technical_rating": "Hold",
-    "rsi": 28.158855205802467,
-    "volatility": 37.74596963763479,
+    "rsi": 22.261481241097215,
+    "volatility": 37.79844937480373,
     "52w_high": 36.31999969482422,
-    "52w_low": 28.399999618530273,
+    "52w_low": 27.979999542236328,
     "source": {
       "quote": "akshare",
       "ohlcv": "yfinance",
@@ -66,18 +66,18 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-05-27T09:52:50.334877"
+    "last_verified_at": "2026-05-28T02:27:23.765482"
   },
   "meituan": {
-    "price": 77.7,
-    "change_pct": -1.39594,
-    "market_cap": "$562B",
-    "pe_ratio": 14.636603,
-    "technical_rating": "Sell",
-    "rsi": 36.363620600416326,
-    "volatility": 30.59713452508705,
+    "price": 73.4,
+    "change_pct": -5.53411,
+    "market_cap": "$531B",
+    "pe_ratio": 13.81718,
+    "technical_rating": "Hold",
+    "rsi": 23.019783936943398,
+    "volatility": 32.99832450312012,
     "52w_high": 90.0,
-    "52w_low": 74.5,
+    "52w_low": 73.3499984741211,
     "source": {
       "quote": "akshare",
       "ohlcv": "yfinance",
@@ -89,7 +89,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-05-27T09:53:32.337184"
+    "last_verified_at": "2026-05-28T02:28:05.846414"
   },
   "baidu": {
     "price": 128.2,
@@ -138,13 +138,13 @@
     "last_verified_at": "2026-05-22T09:49:10.990736"
   },
   "hsbc": {
-    "price": 146.60001,
-    "change_pct": 0.75602,
-    "market_cap": "$338B",
-    "pe_ratio": 10.141182,
+    "price": 144.6,
+    "change_pct": -1.36426,
+    "market_cap": "$333B",
+    "pe_ratio": 10.014625,
     "technical_rating": "Buy",
-    "rsi": 60.61947457783056,
-    "volatility": 32.40342992545677,
+    "rsi": 53.172437625862116,
+    "volatility": 32.819735669218936,
     "52w_high": 146.60000610351562,
     "52w_low": 118.81573486328125,
     "source": {
@@ -158,17 +158,17 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-05-27T09:54:22.916808"
+    "last_verified_at": "2026-05-28T02:28:46.018020"
   },
   "hk3033": {
-    "price": 4.802000045776367,
-    "change_pct": -0.785126149039587,
+    "price": 4.78000020980835,
+    "change_pct": -1.2396682001644102,
     "market_cap": "$N/A",
-    "pe_ratio": 19.7572,
+    "pe_ratio": 19.666685,
     "technical_rating": "Hold",
-    "rsi": 45.750011026856654,
-    "volatility": 23.647363837763155,
-    "52w_high": 5.03000020980835,
+    "rsi": 44.52556734628528,
+    "volatility": 23.925025658873633,
+    "52w_high": 5.010000228881836,
     "52w_low": 4.550000190734863,
     "source": {
       "quote": "yfinance",
@@ -181,6 +181,6 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-05-27T09:55:35.615195"
+    "last_verified_at": "2026-05-28T02:29:26.210118"
   }
 }
