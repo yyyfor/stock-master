@@ -1,5 +1,16 @@
 [
   {
+    "title": "Announcements and Notices - Announcement of the Results\nfor the Three Months ended March 31, 2026",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260601164001218812179923_en.pdf",
+    "providerPublishTime": "2026-06-01T00:00:00",
+    "summary": "Announcements and Notices - ANNOUNCEMENT OF THE RESULTS\nFOR THE THREE MONTHS ENDED MARCH 31, 2026",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Announcements and Notices - Date of Board Meeting",
     "publisher": "Meituan",
     "link": "https://media-meituan.todayir.com/202605191640014712163395_en.pdf",
@@ -93,17 +104,6 @@
     "link": "https://media-meituan.todayir.com/20260316164002197412052903_en.pdf",
     "providerPublishTime": "2026-03-16T00:00:00",
     "summary": "Announcements and Notices - Date of Board Meeting",
-    "source": "official_meituan",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Next Day Disclosure Return (resubmission)",
-    "publisher": "Meituan",
-    "link": "https://media-meituan.todayir.com/20260309164001617412045283_en.pdf",
-    "providerPublishTime": "2026-03-09T00:00:00",
-    "summary": "Next Day Disclosure Returns, OthersNext Day Disclosure Return (Resubmission)",
     "source": "official_meituan",
     "confidence": 0.8,
     "sentiment_score": 0.0,
