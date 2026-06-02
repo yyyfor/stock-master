@@ -1,1 +1,112 @@
-[]
+[
+  {
+    "title": "Tencent Rolls Out New AI Tools and Enterprise Solutions for Global Markets at Inaugural Tencent Cloud Day Hong Kong",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202341.html",
+    "providerPublishTime": "2026-05-28T00:00:00",
+    "summary": "Productivity agent WorkBuddy, creative agent Miora and Model-as-a-Service platform TokenHub launch globally to accelerate enterprise AI adoption.",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Tencent Announces Three Initiatives to Make Inbound Payments for International Visitors Easier Than Ever During APEC 2026",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202338.html",
+    "providerPublishTime": "2026-05-27T00:00:00",
+    "summary": "TenPay Global and PayPal World to support PayPal users scanning Weixin Pay QR payment codes in China.",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Tencent Games Spotlights Future Player Experiences with 45 Major Updates at SPARK 2026",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202340.html",
+    "providerPublishTime": "2026-05-27T00:00:00",
+    "summary": "New updates shed light on Tencent Games' long-term commitment to providing advanced interactive digital experiences for users worldwide.",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Tencent Expands Support for Korea’s Game Ecosystem: Partners with Game Culture Foundation and KOCCA",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202332.html",
+    "providerPublishTime": "2026-05-20T00:00:00",
+    "summary": "Tencent and the Game Culture Foundation (GCF) today announced the signing of a Memorandum of Understanding (MOU).",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Tencent Signs Partnership Agreements to Advance Gaming and AVGC Talent Development in India",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202330.html",
+    "providerPublishTime": "2026-05-18T00:00:00",
+    "summary": "Tencent has signed Memoranda of Understanding with the Services Export Promotion Council and the Game Developer Association of India.",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Tencent Announces 2026 First Quarter Results",
+    "publisher": "Tencent",
+    "link": "https://static.www.tencent.com/uploads/2026/05/13/47382ae415a209fd161bc19a1f9b3704.pdf",
+    "providerPublishTime": "2026-05-13T00:00:00",
+    "summary": "",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Weixin Brand Protection Report Marks a Decade of Partnership, Trust, and Progress in IP Protection",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202321.html",
+    "providerPublishTime": "2026-05-04T00:00:00",
+    "summary": "Tencent today released its 2025 Weixin Brand Protection Report, marking a decade of progress in intellectual property (IP) protection on Weixin.",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "IMDA and Tencent Debut “Beyond the Screen” to Champion Real-World Connection through Digital Play",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202322.html",
+    "providerPublishTime": "2026-05-02T00:00:00",
+    "summary": "The campaign encourages families to bridge the gap between play and purpose through gaming.",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Tencent Unveils Hy3 preview; Model Enhances Agent Capabilities and Real-World Usability",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202320.html",
+    "providerPublishTime": "2026-04-24T00:00:00",
+    "summary": "Tencent today launched and open sourced the Hy3 preview model.",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Tencent Launches QClaw Globally, Lowering Barriers to AI Agent Deployment",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202318.html",
+    "providerPublishTime": "2026-04-21T00:00:00",
+    "summary": "Tencent launched an international beta version of QClaw, enabling users to cultivate AI Agents that can help to enhance daily productivity and knowledge.",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  }
+]
