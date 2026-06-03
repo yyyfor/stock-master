@@ -20,16 +20,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-06-03T08:20:43.590821"
+    "last_verified_at": "2026-06-03T10:10:58.672892"
   },
   "alibaba": {
     "price": 126.6,
     "change_pct": -3.28495,
     "market_cap": "$381B",
-    "pe_ratio": 13.05329,
+    "pe_ratio": 13.001941,
     "technical_rating": "Hold",
-    "rsi": 43.26240277702876,
-    "volatility": 46.06438211931832,
+    "rsi": 42.7570006411903,
+    "volatility": 46.37566045146524,
     "52w_high": 140.89999389648438,
     "52w_low": 118.5,
     "source": {
@@ -43,16 +43,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-06-03T08:21:33.572080"
+    "last_verified_at": "2026-06-03T10:11:55.698306"
   },
   "xiaomi": {
     "price": 28.58,
     "change_pct": -3.51114,
     "market_cap": "$89B",
-    "pe_ratio": 16.076235,
+    "pe_ratio": 16.042555,
     "technical_rating": "Hold",
-    "rsi": 28.415300688834293,
-    "volatility": 30.929038887941523,
+    "rsi": 28.184284014064758,
+    "volatility": 31.19184404834271,
     "52w_high": 36.31999969482422,
     "52w_low": 28.040000915527344,
     "source": {
@@ -66,7 +66,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-06-03T08:22:27.993954"
+    "last_verified_at": "2026-06-03T10:12:46.284977"
   },
   "meituan": {
     "price": 80.4,
@@ -89,7 +89,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-06-03T08:23:32.943538"
+    "last_verified_at": "2026-06-03T10:13:37.865350"
   },
   "baidu": {
     "price": 128.2,
@@ -158,7 +158,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-06-03T08:24:16.612073"
+    "last_verified_at": "2026-06-03T10:14:29.459049"
   },
   "hk3033": {
     "price": 4.949999809265137,
@@ -181,6 +181,6 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-06-03T08:24:57.426307"
+    "last_verified_at": "2026-06-03T10:15:17.825262"
   }
 }
