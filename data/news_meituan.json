@@ -1,5 +1,38 @@
 [
   {
+    "title": "Announcements and Notices - Notice of Annual General Meeting",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260604175601833412189971_en.pdf",
+    "providerPublishTime": "2026-06-04T00:00:00",
+    "summary": "Announcements and Notices - NOTICE OF ANNUAL GENERAL MEETING",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Circulars - (1) Proposed Election of Independent Non-executive Director (2) Proposed Re-election of Independent Non-executive Director (3) Proposed Granting of General Mandates To Issue Shares and Repurchase Shares (4) Proposed Re-appointment of Auditor and (5) Notice of Annual General Meeting",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260604174801398412189929_en.pdf",
+    "providerPublishTime": "2026-06-04T00:00:00",
+    "summary": "Circulars - (1) PROPOSED ELECTION OF INDEPENDENT NON-EXECUTIVE DIRECTOR (2) PROPOSED RE-ELECTION OF INDEPENDENT NON-EXECUTIVE DIRECTOR (3) PROPOSED GRANTING OF GENERAL MANDATES TO ISSUE SHARES AND REPURCHASE SHARES (4) PROPOSED RE-APPOINTMENT OF AUDITOR AND (5) NOTICE OF ANNUAL GENERAL MEETING",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Announcements and Notices - (1) Retirement of Independent Non-executive Director and Proposed Election of Independent Non-executive Director; and (2) Change in Composition of Board Committees",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260604174001375912189836_en.pdf",
+    "providerPublishTime": "2026-06-04T00:00:00",
+    "summary": "Announcements and Notices - (1) RETIREMENT OF INDEPENDENT NON-EXECUTIVE DIRECTOR AND PROPOSED ELECTION OF INDEPENDENT NON-EXECUTIVE DIRECTOR; AND (2) CHANGE IN COMPOSITION OF BOARD COMMITTEES",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Monthly Return of Equity Issuer on Movements in Securities for the month ended 31 May 2026",
     "publisher": "Meituan",
     "link": "https://media-meituan.todayir.com/2026060319160173012187735_en.pdf",
@@ -71,39 +104,6 @@
     "link": "https://media-meituan.todayir.com/20260424065602653212120055_en.pdf",
     "providerPublishTime": "2026-04-24T00:00:00",
     "summary": "Circulars - Notification Letter and Reply Form to Registered Shareholders",
-    "source": "official_meituan",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Announcements and Notices - Grant of Restricted Share Units",
-    "publisher": "Meituan",
-    "link": "https://media-meituan.todayir.com/202604132208016812104195_en.pdf",
-    "providerPublishTime": "2026-04-13T00:00:00",
-    "summary": "Announcements and Notices - GRANT OF RESTRICTED SHARE UNITS",
-    "source": "official_meituan",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Monthly Return of Equity Issuer on Movements in Securities for the month ended 31 March 2026",
-    "publisher": "Meituan",
-    "link": "https://media-meituan.todayir.com/20260409164801583412099547_en.pdf",
-    "providerPublishTime": "2026-04-09T00:00:00",
-    "summary": "Monthly ReturnsMonthly Return of Equity Issuer on Movements in Securities for the month ended 31 March 2026",
-    "source": "official_meituan",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Announcements and Notices - Announcement of the Results\nfor the Year ended December 31, 2025",
-    "publisher": "Meituan",
-    "link": "https://media-meituan.todayir.com/20260326174002715012069122_en.pdf",
-    "providerPublishTime": "2026-03-26T00:00:00",
-    "summary": "Announcements and Notices - ANNOUNCEMENT OF THE RESULTS\nFOR THE YEAR ENDED DECEMBER 31, 2025",
     "source": "official_meituan",
     "confidence": 0.8,
     "sentiment_score": 0.0,
