@@ -1,5 +1,16 @@
 [
   {
+    "title": "Tencent Cloud Debuts Productivity Agent Suite,  Creating a New Gateway to AI for Users and Enterprises",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202350.html",
+    "providerPublishTime": "2026-06-05T00:00:00",
+    "summary": "Tencent Cloud today unveiled a suite of productivity agent tools at the Tencent Cloud AI Industry Application Conference in Beijing.",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Tencent Rolls Out New AI Tools and Enterprise Solutions for Global Markets at Inaugural Tencent Cloud Day Hong Kong",
     "publisher": "Tencent",
     "link": "https://www.tencent.com/en-us/articles/2202341.html",
@@ -93,17 +104,6 @@
     "link": "https://www.tencent.com/en-us/articles/2202320.html",
     "providerPublishTime": "2026-04-24T00:00:00",
     "summary": "Tencent today launched and open sourced the Hy3 preview model.",
-    "source": "official_tencent",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Tencent Launches QClaw Globally, Lowering Barriers to AI Agent Deployment",
-    "publisher": "Tencent",
-    "link": "https://www.tencent.com/en-us/articles/2202318.html",
-    "providerPublishTime": "2026-04-21T00:00:00",
-    "summary": "Tencent launched an international beta version of QClaw, enabling users to cultivate AI Agents that can help to enhance daily productivity and knowledge.",
     "source": "official_tencent",
     "confidence": 0.8,
     "sentiment_score": 0.0,
