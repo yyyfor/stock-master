@@ -11,6 +11,17 @@
     "sentiment_label": "neutral"
   },
   {
+    "title": "Alibaba Group Announces Filing of Annual Report on Form 20-F for Fiscal Year 2026",
+    "publisher": "Alibaba Group",
+    "link": "https://www.alibabagroup.com/news-and-resource?documentId=2003564382071554048",
+    "providerPublishTime": "May 20, 2026",
+    "summary": "",
+    "source": "official_alibaba",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Letter from our Chairman and our CEO",
     "publisher": "Alibaba Group",
     "link": "https://www.alibabagroup.com/news-and-resource?documentId=1993785120221298688",
@@ -92,17 +103,6 @@
     "publisher": "Alibaba Group",
     "link": "https://www.alibabagroup.com/news-and-resource?documentId=1925331329432420352",
     "providerPublishTime": "November 12, 2025",
-    "summary": "",
-    "source": "official_alibaba",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Alibaba Group and Ant Group Acquire Hong Kong Office Property at One Causeway Bay",
-    "publisher": "Alibaba Group",
-    "link": "https://www.alibabagroup.com/news-and-resource?documentId=1915940084457144320",
-    "providerPublishTime": "October 17, 2025",
     "summary": "",
     "source": "official_alibaba",
     "confidence": 0.8,
