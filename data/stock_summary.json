@@ -1,8 +1,8 @@
 {
   "tencent": {
-    "price": 437.2,
-    "change_pct": -1.84104,
-    "market_cap": "$524B",
+    "price": 440.20001,
+    "change_pct": -1.16749,
+    "market_cap": "$527B",
     "pe_ratio": 11.471012,
     "technical_rating": "Sell",
     "rsi": 54.42176870748299,
@@ -20,12 +20,12 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-06-19T07:19:05.355572"
+    "last_verified_at": "2026-06-19T09:14:43.308589"
   },
   "alibaba": {
-    "price": 103.1,
-    "change_pct": -3.55472,
-    "market_cap": "$310B",
+    "price": 104.9,
+    "change_pct": -1.87091,
+    "market_cap": "$316B",
     "pe_ratio": 10.968415,
     "technical_rating": "Sell",
     "rsi": 30.859424620159828,
@@ -43,11 +43,11 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-06-19T07:19:49.498664"
+    "last_verified_at": "2026-06-19T09:15:49.152372"
   },
   "xiaomi": {
-    "price": 24.64,
-    "change_pct": -3.06845,
+    "price": 24.58,
+    "change_pct": -3.30449,
     "market_cap": "$76B",
     "pe_ratio": 13.92853,
     "technical_rating": "Hold",
@@ -66,12 +66,12 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-06-19T07:20:30.349122"
+    "last_verified_at": "2026-06-19T09:16:38.298989"
   },
   "meituan": {
-    "price": 71.35,
-    "change_pct": -4.09946,
-    "market_cap": "$516B",
+    "price": 71.8,
+    "change_pct": -3.49462,
+    "market_cap": "$520B",
     "pe_ratio": 15.068256,
     "technical_rating": "Sell",
     "rsi": 47.619056007031816,
@@ -89,7 +89,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-06-19T07:21:13.016002"
+    "last_verified_at": "2026-06-19T09:17:17.321353"
   },
   "baidu": {
     "price": 128.2,
@@ -158,7 +158,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-06-19T07:21:54.048639"
+    "last_verified_at": "2026-06-19T09:18:19.936492"
   },
   "hk3033": {
     "price": 4.51200008392334,
@@ -181,6 +181,6 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-06-19T07:22:34.703841"
+    "last_verified_at": "2026-06-19T09:18:52.492363"
   }
 }
