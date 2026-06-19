@@ -1,8 +1,8 @@
 {
   "tencent": {
-    "price": 438.6,
-    "change_pct": -1.52672,
-    "market_cap": "$525B",
+    "price": 437.2,
+    "change_pct": -1.84104,
+    "market_cap": "$524B",
     "pe_ratio": 11.471012,
     "technical_rating": "Sell",
     "rsi": 54.42176870748299,
@@ -20,11 +20,11 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-06-19T05:17:51.324797"
+    "last_verified_at": "2026-06-19T07:19:05.355572"
   },
   "alibaba": {
-    "price": 103.2,
-    "change_pct": -3.46118,
+    "price": 103.1,
+    "change_pct": -3.55472,
     "market_cap": "$310B",
     "pe_ratio": 10.968415,
     "technical_rating": "Sell",
@@ -43,11 +43,11 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-06-19T05:18:24.058705"
+    "last_verified_at": "2026-06-19T07:19:49.498664"
   },
   "xiaomi": {
-    "price": 24.6,
-    "change_pct": -3.22581,
+    "price": 24.64,
+    "change_pct": -3.06845,
     "market_cap": "$76B",
     "pe_ratio": 13.92853,
     "technical_rating": "Hold",
@@ -66,12 +66,12 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-06-19T05:18:58.072289"
+    "last_verified_at": "2026-06-19T07:20:30.349122"
   },
   "meituan": {
-    "price": 72.6,
-    "change_pct": -2.41936,
-    "market_cap": "$525B",
+    "price": 71.35,
+    "change_pct": -4.09946,
+    "market_cap": "$516B",
     "pe_ratio": 15.068256,
     "technical_rating": "Sell",
     "rsi": 47.619056007031816,
@@ -89,7 +89,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-06-19T05:19:31.447850"
+    "last_verified_at": "2026-06-19T07:21:13.016002"
   },
   "baidu": {
     "price": 128.2,
@@ -138,9 +138,9 @@
     "last_verified_at": "2026-05-22T09:49:10.990736"
   },
   "hsbc": {
-    "price": 148.5,
-    "change_pct": 0.33784,
-    "market_cap": "$342B",
+    "price": 149.0,
+    "change_pct": 0.67568,
+    "market_cap": "$343B",
     "pe_ratio": 10.438955,
     "technical_rating": "Buy",
     "rsi": 56.79441878863214,
@@ -158,7 +158,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-06-19T05:20:05.209725"
+    "last_verified_at": "2026-06-19T07:21:54.048639"
   },
   "hk3033": {
     "price": 4.51200008392334,
@@ -181,6 +181,6 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-06-19T05:20:38.172692"
+    "last_verified_at": "2026-06-19T07:22:34.703841"
   }
 }
