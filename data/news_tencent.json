@@ -1,5 +1,16 @@
 [
   {
+    "title": "World Economic Forum and Tencent Cloud Collaborate to Enhance the Digital Experience for Summer Davos 2026 in Dalian",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202375.html",
+    "providerPublishTime": "2026-06-23T00:00:00",
+    "summary": "Powering a Global Gathering of Leaders and Change‑Makers with Seamless Digital Experiences",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Tencent Prices its US$2.45 Billion and CNY15 Billion Notes under Global Medium Term Note Programme",
     "publisher": "Tencent",
     "link": "https://static.www.tencent.com/uploads/2026/06/10/cf0d756a74c7a3de33bf29592da39fc5.pdf",
@@ -91,17 +102,6 @@
     "title": "Poll Results for the 2026 Annual General Meeting",
     "publisher": "Tencent",
     "link": "https://static.www.tencent.com/uploads/2026/06/08/8f136ce350eb2c329a47e0191689019b.pdf",
-    "providerPublishTime": "2026-05-13T00:00:00",
-    "summary": "",
-    "source": "official_tencent",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Tencent Announces 2026 First Quarter Results",
-    "publisher": "Tencent",
-    "link": "https://static.www.tencent.com/uploads/2026/05/13/47382ae415a209fd161bc19a1f9b3704.pdf",
     "providerPublishTime": "2026-05-13T00:00:00",
     "summary": "",
     "source": "official_tencent",
