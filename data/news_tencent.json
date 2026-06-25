@@ -1,5 +1,16 @@
 [
   {
+    "title": "Tencent Backs Next-Gen Decarbonization Innovators with Catalytic Funding Through CarbonX 2.0 and Advances Progress Towards Climate Goals",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202371.html",
+    "providerPublishTime": "2026-06-24T00:00:00",
+    "summary": "Today, Tencent announced 16 winners of CarbonX 2.0.",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "World Economic Forum and Tencent Cloud Collaborate to Enhance the Digital Experience for Summer Davos 2026 in Dalian",
     "publisher": "Tencent",
     "link": "https://www.tencent.com/en-us/articles/2202375.html",
@@ -93,17 +104,6 @@
     "link": "https://www.tencent.com/en-us/articles/2202330.html",
     "providerPublishTime": "2026-05-18T00:00:00",
     "summary": "Tencent has signed Memoranda of Understanding with the Services Export Promotion Council and the Game Developer Association of India.",
-    "source": "official_tencent",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Poll Results for the 2026 Annual General Meeting",
-    "publisher": "Tencent",
-    "link": "https://static.www.tencent.com/uploads/2026/06/08/8f136ce350eb2c329a47e0191689019b.pdf",
-    "providerPublishTime": "2026-05-13T00:00:00",
-    "summary": "",
     "source": "official_tencent",
     "confidence": 0.8,
     "sentiment_score": 0.0,
