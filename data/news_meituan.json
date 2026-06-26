@@ -1,5 +1,27 @@
 [
   {
+    "title": "Announcements and Notices - List of Directors and Their Roles and Functions",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260626223202399312219062_en.pdf",
+    "providerPublishTime": "2026-06-26T00:00:00",
+    "summary": "Announcements and Notices - LIST OF DIRECTORS AND THEIR ROLES AND FUNCTIONS",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Announcements and Notices - (1) Poll Results of the Annual General Meeting Held on June 26, 2026; (2) Retirement of Independent Non-executive Director; (3) Appointment of Independent Non-executive Director; and (4) Change in Composition of Board Committees",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260626223202577712219014_en.pdf",
+    "providerPublishTime": "2026-06-26T00:00:00",
+    "summary": "Announcements and Notices - (1) POLL RESULTS OF THE ANNUAL GENERAL MEETING HELD ON JUNE 26, 2026; (2) RETIREMENT OF INDEPENDENT NON-EXECUTIVE DIRECTOR; (3) APPOINTMENT OF INDEPENDENT NON-EXECUTIVE DIRECTOR; AND (4) CHANGE IN COMPOSITION OF BOARD COMMITTEES",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Announcements and Notices - Notice of Annual General Meeting",
     "publisher": "Meituan",
     "link": "https://media-meituan.todayir.com/20260604175601833412189971_en.pdf",
@@ -82,28 +104,6 @@
     "link": "https://media-meituan.todayir.com/202604290046171765261687_en.pdf",
     "providerPublishTime": "2026-04-28T00:00:00",
     "summary": "PARTIAL EARLY REDEMPTION OF THE CONVERTIBLE BONDS - ZERO COUPON CONVERTIBLE BONDS DUE 2028",
-    "source": "official_meituan",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Circulars - Notification Letter and Reply Form To Non-registered Shareholders",
-    "publisher": "Meituan",
-    "link": "https://media-meituan.todayir.com/2026042406560292112120057_en.pdf",
-    "providerPublishTime": "2026-04-24T00:00:00",
-    "summary": "Circulars - Notification Letter and Reply Form to Non-registered Shareholders",
-    "source": "official_meituan",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Circulars - Notification Letter and Reply Form To Registered Shareholders",
-    "publisher": "Meituan",
-    "link": "https://media-meituan.todayir.com/20260424065602653212120055_en.pdf",
-    "providerPublishTime": "2026-04-24T00:00:00",
-    "summary": "Circulars - Notification Letter and Reply Form to Registered Shareholders",
     "source": "official_meituan",
     "confidence": 0.8,
     "sentiment_score": 0.0,
