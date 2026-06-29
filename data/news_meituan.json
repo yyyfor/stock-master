@@ -1,5 +1,16 @@
 [
   {
+    "title": "Next Day Disclosure Return",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/2026062920240194212221002_en.pdf",
+    "providerPublishTime": "2026-06-29T00:00:00",
+    "summary": "Next Day Disclosure Returns, Others, Share BuybackNext Day Disclosure Return",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Announcements and Notices - List of Directors and Their Roles and Functions",
     "publisher": "Meituan",
     "link": "https://media-meituan.todayir.com/20260626223202399312219062_en.pdf",
@@ -93,17 +104,6 @@
     "link": "https://media-meituan.todayir.com/2026050618160148212149201_en.pdf",
     "providerPublishTime": "2026-05-06T00:00:00",
     "summary": "Monthly ReturnsMonthly Return of Equity Issuer on Movements in Securities for the month ended 30 April 2026",
-    "source": "official_meituan",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Partial Early Redemption of the Convertible Bonds - Zero Coupon Convertible Bonds Due 2028",
-    "publisher": "Meituan",
-    "link": "https://media-meituan.todayir.com/202604290046171765261687_en.pdf",
-    "providerPublishTime": "2026-04-28T00:00:00",
-    "summary": "PARTIAL EARLY REDEMPTION OF THE CONVERTIBLE BONDS - ZERO COUPON CONVERTIBLE BONDS DUE 2028",
     "source": "official_meituan",
     "confidence": 0.8,
     "sentiment_score": 0.0,
