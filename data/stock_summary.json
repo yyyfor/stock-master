@@ -3,7 +3,7 @@
     "price": 420.20001,
     "change_pct": 2.03983,
     "market_cap": "$503B",
-    "pe_ratio": 11.041288,
+    "pe_ratio": 11.009847,
     "technical_rating": "Sell",
     "rsi": 39.27986906710312,
     "volatility": 50.69257744643853,
@@ -20,13 +20,13 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-06-29T08:19:37.585783"
+    "last_verified_at": "2026-06-29T10:06:23.545605"
   },
   "alibaba": {
     "price": 93.0,
     "change_pct": 3.91062,
     "market_cap": "$280B",
-    "pe_ratio": 10.012255,
+    "pe_ratio": 10.017641,
     "technical_rating": "Hold",
     "rsi": 17.636914715719058,
     "volatility": 48.02058227706178,
@@ -43,13 +43,13 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-06-29T08:20:17.868488"
+    "last_verified_at": "2026-06-29T10:07:03.649457"
   },
   "xiaomi": {
     "price": 21.86,
     "change_pct": 2.05416,
     "market_cap": "$68B",
-    "pe_ratio": 12.427769,
+    "pe_ratio": 12.43915,
     "technical_rating": "Hold",
     "rsi": 15.151515151515142,
     "volatility": 34.35945458598372,
@@ -66,13 +66,13 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-06-29T08:21:01.492992"
+    "last_verified_at": "2026-06-29T10:07:55.212034"
   },
   "meituan": {
     "price": 67.65,
     "change_pct": 5.29183,
     "market_cap": "$490B",
-    "pe_ratio": 14.253766,
+    "pe_ratio": 14.243239,
     "technical_rating": "Sell",
     "rsi": 30.454545454545467,
     "volatility": 56.16942485942723,
@@ -89,7 +89,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-06-29T08:21:55.649939"
+    "last_verified_at": "2026-06-29T10:08:34.673498"
   },
   "baidu": {
     "price": 128.2,
@@ -141,7 +141,7 @@
     "price": 147.60001,
     "change_pct": -0.0677,
     "market_cap": "$340B",
-    "pe_ratio": 10.290041,
+    "pe_ratio": 10.332041,
     "technical_rating": "Buy",
     "rsi": 61.08786610878658,
     "volatility": 27.37505880425868,
@@ -158,7 +158,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-06-29T08:22:42.999849"
+    "last_verified_at": "2026-06-29T10:09:39.676059"
   },
   "hk3033": {
     "price": 4.308000087738037,
@@ -181,6 +181,6 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-06-29T08:23:18.162403"
+    "last_verified_at": "2026-06-29T10:10:30.238769"
   }
 }
