@@ -2,6 +2,28 @@
   {
     "title": "Next Day Disclosure Return",
     "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260630200801228712223442_en.pdf",
+    "providerPublishTime": "2026-06-30T00:00:00",
+    "summary": "Next Day Disclosure Returns, Share BuybackNext Day Disclosure Return",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Next Day Disclosure Return (resubmission)",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260630164001376912222179_en.pdf",
+    "providerPublishTime": "2026-06-30T00:00:00",
+    "summary": "Next Day Disclosure Returns, Others, Share BuybackNext Day Disclosure Return (Resubmission)",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Next Day Disclosure Return",
+    "publisher": "Meituan",
     "link": "https://media-meituan.todayir.com/2026062920240194212221002_en.pdf",
     "providerPublishTime": "2026-06-29T00:00:00",
     "summary": "Next Day Disclosure Returns, Others, Share BuybackNext Day Disclosure Return",
@@ -82,28 +104,6 @@
     "link": "https://media-meituan.todayir.com/20260601164001218812179923_en.pdf",
     "providerPublishTime": "2026-06-01T00:00:00",
     "summary": "Announcements and Notices - ANNOUNCEMENT OF THE RESULTS\nFOR THE THREE MONTHS ENDED MARCH 31, 2026",
-    "source": "official_meituan",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Announcements and Notices - Date of Board Meeting",
-    "publisher": "Meituan",
-    "link": "https://media-meituan.todayir.com/202605191640014712163395_en.pdf",
-    "providerPublishTime": "2026-05-19T00:00:00",
-    "summary": "Announcements and Notices - Date of Board Meeting",
-    "source": "official_meituan",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Monthly Return of Equity Issuer on Movements in Securities for the month ended 30 April 2026",
-    "publisher": "Meituan",
-    "link": "https://media-meituan.todayir.com/2026050618160148212149201_en.pdf",
-    "providerPublishTime": "2026-05-06T00:00:00",
-    "summary": "Monthly ReturnsMonthly Return of Equity Issuer on Movements in Securities for the month ended 30 April 2026",
     "source": "official_meituan",
     "confidence": 0.8,
     "sentiment_score": 0.0,
