@@ -1,1 +1,112 @@
-[]
+[
+  {
+    "title": "Next Day Disclosure Return",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260630200801228712223442_en.pdf",
+    "providerPublishTime": "2026-06-30T00:00:00",
+    "summary": "Next Day Disclosure Returns, Share BuybackNext Day Disclosure Return",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Next Day Disclosure Return (resubmission)",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260630164001376912222179_en.pdf",
+    "providerPublishTime": "2026-06-30T00:00:00",
+    "summary": "Next Day Disclosure Returns, Others, Share BuybackNext Day Disclosure Return (Resubmission)",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Next Day Disclosure Return",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/2026062920240194212221002_en.pdf",
+    "providerPublishTime": "2026-06-29T00:00:00",
+    "summary": "Next Day Disclosure Returns, Others, Share BuybackNext Day Disclosure Return",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Announcements and Notices - List of Directors and Their Roles and Functions",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260626223202399312219062_en.pdf",
+    "providerPublishTime": "2026-06-26T00:00:00",
+    "summary": "Announcements and Notices - LIST OF DIRECTORS AND THEIR ROLES AND FUNCTIONS",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Announcements and Notices - (1) Poll Results of the Annual General Meeting Held on June 26, 2026; (2) Retirement of Independent Non-executive Director; (3) Appointment of Independent Non-executive Director; and (4) Change in Composition of Board Committees",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260626223202577712219014_en.pdf",
+    "providerPublishTime": "2026-06-26T00:00:00",
+    "summary": "Announcements and Notices - (1) POLL RESULTS OF THE ANNUAL GENERAL MEETING HELD ON JUNE 26, 2026; (2) RETIREMENT OF INDEPENDENT NON-EXECUTIVE DIRECTOR; (3) APPOINTMENT OF INDEPENDENT NON-EXECUTIVE DIRECTOR; AND (4) CHANGE IN COMPOSITION OF BOARD COMMITTEES",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Announcements and Notices - Notice of Annual General Meeting",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260604175601833412189971_en.pdf",
+    "providerPublishTime": "2026-06-04T00:00:00",
+    "summary": "Announcements and Notices - NOTICE OF ANNUAL GENERAL MEETING",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Circulars - (1) Proposed Election of Independent Non-executive Director (2) Proposed Re-election of Independent Non-executive Director (3) Proposed Granting of General Mandates To Issue Shares and Repurchase Shares (4) Proposed Re-appointment of Auditor and (5) Notice of Annual General Meeting",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260604174801398412189929_en.pdf",
+    "providerPublishTime": "2026-06-04T00:00:00",
+    "summary": "Circulars - (1) PROPOSED ELECTION OF INDEPENDENT NON-EXECUTIVE DIRECTOR (2) PROPOSED RE-ELECTION OF INDEPENDENT NON-EXECUTIVE DIRECTOR (3) PROPOSED GRANTING OF GENERAL MANDATES TO ISSUE SHARES AND REPURCHASE SHARES (4) PROPOSED RE-APPOINTMENT OF AUDITOR AND (5) NOTICE OF ANNUAL GENERAL MEETING",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Announcements and Notices - (1) Retirement of Independent Non-executive Director and Proposed Election of Independent Non-executive Director; and (2) Change in Composition of Board Committees",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260604174001375912189836_en.pdf",
+    "providerPublishTime": "2026-06-04T00:00:00",
+    "summary": "Announcements and Notices - (1) RETIREMENT OF INDEPENDENT NON-EXECUTIVE DIRECTOR AND PROPOSED ELECTION OF INDEPENDENT NON-EXECUTIVE DIRECTOR; AND (2) CHANGE IN COMPOSITION OF BOARD COMMITTEES",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Monthly Return of Equity Issuer on Movements in Securities for the month ended 31 May 2026",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/2026060319160173012187735_en.pdf",
+    "providerPublishTime": "2026-06-03T00:00:00",
+    "summary": "Monthly ReturnsMonthly Return of Equity Issuer on Movements in Securities for the month ended 31 May 2026",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Announcements and Notices - Announcement of the Results\nfor the Three Months ended March 31, 2026",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260601164001218812179923_en.pdf",
+    "providerPublishTime": "2026-06-01T00:00:00",
+    "summary": "Announcements and Notices - ANNOUNCEMENT OF THE RESULTS\nFOR THE THREE MONTHS ENDED MARCH 31, 2026",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  }
+]
