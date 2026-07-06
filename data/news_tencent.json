@@ -1,5 +1,16 @@
 [
   {
+    "title": "Tencent Hunyuan Officially Releases Hy3, Advancing Agent Capabilities and Deeper Product Integration",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202386.html",
+    "providerPublishTime": "2026-07-06T00:00:00",
+    "summary": "Tencent today officially launched Hy3.",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Tencent Backs Next-Gen Decarbonization Innovators with Catalytic Funding Through CarbonX 2.0 and Advances Progress Towards Climate Goals",
     "publisher": "Tencent",
     "link": "https://www.tencent.com/en-us/articles/2202371.html",
@@ -93,17 +104,6 @@
     "link": "https://www.tencent.com/en-us/articles/2202332.html",
     "providerPublishTime": "2026-05-20T00:00:00",
     "summary": "Tencent and the Game Culture Foundation (GCF) today announced the signing of a Memorandum of Understanding (MOU).",
-    "source": "official_tencent",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Tencent Signs Partnership Agreements to Advance Gaming and AVGC Talent Development in India",
-    "publisher": "Tencent",
-    "link": "https://www.tencent.com/en-us/articles/2202330.html",
-    "providerPublishTime": "2026-05-18T00:00:00",
-    "summary": "Tencent has signed Memoranda of Understanding with the Services Export Promotion Council and the Game Developer Association of India.",
     "source": "official_tencent",
     "confidence": 0.8,
     "sentiment_score": 0.0,
