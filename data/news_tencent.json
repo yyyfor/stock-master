@@ -1,5 +1,16 @@
 [
   {
+    "title": "Explore the Art and Creativity Behind 40 Game Titles Through “Worlds of Play” Global Art Exhibition in Cologne",
+    "publisher": "Tencent",
+    "link": "https://www.tencent.com/en-us/articles/2202388.html",
+    "providerPublishTime": "2026-07-09T00:00:00",
+    "summary": "Tencent today announced “Worlds of Play: The Game Art Exhibition,” a first-of-its-kind global art exhibition.",
+    "source": "official_tencent",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Tencent Hunyuan Officially Releases Hy3, Advancing Agent Capabilities and Deeper Product Integration",
     "publisher": "Tencent",
     "link": "https://www.tencent.com/en-us/articles/2202386.html",
@@ -93,17 +104,6 @@
     "link": "https://www.tencent.com/en-us/articles/2202340.html",
     "providerPublishTime": "2026-05-27T00:00:00",
     "summary": "New updates shed light on Tencent Games' long-term commitment to providing advanced interactive digital experiences for users worldwide.",
-    "source": "official_tencent",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Tencent Expands Support for Korea’s Game Ecosystem: Partners with Game Culture Foundation and KOCCA",
-    "publisher": "Tencent",
-    "link": "https://www.tencent.com/en-us/articles/2202332.html",
-    "providerPublishTime": "2026-05-20T00:00:00",
-    "summary": "Tencent and the Game Culture Foundation (GCF) today announced the signing of a Memorandum of Understanding (MOU).",
     "source": "official_tencent",
     "confidence": 0.8,
     "sentiment_score": 0.0,
