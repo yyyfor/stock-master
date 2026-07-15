@@ -1,5 +1,16 @@
 [
   {
+    "title": "Announcements and Notices - Grant of Restricted Share Units",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260715220801260812245765_en.pdf",
+    "providerPublishTime": "2026-07-15T00:00:00",
+    "summary": "Announcements and Notices - GRANT OF RESTRICTED SHARE UNITS",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Monthly Return of Equity Issuer on Movements in Securities for the month ended 30 June 2026",
     "publisher": "Meituan",
     "link": "https://media-meituan.todayir.com/20260706204002541812235053_en.pdf",
@@ -93,17 +104,6 @@
     "link": "https://media-meituan.todayir.com/20260604174001375912189836_en.pdf",
     "providerPublishTime": "2026-06-04T00:00:00",
     "summary": "Announcements and Notices - (1) RETIREMENT OF INDEPENDENT NON-EXECUTIVE DIRECTOR AND PROPOSED ELECTION OF INDEPENDENT NON-EXECUTIVE DIRECTOR; AND (2) CHANGE IN COMPOSITION OF BOARD COMMITTEES",
-    "source": "official_meituan",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Monthly Return of Equity Issuer on Movements in Securities for the month ended 31 May 2026",
-    "publisher": "Meituan",
-    "link": "https://media-meituan.todayir.com/2026060319160173012187735_en.pdf",
-    "providerPublishTime": "2026-06-03T00:00:00",
-    "summary": "Monthly ReturnsMonthly Return of Equity Issuer on Movements in Securities for the month ended 31 May 2026",
     "source": "official_meituan",
     "confidence": 0.8,
     "sentiment_score": 0.0,
