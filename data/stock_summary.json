@@ -1,12 +1,12 @@
 {
   "tencent": {
-    "price": 484.6,
-    "change_pct": 2.23629,
+    "price": 484.0,
+    "change_pct": 2.10971,
     "market_cap": "$580B",
-    "pe_ratio": 12.830641,
+    "pe_ratio": 12.809468,
     "technical_rating": "Hold",
-    "rsi": 74.80438775103283,
-    "volatility": 39.37146764905554,
+    "rsi": 74.64567761655255,
+    "volatility": 39.27350757340047,
     "52w_high": 516.4824829101562,
     "52w_low": 411.79998779296875,
     "source": {
@@ -20,16 +20,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-07-16T07:37:46.054425"
+    "last_verified_at": "2026-07-16T10:30:08.705190"
   },
   "alibaba": {
-    "price": 117.5,
-    "change_pct": 3.61552,
-    "market_cap": "$354B",
-    "pe_ratio": 12.56035,
+    "price": 116.9,
+    "change_pct": 3.08642,
+    "market_cap": "$352B",
+    "pe_ratio": 12.496213,
     "technical_rating": "Sell",
-    "rsi": 82.23496265749566,
-    "volatility": 59.168782888673796,
+    "rsi": 81.92420473560807,
+    "volatility": 58.835908850910755,
     "52w_high": 140.7420654296875,
     "52w_low": 89.5,
     "source": {
@@ -43,16 +43,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-07-16T07:38:48.188325"
+    "last_verified_at": "2026-07-16T10:31:02.695355"
   },
   "xiaomi": {
     "price": 27.5,
     "change_pct": 6.34184,
     "market_cap": "$85B",
-    "pe_ratio": 15.733325,
+    "pe_ratio": 15.72189,
     "technical_rating": "Sell",
-    "rsi": 79.86270147730015,
-    "volatility": 56.658438645239784,
+    "rsi": 79.81651396214001,
+    "volatility": 56.551491471881995,
     "52w_high": 32.400001525878906,
     "52w_low": 21.420000076293945,
     "source": {
@@ -66,16 +66,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-07-16T07:39:44.872363"
+    "last_verified_at": "2026-07-16T10:32:08.340514"
   },
   "meituan": {
-    "price": 87.45,
-    "change_pct": 4.85612,
-    "market_cap": "$633B",
-    "pe_ratio": 18.564056,
+    "price": 87.2,
+    "change_pct": 4.55635,
+    "market_cap": "$631B",
+    "pe_ratio": 18.50591,
     "technical_rating": "Hold",
-    "rsi": 84.0,
-    "volatility": 49.851712022740166,
+    "rsi": 83.92282879318918,
+    "volatility": 49.67175329054055,
     "52w_high": 88.75,
     "52w_low": 64.25,
     "source": {
@@ -89,7 +89,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-07-16T07:40:50.693068"
+    "last_verified_at": "2026-07-16T10:33:22.485562"
   },
   "baidu": {
     "price": 128.2,
@@ -138,14 +138,14 @@
     "last_verified_at": "2026-05-22T09:49:10.990736"
   },
   "hsbc": {
-    "price": 157.2,
-    "change_pct": 1.22344,
+    "price": 156.89999,
+    "change_pct": 1.03026,
     "market_cap": "$362B",
-    "pe_ratio": 11.185443,
+    "pe_ratio": 11.156999,
     "technical_rating": "Hold",
-    "rsi": 78.84614256007168,
-    "volatility": 12.23277472732963,
-    "52w_high": 157.3000030517578,
+    "rsi": 78.28944924795236,
+    "volatility": 11.995440687327577,
+    "52w_high": 156.89999389648438,
     "52w_low": 135.2451171875,
     "source": {
       "quote": "akshare",
@@ -158,16 +158,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-07-16T07:42:01.113087"
+    "last_verified_at": "2026-07-16T10:34:39.170155"
   },
   "hk3033": {
-    "price": 4.75600004196167,
-    "change_pct": 2.323586143899367,
+    "price": 4.748000144958496,
+    "change_pct": 2.1514713114930686,
     "market_cap": "$N/A",
-    "pe_ratio": 18.500195,
+    "pe_ratio": 18.469076,
     "technical_rating": "Hold",
-    "rsi": 72.32707263176889,
-    "volatility": 32.63323506573194,
+    "rsi": 72.09305490588254,
+    "volatility": 32.49259034276946,
     "52w_high": 5.09499979019165,
     "52w_low": 4.179999828338623,
     "source": {
@@ -181,6 +181,6 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-07-16T07:43:21.432939"
+    "last_verified_at": "2026-07-16T10:35:43.341733"
   }
 }
