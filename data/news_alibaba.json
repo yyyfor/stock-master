@@ -1,5 +1,16 @@
 [
   {
+    "title": "Alibaba Group Will Announce June Quarter 2026 Results on August 20, 2026",
+    "publisher": "Alibaba Group",
+    "link": "https://www.alibabagroup.com/news-and-resource?documentId=2022412636729114624",
+    "providerPublishTime": "August 7, 2026",
+    "summary": "",
+    "source": "official_alibaba",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Alibaba Group Partners with UEFA Men’s Club Competitions from 2027/28 to 2032/33 and UEFA EURO 2028™",
     "publisher": "Alibaba Group",
     "link": "https://www.alibabagroup.com/news-and-resource?documentId=1998211029250605056",
@@ -97,16 +108,5 @@
     "confidence": 0.8,
     "sentiment_score": 0.0909,
     "sentiment_label": "positive"
-  },
-  {
-    "title": "Alibaba Group Will Announce September Quarter 2025 Results on November 25, 2025",
-    "publisher": "Alibaba Group",
-    "link": "https://www.alibabagroup.com/news-and-resource?documentId=1925331329432420352",
-    "providerPublishTime": "November 12, 2025",
-    "summary": "",
-    "source": "official_alibaba",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
   }
 ]
