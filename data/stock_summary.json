@@ -1,12 +1,12 @@
 {
   "tencent": {
-    "price": 440.4,
-    "change_pct": -0.13605,
+    "price": 440.0,
+    "change_pct": -0.22676,
     "market_cap": "$527B",
-    "pe_ratio": 12.102109,
+    "pe_ratio": 12.091118,
     "technical_rating": "Hold",
-    "rsi": 48.837206763109116,
-    "volatility": 40.93555724791665,
+    "rsi": 48.66310174972868,
+    "volatility": 40.929230833849715,
     "52w_high": 492.20001220703125,
     "52w_low": 411.79998779296875,
     "source": {
@@ -20,16 +20,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-08-14T07:58:36.308469"
+    "last_verified_at": "2026-08-14T09:38:38.759093"
   },
   "alibaba": {
-    "price": 119.3,
-    "change_pct": -2.1329,
-    "market_cap": "$359B",
-    "pe_ratio": 12.929024,
+    "price": 119.9,
+    "change_pct": -1.64069,
+    "market_cap": "$361B",
+    "pe_ratio": 12.983166,
     "technical_rating": "Buy",
-    "rsi": 61.93182396987429,
-    "volatility": 42.43032021385334,
+    "rsi": 62.82421363894308,
+    "volatility": 42.172106785554945,
     "52w_high": 137.74542236328125,
     "52w_low": 89.5,
     "source": {
@@ -43,16 +43,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-08-14T07:59:31.562976"
+    "last_verified_at": "2026-08-14T09:39:33.179907"
   },
   "xiaomi": {
-    "price": 25.66,
-    "change_pct": -0.85008,
+    "price": 25.62,
+    "change_pct": -1.00463,
     "market_cap": "$79B",
-    "pe_ratio": 15.618845,
+    "pe_ratio": 15.5918865,
     "technical_rating": "Hold",
-    "rsi": 36.197436760226715,
-    "volatility": 57.50964924652471,
+    "rsi": 36.065573200946865,
+    "volatility": 57.53026129661851,
     "52w_high": 31.8799991607666,
     "52w_low": 21.420000076293945,
     "source": {
@@ -66,11 +66,11 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-08-14T08:00:26.860156"
+    "last_verified_at": "2026-08-14T09:40:26.493783"
   },
   "meituan": {
-    "price": 87.15,
-    "change_pct": -4.49315,
+    "price": 87.2,
+    "change_pct": -4.43836,
     "market_cap": "$631B",
     "pe_ratio": 18.4136,
     "technical_rating": "Hold",
@@ -89,7 +89,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-08-14T08:01:32.057559"
+    "last_verified_at": "2026-08-14T09:41:24.599903"
   },
   "baidu": {
     "price": 128.2,
@@ -158,16 +158,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-08-14T08:02:27.762956"
+    "last_verified_at": "2026-08-14T09:42:12.141660"
   },
   "hk3033": {
-    "price": 4.625999927520752,
-    "change_pct": -1.1960749846265342,
+    "price": 4.616000175476074,
+    "change_pct": -1.4096536198783036,
     "market_cap": "$N/A",
-    "pe_ratio": 17.653658,
+    "pe_ratio": 17.615496,
     "technical_rating": "Hold",
-    "rsi": 55.35714394323211,
-    "volatility": 24.753668214385797,
+    "rsi": 54.659968531174556,
+    "volatility": 24.915093113247085,
     "52w_high": 5.09499979019165,
     "52w_low": 4.179999828338623,
     "source": {
@@ -181,6 +181,6 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-08-14T08:03:24.235989"
+    "last_verified_at": "2026-08-14T09:43:12.152097"
   }
 }
