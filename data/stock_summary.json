@@ -20,7 +20,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-08-17T04:21:21.059687"
+    "last_verified_at": "2026-08-17T05:11:33.038595"
   },
   "alibaba": {
     "price": 122.0,
@@ -43,7 +43,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-08-17T04:22:05.261827"
+    "last_verified_at": "2026-08-17T05:12:28.959106"
   },
   "xiaomi": {
     "price": 26.16,
@@ -66,7 +66,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-08-17T04:22:52.768253"
+    "last_verified_at": "2026-08-17T05:13:26.910424"
   },
   "meituan": {
     "price": 88.3,
@@ -89,7 +89,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-08-17T04:23:39.116289"
+    "last_verified_at": "2026-08-17T05:14:15.559415"
   },
   "baidu": {
     "price": 128.2,
@@ -141,10 +141,10 @@
     "price": 163.4,
     "change_pct": 1.61692,
     "market_cap": "$377B",
-    "pe_ratio": 11.275904,
+    "pe_ratio": 11.262102,
     "technical_rating": "Buy",
-    "rsi": 53.03856613102596,
-    "volatility": 19.70401202302049,
+    "rsi": 52.65503681553848,
+    "volatility": 19.59321715153935,
     "52w_high": 168.0957794189453,
     "52w_low": 135.21617126464844,
     "source": {
@@ -158,16 +158,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-08-17T04:24:22.276630"
+    "last_verified_at": "2026-08-17T05:15:09.618951"
   },
   "hk3033": {
-    "price": 4.711999893188477,
-    "change_pct": 2.079716509163723,
+    "price": 4.716000080108643,
+    "change_pct": 2.166375667918054,
     "market_cap": "$N/A",
-    "pe_ratio": 17.98185,
+    "pe_ratio": 17.997114,
     "technical_rating": "Buy",
-    "rsi": 54.086529919820265,
-    "volatility": 24.19447980603146,
+    "rsi": 54.306221869600996,
+    "volatility": 24.294995977676756,
     "52w_high": 5.09499979019165,
     "52w_low": 4.179999828338623,
     "source": {
@@ -181,6 +181,6 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-08-17T04:25:08.614076"
+    "last_verified_at": "2026-08-17T05:16:03.818372"
   }
 }
