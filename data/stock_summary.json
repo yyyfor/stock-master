@@ -3,10 +3,10 @@
     "price": 443.4,
     "change_pct": -0.67204,
     "market_cap": "$531B",
-    "pe_ratio": 12.226545,
+    "pe_ratio": 12.221028,
     "technical_rating": "Hold",
-    "rsi": 38.211390686741694,
-    "volatility": 32.9026236960193,
+    "rsi": 38.133878068974056,
+    "volatility": 32.91689914568681,
     "52w_high": 492.20001220703125,
     "52w_low": 411.79998779296875,
     "source": {
@@ -20,16 +20,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-08-18T07:21:54.458812"
+    "last_verified_at": "2026-08-18T08:04:56.244729"
   },
   "alibaba": {
-    "price": 127.1,
-    "change_pct": 4.00982,
-    "market_cap": "$382B",
-    "pe_ratio": 13.782141,
+    "price": 127.6,
+    "change_pct": 4.41899,
+    "market_cap": "$384B",
+    "pe_ratio": 13.81462,
     "technical_rating": "Buy",
-    "rsi": 67.34178129592728,
-    "volatility": 43.024085567360565,
+    "rsi": 67.58794509287928,
+    "volatility": 43.299616626423735,
     "52w_high": 133.1505889892578,
     "52w_low": 89.5,
     "source": {
@@ -43,16 +43,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-08-18T07:22:49.862855"
+    "last_verified_at": "2026-08-18T08:05:40.037618"
   },
   "xiaomi": {
-    "price": 26.28,
-    "change_pct": 1.5456,
+    "price": 26.26,
+    "change_pct": 1.46832,
     "market_cap": "$81B",
-    "pe_ratio": 15.966516,
+    "pe_ratio": 15.990856,
     "technical_rating": "Hold",
-    "rsi": 16.428565914126594,
-    "volatility": 57.149574748515874,
+    "rsi": 16.824648191295353,
+    "volatility": 57.202922571985006,
     "52w_high": 31.8799991607666,
     "52w_low": 21.420000076293945,
     "source": {
@@ -66,16 +66,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-08-18T07:23:38.806171"
+    "last_verified_at": "2026-08-18T08:06:32.755714"
   },
   "meituan": {
-    "price": 85.5,
-    "change_pct": -2.45294,
-    "market_cap": "$619B",
-    "pe_ratio": 18.03687,
+    "price": 85.65,
+    "change_pct": -2.2818,
+    "market_cap": "$620B",
+    "pe_ratio": 18.057978,
     "technical_rating": "Buy",
-    "rsi": 26.297601787545275,
-    "volatility": 30.4972326376897,
+    "rsi": 26.48087124897522,
+    "volatility": 30.36861757640233,
     "52w_high": 93.9000015258789,
     "52w_low": 64.25,
     "source": {
@@ -89,7 +89,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-08-18T07:24:28.610202"
+    "last_verified_at": "2026-08-18T08:07:24.913857"
   },
   "baidu": {
     "price": 128.2,
@@ -138,13 +138,13 @@
     "last_verified_at": "2026-05-22T09:49:10.990736"
   },
   "hsbc": {
-    "price": 162.2,
-    "change_pct": -0.79511,
-    "market_cap": "$374B",
-    "pe_ratio": 11.193797,
+    "price": 162.5,
+    "change_pct": -0.61162,
+    "market_cap": "$375B",
+    "pe_ratio": 11.221403,
     "technical_rating": "Hold",
-    "rsi": 44.8740764322069,
-    "volatility": 19.46540719134927,
+    "rsi": 45.65483882314915,
+    "volatility": 19.331880722179566,
     "52w_high": 168.0957794189453,
     "52w_low": 135.21617126464844,
     "source": {
@@ -158,16 +158,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-08-18T07:25:21.560480"
+    "last_verified_at": "2026-08-18T08:08:18.281748"
   },
   "hk3033": {
-    "price": 4.6539998054504395,
-    "change_pct": 0.8232155227430449,
+    "price": 4.6579999923706055,
+    "change_pct": 0.9098746814973759,
     "market_cap": "$N/A",
-    "pe_ratio": 17.76051,
+    "pe_ratio": 17.775776,
     "technical_rating": "Hold",
-    "rsi": 50.645979072138594,
-    "volatility": 23.14971443206184,
+    "rsi": 50.8997391491949,
+    "volatility": 23.195837888081645,
     "52w_high": 5.09499979019165,
     "52w_low": 4.179999828338623,
     "source": {
@@ -181,6 +181,6 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-08-18T07:26:18.160521"
+    "last_verified_at": "2026-08-18T08:09:09.362916"
   }
 }
