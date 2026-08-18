@@ -1,5 +1,16 @@
 [
   {
+    "title": "Announcements and Notices - Date of Board Meeting",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20260818164801378712288169_en.pdf",
+    "providerPublishTime": "2026-08-18T00:00:00",
+    "summary": "Announcements and Notices - Date of Board Meeting",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Monthly Return of Equity Issuer on Movements in Securities for the month ended 31 July 2026",
     "publisher": "Meituan",
     "link": "https://media-meituan.todayir.com/20260806164801302712275016_en.pdf",
@@ -93,17 +104,6 @@
     "link": "https://media-meituan.todayir.com/20260604175601833412189971_en.pdf",
     "providerPublishTime": "2026-06-04T00:00:00",
     "summary": "Announcements and Notices - NOTICE OF ANNUAL GENERAL MEETING",
-    "source": "official_meituan",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Circulars - (1) Proposed Election of Independent Non-executive Director (2) Proposed Re-election of Independent Non-executive Director (3) Proposed Granting of General Mandates To Issue Shares and Repurchase Shares (4) Proposed Re-appointment of Auditor and (5) Notice of Annual General Meeting",
-    "publisher": "Meituan",
-    "link": "https://media-meituan.todayir.com/20260604174801398412189929_en.pdf",
-    "providerPublishTime": "2026-06-04T00:00:00",
-    "summary": "Circulars - (1) PROPOSED ELECTION OF INDEPENDENT NON-EXECUTIVE DIRECTOR (2) PROPOSED RE-ELECTION OF INDEPENDENT NON-EXECUTIVE DIRECTOR (3) PROPOSED GRANTING OF GENERAL MANDATES TO ISSUE SHARES AND REPURCHASE SHARES (4) PROPOSED RE-APPOINTMENT OF AUDITOR AND (5) NOTICE OF ANNUAL GENERAL MEETING",
     "source": "official_meituan",
     "confidence": 0.8,
     "sentiment_score": 0.0,
