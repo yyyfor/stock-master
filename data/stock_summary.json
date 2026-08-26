@@ -3,10 +3,10 @@
     "price": 445.39999,
     "change_pct": 0.76923,
     "market_cap": "$533B",
-    "pe_ratio": 12.330684,
+    "pe_ratio": 12.308576,
     "technical_rating": "Hold",
-    "rsi": 32.18143253278002,
-    "volatility": 30.010577504137732,
+    "rsi": 31.59040764229151,
+    "volatility": 29.919277721180205,
     "52w_high": 492.20001220703125,
     "52w_low": 411.79998779296875,
     "source": {
@@ -20,16 +20,16 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-08-26T08:20:40.274132"
+    "last_verified_at": "2026-08-26T09:26:35.356363"
   },
   "alibaba": {
     "price": 116.6,
     "change_pct": 2.10158,
     "market_cap": "$351B",
-    "pe_ratio": 12.469733,
+    "pe_ratio": 12.501899,
     "technical_rating": "Hold",
-    "rsi": 39.64194123880738,
-    "volatility": 52.50837048478976,
+    "rsi": 40.101513602985456,
+    "volatility": 52.62106219814927,
     "52w_high": 130.75326538085938,
     "52w_low": 89.5,
     "source": {
@@ -43,12 +43,12 @@
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-08-26T08:21:35.672115"
+    "last_verified_at": "2026-08-26T09:27:27.496459"
   },
   "xiaomi": {
-    "price": 28.459999084472656,
-    "change_pct": 2.521609689550842,
-    "market_cap": "$732B",
+    "price": 28.46,
+    "change_pct": 2.52161,
+    "market_cap": "$88B",
     "pe_ratio": 18.48478,
     "technical_rating": "Buy",
     "rsi": 59.852208648934585,
@@ -56,17 +56,17 @@
     "52w_high": 31.8799991607666,
     "52w_low": 21.420000076293945,
     "source": {
-      "quote": "yfinance",
+      "quote": "akshare",
       "ohlcv": "yfinance",
       "fundamentals": "yfinance"
     },
     "confidence": {
-      "quote": 0.85,
+      "quote": 0.95,
       "ohlcv": 0.85,
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-08-26T08:26:51.774815"
+    "last_verified_at": "2026-08-26T09:28:28.058662"
   },
   "meituan": {
     "price": 78.05,
@@ -89,7 +89,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-08-26T08:28:12.386428"
+    "last_verified_at": "2026-08-26T09:29:30.668251"
   },
   "baidu": {
     "price": 128.2,
@@ -158,7 +158,7 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-08-26T08:29:30.459322"
+    "last_verified_at": "2026-08-26T09:30:23.908021"
   },
   "hk3033": {
     "price": 4.5320000648498535,
@@ -181,6 +181,6 @@
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-08-26T08:30:33.879671"
+    "last_verified_at": "2026-08-26T09:31:08.602168"
   }
 }
