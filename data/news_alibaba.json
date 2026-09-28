@@ -1,5 +1,16 @@
 [
   {
+    "title": "Brooklyn Sports & Entertainment Names Alibaba Group an Official Technology and Cloud Partner of the Brooklyn Nets",
+    "publisher": "Alibaba Group",
+    "link": "https://www.alibabagroup.com/news-and-resource?documentId=2041385426245124096",
+    "providerPublishTime": "September 28, 2026",
+    "summary": "",
+    "source": "official_alibaba",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Amap Street Stars Rides Ahead with Mercedes-Benz as the First Global Automotive Partner (Chinese Only)",
     "publisher": "Alibaba Group",
     "link": "https://www.alibabagroup.com/news-and-resource?documentId=2034722487995990016",
@@ -92,17 +103,6 @@
     "publisher": "Alibaba Group",
     "link": "https://www.alibabagroup.com/news-and-resource?documentId=1971014025827319808",
     "providerPublishTime": "March 19, 2026",
-    "summary": "",
-    "source": "official_alibaba",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Alibaba Group Will Announce December Quarter 2025 Results on March 19, 2026",
-    "publisher": "Alibaba Group",
-    "link": "https://www.alibabagroup.com/news-and-resource?documentId=1965937613500055552",
-    "providerPublishTime": "March 6, 2026",
     "summary": "",
     "source": "official_alibaba",
     "confidence": 0.8,
