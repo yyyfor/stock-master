@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-13T08:24:36.507706",
+  "timestamp": "2026-10-13T16:29:27.926676",
   "companies": {
     "tencent": {
       "price": 425.20001,
@@ -49,11 +49,11 @@
       "market_cap_billion": 509,
       "market_cap_display": "$509B",
       "market_cap_hkd": "HK$3975B",
-      "pe_ratio": 11.750537,
-      "pb_ratio": 2.8650923,
-      "ps_ratio": 4.84264,
+      "pe_ratio": 11.783793,
+      "pb_ratio": 2.8732011,
+      "ps_ratio": 4.856346,
       "peg_ratio": 1.31,
-      "ev_ebitda": 13.239,
+      "ev_ebitda": 13.221,
       "fcf_yield": 23.242875612355085,
       "roe": 19.906001,
       "roa": 7.867,
@@ -80,8 +80,8 @@
         "ohlcv": 0.95,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-10-13T08:20:47.019195",
-      "last_verified_at": "2026-10-13T08:20:49.038191",
+      "source_timestamp": "2026-10-13T16:21:16.538804",
+      "last_verified_at": "2026-10-13T16:21:19.488094",
       "is_estimated": false,
       "estimated_fields": [],
       "company_name": "Tencent",
@@ -163,10 +163,10 @@
       "market_cap_display": "$322B",
       "market_cap_hkd": "HK$2519B",
       "pe_ratio": 11.806022,
-      "pb_ratio": 1.630324,
+      "pb_ratio": 1.6267766,
       "ps_ratio": 2.041674,
       "peg_ratio": 0.51,
-      "ev_ebitda": 19.755,
+      "ev_ebitda": 19.567,
       "fcf_yield": -25.588447302889804,
       "roe": 6.36,
       "roa": 1.5620001,
@@ -193,8 +193,8 @@
         "ohlcv": 0.95,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-10-13T08:21:32.702239",
-      "last_verified_at": "2026-10-13T08:21:33.707237",
+      "source_timestamp": "2026-10-13T16:22:10.573397",
+      "last_verified_at": "2026-10-13T16:22:11.986322",
       "is_estimated": false,
       "estimated_fields": [],
       "company_name": "Alibaba",
@@ -275,11 +275,11 @@
       "market_cap_billion": 78,
       "market_cap_display": "$78B",
       "market_cap_hkd": "HK$608B",
-      "pe_ratio": 16.314497,
-      "pb_ratio": 2.0315995,
-      "ps_ratio": 1.4692405,
+      "pe_ratio": 16.340601,
+      "pb_ratio": 2.0348501,
+      "ps_ratio": 1.4714693,
       "peg_ratio": 2.65,
-      "ev_ebitda": 19.597,
+      "ev_ebitda": 20.071,
       "fcf_yield": -11.127802607975386,
       "roe": 12.626999999999999,
       "roa": 2.5989999999999998,
@@ -306,8 +306,8 @@
         "ohlcv": 0.95,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-10-13T08:22:18.530131",
-      "last_verified_at": "2026-10-13T08:22:20.019211",
+      "source_timestamp": "2026-10-13T16:23:21.828339",
+      "last_verified_at": "2026-10-13T16:23:23.349701",
       "is_estimated": false,
       "estimated_fields": [],
       "company_name": "Xiaomi",
@@ -388,11 +388,11 @@
       "market_cap_billion": 523,
       "market_cap_display": "$523B",
       "market_cap_hkd": "HK$4084B",
-      "pe_ratio": 14.922629,
-      "pb_ratio": 2.2498739,
-      "ps_ratio": 1.1639497,
+      "pe_ratio": 14.913439,
+      "pb_ratio": 2.2484882,
+      "ps_ratio": 1.1655619,
       "peg_ratio": 28.72,
-      "ev_ebitda": -9.742,
+      "ev_ebitda": -9.823,
       "fcf_yield": -4.60314442084236,
       "roe": -21.756001,
       "roa": -8.067001,
@@ -408,7 +408,7 @@
       "fcf_billion": -24.107198464,
       "dividend_yield": 0.0,
       "beta": 0.244,
-      "eps": -7.09,
+      "eps": -7.06,
       "source": {
         "quote": "akshare",
         "ohlcv": "akshare",
@@ -419,8 +419,8 @@
         "ohlcv": 0.95,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-10-13T08:23:07.793957",
-      "last_verified_at": "2026-10-13T08:23:08.936252",
+      "source_timestamp": "2026-10-13T16:24:30.886292",
+      "last_verified_at": "2026-10-13T16:24:33.366460",
       "is_estimated": true,
       "estimated_fields": [
         "earnings_growth"
@@ -760,8 +760,8 @@
         "ohlcv": 0.95,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-10-13T08:23:48.801255",
-      "last_verified_at": "2026-10-13T08:23:50.916611",
+      "source_timestamp": "2026-10-13T16:25:58.414506",
+      "last_verified_at": "2026-10-13T16:26:00.958541",
       "is_estimated": true,
       "estimated_fields": [
         "earnings_growth",
@@ -926,7 +926,9 @@
         "volatility": "Annualized volatility 21.9% with ATR 2.2%.",
         "derivative": "Expected daily move HK$0.06; support HK$3.99, resistance HK$4.35."
       },
-      "stale": false
+      "stale": true,
+      "stale_reason": "live fetch failed: Missing base market data for hk3033",
+      "last_attempt_at": "2026-10-13T16:29:27.916274"
     }
   },
   "schema_version": "v1"
