@@ -1,95 +1,95 @@
 {
   "tencent": {
-    "price": 400.8,
-    "change_pct": -2.33918,
-    "market_cap": "$480B",
-    "pe_ratio": 11.269039,
+    "price": 393.79999,
+    "change_pct": -4.04484,
+    "market_cap": "$472B",
+    "pe_ratio": 11.072225,
     "technical_rating": "Hold",
-    "rsi": 28.763440860215056,
-    "volatility": 22.719539035566598,
-    "52w_high": 492.2,
-    "52w_low": 400.4,
+    "rsi": 26.419745551215286,
+    "volatility": 25.022470270711537,
+    "52w_high": 492.20001220703125,
+    "52w_low": 393.79998779296875,
     "source": {
       "quote": "akshare",
-      "ohlcv": "akshare",
+      "ohlcv": "yfinance",
       "fundamentals": "yfinance"
     },
     "confidence": {
       "quote": 0.95,
-      "ohlcv": 0.95,
+      "ohlcv": 0.85,
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-10-21T06:29:12.515056"
+    "last_verified_at": "2026-10-21T12:17:29.480093"
   },
   "alibaba": {
-    "price": 104.7,
-    "change_pct": -0.19066,
-    "market_cap": "$315B",
-    "pe_ratio": 11.646682,
+    "price": 103.7,
+    "change_pct": -1.14395,
+    "market_cap": "$312B",
+    "pe_ratio": 11.537581,
     "technical_rating": "Sell",
-    "rsi": 46.93877551020409,
-    "volatility": 34.46777877722642,
-    "52w_high": 128.1,
-    "52w_low": 104.3,
+    "rsi": 45.84717481660298,
+    "volatility": 34.549297770429746,
+    "52w_high": 128.10000610351562,
+    "52w_low": 103.69999694824219,
     "source": {
       "quote": "akshare",
-      "ohlcv": "akshare",
+      "ohlcv": "yfinance",
       "fundamentals": "yfinance"
     },
     "confidence": {
       "quote": 0.95,
-      "ohlcv": 0.95,
+      "ohlcv": 0.85,
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-10-21T06:29:50.737760"
+    "last_verified_at": "2026-10-21T12:18:15.213262"
   },
   "xiaomi": {
     "price": 26.8,
     "change_pct": -0.96083,
     "market_cap": "$83B",
-    "pe_ratio": 17.48342,
+    "pe_ratio": 17.496475,
     "technical_rating": "Hold",
-    "rsi": 57.9591836734694,
-    "volatility": 54.550520325690286,
-    "52w_high": 31.88,
-    "52w_low": 23.66,
+    "rsi": 58.19671490409514,
+    "volatility": 54.51416956524391,
+    "52w_high": 31.8799991607666,
+    "52w_low": 23.65999984741211,
     "source": {
       "quote": "akshare",
-      "ohlcv": "akshare",
+      "ohlcv": "yfinance",
       "fundamentals": "yfinance"
     },
     "confidence": {
       "quote": 0.95,
-      "ohlcv": 0.95,
+      "ohlcv": 0.85,
       "fundamentals": 0.8
     },
     "is_estimated": false,
-    "last_verified_at": "2026-10-21T06:30:26.235131"
+    "last_verified_at": "2026-10-21T12:19:01.040188"
   },
   "meituan": {
-    "price": 74.95,
-    "change_pct": -1.51117,
-    "market_cap": "$542B",
-    "pe_ratio": 15.470938,
+    "price": 74.7,
+    "change_pct": -1.83969,
+    "market_cap": "$541B",
+    "pe_ratio": 15.409053,
     "technical_rating": "Hold",
-    "rsi": 65.17571884984031,
-    "volatility": 31.64829168133912,
-    "52w_high": 93.9,
-    "52w_low": 69.4,
+    "rsi": 63.157887277767436,
+    "volatility": 32.10081998959053,
+    "52w_high": 93.9000015258789,
+    "52w_low": 69.4000015258789,
     "source": {
       "quote": "akshare",
-      "ohlcv": "akshare",
+      "ohlcv": "yfinance",
       "fundamentals": "yfinance"
     },
     "confidence": {
       "quote": 0.95,
-      "ohlcv": 0.95,
+      "ohlcv": 0.85,
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-10-21T06:31:05.734397"
+    "last_verified_at": "2026-10-21T12:19:49.577528"
   },
   "baidu": {
     "price": 128.2,
@@ -138,49 +138,49 @@
     "last_verified_at": "2026-05-22T09:49:10.990736"
   },
   "hsbc": {
-    "price": 145.9,
-    "change_pct": 0.8293,
+    "price": 145.8,
+    "change_pct": 0.7602,
     "market_cap": "$336B",
-    "pe_ratio": 10.025682,
+    "pe_ratio": 10.018811,
     "technical_rating": "Sell",
-    "rsi": 34.679334916864605,
-    "volatility": 34.10234704717466,
-    "52w_high": 167.6,
-    "52w_low": 142.6,
+    "rsi": 34.210531118983866,
+    "volatility": 33.997352138927624,
+    "52w_high": 167.60000610351562,
+    "52w_low": 142.60000610351562,
     "source": {
       "quote": "akshare",
-      "ohlcv": "akshare",
+      "ohlcv": "yfinance",
       "fundamentals": "yfinance"
     },
     "confidence": {
       "quote": 0.95,
-      "ohlcv": 0.95,
+      "ohlcv": 0.85,
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-10-21T06:31:49.570903"
+    "last_verified_at": "2026-10-21T12:20:39.122880"
   },
   "hk3033": {
-    "price": 3.937999963760376,
-    "change_pct": -2.2343574204766288,
+    "price": 3.921999931335449,
+    "change_pct": -1.4077424666949676,
     "market_cap": "$N/A",
-    "pe_ratio": 16.936823,
+    "pe_ratio": 16.86801,
     "technical_rating": "Sell",
-    "rsi": 35.78947368421048,
-    "volatility": 21.770078716329465,
-    "52w_high": 4.84,
-    "52w_low": 3.936,
+    "rsi": 35.14212085293458,
+    "volatility": 21.92010885164177,
+    "52w_high": 4.840000152587891,
+    "52w_low": 3.921999931335449,
     "source": {
       "quote": "yfinance",
-      "ohlcv": "akshare",
+      "ohlcv": "yfinance",
       "fundamentals": "yfinance"
     },
     "confidence": {
       "quote": 0.85,
-      "ohlcv": 0.95,
+      "ohlcv": 0.85,
       "fundamentals": 0.8
     },
     "is_estimated": true,
-    "last_verified_at": "2026-10-21T06:32:25.613618"
+    "last_verified_at": "2026-10-21T12:21:32.453841"
   }
 }
