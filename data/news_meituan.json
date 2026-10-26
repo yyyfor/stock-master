@@ -1,5 +1,16 @@
 [
   {
+    "title": "Announcements and Notices - Proposed Issue of Cny Denominated Senior Notes",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20261026075602721812382423_en.pdf",
+    "providerPublishTime": "2026-10-26T00:00:00",
+    "summary": "Announcements and Notices - PROPOSED ISSUE OF CNY DENOMINATED SENIOR NOTES",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Monthly Return of Equity Issuer on Movements in Securities for the month ended 30 September 2026",
     "publisher": "Meituan",
     "link": "https://media-meituan.todayir.com/2026100716400177912365034_en.pdf",
@@ -93,17 +104,6 @@
     "link": "https://media-meituan.todayir.com/20260630164001376912222179_en.pdf",
     "providerPublishTime": "2026-06-30T00:00:00",
     "summary": "Next Day Disclosure Returns, Others, Share BuybackNext Day Disclosure Return (Resubmission)",
-    "source": "official_meituan",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Next Day Disclosure Return",
-    "publisher": "Meituan",
-    "link": "https://media-meituan.todayir.com/2026062920240194212221002_en.pdf",
-    "providerPublishTime": "2026-06-29T00:00:00",
-    "summary": "Next Day Disclosure Returns, Others, Share BuybackNext Day Disclosure Return",
     "source": "official_meituan",
     "confidence": 0.8,
     "sentiment_score": 0.0,
