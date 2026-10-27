@@ -1,5 +1,16 @@
 [
   {
+    "title": "Announcements and Notices - Grant of Restricted Share Units",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20261027220801253512385009_en.pdf",
+    "providerPublishTime": "2026-10-27T00:00:00",
+    "summary": "Announcements and Notices - GRANT OF RESTRICTED SHARE UNITS",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Announcements and Notices - Proposed Issue of Cny Denominated Senior Notes",
     "publisher": "Meituan",
     "link": "https://media-meituan.todayir.com/20261026075602721812382423_en.pdf",
@@ -93,17 +104,6 @@
     "link": "https://media-meituan.todayir.com/20260630200801228712223442_en.pdf",
     "providerPublishTime": "2026-06-30T00:00:00",
     "summary": "Next Day Disclosure Returns, Share BuybackNext Day Disclosure Return",
-    "source": "official_meituan",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Next Day Disclosure Return (resubmission)",
-    "publisher": "Meituan",
-    "link": "https://media-meituan.todayir.com/20260630164001376912222179_en.pdf",
-    "providerPublishTime": "2026-06-30T00:00:00",
-    "summary": "Next Day Disclosure Returns, Others, Share BuybackNext Day Disclosure Return (Resubmission)",
     "source": "official_meituan",
     "confidence": 0.8,
     "sentiment_score": 0.0,
