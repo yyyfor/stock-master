@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-03T08:34:08.210549",
+  "timestamp": "2026-11-03T16:35:12.931222",
   "companies": {
     "tencent": {
       "price": 397.20001,
@@ -80,8 +80,8 @@
         "ohlcv": 0.95,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-11-03T08:29:50.878296",
-      "last_verified_at": "2026-11-03T08:29:53.450762",
+      "source_timestamp": "2026-11-03T16:29:23.699185",
+      "last_verified_at": "2026-11-03T16:29:26.331042",
       "is_estimated": false,
       "estimated_fields": [],
       "company_name": "Tencent",
@@ -193,8 +193,8 @@
         "ohlcv": 0.95,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-11-03T08:30:39.992555",
-      "last_verified_at": "2026-11-03T08:30:41.425750",
+      "source_timestamp": "2026-11-03T16:30:14.508414",
+      "last_verified_at": "2026-11-03T16:30:15.796152",
       "is_estimated": false,
       "estimated_fields": [],
       "company_name": "Alibaba",
@@ -275,7 +275,7 @@
       "market_cap_billion": 89,
       "market_cap_display": "$89B",
       "market_cap_hkd": "HK$694B",
-      "pe_ratio": 19.204075,
+      "pe_ratio": 19.189842,
       "pb_ratio": 2.319937,
       "ps_ratio": 1.6799606,
       "peg_ratio": 2.86,
@@ -306,8 +306,8 @@
         "ohlcv": 0.95,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-11-03T08:31:28.447133",
-      "last_verified_at": "2026-11-03T08:31:30.160411",
+      "source_timestamp": "2026-11-03T16:31:00.666374",
+      "last_verified_at": "2026-11-03T16:31:02.492908",
       "is_estimated": false,
       "estimated_fields": [],
       "company_name": "Xiaomi",
@@ -418,8 +418,8 @@
         "ohlcv": 0.95,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-11-03T08:32:24.053021",
-      "last_verified_at": "2026-11-03T08:32:25.345209",
+      "source_timestamp": "2026-11-03T16:31:42.579465",
+      "last_verified_at": "2026-11-03T16:31:44.039640",
       "is_estimated": true,
       "estimated_fields": [
         "earnings_growth"
@@ -759,8 +759,8 @@
         "ohlcv": 0.95,
         "fundamentals": 0.8
       },
-      "source_timestamp": "2026-11-03T08:33:11.275542",
-      "last_verified_at": "2026-11-03T08:33:13.942046",
+      "source_timestamp": "2026-11-03T16:32:25.672703",
+      "last_verified_at": "2026-11-03T16:32:28.673513",
       "is_estimated": true,
       "estimated_fields": [
         "debt_equity",
@@ -924,7 +924,9 @@
         "volatility": "Annualized volatility 32.2% with ATR 3.0%.",
         "derivative": "Expected daily move HK$0.08; support HK$3.67, resistance HK$4.14."
       },
-      "stale": false
+      "stale": true,
+      "stale_reason": "live fetch failed: Missing base market data for hk3033",
+      "last_attempt_at": "2026-11-03T16:35:12.920743"
     }
   },
   "schema_version": "v1"
