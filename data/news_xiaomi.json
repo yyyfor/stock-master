@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "title": "Xiaomi Strengthens Data Protection with Independent Audit of Compliance",
+    "publisher": "Xiaomi Corporation News Releases",
+    "link": "https://ir.mi.com/news-releases/news-release-details/xiaomi-strengthens-data-protection-independent-audit-compliance",
+    "providerPublishTime": "2022-02-02T23:05:00-05:00",
+    "summary": "BEIJING , Feb. 3, 2022 /PRNewswire/ -- Xiaomi , a consumer electronics and smart manufacturing company with smartphones and smart hardware connected by an IoT platform at its core, has today announced the findings of an independent review into its data protection compliance.",
+    "source": "official_xiaomi",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Xiaomi Strengthens Its Position on Consumer IoT Security with Proposed Global Common Standards",
+    "publisher": "Xiaomi Corporation News Releases",
+    "link": "https://ir.mi.com/news-releases/news-release-details/xiaomi-strengthens-its-position-consumer-iot-security-proposed",
+    "providerPublishTime": "2022-01-17T04:01:00-05:00",
+    "summary": "Xiaomi releases Cyber Security Baseline for Consumer Internet of Things Device Version 2.0, a new global standards guideline on IoT, and, at the same time, announces Xiaomi Mesh System AX3000 has obtained BSI IoT Kitemark™ Certificate, two important steps to strengthen IoT security policies and",
+    "source": "official_xiaomi",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "IoTSF Puts Xiaomi's IoT Security Policy Among the World's Best",
+    "publisher": "Xiaomi Corporation News Releases",
+    "link": "https://ir.mi.com/news-releases/news-release-details/iotsf-puts-xiaomis-iot-security-policy-among-worlds-best",
+    "providerPublishTime": "2021-11-11T03:17:00-05:00",
+    "summary": "BEIJING , Nov. 11, 2021 /PRNewswire/ -- Xiaomi Corporation (\" Xiaomi \" or the \"Group\"), a consumer electronics and smart manufacturing company, has been given a top rating for its IoT security by the Internet of Things Security Foundation (IoTSF). Xiaomi participated in the IoTSF 2021 Virtual",
+    "source": "official_xiaomi",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Xiaomi Launches Master Class Series on Mobile Photography",
+    "publisher": "Xiaomi Corporation News Releases",
+    "link": "https://ir.mi.com/news-releases/news-release-details/xiaomi-launches-master-class-series-mobile-photography",
+    "providerPublishTime": "2021-10-20T09:00:00-04:00",
+    "summary": "",
+    "source": "official_xiaomi",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  }
+]
