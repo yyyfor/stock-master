@@ -1,5 +1,27 @@
 [
   {
+    "title": "Alibaba Group Announces September Quarter 2026 Results and Interim Results for the Six Months Ended September 30, 2026",
+    "publisher": "Alibaba Group",
+    "link": "https://www.alibabagroup.com/news-and-resource?documentId=2060147792046718976",
+    "providerPublishTime": "November 19, 2026",
+    "summary": "",
+    "source": "official_alibaba",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
+    "title": "Alibaba Unveils Qwen4-Max: New AI Teammate for Work, Creativity, and Discovery",
+    "publisher": "Alibaba Group",
+    "link": "https://www.alibabagroup.com/news-and-resource?documentId=2060139246777270272",
+    "providerPublishTime": "November 16, 2026",
+    "summary": "",
+    "source": "official_alibaba",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Alibaba Group Will Announce September Quarter 2026 Results on November 19, 2026",
     "publisher": "Alibaba Group",
     "link": "https://www.alibabagroup.com/news-and-resource?documentId=2054756418245885952",
@@ -81,28 +103,6 @@
     "publisher": "Alibaba Group",
     "link": "https://www.alibabagroup.com/news-and-resource?documentId=2003564382071554048",
     "providerPublishTime": "May 20, 2026",
-    "summary": "",
-    "source": "official_alibaba",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Letter from our Chairman and our CEO",
-    "publisher": "Alibaba Group",
-    "link": "https://www.alibabagroup.com/news-and-resource?documentId=1993785120221298688",
-    "providerPublishTime": "May 20, 2026",
-    "summary": "",
-    "source": "official_alibaba",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Alibaba Group Announces March Quarter 2026 and Fiscal Year 2026 Results",
-    "publisher": "Alibaba Group",
-    "link": "https://www.alibabagroup.com/news-and-resource?documentId=1991237455038119936",
-    "providerPublishTime": "May 13, 2026",
     "summary": "",
     "source": "official_alibaba",
     "confidence": 0.8,
