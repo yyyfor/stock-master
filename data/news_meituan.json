@@ -1,5 +1,16 @@
 [
   {
+    "title": "Announcements and Notices - Announcement of the Results for the Three Months ended September 30, 2026",
+    "publisher": "Meituan",
+    "link": "https://media-meituan.todayir.com/20261127164001674212428153_en.pdf",
+    "providerPublishTime": "2026-11-27T00:00:00",
+    "summary": "Announcements and Notices - ANNOUNCEMENT OF THE RESULTS FOR THE THREE MONTHS ENDED SEPTEMBER 30, 2026",
+    "source": "official_meituan",
+    "confidence": 0.8,
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral"
+  },
+  {
     "title": "Announcements and Notices - Date of Board Meeting",
     "publisher": "Meituan",
     "link": "https://media-meituan.todayir.com/20261117164002553412415466_en.pdf",
@@ -93,17 +104,6 @@
     "link": "https://media-meituan.todayir.com/20260904164001225812320323_en.pdf",
     "providerPublishTime": "2026-09-04T00:00:00",
     "summary": "Monthly ReturnsMonthly Return of Equity Issuer on Movements in Securities for the month ended 31 August 2026",
-    "source": "official_meituan",
-    "confidence": 0.8,
-    "sentiment_score": 0.0,
-    "sentiment_label": "neutral"
-  },
-  {
-    "title": "Announcements and Notices - Announcement of the Results\nfor the Three and Six Months ended June 30, 2026",
-    "publisher": "Meituan",
-    "link": "https://media-meituan.todayir.com/20260828164801623812304051_en.pdf",
-    "providerPublishTime": "2026-08-28T00:00:00",
-    "summary": "Announcements and Notices - ANNOUNCEMENT OF THE RESULTS\nFOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2026",
     "source": "official_meituan",
     "confidence": 0.8,
     "sentiment_score": 0.0,
